@@ -1,0 +1,10 @@
+{
+  "archive_files": 3018,
+  "notebooks": 145,
+  "paper_items": 28,
+  "generation_rows": 21,
+  "classification_rows": 33,
+  "ad_candidates": "source_archive/vscode-3003/home/data/liutuo/code/.ipynb_checkpoints/mri2pet all data-_mri classification-densenet-checkpoint.ipynb | source_archive/vscode-3003/home/data/liutuo/code/.ipynb_checkpoints/mri2pet all data-_mri classification-resnet-checkpoint.ipynb | source_archive/vscode-3014/mnt/ssd/liutuo/.ipynb_checkpoints/mri2pet all data->mri classification-resnet-checkpoint.ipynb",
+  "main_candidates": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+  "source_archive_exists": true
+}

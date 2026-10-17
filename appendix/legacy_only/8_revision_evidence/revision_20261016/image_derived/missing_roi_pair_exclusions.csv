@@ -1,0 +1,20 @@
+tracer,region,subject,reason
+av45,2032.0,057_S_2398,missing ROI mean in saved SynthSeg mask; retained as NA
+av45,44.0,068_S_0872,missing ROI mean in saved SynthSeg mask; retained as NA
+av45,44.0,128_S_4842,missing ROI mean in saved SynthSeg mask; retained as NA
+av45,7.0,128_S_4842,missing ROI mean in saved SynthSeg mask; retained as NA
+av45,18.0,068_S_0872,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,2026.0,010_S_0786,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,2026.0,100_S_0743,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,2032.0,057_S_2398,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,1026.0,032_S_0400,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,010_S_0786,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,012_S_0720,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,032_S_0400,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,068_S_0872,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,100_S_0743,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,44.0,128_S_4842,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,52.0,012_S_0720,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,7.0,128_S_4842,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,17.0,010_S_0786,missing ROI mean in saved SynthSeg mask; retained as NA
+fdg,18.0,068_S_0872,missing ROI mean in saved SynthSeg mask; retained as NA

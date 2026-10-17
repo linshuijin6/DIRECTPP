@@ -1,0 +1,20 @@
+[
+  {
+    "source_host": "windows",
+    "source": "D:\\BaiduSyncdisk\\X科研相关\\LegacyLT\\BMEF_submission\\BMEF_Reviewer_Report_English.docx",
+    "archive_path": "reports/source_reports/BMEF_Reviewer_Report_English.docx",
+    "bytes": 29264,
+    "source_sha256": "354fc80113485754d8bc55a0fa529052867e5b4bcb0b5d0bd341d4e585332b0a",
+    "target_sha256": "354fc80113485754d8bc55a0fa529052867e5b4bcb0b5d0bd341d4e585332b0a",
+    "status": "verified"
+  },
+  {
+    "source_host": "windows",
+    "source": "D:\\BaiduSyncdisk\\X科研相关\\LegacyLT\\BMEF_submission\\BME_Frontiers_Cover_Letter_MCI_Stratification.pdf",
+    "archive_path": "reports/source_reports/BME_Frontiers_Cover_Letter_MCI_Stratification.pdf",
+    "bytes": 3775025,
+    "source_sha256": "bc5eb1d789ea60780858bab2f10725cd0564005aa2451bacc051ab44055e1461",
+    "target_sha256": "bc5eb1d789ea60780858bab2f10725cd0564005aa2451bacc051ab44055e1461",
+    "status": "verified"
+  }
+]

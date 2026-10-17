@@ -1,0 +1,21 @@
+reviewer_number,original_topic,status,response_and_limit,evidence
+1,科学创新,可低成本解决,保留条件 RF/双 tracer 贡献；域适配的实际使用未绑定，不以概念图代替运行证据。,checkpoint_facts.json; source_extracts/
+2,临床动机,可低成本解决,保留成本/可及性动机；输入应写 MRI+患者临床文本，避免声称仅 MRI。,source_extracts/mri2pet _two trace_new-final.txt
+3,三折与两折不一致,需额外实验,旧 loader 作用域及 epoch 平均不构成有效三折；如实撤回旧协议结论，独立分类需重算。,CLASSIFICATION_AND_SENSITIVITY_PLAN.md
+4,预后夸大,可低成本解决,EMCI/LMCI 改为横断面阶段区分；不声称转换预测。,"manuscript/BMEF_main.tex:158,340"
+5,临床信息捷径,需额外实验,提供固定模型三条件敏感性及临床变量对照方案；尚未执行，不能声称已排除捷径。,CLASSIFICATION_AND_SENSITIVITY_PLAN.md
+6,subject/访视隔离,已解决（划分）；需额外实验（独立分类）,新提供的最终名单核实1856 train/1 CN val，互斥且覆盖1857人；无足够未训练二分类样本。,subject_membership_and_assets_enriched.csv; final165_split_receipt.json
+7,外部双示踪剂证据不完整,建议以局限性回应,仅可声称经身份核验的 AV45 外部结果；当前软链是 OASIS-1 MRI，419 人 OASIS-3 PET 未闭环。,METHODS_AND_PROVENANCE.md; REPORT
+8,非显著不能证明等效,已解决（收紧结论）,撤除 p>0.05→等效；报告 bias/CI/LoA；无合理边界不做 TOST。,image_derived/regional_agreement_overall.csv
+9,多重比较 family,已解决,196 总体、980 分层、392 AD/CN 原始 p 与 BH q 已保存；方法明确 family。,METHODS_AND_PROVENANCE.md
+10,PET 一致性与校准,已解决（描述性范围）,从真实 Syn 卷重提 98 区，报告 ICC/CCC/BA/校准；用 normalized uptake，不夸大为临床定量替代。,image_derived/
+11,分类不确定性,需额外实验,旧汇总不能补出有效 OOF CI；新协议逐 subject 概率、fold 结果和 paired subject bootstrap。,CLASSIFICATION_AND_SENSITIVITY_PLAN.md
+12,显著优效直接检验,可低成本解决或需额外实验,先删无支持的 significantly；若保留优效主张，需相同独立 subjects 的配对预测与直接检验。,CLASSIFICATION_AND_SENSITIVITY_PLAN.md
+13,exact one-step 术语,可低成本解决,改为 endpoint fine-tuning 后学习的一步近似；双 tracer 两次 forward，不称精确 ODE 积分。,checkpoint_facts.json; source_extracts/
+14,VLM/adapter 可复现细节,可低成本解决（仍有溯源缺口）,补 512 维、160 切片平均、prompt 与独立 adapter 优化；raw/adapted 运行分歧须声明。,checkpoint_facts.json; CLASSIFICATION_AND_SENSITIVITY_PLAN.md
+15,Eq.1 与 τ,建议以局限性回应,代码为 cos=0.82 软目标，不是 ≥τ 硬约束；无训练时 τ 消融，不声称已证明最优或稳健。,source_extracts/mri2pet _clip_pretrain -Copy1.txt
+16,人口学混杂,可低成本解决（部分）,完成 age/sex HC3 和正体重敏感性；真实临床评分缺失及 prompt 捷径仍限制因果解释。,image_derived/regional_AD_CN_adjusted_observed_demographics.csv; table_s1_observed_continuous.csv
+17,基线改造与公平性,建议以局限性回应,说明可验证的实现差异；未闭环同 split/调参预算，不把雷达图匹配视为公平性证明。,6_test_eval_results/baseline_radar_data/baseline_comparison_metrics.csv; REPORT
+18,效率实测,需额外实验,已核 generator 参数数；138 GPUh/完整日志未核实。只规划小型同硬件计时，不编造 FLOPs/显存。,checkpoint_facts.json; 7_training_logs/training_loss_165epochs.csv
+19,复现材料,可低成本解决,提供 commit、源哈希、逐人集合、命令、统计环境；注明最终名单由用户恢复，checkpoint 未内嵌 manifest。,source_sha256.csv; additional_source_sha256.csv; final165_split_receipt.json; METHODS_AND_PROVENANCE.md
+20,临床转化过强,可低成本解决,删除临床可操作/广泛筛查已成立等说法；限定为回顾性研究，前瞻和多中心验证待开展。,REPORT

@@ -1,0 +1,45 @@
+REVIEWER EVALUATION REPORT
+Manuscript: “Precision Synthesis of Multi-Tracer PET via VLM-Modulated Rectified Flow for MCI Stratification”
+Manuscript No.: BMEF-D-26-00169  |  Article Type: Research Article
+Overall assessment: The manuscript presents a technically strong and clinically relevant framework with high novelty. However, several methodological and statistical issues should be addressed before the work can be considered for acceptance.
+
+Major Reviewer Comments
+1. High scientific novelty: The integration of 3D rectified flow, a domain-adapted BiomedCLIP/VLM, and multi-tracer PET synthesis is a clear methodological contribution beyond conventional MRI-to-PET translation.
+2. Strong clinical motivation: Synthesizing AV45-PET and FDG-PET from routine MRI addresses important limitations related to PET cost, radiation exposure, and accessibility.
+3. Cross-validation inconsistency: The Results section reports 3-fold cross-validation, whereas the preprocessing/methodology section reports a two-fold scheme. The exact protocol must be reconciled and stated consistently for each experiment.
+4. Overstatement of prognostic stratification: EMCI-versus-LMCI classification is a stage-discrimination task and does not by itself establish longitudinal prognosis or future conversion to AD. The terminology should be moderated unless longitudinal conversion outcomes are analyzed.
+5. Potential clinical-information leakage: Age, sex, weight, and cognitive scores are embedded in the text conditioning. Because these variables are strongly associated with diagnosis, ablation experiments excluding cognitive scores are necessary to demonstrate that Syn-PET is not simply re-encoding diagnostic metadata.
+6. Subject-level splitting must be explicit: Because ADNI contains longitudinal scans, the authors should confirm that all visits from a given participant remain within a single fold to avoid subject leakage between training and testing.
+7. External validation is incomplete for multi-tracer claims: OASIS-3 external evaluation includes AV45-PET but excludes FDG-PET. Therefore, external generalizability is demonstrated only partially and the multi-tracer generalization claim should be qualified.
+8. Non-significance does not prove equivalence: Using p > 0.05 between real and synthetic PET as evidence of high fidelity is statistically insufficient. Equivalence testing (e.g., TOST) with clinically meaningful equivalence margins is more appropriate.
+9. Multiple-comparison reporting should be clearer: FDR correction is appropriate, but the statistical family, number of tests, and adjusted p/q-values should be reported explicitly.
+10. PET agreement metrics should be strengthened: SSIM, PSNR, MSE, and MAE are useful image-similarity metrics but are insufficient for biomarker agreement. ICC/CCC, Bland-Altman analysis, regional SUV bias, and calibration analyses would improve clinical validation.
+11. Classification uncertainty is underreported: ACC, AUC, sensitivity, and specificity should be accompanied by fold-wise mean ± SD or 95% confidence intervals rather than isolated point estimates.
+12. Claims of statistical superiority require direct tests: Statements such as “significantly outperforming” should be supported by formal paired comparisons, such as DeLong testing for AUC or paired bootstrap/McNemar tests where appropriate.
+13. One-step sampling terminology requires correction: The phrase “exact one-step sampling” is too strong for a distilled end-point predictor. The manuscript should distinguish exact ODE integration from learned one-step approximation.
+14. Domain-adapted VLM details are insufficient: The manuscript should report embedding dimensionality, PET image-feature extraction, prompt construction, affine-adapter training, threshold τ selection, and optimization details to ensure reproducibility.
+15. Equation (1) needs stronger justification: The semantic-similarity constraint between FDG and AV45 embeddings may conflict with the stated goal of preserving inter-tracer differences. A sensitivity analysis for τ and an explicit ablation are recommended.
+16. Demographic confounding needs control: ADNI groups differ significantly in age, sex, and other variables that are also used in the conditioning prompt. Matched, adjusted, or subgroup analyses are needed to quantify confounding effects.
+17. Baseline adaptation and fairness should be documented: Some comparator methods originate from segmentation or MRI-to-CT synthesis. The authors should clearly describe how each baseline was adapted and confirm identical data splits, preprocessing, tuning effort, and training budgets.
+18. Computational-efficiency claims need direct evidence: The manuscript reports approximately 138 GPU-hours for training, but should also report inference time per 3D volume, parameter count, FLOPs, memory use, and direct runtime comparisons with diffusion/flow baselines.
+19. Reproducibility is a strength but can be improved: Public code, trained models, software versions, and hardware details are valuable. The authors should additionally provide fixed data-split files, random seeds, and a repository commit/version used for the reported experiments.
+20. Clinical translation claims should be moderated: Statements regarding widespread screening, clinically actionable biomarkers, and early intervention exceed the evidence from retrospective ADNI/OASIS cohorts. Prospective, diverse, multi-center clinical validation is needed before such claims are justified.
+Final Assessment
+Scientific Quality
+78/100
+Novelty
+High
+Methodological Reliability
+Good, but major issues require correction
+Recommendation
+MAJOR REVISION
+Priority revisions before acceptance: resolve the cross-validation inconsistency; rule out clinical-information leakage; revise the prognostic claims; and strengthen agreement, equivalence, and uncertainty analyses.
+Reviewer Recommendation: MAJOR REVISION
+
+
+
+
+
+
+
+Mushtaq Talib Ajjah

@@ -1,0 +1,25 @@
+scenario,task,n,labels
+all_complete,AD_CN,470,"{""AD"": 165, ""CN"": 305}"
+all_complete,MCI_legacyEarlyLate_CN,741,"{""CN"": 305, ""EMCI"": 287, ""LMCI"": 149}"
+all_complete,EMCI_LMCI,436,"{""EMCI"": 287, ""LMCI"": 149}"
+all_complete,MCI_all_subtypes_CN,941,"{""CN"": 305, ""EMCI"": 287, ""LMCI"": 149, ""MCI"": 200}"
+outside_recovered539_NOT_certified,AD_CN,226,"{""AD"": 83, ""CN"": 143}"
+outside_recovered539_NOT_certified,MCI_legacyEarlyLate_CN,338,"{""CN"": 143, ""EMCI"": 140, ""LMCI"": 55}"
+outside_recovered539_NOT_certified,EMCI_LMCI,195,"{""EMCI"": 140, ""LMCI"": 55}"
+outside_recovered539_NOT_certified,MCI_all_subtypes_CN,484,"{""CN"": 143, ""EMCI"": 140, ""LMCI"": 55, ""MCI"": 146}"
+outside_fixed800_NOT_certified,AD_CN,400,"{""AD"": 149, ""CN"": 251}"
+outside_fixed800_NOT_certified,MCI_legacyEarlyLate_CN,670,"{""CN"": 251, ""EMCI"": 272, ""LMCI"": 147}"
+outside_fixed800_NOT_certified,EMCI_LMCI,419,"{""EMCI"": 272, ""LMCI"": 147}"
+outside_fixed800_NOT_certified,MCI_all_subtypes_CN,803,"{""CN"": 251, ""EMCI"": 272, ""LMCI"": 147, ""MCI"": 133}"
+final165_validation_member,AD_CN,1,"{""CN"": 1}"
+final165_validation_member,MCI_legacyEarlyLate_CN,1,"{""CN"": 1}"
+final165_validation_member,EMCI_LMCI,0,{}
+final165_validation_member,MCI_all_subtypes_CN,1,"{""CN"": 1}"
+not_in_final165_training_manifest,AD_CN,1,"{""CN"": 1}"
+not_in_final165_training_manifest,MCI_legacyEarlyLate_CN,1,"{""CN"": 1}"
+not_in_final165_training_manifest,EMCI_LMCI,0,{}
+not_in_final165_training_manifest,MCI_all_subtypes_CN,1,"{""CN"": 1}"
+untouched_by_final165_train_or_validation,AD_CN,0,{}
+untouched_by_final165_train_or_validation,MCI_legacyEarlyLate_CN,0,{}
+untouched_by_final165_train_or_validation,EMCI_LMCI,0,{}
+untouched_by_final165_train_or_validation,MCI_all_subtypes_CN,0,{}

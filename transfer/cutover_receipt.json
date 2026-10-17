@@ -1,0 +1,20 @@
+{
+  "run_id": "20261016T164446+0800",
+  "cutover_at": "2026-10-16T16:59:00.150217+08:00",
+  "archive": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "legacy": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP.legacy-20261016T164446+0800",
+  "original_git": {
+    "head": {
+      "rc": 0,
+      "stdout": "27428761cb2873e775912db6135635765ba240d6\n",
+      "stderr": ""
+    },
+    "status": {
+      "rc": 0,
+      "stdout": "?? .agents/\n?? 8_revision_evidence/\n?? ai_plan/\n",
+      "stderr": ""
+    }
+  },
+  "active_primary_write_handles": [],
+  "operation": "two same-filesystem directory renames; no source/artifact deletion"
+}

@@ -1,0 +1,4 @@
+fold,epoch,ACC,SEN,SPE,F1,MCC,AUC,Metric_Sum,training_batch_count,checkpoint_path,checkpoint_sha256,checkpoint_mtime
+1,38,0.7045,0.869,0.4706,0.7754,0.376,0.7588,1.4633,3762,/home/ssddata/liutuo/best_model_fold_1.pth,88fa6e2c87b8447932f7b6d340d78aec6037654f50d53f58b8b29967f21e30e4,2025-05-17T23:00:28.953236+08:00
+2,44,0.7287,0.8276,0.5882,0.7818,0.4309,0.7379,1.4666,4356,/home/ssddata/liutuo/best_model_fold_2.pth,9adaa5111f8c9b09778a0f866538b4e9e7ba424ac18dbb9e48be68ffd532e583,2025-05-18T01:43:49.945932+08:00
+3,14,0.7085,0.7793,0.6078,0.7584,0.3926,0.7461,1.4546,1386,/home/ssddata/liutuo/best_model_fold_3.pth,f5e6b04672a0bfa67cfa9ec27da65baacabdd302670b39e144abefc51ea3d8d9,2025-05-18T03:59:25.178204+08:00

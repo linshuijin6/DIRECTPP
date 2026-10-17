@@ -1,0 +1,18 @@
+[
+  {
+    "host": "vscode-3001",
+    "root": "/mnt/data/liutuo",
+    "observed_nonhidden": [
+      "snap",
+      "tutorial_segmentation_with_ddpm.py",
+      "MRI_nii"
+    ],
+    "decision": "excluded: no identified manuscript-matching experiment; not a machine-wide absence claim"
+  },
+  {
+    "host": "vscode-3015",
+    "root": "/mnt/ssd/liutuo",
+    "observed_nonhidden": [],
+    "decision": "excluded: specified root has no nonhidden research files; not a machine-wide absence claim"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 9,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/train/mri2pet _two trace_github.ipynb",
+    "right_cell": 8,
+    "source_identical": true,
+    "outputs_sha256": "9ccb467c19a19fd2711d7bfcb29203433d1ab22a7c88a6d5b2b322d40bd0a6b2"
+  },
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 10,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/train/mri2pet _two trace_github.ipynb",
+    "right_cell": 9,
+    "source_identical": true,
+    "outputs_sha256": "749862ac4bf1266bee724143bffcabdf8ea5adf09c42e4aa95e4f5181d1700b9"
+  },
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 11,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/train/mri2pet _two trace_github.ipynb",
+    "right_cell": 10,
+    "source_identical": true,
+    "outputs_sha256": "66442f75973ede22e815985b1fa3220fa57ccb11ecfed15284066cdd7fb3fea8"
+  },
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 9,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_github.ipynb",
+    "right_cell": 8,
+    "source_identical": true,
+    "outputs_sha256": "9ccb467c19a19fd2711d7bfcb29203433d1ab22a7c88a6d5b2b322d40bd0a6b2"
+  },
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 10,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_github.ipynb",
+    "right_cell": 9,
+    "source_identical": true,
+    "outputs_sha256": "749862ac4bf1266bee724143bffcabdf8ea5adf09c42e4aa95e4f5181d1700b9"
+  },
+  {
+    "left": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "left_cell": 11,
+    "right": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_github.ipynb",
+    "right_cell": 10,
+    "source_identical": true,
+    "outputs_sha256": "66442f75973ede22e815985b1fa3220fa57ccb11ecfed15284066cdd7fb3fea8"
+  }
+]

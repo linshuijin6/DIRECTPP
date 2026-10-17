@@ -1,0 +1,13 @@
+{
+  "status": "INFERRED_ONLY_not_checkpoint_bound",
+  "train_n": 1856,
+  "holdout": [
+    "011_S_4105"
+  ],
+  "first_train": "021_S_4924",
+  "sorted_input_n": 1857,
+  "source_train_json_n": 1857,
+  "source_val_json_n": 0,
+  "certified_unseen_n": 0,
+  "explanation": "Matches new-final notebook sorted IDs, random_state=42, test_size=1 and saved first train/val IDs; current source JSON was overwritten to 1857/0. Checkpoint contains no manifest."
+}

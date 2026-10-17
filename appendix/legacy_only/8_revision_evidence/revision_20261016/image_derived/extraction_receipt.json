@@ -1,0 +1,11 @@
+{
+  "subjects": 1857,
+  "syn_volumes": 2963,
+  "cpu_readers": 3,
+  "extraction_wall_seconds": 971.189907069318,
+  "real_source": "original real_*_mean CSV columns; six direct upstream-volume checks, 588 regional comparisons",
+  "syn_source": "all available saved Syn volumes; voxel means re-extracted using corresponding preserved SynthSeg masks",
+  "quantitative_scale": "normalized uptake; no SUVR; no TOST",
+  "cohort": "retrospective; all1857 in final165 train(1856)/validation(1) manifests; no untouched cohort",
+  "final_cohort_receipt": "../final165_split_receipt.json"
+}

@@ -1,0 +1,18 @@
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified av45 002_S_0295
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified av45 041_S_4513
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified av45 941_S_4764
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified fdg 002_S_0295
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified fdg 052_S_2249
+/home/data/liutuo/code/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+  warn_deprecated(argname, msg, warning_category)
+verified fdg 941_S_7041

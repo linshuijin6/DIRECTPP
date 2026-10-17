@@ -1,0 +1,44 @@
+     A                                AD vs. CN
+
+90
+
+80
+
+70
+
+60
+
+50
+
+
+
+     B                                MCI vs. CN
+90
+
+80
+
+70
+
+60
+
+50
+
+
+
+     C                           EMCI vs. LMCI
+90
+
+80
+
+70
+
+60
+
+50
+                ACC             SEN                         SPE                 AUC
+
+
+     MRI              FDG                         SYN FDG                AV45
+     SYN AV45         MRI+FDG                     MRI+SYN FDG            MRI+AV45
+     MRI+SYN AV45     MRI+FDG+AV45                MRI+SYN FDG+SYN AV45
+

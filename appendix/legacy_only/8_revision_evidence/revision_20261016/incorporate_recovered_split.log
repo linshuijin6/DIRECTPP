@@ -1,0 +1,36 @@
+{
+  "train": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/5_data_splits/train_data_1856_first_part_165.json",
+    "sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+    "records": 1856,
+    "unique_subjects": 1856,
+    "metadata_description_matches": 1856,
+    "reconstructed_ID_set_agrees": true,
+    "labels": {
+      "CN": 576,
+      "MCI": 520,
+      "AD": 317,
+      "EMCI": 291,
+      "LMCI": 152
+    }
+  },
+  "val": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/5_data_splits/val_data_1_first_part_165.json",
+    "sha256": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b",
+    "records": 1,
+    "unique_subjects": 1,
+    "metadata_description_matches": 1,
+    "reconstructed_ID_set_agrees": true,
+    "labels": {
+      "CN": 1
+    }
+  },
+  "train_val_overlap": 0,
+  "union_subjects": 1857,
+  "not_in_train": [
+    "011_S_4105"
+  ],
+  "unused_by_train_and_val": 0,
+  "provenance": "User supplied these as first_part_165 corresponding split files on 2026-10-16; IDs/descriptions independently match metadata, notebook and reconstruction. Checkpoint has no embedded manifest.",
+  "generator_checkpoint_sha256": "fa43adae089aefbe66df8d1f196a618662b75dbdc880cce10923dd22b844165e"
+}

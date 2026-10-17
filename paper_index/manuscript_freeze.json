@@ -1,0 +1,152 @@
+[
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/BMEF_main.tex",
+    "archive_path": "manuscript/BMEF_main.tex",
+    "bytes": 55340,
+    "source_sha256": "28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba",
+    "target_sha256": "28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/BMEF_main.pdf",
+    "archive_path": "manuscript/BMEF_main.pdf",
+    "bytes": 14535460,
+    "source_sha256": "050f0b2747d12922792d2e487a262ee541f15adfa1380d083493a2fda9678489",
+    "target_sha256": "050f0b2747d12922792d2e487a262ee541f15adfa1380d083493a2fda9678489",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/references.bib",
+    "archive_path": "manuscript/references.bib",
+    "bytes": 19164,
+    "source_sha256": "47e6987fcb5b1cd62552621634b67331d6bec3c2a20a6e10cbf67ffa32af89d3",
+    "target_sha256": "47e6987fcb5b1cd62552621634b67331d6bec3c2a20a6e10cbf67ffa32af89d3",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/supplementary/supplementary.tex",
+    "archive_path": "manuscript/supplementary/supplementary.tex",
+    "bytes": 6868,
+    "source_sha256": "94de712ddaa5ca03250ef8cb072014de9ea8ad24eaebb6beda28aab5ad4884e7",
+    "target_sha256": "94de712ddaa5ca03250ef8cb072014de9ea8ad24eaebb6beda28aab5ad4884e7",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/figure_1.pdf",
+    "archive_path": "manuscript/figures/figure_1.pdf",
+    "bytes": 1879353,
+    "source_sha256": "1d625a6765be1b8519f0c1e117942a3d2e97f8c99e31a91a9b41304b0857c297",
+    "target_sha256": "1d625a6765be1b8519f0c1e117942a3d2e97f8c99e31a91a9b41304b0857c297",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/figure_2.pdf",
+    "archive_path": "manuscript/figures/figure_2.pdf",
+    "bytes": 1555458,
+    "source_sha256": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+    "target_sha256": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/figure_3.pdf",
+    "archive_path": "manuscript/figures/figure_3.pdf",
+    "bytes": 626735,
+    "source_sha256": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+    "target_sha256": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/figure_4.pdf",
+    "archive_path": "manuscript/figures/figure_4.pdf",
+    "bytes": 5941128,
+    "source_sha256": "14c65aeaff839fd47feb4308dd86bccf48f057f651cb41ce4bc6b54d1d8f0c74",
+    "target_sha256": "14c65aeaff839fd47feb4308dd86bccf48f057f651cb41ce4bc6b54d1d8f0c74",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/figure_5.pdf",
+    "archive_path": "manuscript/figures/figure_5.pdf",
+    "bytes": 83252,
+    "source_sha256": "444226fc0590f315f10d352d0f31483c215d2e46158d07a9e9491c2fd383ea38",
+    "target_sha256": "444226fc0590f315f10d352d0f31483c215d2e46158d07a9e9491c2fd383ea38",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_1.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_1.pdf",
+    "bytes": 852864,
+    "source_sha256": "dfb4fdab009836681cfe0dc98c06df8f50a4201fd168980e058f508ee1e44a3c",
+    "target_sha256": "dfb4fdab009836681cfe0dc98c06df8f50a4201fd168980e058f508ee1e44a3c",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_2.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_2.pdf",
+    "bytes": 857746,
+    "source_sha256": "fd8dd8a8fcd66f7a87e5132e3be53d2d9b31e7e704ecaca8e9ebc8472393a46c",
+    "target_sha256": "fd8dd8a8fcd66f7a87e5132e3be53d2d9b31e7e704ecaca8e9ebc8472393a46c",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_3.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_3.pdf",
+    "bytes": 812628,
+    "source_sha256": "47a7f323c06b56a202ca4626fd23763238c28f5c20d48b65960ceaab8f8a65dc",
+    "target_sha256": "47a7f323c06b56a202ca4626fd23763238c28f5c20d48b65960ceaab8f8a65dc",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_4.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_4.pdf",
+    "bytes": 821181,
+    "source_sha256": "81c55ef62859f3d8e269227bfa4b348eefb43287eb659025d406867fcef2c9dd",
+    "target_sha256": "81c55ef62859f3d8e269227bfa4b348eefb43287eb659025d406867fcef2c9dd",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_5.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_5.pdf",
+    "bytes": 608721,
+    "source_sha256": "2432b742c3b1b12077dcad16c1b17fffe1e5db1a4a92d670dc6b7e669bc58fac",
+    "target_sha256": "2432b742c3b1b12077dcad16c1b17fffe1e5db1a4a92d670dc6b7e669bc58fac",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  },
+  {
+    "source_host": "vscode-3003",
+    "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/figures/supplementary_figure_6.pdf",
+    "archive_path": "manuscript/figures/supplementary_figure_6.pdf",
+    "bytes": 165935,
+    "source_sha256": "e58532fa16b41e4991f1f5eb0ced7043541cc5fc2557eddf1a1791aaf72a58c3",
+    "target_sha256": "e58532fa16b41e4991f1f5eb0ced7043541cc5fc2557eddf1a1791aaf72a58c3",
+    "status": "verified",
+    "category": "user_specified_manuscript"
+  }
+]

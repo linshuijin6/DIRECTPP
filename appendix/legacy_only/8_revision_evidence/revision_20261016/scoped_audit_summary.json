@@ -1,0 +1,61 @@
+{
+  "intersections": {
+    "recovered_train500": {
+      "recovered_train500": 500,
+      "recovered_val39": 0,
+      "fixed_train720": 45,
+      "fixed_val80": 2,
+      "metadata1857": 500
+    },
+    "recovered_val39": {
+      "recovered_train500": 0,
+      "recovered_val39": 39,
+      "fixed_train720": 1,
+      "fixed_val80": 1,
+      "metadata1857": 39
+    },
+    "fixed_train720": {
+      "recovered_train500": 45,
+      "recovered_val39": 1,
+      "fixed_train720": 720,
+      "fixed_val80": 0,
+      "metadata1857": 430
+    },
+    "fixed_val80": {
+      "recovered_train500": 2,
+      "recovered_val39": 1,
+      "fixed_train720": 0,
+      "fixed_val80": 80,
+      "metadata1857": 52
+    },
+    "metadata1857": {
+      "recovered_train500": 500,
+      "recovered_val39": 39,
+      "fixed_train720": 430,
+      "fixed_val80": 52,
+      "metadata1857": 1857
+    }
+  },
+  "clinical_comparisons": 4851,
+  "clinical_conflict_cells": 1879,
+  "metadata_labels": {
+    "CN": 577,
+    "MCI": 520,
+    "AD": 317,
+    "EMCI": 291,
+    "LMCI": 152
+  },
+  "assets": {
+    "mri": 0,
+    "fdg": 0,
+    "av45": 0,
+    "fdg_generated": 1598,
+    "av45_generated": 1365,
+    "mri_fenge": 1857
+  },
+  "known_paths": {
+    "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45": false,
+    "/home/data/liutuo/code/liutuo_data/mri av45  fdg/ADNI2 MRI FDG AV45": false,
+    "/home/ssddata/liutuo/liutuo_data/data_augmentation_mri": false
+  }
+}

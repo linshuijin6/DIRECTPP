@@ -1,0 +1,30 @@
+{
+  "repository_commit": "27428761cb2873e775912db6135635765ba240d6",
+  "final165_train_subjects": 1856,
+  "final165_validation_subjects": 1,
+  "final165_not_in_training_subjects": [
+    "011_S_4105"
+  ],
+  "final165_unused_by_train_and_validation": 0,
+  "recovered_split_source_hashes_unchanged": true,
+  "historical_sources_checked": 220,
+  "all_historical_hashes_unchanged": true,
+  "overall_tests": 196,
+  "stratified_tests": 980,
+  "independent_ccc_formula_pass": true,
+  "identical_inputs_icc_ccc_pass": true,
+  "global_fdr_recalculation_pass": true,
+  "no_generator_training": true,
+  "no_classifier_training": true,
+  "no_gpu_execution": true,
+  "original_csv_statistics_status": "QUARANTINED: Syn column mismatches saved volumes",
+  "primary_region_results": "image_derived; Real CSV columns plus all Syn ROI values re-extracted",
+  "limitation": "Real image provenance checked on six cases only; not all Real volumes reprocessed. Final165 split supplied by user and verified externally; no embedded checkpoint manifest. Adapter usage unresolved.",
+  "bland_altman_png_visually_checked": true,
+  "missing_roi_pairs": {
+    "av45": 5,
+    "fdg": 14
+  },
+  "source_mri_alignment_checks": 6,
+  "source_real_roi_spotchecks": 588
+}

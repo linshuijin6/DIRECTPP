@@ -1,0 +1,28 @@
+{
+  "run_id": "20261016T164446+0800",
+  "validated_at": "2026-10-16T16:57:43.887669+08:00",
+  "foreground_files_verified": 3326,
+  "source_files_verified": 3018,
+  "foreground_bytes_verified": 1475987984,
+  "published_links_readable_on_primary": 873,
+  "broken_links": [],
+  "paper_index_rows": {
+    "generation_evidence.csv": 21,
+    "classification_evidence.csv": 33
+  },
+  "archive": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "stage": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP.rebuild-20261016T164446+0800.staging",
+  "background_copy": "running",
+  "scientific_experiments": "not_run",
+  "legacy": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP.legacy-20261016T164446+0800",
+  "handoff_at": "2026-10-16T17:02:47.867991+08:00",
+  "asset_counts_at_handoff": {
+    "verified": 1,
+    "receiving": 1,
+    "pending": 118,
+    "linked": 76
+  },
+  "verified_asset_bytes_at_handoff": 119475766,
+  "transfer_control": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800",
+  "live_status": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/status.json"
+}

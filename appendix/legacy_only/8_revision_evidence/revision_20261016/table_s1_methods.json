@@ -1,0 +1,14 @@
+{
+  "anchor": "exact Subject ID + Sex + Weight + Research Group + Age; unique observed value only",
+  "clinical_source": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/ADNI MRI and FDG and AV45 csv.csv",
+  "source_sha256": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852",
+  "matched_subjects": 1857,
+  "source_matched_rows": 9864,
+  "nonpositive_weight_set_missing": 65,
+  "visit_date_unavailable": true,
+  "chi2": 34.863927890091034,
+  "sex_p": 4.954112473180871e-07,
+  "sex_df": 4,
+  "min_sex_expected_count": 70.72051696284329,
+  "caveat": "Image-derived clinical export has no examination date. No claim of verified baseline visit alignment. Missing observations are not filled."
+}

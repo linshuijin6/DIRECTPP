@@ -1,0 +1,11 @@
+variables,task,n,labels,not_in_final165_train_n,untouched_train_and_val_n
+MMSE Total Score;Global CDR,AD_CN,233,"{""AD"": 83, ""CN"": 150}",0,0
+MMSE Total Score;Global CDR,MCIstrict_CN,381,"{""CN"": 150, ""MCI"": 231}",0,0
+MMSE Total Score;Global CDR,MCIpooled_CN,381,"{""CN"": 150, ""MCI"": 231}",0,0
+MMSE Total Score;Global CDR,MCI_legacyEarlyLate_CN,150,"{""CN"": 150}",0,0
+MMSE Total Score;Global CDR,EMCI_LMCI,0,{},0,0
+MMSE Total Score;GDSCALE Total Score;Global CDR;FAQ Total Score;NPI-Q Total Score,AD_CN,14,"{""AD"": 4, ""CN"": 10}",0,0
+MMSE Total Score;GDSCALE Total Score;Global CDR;FAQ Total Score;NPI-Q Total Score,MCIstrict_CN,23,"{""CN"": 10, ""MCI"": 13}",0,0
+MMSE Total Score;GDSCALE Total Score;Global CDR;FAQ Total Score;NPI-Q Total Score,MCIpooled_CN,23,"{""CN"": 10, ""MCI"": 13}",0,0
+MMSE Total Score;GDSCALE Total Score;Global CDR;FAQ Total Score;NPI-Q Total Score,MCI_legacyEarlyLate_CN,10,"{""CN"": 10}",0,0
+MMSE Total Score;GDSCALE Total Score;Global CDR;FAQ Total Score;NPI-Q Total Score,EMCI_LMCI,0,{},0,0

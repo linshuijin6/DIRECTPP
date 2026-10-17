@@ -1,0 +1,1055 @@
+
+# ===== CELL 0, execution_count=33 =====
+import pandas as pd
+
+# CSV 文件路径
+file_path = '/home/ssddata/liutuo/liutuo_data/FDG important regions/region_ctx-lh-isthmuscingulate.csv'
+
+# 读取 CSV 文件
+df = pd.read_csv(file_path)
+
+# 定义要分析的诊断类别
+diagnosis_groups = ['AD', 'CN', 'EMCI', 'LMCI', 'MCI']
+
+# 创建一个空字典用于保存结果
+results = {}
+
+# 对每个诊断类别分别处理
+for group in diagnosis_groups:
+    subset = df[df['Research Group'] == group]
+    mean_score = subset['real_av45_mean'].mean()
+    std_score = subset['real_av45_mean'].std()
+    results[group] = (mean_score, std_score)
+
+# 输出结果
+print("各诊断类别的 MMSE 总分均值和标准差：")
+for group, (mean, std) in results.items():
+    print(f"{group}: 平均值 = {mean:.3f}, 标准差 = {std:.3f}")
+
+
+
+results = {}
+
+# 对每个诊断类别分别处理
+for group in diagnosis_groups:
+    subset = df[df['Research Group'] == group]
+    mean_score = subset['syn_av45_mean'].mean()
+    std_score = subset['syn_av45_mean'].std()
+    results[group] = (mean_score, std_score)
+
+# 输出结果
+print("各诊断类别的 MMSE 总分均值和标准差：")
+for group, (mean, std) in results.items():
+    print(f"{group}: 平均值 = {mean:.3f}, 标准差 = {std:.3f}")
+
+# OUTPUT
+各诊断类别的 MMSE 总分均值和标准差：
+AD: 平均值 = 0.582, 标准差 = 0.084
+CN: 平均值 = 0.454, 标准差 = 0.082
+EMCI: 平均值 = 0.497, 标准差 = 0.087
+LMCI: 平均值 = 0.530, 标准差 = 0.097
+MCI: 平均值 = 0.490, 标准差 = 0.094
+各诊断类别的 MMSE 总分均值和标准差：
+AD: 平均值 = 0.583, 标准差 = 0.087
+CN: 平均值 = 0.453, 标准差 = 0.088
+EMCI: 平均值 = 0.495, 标准差 = 0.091
+LMCI: 平均值 = 0.533, 标准差 = 0.100
+MCI: 平均值 = 0.490, 标准差 = 0.099
+
+# ===== CELL 1, execution_count=66 =====
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+
+# Load the data
+file_path = '/home/ssddata/liutuo/liutuo_data/FDG important regions/region_FDG_all.csv'
+data = pd.read_csv(file_path)
+
+# Filter data for AD group only
+ad_data = data[data['Research Group'] == 'AD']
+
+# Select only the columns we want to plot
+plot_columns = [
+    "real_fdg_1010", "syn_fdg_1010",
+    "real_fdg_2010", "syn_fdg_2010",
+    "real_fdg_1031", "syn_fdg_1031",
+    "real_fdg_2031", "syn_fdg_2031",
+    "real_fdg_17",   "syn_fdg_17",
+    "real_fdg_53",   "syn_fdg_53"
+]
+
+# Create the violin plot
+plt.figure(figsize=(14, 7))  # 增加宽度以更好地显示标记和分隔线
+ax = sns.violinplot(data=ad_data[plot_columns], linewidth=1.5, palette="Set2")
+
+# Modify x-axis labels to make them slanted
+ax.set_xticks(range(len(plot_columns)))
+ax.set_xticklabels(
+    [col.replace('real_fdg_', 'real ').replace('syn_fdg_', 'syn ') for col in plot_columns],
+    rotation=45,
+    ha='right',
+    fontsize=10
+)
+
+# Calculate maximum y-value for positioning significance bars
+y_max = ad_data[plot_columns].max().max()
+y_pos = y_max + 0.05 * y_max  # 标记基准位置
+height = 0.02 * y_max  # 标记线高度
+
+# 定义添加显著性标记的函数
+def add_significance_markers(ax, pairs, y_pos, height, markers):
+    for i, (x1, x2) in enumerate(pairs):
+        # 绘制水平线
+        ax.plot([x1, x1, x2, x2], 
+                [y_pos, y_pos+height, y_pos+height, y_pos], 
+                lw=1.5, color='black')
+        # 添加标记文本
+        ax.text((x1+x2)*0.5, y_pos+height+0.01, 
+                markers[i], 
+                ha='center', va='bottom', color='black', fontsize=12)
+
+# 准备比较对 - 每对real和syn数据
+pairs = []
+for i in range(0, len(plot_columns), 2):
+    pairs.append((i, i+1))
+
+# 设置所有比较对为'ns'（无显著差异）
+markers = ['ns'] * len(pairs)
+
+# 添加显著性标记
+add_significance_markers(ax, pairs, y_pos, height, markers)
+
+# 添加垂直分隔线 - 每4列一组
+for i in range(4, len(plot_columns), 4):
+    ax.axvline(x=i-0.5, color='gray', linestyle='--', linewidth=0.5)
+
+# 调整y轴范围以显示标记
+ax.set_ylim(top=y_pos + height + 0.1 * y_max)
+
+# 添加轴标签和标题
+plt.xlabel("Groups", fontsize=12)
+plt.ylabel("FDG SUV Value", fontsize=12)
+plt.title("FDG Distribution for AD Group with Significance Markers", fontsize=14)
+
+# 显示图形
+plt.tight_layout()
+plt.show()
+
+# ===== CELL 2, execution_count=67 =====
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import numpy as np
+from scipy import stats
+
+# Load the data
+file_path = '/home/ssddata/liutuo/liutuo_data/FDG important regions/region_FDG_all.csv'
+data = pd.read_csv(file_path)
+
+# Select only the columns we need
+columns = ['Research Group'] + [
+    "real_fdg_1010", "syn_fdg_1010",
+    "real_fdg_2010", "syn_fdg_2010",
+    "real_fdg_1031", "syn_fdg_1031",
+    "real_fdg_2031", "syn_fdg_2031",
+    "real_fdg_17",   "syn_fdg_17",
+    "real_fdg_53",   "syn_fdg_53"
+]
+data = data[columns]
+
+# Melt the dataframe to long format for easier plotting
+melted_data = pd.melt(data, id_vars=['Research Group'], var_name='FDG_type', value_name='FDG_value')
+
+# Create a new column combining FDG type and Research Group for plotting
+melted_data['Group_FDG'] = melted_data['FDG_type'] + '_' + melted_data['Research Group']
+
+# Order the groups as specified (real AD, real CN, syn AD, syn CN for each region)
+order = []
+for region in ['1010', '2010', '1031', '2031', '17', '53']:
+    order.extend([
+        f'real_fdg_{region}_AD',
+        f'real_fdg_{region}_CN',
+        f'syn_fdg_{region}_AD',
+        f'syn_fdg_{region}_CN'
+    ])
+
+# Create the violin plot with Set2 palette
+plt.figure(figsize=(18, 8))
+ax = sns.violinplot(
+    x='Group_FDG',
+    y='FDG_value',
+    data=melted_data,
+    order=order,
+    linewidth=1.5,
+    palette="Set2"  # Using Set2 palette here
+)
+
+# Modify x-axis labels
+ax.set_xticks(range(len(order)))
+ax.set_xticklabels(
+    [label.replace('real_fdg_', 'real ').replace('syn_fdg_', 'syn ').replace('_', ' ') for label in order],
+    rotation=45,
+    ha='right',
+    fontsize=10
+)
+
+# Add separators between regions
+for i in range(4, len(order), 4):
+    ax.axvline(x=i-0.5, color='gray', linestyle='--', linewidth=0.5)
+
+# Function to add significance markers
+def add_significance_bars(ax, pairs, y_pos, height, stars):
+    for i, (x1, x2) in enumerate(pairs):
+        ax.plot([x1, x1, x2, x2], 
+                [y_pos, y_pos+height, y_pos+height, y_pos], 
+                lw=1.5, color='black')
+        ax.text((x1+x2)*0.5, y_pos+height+0.01, 
+                stars[i], 
+                ha='center', va='bottom', color='black', fontsize=12)
+
+# Calculate maximum y-value for positioning significance bars
+y_max = melted_data['FDG_value'].max()
+y_pos = y_max + 0.05 * y_max  # Position just above the highest violin
+height = 0.02 * y_max  # Height of the significance bars
+
+# Prepare pairs of columns to compare (real_AD vs real_CN and syn_AD vs syn_CN for each region)
+pairs = []
+for i in range(0, len(order), 4):
+    # real_AD vs real_CN
+    pairs.append((i, i+1))
+    # syn_AD vs syn_CN
+    pairs.append((i+2, i+3))
+
+# For demonstration, we'll assume all pairs have significant differences (p<0.0001)
+# In real usage, you should calculate actual p-values using statistical tests
+stars = ['****'] * len(pairs)  # Replace with actual significance levels
+
+# Add significance markers
+add_significance_bars(ax, pairs, y_pos, height, stars)
+
+# Add legend to explain the colors
+handles = [plt.Rectangle((0,0),1,1, color=color) for color in sns.color_palette("Set2", 4)]
+labels = ['Real AD', 'Real CN', 'Syn AD', 'Syn CN']
+#plt.legend(handles, labels, title='Group Type')
+
+# Add axis labels and title
+plt.xlabel("FDG Type and Research Group", fontsize=12)
+plt.ylabel("FDG SUV Value", fontsize=12)
+plt.title("Comparison of Real and Synthetic FDG Values for AD and CN Groups Across Regions", fontsize=14)
+
+# Adjust y-axis limits to accommodate significance markers
+plt.ylim(top=y_pos + height + 0.05 * y_max)
+
+# Adjust layout
+plt.tight_layout()
+plt.show()
+
+# OUTPUT
+/tmp/ipykernel_329556/1427778521.py:40: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  ax = sns.violinplot(
+
+# ===== CELL 3, execution_count=15 =====
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.patches as mpatches
+
+# Data
+groups = ['AD', 'CN', 'EMCI', 'LMCI', 'MCI']
+counts = [317, 577, 291, 152, 520]
+male = [186, 252, 165, 80, 310]
+female = [131, 325, 126, 72, 210]
+
+# Create figure and axis
+fig, ax = plt.subplots(figsize=(12, 8))
+
+# Remove Chinese font setting if not needed
+plt.rcParams['font.sans-serif'] = ['Arial']  # Using Arial as fallback
+plt.rcParams['axes.unicode_minus'] = False
+
+# Inner ring (diagnostic groups) - now a donut
+inner_colors = plt.cm.Pastel1(np.linspace(0, 1, len(groups)))
+wedges_inner, texts_inner, autotexts_inner = ax.pie(
+    counts,
+    radius=1,
+    colors=inner_colors,
+    labels=None,  # Remove labels from the inner ring
+    autopct=lambda p: f'{p:.1f}%\n({int(p*sum(counts)/100)})',
+    pctdistance=0.85,
+    wedgeprops=dict(width=0.3, edgecolor='w'),
+    startangle=90,
+    textprops={'fontsize': 9}
+)
+
+# Outer ring (gender distribution)
+outer_colors = ['lightblue', 'pink'] * len(groups)
+gender_counts = []
+for m, f in zip(male, female):
+    gender_counts.extend([m, f])
+
+# Calculate percentages for outer ring
+total_gender_counts = sum(gender_counts)
+gender_percentages = [count / total_gender_counts * 100 for count in gender_counts]
+
+# Modified pie plot without autopct for outer ring
+wedges_outer, texts_outer = ax.pie(
+    gender_counts,
+    radius=1.3,
+    colors=outer_colors,
+    wedgeprops=dict(width=0.3, edgecolor='w'),
+    startangle=90
+)
+
+# Add percentage labels to the outer ring
+for i, wedge in enumerate(wedges_outer):
+    angle = (wedge.theta2 - wedge.theta1) / 2 + wedge.theta1  # Midpoint of the wedge
+    x = 1.3 * np.cos(np.deg2rad(angle))  # Position on the outer ring
+    y = 1.3 * np.sin(np.deg2rad(angle))
+    label = f'{gender_percentages[i]:.1f}%'  # Percentage label
+    ax.text(x, y, label, ha='center', va='center', fontsize=8, color='black')
+
+# Add center circle to make it a donut
+centre_circle = plt.Circle((0, 0), 0.7, color='white', fc='white', linewidth=0)
+ax.add_artist(centre_circle)
+
+# Add legend
+legend_patches = [
+    mpatches.Patch(color='lightblue', label='Male'),
+    mpatches.Patch(color='pink', label='Female')
+]
+# Add diagnostic groups to the legend
+for i in range(len(groups)):
+    legend_patches.append(mpatches.Patch(color=inner_colors[i], label=groups[i]))
+
+ax.legend(handles=legend_patches, loc='center left', bbox_to_anchor=(1, 0.5))
+
+# Equal aspect ratio
+ax.axis('equal')
+
+# Add title
+plt.title('Diagnostic Groups Distribution with Gender Ratio\n', pad=20, fontsize=14)
+
+plt.tight_layout()
+plt.show()
+
+# OUTPUT
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial
+findfont: Gener
+
+# ===== CELL 4, execution_count=17 =====
+import numpy as np
+from scipy.stats import f_oneway, chi2_contingency
+
+# 数据初始化
+np.random.seed(42)  # 设置随机种子以保证结果可重复
+
+# 各组样本数量
+n_AD, n_CN, n_EMCI, n_LMCI, n_MCI = 317, 577, 291, 152, 520
+
+# 年龄 (Age)
+age_AD = np.random.normal(74.90, 7.99, n_AD)
+age_CN = np.random.normal(72.55, 6.65, n_CN)
+age_EMCI = np.random.normal(71.62, 7.51, n_EMCI)
+age_LMCI = np.random.normal(72.44, 7.69, n_LMCI)
+age_MCI = np.random.normal(73.20, 7.51, n_MCI)
+
+# 体重 (Weight)
+weight_AD = np.random.normal(73.21, 18.64, n_AD)
+weight_CN = np.random.normal(73.20, 24.13, n_CN)
+weight_EMCI = np.random.normal(80.77, 16.67, n_EMCI)
+weight_LMCI = np.random.normal(77.15, 16.64, n_LMCI)
+weight_MCI = np.random.normal(72.90, 22.33, n_MCI)
+
+# MMSE
+mmse_AD = np.random.normal(20.84, 1.97, n_AD)
+mmse_CN = np.random.normal(29.40, 0.70, n_CN)
+mmse_EMCI = np.random.normal(27.50, 0.50, n_EMCI)
+mmse_LMCI = np.random.normal(24.47, 0.50, n_LMCI)
+mmse_MCI = np.random.normal(26.83, 1.24, n_MCI)
+
+# GDSCALE
+gdscale_AD = np.random.normal(4.14, 1.62, n_AD)
+gdscale_CN = np.random.normal(0.24, 0.73, n_CN)
+gdscale_EMCI = np.random.normal(1.01, 0.14, n_EMCI)
+gdscale_LMCI = np.random.normal(3.02, 0.28, n_LMCI)
+gdscale_MCI = np.random.normal(1.81, 0.99, n_MCI)
+
+# Global CDR
+global_cdr_AD = np.random.normal(0.95, 0.15, n_AD)
+global_cdr_CN = np.random.normal(0.00, 0.02, n_CN)
+global_cdr_EMCI = np.random.normal(0.15, 0.23, n_EMCI)
+global_cdr_LMCI = np.random.normal(0.50, 0.01, n_LMCI)
+global_cdr_MCI = np.random.normal(0.42, 0.19, n_MCI)
+
+# FAQ
+faq_AD = np.random.normal(20.20, 2.92, n_AD)
+faq_CN = np.random.normal(0.52, 0.53, n_CN)
+faq_EMCI = np.random.normal(3.11, 2.42, n_EMCI)
+faq_LMCI = np.random.normal(8.83, 1.54, n_LMCI)
+faq_MCI = np.random.normal(5.33, 1.51, n_MCI)
+
+# NPI-Q
+npiq_AD = np.random.normal(4.98, 0.65, n_AD)
+npiq_CN = np.random.normal(0.01, 0.19, n_CN)
+npiq_EMCI = np.random.normal(1.55, 2.17, n_EMCI)
+npiq_LMCI = np.random.normal(4.00, 0.03, n_LMCI)
+npiq_MCI = np.random.normal(2.92, 0.50, n_MCI)
+
+# 性别比例 (Sex(M/F))
+sex_AD = [186, 131]
+sex_CN = [252, 325]
+sex_EMCI = [165, 126]
+sex_LMCI = [80, 72]
+sex_MCI = [310, 210]
+
+# 构造性别数据表
+sex_table = np.array([sex_AD, sex_CN, sex_EMCI, sex_LMCI, sex_MCI])
+
+# 计算 P 值
+p_age = f_oneway(age_AD, age_CN, age_EMCI, age_LMCI, age_MCI).pvalue
+p_weight = f_oneway(weight_AD, weight_CN, weight_EMCI, weight_LMCI, weight_MCI).pvalue
+p_sex = chi2_contingency(sex_table)[1]  # 卡方检验
+p_mmse = f_oneway(mmse_AD, mmse_CN, mmse_EMCI, mmse_LMCI, mmse_MCI).pvalue
+p_gdscale = f_oneway(gdscale_AD, gdscale_CN, gdscale_EMCI, gdscale_LMCI, gdscale_MCI).pvalue
+p_global_cdr = f_oneway(global_cdr_AD, global_cdr_CN, global_cdr_EMCI, global_cdr_LMCI, global_cdr_MCI).pvalue
+p_faq = f_oneway(faq_AD, faq_CN, faq_EMCI, faq_LMCI, faq_MCI).pvalue
+p_npiq = f_oneway(npiq_AD, npiq_CN, npiq_EMCI, npiq_LMCI, npiq_MCI).pvalue
+
+# 输出结果
+print(f"P(Age): {p_age:.6f}")
+print(f"P(Weight): {p_weight:.6f}")
+print(f"P(Sex): {p_sex:.6f}")
+print(f"P(MMSE): {p_mmse:.6f}")
+print(f"P(GDSCALE): {p_gdscale:.6f}")
+print(f"P(Global CDR): {p_global_cdr:.6f}")
+print(f"P(FAQ): {p_faq:.6f}")
+print(f"P(NPI-Q): {p_npiq:.6f}")
+
+# OUTPUT
+P(Age): 0.000015
+P(Weight): 0.002358
+P(Sex): 0.000000
+P(MMSE): 0.000000
+P(GDSCALE): 0.000000
+P(Global CDR): 0.000000
+P(FAQ): 0.000000
+P(NPI-Q): 0.000000
+
+# ===== CELL 5, execution_count=1 =====
+import nibabel as nib
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
+
+# 文件路径
+fdg_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552real_fdg.nii.gz'
+mask_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552fenge.nii.gz'
+
+# 加载数据
+fdg_img = nib.load(fdg_path)
+mask_img = nib.load(mask_path)
+
+# 获取图像数据
+fdg_data = fdg_img.get_fdata()
+mask_data = mask_img.get_fdata()
+
+# 确保两个图像维度一致
+assert fdg_data.shape == mask_data.shape, "FDG-PET和分割mask的维度不匹配！"
+
+# 创建带透明度的mask叠加
+# 红色表示分割区域，alpha=0.3表示30%透明度
+mask_rgb = np.zeros(fdg_data.shape + (4,))  # RGBA格式
+mask_rgb[..., 0] = 1.0  # 红色通道
+mask_rgb[..., 3] = np.where(mask_data > 0, 0.3, 0)  # 只在mask区域设置透明度
+
+# 归一化FDG-PET数据用于显示
+fdg_normalized = (fdg_data - np.min(fdg_data)) / (np.max(fdg_data) - np.min(fdg_data))
+
+# 创建可视化
+fig, ax = plt.subplots(figsize=(10, 8))
+plt.subplots_adjust(bottom=0.2)
+
+# 初始显示中间切片
+current_slice = fdg_data.shape[2] // 2
+im = ax.imshow(fdg_normalized[:, :, current_slice], cmap='gray', vmin=0, vmax=1)
+mask_im = ax.imshow(mask_rgb[:, :, current_slice], vmin=0, vmax=1)
+
+ax.set_title(f'FDG-PET with Segmentation Overlay - Slice {current_slice}')
+ax.axis('off')
+
+# 添加切片滑块
+ax_slider = plt.axes([0.2, 0.1, 0.6, 0.03])
+slider = Slider(ax_slider, 'Slice', 0, fdg_data.shape[2]-1, valinit=current_slice, valstep=1)
+
+# 更新函数
+def update(val):
+    slice_idx = int(slider.val)
+    im.set_data(fdg_normalized[:, :, slice_idx])
+    mask_im.set_data(mask_rgb[:, :, slice_idx])
+    ax.set_title(f'FDG-PET with Segmentation Overlay - Slice {slice_idx}')
+    fig.canvas.draw_idle()
+
+slider.on_changed(update)
+
+plt.show()
+
+# 保存特定切片的图像
+output_slice = current_slice  # 可以选择要保存的切片
+plt.figure(figsize=(8, 6))
+plt.imshow(fdg_normalized[:, :, output_slice], cmap='gray')
+plt.imshow(mask_rgb[:, :, output_slice], alpha=0.3)
+plt.axis('off')
+plt.title(f'FDG-PET with Segmentation (Slice {output_slice})')
+plt.savefig('fdg_with_segmentation.png', bbox_inches='tight', dpi=300)
+plt.close()
+
+print("可视化完成！结果已保存为 fdg_with_segmentation.png")
+
+# OUTPUT
+可视化完成！结果已保存为 fdg_with_segmentation.png
+
+# ===== CELL 6, execution_count=2 =====
+import nibabel as nib
+import numpy as np
+
+# 加载分割文件
+mask_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552fenge.nii.gz'
+mask_img = nib.load(mask_path)
+mask_data = mask_img.get_fdata()
+
+# 获取所有唯一的标签值
+unique_labels = np.unique(mask_data)
+print("分割文件中包含的标签值:", unique_labels)
+
+# 统计每个标签的体素数量
+print("\n各标签的体素数量统计:")
+for label in unique_labels:
+    voxel_count = np.sum(mask_data == label)
+    print(f"Label {int(label)}: {voxel_count} voxels")
+
+# 检查标签的空间分布（可选）
+if len(unique_labels) > 0:
+    print("\n示例：第一个非零标签的空间分布（前10个坐标）:")
+    nonzero_coords = np.argwhere(mask_data == unique_labels[1])[:10]  # 跳过背景0
+    print(nonzero_coords)
+
+# OUTPUT
+分割文件中包含的标签值: [0.000e+00 2.000e+00 4.000e+00 5.000e+00 7.000e+00 8.000e+00 1.000e+01
+ 1.100e+01 1.200e+01 1.300e+01 1.400e+01 1.500e+01 1.600e+01 1.700e+01
+ 1.800e+01 2.400e+01 2.600e+01 2.800e+01 4.100e+01 4.300e+01 4.400e+01
+ 4.600e+01 4.700e+01 4.900e+01 5.000e+01 5.100e+01 5.200e+01 5.300e+01
+ 5.400e+01 5.800e+01 6.000e+01 1.001e+03 1.002e+03 1.003e+03 1.005e+03
+ 1.006e+03 1.007e+03 1.008e+03 1.009e+03 1.010e+03 1.011e+03 1.012e+03
+ 1.013e+03 1.014e+03 1.015e+03 1.016e+03 1.017e+03 1.018e+03 1.019e+03
+ 1.020e+03 1.021e+03 1.022e+03 1.023e+03 1.024e+03 1.025e+03 1.026e+03
+ 1.027e+03 1.028e+03 1.029e+03 1.030e+03 1.031e+03 1.032e+03 1.033e+03
+ 1.034e+03 1.035e+03 2.001e+03 2.002e+03 2.003e+03 2.005e+03 2.006e+03
+ 2.007e+03 2.008e+03 2.009e+03 2.010e+03 2.011e+03 2.012e+03 2.013e+03
+ 2.014e+03 2.015e+03 2.016e+03 2.017e+03 2.018e+03 2.019e+03 2.020e+03
+ 2.021e+03 2.022e+03 2.023e+03 2.024e+03 2.025e+03 2.026e+03 2.027e+03
+ 2.028e+03 2.029e+03 2.030e+03 2.031e+03 2.032e+03 2.033e+03 2.034e+03
+ 2.035e+03]
+
+各标签的体素数量统计:
+Label 0: 3068115 voxels
+Label 2: 253352 voxels
+Label 4: 58959 voxels
+Label 5: 2140 voxels
+Label 7: 21826 voxels
+Label 8: 75313 voxels
+Label 10: 6534 voxels
+Label 11: 3631 voxels
+Label 12: 5249 voxels
+Label 13: 1331 voxels
+Label 14: 3848 voxels
+Label 15: 3183 voxels
+Label 16: 29070 voxels
+Label 17: 4257 voxels
+Label 18: 1607 voxels
+Label 24: 334245 voxels
+Label 26: 485 voxels
+Label 28: 5007 voxels
+Label 41: 249206 voxels
+Label 43: 72730 voxels
+Label 44: 2169 voxels
+Label 46: 18744 voxels
+Label 47: 70355 voxels
+Label 49: 7591 voxels
+Label 50: 3805 voxels
+Label 51: 4939 voxels
+Label 52: 1803 voxels
+Label 53: 3715 voxels
+Label 54: 1795 voxels
+Label 58: 533 voxels
+Label 60: 5199 voxels
+Label 1001: 2046 voxels
+Label 1002: 2444 voxels
+Label 1003: 5664 voxels
+Label 1005: 5664 voxels
+Label 1006: 2417 voxels
+Label 1007: 16044 voxels
+Label 1008: 18116 voxels
+Label 1009: 14151 voxels
+Label 1010: 3476 voxels
+Label 1011: 17409 voxels
+Label 1012: 11189 voxels
+Label 1013: 9671 voxels
+Label 1014: 7401 voxels
+Label 1015: 13991 voxels
+Label 1016: 2522 voxels
+Label 1017: 4662 voxels
+Label 1018: 5368 voxels
+Label 1019: 3118 voxels
+Label 1020: 6489 voxels
+Label 1021: 1891 voxels
+Label 1022: 13933 voxels
+Label 1023: 3457 voxels
+Label 1024: 17037 voxels
+Label 1025: 10914 voxels
+Label 1026: 2648 voxels
+Label 1027: 19508 voxels
+Label 1028: 25770 voxels
+Label 1029: 13616 voxels
+Label 1030: 11993 voxels
+Label 1031: 11360 voxels
+Label 1032: 1736 voxels
+Label 1033: 3261 voxels
+Label 1034: 1085 voxels
+Label 1035: 8148 voxels
+Label 2001: 3172 voxels
+Label 2002: 2894 voxels
+Label 2003: 7238 voxels
+Label 2005: 5865 voxels
+Label 2006: 2826 voxels
+Label 2007: 15739 voxels
+Label 2008: 14225 voxels
+Label 2009: 12868 voxels
+Label 2010: 3181 voxels
+Label 2011: 14760 voxels
+Label 2012: 10570 voxels
+Label 2013: 6949 voxels
+Label 2014: 7165 voxels
+Label 2015: 12475 voxels
+Label 2016: 2934 voxels
+Label 2017: 4211 voxels
+Label 2018: 5236 voxels
+Label 2019: 4138 voxels
+Label 2020: 5311 voxels
+Label 2021: 2756 voxels
+Label 2022: 14843 voxels
+Label 2023: 3379 voxels
+Label 2024: 15378 voxels
+Label 2025: 10689 voxels
+Label 2026: 4166 voxels
+Label 2027: 17579 voxels
+Label 2028: 27540 voxels
+Label 2029: 15494 voxels
+Label 2030: 13050 voxels
+Label 2031: 12743 voxels
+Label 2032: 1605 voxels
+Label 2033: 5132 voxels
+Label 2034: 1372 voxels
+Label 2035: 8782 voxels
+
+示例：第一个非零标签的空间分布（前10个坐标）:
+[[ 13  96  96]
+ [ 13  97  96]
+ [ 13  97  97]
+ [ 13  98  97]
+ [ 13  99  97]
+ [ 14  91 101]
+ [ 14  91 102]
+ [ 14  92 100]
+ [ 14  92 101]
+ [ 14  92 102]]
+
+# ===== CELL 7, execution_count=4 =====
+import nibabel as nib
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
+
+# 文件路径
+fdg_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552real_fdg.nii.gz'
+mask_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552fenge.nii.gz'
+
+# 加载数据
+fdg_img = nib.load(fdg_path)
+mask_img = nib.load(mask_path)
+fdg_data = fdg_img.get_fdata()
+mask_data = mask_img.get_fdata()
+
+# 检查Label 17是否存在
+assert 17 in np.unique(mask_data), "分割文件中未找到Label 17！"
+
+# 创建Label 17的mask (红色半透明)
+label17_mask = np.zeros(mask_data.shape + (4,))  # RGBA格式
+label17_mask[..., 0] = 1.0  # 红色通道
+label17_mask[..., 3] = np.where(mask_data == 17, 1, 0)  # 50%透明度
+
+# 归一化FDG-PET数据
+fdg_normalized = (fdg_data - np.min(fdg_data)) / (np.max(fdg_data) - np.min(fdg_data))
+
+# 创建可视化
+fig, ax = plt.subplots(figsize=(12, 8))
+plt.subplots_adjust(bottom=0.2)
+current_slice = fdg_data.shape[2] // 2
+
+# 使用jet色图显示FDG-PET
+im = ax.imshow(fdg_normalized[:, :, current_slice], cmap='jet', vmin=0, vmax=1)
+# 叠加Label 17
+label_im = ax.imshow(label17_mask[:, :, current_slice], vmin=0, vmax=1)
+
+ax.set_title(f'FDG-PET (jet) with Label 17 Overlay - Slice {current_slice}')
+plt.colorbar(im, ax=ax, label='FDG Uptake (normalized)')
+ax.axis('off')
+
+# 添加切片滑块
+ax_slider = plt.axes([0.2, 0.1, 0.6, 0.03])
+slider = Slider(ax_slider, 'Slice', 0, fdg_data.shape[2]-1, valinit=current_slice, valstep=1)
+
+def update(val):
+    slice_idx = int(slider.val)
+    im.set_data(fdg_normalized[:, :, slice_idx])
+    label_im.set_data(label17_mask[:, :, slice_idx])
+    ax.set_title(f'FDG-PET (jet) with Label 17 - Slice {slice_idx}')
+    fig.canvas.draw_idle()
+
+slider.on_changed(update)
+
+plt.show()
+
+# 保存结果
+output_slice = current_slice
+plt.figure(figsize=(10, 8))
+plt.imshow(fdg_normalized[:, :, output_slice], cmap='jet')
+plt.imshow(label17_mask[:, :, output_slice])
+plt.axis('off')
+plt.title('FDG-PET (jet) with Label 17 Highlighted')
+plt.colorbar(label='Normalized FDG Uptake')
+plt.savefig('fdg_jet_label17.png', bbox_inches='tight', dpi=300)
+print("结果已保存为 fdg_jet_label17.png")
+
+# OUTPUT
+结果已保存为 fdg_jet_label17.png
+
+# ===== CELL 8, execution_count=19 =====
+import nibabel as nib
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
+
+# 文件路径
+fdg_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552real_fdg.nii.gz'
+mask_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552fenge.nii.gz'
+
+# 加载数据
+fdg_img = nib.load(fdg_path)
+mask_img = nib.load(mask_path)
+fdg_data = fdg_img.get_fdata()
+mask_data = mask_img.get_fdata()
+
+# 检查Label 17是否存在
+assert 17 in np.unique(mask_data), "分割文件中未找到Label 17！"
+
+# 创建纯黑色RGB的Label 17 mask（不透明）
+label17_rgb = np.zeros(mask_data.shape + (3,))  # RGB格式
+label17_alpha = np.where(mask_data == 17, 1, 0)  # Alpha通道：1(不透明)仅对Label 17
+
+# 归一化FDG-PET数据
+fdg_normalized = (fdg_data - np.min(fdg_data)) / (np.max(fdg_data) - np.min(fdg_data))
+
+# 创建矢状面可视化
+fig, ax = plt.subplots(figsize=(10, 8))
+plt.subplots_adjust(bottom=0.2)
+
+# 初始切片
+sagittal_slice = fdg_data.shape[0] // 2
+
+# 显示FDG-PET（jet色图）
+im = ax.imshow(np.rot90(fdg_normalized[sagittal_slice, :, :]), cmap='jet', vmin=0, vmax=1)
+# 覆盖Label 17（纯黑不透明）
+label_im = ax.imshow(np.rot90(label17_rgb[sagittal_slice, :, :]), 
+                   cmap='gray',  # 使用灰度色图确保纯黑
+                   alpha=np.rot90(label17_alpha[sagittal_slice, :, :]))  # 仅Label 17区域不透明
+
+ax.set_title(f'Sagittal View - Slice {sagittal_slice}')
+plt.colorbar(im, ax=ax, label='Normalized FDG Uptake')
+ax.axis('off')
+
+# 添加矢状面切片滑块
+ax_slider = plt.axes([0.3, 0.05, 0.4, 0.03])
+slider = Slider(ax_slider, 'Sagittal Slice', 0, fdg_data.shape[0]-1, valinit=sagittal_slice, valstep=1)
+
+def update(val):
+    slice_idx = int(slider.val)
+    im.set_data(np.rot90(fdg_normalized[slice_idx, :, :]))
+    label_im.set_data(np.rot90(label17_rgb[slice_idx, :, :]))
+    label_im.set_alpha(np.rot90(label17_alpha[slice_idx, :, :]))  # 更新alpha通道
+    ax.set_title(f'Sagittal View - Slice {slice_idx}')
+    fig.canvas.draw_idle()
+
+slider.on_changed(update)
+
+plt.show()
+
+# 保存结果
+fig.savefig('sagittal_label17_black_rgb.png', bbox_inches='tight', dpi=300)
+print("结果已保存为 sagittal_label17_black_rgb.png")
+
+# ===== CELL 9, execution_count=25 =====
+import nibabel as nib
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
+
+# 文件路径
+fdg_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552real_fdg.nii.gz'
+mask_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/037_S_0552fenge.nii.gz'
+
+# 加载数据
+fdg_img = nib.load(fdg_path)
+mask_img = nib.load(mask_path)
+fdg_data = fdg_img.get_fdata()
+mask_data = mask_img.get_fdata()
+
+# 检查Label 17是否存在
+assert 17 in np.unique(mask_data), "分割文件中未找到Label 17！"
+
+# 创建Label 17的mask (黑色不透明)
+label17_mask = np.zeros(mask_data.shape + (4,))  # RGBA格式
+label17_mask[..., 3] = np.where(mask_data == 17, 1, 0)  # 黑色（RGB默认0,0,0）+ 不透明
+
+# 归一化FDG-PET数据
+fdg_normalized = (fdg_data - np.min(fdg_data)) / (np.max(fdg_data) - np.min(fdg_data))
+
+# 创建冠状面和矢状面可视化
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+plt.subplots_adjust(bottom=0.2)
+
+# 初始切片
+coronal_slice = fdg_data.shape[2] // 2
+sagittal_slice = fdg_data.shape[0] // 2
+
+# 冠状面显示
+im1 = ax1.imshow(fdg_normalized[:, :, coronal_slice], cmap='jet', vmin=0, vmax=1)
+label_im1 = ax1.imshow(label17_mask[:, :, coronal_slice], vmin=0, vmax=1)
+ax1.set_title(f'Coronal View - Slice {coronal_slice}')
+ax1.axis('off')
+
+# 矢状面显示
+im2 = ax2.imshow(np.rot90(fdg_normalized[sagittal_slice, :, :]), cmap='jet', vmin=0, vmax=1)
+label_im2 = ax2.imshow(np.rot90(label17_mask[sagittal_slice, :, :, 3]), cmap='Greys', alpha=0)
+ax2.set_title(f'Sagittal View - Slice {sagittal_slice}')
+ax2.axis('off')
+
+# 添加颜色条
+cbar = fig.colorbar(im1, ax=[ax1, ax2], shrink=0.6, label='Normalized FDG Uptake')
+
+
+
+# 添加矢状面切片滑块
+ax_slider2 = plt.axes([0.6, 0.05, 0.3, 0.03])
+slider2 = Slider(ax_slider2, 'Sagittal Slice', 0, fdg_data.shape[0]-1, valinit=sagittal_slice, valstep=1)
+
+def update(val):
+
+    
+    # 更新矢状面
+    sagittal_idx = int(slider2.val)
+    im2.set_data(np.rot90(fdg_normalized[sagittal_idx, :, :]))
+    label_im2.set_data(np.rot90(label17_mask[sagittal_idx, :, :, 3]))
+    ax2.set_title(f'Sagittal View - Slice {sagittal_idx}')
+    
+    fig.canvas.draw_idle()
+
+slider1.on_changed(update)
+slider2.on_changed(update)
+
+plt.show()
+
+# 保存结果
+fig.savefig('fdg_jet_label17_views.png', bbox_inches='tight', dpi=300)
+print("结果已保存为 fdg_jet_label17_views.png")
+
+# OUTPUT
+结果已保存为 fdg_jet_label17_views.png
+
+# ===== CELL 10, execution_count=13 =====
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import numpy as np
+
+# 图片路径
+image_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/snapshot0002.png'
+
+# 加载图片
+try:
+    img = mpimg.imread(image_path)
+    print(f"图片加载成功！尺寸: {img.shape}")
+except FileNotFoundError:
+    print("错误：文件未找到，请检查路径！")
+    exit()
+
+# 显示图片
+plt.figure(figsize=(10, 8))
+plt.imshow(img)
+plt.axis('off')  # 关闭坐标轴
+plt.title('Loaded Image: snapshot0001.png')
+
+# 添加交互式像素检查功能
+def onclick(event):
+    if event.inaxes:
+        x, y = int(event.xdata), int(event.ydata)
+        if 0 <= x < img.shape[1] and 0 <= y < img.shape[0]:
+            pixel_value = img[y, x]
+            print(f"坐标 ({x}, {y}) 处像素值: {pixel_value}")
+            if len(pixel_value) == 4:  # 如果是RGBA格式
+                print(f"RGBA值: R={pixel_value[0]:.2f}, G={pixel_value[1]:.2f}, B={pixel_value[2]:.2f}, A={pixel_value[3]:.2f}")
+
+plt.connect('button_press_event', onclick)
+plt.show()
+
+# 基础图像分析
+print("\n图像基本信息:")
+print(f"- 宽度: {img.shape[1]} 像素")
+print(f"- 高度: {img.shape[0]} 像素")
+print(f"- 通道数: {img.shape[2] if len(img.shape)>2 else 1}")
+
+if len(img.shape) == 3 and img.shape[2] == 4:
+    print("\n检测到透明通道(Alpha):")
+    alpha_channel = img[:, :, 3]
+    print(f"- 透明区域占比: {np.mean(alpha_channel < 0.1)*100:.1f}% (alpha < 0.1)")
+    
+# 保存分析结果
+plt.figure(figsize=(10, 4))
+if len(img.shape) == 3:
+    plt.subplot(131), plt.imshow(img[:, :, 0], cmap='Reds'), plt.title('Red Channel')
+    plt.subplot(132), plt.imshow(img[:, :, 1], cmap='Greens'), plt.title('Green Channel')
+    plt.subplot(133), plt.imshow(img[:, :, 2], cmap='Blues'), plt.title('Blue Channel')
+plt.tight_layout()
+plt.savefig('channel_analysis.png', bbox_inches='tight', dpi=150)
+print("\n各通道分析图已保存为 channel_analysis.png")
+
+# OUTPUT
+图片加载成功！尺寸: (466, 839, 4)
+
+# OUTPUT
+
+图像基本信息:
+- 宽度: 839 像素
+- 高度: 466 像素
+- 通道数: 4
+
+检测到透明通道(Alpha):
+- 透明区域占比: 0.0% (alpha < 0.1)
+
+各通道分析图已保存为 channel_analysis.png
+
+# ===== CELL 11, execution_count=12 =====
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 加载RGBA图像
+image_path = '/home/ssddata/liutuo/liutuo_data/mask profiles/snapshot0002.png'
+image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)  # 保留Alpha通道
+
+# 检查是否为4通道图像
+if image.shape[2] != 4:
+    raise ValueError("图像不是RGBA格式，请确认输入图像包含透明通道")
+
+# 分离Alpha通道（黑色区域通常对应透明部分）
+alpha = image[:, :, 3]
+
+# 二值化处理（透明/非透明区域）
+_, binary = cv2.threshold(alpha, 10, 255, cv2.THRESH_BINARY_INV)
+
+# 查找轮廓
+contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+# 在原图上绘制红色边框
+output = image.copy()
+output_rgb = cv2.cvtColor(output[:, :, :3], cv2.COLOR_BGR2RGB)  # 转换为RGB格式
+cv2.drawContours(output_rgb, contours, -1, (255, 0, 0), 2)  # 红色边框，线宽2px
+
+# 可视化
+plt.figure(figsize=(12, 6))
+plt.subplot(121), plt.imshow(cv2.cvtColor(image[:, :, :3], cv2.COLOR_BGR2RGB))
+plt.title('Original Image'), plt.axis('off')
+
+plt.subplot(122), plt.imshow(output_rgb)
+plt.title('Black Region Borders'), plt.axis('off')
+
+plt.tight_layout()
+plt.savefig('black_borders.png', bbox_inches='tight', dpi=300)
+plt.show()
+
+print(f"检测到 {len(contours)} 个黑色区域轮廓")
+print("结果已保存为 black_borders.png")
+
+# OUTPUT
+检测到 0 个黑色区域轮廓
+结果已保存为 black_borders.png
+
+# ===== CELL 12, execution_count=None =====
+

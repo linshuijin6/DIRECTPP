@@ -1,0 +1,8 @@
+{
+  "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "scipy": "1.13.1",
+  "platform": "Linux-6.5.0-18-generic-x86_64-with-glibc2.35",
+  "seed": 20261016
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "20261016T164446+0800",
+  "primary_host": "vscode-3003",
+  "stage": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP.rebuild-20261016T164446+0800.staging",
+  "archive": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "legacy": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP.legacy-20261016T164446+0800",
+  "control": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800",
+  "asset_root": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800",
+  "spool_limit_bytes": 34359738368,
+  "bwlimit_kib": 51200,
+  "created_at": "2026-10-16T16:45:46.663914+08:00"
+}

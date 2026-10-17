@@ -1,0 +1,1872 @@
+{
+  "run_id": "20261016T164446+0800",
+  "as_of": "2026-10-16T17:02:47.865022+08:00",
+  "counts": {
+    "verified": 1,
+    "receiving": 1,
+    "pending": 118,
+    "linked": 76
+  },
+  "verified_bytes": 119475766,
+  "heartbeats": {
+    "producer-vscode-3002": {
+      "pid": 1641128,
+      "time": "2026-10-16T17:02:46.919748+08:00",
+      "asset_id": "vscode-3002-a99b5f35f827c5b4cade",
+      "waiting": "receiver"
+    },
+    "producer-vscode-3014": {
+      "pid": 832373,
+      "time": "2026-10-16T17:02:46.316350+08:00",
+      "waiting": true
+    },
+    "receiver": {
+      "pid": 2340533,
+      "time": "2026-10-16T17:02:45.167726+08:00",
+      "asset_id": "vscode-3002-a99b5f35f827c5b4cade",
+      "waiting": "producer"
+    }
+  },
+  "assets": [
+    {
+      "asset_id": "vscode-3002-9fde43ce7ad8254c62d3",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth",
+      "status": "verified",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth",
+      "updated_at": "2026-10-16T17:01:30.306036+08:00",
+      "batch": 0,
+      "file": "first_part_165.pth",
+      "exported_files": 0,
+      "total_files": 1,
+      "total_bytes": 119475766,
+      "received_files": 0,
+      "verified_files": 1,
+      "verified_bytes": 119475766,
+      "destination": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-9fde43ce7ad8254c62d3/first_part_165.pth"
+    },
+    {
+      "asset_id": "vscode-3002-a99b5f35f827c5b4cade",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_150Best.pth",
+      "status": "receiving",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_150Best.pth",
+      "updated_at": "2026-10-16T17:02:30.774355+08:00",
+      "batch": 0,
+      "file": "first_part_150Best.pth",
+      "exported_files": 0,
+      "total_files": 1,
+      "total_bytes": 119475766,
+      "received_files": 0
+    },
+    {
+      "asset_id": "vscode-3002-eed613f16d35a01b061e",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_140.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_140.pth"
+    },
+    {
+      "asset_id": "vscode-3002-79ad59aa4f8a3b8530bc",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_140.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_140.pth"
+    },
+    {
+      "asset_id": "vscode-3002-24235232d2cdacbd92d4",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_152best.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_152best.pth"
+    },
+    {
+      "asset_id": "vscode-3003-e60e9f86889f88a2c368",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/BiomedCLIP/model.safetensors",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/BiomedCLIP/model.safetensors",
+      "source_sha256": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 783658420,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-e60e9f86889f88a2c368.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-2ac3d28b38da27b19aac",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/BiomedCLIP/pytorch_model.bin",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/BiomedCLIP/pytorch_model.bin",
+      "source_sha256": "5bdc400de59a85620ddc7584d06913dc901c47f22647899c6addec71b9a5c9a2",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 783733062,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-2ac3d28b38da27b19aac.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-a99ccdfa407818014970",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/best_metric_model_classification3d_array.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/best_metric_model_classification3d_array.pth",
+      "source_sha256": "45f8e25cdc89512ec37deaf712cd128415885b14504648cfed36bfae787566f5",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 33260313,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-a99ccdfa407818014970.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-0780ded8315ff9342921",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/av45_pet_vectors_from_monai.pt",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/av45_pet_vectors_from_monai.pt",
+      "source_sha256": "2fd47db591652c397bfdb3cab8b9bb8af999f3180a049ba2ed1c90d7b5808d19",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 2796864,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-0780ded8315ff9342921.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-46ba17ad123b65a0de49",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/av45_text_feature.pt",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/av45_text_feature.pt",
+      "source_sha256": "476a5cbd16051eaa49b8c6208c19c2dfa2023f2eefe247ec33033c2338bc6358",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 5326,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-46ba17ad123b65a0de49.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-8644b864c88c59740254",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_180.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_180.pth",
+      "source_sha256": "ca91da47e75b9132195cbd5d1a5e97194be0dbf1fd435313a8ac86a9e8dfc5e2",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-8644b864c88c59740254.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-11b00d3fce11ba951d3d",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_200.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_200.pth",
+      "source_sha256": "be319f2043eca35e452bbf33babf297b2a98293588a7ff7a29b17e3f31587312",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-11b00d3fce11ba951d3d.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-b1b998c08820493952cf",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/fdg_pet_vectors_from_monai.pt",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/fdg_pet_vectors_from_monai.pt",
+      "source_sha256": "8088fc13de5036836b404ea2fdeb6535e7cf3b926de3fbd12daae37202cae26e",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 3274043,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-b1b998c08820493952cf.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-ba8ce7b883ebdcfb23bb",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/fdg_text_feature.pt",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/fdg_text_feature.pt",
+      "source_sha256": "55fb09fcd846d02047e8a59032b38156dd4dd46d27ad340c2f122df82596aad6",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 5321,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-ba8ce7b883ebdcfb23bb.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-3694915ef7a55e8e2582",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_270.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_270.pth",
+      "source_sha256": "71af83c23ce17bd5463659a4e1f0b6901e073da14b51543aaebe4b9ad45395b6",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-3694915ef7a55e8e2582.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-1b47278534b81c4a2fc7",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_280.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_280.pth",
+      "source_sha256": "8a52e09eb53c3849535a70cbafc06c3655ae3d2e870adf97985863579ca73f75",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-1b47278534b81c4a2fc7.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-deaa839bb05b5db48068",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_290.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_290.pth",
+      "source_sha256": "e14a9acc7013c608611f374860cbb734acb0a65b6bd5db0d3a355e098fa57f31",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-deaa839bb05b5db48068.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-d039d0edbb93c398e6dd",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_300.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_300.pth",
+      "source_sha256": "2fc2fb3ef90c166de16a9cead04e769eae7d6e4c26d04be07dcb8fd19a670298",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-d039d0edbb93c398e6dd.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-a73145951d31e8ad21ee",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_310.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_310.pth",
+      "source_sha256": "4d51727e8a2026696a6c559ecd3454a0bafc48fb1453bcb72aeca3a50dc15538",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-a73145951d31e8ad21ee.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-e7aae5c73ce39ce7eee4",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_311.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_311.pth",
+      "source_sha256": "32b104d291242e0c35e388b2efd8dc98e41c19424a0c85c11953718596e91e97",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119475766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-e7aae5c73ce39ce7eee4.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-470a39e8696c8488ca26",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_80.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_80.pth",
+      "source_sha256": "bd5b8673ca1c5cae48cfd67847906b66bc2091517f9be90f149f00edbf432d8d",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119474618,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-470a39e8696c8488ca26.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-e484cbdf6cdfce589be2",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_90.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet _two trace_add clip_flow_best/first_part_90.pth",
+      "source_sha256": "53514ef1f5ef95edac06805b42dd9d37900d45015c7dcb9f1b363f638891e43a",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119474618,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-e484cbdf6cdfce589be2.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-74ad65bd65c159a2e71a",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_1.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_1.pth",
+      "source_sha256": "50a3c2d949f584e4559b06ff6dc62996058b934a5e6ad920d4cc229cff92cbe1",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99928766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-74ad65bd65c159a2e71a.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-fd02088beed2fc4e5642",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_10.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_10.pth",
+      "source_sha256": "2a47f099618ec566c97f64037494f5bbc6fbf6c081256475346058b7b2c0ce89",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-fd02088beed2fc4e5642.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-13164d4fe3544446ea00",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_100.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_100.pth",
+      "source_sha256": "d4d1e4fa8eec13b71c54a0ee603b1fc7d1d5a196c2a266accde95a45c12f494e",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-13164d4fe3544446ea00.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-69f75bee16d969594d60",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_110.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_110.pth",
+      "source_sha256": "2ccc61ea47f556b9c015c8c779be76ee06e915213ad0b3ad0ac9e9ce2b6c2e30",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-69f75bee16d969594d60.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-4be5d490a80b1798d82c",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_120.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_120.pth",
+      "source_sha256": "279e87325c22b526762216bc5c6dd3dae5d816125d3b782cef7c96563e9e6ee9",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-4be5d490a80b1798d82c.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-4028cbd918d8bfce09b5",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_130.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_130.pth",
+      "source_sha256": "212d6909374ac04860b89be046957010f3e0407e57fb1f72bbc91b9fcc4060e6",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-4028cbd918d8bfce09b5.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-9e740e285e9f43de67c4",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_140.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_140.pth",
+      "source_sha256": "35bd86b80a6321b2cce64be3159f79ebd3158df2a12426ec819f16fbf06ba08b",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-9e740e285e9f43de67c4.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-55548229183aa7d1a2f4",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_150.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_150.pth",
+      "source_sha256": "a0e06fabf294cf7565e67f715f28245eff8fff895576cfb09e2ebb7a9214279f",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-55548229183aa7d1a2f4.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-7e358a31ed2e2392efbe",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_160.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_160.pth",
+      "source_sha256": "0fb83016915065088606d8700f1bde0030a181f8ce0b9ddd65d9c41f9e87dbfa",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-7e358a31ed2e2392efbe.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-85dc5936b4464e6818f6",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_170.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_170.pth",
+      "source_sha256": "e64c1e46aad264b374bacb446bc891254781d9c70a71c49caf277b63ffc43dcd",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-85dc5936b4464e6818f6.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-1711db0714cf0b32f5ce",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_180.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_180.pth",
+      "source_sha256": "88555f6203254444d268ff454a9f74767dd90a10447ca263fdd807d34af8d0ac",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-1711db0714cf0b32f5ce.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-5dc4e32af81ec3714491",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_190.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_190.pth",
+      "source_sha256": "a3ad0cbcdc93de321485dfa85a5151ba836e4c5a9766f9fa7d8411cc48d6edca",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-5dc4e32af81ec3714491.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-771485bd2f1d757b93da",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_2.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_2.pth",
+      "source_sha256": "0adc0db61a385faebb97ada0a097e8d6cdbce9eb702e6ea0bc77201ce046cafc",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99928766,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-771485bd2f1d757b93da.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-5306bbb37ea3567f400f",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_20.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_20.pth",
+      "source_sha256": "90b74a3219078fbc789ecfebe262e2826c05333ac962a8510facb5826529de5c",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-5306bbb37ea3567f400f.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-aa67903d41b6669402da",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_200.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_200.pth",
+      "source_sha256": "3984dc8bbbc11f2da33c57017b3d95d89175bc0c7dc9590551e34bf08a1c6daa",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99930502,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-aa67903d41b6669402da.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-3f518f56511b9eec7c99",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_30.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_30.pth",
+      "source_sha256": "16cd72b245d5e7391d87a77476710fb64c31be9e9b12da0a42f68c2156337321",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-3f518f56511b9eec7c99.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-275ea2f80a67b9292ad4",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_40.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_40.pth",
+      "source_sha256": "eaa409e03d26f6c4d32958eda08f070c10cd17d729470970ac686b96d10d8465",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-275ea2f80a67b9292ad4.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-659b9c811a84f18bfaac",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_50.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_50.pth",
+      "source_sha256": "d937cd6e965694512877ed4536c7435512712317dacd32667c293cc403497b38",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-659b9c811a84f18bfaac.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-edbe60ce8d70f14fe3a0",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_60.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_60.pth",
+      "source_sha256": "7f6a786ece9db4bbfd7e14665a8746d71e21e1f1054b8b3785b9b4aacf93a886",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-edbe60ce8d70f14fe3a0.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-4ca5d2944e9b12e7a368",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_70.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_70.pth",
+      "source_sha256": "521027bc4e9e73c3d56bf13f40aecfaade62fb33bc9e5f1ac3e5c24eb8b347a1",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-4ca5d2944e9b12e7a368.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-b61d40ba0400ae5eaeea",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_80.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_80.pth",
+      "source_sha256": "38c205e1d4caca81c85f1c46496f51dd81045ebe04ad72abe17fd6bb9c408e42",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-b61d40ba0400ae5eaeea.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-e761d067ebcc123c3d81",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_90.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare/noise2image about mri2pet_method_two_second_part_90.pth",
+      "source_sha256": "97bec177b3d363ef4b59aca0655316b52810c3d9f0d732ccb6cba517dc826d40",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 99929634,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-e761d067ebcc123c3d81.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-b58ce3d5096716c08ba7",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_120.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_120.pth",
+      "source_sha256": "aceb1c5471e15e8d600f071cd41dca8935004cbffd1943477f8cd10d1be699e8",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-b58ce3d5096716c08ba7.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-f0abc35c9cdebae03de7",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_150.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_150.pth",
+      "source_sha256": "38091067cbfb79ae99407abc594dd52e9776f5905180d35612049dfdf511cf55",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-f0abc35c9cdebae03de7.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-615066fd15a2fde38b81",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_160.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_160.pth",
+      "source_sha256": "c4b1a9030d2c65b101f05c2ef3ab9fec519031baa23274dc552ded7f00854078",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-615066fd15a2fde38b81.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-daebeb706710cb66e57a",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_180.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_180.pth",
+      "source_sha256": "ca91da47e75b9132195cbd5d1a5e97194be0dbf1fd435313a8ac86a9e8dfc5e2",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-daebeb706710cb66e57a.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-c07d0f32bbe0ca0a69e6",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_181.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_181.pth",
+      "source_sha256": "99c2d144fb8f7dab55b3b6609395e9d4cc3fb6bf28ec731cb5fb199f23f2dd71",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-c07d0f32bbe0ca0a69e6.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-05f411cb31fd27f08404",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_182.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_182.pth",
+      "source_sha256": "bcfd2bf80a4e26a2a82ca0586a67b96c6ceb415173f4a89b026cb20ebdc1a5a4",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-05f411cb31fd27f08404.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-0a8ca4e8e899faa32648",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_183.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_183.pth",
+      "source_sha256": "682d2a55bfef142da588571d74d2a0c6a104ba2465732f6809f7c5767666a7b8",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-0a8ca4e8e899faa32648.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-52bf97602f650d3eb873",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_184.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_184.pth",
+      "source_sha256": "4c72f2163dff784a99a5471b67e4b90474a4d164ddc003de4836755f9fdafb14",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-52bf97602f650d3eb873.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-0864255b2a73241bf715",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_185.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_185.pth",
+      "source_sha256": "e0ed0a6c76e142dda0cc3e3db9fd4440b770fbf9417215672328a8e13339c860",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-0864255b2a73241bf715.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-f4e5cf20bbe2eb63a5dd",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_200.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_200.pth",
+      "source_sha256": "be319f2043eca35e452bbf33babf297b2a98293588a7ff7a29b17e3f31587312",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-f4e5cf20bbe2eb63a5dd.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-948e79eb7427692ae0b1",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_210.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_210.pth",
+      "source_sha256": "ef3d726bea2278c29a4ca6bab61ab3a0b583bd0b828fe90783743046a748ae25",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-948e79eb7427692ae0b1.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-41dba228fa0a2fc31e89",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_240.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_240.pth",
+      "source_sha256": "f7336fbe7bbebce820586665e47aec28059245efbd89240d73483b1d19960861",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119529822,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-41dba228fa0a2fc31e89.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-732fb043d116546ea4a5",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_30.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_30.pth",
+      "source_sha256": "3bedb5d3178482dccb3e461f76c8f2b828ecf209c3db312e6dc6dac08364ca1d",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119528674,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-732fb043d116546ea4a5.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-065524f18ab3563b48d9",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_40.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_40.pth",
+      "source_sha256": "adb974d74b7e1caac26d8dcc3a8fb13bcfbae661df08348514ae9f55d592e3ad",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119528674,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-065524f18ab3563b48d9.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-2eeb0e9a7c92cdcf4f3b",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_60.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_60.pth",
+      "source_sha256": "0f37b7c683193a189e978dbc1a817a437833c9a82331fa511e62ac03ca140db6",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119528674,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-2eeb0e9a7c92cdcf4f3b.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-aa59d0637ed258077fed",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_80.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_80.pth",
+      "source_sha256": "aee4d60f75933782ba77775b52499f932f58ecdf83e7af897f068a127f3ddc06",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119528674,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-aa59d0637ed258077fed.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-4e8baa4dc3cd87afd409",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_90.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_90.pth",
+      "source_sha256": "5ad78261a25ea8e05a3dfa998e52612c3d6ad0f4c401e6b51183233993d74731",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119528674,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-4e8baa4dc3cd87afd409.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-c666cbe51516c47cf0a3",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_10.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_10.pth",
+      "source_sha256": "36d4d7f208b0bfd746fe52e35d4b6f5759a323e14ba5c445e233cb1209cd5444",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-c666cbe51516c47cf0a3.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-cd916547e3b6f54963e9",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_100.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_100.pth",
+      "source_sha256": "671171aa18525c904223019f24b5dd18f9b20ef6272e43252cdb5ed805ce9966",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-cd916547e3b6f54963e9.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-49f47501eab3ba65b57c",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_120.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_120.pth",
+      "source_sha256": "2ccc16daea6a2ed1fb48ac390e521de20e6c535d7fe74d0917eb4e4fe3af305c",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-49f47501eab3ba65b57c.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-40a308b4aed6ce59dd2c",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_130.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_130.pth",
+      "source_sha256": "95aa2e72112631143a8e073e07f0e738e10de95eee823756b57a773c964e9eb3",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-40a308b4aed6ce59dd2c.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-5a2d37f1a6e5338e5909",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_140.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_140.pth",
+      "source_sha256": "c52480a93cc1bd0b4bcc7bacb9636596c6af6afceee19217264f3b5abc974475",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-5a2d37f1a6e5338e5909.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-71e59cc680e1296def83",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_156.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_156.pth",
+      "source_sha256": "59e6e351cb67ac1109c4059667086e700423c18243b521757000301aa138160d",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-71e59cc680e1296def83.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-737162305bbd0363ca7f",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_159.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_159.pth",
+      "source_sha256": "46f2ac4af07818f6b9020ccd8faaec40f6d1847bf67d8cbb20c4759c0d078c9f",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119519454,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-737162305bbd0363ca7f.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-f35ebf880bb77d6821ac",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_20.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_20.pth",
+      "source_sha256": "e40ccfed039acf73694c9efaad0e6e87c45c9d26ec1fc68008da77ab94e93176",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-f35ebf880bb77d6821ac.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-130e6804c7cfcd846775",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_30.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_30.pth",
+      "source_sha256": "f1ac797136f729e1bb7981d3a4575fafe3850b90bcb1b3d8740f3a2c2ebc939d",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-130e6804c7cfcd846775.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-0274e765b6eeb6a02f2d",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_40.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_40.pth",
+      "source_sha256": "a9c67d1d6a5e05da6b70b43638038b7e29c837158aa574092f30f5ea5982806d",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-0274e765b6eeb6a02f2d.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-5577714e72ee1be16f6e",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_50.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_50.pth",
+      "source_sha256": "c824992fb9437108ad3a9b4dd0c503f2993a70ad9591b4b1b7066f29d4c17dda",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-5577714e72ee1be16f6e.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-54cef2c8305208d4d054",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_60.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_60.pth",
+      "source_sha256": "5590ae845e55cc1b4d29e3486871bb876b2d10d184cf260933688b228ccbe803",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-54cef2c8305208d4d054.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-e25dcb6eaa59d1618069",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_70.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_70.pth",
+      "source_sha256": "c71725e8d56923e1f0fb03ee9e9ceb3c6d467a981e7630493e473db84a66ff39",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-e25dcb6eaa59d1618069.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-5ff913751887ed344f81",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_80.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_80.pth",
+      "source_sha256": "a11a8d77872ada42dad97bee5938f88f249932190d70b8a8f66073b61ae0b96e",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-5ff913751887ed344f81.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-6825361b09425c625467",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_90.pth",
+      "status": "linked",
+      "archive_link": "results/checkpoints/vscode-3003/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_90.pth",
+      "source_sha256": "2d67418946a529351bd19943a853bfaa694ff9246534324f320e95b3a58b0943",
+      "primary_readable": true,
+      "files": 1,
+      "bytes": 119518306,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-6825361b09425c625467.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3002-825f8d5da8e095fadd28",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/BiomedCLIP/model.safetensors",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/BiomedCLIP/model.safetensors"
+    },
+    {
+      "asset_id": "vscode-3002-a1765f110cd00d17108b",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/BiomedCLIP/pytorch_model.bin",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/BiomedCLIP/pytorch_model.bin"
+    },
+    {
+      "asset_id": "vscode-3002-61da205afb4aa5010c9a",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/best_metric_model_classification3d_array.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/best_metric_model_classification3d_array.pth"
+    },
+    {
+      "asset_id": "vscode-3002-7659875641835169e229",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/best_model_fold_1.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/best_model_fold_1.pth"
+    },
+    {
+      "asset_id": "vscode-3002-c97d178ff68bb5dae43e",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/best_model_fold_2.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/best_model_fold_2.pth"
+    },
+    {
+      "asset_id": "vscode-3002-f71d372f8d9ca7b9aadc",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/best_model_fold_3.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/best_model_fold_3.pth"
+    },
+    {
+      "asset_id": "vscode-3002-e8ca1076c1a8744b9a44",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/av45_pet_vectors_from_monai.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/av45_pet_vectors_from_monai.pt"
+    },
+    {
+      "asset_id": "vscode-3002-3caa820318b2c262a851",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/av45_text_feature.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/av45_text_feature.pt"
+    },
+    {
+      "asset_id": "vscode-3002-c432e0e03c02ff9cb4b0",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/fdg_pet_vectors_from_monai.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/fdg_pet_vectors_from_monai.pt"
+    },
+    {
+      "asset_id": "vscode-3002-fa6358673804883e9f67",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/fdg_text_feature.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/fdg_text_feature.pt"
+    },
+    {
+      "asset_id": "vscode-3002-630818026c11f1ccadce",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_10.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_10.pth"
+    },
+    {
+      "asset_id": "vscode-3002-cd8edef6bc6ffb549285",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_100.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_100.pth"
+    },
+    {
+      "asset_id": "vscode-3002-845390a1c8db52b94cdd",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_110.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_110.pth"
+    },
+    {
+      "asset_id": "vscode-3002-4188ecfd5d5a8accdc5d",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_120.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_120.pth"
+    },
+    {
+      "asset_id": "vscode-3002-c59f6a98faf84300a73f",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_130.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_130.pth"
+    },
+    {
+      "asset_id": "vscode-3002-454c9392931111c6c655",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_150.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_150.pth"
+    },
+    {
+      "asset_id": "vscode-3002-0b3c5e997bcf94277897",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_20.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_20.pth"
+    },
+    {
+      "asset_id": "vscode-3002-1f7c08a8bffea68c9f60",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_10.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_10.pth"
+    },
+    {
+      "asset_id": "vscode-3002-dace0dbfc6af7548b7bc",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_100.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_100.pth"
+    },
+    {
+      "asset_id": "vscode-3002-32b05a5623e39a1bb140",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_110.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_110.pth"
+    },
+    {
+      "asset_id": "vscode-3002-a541e80ad7fc768ecfbe",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_120.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_120.pth"
+    },
+    {
+      "asset_id": "vscode-3002-42412143ec02ab29dfa7",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_130.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_130.pth"
+    },
+    {
+      "asset_id": "vscode-3002-8b0a24845fc6d77007e4",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_142.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_142.pth"
+    },
+    {
+      "asset_id": "vscode-3002-6f37baadc4a914d2ac58",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_144.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_144.pth"
+    },
+    {
+      "asset_id": "vscode-3002-5e0380ff35a92fae8f43",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_146.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_146.pth"
+    },
+    {
+      "asset_id": "vscode-3002-1616489e9bc25e3bf18c",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_148.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_148.pth"
+    },
+    {
+      "asset_id": "vscode-3002-bad498d075f1ec18ad9e",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_20.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_20.pth"
+    },
+    {
+      "asset_id": "vscode-3002-5147b6b021d8a93cec9e",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_30.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_30.pth"
+    },
+    {
+      "asset_id": "vscode-3002-f4abaece656439caf25c",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_40.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_40.pth"
+    },
+    {
+      "asset_id": "vscode-3002-cef70d790de2e5700174",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_50.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_50.pth"
+    },
+    {
+      "asset_id": "vscode-3002-4f9266e07f03778d7e27",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_60.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_60.pth"
+    },
+    {
+      "asset_id": "vscode-3002-303f8b7f6556c1d743be",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_70.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_70.pth"
+    },
+    {
+      "asset_id": "vscode-3002-ef82975ece34b8ea7359",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_80.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_80.pth"
+    },
+    {
+      "asset_id": "vscode-3002-1aab18cecff5315abc54",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_90.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_90.pth"
+    },
+    {
+      "asset_id": "vscode-3002-25fb641a0df3b489dd20",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/shixiong_task/3D ACC: 0.5935,  AUC: 0.7052.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/shixiong_task/3D ACC: 0.5935,  AUC: 0.7052.pth"
+    },
+    {
+      "asset_id": "vscode-3002-16ac98880b59c6a5a237",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/shixiong_task/best_model.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/shixiong_task/best_model.pth"
+    },
+    {
+      "asset_id": "vscode-3002-de583b471b42ead223f4",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/shixiong_task/best_modelACC=0.8883, AUC=0.9693.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/shixiong_task/best_modelACC=0.8883, AUC=0.9693.pth"
+    },
+    {
+      "asset_id": "vscode-3002-38b2cc96cc7711bf6d71",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/shixiong_task/best_modelACC=0.9914, AUC=0.9998.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/shixiong_task/best_modelACC=0.9914, AUC=0.9998.pth"
+    },
+    {
+      "asset_id": "vscode-3002-07aa3e41fdd19df84d42",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_10.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_10.pth"
+    },
+    {
+      "asset_id": "vscode-3002-426bfedd0cd20f79a6ae",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_11.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_11.pth"
+    },
+    {
+      "asset_id": "vscode-3002-0c0e9e544ce0263a3b47",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_12.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_12.pth"
+    },
+    {
+      "asset_id": "vscode-3002-7c5f2ca373d230ac7784",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_4.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_4.pth"
+    },
+    {
+      "asset_id": "vscode-3002-d05ac1dad0cadaf0d322",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_5.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_5.pth"
+    },
+    {
+      "asset_id": "vscode-3002-d40d88c3c4a528876a7f",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_6.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_6.pth"
+    },
+    {
+      "asset_id": "vscode-3002-426034af5e09edc8fb27",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_7.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_7.pth"
+    },
+    {
+      "asset_id": "vscode-3002-81d2f846ff324e036b44",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_8.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_8.pth"
+    },
+    {
+      "asset_id": "vscode-3002-c36e56885947f20d742c",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_9.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_av45/swinunter_9.pth"
+    },
+    {
+      "asset_id": "vscode-3002-8ede28e27f69d31813d8",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_1.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_1.pth"
+    },
+    {
+      "asset_id": "vscode-3002-1048b336a087702c629e",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_10.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_10.pth"
+    },
+    {
+      "asset_id": "vscode-3002-325256344b718818abfc",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_11.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_11.pth"
+    },
+    {
+      "asset_id": "vscode-3002-efb027fe12e2267e2550",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_12.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_12.pth"
+    },
+    {
+      "asset_id": "vscode-3002-481aa6c841a57e5a6af7",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_13.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_13.pth"
+    },
+    {
+      "asset_id": "vscode-3002-cb865039dfb3756a6e48",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_2.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_2.pth"
+    },
+    {
+      "asset_id": "vscode-3002-d1b731a483b82db81acf",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_3.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_3.pth"
+    },
+    {
+      "asset_id": "vscode-3002-57dc2a182ba73650c706",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_4.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_4.pth"
+    },
+    {
+      "asset_id": "vscode-3002-091558844f0b203bc212",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_5.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_5.pth"
+    },
+    {
+      "asset_id": "vscode-3002-bc7eb099739c17ef8a63",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_6.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_6.pth"
+    },
+    {
+      "asset_id": "vscode-3002-bd53065a0460db30b52d",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_7.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_7.pth"
+    },
+    {
+      "asset_id": "vscode-3002-5f95ab55693bdb531e04",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_8.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_8.pth"
+    },
+    {
+      "asset_id": "vscode-3002-88bd2c20f5731a930190",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_9.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_9.pth"
+    },
+    {
+      "asset_id": "vscode-3002-4b459c097e4982bba8ae",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/av45_text_feature_best_common_info.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/av45_text_feature_best_common_info.pt"
+    },
+    {
+      "asset_id": "vscode-3002-8165f101e6d6a64fac3f",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/fdg_text_feature_best_common_info.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/fdg_text_feature_best_common_info.pt"
+    },
+    {
+      "asset_id": "vscode-3002-5c4269bfce30c85b1210",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/shuijin/Github/BiomedCLIP/model.safetensors",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/BiomedCLIP/model.safetensors"
+    },
+    {
+      "asset_id": "vscode-3002-d5b3602cd251241380a8",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/shuijin/Github/BiomedCLIP/pytorch_model.bin",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/BiomedCLIP/pytorch_model.bin"
+    },
+    {
+      "asset_id": "vscode-3002-6852a5d50441fc53e6f7",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/shuijin/Github/clip pretrain/Adapt_av45_feature_optimized.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/clip pretrain/Adapt_av45_feature_optimized.pt"
+    },
+    {
+      "asset_id": "vscode-3002-6618eef6f8d8c6a31f60",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/shuijin/Github/clip pretrain/Adapt_fdg_feature_optimized.pt",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/clip pretrain/Adapt_fdg_feature_optimized.pt"
+    },
+    {
+      "asset_id": "vscode-3014-29d821958225c429edc0",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/BiomedCLIP/model.safetensors",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/BiomedCLIP/model.safetensors"
+    },
+    {
+      "asset_id": "vscode-3014-a282cd0045eb9ce8e423",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/BiomedCLIP/pytorch_model.bin",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/BiomedCLIP/pytorch_model.bin"
+    },
+    {
+      "asset_id": "vscode-3014-203b18b3adc7ae298463",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/best_metric_model_classification3d_array.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/best_metric_model_classification3d_array.pth"
+    },
+    {
+      "asset_id": "vscode-3014-4de62dd282e4690c3744",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/best_metric_model_classification3d_array_resnet.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/best_metric_model_classification3d_array_resnet.pth"
+    },
+    {
+      "asset_id": "vscode-3014-f2b8f000f2690e8aa1f0",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/best_model.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/best_model.pth"
+    },
+    {
+      "asset_id": "vscode-3014-8392987d7a4bf65d4e77",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet mri2pet_second_part_150.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet mri2pet_second_part_150.pth"
+    },
+    {
+      "asset_id": "vscode-3014-3dd054e757092892fc9f",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet_mri2pet_first_part_125.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet_mri2pet_first_part_125.pth"
+    },
+    {
+      "asset_id": "vscode-3014-4743684febfac713ce49",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet_mri2pet_mixed_first_part_125.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/controlnet_mri2pet/controlnet_mri2pet_mixed_first_part_125.pth"
+    },
+    {
+      "asset_id": "vscode-3014-bd324fb418c13ceefd49",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/controlnet mri2pet_second_part_150.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/controlnet mri2pet_second_part_150.pth"
+    },
+    {
+      "asset_id": "vscode-3014-51ff30f71e1fa3ba1dea",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/controlnet_mri2pet_mixed_first_part_150.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/controlnet_mri2pet_mixed_first_part_150.pth"
+    },
+    {
+      "asset_id": "vscode-3014-52c202f1464d98dabe62",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_10.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_10.pth"
+    },
+    {
+      "asset_id": "vscode-3014-b57773695f7bdcc5afed",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_100.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_100.pth"
+    },
+    {
+      "asset_id": "vscode-3014-26834a01d758cc3cde54",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_110.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_110.pth"
+    },
+    {
+      "asset_id": "vscode-3014-88daf97b6201209a89dc",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_120.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_120.pth"
+    },
+    {
+      "asset_id": "vscode-3014-f32b584a553dc6894e5e",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_120_special_dim=1.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_120_special_dim=1.pth"
+    },
+    {
+      "asset_id": "vscode-3014-1d52376c465c39a0243d",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_130.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_130.pth"
+    },
+    {
+      "asset_id": "vscode-3014-c5861a777b68c0544c61",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_140.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_140.pth"
+    },
+    {
+      "asset_id": "vscode-3014-e71cd200c4f64ff71390",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_150.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_150.pth"
+    },
+    {
+      "asset_id": "vscode-3014-6d1e44104e52c545c679",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_160.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_160.pth"
+    },
+    {
+      "asset_id": "vscode-3014-835026b5745835c86d42",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_170.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_170.pth"
+    },
+    {
+      "asset_id": "vscode-3014-4572c79c49e345e2258b",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_170_best_dim=1.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_170_best_dim=1.pth"
+    },
+    {
+      "asset_id": "vscode-3014-8c53706c3591c6995b48",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_180.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_180.pth"
+    },
+    {
+      "asset_id": "vscode-3014-bc5c1cf8323d83e0f086",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_190.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_190.pth"
+    },
+    {
+      "asset_id": "vscode-3014-6d0e839dfe73726594de",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_20.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_20.pth"
+    },
+    {
+      "asset_id": "vscode-3014-4807ffe5e723d73be023",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_200.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_200.pth"
+    },
+    {
+      "asset_id": "vscode-3014-8922af4cb3af2842093d",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_30.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_30.pth"
+    },
+    {
+      "asset_id": "vscode-3014-0afab14442a6b87ffff5",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_40.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_40.pth"
+    },
+    {
+      "asset_id": "vscode-3014-11bf3f3328fb68af5a84",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_50.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_50.pth"
+    },
+    {
+      "asset_id": "vscode-3014-6fb8c4411fa13a614559",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_60.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_60.pth"
+    },
+    {
+      "asset_id": "vscode-3014-e49ba06985e57b987b07",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_70.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_70.pth"
+    },
+    {
+      "asset_id": "vscode-3014-5c6c0b400e2c30070b3d",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_80.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_80.pth"
+    },
+    {
+      "asset_id": "vscode-3014-201622cccc9994b8cad9",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_90.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/mri2pet all data->add personal clip->concat/noise2image about mri2pet_method_two_second_part_90.pth"
+    },
+    {
+      "asset_id": "vscode-3014-a85251b2c8e1b0724341",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/mri2pet/test/noise2image about mri2pet_120.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/mri2pet/test/noise2image about mri2pet_120.pth"
+    },
+    {
+      "asset_id": "vscode-3014-f321b9cc5d5ff3de1bcf",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/checkpoint/vqvae_pet_final.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/checkpoint/vqvae_pet_final.pth"
+    },
+    {
+      "asset_id": "vscode-3014-337b0c49a70b33843275",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/clip-vit-base-patch32/pytorch_model.bin",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/clip-vit-base-patch32/pytorch_model.bin"
+    },
+    {
+      "asset_id": "vscode-3014-71da1881374bccae359b",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/generative/inception_v3_google-0cc3c7bd.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/generative/inception_v3_google-0cc3c7bd.pth"
+    },
+    {
+      "asset_id": "vscode-3014-fce90238b94771f1bd36",
+      "source_host": "vscode-3014",
+      "source": "/mnt/ssd/liutuo/noise2image about mri2pet.pth",
+      "status": "pending",
+      "archive_link": "results/checkpoints/vscode-3014/mnt/ssd/liutuo/noise2image about mri2pet.pth"
+    },
+    {
+      "asset_id": "vscode-3003-b6a4e2cb6d81950b7e50",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline",
+      "status": "linked",
+      "archive_link": "data/vscode-3003/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline",
+      "primary_readable": true,
+      "files": 11104,
+      "bytes": 84557523853,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-b6a4e2cb6d81950b7e50.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-534ce27c02187d3b08c4",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45",
+      "status": "linked",
+      "archive_link": "data/vscode-3003/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45",
+      "primary_readable": true,
+      "files": 18181,
+      "bytes": 117761089615,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-534ce27c02187d3b08c4.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-55d83f253e88f8e0616b",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/liutuo_data/data_augmentation_mri",
+      "status": "linked",
+      "archive_link": "data/vscode-3003/home/data/liutuo/code/liutuo_data/data_augmentation_mri",
+      "primary_readable": true,
+      "files": 1857,
+      "bytes": 13588293820,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-55d83f253e88f8e0616b.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-d9f22ccfa10e397f9f22",
+      "source_host": "vscode-3003",
+      "source": "/home/data/liutuo/code/liutuo_data/data_augmentation_mri_fenge",
+      "status": "linked",
+      "archive_link": "data/vscode-3003/home/data/liutuo/code/liutuo_data/data_augmentation_mri_fenge",
+      "primary_readable": true,
+      "files": 1857,
+      "bytes": 1366035621,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-d9f22ccfa10e397f9f22.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3003-fb7c7ec7abb887e2dd4b",
+      "source_host": "vscode-3003",
+      "source": "/home/djh_OASIS3/AV45_nii_used",
+      "status": "linked",
+      "archive_link": "data/vscode-3003/home/djh_OASIS3/AV45_nii_used",
+      "primary_readable": true,
+      "files": 1276,
+      "bytes": 15299201697,
+      "manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP_transfers/20261016T164446+0800/local_link_manifests/vscode-3003-fb7c7ec7abb887e2dd4b.csv",
+      "verification": "source file-list/stat/readability; file assets hashed; directory contents not full-hashed"
+    },
+    {
+      "asset_id": "vscode-3002-53ef01cb08073815b637",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET1_AV45_strip_registered",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET1_AV45_strip_registered"
+    },
+    {
+      "asset_id": "vscode-3002-c277fb7a72eb81ea3dac",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET2_FDG_strip_registered",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET2_FDG_strip_registered"
+    },
+    {
+      "asset_id": "vscode-3002-a75230c0e161021c8e74",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/mri_strip_registered",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/mri_strip_registered"
+    },
+    {
+      "asset_id": "vscode-3002-4e26641a7e0e32b2eb80",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_av45",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_av45"
+    },
+    {
+      "asset_id": "vscode-3002-7d398817be22df85a836",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_av45_generated",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_av45_generated"
+    },
+    {
+      "asset_id": "vscode-3002-f953e08fd5e1781cc9e3",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_fdg",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_fdg"
+    },
+    {
+      "asset_id": "vscode-3002-bb9995e7cfab898a5317",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_fdg_generated",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_fdg_generated"
+    },
+    {
+      "asset_id": "vscode-3002-ccdb5642a52aaa87fa0d",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_mri",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_mri"
+    },
+    {
+      "asset_id": "vscode-3002-3f441f1bd6dd8be5c578",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/data_augmentation_mri_fenge",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/data_augmentation_mri_fenge"
+    },
+    {
+      "asset_id": "vscode-3002-fe5385bc477760365beb",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/oasis_av45fanhua",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/oasis_av45fanhua"
+    },
+    {
+      "asset_id": "vscode-3002-8148061f191f712b4217",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/test",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/test"
+    },
+    {
+      "asset_id": "vscode-3002-f3851be05a12cc6aba09",
+      "source_host": "vscode-3002",
+      "source": "/home/ssddata/liutuo/liutuo_data/test1",
+      "status": "pending",
+      "archive_link": "data/vscode-3002/home/ssddata/liutuo/liutuo_data/test1"
+    }
+  ]
+}

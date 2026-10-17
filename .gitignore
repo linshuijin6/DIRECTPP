@@ -1,0 +1,82 @@
+# Historical source archive: ignore by default; retain only selected core code.
+# Allow directory traversal so the file exceptions below can take effect.
+/source_archive/**
+!/source_archive/**/
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _clip_pretrain .ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/Github/train/mri2pet _two trace_github.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet all data-_mri classification-densenet.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet all data-_mri classification-densenet-Copy2.ipynb
+!/source_archive/vscode-3003/home/data/liutuo/code/.ipynb_checkpoints/mri2pet all data-_mri classification-densenet-checkpoint.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_reflow_test or fanhua.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet swinunet useful.ipynb
+!/source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/shuijin_code.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/paper data statistics .ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb
+!/source_archive/vscode-3002/home/ssddata/liutuo/liutuo_utils.py
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/nets/diffusion_model_unet.py
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/inferers/inferer.py
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/schedulers/ddpm.py
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/schedulers/ddim.py
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/metrics/ssim.py
+# Retain the complete Python package supporting the selected generator.
+!/source_archive/vscode-3002/home/ssddata/liutuo/generative/**/*.py
+
+# Python and editor temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.swp
+*.swo
+
+# Local collection, transfer and historical-code search helpers.
+# Keep reports, reviewer documents and scientific analysis code visible.
+/transfer/*.py
+/transfer/status.json
+/transfer/control/
+/reports/history_audit_20261017/*.py
+/reports/generator_fold_search_20261017/*.py
+/appendix/legacy_only/8_revision_evidence/revision_20261016/scoped_audit.py
+/appendix/legacy_only/8_revision_evidence/revision_20261016/verify_assets.py
+/appendix/legacy_only/8_revision_evidence/revision_20261016/incorporate_recovered_split.py
+
+# Derived search snapshots and notebook-output extracts; originals remain local.
+/reports/history_audit_20261017/*.json
+/reports/history_audit_20261017/*_source.txt
+/reports/history_audit_20261017/nb_*.txt
+/reports/history_audit_20261017/fold_training_records/original_cell_19.json
+/reports/history_audit_20261017/fold_training_records/original_cell_19_source.py.txt
+/reports/history_audit_20261017/fold_training_records/recovery_receipt.json
+/reports/history_audit_20261017/fold_training_records/*.log
+/reports/generator_fold_search_20261017/*.json
+/reports/generation_metric_origin_20261017/*.json
+/reports/generation_691_audit_20261017/*.json
+/reports/generation_691_audit_20261017/cell_*_source.py.txt
+/reports/generation_691_audit_20261017/cell_*_original_output.log
+
+# Model weights, imaging volumes and runtime event files
+*.pth
+*.pt
+*.ckpt
+*.nii
+*.nii.gz
+*.mat
+events.out.tfevents.*
+
+# LaTeX build intermediates; keep manuscripts, bibliography and figure PDFs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Archived .ipynb_checkpoints are intentional historical research sources.
+# Do not ignore them globally: the AD/CN reference notebook is stored there.

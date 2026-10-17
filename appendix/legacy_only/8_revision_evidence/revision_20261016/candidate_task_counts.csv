@@ -1,0 +1,49 @@
+scenario,availability,task,n,labels
+all_metadata,labels,AD_CN,894,"{""AD"": 317, ""CN"": 577}"
+all_metadata,labels,MCIstrict_CN,1097,"{""CN"": 577, ""MCI"": 520}"
+all_metadata,labels,MCIpooled_CN,1540,"{""CN"": 577, ""EMCI"": 291, ""LMCI"": 152, ""MCI"": 520}"
+all_metadata,labels,EMCI_LMCI,443,"{""EMCI"": 291, ""LMCI"": 152}"
+all_metadata,syn_both,AD_CN,470,"{""AD"": 165, ""CN"": 305}"
+all_metadata,syn_both,MCIstrict_CN,505,"{""CN"": 305, ""MCI"": 200}"
+all_metadata,syn_both,MCIpooled_CN,941,"{""CN"": 305, ""EMCI"": 287, ""LMCI"": 149, ""MCI"": 200}"
+all_metadata,syn_both,EMCI_LMCI,436,"{""EMCI"": 287, ""LMCI"": 149}"
+all_metadata,real_and_syn_both_and_mri,AD_CN,0,{}
+all_metadata,real_and_syn_both_and_mri,MCIstrict_CN,0,{}
+all_metadata,real_and_syn_both_and_mri,MCIpooled_CN,0,{}
+all_metadata,real_and_syn_both_and_mri,EMCI_LMCI,0,{}
+outside_recovered_train500,labels,AD_CN,671,"{""AD"": 242, ""CN"": 429}"
+outside_recovered_train500,labels,MCIstrict_CN,898,"{""CN"": 429, ""MCI"": 469}"
+outside_recovered_train500,labels,MCIpooled_CN,1115,"{""CN"": 429, ""EMCI"": 153, ""LMCI"": 64, ""MCI"": 469}"
+outside_recovered_train500,labels,EMCI_LMCI,217,"{""EMCI"": 153, ""LMCI"": 64}"
+outside_recovered_train500,syn_both,AD_CN,247,"{""AD"": 90, ""CN"": 157}"
+outside_recovered_train500,syn_both,MCIstrict_CN,306,"{""CN"": 157, ""MCI"": 149}"
+outside_recovered_train500,syn_both,MCIpooled_CN,516,"{""CN"": 157, ""EMCI"": 149, ""LMCI"": 61, ""MCI"": 149}"
+outside_recovered_train500,syn_both,EMCI_LMCI,210,"{""EMCI"": 149, ""LMCI"": 61}"
+outside_recovered_train500,real_and_syn_both_and_mri,AD_CN,0,{}
+outside_recovered_train500,real_and_syn_both_and_mri,MCIstrict_CN,0,{}
+outside_recovered_train500,real_and_syn_both_and_mri,MCIpooled_CN,0,{}
+outside_recovered_train500,real_and_syn_both_and_mri,EMCI_LMCI,0,{}
+outside_recovered539,labels,AD_CN,650,"{""AD"": 235, ""CN"": 415}"
+outside_recovered539,labels,MCIstrict_CN,881,"{""CN"": 415, ""MCI"": 466}"
+outside_recovered539,labels,MCIpooled_CN,1083,"{""CN"": 415, ""EMCI"": 144, ""LMCI"": 58, ""MCI"": 466}"
+outside_recovered539,labels,EMCI_LMCI,202,"{""EMCI"": 144, ""LMCI"": 58}"
+outside_recovered539,syn_both,AD_CN,226,"{""AD"": 83, ""CN"": 143}"
+outside_recovered539,syn_both,MCIstrict_CN,289,"{""CN"": 143, ""MCI"": 146}"
+outside_recovered539,syn_both,MCIpooled_CN,484,"{""CN"": 143, ""EMCI"": 140, ""LMCI"": 55, ""MCI"": 146}"
+outside_recovered539,syn_both,EMCI_LMCI,195,"{""EMCI"": 140, ""LMCI"": 55}"
+outside_recovered539,real_and_syn_both_and_mri,AD_CN,0,{}
+outside_recovered539,real_and_syn_both_and_mri,MCIstrict_CN,0,{}
+outside_recovered539,real_and_syn_both_and_mri,MCIpooled_CN,0,{}
+outside_recovered539,real_and_syn_both_and_mri,EMCI_LMCI,0,{}
+outside_fixed800,labels,AD_CN,624,"{""AD"": 253, ""CN"": 371}"
+outside_fixed800,labels,MCIstrict_CN,696,"{""CN"": 371, ""MCI"": 325}"
+outside_fixed800,labels,MCIpooled_CN,1122,"{""CN"": 371, ""EMCI"": 276, ""LMCI"": 150, ""MCI"": 325}"
+outside_fixed800,labels,EMCI_LMCI,426,"{""EMCI"": 276, ""LMCI"": 150}"
+outside_fixed800,syn_both,AD_CN,400,"{""AD"": 149, ""CN"": 251}"
+outside_fixed800,syn_both,MCIstrict_CN,384,"{""CN"": 251, ""MCI"": 133}"
+outside_fixed800,syn_both,MCIpooled_CN,803,"{""CN"": 251, ""EMCI"": 272, ""LMCI"": 147, ""MCI"": 133}"
+outside_fixed800,syn_both,EMCI_LMCI,419,"{""EMCI"": 272, ""LMCI"": 147}"
+outside_fixed800,real_and_syn_both_and_mri,AD_CN,0,{}
+outside_fixed800,real_and_syn_both_and_mri,MCIstrict_CN,0,{}
+outside_fixed800,real_and_syn_both_and_mri,MCIpooled_CN,0,{}
+outside_fixed800,real_and_syn_both_and_mri,EMCI_LMCI,0,{}

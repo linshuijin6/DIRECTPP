@@ -1,0 +1,552 @@
+
+# ===== CELL 0, execution_count=1 =====
+import torch
+import os
+import monai.transforms as mt
+import monai.data as md
+import scipy.io as sio
+import numpy as np
+from liutuo_utils import compare_3d_jet,compare_3d,donkey_noise_like
+import matplotlib.pyplot as plt
+import pandas as pd
+device_id =3
+
+# 设置 PyTorch 的默认 CUDA 设备
+torch.cuda.set_device(device_id)
+
+# 确认当前默认 CUDA 设备
+current_device = torch.cuda.current_device()
+print(f"Switched to CUDA device: {current_device}")
+
+# OUTPUT
+/home/data/liutuo/.conda/envs/xiaochou/lib/python3.9/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+
+# OUTPUT
+Switched to CUDA device: 3
+
+# ===== CELL 1, execution_count=2 =====
+from transformers import AutoProcessor, AutoModel
+
+# 使用本地路径加载处理器和模型
+local_model_path = "/home/data/liutuo/code/BiomedCLIP"
+
+processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+
+# ===== CELL 2, execution_count=3 =====
+from transformers import AutoProcessor, AutoModel
+import torch
+
+# 本地模型路径
+local_model_path = "/home/data/liutuo/code/BiomedCLIP"
+
+# 加载处理器和模型
+processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+
+# 移动到设备
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+model.to(device)
+model.eval()
+
+# 定义文本描述
+fdg_text_optimized = (
+    "FDG PET is a functional brain imaging technique that visualizes the dynamic changes in glucose metabolism, "
+    "directly linked to neuronal energy demands and synaptic activity. It serves as a tool to assess functional "
+    "connectivity and energy utilization across brain regions. Areas with decreased metabolic activity, such as "
+    "those affected by neurodegenerative diseases, should exhibit reduced signal intensity. High-intensity metabolic "
+    "hotspots in gray matter (e.g., the cerebral cortex and basal ganglia) are key markers of neuronal activity."
+)
+
+av45_text_optimized = (
+    "AV45 PET is a molecular imaging technique that highlights the static distribution of amyloid-beta plaques, "
+    "a critical pathological marker of Alzheimer's disease. This imaging modality provides a spatial map of amyloid "
+    "deposition in cortical regions (e.g., the temporal, parietal, and frontal lobes) and can distinguish amyloid-positive "
+    "areas from amyloid-negative white matter regions. The primary focus is on identifying amyloid deposition patterns "
+    "to assess disease progression and pathological burden."
+)
+
+# 将两个文本放入列表
+texts = [fdg_text_optimized, av45_text_optimized]
+
+# 使用 processor/tokenizer 处理文本
+# 注意：AutoProcessor 可能直接提供 __call__，但 BiomedCLIP 通常需使用 tokenizer
+# 如果 processor 有 tokenizer 属性，用它；否则直接用 processor
+if hasattr(processor, 'tokenizer'):
+    inputs = processor.tokenizer(
+        texts,
+        padding=True,
+        truncation=True,
+        return_tensors="pt",
+        max_length=256  # BiomedCLIP 常用 context_length=256
+    )
+else:
+    inputs = processor(
+        text=texts,
+        padding=True,
+        truncation=True,
+        return_tensors="pt",
+        max_length=256
+    )
+
+# 移动到设备
+input_ids = inputs['input_ids'].to(device)
+attention_mask = inputs.get('attention_mask', None)
+if attention_mask is not None:
+    attention_mask = attention_mask.to(device)
+
+# 获取文本嵌入
+with torch.no_grad():
+    # 方法 1：尝试使用 get_text_features（适用于 transformers.CLIP-like 接口）
+    try:
+        text_features = model.get_text_features(input_ids=input_ids, attention_mask=attention_mask)
+    except AttributeError:
+        # 方法 2：如果失败，尝试使用 encode_text（OpenCLIP 风格）
+        try:
+            text_features = model.encode_text(input_ids)
+        except AttributeError:
+            # 方法 3：手动前向传播，取最后一层输出并归一化（常见于 CLIP）
+            outputs = model.text_model(input_ids=input_ids, attention_mask=attention_mask)
+            pooled_output = outputs.pooler_output  # 或 outputs.last_hidden_state[:, 0]
+            text_features = model.text_projection(pooled_output) if hasattr(model, 'text_projection') else pooled_output
+            text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+# 打印结果
+print("Text features shape:", text_features.shape)  # 应为 [2, D]，例如 [2, 512]
+print("Text features dtype:", text_features.dtype)
+
+# 可选：分离两个向量
+fdg_text_feature = text_features[0]      # shape: [D]
+av45_text_feature = text_features[1]     # shape: [D]
+
+print("FDG text feature norm:", fdg_text_feature.norm().item())
+print("AV45 text feature norm:", av45_text_feature.norm().item())
+
+
+# OUTPUT
+Text features shape: torch.Size([2, 512])
+Text features dtype: torch.float32
+FDG text feature norm: 3.896071195602417
+AV45 text feature norm: 4.151429176330566
+
+# ===== CELL 3, execution_count=None =====
+import os
+import pandas as pd
+from sklearn.model_selection import train_test_split
+import json
+
+# 数据目录（保持不变）
+base_dir = "/home/ssddata/liutuo/liutuo_data/test1"
+mri_dir = "/home/ssddata/liutuo/liutuo_data/test1/MRI"
+av45_dir = "/home/ssddata/liutuo/liutuo_data/test1/AV45"
+fdg_dir = "/home/ssddata/liutuo/liutuo_data/test1/FDG"
+csv_path = os.path.join(base_dir, "test_filtered_subjects_with_description.csv")
+
+# JSON 文件保存路径（保持不变）
+train_json_path = "/home/ssddata/liutuo/liutuo_data/test1/train_data_with_description.json"
+val_json_path = "/home/ssddata/liutuo/liutuo_data/test1/val_data_with_description.json"
+
+# 加载 CSV 文件（保持不变）
+csv_data = pd.read_csv(csv_path)
+csv_dict = csv_data.set_index("Subject ID")["Description"].to_dict()
+
+# 获取文件列表（保持不变）
+mri_files = sorted(os.listdir(mri_dir))
+av45_files = sorted(os.listdir(av45_dir))
+fdg_files = sorted(os.listdir(fdg_dir))
+
+def get_subject_id(filename):
+    """从文件名中提取统一的 subject ID（前三个部分，如 '002_S_0295'）"""
+    parts = filename.split('_')
+    return f"{parts[0]}_{parts[1]}_{parts[2]}"
+
+# 使用统一的 get_subject_id 处理所有文件（保持不变）
+mri_dict = {get_subject_id(f): os.path.join(mri_dir, f) for f in mri_files}
+av45_dict = {get_subject_id(f): os.path.join(av45_dir, f) for f in av45_files}
+fdg_dict = {get_subject_id(f): os.path.join(fdg_dir, f) for f in fdg_files}
+
+# 匹配文件并加入描述信息和 Subject ID
+paired_data = []
+for patient_id, mri_file in mri_dict.items():
+    if patient_id in av45_dict and patient_id in fdg_dict:
+        # 检查描述信息是否存在
+        description = csv_dict.get(patient_id, None)  # 从 csv_dict 中获取 Description 信息
+        # 构建数据条目
+        paired_data.append({
+            "name": patient_id,  # 添加 name 字段
+            "mri": os.path.join(mri_dir, mri_file),
+            "av45": os.path.join(av45_dir, av45_dict[patient_id]),
+            "fdg": os.path.join(fdg_dir, fdg_dict[patient_id]),
+            "description": description  # 加入 Description 信息
+        })
+
+print(f"Total matched pairs with description: {len(paired_data)}")
+# 在 paired_data 中新增键 fdg_index 和 av45_index
+for idx, data in enumerate(paired_data):
+    data["fdg_index"] = idx  # 将样本在 paired_data 中的索引作为 fdg_index
+    data["av45_index"] = idx
+
+import torch
+from transformers import AutoTokenizer, AutoModel
+
+# 示例：假设已经加载 BiomedCLIP 模型和处理器
+# 这里替换为您实际使用的 BiomedCLIP 模型和 tokenizer
+local_model_path = "/home/ssddata/liutuo/BiomedCLIP"
+processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+model.to(device)
+model.eval()
+
+
+# 假设 paired_data 已经加载
+modal_information = [data["description"] for data in paired_data if data["description"] is not None]
+
+# 对描述信息进行 Tokenizer 编码
+text_inputs = processor(
+    modal_information,
+    padding=True,
+    truncation=True,
+    return_tensors="pt",
+    max_length=256 # 根据模型输入限制选择合适的 max_length
+).to(device)
+
+# 转化为 BiomedCLIP 嵌入
+with torch.no_grad():
+    desc_text_features = model.get_text_features(text_inputs['input_ids'])  # 使用模型方法提取嵌入
+    print(f"Shape of features: {desc_text_features.shape}, Dtype: {desc_text_features.dtype}")
+
+# 划分训练集和验证集
+train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)
+
+print(f"Training set size: {len(train_data)}")
+print(f"Validation set size: {len(val_data)}")
+
+# 保存到 JSON 文件
+with open(train_json_path, "w") as f:
+    json.dump(train_data, f, indent=4)
+
+with open(val_json_path, "w") as f:
+    json.dump(val_data, f, indent=4)
+
+print(f"Saved train data to: {train_json_path}")
+print(f"Saved validation data to: {val_json_path}")
+
+# ===== CELL 4, execution_count=None =====
+# 验证训练集
+with open(train_json_path, "r") as f:
+    train_data = json.load(f)
+print(f"Loaded {len(train_data)} training samples.")
+print("First training sample:", train_data[0])
+
+# 验证验证集
+with open(val_json_path, "r") as f:
+    val_data = json.load(f)
+print(f"Loaded {len(val_data)} validation samples.")
+print("First validation sample:", val_data[0])
+
+# ===== CELL 5, execution_count=None =====
+from monai.transforms import Compose, LoadImaged, Lambdad, EnsureChannelFirstd, Orientationd, CropForegroundd, \
+    HistogramNormalized, ResizeWithPadOrCropd, Spacingd, NormalizeIntensityd, ScaleIntensityd
+from monai.data import CacheDataset, DataLoader
+import nibabel as nib
+import numpy as np
+import json
+
+import monai.transforms as mt
+
+# 定义 transform 函数
+def fdg_index_transform(x):
+    return torch.cat([desc_text_features[x].unsqueeze(0), fdg_feature_optimized], dim=0)
+
+def av45_index_transform(x):
+    return torch.cat([desc_text_features[x].unsqueeze(0), av45_feature_optimized], dim=0)
+
+
+# 自定义加载函数
+def mat_load(filepath):
+    """
+    使用 nibabel 加载 NIfTI 文件，并转换为 NumPy 数组。
+    """
+    return nib.load(filepath).get_fdata()
+
+# 加载 JSON 文件
+train_json_path = "/home/ssddata/liutuo/liutuo_data/test1/train_data_with_description.json"
+val_json_path = "/home/ssddata/liutuo/liutuo_data/test1/val_data_with_description.json"
+
+# 加载 JSON 文件
+with open(train_json_path, "r") as f:
+    train_data = json.load(f)
+
+with open(val_json_path, "r") as f:
+    val_data = json.load(f)
+
+# 转换数据格式
+train_data = [
+    {
+        "name": item["name"],
+        "mri": item["mri"],
+        "av45": item["av45"],
+        "fdg": item["fdg"],
+        "description": item.get("description", {}),  # 确保 description 存在
+        "fdg_index": item.get("fdg_index"),  # 保留 fdg_index
+        "av45_index": item.get("av45_index"),  # 保留 av45_index
+    }
+    for item in train_data
+]
+
+val_data = [
+    {
+        "name": item["name"],
+        "mri": item["mri"],
+        "av45": item["av45"],
+        "fdg": item["fdg"],
+        "description": item.get("description", {}),  # 确保 description 存在
+        "fdg_index": item.get("fdg_index"),  # 保留 fdg_index
+        "av45_index": item.get("av45_index"),  # 保留 av45_index
+    }
+    for item in val_data
+]
+
+
+
+# 构建数据增强 pipeline
+# 定义训练集数据增强流程
+train_transforms = mt.Compose([
+    mt.Lambdad(keys=["mri", "fdg","av45"], func=mat_load),  # 加载 NIfTI 文件
+    mt.EnsureChannelFirstd(keys=["mri", "fdg","av45"],channel_dim='no_channel'),
+    mt.Orientationd(keys=["mri", "fdg","av45"], axcodes="LPI"),
+    mt.CropForegroundd(keys=["mri", "fdg","av45"], source_key="mri"),
+    mt.HistogramNormalized(keys=["mri"]),
+    mt.ResizeWithPadOrCropd(keys=["mri", "fdg","av45"], spatial_size=[160, 192, 160]),
+    mt.Spacingd(keys=["mri", "fdg","av45"], pixdim=(1.0, 1.0, 1.0)),
+    mt.NormalizeIntensityd(keys=["mri", "fdg","av45"]),
+    mt.ScaleIntensityd(keys=["mri", "fdg","av45"]),
+    # mt.Lambdad(keys=["fdg_index"], func=fdg_index_transform),  # 添加 fdg_index 转换
+    # mt.Lambdad(keys=["av45_index"], func=av45_index_transform),  # 添加 av45_index 转换
+])
+
+# 定义验证集数据增强流程（通常与训练集一致，但不含随机性增强）
+val_transforms = mt.Compose([
+    mt.Lambdad(keys=["mri", "fdg","av45"], func=mat_load),  # 加载 NIfTI 文件
+    mt.EnsureChannelFirstd(keys=["mri", "fdg","av45"],channel_dim='no_channel'),
+    mt.Orientationd(keys=["mri", "fdg","av45"], axcodes="LPI"),
+    mt.CropForegroundd(keys=["mri", "fdg","av45"], source_key="mri"),
+    mt.HistogramNormalized(keys=["mri"]),
+    mt.ResizeWithPadOrCropd(keys=["mri", "fdg","av45"], spatial_size=[160, 192, 160]),
+    mt.Spacingd(keys=["mri", "fdg","av45"], pixdim=(1.0, 1.0, 1.0)),
+    mt.NormalizeIntensityd(keys=["mri", "fdg","av45"]),
+    mt.ScaleIntensityd(keys=["mri", "fdg","av45"]),
+    # mt.Lambdad(keys=["fdg_index"], func=fdg_index_transform),  # 添加 fdg_index 转换
+    # mt.Lambdad(keys=["av45_index"], func=av45_index_transform),  # 添加 av45_index 转换
+])
+
+
+# 构建 CacheDataset
+train_ds = CacheDataset(data=train_data, transform=train_transforms, num_workers=0, )
+train_loader = DataLoader(train_ds, batch_size=1, shuffle=True, num_workers=0)    #shuffle=True
+
+val_ds = CacheDataset(data=val_data, transform=val_transforms, num_workers=0, )
+val_loader = DataLoader(val_ds, batch_size=1, shuffle=False, num_workers=0)
+
+# 测试 DataLoader
+for batch_data in train_loader:
+    print("MRI shape:", batch_data["mri"].shape)
+    print("AV45 shape:", batch_data["av45"].shape)
+    print("FDG shape:", batch_data["fdg"].shape)
+    print("description:", train_data[0]["description"])  # 从原始数据访问描述信息
+    break
+
+# ===== CELL 6, execution_count=None =====
+for batch in val_loader:
+    image_mri =batch["mri"].to(device)
+    seg_fdg = batch["fdg"].to(device) # this is the ground truth segmentation
+    seg_av45 = batch["av45"].to(device)
+    # fdg_index=batch["fdg_index"].to(device)
+    # av45_index=batch["av45_index"].to(device)
+    names = batch["name"]  # Extract subject information
+
+   
+    for idx, name in enumerate(names):
+         print(f"Subject name: {name}")
+    compare_3d([image_mri, seg_fdg,seg_av45])
+    break  # Uncomment to compare only the first batch , label_1,label_2
+
+
+# ===== CELL 8, execution_count=None =====
+import torch
+from transformers import AutoProcessor, AutoModel
+import os
+import numpy as np
+from PIL import Image  # 导入 PIL.Image
+import torch
+from transformers import AutoProcessor, AutoModel
+# 1. 加载 BiomedCLIP 模型和处理器
+local_model_path = "/home/data/liutuo/code/BiomedCLIP"
+processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+model.eval()
+
+# 2. 定义 BiomedCLIP 特征提取函数
+def extract_pet_features_from_monai(batch, num_slices=160):
+
+    pet_data = batch["fdg"]  # 提取 PET 数据 (batch_size, 1, 160, 192, 160)
+    pet_data = pet_data.squeeze(0).squeeze(0).numpy()  # 移除 batch 和通道维度 -> (160, 192, 160)
+    
+    # 提取 num_slices 张切片（均匀采样）
+    slice_indices = np.linspace(0, pet_data.shape[2] - 1, num_slices, dtype=int)
+    slices = [pet_data[:, :, i] for i in slice_indices]
+    
+    # 预处理切片 -> 224x224 RGB
+    processed_slices = []
+    for slice_2d in slices:
+        slice_min, slice_max = slice_2d.min(), slice_2d.max()
+        normalized_slice = (slice_2d - slice_min) / (slice_max - slice_min + 1e-5)
+        img = Image.fromarray((normalized_slice * 255).astype(np.uint8)).resize((224, 224))
+        img_rgb = np.stack([img] * 3, axis=-1)
+        processed_slices.append(Image.fromarray(img_rgb.astype(np.uint8)))
+    
+    # 使用 BiomedCLIP 提取切片特征
+    inputs = processor(images=processed_slices, return_tensors="pt").to(device)
+    with torch.no_grad():
+        slice_features = model.get_image_features(**inputs)  # (num_slices, 512)
+    
+    # 平均池化得到全局特征
+    global_feature = torch.mean(slice_features, dim=0)  # (512,)
+    return global_feature.cpu().detach()
+
+# 3. 遍历 train_loader，提取所有样本的特征
+pet_vectors = []
+for i, batch in enumerate(train_loader):
+    print(f"Processing batch {i+1}/{len(train_loader)}...")
+    pet_vector = extract_pet_features_from_monai(batch)  # 提取单张 PET 图像的特征
+    pet_vectors.append(pet_vector)
+
+# 堆叠所有特征向量
+pet_vectors = torch.stack(pet_vectors)  # Shape: (1129, 512)
+
+# 4. 保存所有特征
+
+output_path = "/home/data/liutuo/code/checkpoint/fdg_pet_vectors_from_monai.pt"
+torch.save(pet_vectors, output_path)
+print(f"所有 PET 特征向量已保存到 {output_path}")
+
+# ===== CELL 9, execution_count=5 =====
+import torch
+import torch.nn.functional as F
+
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# 加载图像特征（假设已归一化；若未归一化，后续会处理）
+fdg_img_features = torch.load("/home/data/liutuo/code/checkpoint/fdg_pet_vectors_from_monai.pt").to(device)  # [1598, 512]
+av45_img_features = torch.load("/home/data/liutuo/code/checkpoint/av45_pet_vectors_from_monai.pt").to(device)  # [1365, 512]
+
+# 归一化图像特征（确保是单位向量）
+fdg_img_features = F.normalize(fdg_img_features, dim=1)
+av45_img_features = F.normalize(av45_img_features, dim=1)
+
+
+fdg_text_feature = fdg_text_feature.to(device)  # shape [512]
+av45_text_feature = av45_text_feature.to(device)  # shape [512]
+
+# 确保是 unit vector（L2 norm = 1）
+fdg_text_feature = F.normalize(fdg_text_feature, dim=-1)
+av45_text_feature = F.normalize(av45_text_feature, dim=-1)
+
+
+# 3. 初始化可学习参数（修正版）
+# ----------------------------
+a = torch.tensor(1.0, device=device, requires_grad=True)
+c = torch.tensor(1.0, device=device, requires_grad=True)
+
+b = torch.randn(512, device=device) * 0.01
+b.requires_grad_(True)
+
+d = torch.randn(512, device=device) * 0.01
+d.requires_grad_(True)
+
+params = [a, b, c, d]
+optimizer = torch.optim.Adam(params, lr=1e-3)
+# 目标文本-图像相似度（越高越好 → 负相似度作为 loss）
+# 目标 fdg-av45 相似度
+target_cross_sim = 0.82
+
+# ----------------------------
+# 4. 训练循环
+# ----------------------------
+num_epochs = 5000
+for epoch in range(num_epochs):
+    optimizer.zero_grad()
+
+    # 构建 adapt 向量
+    adapt_fdg = a * fdg_text_feature + b  # [512]
+    adapt_av45 = c * av45_text_feature + d  # [512]
+
+    # 归一化（用于余弦相似度）
+    adapt_fdg_norm = F.normalize(adapt_fdg, dim=-1)
+    adapt_av45_norm = F.normalize(adapt_av45, dim=-1)
+
+    # Loss 1: maximize mean cosine similarity with FDG image features
+    sim_fdg = F.cosine_similarity(adapt_fdg_norm.unsqueeze(0), fdg_img_features, dim=1)  # [1598]
+    loss_fdg = -sim_fdg.mean()  # 负号：最大化 → 最小化负值
+
+    # Loss 2: maximize mean cosine similarity with AV45 image features
+    sim_av45 = F.cosine_similarity(adapt_av45_norm.unsqueeze(0), av45_img_features, dim=1)  # [N]
+    loss_av45 = -sim_av45.mean()
+
+    # Loss 3: make cosine similarity between adapt_fdg and adapt_av45 close to 0.82
+    cross_sim = F.cosine_similarity(adapt_fdg_norm.unsqueeze(0), adapt_av45_norm.unsqueeze(0))
+    loss_cross = (cross_sim - target_cross_sim) ** 2
+
+    # 总损失（可调整权重）
+    total_loss = loss_fdg + loss_av45 + 100.0 * loss_cross  # 提高 cross 约束权重
+
+    total_loss.backward()
+    optimizer.step()
+
+    if epoch % 5000== 0:
+        print(f"Epoch {epoch}: Loss={total_loss.item():.4f}, "
+              f"FDG_sim={-loss_fdg.item():.4f}, "
+              f"AV45_sim={-loss_av45.item():.4f}, "
+              f"Cross_sim={cross_sim.item():.4f}")
+
+# ----------------------------
+# 5. 获取最终结果
+# ----------------------------
+with torch.no_grad():
+    final_adapt_fdg = F.normalize(a * fdg_text_feature + b, dim=-1)
+    final_adapt_av45 = F.normalize(c * av45_text_feature + d, dim=-1)
+    final_cross_sim = F.cosine_similarity(final_adapt_fdg.unsqueeze(0), final_adapt_av45.unsqueeze(0))
+    fdg_img_sim = F.cosine_similarity(final_adapt_fdg.unsqueeze(0), fdg_img_features).mean()
+    av45_img_sim = F.cosine_similarity(final_adapt_av45.unsqueeze(0), av45_img_features).mean()
+
+print("\n✅ Optimization Finished!")
+print(f"Final FDG-text → FDG-images similarity: {fdg_img_sim.item():.4f}")
+print(f"Final AV45-text → AV45-images similarity: {av45_img_sim.item():.4f}")
+print(f"Final FDG-Adapt ↔ AV45-Adapt similarity: {final_cross_sim.item():.4f}")
+print(f"Learned a={a.item():.4f}, c={c.item():.4f}")
+# 打印 b, d 的统计信息
+print(f"\nLearned b: norm = {b.norm().item():.4f}, mean = {b.mean().item():.4f}")
+print(f"Learned d: norm = {d.norm().item():.4f}, mean = {d.mean().item():.4f}")
+
+# OUTPUT
+You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+
+# OUTPUT
+Epoch 0: Loss=-0.5203, FDG_sim=0.3452, AV45_sim=0.3205, Cross_sim=0.7819
+
+✅ Optimization Finished!
+Final FDG-text → FDG-images similarity: 0.9745
+Final AV45-text → AV45-images similarity: 0.9714
+Final FDG-Adapt ↔ AV45-Adapt similarity: 0.8241
+Learned a=0.7526, c=0.7437
+
+Learned b: norm = 0.9282, mean = -0.0010
+Learned d: norm = 0.9356, mean = 0.0018

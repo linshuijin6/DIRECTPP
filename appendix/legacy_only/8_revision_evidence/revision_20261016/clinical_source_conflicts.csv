@@ -1,0 +1,1880 @@
+subject,partition,variable,json_value,metadata_value
+057_S_4897,train500,MMSE Total Score,28,27
+057_S_4897,train500,GDSCALE Total Score,4,1
+057_S_4897,train500,Global CDR,0.5,0.0
+057_S_4897,train500,FAQ Total Score,4,5
+057_S_4897,train500,NPI-Q Total Score,2,1
+019_S_4293,train500,MMSE Total Score,23,25
+019_S_4293,train500,GDSCALE Total Score,0,3
+019_S_4293,train500,FAQ Total Score,5,8
+099_S_2042,train500,Weight,95.3,94.2
+099_S_2042,train500,Age,70.7,69.7
+099_S_2042,train500,MMSE Total Score,25,27
+099_S_2042,train500,GDSCALE Total Score,0,1
+099_S_2042,train500,Global CDR,0.5,0.0
+099_S_2042,train500,FAQ Total Score,13,9
+099_S_2042,train500,NPI-Q Total Score,2,6
+126_S_0709,train500,Weight,70.3,74.8
+126_S_0709,train500,Age,90.0,84.0
+126_S_0709,train500,MMSE Total Score,26,30
+126_S_0709,train500,FAQ Total Score,19,4
+027_S_4943,train500,MMSE Total Score,26,24
+027_S_4943,train500,GDSCALE Total Score,1,3
+027_S_4943,train500,Global CDR,0.0,0.5
+027_S_4943,train500,FAQ Total Score,9,8
+033_S_5017,train500,MMSE Total Score,18,21
+033_S_5017,train500,GDSCALE Total Score,0,5
+033_S_5017,train500,FAQ Total Score,21,22
+009_S_4958,train500,MMSE Total Score,29,28
+009_S_4958,train500,Global CDR,1.0,0.0
+009_S_4958,train500,FAQ Total Score,13,4
+009_S_4958,train500,NPI-Q Total Score,2,1
+018_S_0055,train500,Weight,86.8,93.9
+018_S_0055,train500,Age,82.2,75.8
+018_S_0055,train500,MMSE Total Score,29,30
+018_S_0055,train500,GDSCALE Total Score,2,0
+018_S_0055,train500,Global CDR,0.5,0.0
+018_S_0055,train500,FAQ Total Score,0,1
+018_S_0055,train500,NPI-Q Total Score,0,2
+072_S_2072,train500,Weight,69.9,70.5
+072_S_2072,train500,Age,73.9,73.0
+072_S_2072,train500,MMSE Total Score,29,28
+072_S_2072,train500,Global CDR,0.5,0.0
+072_S_2072,train500,FAQ Total Score,3,2
+072_S_2072,train500,NPI-Q Total Score,2,3
+027_S_4955,train500,MMSE Total Score,24,25
+027_S_4955,train500,GDSCALE Total Score,2,3
+027_S_4955,train500,FAQ Total Score,5,7
+003_S_1122,train500,Weight,59.0,64.4
+003_S_1122,train500,Age,81.9,76.8
+003_S_1122,train500,MMSE Total Score,27,28
+003_S_1122,train500,GDSCALE Total Score,2,0
+003_S_1122,train500,FAQ Total Score,8,4
+130_S_0285,train500,Weight,71.7,78.5
+130_S_0285,train500,Age,71.8,65.8
+130_S_0285,train500,GDSCALE Total Score,5,2
+130_S_0285,train500,FAQ Total Score,15,4
+141_S_4426,train500,MMSE Total Score,27,24
+141_S_4426,train500,GDSCALE Total Score,10,3
+141_S_4426,train500,FAQ Total Score,4,10
+027_S_0120,train500,Weight,80.0,80.9
+027_S_0120,train500,Age,79.2,72.1
+027_S_0120,train500,GDSCALE Total Score,1,2
+027_S_0120,train500,FAQ Total Score,0,1
+002_S_2073,train500,Weight,74.8,76.2
+002_S_2073,train500,Age,64.5,63.5
+002_S_2073,train500,MMSE Total Score,29,27
+002_S_2073,train500,Global CDR,0.5,0.0
+002_S_2073,train500,NPI-Q Total Score,2,0
+941_S_1202,train500,Weight,77.1,84.4
+941_S_1202,train500,Age,82.0,77.6
+941_S_1202,train500,MMSE Total Score,27,28
+941_S_1202,train500,FAQ Total Score,8,0
+022_S_2379,train500,Weight,98.0,96.3
+022_S_2379,train500,Age,67.1,66.1
+022_S_2379,train500,GDSCALE Total Score,0,1
+022_S_2379,train500,Global CDR,0.5,0.0
+022_S_2379,train500,FAQ Total Score,0,2
+022_S_2379,train500,NPI-Q Total Score,2,0
+014_S_4401,train500,MMSE Total Score,30,29
+014_S_4401,train500,GDSCALE Total Score,1,0
+130_S_4294,train500,MMSE Total Score,26,24
+130_S_4294,train500,GDSCALE Total Score,1,3
+130_S_4294,train500,FAQ Total Score,4,7
+018_S_4400,train500,FAQ Total Score,1,0
+019_S_4285,train500,FAQ Total Score,3,5
+019_S_4285,train500,NPI-Q Total Score,2,1
+068_S_4968,train500,GDSCALE Total Score,2,5
+068_S_4968,train500,Global CDR,0.0,1.0
+116_S_4855,train500,MMSE Total Score,28,29
+009_S_4741,train500,MMSE Total Score,27,24
+009_S_4741,train500,GDSCALE Total Score,2,3
+009_S_4741,train500,Global CDR,1.0,0.5
+009_S_4741,train500,FAQ Total Score,19,11
+941_S_4365,train500,MMSE Total Score,29,30
+941_S_4365,train500,FAQ Total Score,2,0
+009_S_4337,train500,MMSE Total Score,27,29
+009_S_4337,train500,GDSCALE Total Score,1,0
+009_S_4337,train500,Global CDR,0.5,0.0
+009_S_4337,train500,FAQ Total Score,1,0
+137_S_4351,train500,MMSE Total Score,30,26
+137_S_4351,train500,GDSCALE Total Score,1,2
+137_S_4351,train500,FAQ Total Score,0,5
+098_S_4018,train500,MMSE Total Score,29,30
+098_S_4018,train500,GDSCALE Total Score,1,0
+941_S_4420,train500,MMSE Total Score,28,27
+941_S_4420,train500,GDSCALE Total Score,4,1
+941_S_4420,train500,Global CDR,0.5,0.0
+941_S_4420,train500,FAQ Total Score,2,4
+941_S_4420,train500,NPI-Q Total Score,2,1
+027_S_4869,train500,MMSE Total Score,29,25
+027_S_4869,train500,GDSCALE Total Score,1,3
+027_S_4869,train500,FAQ Total Score,2,10
+116_S_1232,train500,Weight,69.6,88.0
+116_S_1232,train500,Age,77.2,72.2
+116_S_1232,train500,MMSE Total Score,26,28
+116_S_1232,train500,GDSCALE Total Score,1,0
+116_S_1232,train500,Global CDR,0.5,0.0
+116_S_1232,train500,FAQ Total Score,1,0
+009_S_4903,train500,MMSE Total Score,28,24
+009_S_4903,train500,GDSCALE Total Score,0,3
+009_S_4903,train500,FAQ Total Score,4,9
+130_S_4982,train500,MMSE Total Score,16,20
+130_S_4982,train500,GDSCALE Total Score,6,5
+130_S_4982,train500,FAQ Total Score,25,20
+027_S_4962,train500,MMSE Total Score,22,21
+027_S_4962,train500,GDSCALE Total Score,0,5
+027_S_4962,train500,Global CDR,0.5,1.0
+027_S_4962,train500,FAQ Total Score,10,24
+021_S_4659,train500,MMSE Total Score,25,27
+021_S_4659,train500,GDSCALE Total Score,3,1
+021_S_4659,train500,Global CDR,0.5,0.0
+021_S_4659,train500,FAQ Total Score,1,4
+021_S_4659,train500,NPI-Q Total Score,2,1
+009_S_2381,train500,Weight,63.9,64.6
+009_S_2381,train500,Age,70.3,69.3
+009_S_2381,train500,Global CDR,1.0,0.5
+009_S_2381,train500,FAQ Total Score,11,3
+009_S_2381,train500,NPI-Q Total Score,2,5
+027_S_0408,train500,Weight,64.3,68.5
+027_S_0408,train500,Age,88.3,82.3
+027_S_0408,train500,MMSE Total Score,22,24
+027_S_0408,train500,GDSCALE Total Score,7,5
+027_S_0408,train500,Global CDR,1.0,0.5
+027_S_0408,train500,FAQ Total Score,19,6
+007_S_5265,train500,MMSE Total Score,28,30
+007_S_5265,train500,FAQ Total Score,0,1
+023_S_0926,train500,Weight,73.5,77.1
+023_S_0926,train500,Age,76.7,71.2
+023_S_0926,train500,MMSE Total Score,30,29
+023_S_0926,train500,GDSCALE Total Score,7,1
+099_S_4498,train500,MMSE Total Score,25,27
+099_S_4498,train500,GDSCALE Total Score,0,1
+099_S_4498,train500,Global CDR,0.5,0.0
+099_S_4498,train500,FAQ Total Score,8,4
+099_S_4498,train500,NPI-Q Total Score,2,1
+009_S_5037,train500,MMSE Total Score,24,20
+009_S_5037,train500,GDSCALE Total Score,1,5
+137_S_0301,train500,Weight,75.3,80.9
+137_S_0301,train500,Age,78.6,73.6
+137_S_0301,train500,MMSE Total Score,30,28
+137_S_0301,train500,GDSCALE Total Score,0,1
+137_S_0301,train500,FAQ Total Score,0,1
+003_S_4119,train500,MMSE Total Score,30,29
+009_S_5252,train500,MMSE Total Score,22,19
+009_S_5252,train500,GDSCALE Total Score,3,5
+009_S_5252,train500,FAQ Total Score,19,24
+013_S_4580,train500,MMSE Total Score,29,30
+013_S_4580,train500,GDSCALE Total Score,2,0
+013_S_4580,train500,FAQ Total Score,0,1
+002_S_0295,train500,Weight,73.0,74.5
+002_S_0295,train500,Age,90.0,84.9
+002_S_0295,train500,MMSE Total Score,26,28
+002_S_4213,train500,MMSE Total Score,29,30
+035_S_4785,train500,GDSCALE Total Score,5,0
+035_S_4785,train500,Global CDR,0.5,0.0
+002_S_4654,train500,MMSE Total Score,28,24
+002_S_4654,train500,GDSCALE Total Score,0,3
+002_S_4654,train500,FAQ Total Score,1,9
+099_S_0291,train500,Weight,74.8,77.6
+099_S_0291,train500,Age,85.5,79.4
+099_S_0291,train500,MMSE Total Score,29,30
+099_S_0291,train500,GDSCALE Total Score,4,5
+099_S_0291,train500,Global CDR,0.0,0.5
+099_S_0291,train500,FAQ Total Score,0,6
+022_S_4805,train500,MMSE Total Score,27,28
+022_S_4805,train500,GDSCALE Total Score,2,1
+022_S_4805,train500,FAQ Total Score,2,4
+022_S_4805,train500,NPI-Q Total Score,2,1
+072_S_4007,train500,MMSE Total Score,30,27
+072_S_4007,train500,GDSCALE Total Score,0,1
+072_S_4007,train500,Global CDR,0.5,0.0
+072_S_4007,train500,FAQ Total Score,1,5
+072_S_4007,train500,NPI-Q Total Score,2,1
+022_S_0130,train500,Weight,76.4,75.8
+022_S_0130,train500,Age,79.5,73.2
+022_S_0130,train500,MMSE Total Score,29,30
+022_S_0130,train500,GDSCALE Total Score,2,1
+019_S_4549,train500,MMSE Total Score,20,19
+019_S_4549,train500,GDSCALE Total Score,2,5
+019_S_4549,train500,Global CDR,0.5,1.0
+019_S_4549,train500,FAQ Total Score,9,19
+033_S_0920,train500,Weight,55.7,58.2
+033_S_0920,train500,Age,86.2,80.1
+033_S_0920,train500,MMSE Total Score,29,30
+033_S_0920,train500,Global CDR,0.5,0.0
+033_S_0920,train500,FAQ Total Score,6,1
+002_S_4270,train500,MMSE Total Score,29,30
+002_S_4270,train500,GDSCALE Total Score,1,0
+023_S_4034,train500,GDSCALE Total Score,1,3
+023_S_4034,train500,FAQ Total Score,1,11
+137_S_0668,train500,Weight,81.9,82.6
+137_S_0668,train500,Age,78.6,73.6
+137_S_0668,train500,MMSE Total Score,28,27
+137_S_0668,train500,GDSCALE Total Score,2,1
+137_S_0668,train500,Global CDR,0.0,0.5
+137_S_0668,train500,FAQ Total Score,0,4
+002_S_4237,train500,MMSE Total Score,27,28
+002_S_4237,train500,Global CDR,0.5,0.0
+002_S_4237,train500,FAQ Total Score,1,4
+002_S_4237,train500,NPI-Q Total Score,2,1
+130_S_4343,train500,GDSCALE Total Score,1,0
+130_S_4343,train500,FAQ Total Score,0,1
+003_S_4373,train500,MMSE Total Score,4,20
+003_S_4373,train500,GDSCALE Total Score,2,5
+003_S_4373,train500,Global CDR,2.0,1.0
+137_S_4756,train500,MMSE Total Score,24,19
+137_S_4756,train500,GDSCALE Total Score,6,5
+137_S_4756,train500,Global CDR,0.5,1.0
+137_S_4756,train500,FAQ Total Score,4,23
+136_S_0107,train500,Weight,70.3,76.3
+136_S_0107,train500,Age,66.1,60.8
+136_S_0107,train500,FAQ Total Score,0,6
+003_S_4900,train500,MMSE Total Score,30,29
+013_S_4791,train500,MMSE Total Score,26,27
+013_S_4791,train500,FAQ Total Score,0,5
+013_S_4791,train500,NPI-Q Total Score,2,1
+072_S_4769,train500,MMSE Total Score,30,25
+072_S_4769,train500,FAQ Total Score,2,9
+022_S_4266,train500,FAQ Total Score,0,1
+082_S_4208,train500,GDSCALE Total Score,2,0
+941_S_4764,train500,MMSE Total Score,30,27
+941_S_4764,train500,GDSCALE Total Score,2,1
+941_S_4764,train500,FAQ Total Score,2,4
+941_S_4764,train500,NPI-Q Total Score,2,1
+130_S_5175,train500,MMSE Total Score,30,29
+027_S_4966,train500,MMSE Total Score,30,28
+027_S_4966,train500,GDSCALE Total Score,2,1
+027_S_4966,train500,Global CDR,0.5,0.0
+027_S_4966,train500,FAQ Total Score,0,3
+027_S_4966,train500,NPI-Q Total Score,2,1
+130_S_4542,train500,MMSE Total Score,21,24
+130_S_4542,train500,Global CDR,1.0,0.5
+130_S_4542,train500,FAQ Total Score,24,8
+130_S_4660,train500,GDSCALE Total Score,2,5
+130_S_4660,train500,Global CDR,0.5,1.0
+130_S_4660,train500,FAQ Total Score,11,17
+130_S_4641,train500,MMSE Total Score,27,19
+130_S_4641,train500,GDSCALE Total Score,0,5
+130_S_4641,train500,Global CDR,0.5,1.0
+130_S_4641,train500,FAQ Total Score,3,17
+018_S_4313,train500,MMSE Total Score,27,29
+023_S_4020,train500,MMSE Total Score,29,30
+023_S_4020,train500,GDSCALE Total Score,1,0
+072_S_4394,train500,MMSE Total Score,30,25
+072_S_4394,train500,GDSCALE Total Score,4,3
+072_S_4394,train500,FAQ Total Score,3,9
+130_S_4605,train500,MMSE Total Score,30,25
+130_S_4605,train500,GDSCALE Total Score,2,3
+130_S_4605,train500,FAQ Total Score,10,8
+941_S_4376,train500,MMSE Total Score,27,30
+941_S_4376,train500,GDSCALE Total Score,2,0
+941_S_4376,train500,FAQ Total Score,0,1
+082_S_4244,train500,MMSE Total Score,26,24
+082_S_4244,train500,GDSCALE Total Score,6,3
+082_S_4244,train500,FAQ Total Score,3,10
+114_S_1106,train500,Weight,85.5,83.9
+114_S_1106,train500,Age,79.1,74.1
+114_S_1106,train500,MMSE Total Score,26,30
+114_S_1106,train500,GDSCALE Total Score,4,3
+114_S_1106,train500,FAQ Total Score,14,4
+009_S_4324,train500,MMSE Total Score,23,24
+009_S_4324,train500,Global CDR,2.0,0.5
+009_S_4324,train500,FAQ Total Score,22,11
+126_S_4891,train500,MMSE Total Score,28,27
+126_S_4891,train500,GDSCALE Total Score,2,1
+126_S_4891,train500,Global CDR,0.5,0.0
+126_S_4891,train500,FAQ Total Score,0,4
+126_S_4891,train500,NPI-Q Total Score,2,1
+072_S_4522,train500,MMSE Total Score,29,28
+072_S_4522,train500,Global CDR,0.5,0.0
+072_S_4522,train500,FAQ Total Score,1,3
+072_S_4522,train500,NPI-Q Total Score,2,1
+027_S_0074,train500,Weight,80.7,81.9
+027_S_0074,train500,Age,85.4,78.3
+027_S_0074,train500,GDSCALE Total Score,1,0
+027_S_0074,train500,FAQ Total Score,0,1
+016_S_5057,train500,MMSE Total Score,28,20
+016_S_5057,train500,GDSCALE Total Score,2,5
+016_S_5057,train500,Global CDR,0.5,1.0
+016_S_5057,train500,FAQ Total Score,4,18
+019_S_4835,train500,MMSE Total Score,28,30
+019_S_4835,train500,GDSCALE Total Score,1,0
+019_S_4835,train500,FAQ Total Score,0,1
+033_S_4508,train500,MMSE Total Score,28,30
+033_S_4508,train500,FAQ Total Score,0,1
+114_S_1118,train500,Weight,72.9,74.4
+114_S_1118,train500,Age,87.8,82.6
+114_S_1118,train500,MMSE Total Score,25,27
+114_S_1118,train500,FAQ Total Score,9,7
+016_S_4887,train500,MMSE Total Score,24,20
+016_S_4887,train500,GDSCALE Total Score,6,5
+016_S_4887,train500,FAQ Total Score,17,19
+100_S_5106,train500,GDSCALE Total Score,2,5
+100_S_5106,train500,Global CDR,0.0,1.0
+100_S_5106,train500,FAQ Total Score,13,20
+072_S_0315,train500,Weight,78.9,79.8
+072_S_0315,train500,Age,76.7,71.8
+070_S_5040,train500,MMSE Total Score,29,30
+070_S_5040,train500,FAQ Total Score,0,1
+021_S_2100,train500,Weight,68.0,67.1
+021_S_2100,train500,Age,89.0,88.0
+021_S_2100,train500,MMSE Total Score,26,27
+021_S_2100,train500,Global CDR,0.5,0.0
+021_S_2100,train500,NPI-Q Total Score,2,1
+099_S_2063,train500,Weight,95.5,100.1
+099_S_2063,train500,Age,69.4,68.5
+099_S_2063,train500,MMSE Total Score,29,28
+099_S_2063,train500,Global CDR,0.5,0.0
+099_S_2063,train500,FAQ Total Score,8,10
+099_S_2063,train500,NPI-Q Total Score,2,4
+068_S_5146,train500,MMSE Total Score,21,19
+068_S_5146,train500,GDSCALE Total Score,2,5
+068_S_5146,train500,Global CDR,0.0,1.0
+068_S_5146,train500,FAQ Total Score,15,19
+141_S_4438,train500,GDSCALE Total Score,6,1
+141_S_4438,train500,Global CDR,0.5,0.0
+141_S_4438,train500,FAQ Total Score,9,5
+141_S_4438,train500,NPI-Q Total Score,2,1
+023_S_5241,train500,GDSCALE Total Score,2,5
+023_S_5241,train500,Global CDR,0.0,1.0
+023_S_5241,train500,FAQ Total Score,22,23
+068_S_4332,train500,MMSE Total Score,29,28
+068_S_4332,train500,GDSCALE Total Score,2,1
+068_S_4332,train500,Global CDR,0.0,0.5
+068_S_4332,train500,FAQ Total Score,1,3
+068_S_4332,train500,NPI-Q Total Score,2,1
+126_S_4514,train500,MMSE Total Score,28,26
+126_S_4514,train500,GDSCALE Total Score,8,2
+126_S_4514,train500,FAQ Total Score,0,5
+002_S_4447,train500,MMSE Total Score,30,28
+002_S_4447,train500,GDSCALE Total Score,2,1
+002_S_4447,train500,Global CDR,0.5,0.0
+002_S_4447,train500,FAQ Total Score,1,5
+002_S_4447,train500,NPI-Q Total Score,2,1
+099_S_4463,train500,GDSCALE Total Score,0,1
+099_S_4463,train500,FAQ Total Score,1,3
+099_S_4463,train500,NPI-Q Total Score,2,1
+007_S_4516,train500,MMSE Total Score,28,29
+007_S_4516,train500,FAQ Total Score,0,1
+068_S_4859,train500,MMSE Total Score,21,19
+068_S_4859,train500,GDSCALE Total Score,2,5
+068_S_4859,train500,Global CDR,0.0,1.0
+068_S_4859,train500,FAQ Total Score,10,22
+137_S_4672,train500,MMSE Total Score,19,21
+137_S_4672,train500,GDSCALE Total Score,2,5
+137_S_4672,train500,Global CDR,0.5,1.0
+137_S_4672,train500,FAQ Total Score,8,22
+099_S_4205,train500,MMSE Total Score,30,27
+099_S_4205,train500,GDSCALE Total Score,0,1
+099_S_4205,train500,FAQ Total Score,0,5
+099_S_4205,train500,NPI-Q Total Score,2,1
+141_S_2333,train500,Weight,78.0,73.9
+141_S_2333,train500,Age,68.2,67.1
+141_S_2333,train500,Global CDR,0.5,0.0
+141_S_2333,train500,NPI-Q Total Score,2,0
+022_S_0096,train500,Weight,83.9,84.4
+022_S_0096,train500,Age,85.8,79.8
+022_S_0096,train500,FAQ Total Score,0,1
+002_S_5018,train500,MMSE Total Score,23,19
+002_S_5018,train500,GDSCALE Total Score,2,5
+153_S_4125,train500,MMSE Total Score,29,30
+153_S_4125,train500,GDSCALE Total Score,1,0
+153_S_4125,train500,FAQ Total Score,1,0
+003_S_4555,train500,GDSCALE Total Score,1,0
+082_S_4428,train500,GDSCALE Total Score,1,0
+130_S_4730,train500,MMSE Total Score,22,19
+130_S_4730,train500,GDSCALE Total Score,1,5
+130_S_4730,train500,FAQ Total Score,22,18
+022_S_5004,train500,MMSE Total Score,29,28
+022_S_5004,train500,Global CDR,0.5,0.0
+022_S_5004,train500,FAQ Total Score,1,4
+022_S_5004,train500,NPI-Q Total Score,2,1
+072_S_2164,train500,Weight,74.8,74.4
+072_S_2164,train500,Age,72.1,71.1
+072_S_2164,train500,GDSCALE Total Score,2,1
+072_S_2164,train500,NPI-Q Total Score,2,0
+019_S_4680,train500,MMSE Total Score,27,28
+019_S_4680,train500,GDSCALE Total Score,10,1
+019_S_4680,train500,Global CDR,1.0,0.0
+019_S_4680,train500,FAQ Total Score,21,3
+019_S_4680,train500,NPI-Q Total Score,2,1
+016_S_4951,train500,GDSCALE Total Score,1,0
+137_S_4482,train500,MMSE Total Score,29,30
+137_S_4482,train500,FAQ Total Score,0,1
+116_S_4195,train500,MMSE Total Score,17,21
+116_S_4195,train500,GDSCALE Total Score,0,5
+116_S_4195,train500,FAQ Total Score,20,17
+003_S_2374,train500,Weight,59.0,65.3
+003_S_2374,train500,Age,82.4,81.4
+003_S_2374,train500,MMSE Total Score,28,27
+003_S_2374,train500,GDSCALE Total Score,0,1
+003_S_2374,train500,Global CDR,0.5,0.0
+003_S_2374,train500,NPI-Q Total Score,2,0
+016_S_4009,train500,MMSE Total Score,24,19
+016_S_4009,train500,GDSCALE Total Score,1,5
+016_S_4009,train500,FAQ Total Score,28,19
+022_S_2263,train500,Weight,75.3,70.8
+022_S_2263,train500,Age,63.3,62.2
+022_S_2263,train500,MMSE Total Score,29,27
+022_S_2263,train500,Global CDR,0.0,0.5
+022_S_2263,train500,NPI-Q Total Score,2,0
+137_S_4678,train500,MMSE Total Score,28,27
+137_S_4678,train500,Global CDR,0.5,0.0
+137_S_4678,train500,FAQ Total Score,0,3
+137_S_4678,train500,NPI-Q Total Score,2,1
+137_S_4299,train500,MMSE Total Score,28,27
+137_S_4299,train500,GDSCALE Total Score,3,1
+137_S_4299,train500,FAQ Total Score,1,3
+137_S_4299,train500,NPI-Q Total Score,2,1
+007_S_4568,train500,GDSCALE Total Score,4,5
+007_S_4568,train500,Global CDR,0.5,1.0
+007_S_4568,train500,FAQ Total Score,10,24
+126_S_4507,train500,MMSE Total Score,26,25
+126_S_4507,train500,GDSCALE Total Score,2,3
+126_S_4507,train500,FAQ Total Score,6,9
+002_S_4799,train500,MMSE Total Score,30,28
+002_S_4799,train500,GDSCALE Total Score,0,1
+002_S_4799,train500,Global CDR,0.0,0.5
+002_S_4799,train500,FAQ Total Score,0,3
+002_S_4799,train500,NPI-Q Total Score,2,1
+002_S_4262,train500,MMSE Total Score,26,30
+002_S_4262,train500,GDSCALE Total Score,4,0
+002_S_4262,train500,Global CDR,0.5,0.0
+002_S_4262,train500,FAQ Total Score,6,1
+116_S_4175,train500,MMSE Total Score,27,28
+116_S_4175,train500,Global CDR,0.5,0.0
+116_S_4175,train500,FAQ Total Score,5,4
+116_S_4175,train500,NPI-Q Total Score,2,1
+009_S_1030,train500,Weight,70.6,71.7
+009_S_1030,train500,Age,72.6,67.6
+009_S_1030,train500,MMSE Total Score,17,28
+009_S_1030,train500,GDSCALE Total Score,2,0
+009_S_1030,train500,Global CDR,1.0,0.5
+009_S_1030,train500,FAQ Total Score,20,7
+027_S_4926,train500,MMSE Total Score,29,27
+027_S_4926,train500,GDSCALE Total Score,4,1
+027_S_4926,train500,Global CDR,0.5,0.0
+027_S_4926,train500,FAQ Total Score,0,3
+027_S_4926,train500,NPI-Q Total Score,2,1
+052_S_5062,train500,MMSE Total Score,24,21
+052_S_5062,train500,GDSCALE Total Score,1,5
+052_S_5062,train500,FAQ Total Score,13,18
+033_S_5198,train500,FAQ Total Score,0,1
+072_S_4613,train500,MMSE Total Score,30,27
+072_S_4613,train500,GDSCALE Total Score,4,1
+072_S_4613,train500,FAQ Total Score,0,4
+072_S_4613,train500,NPI-Q Total Score,2,1
+013_S_4917,train500,MMSE Total Score,24,28
+013_S_4917,train500,GDSCALE Total Score,10,1
+013_S_4917,train500,FAQ Total Score,6,3
+013_S_4917,train500,NPI-Q Total Score,2,1
+022_S_4320,train500,GDSCALE Total Score,1,0
+022_S_4320,train500,FAQ Total Score,0,1
+099_S_4565,train500,MMSE Total Score,29,28
+099_S_4565,train500,GDSCALE Total Score,0,1
+099_S_4565,train500,Global CDR,0.5,0.0
+099_S_4565,train500,FAQ Total Score,7,3
+099_S_4565,train500,NPI-Q Total Score,2,1
+002_S_4746,train500,MMSE Total Score,27,24
+002_S_4746,train500,GDSCALE Total Score,1,3
+002_S_4746,train500,FAQ Total Score,5,8
+136_S_4433,train500,MMSE Total Score,29,30
+136_S_4433,train500,GDSCALE Total Score,1,0
+136_S_4433,train500,FAQ Total Score,0,1
+098_S_4050,train500,MMSE Total Score,24,29
+098_S_4050,train500,GDSCALE Total Score,3,0
+033_S_0923,train500,Weight,72.1,74.3
+033_S_0923,train500,Age,88.4,83.3
+033_S_0923,train500,MMSE Total Score,29,30
+002_S_1261,train500,Weight,57.2,59.9
+002_S_1261,train500,Age,76.3,71.3
+002_S_1261,train500,GDSCALE Total Score,9,4
+002_S_1261,train500,FAQ Total Score,0,1
+016_S_4353,train500,MMSE Total Score,21,20
+016_S_4353,train500,GDSCALE Total Score,2,5
+016_S_4353,train500,Global CDR,0.0,1.0
+016_S_4353,train500,FAQ Total Score,10,23
+003_S_4892,train500,MMSE Total Score,26,20
+003_S_4892,train500,GDSCALE Total Score,2,5
+003_S_4892,train500,FAQ Total Score,15,17
+941_S_4187,train500,MMSE Total Score,26,24
+941_S_4187,train500,GDSCALE Total Score,2,3
+072_S_2083,train500,Weight,61.0,61.7
+072_S_2083,train500,Age,89.5,88.5
+072_S_2083,train500,MMSE Total Score,27,28
+072_S_2083,train500,Global CDR,0.5,0.0
+072_S_2083,train500,FAQ Total Score,4,1
+072_S_2083,train500,NPI-Q Total Score,2,1
+002_S_4251,train500,MMSE Total Score,30,24
+002_S_4251,train500,GDSCALE Total Score,1,3
+002_S_4251,train500,FAQ Total Score,0,10
+141_S_4456,train500,MMSE Total Score,29,24
+141_S_4456,train500,GDSCALE Total Score,1,3
+141_S_4456,train500,FAQ Total Score,12,9
+116_S_4167,train500,MMSE Total Score,20,25
+116_S_4167,train500,GDSCALE Total Score,1,3
+116_S_4167,train500,Global CDR,1.0,0.5
+116_S_4167,train500,FAQ Total Score,17,7
+002_S_0729,train500,Weight,68.9,60.4
+002_S_0729,train500,Age,70.3,65.3
+002_S_0729,train500,MMSE Total Score,24,27
+002_S_0729,train500,Global CDR,1.0,0.5
+002_S_0729,train500,FAQ Total Score,17,6
+098_S_4506,train500,GDSCALE Total Score,1,0
+098_S_4506,train500,Global CDR,0.5,0.0
+098_S_4506,train500,FAQ Total Score,3,1
+027_S_4802,train500,MMSE Total Score,23,21
+027_S_4802,train500,GDSCALE Total Score,1,5
+027_S_4802,train500,FAQ Total Score,19,24
+007_S_4637,train500,MMSE Total Score,30,29
+007_S_4637,train500,GDSCALE Total Score,1,0
+007_S_4637,train500,FAQ Total Score,0,1
+153_S_4133,train500,MMSE Total Score,28,27
+153_S_4133,train500,GDSCALE Total Score,4,1
+153_S_4133,train500,Global CDR,0.5,0.0
+153_S_4133,train500,FAQ Total Score,0,4
+153_S_4133,train500,NPI-Q Total Score,2,1
+016_S_1326,train500,Age,71.6,66.4
+016_S_1326,train500,MMSE Total Score,16,28
+016_S_1326,train500,GDSCALE Total Score,3,2
+016_S_1326,train500,Global CDR,2.0,0.5
+016_S_1326,train500,FAQ Total Score,25,7
+068_S_4340,train500,MMSE Total Score,28,29
+068_S_4340,train500,GDSCALE Total Score,2,0
+003_S_1074,train500,Weight,63.5,60.3
+003_S_1074,train500,Age,90.8,85.2
+003_S_1074,train500,MMSE Total Score,27,28
+003_S_1074,train500,GDSCALE Total Score,3,0
+003_S_1074,train500,FAQ Total Score,3,6
+100_S_0069,train500,Weight,69.7,68.8
+100_S_0069,train500,Age,79.1,76.3
+100_S_0069,train500,MMSE Total Score,28,30
+072_S_2026,train500,Weight,59.9,60.3
+072_S_2026,train500,Age,83.6,82.7
+072_S_2026,train500,GDSCALE Total Score,0,1
+072_S_2026,train500,Global CDR,0.5,0.0
+072_S_2026,train500,FAQ Total Score,2,3
+072_S_2026,train500,NPI-Q Total Score,2,1
+003_S_0907,train500,Weight,49.0,52.2
+003_S_0907,train500,Age,94.1,88.8
+003_S_0907,train500,FAQ Total Score,0,1
+002_S_1280,train500,Weight,92.5,91.4
+002_S_1280,train500,Age,75.9,70.8
+002_S_1280,train500,MMSE Total Score,28,30
+002_S_1280,train500,GDSCALE Total Score,1,0
+022_S_4291,train500,MMSE Total Score,30,29
+022_S_4291,train500,GDSCALE Total Score,1,0
+022_S_4291,train500,FAQ Total Score,0,1
+137_S_4816,train500,MMSE Total Score,24,28
+137_S_4816,train500,GDSCALE Total Score,4,1
+137_S_4816,train500,Global CDR,0.5,0.0
+137_S_4816,train500,FAQ Total Score,9,4
+137_S_4816,train500,NPI-Q Total Score,2,1
+014_S_4668,train500,MMSE Total Score,26,25
+014_S_4668,train500,FAQ Total Score,10,9
+003_S_4350,train500,MMSE Total Score,30,29
+003_S_4350,train500,GDSCALE Total Score,5,0
+003_S_4350,train500,FAQ Total Score,1,0
+019_S_5019,train500,MMSE Total Score,19,21
+019_S_5019,train500,GDSCALE Total Score,2,5
+019_S_5019,train500,FAQ Total Score,23,18
+141_S_4976,train500,MMSE Total Score,28,24
+141_S_4976,train500,GDSCALE Total Score,4,3
+141_S_4976,train500,FAQ Total Score,0,11
+016_S_4584,train500,MMSE Total Score,26,25
+016_S_4584,train500,GDSCALE Total Score,1,3
+016_S_4584,train500,FAQ Total Score,4,7
+016_S_4097,train500,GDSCALE Total Score,1,0
+016_S_4097,train500,FAQ Total Score,0,1
+068_S_4217,train500,MMSE Total Score,28,27
+068_S_4217,train500,GDSCALE Total Score,4,1
+068_S_4217,train500,Global CDR,0.5,0.0
+068_S_4217,train500,FAQ Total Score,2,5
+068_S_4217,train500,NPI-Q Total Score,2,1
+023_S_4448,train500,GDSCALE Total Score,4,0
+023_S_4448,train500,FAQ Total Score,0,1
+022_S_2167,train500,Weight,72.1,71.7
+022_S_2167,train500,Age,82.1,80.9
+022_S_2167,train500,MMSE Total Score,30,28
+022_S_2167,train500,FAQ Total Score,1,3
+072_S_4063,train500,MMSE Total Score,30,28
+072_S_4063,train500,GDSCALE Total Score,0,1
+072_S_4063,train500,Global CDR,0.5,0.0
+072_S_4063,train500,FAQ Total Score,0,4
+072_S_4063,train500,NPI-Q Total Score,2,1
+027_S_4757,train500,MMSE Total Score,23,25
+027_S_4757,train500,FAQ Total Score,4,10
+018_S_4868,train500,MMSE Total Score,25,27
+018_S_4868,train500,Global CDR,0.5,0.0
+018_S_4868,train500,FAQ Total Score,2,3
+018_S_4868,train500,NPI-Q Total Score,2,1
+023_S_2068,train500,Weight,112.6,106.0
+023_S_2068,train500,Age,84.3,83.3
+023_S_2068,train500,MMSE Total Score,26,28
+023_S_2068,train500,GDSCALE Total Score,0,1
+023_S_2068,train500,Global CDR,0.5,0.0
+023_S_2068,train500,NPI-Q Total Score,2,0
+123_S_2055,train500,Weight,82.1,83.9
+123_S_2055,train500,Age,76.4,75.3
+123_S_2055,train500,MMSE Total Score,25,27
+123_S_2055,train500,Global CDR,0.5,0.0
+123_S_2055,train500,FAQ Total Score,12,8
+123_S_2055,train500,NPI-Q Total Score,2,6
+126_S_2360,train500,Weight,88.2,86.7
+126_S_2360,train500,Age,64.2,63.2
+126_S_2360,train500,MMSE Total Score,29,28
+126_S_2360,train500,GDSCALE Total Score,3,1
+126_S_2360,train500,FAQ Total Score,1,3
+126_S_2360,train500,NPI-Q Total Score,2,4
+027_S_5169,train500,FAQ Total Score,0,1
+035_S_4256,train500,GDSCALE Total Score,6,1
+035_S_4256,train500,FAQ Total Score,1,3
+035_S_4256,train500,NPI-Q Total Score,2,1
+116_S_4625,train500,MMSE Total Score,20,21
+116_S_4625,train500,GDSCALE Total Score,2,5
+116_S_4625,train500,FAQ Total Score,14,18
+137_S_4587,train500,MMSE Total Score,29,30
+137_S_4587,train500,FAQ Total Score,0,1
+018_S_4597,train500,MMSE Total Score,28,27
+018_S_4597,train500,GDSCALE Total Score,4,1
+018_S_4597,train500,Global CDR,0.5,0.0
+018_S_4597,train500,FAQ Total Score,2,5
+018_S_4597,train500,NPI-Q Total Score,2,1
+130_S_4925,train500,MMSE Total Score,19,24
+130_S_4925,train500,GDSCALE Total Score,6,3
+130_S_4925,train500,FAQ Total Score,5,7
+009_S_2208,train500,Weight,84.4,80.8
+009_S_2208,train500,Age,70.1,69.0
+009_S_2208,train500,MMSE Total Score,30,28
+009_S_2208,train500,GDSCALE Total Score,0,1
+009_S_2208,train500,FAQ Total Score,0,1
+130_S_4417,train500,MMSE Total Score,30,27
+130_S_4417,train500,Global CDR,0.5,0.0
+130_S_4417,train500,FAQ Total Score,1,3
+130_S_4417,train500,NPI-Q Total Score,2,1
+021_S_4718,train500,MMSE Total Score,16,21
+021_S_4718,train500,GDSCALE Total Score,2,5
+021_S_4718,train500,FAQ Total Score,24,18
+023_S_0058,train500,Weight,73.7,72.1
+023_S_0058,train500,Age,75.6,70.2
+023_S_0058,train500,MMSE Total Score,29,30
+035_S_4464,train500,MMSE Total Score,29,30
+123_S_4806,train500,MMSE Total Score,27,24
+123_S_4806,train500,GDSCALE Total Score,4,3
+123_S_4806,train500,FAQ Total Score,15,11
+051_S_5005,train500,MMSE Total Score,20,19
+051_S_5005,train500,GDSCALE Total Score,0,5
+051_S_5005,train500,FAQ Total Score,26,20
+023_S_1190,train500,Weight,59.1,59.4
+023_S_1190,train500,Age,80.8,76.6
+023_S_1190,train500,MMSE Total Score,28,30
+023_S_1190,train500,GDSCALE Total Score,3,1
+023_S_1190,train500,Global CDR,0.5,0.0
+023_S_1190,train500,FAQ Total Score,3,1
+009_S_5027,train500,MMSE Total Score,20,21
+009_S_5027,train500,GDSCALE Total Score,4,5
+009_S_5027,train500,FAQ Total Score,13,23
+016_S_0702,train500,Weight,79.8,91.6
+016_S_0702,train500,Age,90.2,85.1
+016_S_0702,train500,MMSE Total Score,19,27
+016_S_0702,train500,GDSCALE Total Score,1,0
+016_S_0702,train500,Global CDR,2.0,0.5
+016_S_0702,train500,FAQ Total Score,29,7
+018_S_4889,train500,MMSE Total Score,27,24
+018_S_4889,train500,FAQ Total Score,6,10
+013_S_4616,train500,MMSE Total Score,29,30
+013_S_4616,train500,FAQ Total Score,0,1
+019_S_4548,train500,MMSE Total Score,29,24
+019_S_4548,train500,GDSCALE Total Score,1,3
+019_S_4548,train500,FAQ Total Score,1,8
+130_S_4984,train500,MMSE Total Score,14,21
+130_S_4984,train500,GDSCALE Total Score,1,5
+130_S_4984,train500,FAQ Total Score,25,19
+129_S_1246,train500,Weight,65.8,68.6
+129_S_1246,train500,Age,76.7,72.5
+129_S_1246,train500,GDSCALE Total Score,0,1
+052_S_4944,train500,MMSE Total Score,28,27
+052_S_4944,train500,GDSCALE Total Score,3,2
+052_S_4944,train500,FAQ Total Score,2,6
+153_S_4151,train500,MMSE Total Score,28,29
+153_S_4151,train500,GDSCALE Total Score,2,0
+153_S_4151,train500,FAQ Total Score,3,1
+009_S_5224,train500,MMSE Total Score,21,19
+009_S_5224,train500,GDSCALE Total Score,2,5
+009_S_5224,train500,Global CDR,0.0,1.0
+009_S_5224,train500,FAQ Total Score,12,19
+014_S_4328,train500,MMSE Total Score,26,28
+014_S_4328,train500,GDSCALE Total Score,2,1
+014_S_4328,train500,Global CDR,0.0,0.5
+014_S_4328,train500,FAQ Total Score,1,3
+014_S_4328,train500,NPI-Q Total Score,2,1
+021_S_4421,train500,GDSCALE Total Score,2,0
+021_S_4402,train500,MMSE Total Score,22,24
+021_S_4402,train500,GDSCALE Total Score,2,3
+021_S_4402,train500,Global CDR,1.0,0.5
+021_S_4402,train500,FAQ Total Score,14,9
+023_S_4122,train500,MMSE Total Score,27,25
+023_S_4122,train500,GDSCALE Total Score,0,3
+023_S_4122,train500,FAQ Total Score,3,10
+072_S_4226,train500,MMSE Total Score,30,28
+072_S_4226,train500,GDSCALE Total Score,0,1
+072_S_4226,train500,FAQ Total Score,0,5
+072_S_4226,train500,NPI-Q Total Score,2,1
+009_S_4543,train500,MMSE Total Score,30,25
+009_S_4543,train500,GDSCALE Total Score,0,3
+009_S_4543,train500,Global CDR,0.0,0.5
+009_S_4543,train500,FAQ Total Score,0,8
+098_S_4059,train500,MMSE Total Score,26,27
+098_S_4059,train500,GDSCALE Total Score,2,1
+098_S_4059,train500,Global CDR,0.5,0.0
+098_S_4059,train500,FAQ Total Score,9,5
+098_S_4059,train500,NPI-Q Total Score,2,1
+072_S_4462,train500,MMSE Total Score,27,25
+072_S_4462,train500,GDSCALE Total Score,1,3
+072_S_4462,train500,FAQ Total Score,1,10
+153_S_4077,train500,MMSE Total Score,28,24
+153_S_4077,train500,GDSCALE Total Score,0,3
+153_S_4077,train500,FAQ Total Score,1,8
+016_S_4591,train500,MMSE Total Score,24,19
+016_S_4591,train500,GDSCALE Total Score,6,5
+016_S_4591,train500,FAQ Total Score,20,17
+153_S_4297,train500,Global CDR,0.5,0.0
+153_S_4297,train500,FAQ Total Score,2,5
+153_S_4297,train500,NPI-Q Total Score,2,1
+137_S_4536,train500,MMSE Total Score,27,28
+137_S_4536,train500,Global CDR,0.0,0.5
+137_S_4536,train500,FAQ Total Score,1,4
+137_S_4536,train500,NPI-Q Total Score,2,1
+116_S_4338,train500,MMSE Total Score,20,21
+116_S_4338,train500,GDSCALE Total Score,4,5
+116_S_4338,train500,FAQ Total Score,18,24
+153_S_2148,train500,Weight,80.6,82.6
+153_S_2148,train500,Age,68.9,67.9
+153_S_2148,train500,MMSE Total Score,30,28
+153_S_2148,train500,GDSCALE Total Score,0,1
+130_S_4250,train500,MMSE Total Score,25,24
+130_S_4250,train500,GDSCALE Total Score,2,3
+130_S_4250,train500,FAQ Total Score,16,9
+068_S_4061,train500,MMSE Total Score,28,24
+068_S_4061,train500,GDSCALE Total Score,4,3
+068_S_4061,train500,Global CDR,0.0,0.5
+068_S_4061,train500,FAQ Total Score,1,7
+057_S_2398,train500,Weight,80.0,84.5
+057_S_2398,train500,Age,72.7,71.7
+057_S_2398,train500,MMSE Total Score,24,27
+057_S_2398,train500,GDSCALE Total Score,5,1
+057_S_2398,train500,Global CDR,1.0,0.0
+057_S_2398,train500,FAQ Total Score,17,2
+057_S_2398,train500,NPI-Q Total Score,2,1
+072_S_4694,train500,MMSE Total Score,28,27
+072_S_4694,train500,FAQ Total Score,1,4
+072_S_4694,train500,NPI-Q Total Score,2,1
+126_S_4458,train500,GDSCALE Total Score,1,3
+126_S_4458,train500,Global CDR,1.0,0.5
+126_S_4458,train500,FAQ Total Score,13,7
+126_S_4675,train500,MMSE Total Score,23,24
+126_S_4675,train500,GDSCALE Total Score,1,3
+126_S_4675,train500,FAQ Total Score,5,11
+003_S_4288,train500,MMSE Total Score,29,30
+003_S_4288,train500,FAQ Total Score,0,1
+018_S_4399,train500,MMSE Total Score,29,30
+018_S_4399,train500,GDSCALE Total Score,1,0
+035_S_4085,train500,MMSE Total Score,28,27
+035_S_4085,train500,Global CDR,0.0,0.5
+035_S_4085,train500,FAQ Total Score,1,3
+035_S_4085,train500,NPI-Q Total Score,2,1
+072_S_4206,train500,MMSE Total Score,27,28
+072_S_4206,train500,GDSCALE Total Score,3,1
+072_S_4206,train500,Global CDR,0.5,0.0
+072_S_4206,train500,FAQ Total Score,1,4
+072_S_4206,train500,NPI-Q Total Score,2,1
+016_S_2007,train500,Weight,52.6,53.5
+016_S_2007,train500,Age,84.4,83.7
+016_S_2007,train500,MMSE Total Score,29,27
+016_S_2007,train500,GDSCALE Total Score,0,1
+016_S_2007,train500,FAQ Total Score,5,2
+016_S_2007,train500,NPI-Q Total Score,2,1
+123_S_4780,train500,MMSE Total Score,29,27
+123_S_4780,train500,GDSCALE Total Score,2,1
+123_S_4780,train500,Global CDR,0.5,0.0
+123_S_4780,train500,FAQ Total Score,1,3
+123_S_4780,train500,NPI-Q Total Score,2,1
+068_S_4067,train500,MMSE Total Score,28,27
+068_S_4067,train500,GDSCALE Total Score,0,1
+068_S_4067,train500,FAQ Total Score,0,3
+068_S_4067,train500,NPI-Q Total Score,2,1
+036_S_4430,train500,MMSE Total Score,19,24
+036_S_4430,train500,GDSCALE Total Score,1,3
+036_S_4430,train500,FAQ Total Score,12,9
+116_S_4209,train500,MMSE Total Score,21,20
+116_S_4209,train500,GDSCALE Total Score,2,5
+116_S_4209,train500,Global CDR,0.0,1.0
+116_S_4209,train500,FAQ Total Score,15,24
+019_S_4367,train500,MMSE Total Score,29,30
+019_S_4367,train500,FAQ Total Score,0,1
+052_S_1346,train500,Weight,76.2,77.1
+052_S_1346,train500,Age,77.8,72.7
+052_S_1346,train500,MMSE Total Score,24,29
+052_S_1346,train500,Global CDR,1.0,0.5
+052_S_1346,train500,FAQ Total Score,23,6
+126_S_2405,train500,Weight,67.0,65.4
+126_S_2405,train500,Age,72.7,71.8
+126_S_2405,train500,MMSE Total Score,26,27
+126_S_2405,train500,GDSCALE Total Score,3,1
+126_S_2405,train500,FAQ Total Score,1,0
+126_S_2405,train500,NPI-Q Total Score,2,6
+003_S_4354,train500,MMSE Total Score,26,24
+003_S_4354,train500,GDSCALE Total Score,0,3
+003_S_4354,train500,FAQ Total Score,1,9
+114_S_0416,train500,Weight,47.2,50.8
+114_S_0416,train500,Age,78.6,72.7
+114_S_0416,train500,MMSE Total Score,28,29
+114_S_0416,train500,Global CDR,0.5,0.0
+114_S_0416,train500,FAQ Total Score,0,1
+023_S_4115,train500,MMSE Total Score,30,26
+023_S_4115,train500,FAQ Total Score,4,6
+098_S_0172,train500,Weight,60.8,63.0
+098_S_0172,train500,Age,75.7,70.7
+098_S_0172,train500,FAQ Total Score,0,1
+018_S_5240,train500,MMSE Total Score,21,19
+018_S_5240,train500,GDSCALE Total Score,2,5
+018_S_5240,train500,Global CDR,0.0,1.0
+018_S_5240,train500,FAQ Total Score,4,23
+136_S_4408,train500,MMSE Total Score,26,25
+136_S_4408,train500,GDSCALE Total Score,1,3
+136_S_4408,train500,Global CDR,0.0,0.5
+136_S_4408,train500,FAQ Total Score,2,7
+019_S_4252,train500,MMSE Total Score,17,20
+019_S_4252,train500,GDSCALE Total Score,0,5
+019_S_4252,train500,FAQ Total Score,29,18
+130_S_2391,train500,Weight,72.5,75.7
+130_S_2391,train500,Age,72.9,71.9
+130_S_2391,train500,MMSE Total Score,26,28
+130_S_2391,train500,GDSCALE Total Score,3,1
+130_S_2391,train500,Global CDR,0.5,0.0
+130_S_2391,train500,FAQ Total Score,6,3
+130_S_2391,train500,NPI-Q Total Score,2,1
+153_S_2109,train500,Weight,68.8,70.3
+153_S_2109,train500,Age,76.4,75.4
+153_S_2109,train500,MMSE Total Score,26,28
+153_S_2109,train500,GDSCALE Total Score,0,1
+153_S_2109,train500,Global CDR,0.5,0.0
+153_S_2109,train500,FAQ Total Score,10,9
+016_S_4688,train500,FAQ Total Score,0,1
+116_S_4898,train500,MMSE Total Score,29,28
+116_S_4898,train500,GDSCALE Total Score,2,1
+116_S_4898,train500,Global CDR,0.5,0.0
+116_S_4898,train500,FAQ Total Score,0,5
+116_S_4898,train500,NPI-Q Total Score,2,1
+013_S_5071,train500,MMSE Total Score,19,20
+013_S_5071,train500,FAQ Total Score,19,17
+018_S_4809,train500,MMSE Total Score,25,28
+018_S_4809,train500,GDSCALE Total Score,3,1
+018_S_4809,train500,Global CDR,0.5,0.0
+018_S_4809,train500,FAQ Total Score,1,5
+018_S_4809,train500,NPI-Q Total Score,2,1
+033_S_1016,train500,Weight,54.8,57.2
+033_S_1016,train500,Age,84.5,78.5
+033_S_1016,train500,GDSCALE Total Score,2,1
+072_S_2027,train500,Weight,85.3,84.8
+072_S_2027,train500,Age,63.1,62.1
+072_S_2027,train500,MMSE Total Score,30,27
+072_S_2027,train500,GDSCALE Total Score,0,1
+072_S_2027,train500,Global CDR,0.5,0.0
+072_S_2027,train500,FAQ Total Score,0,1
+072_S_2027,train500,NPI-Q Total Score,2,0
+014_S_4039,train500,MMSE Total Score,18,19
+014_S_4039,train500,GDSCALE Total Score,1,5
+014_S_4039,train500,Global CDR,0.5,1.0
+014_S_4039,train500,FAQ Total Score,22,19
+130_S_0886,train500,Weight,95.3,101.2
+130_S_0886,train500,Age,76.5,71.4
+130_S_0886,train500,MMSE Total Score,30,28
+070_S_4719,train500,MMSE Total Score,21,20
+070_S_4719,train500,GDSCALE Total Score,2,5
+070_S_4719,train500,Global CDR,0.0,1.0
+070_S_4719,train500,FAQ Total Score,18,20
+137_S_0994,train500,Weight,64.2,71.7
+137_S_0994,train500,Age,60.3,55.2
+137_S_0994,train500,MMSE Total Score,20,27
+137_S_0994,train500,GDSCALE Total Score,0,1
+137_S_0994,train500,Global CDR,1.0,0.5
+137_S_0994,train500,FAQ Total Score,22,6
+016_S_4646,train500,MMSE Total Score,28,24
+016_S_4646,train500,GDSCALE Total Score,1,3
+016_S_4646,train500,FAQ Total Score,4,9
+022_S_4444,train500,MMSE Total Score,29,24
+022_S_4444,train500,GDSCALE Total Score,1,3
+022_S_4444,train500,FAQ Total Score,2,9
+023_S_4243,train500,MMSE Total Score,22,25
+023_S_4243,train500,FAQ Total Score,9,11
+033_S_5013,train500,MMSE Total Score,23,19
+033_S_5013,train500,GDSCALE Total Score,8,5
+033_S_5013,train500,Global CDR,0.5,1.0
+033_S_5013,train500,FAQ Total Score,6,21
+082_S_5014,train500,GDSCALE Total Score,5,1
+082_S_5014,train500,FAQ Total Score,10,4
+082_S_5014,train500,NPI-Q Total Score,2,1
+099_S_4157,train500,MMSE Total Score,26,28
+099_S_4157,train500,GDSCALE Total Score,0,1
+099_S_4157,train500,Global CDR,0.5,0.0
+099_S_4157,train500,FAQ Total Score,1,3
+099_S_4157,train500,NPI-Q Total Score,2,1
+114_S_5047,train500,MMSE Total Score,26,24
+114_S_5047,train500,GDSCALE Total Score,1,3
+114_S_5047,train500,FAQ Total Score,2,7
+082_S_2307,train500,Weight,65.7,68.0
+082_S_2307,train500,Age,79.8,78.7
+082_S_2307,train500,MMSE Total Score,29,27
+082_S_2307,train500,GDSCALE Total Score,5,1
+082_S_2307,train500,FAQ Total Score,4,1
+082_S_2307,train500,NPI-Q Total Score,2,3
+130_S_0969,train500,Weight,62.1,68.0
+130_S_0969,train500,Age,75.2,70.1
+072_S_4131,train500,GDSCALE Total Score,1,3
+072_S_4131,train500,FAQ Total Score,6,10
+016_S_4902,train500,MMSE Total Score,23,24
+016_S_4902,train500,GDSCALE Total Score,1,3
+016_S_4902,train500,Global CDR,1.0,0.5
+082_S_4224,train500,FAQ Total Score,0,1
+027_S_4873,train500,MMSE Total Score,22,24
+027_S_4873,train500,GDSCALE Total Score,1,3
+027_S_4873,train500,FAQ Total Score,5,11
+941_S_4036,train500,MMSE Total Score,29,28
+941_S_4036,train500,Global CDR,0.5,0.0
+941_S_4036,train500,FAQ Total Score,3,5
+941_S_4036,train500,NPI-Q Total Score,2,1
+027_S_4801,train500,MMSE Total Score,19,21
+027_S_4801,train500,GDSCALE Total Score,1,5
+027_S_4801,train500,FAQ Total Score,17,18
+016_S_5031,train500,MMSE Total Score,25,27
+016_S_5031,train500,GDSCALE Total Score,3,1
+016_S_5031,train500,Global CDR,1.0,0.0
+016_S_5031,train500,FAQ Total Score,12,3
+016_S_5031,train500,NPI-Q Total Score,2,1
+130_S_5059,train500,MMSE Total Score,16,19
+130_S_5059,train500,GDSCALE Total Score,2,5
+130_S_5059,train500,FAQ Total Score,16,19
+137_S_4331,train500,MMSE Total Score,29,28
+137_S_4331,train500,GDSCALE Total Score,2,1
+137_S_4331,train500,Global CDR,0.5,0.0
+137_S_4331,train500,FAQ Total Score,5,4
+137_S_4331,train500,NPI-Q Total Score,2,1
+099_S_4104,train500,GDSCALE Total Score,3,0
+099_S_4104,train500,FAQ Total Score,2,1
+126_S_0680,train500,Weight,83.9,89.8
+126_S_0680,train500,Age,83.9,77.9
+126_S_0680,train500,MMSE Total Score,30,28
+126_S_0680,train500,GDSCALE Total Score,2,3
+126_S_0680,train500,Global CDR,0.5,0.0
+126_S_0680,train500,FAQ Total Score,5,0
+072_S_4539,train500,MMSE Total Score,29,27
+072_S_4539,train500,GDSCALE Total Score,2,1
+072_S_4539,train500,Global CDR,0.5,0.0
+072_S_4539,train500,FAQ Total Score,1,4
+072_S_4539,train500,NPI-Q Total Score,2,1
+116_S_4043,train500,GDSCALE Total Score,1,0
+072_S_4610,train500,MMSE Total Score,22,27
+072_S_4610,train500,GDSCALE Total Score,4,1
+072_S_4610,train500,Global CDR,0.5,0.0
+072_S_4610,train500,FAQ Total Score,4,3
+072_S_4610,train500,NPI-Q Total Score,2,1
+070_S_4793,train500,MMSE Total Score,24,25
+070_S_4793,train500,GDSCALE Total Score,0,3
+070_S_4793,train500,FAQ Total Score,3,10
+116_S_4732,train500,GDSCALE Total Score,8,5
+116_S_4732,train500,Global CDR,0.5,1.0
+116_S_4732,train500,FAQ Total Score,18,21
+100_S_4512,train500,MMSE Total Score,26,27
+100_S_4512,train500,Global CDR,0.5,0.0
+100_S_4512,train500,FAQ Total Score,0,3
+100_S_4512,train500,NPI-Q Total Score,2,1
+082_S_4339,train500,MMSE Total Score,28,30
+016_S_2031,train500,Weight,80.7,86.2
+016_S_2031,train500,Age,73.6,72.8
+016_S_2031,train500,MMSE Total Score,28,27
+016_S_2031,train500,GDSCALE Total Score,2,1
+016_S_2031,train500,Global CDR,0.5,0.0
+016_S_2031,train500,FAQ Total Score,3,2
+016_S_2031,train500,NPI-Q Total Score,2,9
+022_S_4196,train500,MMSE Total Score,28,30
+022_S_4196,train500,GDSCALE Total Score,2,0
+082_S_5184,train500,MMSE Total Score,21,20
+082_S_5184,train500,GDSCALE Total Score,2,5
+082_S_5184,train500,Global CDR,0.0,1.0
+082_S_5184,train500,FAQ Total Score,2,19
+153_S_4838,train500,GDSCALE Total Score,4,1
+153_S_4838,train500,FAQ Total Score,7,3
+153_S_4838,train500,NPI-Q Total Score,2,1
+137_S_4815,train500,FAQ Total Score,9,8
+072_S_4390,train500,MMSE Total Score,29,27
+072_S_4390,train500,GDSCALE Total Score,5,1
+072_S_4390,train500,FAQ Total Score,1,4
+072_S_4390,train500,NPI-Q Total Score,2,1
+019_S_4477,train500,MMSE Total Score,17,21
+019_S_4477,train500,GDSCALE Total Score,0,5
+019_S_4477,train500,FAQ Total Score,23,17
+116_S_4199,train500,MMSE Total Score,27,28
+116_S_4199,train500,GDSCALE Total Score,7,1
+116_S_4199,train500,NPI-Q Total Score,2,1
+027_S_5093,train500,MMSE Total Score,30,29
+027_S_5093,train500,GDSCALE Total Score,2,0
+027_S_5093,train500,FAQ Total Score,0,1
+137_S_4623,train500,GDSCALE Total Score,2,1
+137_S_4623,train500,Global CDR,0.5,0.0
+137_S_4623,train500,FAQ Total Score,10,4
+137_S_4623,train500,NPI-Q Total Score,2,1
+098_S_0269,train500,Weight,72.6,74.3
+098_S_0269,train500,Age,72.3,67.2
+098_S_0269,train500,MMSE Total Score,12,28
+098_S_0269,train500,GDSCALE Total Score,2,1
+098_S_0269,train500,Global CDR,2.0,0.5
+098_S_0269,train500,FAQ Total Score,30,5
+021_S_4419,train500,MMSE Total Score,30,28
+021_S_4419,train500,GDSCALE Total Score,8,1
+021_S_4419,train500,Global CDR,0.5,0.0
+021_S_4419,train500,FAQ Total Score,2,5
+021_S_4419,train500,NPI-Q Total Score,2,1
+072_S_4445,train500,MMSE Total Score,29,28
+072_S_4445,train500,GDSCALE Total Score,2,1
+072_S_4445,train500,Global CDR,0.5,0.0
+072_S_4445,train500,FAQ Total Score,0,4
+072_S_4445,train500,NPI-Q Total Score,2,1
+018_S_2180,train500,Weight,69.9,68.8
+018_S_2180,train500,Age,79.0,78.0
+018_S_2180,train500,MMSE Total Score,28,27
+018_S_2180,train500,GDSCALE Total Score,2,1
+018_S_2180,train500,FAQ Total Score,0,2
+018_S_2180,train500,NPI-Q Total Score,2,1
+023_S_4035,train500,MMSE Total Score,20,24
+023_S_4035,train500,GDSCALE Total Score,2,3
+023_S_4035,train500,Global CDR,1.0,0.5
+023_S_4035,train500,FAQ Total Score,14,8
+035_S_4582,train500,MMSE Total Score,24,25
+035_S_4582,train500,GDSCALE Total Score,1,3
+035_S_4582,train500,FAQ Total Score,11,9
+027_S_5083,train500,GDSCALE Total Score,1,0
+016_S_4121,train500,MMSE Total Score,26,30
+016_S_4121,train500,FAQ Total Score,0,1
+016_S_4601,train500,MMSE Total Score,28,27
+016_S_4601,train500,FAQ Total Score,0,4
+016_S_4601,train500,NPI-Q Total Score,2,1
+114_S_2392,train500,Weight,72.6,73.2
+114_S_2392,train500,Age,65.7,65.1
+114_S_2392,train500,MMSE Total Score,28,29
+114_S_2392,train500,GDSCALE Total Score,7,6
+027_S_4919,train500,MMSE Total Score,28,26
+027_S_4919,train500,FAQ Total Score,0,6
+130_S_4352,train500,MMSE Total Score,28,30
+130_S_4352,train500,GDSCALE Total Score,1,0
+099_S_4994,train500,MMSE Total Score,21,19
+099_S_4994,train500,GDSCALE Total Score,2,5
+099_S_4994,train500,Global CDR,0.0,1.0
+099_S_4994,train500,FAQ Total Score,15,24
+016_S_4952,train500,MMSE Total Score,30,29
+016_S_4952,train500,FAQ Total Score,0,1
+941_S_4066,train500,GDSCALE Total Score,1,0
+941_S_4066,train500,FAQ Total Score,0,1
+068_S_4274,train500,MMSE Total Score,29,28
+068_S_4274,train500,FAQ Total Score,0,4
+068_S_4274,train500,NPI-Q Total Score,2,1
+141_S_4160,train500,MMSE Total Score,29,27
+141_S_4160,train500,GDSCALE Total Score,2,1
+141_S_4160,train500,Global CDR,0.0,0.5
+141_S_4160,train500,FAQ Total Score,5,3
+141_S_4160,train500,NPI-Q Total Score,2,1
+130_S_4817,train500,MMSE Total Score,28,25
+130_S_4817,train500,FAQ Total Score,1,10
+014_S_4615,train500,MMSE Total Score,23,19
+014_S_4615,train500,GDSCALE Total Score,1,5
+014_S_4615,train500,FAQ Total Score,19,23
+123_S_2363,train500,Weight,83.9,82.6
+123_S_2363,train500,Age,60.0,59.0
+123_S_2363,train500,GDSCALE Total Score,3,1
+123_S_2363,train500,FAQ Total Score,9,6
+123_S_2363,train500,NPI-Q Total Score,2,7
+114_S_4379,train500,MMSE Total Score,28,21
+114_S_4379,train500,GDSCALE Total Score,2,5
+114_S_4379,train500,Global CDR,0.5,1.0
+114_S_4379,train500,FAQ Total Score,4,17
+018_S_0142,train500,Weight,74.8,71.7
+018_S_0142,train500,Age,85.5,79.3
+018_S_0142,train500,GDSCALE Total Score,1,2
+018_S_0142,train500,FAQ Total Score,2,0
+018_S_0142,train500,NPI-Q Total Score,3,2
+116_S_4483,train500,MMSE Total Score,29,30
+116_S_4483,train500,GDSCALE Total Score,2,0
+116_S_4483,train500,FAQ Total Score,2,0
+003_S_4872,train500,MMSE Total Score,28,30
+003_S_4872,train500,GDSCALE Total Score,1,0
+141_S_4232,train500,MMSE Total Score,28,27
+141_S_4232,train500,Global CDR,0.5,0.0
+141_S_4232,train500,FAQ Total Score,1,5
+141_S_4232,train500,NPI-Q Total Score,2,1
+009_S_0842,train500,Weight,65.0,65.8
+009_S_0842,train500,Age,78.9,73.7
+009_S_0842,train500,MMSE Total Score,29,28
+009_S_0842,train500,GDSCALE Total Score,1,0
+009_S_0842,train500,Global CDR,0.5,0.0
+068_S_4174,train500,MMSE Total Score,30,29
+068_S_4174,train500,GDSCALE Total Score,1,0
+013_S_1186,train500,Weight,78.7,78.0
+013_S_1186,train500,Age,88.4,83.3
+013_S_1186,train500,MMSE Total Score,25,28
+013_S_1186,train500,GDSCALE Total Score,5,3
+013_S_1186,train500,FAQ Total Score,4,7
+033_S_4177,train500,MMSE Total Score,30,29
+033_S_4177,train500,FAQ Total Score,0,1
+023_S_0031,train500,Weight,60.8,71.7
+023_S_0031,train500,Age,83.9,77.8
+023_S_0031,train500,GDSCALE Total Score,1,0
+126_S_4494,train500,MMSE Total Score,22,20
+126_S_4494,train500,GDSCALE Total Score,1,5
+126_S_4494,train500,FAQ Total Score,12,17
+021_S_4245,train500,MMSE Total Score,26,27
+021_S_4245,train500,GDSCALE Total Score,4,1
+021_S_4245,train500,FAQ Total Score,7,4
+021_S_4245,train500,NPI-Q Total Score,2,1
+002_S_4219,train500,MMSE Total Score,29,25
+002_S_4219,train500,GDSCALE Total Score,0,3
+002_S_4219,train500,FAQ Total Score,0,11
+003_S_4152,train500,GDSCALE Total Score,2,5
+003_S_4152,train500,Global CDR,0.0,1.0
+003_S_4152,train500,FAQ Total Score,16,20
+003_S_0981,train500,Weight,79.8,78.7
+003_S_0981,train500,Age,89.9,84.4
+003_S_0981,train500,MMSE Total Score,30,29
+003_S_0981,train500,GDSCALE Total Score,2,0
+021_S_4857,train500,GDSCALE Total Score,4,3
+021_S_4857,train500,Global CDR,1.0,0.5
+021_S_4857,train500,FAQ Total Score,20,8
+018_S_4696,train500,MMSE Total Score,12,21
+018_S_4696,train500,GDSCALE Total Score,0,5
+018_S_4696,train500,Global CDR,2.0,1.0
+018_S_4696,train500,FAQ Total Score,21,17
+130_S_2403,train500,Weight,55.3,54.9
+130_S_2403,train500,Age,80.4,79.4
+130_S_2403,train500,MMSE Total Score,26,27
+130_S_2403,train500,Global CDR,1.0,0.0
+130_S_2403,train500,FAQ Total Score,14,9
+130_S_2403,train500,NPI-Q Total Score,2,4
+100_S_5075,train500,GDSCALE Total Score,1,0
+100_S_5075,train500,FAQ Total Score,0,1
+027_S_4804,train500,MMSE Total Score,28,24
+027_S_4804,train500,GDSCALE Total Score,2,3
+027_S_4804,train500,FAQ Total Score,1,9
+013_S_4985,train500,GDSCALE Total Score,1,3
+013_S_4985,train500,FAQ Total Score,0,7
+007_S_2394,train500,Weight,67.7,67.5
+007_S_2394,train500,Age,68.6,67.6
+007_S_2394,train500,MMSE Total Score,30,26
+007_S_2394,train500,Global CDR,0.5,0.0
+007_S_2394,train500,NPI-Q Total Score,3,0
+033_S_1098,train500,Weight,74.4,69.5
+033_S_1098,train500,Age,77.1,72.1
+033_S_1098,train500,MMSE Total Score,27,29
+033_S_1098,train500,GDSCALE Total Score,4,2
+033_S_1098,train500,FAQ Total Score,7,1
+123_S_4127,train500,Research Group,EMCI,MCI
+123_S_4127,train500,MMSE Total Score,29,27
+123_S_4127,train500,GDSCALE Total Score,4,2
+123_S_4127,train500,Global CDR,0.5,0.0
+123_S_4127,train500,FAQ Total Score,2,5
+123_S_4127,train500,NPI-Q Total Score,2,3
+098_S_4275,train500,MMSE Total Score,29,30
+098_S_4275,train500,GDSCALE Total Score,1,0
+098_S_4275,train500,FAQ Total Score,0,1
+126_S_1187,train500,Weight,66.4,61.2
+126_S_1187,train500,Age,81.6,76.5
+126_S_1187,train500,MMSE Total Score,27,28
+126_S_1187,train500,GDSCALE Total Score,1,0
+126_S_1187,train500,FAQ Total Score,0,4
+022_S_4173,train500,MMSE Total Score,30,29
+022_S_4173,train500,GDSCALE Total Score,1,0
+022_S_4173,train500,FAQ Total Score,0,1
+003_S_4524,train500,MMSE Total Score,26,24
+003_S_4524,train500,GDSCALE Total Score,1,3
+003_S_4524,train500,Global CDR,0.0,0.5
+003_S_4524,train500,FAQ Total Score,4,9
+137_S_4211,train500,MMSE Total Score,18,20
+137_S_4211,train500,GDSCALE Total Score,3,5
+137_S_4211,train500,Global CDR,0.5,1.0
+137_S_4211,train500,FAQ Total Score,10,20
+126_S_4686,train500,MMSE Total Score,26,21
+126_S_4686,train500,GDSCALE Total Score,2,5
+126_S_4686,train500,Global CDR,0.5,1.0
+126_S_4686,train500,FAQ Total Score,7,24
+023_S_4796,train500,MMSE Total Score,20,25
+023_S_4796,train500,GDSCALE Total Score,0,3
+023_S_4796,train500,Global CDR,1.0,0.5
+023_S_4796,train500,FAQ Total Score,12,9
+068_S_4134,train500,MMSE Total Score,30,28
+068_S_4134,train500,Global CDR,0.5,0.0
+068_S_4134,train500,NPI-Q Total Score,2,1
+099_S_4022,train500,MMSE Total Score,24,27
+099_S_4022,train500,GDSCALE Total Score,4,1
+099_S_4022,train500,FAQ Total Score,1,4
+099_S_4022,train500,NPI-Q Total Score,2,1
+035_S_4114,train500,MMSE Total Score,26,24
+035_S_4114,train500,FAQ Total Score,2,10
+130_S_4883,train500,MMSE Total Score,29,27
+130_S_4883,train500,Global CDR,0.5,0.0
+130_S_4883,train500,FAQ Total Score,1,3
+130_S_4883,train500,NPI-Q Total Score,2,1
+002_S_1155,train500,Weight,64.0,65.6
+002_S_1155,train500,Age,63.0,58.0
+002_S_1155,train500,MMSE Total Score,30,28
+002_S_1155,train500,GDSCALE Total Score,4,1
+002_S_1155,train500,FAQ Total Score,2,7
+035_S_4414,train500,MMSE Total Score,23,24
+035_S_4414,train500,GDSCALE Total Score,2,3
+035_S_4414,train500,Global CDR,1.0,0.5
+035_S_4414,train500,FAQ Total Score,13,7
+137_S_4632,train500,MMSE Total Score,28,30
+014_S_4080,train500,MMSE Total Score,28,29
+027_S_4936,train500,MMSE Total Score,24,25
+027_S_4936,train500,GDSCALE Total Score,2,3
+027_S_4936,train500,FAQ Total Score,14,9
+136_S_4269,train500,GDSCALE Total Score,2,0
+136_S_4269,train500,FAQ Total Score,0,1
+027_S_2183,train500,Weight,82.6,81.9
+027_S_2183,train500,Age,85.3,83.3
+027_S_2183,train500,MMSE Total Score,26,27
+027_S_2183,train500,GDSCALE Total Score,3,1
+027_S_2183,train500,Global CDR,0.5,0.0
+027_S_2183,train500,FAQ Total Score,3,5
+027_S_2183,train500,NPI-Q Total Score,2,3
+130_S_5231,train500,MMSE Total Score,21,19
+130_S_5231,train500,GDSCALE Total Score,2,5
+130_S_5231,train500,Global CDR,0.0,1.0
+130_S_5231,train500,FAQ Total Score,10,20
+021_S_5099,train500,MMSE Total Score,26,28
+021_S_5099,train500,GDSCALE Total Score,5,1
+021_S_5099,train500,Global CDR,0.5,0.0
+021_S_5099,train500,FAQ Total Score,5,4
+021_S_5099,train500,NPI-Q Total Score,2,1
+014_S_4058,train500,MMSE Total Score,26,25
+014_S_4058,train500,GDSCALE Total Score,4,3
+014_S_4058,train500,FAQ Total Score,1,10
+070_S_4708,train500,FAQ Total Score,1,3
+070_S_4708,train500,NPI-Q Total Score,2,1
+027_S_2245,train500,Weight,62.8,78.9
+027_S_2245,train500,Age,59.2,57.2
+027_S_2245,train500,MMSE Total Score,29,27
+027_S_2245,train500,GDSCALE Total Score,1,2
+027_S_2245,train500,NPI-Q Total Score,3,2
+007_S_4911,train500,MMSE Total Score,23,19
+007_S_4911,train500,GDSCALE Total Score,1,5
+007_S_4911,train500,FAQ Total Score,22,20
+003_S_5154,train500,MMSE Total Score,29,30
+003_S_5154,train500,GDSCALE Total Score,1,0
+003_S_4081,train500,MMSE Total Score,28,30
+003_S_4081,train500,GDSCALE Total Score,1,0
+052_S_1352,train500,Weight,86.6,87.5
+052_S_1352,train500,Age,91.1,86.0
+052_S_1352,train500,MMSE Total Score,28,30
+052_S_1352,train500,Global CDR,0.0,0.5
+052_S_1352,train500,FAQ Total Score,0,4
+072_S_4941,train500,MMSE Total Score,30,27
+072_S_4941,train500,GDSCALE Total Score,0,1
+072_S_4941,train500,FAQ Total Score,0,5
+072_S_4941,train500,NPI-Q Total Score,2,1
+023_S_4164,train500,GDSCALE Total Score,1,0
+137_S_4596,train500,MMSE Total Score,27,24
+137_S_4596,train500,GDSCALE Total Score,0,3
+137_S_4596,train500,FAQ Total Score,7,8
+003_S_0908,train500,Weight,73.0,76.2
+003_S_0908,train500,Age,68.5,63.0
+003_S_0908,train500,MMSE Total Score,27,29
+003_S_0908,train500,GDSCALE Total Score,2,1
+136_S_4517,train500,MMSE Total Score,28,27
+136_S_4517,train500,FAQ Total Score,0,5
+136_S_4517,train500,NPI-Q Total Score,2,1
+027_S_4964,train500,MMSE Total Score,22,21
+027_S_4964,train500,GDSCALE Total Score,4,5
+035_S_4784,train500,MMSE Total Score,22,24
+035_S_4784,train500,GDSCALE Total Score,0,3
+035_S_4784,train500,Global CDR,1.0,0.5
+035_S_4784,train500,FAQ Total Score,21,9
+114_S_0173,train500,Weight,75.7,71.7
+114_S_0173,train500,Age,79.4,73.3
+114_S_0173,train500,MMSE Total Score,29,30
+114_S_0173,train500,FAQ Total Score,0,1
+068_S_4424,train500,MMSE Total Score,28,30
+068_S_4424,train500,FAQ Total Score,0,1
+021_S_4335,train500,GDSCALE Total Score,2,0
+021_S_4335,train500,FAQ Total Score,0,1
+116_S_4092,train500,MMSE Total Score,26,29
+116_S_4092,train500,GDSCALE Total Score,3,0
+136_S_0186,train500,Weight,81.6,88.0
+136_S_0186,train500,Age,85.7,80.5
+136_S_0186,train500,MMSE Total Score,26,27
+007_S_5196,train500,MMSE Total Score,21,19
+007_S_5196,train500,GDSCALE Total Score,2,5
+007_S_5196,train500,Global CDR,0.0,1.0
+007_S_5196,train500,FAQ Total Score,8,22
+018_S_2155,train500,Age,70.1,69.2
+018_S_2155,train500,GDSCALE Total Score,0,1
+018_S_2155,train500,Global CDR,0.5,0.0
+018_S_2155,train500,NPI-Q Total Score,2,0
+016_S_5007,train500,GDSCALE Total Score,2,1
+016_S_5007,train500,Global CDR,0.5,0.0
+016_S_5007,train500,FAQ Total Score,6,4
+016_S_5007,train500,NPI-Q Total Score,2,1
+153_S_4172,train500,MMSE Total Score,14,19
+153_S_4172,train500,GDSCALE Total Score,2,5
+153_S_4172,train500,FAQ Total Score,15,17
+002_S_2010,train500,Weight,111.1,111.9
+002_S_2010,train500,Age,64.1,63.1
+002_S_2010,train500,MMSE Total Score,30,28
+002_S_2010,train500,GDSCALE Total Score,2,1
+002_S_2010,train500,NPI-Q Total Score,2,1
+072_S_4871,train500,MMSE Total Score,29,27
+072_S_4871,train500,GDSCALE Total Score,0,1
+072_S_4871,train500,FAQ Total Score,1,3
+072_S_4871,train500,NPI-Q Total Score,2,1
+141_S_4711,train500,MMSE Total Score,28,24
+141_S_4711,train500,GDSCALE Total Score,1,3
+141_S_4711,train500,FAQ Total Score,0,9
+009_S_0751,train500,Weight,58.6,62.6
+009_S_0751,train500,Age,77.1,70.9
+009_S_0751,train500,MMSE Total Score,28,27
+072_S_2037,train500,Age,76.9,76.0
+072_S_2037,train500,GDSCALE Total Score,3,1
+072_S_2037,train500,FAQ Total Score,4,3
+072_S_2037,train500,NPI-Q Total Score,2,6
+002_S_4229,train500,MMSE Total Score,30,25
+002_S_4229,train500,GDSCALE Total Score,0,3
+002_S_4229,train500,FAQ Total Score,0,7
+019_S_5012,train500,MMSE Total Score,25,19
+019_S_5012,train500,GDSCALE Total Score,0,5
+019_S_5012,train500,Global CDR,0.5,1.0
+019_S_5012,train500,FAQ Total Score,7,18
+003_S_4441,train500,MMSE Total Score,29,30
+003_S_4441,train500,FAQ Total Score,0,1
+114_S_0378,train500,Weight,56.2,68.5
+114_S_0378,train500,Age,74.8,69.1
+114_S_0378,train500,MMSE Total Score,16,28
+114_S_0378,train500,Global CDR,2.0,0.5
+114_S_0378,train500,FAQ Total Score,25,6
+141_S_4053,train500,GDSCALE Total Score,1,3
+141_S_4053,train500,FAQ Total Score,6,7
+130_S_4405,train500,MMSE Total Score,29,28
+130_S_4405,train500,GDSCALE Total Score,2,1
+130_S_4405,train500,Global CDR,0.5,0.0
+130_S_4405,train500,FAQ Total Score,1,4
+130_S_4405,train500,NPI-Q Total Score,2,1
+027_S_2336,train500,Weight,66.3,63.1
+027_S_2336,train500,Age,75.1,73.1
+027_S_2336,train500,GDSCALE Total Score,0,1
+027_S_2336,train500,FAQ Total Score,7,2
+027_S_2336,train500,NPI-Q Total Score,2,0
+123_S_4170,train500,MMSE Total Score,30,25
+123_S_4170,train500,GDSCALE Total Score,1,3
+123_S_4170,train500,FAQ Total Score,2,7
+068_S_2187,train500,Weight,97.0,98.6
+068_S_2187,train500,Age,58.9,57.9
+068_S_2187,train500,MMSE Total Score,27,28
+068_S_2187,train500,GDSCALE Total Score,6,1
+068_S_2187,train500,NPI-Q Total Score,2,11
+137_S_1414,train500,Weight,109.3,106.6
+137_S_1414,train500,Age,78.6,74.5
+137_S_1414,train500,MMSE Total Score,28,27
+137_S_1414,train500,GDSCALE Total Score,1,4
+137_S_1414,train500,FAQ Total Score,0,6
+137_S_0722,train500,Weight,96.9,104.3
+137_S_0722,train500,Age,75.3,70.2
+137_S_0722,train500,MMSE Total Score,27,26
+137_S_0722,train500,Global CDR,0.0,0.5
+137_S_0722,train500,FAQ Total Score,2,6
+082_S_5029,train500,MMSE Total Score,16,21
+082_S_5029,train500,GDSCALE Total Score,4,5
+082_S_5029,train500,FAQ Total Score,17,18
+033_S_0906,train500,Weight,70.5,68.1
+033_S_0906,train500,Age,70.4,65.4
+033_S_0906,train500,MMSE Total Score,13,25
+033_S_0906,train500,Global CDR,2.0,0.5
+033_S_0906,train500,FAQ Total Score,28,7
+023_S_5120,train500,MMSE Total Score,21,20
+023_S_5120,train500,GDSCALE Total Score,2,5
+023_S_5120,train500,Global CDR,0.0,1.0
+023_S_5120,train500,FAQ Total Score,7,19
+027_S_1045,train500,Weight,76.2,76.3
+027_S_1045,train500,Age,88.8,82.7
+027_S_1045,train500,FAQ Total Score,7,4
+070_S_4856,train500,GDSCALE Total Score,1,0
+070_S_4856,train500,FAQ Total Score,0,1
+141_S_1004,train500,Weight,77.1,74.8
+141_S_1004,train500,Age,79.2,74.1
+141_S_1004,train500,MMSE Total Score,17,27
+141_S_1004,train500,GDSCALE Total Score,1,4
+141_S_1004,train500,Global CDR,2.0,0.5
+141_S_1004,train500,FAQ Total Score,26,5
+035_S_2074,train500,Weight,111.2,111.8
+035_S_2074,train500,Age,63.1,62.1
+035_S_2074,train500,MMSE Total Score,29,28
+035_S_2074,train500,GDSCALE Total Score,2,1
+035_S_2074,train500,Global CDR,0.5,0.0
+035_S_2074,train500,NPI-Q Total Score,2,0
+941_S_4100,train500,MMSE Total Score,28,30
+941_S_4100,train500,FAQ Total Score,0,1
+141_S_1052,train500,Weight,59.9,57.4
+141_S_1052,train500,Age,74.2,69.1
+141_S_1052,train500,MMSE Total Score,23,26
+141_S_1052,train500,GDSCALE Total Score,7,5
+141_S_1052,train500,FAQ Total Score,3,6
+072_S_2093,train500,Weight,84.4,84.8
+072_S_2093,train500,Age,60.7,59.7
+072_S_2093,train500,MMSE Total Score,29,27
+072_S_2093,train500,Global CDR,0.5,0.0
+072_S_2093,train500,FAQ Total Score,2,1
+072_S_2093,train500,NPI-Q Total Score,2,1
+098_S_4215,train500,MMSE Total Score,23,20
+098_S_4215,train500,GDSCALE Total Score,2,5
+098_S_4215,train500,Global CDR,0.5,1.0
+098_S_4215,train500,FAQ Total Score,14,21
+052_S_4945,train500,MMSE Total Score,26,25
+052_S_4945,train500,GDSCALE Total Score,1,3
+052_S_4945,train500,Global CDR,1.0,0.5
+052_S_4945,train500,FAQ Total Score,18,7
+137_S_4852,train500,GDSCALE Total Score,0,3
+137_S_4852,train500,FAQ Total Score,4,8
+023_S_4241,train500,FAQ Total Score,1,3
+023_S_4241,train500,NPI-Q Total Score,2,1
+021_S_4276,train500,GDSCALE Total Score,1,0
+003_S_4644,train500,MMSE Total Score,28,30
+003_S_4644,train500,FAQ Total Score,0,1
+027_S_4729,train500,MMSE Total Score,25,24
+027_S_4729,train500,GDSCALE Total Score,1,3
+027_S_4729,train500,FAQ Total Score,9,7
+116_S_4635,train500,MMSE Total Score,29,27
+116_S_4635,train500,GDSCALE Total Score,3,1
+116_S_4635,train500,Global CDR,0.0,0.5
+116_S_4635,train500,FAQ Total Score,1,4
+116_S_4635,train500,NPI-Q Total Score,2,1
+023_S_0331,train500,Weight,65.5,66.8
+023_S_0331,train500,Age,69.8,64.7
+023_S_0331,train500,MMSE Total Score,17,27
+023_S_0331,train500,GDSCALE Total Score,7,5
+023_S_0331,train500,Global CDR,1.0,0.5
+023_S_0331,train500,FAQ Total Score,20,7
+035_S_4783,train500,MMSE Total Score,22,19
+035_S_4783,train500,GDSCALE Total Score,2,5
+035_S_4783,train500,FAQ Total Score,4,18
+007_S_4387,train500,MMSE Total Score,28,30
+007_S_4387,train500,FAQ Total Score,0,1
+116_S_4010,train500,MMSE Total Score,29,30
+116_S_4010,train500,GDSCALE Total Score,1,0
+116_S_4010,train500,FAQ Total Score,0,1
+002_S_0413,train500,Weight,57.6,61.4
+002_S_0413,train500,Age,81.5,76.4
+002_S_0413,train500,MMSE Total Score,30,29
+153_S_4159,train500,MMSE Total Score,29,27
+153_S_4159,train500,GDSCALE Total Score,3,1
+153_S_4159,train500,Global CDR,0.5,0.0
+153_S_4159,train500,FAQ Total Score,1,3
+153_S_4159,train500,NPI-Q Total Score,2,1
+099_S_4076,train500,MMSE Total Score,28,29
+007_S_0101,train500,Weight,92.9,85.8
+007_S_0101,train500,Age,79.8,73.7
+007_S_0101,train500,MMSE Total Score,25,27
+007_S_0101,train500,GDSCALE Total Score,1,0
+007_S_0101,train500,Global CDR,1.0,0.5
+007_S_0101,train500,FAQ Total Score,13,7
+126_S_2407,train500,Weight,72.3,72.2
+126_S_2407,train500,Age,69.1,68.1
+126_S_2407,train500,MMSE Total Score,29,28
+126_S_2407,train500,GDSCALE Total Score,2,1
+126_S_2407,train500,Global CDR,0.5,0.0
+126_S_2407,train500,FAQ Total Score,2,0
+126_S_2407,train500,NPI-Q Total Score,2,0
+009_S_5000,train500,MMSE Total Score,24,27
+009_S_5000,train500,GDSCALE Total Score,2,1
+009_S_5000,train500,Global CDR,0.5,0.0
+009_S_5000,train500,FAQ Total Score,5,4
+009_S_5000,train500,NPI-Q Total Score,2,1
+023_S_4502,train500,MMSE Total Score,17,25
+023_S_4502,train500,Global CDR,1.0,0.5
+023_S_4502,train500,FAQ Total Score,15,8
+003_S_4136,train500,MMSE Total Score,21,20
+003_S_4136,train500,GDSCALE Total Score,0,5
+003_S_4136,train500,FAQ Total Score,24,23
+126_S_5243,train500,MMSE Total Score,27,29
+126_S_5243,train500,GDSCALE Total Score,3,0
+126_S_5243,train500,FAQ Total Score,0,1
+051_S_4929,train500,GDSCALE Total Score,1,3
+051_S_4929,train500,FAQ Total Score,13,8
+126_S_4743,train500,MMSE Total Score,24,25
+126_S_4743,train500,GDSCALE Total Score,6,3
+126_S_4743,train500,FAQ Total Score,2,9
+130_S_4971,train500,MMSE Total Score,25,21
+130_S_4971,train500,GDSCALE Total Score,3,5
+130_S_4971,train500,FAQ Total Score,19,20
+130_S_4415,train500,MMSE Total Score,26,28
+130_S_4415,train500,Global CDR,1.0,0.0
+130_S_4415,train500,FAQ Total Score,15,4
+130_S_4415,train500,NPI-Q Total Score,2,1
+099_S_4475,train500,MMSE Total Score,24,27
+099_S_4475,train500,GDSCALE Total Score,0,1
+099_S_4475,train500,Global CDR,0.5,0.0
+099_S_4475,train500,FAQ Total Score,13,5
+099_S_4475,train500,NPI-Q Total Score,2,1
+013_S_4595,train500,MMSE Total Score,23,25
+013_S_4595,train500,Global CDR,1.0,0.5
+013_S_4595,train500,FAQ Total Score,16,8
+098_S_0160,train500,Weight,73.3,74.5
+098_S_0160,train500,Age,80.4,75.3
+098_S_0160,train500,MMSE Total Score,21,27
+098_S_0160,train500,Global CDR,1.0,0.5
+153_S_4139,train500,MMSE Total Score,28,30
+153_S_4139,train500,GDSCALE Total Score,1,0
+007_S_4272,train500,MMSE Total Score,24,26
+007_S_4272,train500,FAQ Total Score,3,6
+098_S_4003,train500,MMSE Total Score,30,29
+098_S_4003,train500,GDSCALE Total Score,1,0
+051_S_4980,train500,MMSE Total Score,24,19
+051_S_4980,train500,GDSCALE Total Score,4,5
+051_S_4980,train500,FAQ Total Score,10,22
+033_S_4176,train500,MMSE Total Score,30,29
+002_S_4225,train500,MMSE Total Score,29,30
+072_S_4391,train500,GDSCALE Total Score,2,0
+013_S_4395,train500,MMSE Total Score,28,25
+013_S_4395,train500,GDSCALE Total Score,5,3
+013_S_4395,train500,FAQ Total Score,1,8
+116_S_0361,train500,Weight,87.0,86.6
+116_S_0361,train500,Age,79.7,74.6
+116_S_0361,train500,MMSE Total Score,20,29
+116_S_0361,train500,GDSCALE Total Score,1,0
+116_S_0361,train500,Global CDR,1.0,0.5
+116_S_0361,train500,FAQ Total Score,22,7
+057_S_4888,train500,MMSE Total Score,21,24
+057_S_4888,train500,GDSCALE Total Score,1,3
+057_S_4888,train500,FAQ Total Score,7,10
+021_S_4558,train500,MMSE Total Score,28,29
+021_S_4558,train500,GDSCALE Total Score,2,0
+082_S_2121,train500,Weight,70.7,69.6
+082_S_2121,train500,Age,69.0,67.9
+082_S_2121,train500,MMSE Total Score,28,27
+082_S_2121,train500,GDSCALE Total Score,1,2
+082_S_2121,train500,NPI-Q Total Score,3,1
+941_S_4292,train500,MMSE Total Score,28,29
+941_S_4292,train500,Global CDR,0.5,0.0
+941_S_4292,train500,FAQ Total Score,1,0
+018_S_2133,train500,Weight,79.4,76.7
+018_S_2133,train500,Age,63.9,62.8
+018_S_2133,train500,MMSE Total Score,26,27
+018_S_2133,train500,Global CDR,0.5,0.0
+018_S_2133,train500,FAQ Total Score,2,0
+018_S_2133,train500,NPI-Q Total Score,2,0
+072_S_4057,train500,MMSE Total Score,21,24
+072_S_4057,train500,GDSCALE Total Score,2,3
+072_S_4057,train500,Global CDR,1.0,0.5
+072_S_4057,train500,FAQ Total Score,7,9
+137_S_4466,train500,MMSE Total Score,29,30
+137_S_4466,train500,GDSCALE Total Score,1,0
+137_S_4466,train500,FAQ Total Score,0,1
+153_S_4372,train500,MMSE Total Score,30,29
+153_S_4372,train500,FAQ Total Score,0,1
+072_S_4465,train500,MMSE Total Score,29,27
+072_S_4465,train500,GDSCALE Total Score,3,1
+072_S_4465,train500,Global CDR,0.5,0.0
+072_S_4465,train500,FAQ Total Score,3,4
+072_S_4465,train500,NPI-Q Total Score,2,1
+033_S_4179,train500,MMSE Total Score,28,29
+033_S_4179,train500,GDSCALE Total Score,1,0
+007_S_4467,train500,MMSE Total Score,27,28
+007_S_4467,train500,GDSCALE Total Score,2,1
+007_S_4467,train500,Global CDR,0.5,0.0
+007_S_4467,train500,FAQ Total Score,0,3
+007_S_4467,train500,NPI-Q Total Score,2,1
+099_S_4202,train500,MMSE Total Score,28,27
+099_S_4202,train500,GDSCALE Total Score,0,1
+099_S_4202,train500,FAQ Total Score,4,5
+099_S_4202,train500,NPI-Q Total Score,2,1
+007_S_1206,train500,Weight,92.1,96.1
+007_S_1206,train500,Age,78.1,73.0
+007_S_1206,train500,GDSCALE Total Score,2,1
+141_S_0767,train500,Weight,75.3,77.3
+141_S_0767,train500,Age,78.2,73.2
+141_S_0767,train500,MMSE Total Score,30,29
+141_S_0767,train500,GDSCALE Total Score,0,1
+141_S_0767,train500,FAQ Total Score,0,1
+022_S_2087,train500,Weight,90.5,108.0
+022_S_2087,train500,Age,71.7,69.7
+022_S_2087,train500,MMSE Total Score,23,27
+022_S_2087,train500,GDSCALE Total Score,2,1
+022_S_2087,train500,FAQ Total Score,10,7
+022_S_2087,train500,NPI-Q Total Score,2,4
+130_S_4468,train500,MMSE Total Score,30,28
+130_S_4468,train500,FAQ Total Score,2,4
+130_S_4468,train500,NPI-Q Total Score,2,1
+023_S_0061,train500,Weight,75.8,84.8
+023_S_0061,train500,Age,83.4,77.2
+023_S_0061,train500,MMSE Total Score,25,29
+023_S_0061,train500,Global CDR,0.5,0.0
+023_S_0061,train500,FAQ Total Score,3,1
+941_S_4377,train500,MMSE Total Score,29,24
+941_S_4377,train500,GDSCALE Total Score,2,3
+941_S_4377,train500,FAQ Total Score,2,8
+131_S_5138,train500,MMSE Total Score,21,19
+131_S_5138,train500,GDSCALE Total Score,2,5
+131_S_5138,train500,Global CDR,0.0,1.0
+131_S_5138,train500,FAQ Total Score,4,23
+023_S_0042,train500,Weight,90.4,92.6
+023_S_0042,train500,Age,78.3,72.9
+023_S_0042,train500,MMSE Total Score,22,30
+023_S_0042,train500,Global CDR,1.0,0.5
+023_S_0042,train500,FAQ Total Score,20,6
+137_S_0972,train500,Weight,72.9,74.4
+137_S_0972,train500,Age,83.0,78.0
+137_S_0972,train500,MMSE Total Score,28,30
+137_S_0972,train500,Global CDR,0.5,0.0
+137_S_0972,train500,FAQ Total Score,7,0
+021_S_4744,train500,MMSE Total Score,28,27
+021_S_4744,train500,GDSCALE Total Score,0,1
+021_S_4744,train500,Global CDR,0.5,0.0
+021_S_4744,train500,FAQ Total Score,0,5
+021_S_4744,train500,NPI-Q Total Score,2,1
+007_S_4611,train500,MMSE Total Score,25,24
+007_S_4611,train500,GDSCALE Total Score,1,3
+007_S_4611,train500,FAQ Total Score,3,10
+137_S_0800,train500,Weight,76.1,74.4
+137_S_0800,train500,Age,79.2,74.2
+137_S_0800,train500,MMSE Total Score,26,29
+137_S_0800,train500,GDSCALE Total Score,2,3
+137_S_0800,train500,FAQ Total Score,2,4
+003_S_5187,train500,GDSCALE Total Score,2,5
+003_S_5187,train500,Global CDR,0.0,1.0
+003_S_5187,train500,FAQ Total Score,22,20
+098_S_2047,train500,Weight,80.3,80.6
+098_S_2047,train500,Age,78.6,77.6
+098_S_2047,train500,MMSE Total Score,26,28
+098_S_2047,train500,GDSCALE Total Score,4,1
+098_S_2047,train500,Global CDR,1.0,0.0
+098_S_2047,train500,FAQ Total Score,16,22
+098_S_2047,train500,NPI-Q Total Score,2,24
+027_S_5170,train500,MMSE Total Score,30,29
+027_S_5170,train500,GDSCALE Total Score,1,0
+027_S_5170,train500,FAQ Total Score,2,0
+035_S_4082,train500,MMSE Total Score,28,29
+035_S_4082,train500,GDSCALE Total Score,1,0
+035_S_4082,train500,FAQ Total Score,0,1
+002_S_4521,train500,MMSE Total Score,21,25
+002_S_4521,train500,GDSCALE Total Score,1,3
+002_S_4521,train500,FAQ Total Score,15,8
+072_S_4383,train500,MMSE Total Score,29,27
+072_S_4383,train500,Global CDR,0.5,0.0
+072_S_4383,train500,FAQ Total Score,0,4
+072_S_4383,train500,NPI-Q Total Score,2,1
+130_S_5006,train500,MMSE Total Score,17,21
+130_S_5006,train500,GDSCALE Total Score,1,5
+130_S_5006,train500,FAQ Total Score,21,23
+021_S_4254,train500,MMSE Total Score,27,30
+021_S_4254,train500,GDSCALE Total Score,2,0
+021_S_4254,train500,FAQ Total Score,1,0
+057_S_5292,train500,GDSCALE Total Score,3,0
+057_S_5292,train500,FAQ Total Score,2,0
+023_S_0887,train500,Weight,77.1,81.7
+023_S_0887,train500,Age,78.8,73.8
+023_S_0887,train500,MMSE Total Score,2,24
+023_S_0887,train500,GDSCALE Total Score,2,0
+023_S_0887,train500,Global CDR,2.0,0.5
+023_S_0887,train500,FAQ Total Score,29,4
+114_S_4404,train500,MMSE Total Score,26,28
+114_S_4404,train500,GDSCALE Total Score,2,1
+114_S_4404,train500,Global CDR,0.5,0.0
+114_S_4404,train500,FAQ Total Score,2,5
+114_S_4404,train500,NPI-Q Total Score,2,1
+123_S_4904,train500,MMSE Total Score,28,24
+123_S_4904,train500,GDSCALE Total Score,2,3
+123_S_4904,train500,Global CDR,0.0,0.5
+123_S_4904,train500,FAQ Total Score,2,7
+137_S_4631,train500,Research Group,LMCI,MCI
+137_S_4631,train500,MMSE Total Score,28,27
+137_S_4631,train500,FAQ Total Score,14,5
+137_S_4631,train500,NPI-Q Total Score,4,3
+098_S_0896,train500,Weight,79.4,82.3
+098_S_0896,train500,Age,82.1,77.0
+098_S_0896,train500,FAQ Total Score,3,1
+072_S_4102,train500,MMSE Total Score,22,28
+072_S_4102,train500,GDSCALE Total Score,2,1
+072_S_4102,train500,Global CDR,0.5,0.0
+072_S_4102,train500,FAQ Total Score,8,3
+072_S_4102,train500,NPI-Q Total Score,2,1
+016_S_5032,train500,GDSCALE Total Score,1,5
+016_S_5032,train500,FAQ Total Score,18,20
+014_S_4079,train500,GDSCALE Total Score,7,3
+014_S_4079,train500,FAQ Total Score,6,10
+100_S_4469,train500,FAQ Total Score,0,1
+013_S_4268,train500,MMSE Total Score,30,27
+013_S_4268,train500,GDSCALE Total Score,6,1
+013_S_4268,train500,Global CDR,0.5,0.0
+013_S_4268,train500,FAQ Total Score,0,5
+013_S_4268,train500,NPI-Q Total Score,2,1
+130_S_4997,train500,MMSE Total Score,21,19
+130_S_4997,train500,GDSCALE Total Score,2,5
+130_S_4997,train500,Global CDR,0.0,1.0
+130_S_4997,train500,FAQ Total Score,23,24
+082_S_4090,train500,MMSE Total Score,30,29
+082_S_4090,train500,FAQ Total Score,0,1
+027_S_2219,train500,Weight,96.2,86.4
+027_S_2219,train500,Age,76.5,74.4
+027_S_2219,train500,MMSE Total Score,29,27
+027_S_2219,train500,Global CDR,0.5,0.0
+027_S_2219,train500,NPI-Q Total Score,2,5
+136_S_4189,train500,GDSCALE Total Score,2,3
+136_S_4189,train500,Global CDR,1.0,0.5
+136_S_4189,train500,FAQ Total Score,12,8
+016_S_4638,train500,MMSE Total Score,29,30
+016_S_4638,train500,GDSCALE Total Score,1,0
+002_S_4473,train500,MMSE Total Score,29,27
+002_S_4473,train500,GDSCALE Total Score,0,1
+002_S_4473,train500,Global CDR,0.5,0.0
+002_S_4473,train500,FAQ Total Score,2,3
+002_S_4473,train500,NPI-Q Total Score,2,1
+009_S_4359,train500,MMSE Total Score,30,24
+009_S_4359,train500,GDSCALE Total Score,1,3
+009_S_4359,train500,FAQ Total Score,2,7
+014_S_4577,train500,MMSE Total Score,28,29
+014_S_4577,train500,Global CDR,0.5,0.0
+052_S_4959,train500,MMSE Total Score,26,20
+052_S_4959,train500,GDSCALE Total Score,1,5
+052_S_4959,train500,FAQ Total Score,19,22
+130_S_2373,train500,Age,80.2,79.2
+130_S_2373,train500,MMSE Total Score,26,27
+130_S_2373,train500,Global CDR,0.5,0.0
+130_S_2373,train500,FAQ Total Score,7,1
+130_S_2373,train500,NPI-Q Total Score,2,5
+014_S_4263,train500,MMSE Total Score,26,24
+014_S_4263,train500,FAQ Total Score,7,9
+137_S_4520,val39,MMSE Total Score,29,30
+137_S_4520,val39,GDSCALE Total Score,1,0
+137_S_4520,val39,FAQ Total Score,0,1
+009_S_4530,val39,MMSE Total Score,26,28
+009_S_4530,val39,Global CDR,1.0,0.5
+009_S_4530,val39,FAQ Total Score,4,3
+009_S_4530,val39,NPI-Q Total Score,2,1
+098_S_4201,val39,MMSE Total Score,20,19
+098_S_4201,val39,GDSCALE Total Score,2,5
+098_S_4201,val39,Global CDR,0.5,1.0
+098_S_4201,val39,FAQ Total Score,18,23
+013_S_2389,val39,Weight,90.3,88.7
+013_S_2389,val39,Age,59.2,58.0
+013_S_2389,val39,Global CDR,0.5,0.0
+013_S_2389,val39,FAQ Total Score,0,2
+013_S_2389,val39,NPI-Q Total Score,2,5
+130_S_4990,val39,MMSE Total Score,24,20
+130_S_4990,val39,GDSCALE Total Score,2,5
+130_S_4990,val39,FAQ Total Score,17,19
+009_S_4814,val39,MMSE Total Score,29,27
+009_S_4814,val39,GDSCALE Total Score,0,1
+009_S_4814,val39,Global CDR,0.5,0.0
+009_S_4814,val39,FAQ Total Score,0,3
+009_S_4814,val39,NPI-Q Total Score,2,1
+141_S_4907,val39,FAQ Total Score,1,3
+141_S_4907,val39,NPI-Q Total Score,2,1
+100_S_4556,val39,MMSE Total Score,29,26
+100_S_4556,val39,GDSCALE Total Score,1,2
+100_S_4556,val39,Global CDR,0.0,0.5
+100_S_4556,val39,FAQ Total Score,0,5
+013_S_4579,val39,MMSE Total Score,29,30
+013_S_4579,val39,GDSCALE Total Score,3,0
+013_S_4579,val39,FAQ Total Score,0,1
+126_S_4896,val39,MMSE Total Score,27,25
+126_S_4896,val39,GDSCALE Total Score,2,3
+126_S_4896,val39,FAQ Total Score,2,10
+002_S_1268,val39,Weight,86.2,94.7
+002_S_1268,val39,Age,88.0,82.8
+002_S_1268,val39,MMSE Total Score,27,28
+002_S_1268,val39,GDSCALE Total Score,7,3
+002_S_1268,val39,FAQ Total Score,2,6
+035_S_2061,val39,Weight,57.7,60.0
+035_S_2061,val39,Age,67.3,66.2
+035_S_2061,val39,MMSE Total Score,29,27
+035_S_2061,val39,GDSCALE Total Score,0,1
+035_S_2061,val39,NPI-Q Total Score,2,0
+123_S_4096,val39,MMSE Total Score,22,25
+123_S_4096,val39,FAQ Total Score,13,7
+009_S_4612,val39,GDSCALE Total Score,3,0
+009_S_4612,val39,Global CDR,0.5,0.0
+033_S_5087,val39,MMSE Total Score,23,20
+033_S_5087,val39,GDSCALE Total Score,1,5
+033_S_5087,val39,FAQ Total Score,20,19
+153_S_4621,val39,GDSCALE Total Score,2,1
+153_S_4621,val39,Global CDR,0.0,0.5
+153_S_4621,val39,FAQ Total Score,0,4
+153_S_4621,val39,NPI-Q Total Score,2,1
+137_S_4303,val39,MMSE Total Score,29,24
+137_S_4303,val39,GDSCALE Total Score,0,3
+137_S_4303,val39,FAQ Total Score,1,9
+014_S_4093,val39,MMSE Total Score,30,29
+126_S_4712,val39,GDSCALE Total Score,2,3
+126_S_4712,val39,FAQ Total Score,8,11
+007_S_4488,val39,MMSE Total Score,29,30
+007_S_4488,val39,GDSCALE Total Score,1,0
+007_S_4488,val39,FAQ Total Score,0,1
+141_S_4803,val39,MMSE Total Score,28,27
+141_S_4803,val39,Global CDR,0.0,0.5
+141_S_4803,val39,NPI-Q Total Score,2,1
+123_S_4526,val39,MMSE Total Score,20,19
+123_S_4526,val39,GDSCALE Total Score,1,5
+123_S_4526,val39,Global CDR,0.5,1.0
+123_S_4526,val39,FAQ Total Score,9,17
+099_S_4480,val39,GDSCALE Total Score,0,1
+099_S_4480,val39,Global CDR,0.5,0.0
+099_S_4480,val39,FAQ Total Score,0,3
+099_S_4480,val39,NPI-Q Total Score,2,1
+033_S_4505,val39,MMSE Total Score,30,29
+023_S_4501,val39,MMSE Total Score,22,19
+023_S_4501,val39,GDSCALE Total Score,2,5
+023_S_4501,val39,FAQ Total Score,17,22
+002_S_0685,val39,Weight,68.9,65.3
+002_S_0685,val39,Age,94.7,89.7
+002_S_0685,val39,MMSE Total Score,29,30
+002_S_0685,val39,GDSCALE Total Score,1,2
+098_S_0171,val39,Weight,59.0,60.3
+098_S_0171,val39,Age,83.6,78.4
+098_S_0171,val39,MMSE Total Score,27,30
+098_S_0171,val39,GDSCALE Total Score,1,0
+098_S_0171,val39,FAQ Total Score,1,0
+099_S_0352,val39,Weight,85.1,68.0
+099_S_0352,val39,Age,82.1,77.1
+099_S_0352,val39,MMSE Total Score,30,29
+099_S_0352,val39,GDSCALE Total Score,0,3
+099_S_0352,val39,FAQ Total Score,0,1
+002_S_4171,val39,GDSCALE Total Score,2,3
+002_S_4171,val39,FAQ Total Score,6,10
+099_S_0051,val39,Weight,78.3,77.6
+099_S_0051,val39,Age,72.4,66.6
+099_S_0051,val39,MMSE Total Score,24,27
+099_S_0051,val39,Global CDR,1.0,0.5
+099_S_0051,val39,FAQ Total Score,23,7
+016_S_4583,val39,MMSE Total Score,21,19
+016_S_4583,val39,GDSCALE Total Score,2,5
+016_S_4583,val39,Global CDR,0.0,1.0
+016_S_4583,val39,FAQ Total Score,26,19
+141_S_0717,val39,Weight,83.5,83.0
+141_S_0717,val39,Age,81.4,76.3
+141_S_0717,val39,MMSE Total Score,29,30
+141_S_0717,val39,GDSCALE Total Score,6,1
+141_S_0717,val39,Global CDR,0.5,0.0
+141_S_0717,val39,FAQ Total Score,13,0
+099_S_4086,val39,MMSE Total Score,26,30
+057_S_4909,val39,MMSE Total Score,26,24
+057_S_4909,val39,GDSCALE Total Score,2,3
+941_S_4255,val39,MMSE Total Score,29,30
+137_S_4258,val39,MMSE Total Score,25,20
+137_S_4258,val39,GDSCALE Total Score,2,5
+137_S_4258,val39,Global CDR,0.5,1.0
+137_S_4258,val39,FAQ Total Score,11,19
+068_S_2168,val39,Weight,73.0,70.4
+068_S_2168,val39,Age,72.6,71.4
+068_S_2168,val39,MMSE Total Score,30,28
+068_S_2168,val39,Global CDR,0.5,0.0
+068_S_2168,val39,FAQ Total Score,3,2
+068_S_2168,val39,NPI-Q Total Score,2,1
+009_S_4388,val39,MMSE Total Score,30,29
+009_S_4388,val39,GDSCALE Total Score,2,0
+009_S_4388,val39,Global CDR,0.5,0.0
+116_S_4453,val39,MMSE Total Score,28,29
