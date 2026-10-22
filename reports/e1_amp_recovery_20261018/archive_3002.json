@@ -1,0 +1,34 @@
+{
+  "source": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/formal/fold1_Full",
+  "archive": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/formal/fold1_Full.failed_20261018_nonfinite",
+  "checkpoint_found": false,
+  "prior_start": {
+    "fold": 1,
+    "condition": "Full",
+    "config_sha256": "612aa3b97b06e793337cf3a1cbbead019f2299067cb45d8f2067683bde51096b",
+    "cohort_sha256": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "adapter_sha256": "c9285ea53df7b198ab5c825fd32d76fba8b2c41ec7bc0bdcd17e9d88bc56be8c",
+    "adapter_receipt_sha256": "0ab5ddb8ef63b340c10b96c18aeb8336d2367e8389217f73f13d78ab151ea25f",
+    "condition_sha256": "4d353ad1592613f67c6ef643033a0cbc243a858dc5feafa3410b9f3d7494cd80",
+    "pid": 2563008,
+    "hardware": {
+      "host": "pnxc",
+      "pid": 2563008,
+      "visible_devices": "GPU-4e00852f-6d7a-af71-10b5-1c59593a6681",
+      "allocator_config": "expandable_segments:True",
+      "gpu": "NVIDIA RTX A6000",
+      "torch": "2.6.0+cu118",
+      "cuda": "11.8",
+      "monai": "0+unknown",
+      "transformers": "4.40.2",
+      "xformers": "0.0.29.post3"
+    },
+    "initial_model_sha256": "67250ed3481330b6ffa1fb11973ddebba358bb2d1aedea41c6580d8759f9bda8",
+    "start_epoch": 0,
+    "optimizer_updates": 0,
+    "resume": null,
+    "training_subjects": 928,
+    "outer_test_overlap": 0,
+    "asset_root": "/home/linshuijin/DIRECTPP_E1/stage01_20261017"
+  }
+}

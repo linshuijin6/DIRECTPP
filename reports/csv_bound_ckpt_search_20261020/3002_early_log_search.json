@@ -1,0 +1,1388 @@
+{
+  "logs_checked": 401,
+  "hits": [
+    {
+      "path": "/home/ssddata/linshuijin/terminal_logs/session_20260112_172028_3702477.log",
+      "counts": {
+        "007_S_2394": 3,
+        "011_S_4105": 4
+      },
+      "first": [
+        {
+          "logical_line": 408,
+          "text": "[PHASE1] 96/1121 007_S_2394 I10283888"
+        },
+        {
+          "logical_line": 409,
+          "text": "[PHASE1][MRI] 007_S_2394 I10283888"
+        },
+        {
+          "logical_line": 410,
+          "text": "[PHASE1][PET] 007_S_2394 I10283888 AV45 I10294046"
+        },
+        {
+          "logical_line": 497,
+          "text": "[PHASE1] 124/1121 011_S_4105 I11295942"
+        },
+        {
+          "logical_line": 498,
+          "text": "[PHASE1][MRI] 011_S_4105 I11295942"
+        },
+        {
+          "logical_line": 499,
+          "text": "[PHASE1][PET] 011_S_4105 I11295942 AV45 I11276027"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 409,
+          "text": "[PHASE1][MRI] 007_S_2394 I10283888"
+        },
+        {
+          "logical_line": 410,
+          "text": "[PHASE1][PET] 007_S_2394 I10283888 AV45 I10294046"
+        },
+        {
+          "logical_line": 497,
+          "text": "[PHASE1] 124/1121 011_S_4105 I11295942"
+        },
+        {
+          "logical_line": 498,
+          "text": "[PHASE1][MRI] 011_S_4105 I11295942"
+        },
+        {
+          "logical_line": 499,
+          "text": "[PHASE1][PET] 011_S_4105 I11295942 AV45 I11276027"
+        },
+        {
+          "logical_line": 500,
+          "text": "[PHASE1][PET] 011_S_4105 I11295942 TAU I11252687"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/terminal_logs/session_20260114_145252_720654.log",
+      "counts": {
+        "011_S_4105": 1,
+        "007_S_2394": 1
+      },
+      "first": [
+        {
+          "logical_line": 434,
+          "text": "\u001b[01;34m002_S_6103\u001b[0m   \u001b[01;34m011_S_4105\u001b[0m   \u001b[01;34m021_S_5237\u001b[0m   \u001b[01;34m027_S_6849\u001b[0m   \u001b[01;34m035_S_7000\u001b[0m   \u001b[01;34m052_S_10159\u001b[0m  \u001b[01;34m073_S_5167\u001b[0m   \u001b[01;34m123_S_4170\u001b[0m   \u001b[01;34m131_S_6170\u001b[0m   \u001b[01;34m177_S_6335\u001b[0m"
+        },
+        {
+          "logical_line": 531,
+          "text": "\u001b[01;34m007_S_2394\u001b[0m   \u001b[01;34m020_S_6449\u001b[0m   \u001b[01;34m027_S_10855\u001b[0m  \u001b[01;34m035_S_10093\u001b[0m  \u001b[01;34m041_S_4037\u001b[0m   \u001b[01;34m070_S_6911\u001b[0m   \u001b[01;34m116_S_4453\u001b[0m   \u001b[01;34m130_S_10592\u001b[0m  \u001b[01;34m168_S_6059\u001b[0m   \u001b[01;34m941_S_6998\u001b[0m"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 434,
+          "text": "\u001b[01;34m002_S_6103\u001b[0m   \u001b[01;34m011_S_4105\u001b[0m   \u001b[01;34m021_S_5237\u001b[0m   \u001b[01;34m027_S_6849\u001b[0m   \u001b[01;34m035_S_7000\u001b[0m   \u001b[01;34m052_S_10159\u001b[0m  \u001b[01;34m073_S_5167\u001b[0m   \u001b[01;34m123_S_4170\u001b[0m   \u001b[01;34m131_S_6170\u001b[0m   \u001b[01;34m177_S_6335\u001b[0m"
+        },
+        {
+          "logical_line": 531,
+          "text": "\u001b[01;34m007_S_2394\u001b[0m   \u001b[01;34m020_S_6449\u001b[0m   \u001b[01;34m027_S_10855\u001b[0m  \u001b[01;34m035_S_10093\u001b[0m  \u001b[01;34m041_S_4037\u001b[0m   \u001b[01;34m070_S_6911\u001b[0m   \u001b[01;34m116_S_4453\u001b[0m   \u001b[01;34m130_S_10592\u001b[0m  \u001b[01;34m168_S_6059\u001b[0m   \u001b[01;34m941_S_6998\u001b[0m"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/terminal_logs/session_20260114_152327_737844.log",
+      "counts": {
+        "007_S_2394": 4
+      },
+      "first": [
+        {
+          "logical_line": 573,
+          "text": "33/148 - 查找 image_id=894263, subject_id=007_S_2394"
+        },
+        {
+          "logical_line": 574,
+          "text": "找到源目录: /mnt/nfsdata/nfsdata/LorenzoT/ADNI/raw/MRI/MRI_Dataset/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 575,
+          "text": "✓ 已复制: /mnt/nfsdata/nfsdata/LorenzoT/ADNI/raw/MRI/MRI_Dataset/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 576,
+          "text": "到: /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 573,
+          "text": "33/148 - 查找 image_id=894263, subject_id=007_S_2394"
+        },
+        {
+          "logical_line": 574,
+          "text": "找到源目录: /mnt/nfsdata/nfsdata/LorenzoT/ADNI/raw/MRI/MRI_Dataset/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 575,
+          "text": "✓ 已复制: /mnt/nfsdata/nfsdata/LorenzoT/ADNI/raw/MRI/MRI_Dataset/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 576,
+          "text": "到: /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/terminal_logs/session_20260104_141507_1168425.log",
+      "counts": {
+        "007_S_2394": 54,
+        "011_S_4105": 39
+      },
+      "first": [
+        {
+          "logical_line": 6629,
+          "text": "Converting /mnt/nfsdata/nfsdata/ADNI/ADNI0103/ADNI/007_S_2394/Accelerated_Sagittal_MPRAGE/2018-08-07_13_40_32.0/I1037903"
+        },
+        {
+          "logical_line": 6632,
+          "text": "Convert 208 DICOM as /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2018-08-07_13_40_32.0/I1037903/Accelerated_Sagittal_MPRAGE_2 (240x256x208x1)"
+        },
+        {
+          "logical_line": 6633,
+          "text": "Compress: \"/usr/bin/pigz\" -b 960 -n -f -6 \"/mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2018-08-07_13_40_32.0/I1037903/Accelerated_Sagittal_MPRAGE_2.nii\""
+        },
+        {
+          "logical_line": 6635,
+          "text": "Converting /mnt/nfsdata/nfsdata/ADNI/ADNI0103/ADNI/007_S_2394/Accelerated_Sagittal_MPRAGE/2019-08-01_07_26_11.0/I1335884"
+        },
+        {
+          "logical_line": 6639,
+          "text": "Convert 208 DICOM as /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2019-08-01_07_26_11.0/I1335884/Accelerated_Sagittal_MPRAGE_2 (240x256x208x1)"
+        },
+        {
+          "logical_line": 6640,
+          "text": "Compress: \"/usr/bin/pigz\" -b 960 -n -f -6 \"/mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2019-08-01_07_26_11.0/I1335884/Accelerated_Sagittal_MPRAGE_2.nii\""
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 9023,
+          "text": "Converting /mnt/nfsdata/nfsdata/ADNI/ADNI0103/ADNI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2011-07-22_10_27_21.0/I1594592"
+        },
+        {
+          "logical_line": 9028,
+          "text": "Convert 96 DICOM as /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2011-07-22_10_27_21.0/I1594592/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res_5 (160x160x96x1)"
+        },
+        {
+          "logical_line": 9030,
+          "text": "Compress: \"/usr/bin/pigz\" -b 960 -n -f -6 \"/mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2011-07-22_10_27_21.0/I1594592/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res_5.nii\""
+        },
+        {
+          "logical_line": 9032,
+          "text": "Converting /mnt/nfsdata/nfsdata/ADNI/ADNI0103/ADNI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2013-07-26_13_50_13.0/I1594562"
+        },
+        {
+          "logical_line": 9037,
+          "text": "Convert 96 DICOM as /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2013-07-26_13_50_13.0/I1594562/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res_5 (160x160x96x1)"
+        },
+        {
+          "logical_line": 9039,
+          "text": "Compress: \"/usr/bin/pigz\" -b 960 -n -f -6 \"/mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/011_S_4105/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res/2013-07-26_13_50_13.0/I1594562/Coreg,_Avg,_Std_Img_and_Vox_Siz,_Uniform_6mm_Res_5.nii\""
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/terminal_logs/session_20260114_163221_771079.log",
+      "counts": {
+        "007_S_2394": 4
+      },
+      "first": [
+        {
+          "logical_line": 207,
+          "text": "[33/148] 处理 007_S_2394/I894263"
+        },
+        {
+          "logical_line": 208,
+          "text": "目录: /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 209,
+          "text": "转换命令: dcm2niix -z y -f %s_%i -o /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263 -s y -b n -v 0 /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 210,
+          "text": "✓ 转换成功，生成文件: 2_007_S_2394.nii.gz"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 207,
+          "text": "[33/148] 处理 007_S_2394/I894263"
+        },
+        {
+          "logical_line": 208,
+          "text": "目录: /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 209,
+          "text": "转换命令: dcm2niix -z y -f %s_%i -o /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263 -s y -b n -v 0 /mnt/nfsdata/nfsdata/ADNI/ADNI0103/NIFTI/007_S_2394/Accelerated_Sagittal_MPRAGE/2017-08-14_14_56_01.0/I894263"
+        },
+        {
+          "logical_line": 210,
+          "text": "✓ 转换成功，生成文件: 2_007_S_2394.nii.gz"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0528.t.log",
+      "counts": {
+        "Saved all parameters": 60
+      },
+      "first": [
+        {
+          "logical_line": 13487,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 27189,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40739,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54317,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67925,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 81612,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 811263,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 825229,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 839221,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 853414,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 868828,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 884312,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "counts": {
+        "Saved all parameters": 19
+      },
+      "first": [
+        {
+          "logical_line": 23071,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 46096,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 69202,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 92231,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 115270,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 138309,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 322607,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 345632,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 368655,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 391679,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 414703,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 437727,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201.log",
+      "counts": {
+        "Saved all parameters": 84
+      },
+      "first": [
+        {
+          "logical_line": 604,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1164,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1724,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2284,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2844,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 3404,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 44304,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 44864,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 45426,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 45986,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 46546,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 47106,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0512.tau.full.log",
+      "counts": {
+        "Saved all parameters": 8
+      },
+      "first": [
+        {
+          "logical_line": 18259,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36482,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54720,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 72953,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 91171,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109391,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 54720,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 72953,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 91171,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109391,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 127605,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 145820,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.1745.log",
+      "counts": {
+        "Saved all parameters": 1
+      },
+      "first": [
+        {
+          "logical_line": 12237,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 12237,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201a1.log",
+      "counts": {
+        "Saved all parameters": 77
+      },
+      "first": [
+        {
+          "logical_line": 604,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1164,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1724,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2284,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2844,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 3404,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 40384,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40944,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 41504,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 42064,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 42624,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 43184,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0513.av45.demog.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 13739,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 27426,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 41208,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 55119,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 69015,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 82745,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 204380,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 217863,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 231354,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 244890,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 258434,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 271959,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0202.log",
+      "counts": {
+        "Saved all parameters": 161
+      },
+      "first": [
+        {
+          "logical_line": 604,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1164,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1724,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2284,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2844,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 3404,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 87440,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 88000,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 88560,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 89120,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 89680,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 90242,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.1.log",
+      "counts": {
+        "Saved all parameters": 14
+      },
+      "first": [
+        {
+          "logical_line": 23141,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 46165,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 69188,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 92210,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 115233,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 138256,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 207349,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 230375,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 253399,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 276423,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 299446,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 322472,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0513.av45.none.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 13746,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 27431,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 41189,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 55015,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 68808,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 82623,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 204281,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 217755,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 231243,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 244813,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 258437,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 272078,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.s2.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 13540,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 27041,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40535,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54036,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67502,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 80968,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 202814,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 216245,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 229665,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 243085,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 256505,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 269926,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0511.av45.1.log",
+      "counts": {
+        "Saved all parameters": 6
+      },
+      "first": [
+        {
+          "logical_line": 13530,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 26992,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40454,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 53888,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67339,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 80772,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 13530,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 26992,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40454,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 53888,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67339,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 80772,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201a.log",
+      "counts": {
+        "Saved all parameters": 200
+      },
+      "first": [
+        {
+          "logical_line": 604,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1164,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 1724,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2284,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 2844,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 3404,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 109288,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109848,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 110408,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 110968,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 111528,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 112088,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0511.av45.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 13510,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 26972,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40442,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54215,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67944,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 81677,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 203867,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 217285,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 230716,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 244146,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 257582,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 271008,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0520.tau.demog.log",
+      "counts": {
+        "Saved all parameters": 13
+      },
+      "first": [
+        {
+          "logical_line": 18305,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36549,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54861,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 73108,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 91361,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109605,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 146111,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 164333,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 182725,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 201438,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 220105,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 238788,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 5054,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 10066,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 15078,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 20090,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 25102,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 30114,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 75228,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 80240,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 85252,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 90264,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 95276,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 100288,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 18259,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36468,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54677,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 72885,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 91095,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109303,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 273187,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 291396,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 309604,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 327816,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 346030,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 364240,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0514.tm.none.log",
+      "counts": {
+        "Saved all parameters": 3
+      },
+      "first": [
+        {
+          "logical_line": 18260,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36472,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54680,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 18260,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36472,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54680,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.2.log",
+      "counts": {
+        "Saved all parameters": 18
+      },
+      "first": [
+        {
+          "logical_line": 23056,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 46078,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 69102,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 92127,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 115167,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 138190,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 299374,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 322403,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 345426,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 368451,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 391475,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 414500,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0520.tau.demog.t.log",
+      "counts": {
+        "Saved all parameters": 13
+      },
+      "first": [
+        {
+          "logical_line": 18317,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 36574,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 54906,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 73167,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 91422,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 109663,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 146171,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 164397,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 182819,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 201575,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 220253,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 238946,
+          "text": "Saved all parameters!"
+        }
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/av45_legacy.log",
+      "counts": {
+        "Saved all parameters": 20
+      },
+      "first": [
+        {
+          "logical_line": 13481,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 26916,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 40333,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 53752,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 67164,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 80583,
+          "text": "Saved all parameters!"
+        }
+      ],
+      "last": [
+        {
+          "logical_line": 201332,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 214748,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 228154,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 241582,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 255003,
+          "text": "Saved all parameters!"
+        },
+        {
+          "logical_line": 268414,
+          "text": "Saved all parameters!"
+        }
+      ]
+    }
+  ]
+}

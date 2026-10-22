@@ -1,0 +1,10 @@
+{
+  "ptid": "100_S_0743",
+  "voxels": {
+    "17": 1,
+    "53": 458,
+    "1025": 12052,
+    "2025": 14378
+  },
+  "note": "Centroid ordering alone does not certify anatomical segmentation; left hippocampus can be fragmented or nearly absent."
+}

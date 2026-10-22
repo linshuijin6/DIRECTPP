@@ -1,0 +1,11 @@
+{
+  "original_16_frozen_inputs_unchanged": true,
+  "manuscript_files_verified": 15,
+  "scientific_hyperparameters_unchanged": true,
+  "changed_config_keys": [
+    "authorization_receipt",
+    "execution_report",
+    "formal_training_authorized",
+    "frozen_files"
+  ]
+}

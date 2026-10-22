@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "compared_numeric_values": 84,
+  "oasis_tracer_from_excel_header": "AV45",
+  "comparisons": [
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "Cyclegan",
+      "method_figure": "Cyclegan",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "Cyclegan",
+      "method_figure": "Cyclegan",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "Cyclegan",
+      "method_figure": "Cyclegan",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "Swin-Unet",
+      "method_figure": "Swin-Unet",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "Swin-Unet",
+      "method_figure": "Swin-Unet",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "Swin-Unet",
+      "method_figure": "Swin-Unet",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "DDIM (3D)",
+      "method_figure": "DDIM(3D)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "DDIM (3D)",
+      "method_figure": "DDIM(3D)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "DDIM (3D)",
+      "method_figure": "DDIM(3D)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "SegGuidedDif",
+      "method_figure": "SegGuidedDif",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "SegGuidedDif",
+      "method_figure": "SegGuidedDif",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "SegGuidedDif",
+      "method_figure": "SegGuidedDif",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "Rectified Flow",
+      "method_figure": "Rectified Flow",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "Rectified Flow",
+      "method_figure": "Rectified Flow",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "Rectified Flow",
+      "method_figure": "Rectified Flow",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "Ours(Single)",
+      "method_figure": "Ours(single)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "Ours(Single)",
+      "method_figure": "Ours(single)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "Ours(Single)",
+      "method_figure": "Ours(single)",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_FDG",
+      "method_excel": "Ours(DIReCT+)",
+      "method_figure": "Ours",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "ADNI_AV45",
+      "method_excel": "Ours(DIReCT+)",
+      "method_figure": "Ours",
+      "all_four_values_equal": true
+    },
+    {
+      "cohort": "OASIS",
+      "method_excel": "Ours(DIReCT+)",
+      "method_figure": "Ours",
+      "all_four_values_equal": true
+    }
+  ]
+}

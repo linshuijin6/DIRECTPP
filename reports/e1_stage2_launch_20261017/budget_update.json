@@ -1,0 +1,71 @@
+{
+  "baseline_3090_pure_training_gpu_hours": 207.56743127453356,
+  "baseline_3090_total_gpu_hours": [
+    250.09399339447197,
+    270.935159510678
+  ],
+  "a6000_startup_observations": [
+    {
+      "node": "3002",
+      "fold": 1,
+      "hardware": {
+        "host": "pnxc",
+        "pid": 2563008,
+        "visible_devices": "GPU-4e00852f-6d7a-af71-10b5-1c59593a6681",
+        "allocator_config": "expandable_segments:True",
+        "gpu": "NVIDIA RTX A6000",
+        "torch": "2.6.0+cu118",
+        "cuda": "11.8",
+        "monai": "0+unknown",
+        "transformers": "4.40.2",
+        "xformers": "0.0.29.post3"
+      },
+      "cache_preload_seconds_measured": 376.37366178352386,
+      "first_five_step_seconds": [
+        1.8050439916551113,
+        0.7031889595091343,
+        1.390436915680766,
+        0.7157362978905439,
+        1.3969391463324428
+      ],
+      "peak_reserved_bytes_first_five": 25027411968,
+      "host_memory_at_collection": {
+        "VmHWM": "54913808 kB",
+        "VmRSS": "54913808 kB"
+      },
+      "runtime_limit": "five warmup updates only; no stable full-epoch throughput claim"
+    },
+    {
+      "node": "3003",
+      "fold": 2,
+      "hardware": {
+        "host": "pnxc",
+        "pid": 3207145,
+        "visible_devices": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+        "allocator_config": "expandable_segments:True",
+        "gpu": "NVIDIA RTX A6000",
+        "torch": "2.5.1",
+        "cuda": "11.8",
+        "monai": "0+unknown",
+        "transformers": "4.40.2",
+        "xformers": "0.0.28.post3"
+      },
+      "cache_preload_seconds_measured": 511.22670686338097,
+      "first_five_step_seconds": [
+        1.8473366675898433,
+        0.6891283541917801,
+        1.3694744799286127,
+        1.3723451746627688,
+        1.3740613739937544
+      ],
+      "peak_reserved_bytes_first_five": 25027411968,
+      "host_memory_at_collection": {
+        "VmHWM": "54812360 kB",
+        "VmRSS": "54812360 kB"
+      },
+      "runtime_limit": "five warmup updates only; no stable full-epoch throughput claim"
+    }
+  ],
+  "a6000_full_epoch_budget": "pending full epoch measurements by Gemini; five warmup updates not extrapolated",
+  "historical_paper_gpu_hours_verified": false
+}

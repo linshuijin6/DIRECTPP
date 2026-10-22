@@ -1,0 +1,499 @@
+{
+  "rule": "segmenter left/right names are anatomically swapped for all subjects; report physical_name",
+  "evidence": [
+    "reports/e1_laterality_rootcause_20261017/CORRECTION.md",
+    "laterality_qc.json"
+  ],
+  "labels": {
+    "10": {
+      "segmenter_name": "Left-Thalamus",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Thalamus"
+    },
+    "1001": {
+      "segmenter_name": "ctx-lh-bankssts",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-bankssts"
+    },
+    "1002": {
+      "segmenter_name": "ctx-lh-caudalanteriorcingulate",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-caudalanteriorcingulate"
+    },
+    "1003": {
+      "segmenter_name": "ctx-lh-caudalmiddlefrontal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-caudalmiddlefrontal"
+    },
+    "1005": {
+      "segmenter_name": "ctx-lh-cuneus",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-cuneus"
+    },
+    "1006": {
+      "segmenter_name": "ctx-lh-entorhinal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-entorhinal"
+    },
+    "1007": {
+      "segmenter_name": "ctx-lh-fusiform",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-fusiform"
+    },
+    "1008": {
+      "segmenter_name": "ctx-lh-inferiorparietal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-inferiorparietal"
+    },
+    "1009": {
+      "segmenter_name": "ctx-lh-inferiortemporal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-inferiortemporal"
+    },
+    "1010": {
+      "segmenter_name": "ctx-lh-isthmuscingulate",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-isthmuscingulate"
+    },
+    "1011": {
+      "segmenter_name": "ctx-lh-lateraloccipital",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-lateraloccipital"
+    },
+    "1012": {
+      "segmenter_name": "ctx-lh-lateralorbitofrontal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-lateralorbitofrontal"
+    },
+    "1013": {
+      "segmenter_name": "ctx-lh-lingual",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-lingual"
+    },
+    "1014": {
+      "segmenter_name": "ctx-lh-medialorbitofrontal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-medialorbitofrontal"
+    },
+    "1015": {
+      "segmenter_name": "ctx-lh-middletemporal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-middletemporal"
+    },
+    "1016": {
+      "segmenter_name": "ctx-lh-parahippocampal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-parahippocampal"
+    },
+    "1017": {
+      "segmenter_name": "ctx-lh-paracentral",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-paracentral"
+    },
+    "1018": {
+      "segmenter_name": "ctx-lh-parsopercularis",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-parsopercularis"
+    },
+    "1019": {
+      "segmenter_name": "ctx-lh-parsorbitalis",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-parsorbitalis"
+    },
+    "1020": {
+      "segmenter_name": "ctx-lh-parstriangularis",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-parstriangularis"
+    },
+    "1021": {
+      "segmenter_name": "ctx-lh-pericalcarine",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-pericalcarine"
+    },
+    "1022": {
+      "segmenter_name": "ctx-lh-postcentral",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-postcentral"
+    },
+    "1023": {
+      "segmenter_name": "ctx-lh-posteriorcingulate",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-posteriorcingulate"
+    },
+    "1024": {
+      "segmenter_name": "ctx-lh-precentral",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-precentral"
+    },
+    "1025": {
+      "segmenter_name": "ctx-lh-precuneus",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-precuneus"
+    },
+    "1026": {
+      "segmenter_name": "ctx-lh-rostralanteriorcingulate",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-rostralanteriorcingulate"
+    },
+    "1027": {
+      "segmenter_name": "ctx-lh-rostralmiddlefrontal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-rostralmiddlefrontal"
+    },
+    "1028": {
+      "segmenter_name": "ctx-lh-superiorfrontal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-superiorfrontal"
+    },
+    "1029": {
+      "segmenter_name": "ctx-lh-superiorparietal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-superiorparietal"
+    },
+    "1030": {
+      "segmenter_name": "ctx-lh-superiortemporal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-superiortemporal"
+    },
+    "1031": {
+      "segmenter_name": "ctx-lh-supramarginal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-supramarginal"
+    },
+    "1032": {
+      "segmenter_name": "ctx-lh-frontalpole",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-frontalpole"
+    },
+    "1033": {
+      "segmenter_name": "ctx-lh-temporalpole",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-temporalpole"
+    },
+    "1034": {
+      "segmenter_name": "ctx-lh-transversetemporal",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-transversetemporal"
+    },
+    "1035": {
+      "segmenter_name": "ctx-lh-insula",
+      "physical_hemisphere": "right",
+      "physical_name": "ctx-rh-insula"
+    },
+    "11": {
+      "segmenter_name": "Left-Caudate",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Caudate"
+    },
+    "12": {
+      "segmenter_name": "Left-Putamen",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Putamen"
+    },
+    "13": {
+      "segmenter_name": "Left-Pallidum",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Pallidum"
+    },
+    "14": {
+      "segmenter_name": "3rd-Ventricle",
+      "physical_hemisphere": "midline",
+      "physical_name": "3rd-Ventricle"
+    },
+    "15": {
+      "segmenter_name": "4th-Ventricle",
+      "physical_hemisphere": "midline",
+      "physical_name": "4th-Ventricle"
+    },
+    "16": {
+      "segmenter_name": "Brain-Stem",
+      "physical_hemisphere": "midline",
+      "physical_name": "Brain-Stem"
+    },
+    "17": {
+      "segmenter_name": "Left-Hippocampus",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Hippocampus"
+    },
+    "18": {
+      "segmenter_name": "Left-Amygdala",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Amygdala"
+    },
+    "2": {
+      "segmenter_name": "Left-Cerebral-White-Matter",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Cerebral-White-Matter"
+    },
+    "2001": {
+      "segmenter_name": "ctx-rh-bankssts",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-bankssts"
+    },
+    "2002": {
+      "segmenter_name": "ctx-rh-caudalanteriorcingulate",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-caudalanteriorcingulate"
+    },
+    "2003": {
+      "segmenter_name": "ctx-rh-caudalmiddlefrontal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-caudalmiddlefrontal"
+    },
+    "2005": {
+      "segmenter_name": "ctx-rh-cuneus",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-cuneus"
+    },
+    "2006": {
+      "segmenter_name": "ctx-rh-entorhinal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-entorhinal"
+    },
+    "2007": {
+      "segmenter_name": "ctx-rh-fusiform",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-fusiform"
+    },
+    "2008": {
+      "segmenter_name": "ctx-rh-inferiorparietal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-inferiorparietal"
+    },
+    "2009": {
+      "segmenter_name": "ctx-rh-inferiortemporal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-inferiortemporal"
+    },
+    "2010": {
+      "segmenter_name": "ctx-rh-isthmuscingulate",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-isthmuscingulate"
+    },
+    "2011": {
+      "segmenter_name": "ctx-rh-lateraloccipital",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-lateraloccipital"
+    },
+    "2012": {
+      "segmenter_name": "ctx-rh-lateralorbitofrontal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-lateralorbitofrontal"
+    },
+    "2013": {
+      "segmenter_name": "ctx-rh-lingual",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-lingual"
+    },
+    "2014": {
+      "segmenter_name": "ctx-rh-medialorbitofrontal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-medialorbitofrontal"
+    },
+    "2015": {
+      "segmenter_name": "ctx-rh-middletemporal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-middletemporal"
+    },
+    "2016": {
+      "segmenter_name": "ctx-rh-parahippocampal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-parahippocampal"
+    },
+    "2017": {
+      "segmenter_name": "ctx-rh-paracentral",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-paracentral"
+    },
+    "2018": {
+      "segmenter_name": "ctx-rh-parsopercularis",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-parsopercularis"
+    },
+    "2019": {
+      "segmenter_name": "ctx-rh-parsorbitalis",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-parsorbitalis"
+    },
+    "2020": {
+      "segmenter_name": "ctx-rh-parstriangularis",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-parstriangularis"
+    },
+    "2021": {
+      "segmenter_name": "ctx-rh-pericalcarine",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-pericalcarine"
+    },
+    "2022": {
+      "segmenter_name": "ctx-rh-postcentral",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-postcentral"
+    },
+    "2023": {
+      "segmenter_name": "ctx-rh-posteriorcingulate",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-posteriorcingulate"
+    },
+    "2024": {
+      "segmenter_name": "ctx-rh-precentral",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-precentral"
+    },
+    "2025": {
+      "segmenter_name": "ctx-rh-precuneus",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-precuneus"
+    },
+    "2026": {
+      "segmenter_name": "ctx-rh-rostralanteriorcingulate",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-rostralanteriorcingulate"
+    },
+    "2027": {
+      "segmenter_name": "ctx-rh-rostralmiddlefrontal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-rostralmiddlefrontal"
+    },
+    "2028": {
+      "segmenter_name": "ctx-rh-superiorfrontal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-superiorfrontal"
+    },
+    "2029": {
+      "segmenter_name": "ctx-rh-superiorparietal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-superiorparietal"
+    },
+    "2030": {
+      "segmenter_name": "ctx-rh-superiortemporal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-superiortemporal"
+    },
+    "2031": {
+      "segmenter_name": "ctx-rh-supramarginal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-supramarginal"
+    },
+    "2032": {
+      "segmenter_name": "ctx-rh-frontalpole",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-frontalpole"
+    },
+    "2033": {
+      "segmenter_name": "ctx-rh-temporalpole",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-temporalpole"
+    },
+    "2034": {
+      "segmenter_name": "ctx-rh-transversetemporal",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-transversetemporal"
+    },
+    "2035": {
+      "segmenter_name": "ctx-rh-insula",
+      "physical_hemisphere": "left",
+      "physical_name": "ctx-lh-insula"
+    },
+    "24": {
+      "segmenter_name": "CSF",
+      "physical_hemisphere": "midline",
+      "physical_name": "CSF"
+    },
+    "26": {
+      "segmenter_name": "Left-Accumbens-area",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Accumbens-area"
+    },
+    "28": {
+      "segmenter_name": "Left-VentralDC",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-VentralDC"
+    },
+    "4": {
+      "segmenter_name": "Left-Lateral-Ventricle",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Lateral-Ventricle"
+    },
+    "41": {
+      "segmenter_name": "Right-Cerebral-White-Matter",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Cerebral-White-Matter"
+    },
+    "43": {
+      "segmenter_name": "Right-Lateral-Ventricle",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Lateral-Ventricle"
+    },
+    "44": {
+      "segmenter_name": "Right-Inf-Lat-Vent",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Inf-Lat-Vent"
+    },
+    "46": {
+      "segmenter_name": "Right-Cblm-WM",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Cblm-WM"
+    },
+    "47": {
+      "segmenter_name": "Right-Cerebellum-Cortex",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Cerebellum-Cortex"
+    },
+    "49": {
+      "segmenter_name": "Right-Thalamus",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Thalamus"
+    },
+    "5": {
+      "segmenter_name": "Left-Inf-Lat-Vent",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Inf-Lat-Vent"
+    },
+    "50": {
+      "segmenter_name": "Right-Caudate",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Caudate"
+    },
+    "51": {
+      "segmenter_name": "Right-Putamen",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Putamen"
+    },
+    "52": {
+      "segmenter_name": "Right-Pallidum",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Pallidum"
+    },
+    "53": {
+      "segmenter_name": "Right-Hippocampus",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Hippocampus"
+    },
+    "54": {
+      "segmenter_name": "Right-Amygdala",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Amygdala"
+    },
+    "58": {
+      "segmenter_name": "Right-Accumbens-area",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-Accumbens-area"
+    },
+    "60": {
+      "segmenter_name": "Right-VentralDC",
+      "physical_hemisphere": "left",
+      "physical_name": "Left-VentralDC"
+    },
+    "7": {
+      "segmenter_name": "Left-Cblm-WM",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Cblm-WM"
+    },
+    "8": {
+      "segmenter_name": "Left-Cerebellum-Cortex",
+      "physical_hemisphere": "right",
+      "physical_name": "Right-Cerebellum-Cortex"
+    }
+  }
+}

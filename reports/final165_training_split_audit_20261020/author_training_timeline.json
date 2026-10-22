@@ -1,0 +1,134 @@
+[
+  {
+    "session": 68,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-18 06:23:57.893381",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_40.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "b5327527304e7b0b2a9025312fdb89931eae829129687bf545805610d08c4eb9"
+  },
+  {
+    "session": 69,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-18 18:51:12.980498",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_50.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "4aa7e1e6331636e42dceccf375ab8de4f7304ded8587f2d1768abaa064a15fed"
+  },
+  {
+    "session": 70,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-19 22:05:45.352452",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_80.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "63ac06840b8b999be6de25ef5ac03a51b3aa30521085e5b4214cbf37b9903f93"
+  },
+  {
+    "session": 71,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-21 07:08:13.956954",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_120.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "dce82fdb5804c2638eeeeeb46d52538a7ca51615080b6fffce71af1413ae5929"
+  },
+  {
+    "session": 72,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-22 07:20:02.740518",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58"
+  },
+  {
+    "session": 74,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58"
+  },
+  {
+    "session": 74,
+    "input_line": 10,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58"
+  },
+  {
+    "session": 74,
+    "input_line": 11,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58"
+  },
+  {
+    "session": 75,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-22 14:54:52.252828",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58"
+  },
+  {
+    "session": 76,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-22 17:12:49.399359",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_140.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "2b62315fa99d14509834526401799a520a7309cbf639d9cea633b862e5717550"
+  },
+  {
+    "session": 77,
+    "input_line": 9,
+    "session_start_as_stored": "2025-04-23 08:55:00.460977",
+    "checkpoint_statements": [
+      "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'",
+      "checkpoint = torch.load(f'{checkpoint_dir}/first_part_154.pth')",
+      "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one",
+      "new_epochs =140  # Number of additional epochs to train"
+    ],
+    "source_sha256": "d88582cad9223824c62627ee320bc43b9fe7ad4c5cdc29c0528318f837c93716"
+  }
+]

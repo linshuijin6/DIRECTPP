@@ -1,0 +1,19 @@
+{
+  "purpose": "numerical fixture on random 16^3 inputs; not clinical or synthesis results",
+  "comparison": "backward(L_FDG+L_AV45) versus two backward calls before one optimizer step",
+  "objective_unchanged": true,
+  "results": [
+    {
+      "amp": false,
+      "parameters_checked": 286,
+      "max_absolute_gradient_difference": 0.0,
+      "pass_": true
+    },
+    {
+      "amp": true,
+      "parameters_checked": 286,
+      "max_absolute_gradient_difference": 0.0,
+      "pass_": true
+    }
+  ]
+}

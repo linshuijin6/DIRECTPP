@@ -1,0 +1,40 @@
+{
+  "encoder_bundle_sha256": "12fab8b1dc77245433418bbeda3ce5ad6eb3a0a3b4a4bd3425589734dfe2de37",
+  "encoder_bundle": {
+    "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/biomedclip",
+    "files": {
+      "config.json": "1de3d38ac5ede7babaf72d68e45c00e5bdbf5240c5b50fcec259c79375367431",
+      "configuration_biomed_clip.py": "b88965dbee5b83196eef13c3adc20dc0a5c96736bee14d487cc61809a759257b",
+      "model.safetensors": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb",
+      "modeling_biomed_clip.py": "4f4afdf5418d70a6198da6a8e4d59453cf37d3c694c793f71f5b9bdbb0b258a1",
+      "preprocessor_config.json": "b73eb29108ff586ec6e81abf6149cd24132ceac0eae76ca20b3f3004e848a4c4",
+      "processing_biomed_clip.py": "22fb0c0ef2324137a441081034ab0d37a95f077ab2fe3d29e29ac4eda6517e0c",
+      "tokenizer.json": "defc1f91456606e7847af3a2fb4a8abb96441423aa5407a52498395ea68327ff",
+      "tokenizer_config.json": "e1790949631401af1bfb6c9c7aeec7fcf612e274d73579d99f704faea40c8ba7"
+    }
+  },
+  "patient_index_sha256": "e6670a14924ad660f9e5ed5e2ad5a960d425c03fc40bda74b6e610c909e5c2c7",
+  "raw_tracers_sha256": "eaa3c76e8b9169247385fc88eb9cfd4c3af77b1baff0eb7348efdc7cf0cbb28e",
+  "cohort_sha256": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+  "metadata_sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+  "folds": {
+    "1": {
+      "fdg": 795,
+      "av45": 687
+    },
+    "2": {
+      "fdg": 803,
+      "av45": 678
+    }
+  },
+  "adapters": {
+    "1": "c9285ea53df7b198ab5c825fd32d76fba8b2c41ec7bc0bdcd17e9d88bc56be8c",
+    "2": "9d814a8dfe8f186d3a5cd084e3d4eba99861ddd55bc350dd6613fe158a5c979e"
+  },
+  "features": {
+    "fdg": "1206cc6a999d2b7b7487575473ba38c576711e5455af12e00dff2613b5568fa1",
+    "av45": "029c1a4f67a6e07c4dbf203073d73a0263a6f8f0d138d9185311e963f4fad33f"
+  },
+  "heldout_fitting_intersections": 0,
+  "formal_training_authorized": false
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "label": "single_flow",
+    "split": "all",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_flow.ipynb",
+    "original_sha256": "6ad4b83141e67a968f1b64008b9121a594721361186a8062daeb51da2d45107a",
+    "cell_zero_based": 4,
+    "output_index": 0,
+    "rows": 1129,
+    "unique_names": 1129,
+    "derived": "reports/baseline_metrics_provenance_20261020/single_flow_all_from_original_output.json"
+  },
+  {
+    "label": "single_flow",
+    "split": "val",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_flow.ipynb",
+    "original_sha256": "6ad4b83141e67a968f1b64008b9121a594721361186a8062daeb51da2d45107a",
+    "cell_zero_based": 9,
+    "output_index": 0,
+    "rows": 329,
+    "unique_names": 329,
+    "derived": "reports/baseline_metrics_provenance_20261020/single_flow_val_from_original_output.json"
+  },
+  {
+    "label": "ddim",
+    "split": "all",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb",
+    "original_sha256": "08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe",
+    "cell_zero_based": 4,
+    "output_index": 0,
+    "rows": 1129,
+    "unique_names": 1129,
+    "derived": "reports/baseline_metrics_provenance_20261020/ddim_all_from_original_output.json"
+  },
+  {
+    "label": "ddim",
+    "split": "val",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb",
+    "original_sha256": "08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe",
+    "cell_zero_based": 9,
+    "output_index": 0,
+    "rows": 1,
+    "unique_names": 1,
+    "derived": "reports/baseline_metrics_provenance_20261020/ddim_val_from_original_output.json"
+  },
+  {
+    "label": "swin",
+    "split": "all",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet swinunet useful.ipynb",
+    "original_sha256": "e205647dbf51ed7c3d76e27ebab5f7b0d8d608d6f2d122b70c287b77f21441da",
+    "cell_zero_based": 4,
+    "output_index": 0,
+    "rows": 1129,
+    "unique_names": 1129,
+    "derived": "reports/baseline_metrics_provenance_20261020/swin_all_from_original_output.json"
+  },
+  {
+    "label": "swin",
+    "split": "val",
+    "original": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet swinunet useful.ipynb",
+    "original_sha256": "e205647dbf51ed7c3d76e27ebab5f7b0d8d608d6f2d122b70c287b77f21441da",
+    "cell_zero_based": 9,
+    "output_index": 0,
+    "rows": 329,
+    "unique_names": 329,
+    "derived": "reports/baseline_metrics_provenance_20261020/swin_val_from_original_output.json"
+  }
+]

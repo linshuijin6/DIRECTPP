@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "three 3002 checkpoints and matched historical split candidates",
+  "checkpoint_sha_unchanged": true,
+  "extracted_source_sha_match": true,
+  "candidate_csv_rows_and_order_verified": true,
+  "full_historical_membership_bound_to_runtime_hash": false,
+  "tensorboard_fully_read": true,
+  "artifacts_sha256": {
+    "split_candidates.json": "0a47874861f62e96d45ba8f7656a7005412e1c8ad24668bf70b24175e4cc884d",
+    "historical_receipts.json": "b776b4b8e21fb0f1aa45392d0cbb312ad9a9c7ce1b5f780d59d04f0cef598ee2",
+    "checkpoint_metadata.json": "c58e34ff126a8583a017b2c2ac12d11136b6ead2aa15007c178d5be1b7483e0b",
+    "split_identity_analysis.json": "f74af453ecd148dedd4b578df2ca403fbccb44eb9a7d70f520c5043d195bafaf",
+    "candidate_membership_7bc69a2.csv": "991cf5ccf94d8072d3b29e477d6a95f6de5acb20491c5b5d408f187b852a212e",
+    "candidate_membership_9ba7133.csv": "025e4f4409aa471a4aad790320fa4654ca2d5d547db314724e2f19d87834b7c0",
+    "shared_mri_records_7bc69a2.csv": "89c166dab8160df6abde2c5b271626a8c173665c74b7aff04c6aa2c8747ca26c",
+    "run_split_mapping.json": "d7afbeddd92b030eecd65e14d18c1e1182c473411c1ad3a4828c11cb18808829",
+    "membership_checks.json": "5497ca1245fcd5a96e3c535a7b64d6ceb2d3ce52e97b93e19a6c902910ce4379",
+    "recheck_membership.py": "9e798b6fe06f61646bad37374103c26533fa497de639d35fd6205a0f270f4df0",
+    "tensorboard_receipts.json": "e31ad99c4d42983ac11959b8ea133e07c80cc5060f63d67afe1d7b1e1b6112cd",
+    "run_summary.csv": "569ed3e519a6bd65cc7739c4844ac3126bdcc978a9c004f34f461be53624bfb6",
+    "REPORT.md": "0163308bc0d778b23e7f10f9dc9c16f64beb2a1b4bfb3e8c542ffe74dd514c3b"
+  }
+}

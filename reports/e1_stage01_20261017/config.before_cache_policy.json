@@ -1,0 +1,75 @@
+{
+  "experiment": "E1_stage01_20261017",
+  "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017",
+  "assets": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017",
+  "seed": 42,
+  "formal_training_authorized": false,
+  "model_source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo",
+  "historical_monai": "/home/data/liutuo/code",
+  "shape": [
+    160,
+    192,
+    160
+  ],
+  "conditions": [
+    "Full",
+    "No-Scores"
+  ],
+  "epochs": 165,
+  "endpoint_epoch_zero_based": 140,
+  "learning_rate": 2.5e-05,
+  "adapter_iterations": 5000,
+  "tau": 0.82,
+  "adapter_lr": 0.001,
+  "adapter_cross_weight": 100.0,
+  "frozen_files": {
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/metadata.csv": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/filled.csv": "9ae0d2d51d747d8d612ffc70241bd135d2caa3561a468f7d68c52b88563065ea",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/observed.csv": "4b5be3aab0e53fe084a789ce2763fd58de1339a213159df0307e81f6c0bd1b4c",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/observed_provenance.csv": "cdf4cf377fb4f69c9e225436d91fabb10ee9e992c8bef0272436ad4c3262be65",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/clinical_export.csv": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/cohort.json": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/cohort_candidate.json": "6459318a8df95f66c27e8944f904102002ef90e01b57b252f3f9df7608bb80f6",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/roi_labels.csv": "6dae68a41bafc35429f816f6873cc5308d894c25c42acfd9fdbd5de224a7d8ca",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/tracer_texts.json": "2fddddcc42a4f073d93ca35fc399ded028d212df961886c4e7ee3d6eaa9541d3",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/score_sources.csv": "5c49538f399081d7c48018cac3fd520a08b2d3fd86a0fa8f95985f590b6e3468",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/input_hashes_final.csv": "4ce44b3bf7a0dfd48ad67388964b1cde863bc9f67f5aa36e2c5857c2dbf63023"
+  },
+  "score_interpretation": "historical conditioning fields; genuine observed clinical benefit not established",
+  "key_rois": {
+    "av45": [
+      1025,
+      2025,
+      1027,
+      2027,
+      1028,
+      2028,
+      1015,
+      2015,
+      1030,
+      2030
+    ],
+    "fdg": [
+      17,
+      53,
+      1023,
+      2023,
+      1008,
+      2008,
+      1015,
+      2015,
+      1030,
+      2030
+    ]
+  },
+  "statistics": {
+    "seed": 20261017,
+    "bootstrap_replicates": 10000,
+    "primary": "subject-level ROI MAE per tracer",
+    "paired_delta": "No-Scores minus Full",
+    "primary_adjustment": "Holm, two tracers",
+    "roi_adjustment": "BH,196 ROI MAE tests"
+  },
+  "evaluation_laterality_gate_pass": false,
+  "evaluation_mri_mask_gate_pass": false
+}

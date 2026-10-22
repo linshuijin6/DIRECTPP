@@ -1,0 +1,43 @@
+{
+  "subjects_before": 1857,
+  "subjects_active": 1856,
+  "excluded": [
+    "016_S_4952"
+  ],
+  "effective_fdg": 1597,
+  "effective_av45": 1364,
+  "folds": {
+    "1": {
+      "test": 928,
+      "train": 928,
+      "test_fdg": 802,
+      "test_av45": 677
+    },
+    "2": {
+      "test": 928,
+      "train": 928,
+      "test_fdg": 795,
+      "test_av45": 687
+    }
+  },
+  "diagnoses_by_test_fold": {
+    "1": {
+      "CN": 288,
+      "MCI": 260,
+      "AD": 159,
+      "EMCI": 145,
+      "LMCI": 76
+    },
+    "2": {
+      "CN": 288,
+      "MCI": 260,
+      "AD": 158,
+      "EMCI": 146,
+      "LMCI": 76
+    }
+  },
+  "mri_mask_gate_pass": true,
+  "laterality_gate_pass": false,
+  "adapter_refit_required": "stage-1 adapters included the excluded subject (fold-2 training side, fold-1 outer test); refit into conditions/qc_exclusion_20261017, originals preserved",
+  "config_backup": "config.before_qc_exclusion.json"
+}

@@ -1,0 +1,13 @@
+{
+  "before_sha256": "612aa3b97b06e793337cf3a1cbbead019f2299067cb45d8f2067683bde51096b",
+  "after_sha256": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+  "changed_top_level_keys": [
+    "frozen_files",
+    "execution_report",
+    "authorization_receipt"
+  ],
+  "training_hyperparameters_unchanged": true,
+  "cohort_and_asset_hashes_unchanged": true,
+  "amp_policy": "at most 8 attempts on same subject/timestep, restore CUDA RNG, GradScaler backoff, exactly one successful optimizer update; persistent failures fatal",
+  "checkpoint_policy": "atomic recovery.pt save at every completed epoch"
+}

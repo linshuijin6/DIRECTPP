@@ -1,0 +1,4 @@
+fdg SSIM values: []
+av45 SSIM values: []
+fdg PSNR values: []
+av45 PSNR values: []

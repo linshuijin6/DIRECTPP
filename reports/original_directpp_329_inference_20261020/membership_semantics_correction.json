@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20 Asia/Shanghai",
+  "reason": "User clarified that train_data/train_loader and test_size=1 may be reused solely for inference of pretrained checkpoints; distinguish membership from actual training use",
+  "file_329": "reports/baseline_metrics_provenance_20261020/single_flow_val_from_original_output.json",
+  "file_329_sha256": "4c8424d3f3c992871a55335fd890a81dd93b50aa613d6fcff4b36dfa20c22276",
+  "file_1856": "appendix/legacy_only/5_data_splits/train_data_1856_first_part_165.json",
+  "file_1856_sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+  "n_329": 329,
+  "n_1856": 1856,
+  "intersection": 329,
+  "outside": [],
+  "confirmed": "329 PTIDs occur in the file named train_data_1856_first_part_165.json",
+  "not_confirmed": "That these 1856 were the actual training cohort of the existing checkpoint; that the checkpoint was trained on the 329 subjects",
+  "source_history_limit": "Session77 contains split/loader and load154 training input; input history is not a successful-update or checkpoint-creation receipt",
+  "inference_continues": true,
+  "training_or_independent_test_label_assigned": false,
+  "report_corrections": [
+    {
+      "report": "reports/original_directpp_329_inference_20261020/REPORT.md",
+      "prior_sha256": "7b31c4160aacc728cf955a36d90b64f29d097480a3a369f97749ea496aab020a",
+      "membership_corrected_intermediate_sha256": "659957c556ba94327772190a80153599b7951bd596b73d2389f9f97654767575",
+      "final_completed_report_sha256": "2a685b4c41947e6892a526af604fc21cf13bf2c169e3dd2ccf31a1938d977f9a",
+      "prior_copy": "reports/original_directpp_329_inference_20261020/prior_report_versions/original_directpp_329_inference_20261020__REPORT.before_membership_correction.md"
+    },
+    {
+      "report": "reports/baseline_metrics_provenance_20261020/REPORT.md",
+      "prior_sha256": "0cf1127533b8c6a8fbd034201e0594d6146b6d165de7d2493d97bf29d745dd88",
+      "corrected_sha256": "262f47f61eae990af40997201ce2311030177149ea2c2249677ad1d1daf76fec",
+      "prior_copy": "reports/original_directpp_329_inference_20261020/prior_report_versions/baseline_metrics_provenance_20261020__REPORT.before_membership_correction.md"
+    },
+    {
+      "report": "reports/final165_training_split_audit_20261020/REPORT.md",
+      "prior_sha256": "16facfe46cd15cc97c7b64d0f2e5b17935ec6fe87c6069cba11b7b2af05ea951",
+      "corrected_sha256": "bfc4903f87db3c0cc1ae12c405b470cca98f41fae8614b0881d513e13e66e283",
+      "prior_copy": "reports/original_directpp_329_inference_20261020/prior_report_versions/final165_training_split_audit_20261020__REPORT.before_membership_correction.md"
+    },
+    {
+      "report": "reports/baseline_metrics_provenance_20261020/OPEN_QUESTIONS.md",
+      "prior_sha256": "fc3b87ed5e4fa255c77553e1152abb044f3416e6f7c3bb44ffcfd33bb72d268f",
+      "corrected_sha256": "1edea6f0dff2a6a1695390fa85bb1b2a4b1d1424922207e79a07f04ecd7afde7",
+      "prior_copy": "reports/original_directpp_329_inference_20261020/prior_report_versions/baseline_metrics_provenance_20261020__OPEN_QUESTIONS.md.before_membership_correction"
+    },
+    {
+      "report": "reports/csv_bound_ckpt_search_20261020/REPORT.md",
+      "prior_sha256": "bdf703267bd32875d1a1c2bd2984fd43c53f6fcea0c84f9bf9b6f458401c460e",
+      "corrected_sha256": "e9dda291782d7f3c3e7aa5271b7376246444a1a415feffe92e58bcac069ab19c",
+      "prior_copy": "reports/original_directpp_329_inference_20261020/prior_report_versions/csv_bound_ckpt_search_20261020__REPORT.md.before_membership_correction"
+    }
+  ],
+  "old_verification_receipts": "Preserved as prior snapshots; hashes of corrected report texts are recorded here; original source, manifests, metrics and checkpoints unchanged",
+  "additional_counter_evidence": "checkpoint_update_counter_evidence.json",
+  "additional_counter_scope": "Counters and changed model tensors support training continuation around 1856 updates/epoch under recovered code; do not identify individual training subjects"
+}

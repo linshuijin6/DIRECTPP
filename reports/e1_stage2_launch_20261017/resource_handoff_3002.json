@@ -1,0 +1,17 @@
+{
+  "node": "3002",
+  "gpu_uuid": "GPU-4e00852f-6d7a-af71-10b5-1c59593a6681",
+  "pid": 2296316,
+  "user": "linshuijin",
+  "cmdline": "/home/pnxc/Anaconda3/envs/xiaochou/bin/python -u plasma_train.py --config /mnt/nfsdata/nfsdata/linshuijin/replicaLT/analysis/tau_suvrnorm_3fold_20261013/fold_0/round_2/configs/s2_bound.yaml ",
+  "start_stat": "2296316 (python) S 2296310 2267743 2267743 0 -1 4194304 33695029 85 22 0 3154713 1458980 0 0 25 5 99 0 580164794 55763595264 519650 18446744073709551615 4321280 6412946 140733891340272 0 0 0 0 16781319 65536 0 0 0 17 17 0 0 0 0 0 7471752 7678816 838057984 140733891344949 140733891345139 140733891345139 140733891346378 0\n",
+  "owned_descendants": [
+    2296672,
+    2296673,
+    2296674,
+    2296675
+  ],
+  "action": "SIGTERM only exact author task and descendants",
+  "preserved_tau_pid": 2306716,
+  "timestamp": 1792247437.624724
+}

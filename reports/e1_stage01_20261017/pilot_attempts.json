@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "OOM, simultaneous tracer graphs",
+      "log": "pilot_simultaneous_oom.log"
+    },
+    {
+      "attempt": 2,
+      "outcome": "OOM, sequential tracer gradients, default allocator",
+      "log": "pilot_sequential_default_allocator_oom.log"
+    },
+    {
+      "attempt": 3,
+      "outcome": "fold1 conditions passed strict replay; fold2 strict next-update comparison failed at 2.47e-6 parameter difference",
+      "log": "pilot_expandable_strict_replay_failure.log"
+    }
+  ],
+  "active_recipe": "sequential gradients, one optimizer step per subject, expandable allocator",
+  "active_resume_tolerance": {
+    "rtol": 0.001,
+    "atol": 1e-05,
+    "interpretation": "FP16 numerical reproducibility, not bitwise replay"
+  },
+  "copied_completed_same_config_receipts": [
+    "fold1_Full",
+    "fold1_No-Scores"
+  ],
+  "scientific_effects_not_evaluated": true
+}

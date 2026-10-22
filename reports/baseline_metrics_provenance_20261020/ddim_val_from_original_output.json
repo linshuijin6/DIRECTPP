@@ -1,0 +1,12 @@
+[
+  {
+    "pet": "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET/099_S_4498.mat",
+    "mri": "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/MRI/099_S_4498.mat",
+    "name": "099_S_4498",
+    "label": "sMCI",
+    "description": "Subject is a 78-year-old female with a weight of 81.2 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0.5. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 27.0. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0.0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 2.0.",
+    "mri_index": 1128,
+    "pet_index": 1128,
+    "index": 1128
+  }
+]

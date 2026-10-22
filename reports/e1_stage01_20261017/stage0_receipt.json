@@ -1,0 +1,29 @@
+{
+  "subjects": 1857,
+  "effective_fdg": 1598,
+  "effective_av45": 1365,
+  "folds": {
+    "1": {
+      "test": 929,
+      "train": 928,
+      "test_fdg": 803,
+      "test_av45": 678
+    },
+    "2": {
+      "test": 928,
+      "train": 929,
+      "test_fdg": 795,
+      "test_av45": 687
+    }
+  },
+  "laterality_pass_subjects": 2,
+  "mask_binding_failed": [
+    "016_S_4952"
+  ],
+  "max_replay_error_among_bound": 1.7881393432617188e-07,
+  "cache_bytes": 127787876550,
+  "preprocessing_wall_seconds_lower_bound": 1602.0,
+  "evaluation_status": "NO_GO",
+  "unit": "normalized uptake (arbitrary units)",
+  "cohort_status": "Frozen stage-01 inputs; scientific ROI gates retained as failures, not repaired or silently excluded"
+}

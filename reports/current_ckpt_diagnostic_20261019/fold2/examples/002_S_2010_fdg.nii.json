@@ -1,0 +1,8 @@
+{
+  "ptid": "002_S_2010",
+  "tracer": "fdg",
+  "checkpoint_sha256": "a936a95c96f795dfaf018b34e5824ee3b7d5d9aa2d5e181ca75ee2806b3cf542",
+  "prediction_sha256": "001e8d0989120d1089428fec7553a51997fa9d796ec48a12ef286f68f6bb34ac",
+  "cache": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/preprocessed/002_S_2010.npz",
+  "cache_sha256": "e8b113ce1e61f927f71851bac97ef6f24312ef7c613c1fc553c8be32a98c64fd"
+}

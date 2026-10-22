@@ -1,0 +1,161 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_flow.ipynb
+ORIGINAL_SHA256: 6ad4b83141e67a968f1b64008b9121a594721361186a8062daeb51da2d45107a
+CELL_INDEX_ZERO_BASED: 13
+CELL_EXECUTION_COUNT_METADATA: 14
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import tempfile
+0003: import time
+0004: from liutuo_utils import donkey_noise_like
+0005: import matplotlib.pyplot as plt
+0006: import numpy as np
+0007: import torch
+0008: import torch.nn.functional as F
+0009: from monai import transforms
+0010: from monai.apps import DecathlonDataset
+0011: from monai.config import print_config
+0012: from monai.data import DataLoader
+0013: from monai.utils import set_determinism
+0014: from torch.cuda.amp import GradScaler, autocast
+0015: from tqdm import tqdm
+0016: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0017: 
+0018: 
+0019: 
+0020: 
+0021: 
+0022: n_epochs = 200
+0023: val_interval =10
+0024: epoch_loss_list = []
+0025: val_epoch_loss_list = []
+0026: scaler = GradScaler()  
+0027: total_start = time.time()
+0028: checkpoint_dir = '/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow'
+0029: 
+0030: # 定义裁剪的最小值和最大值
+0031: clip_sample_min = 0  # 设置合适的最小值
+0032: clip_sample_max = 1   # 设置合适的最大值
+0033: 
+0034: for epoch in range(n_epochs):
+0035:     model.train()
+0036:     epoch_loss = 0
+0037:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0038:     progress_bar.set_description(f"Epoch {epoch}")
+0039:     for step, data in progress_bar:
+0040:         images = data["mri"].to(device)
+0041:         seg = data["pet"].to(device) # this is the ground truth segmentation
+0042:         pet_index=data["pet_index"].to(device)
+0043:         optimizer.zero_grad(set_to_none=True)
+0044:         timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0045:         
+0046:         
+0047:         with autocast(device_type='cuda', enabled=True):
+0048:         
+0049:     
+0050:             # Create time_embedding
+0051:             time_embedding = torch.randint(
+0052:                 0, 1000, (images.shape[0],), device=images.device
+0053:             ).long()
+0054:             
+0055:             if epoch >=140:
+0056:                time_embedding = torch.tensor([0], device=images.device, dtype=torch.long)
+0057:             # Create time
+0058:             t = time_embedding.float() / 1000
+0059: 
+0060:             # Get the v-prediction
+0061:             # print(t)
+0062:             # print(time_embedding)
+0063:             x_t = t * seg + (1 - t) * images
+0064:             v_prediction = model(x=x_t, timesteps=time_embedding,context=pet_index)
+0065:             
+0066:             
+0067: 
+0068:             # Get the loss
+0069:             # print(t)
+0070:             # print(time_embedding)
+0071:             v = seg - images
+0072:             loss = F.mse_loss(v.float(), v_prediction.float())
+0073:         scaler.scale(loss).backward()
+0074:         scaler.step(optimizer)
+0075:         scaler.update()
+0076:         epoch_loss += loss.item()
+0077:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0078:         
+0079:         torch.cuda.empty_cache()
+0080:     
+0081:     epoch_loss_list.append(epoch_loss / (step + 1))
+0082:     if (epoch + 1) % val_interval == 0:
+0083:         model.eval()
+0084:         val_epoch_loss = 0
+0085:         for step, data_val in enumerate(val_loader):
+0086:             images = data_val["mri"].to(device)
+0087:             seg = data_val["pet"].to(device)  # this is the ground truth segmentation
+0088:             pet_index=data["pet_index"].to(device)
+0089:             # timesteps = torch.randint(0, 1000, (len(images),)).to(device)
+0090:             
+0091:             x_t = images
+0092:             N_sample = 1
+0093:             N_sample_tensor = torch.tensor(N_sample, dtype=torch.float32)
+0094:             # progress_bar = tqdm([(i / (N_sample)) for i in range(N_sample)])
+0095:             progress_bar = [(i / (N_sample)) for i in range(N_sample)]
+0096:             for t in progress_bar:  # go through the noising process
+0097:                 with autocast(device_type='cuda',enabled=False):
+0098:                     with torch.no_grad():
+0099:                         time_embedding = int(t * 1000)
+0100:                         # print(t)
+0101:                         # print(time_embedding)
+0102:                         v_output = model(x = x_t, timesteps=torch.Tensor((time_embedding,)).to(x_t.device),context=pet_index)
+0103:                         x_t = x_t + (v_output / N_sample_tensor)
+0104:                         x_t = torch.clamp(x_t, min=clip_sample_min, max=clip_sample_max)
+0105:                 
+0106:             
+0107:             val_loss = F.mse_loss(x_t.float(),  seg.float())
+0108:             val_epoch_loss += val_loss.item()
+0109:             torch.cuda.empty_cache()
+0110:         print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0111:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0112:          # Saving model parameters
+0113:         print('epoch:', epoch + 1)
+0114:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0115:         checkpoint = {
+0116:             'model': model.state_dict(),
+0117:             'optimizer': optimizer.state_dict(),
+0118:             'epoch': epoch
+0119:         }
+0120:         torch.save(checkpoint, f'{checkpoint_dir}/noise2image about mri2pet_method_two_second_part_{epoch + 1}.pth')
+0121:         print('Saved all parameters!\n')
+0122:         
+0123:         current_img =  x_t.to('cpu')
+0124:         labels = seg.to('cpu')
+0125:         compare_3d([images,labels, current_img])
+0126:         compare_3d_jet([current_img - labels])
+0127:         from generative.metrics import SSIMMetric
+0128:         from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0129:         ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=7)
+0130:         psnr_metric=PSNRMetric(1.0)
+0131: 
+0132:         ssim_value = ssim_metric(labels, current_img)
+0133:         psnr_value = psnr_metric(labels, current_img)
+0134: 
+0135:         print(f"SSIM: {ssim_value.mean().item()}")
+0136:         print(f"PSNR: {psnr_value.mean().item()}") 
+0137: 
+0138: # total_time = time.time() - total_start
+0139: # print(f"train diffusion completed, total time: {total_time}.")
+0140: # plt.style.use("seaborn-bright")
+0141: # plt.title("Learning Curves Diffusion Model", fontsize=20)
+0142: # plt.plot(np.linspace(1, n_epochs, n_epochs), epoch_loss_list, color="C0", linewidth=2.0, label="Train")
+0143: # plt.plot(
+0144: #     np.linspace(val_interval, n_epochs, int(n_epochs / val_interval)),
+0145: #     val_epoch_loss_list,
+0146: #     color="C1",
+0147: #     linewidth=2.0,
+0148: #     label="Validation",
+0149: # )
+0150: # plt.yticks(fontsize=12)
+0151: # plt.xticks(fontsize=12)
+0152: # plt.xlabel("Epochs", fontsize=16)
+0153: # plt.ylabel("Loss", fontsize=16)
+0154: # plt.legend(prop={"size": 14})
+0155: # plt.show()

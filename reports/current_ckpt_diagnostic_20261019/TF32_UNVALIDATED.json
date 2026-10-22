@@ -1,0 +1,4 @@
+{
+  "status": "EXCLUDED_FROM_RESULTS",
+  "reason": "Native 3D GPU SSIM with cuDNN TF32 produced measurable numerical error. These first few diagnostic metrics are retained only as failed arithmetic validation evidence. Final evaluation will disable TF32 and validate against CPU FP32 native SSIM. Training and frozen code were not modified."
+}

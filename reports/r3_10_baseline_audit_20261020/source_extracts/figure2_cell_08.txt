@@ -1,0 +1,99 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb
+ORIGINAL_SHA256: 0755c31eeb8f628ec6f73a11e91a75577a8211337e8d5729d3a13deabef59489
+CELL_INDEX_ZERO_BASED: 8
+CELL_EXECUTION_COUNT_METADATA: 14
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import torch
+0003: import numpy as np
+0004: from monai.networks.nets import SwinUNETR
+0005: from monai.data import DataLoader, Dataset
+0006: from monai.transforms import Compose, LoadImage, EnsureChannelFirst, ScaleIntensity, ToTensor
+0007: from tqdm import tqdm
+0008: import matplotlib.pyplot as plt
+0009: import nibabel as nib
+0010: 
+0011: # 定义路径和参数
+0012: checkpoint_path = "/home/ssddata/liutuo/checkpoint/swinunter_fdg/swinunter_10.pth"
+0013: output_dir = "/home/ssddata/liutuo/liutuo_data/test1"
+0014: device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+0015: 
+0016: # 创建输出目录
+0017: os.makedirs(output_dir, exist_ok=True)
+0018: 
+0019: # 加载模型
+0020: model = SwinUNETR(
+0021:     img_size=(96, 96, 96),  # 根据你的数据调整大小
+0022:     in_channels=1,          # 输入通道数
+0023:     out_channels=1,         # 输出通道数
+0024:     feature_size=48,        # 特征大小
+0025: ).to(device)
+0026: 
+0027: # 加载检查点
+0028: checkpoint = torch.load(checkpoint_path)
+0029: model.load_state_dict(checkpoint['model'])
+0030: model.eval()
+0031: 
+0032: # 定义翻转函数
+0033: def flip_nifti_along_xyz(file_path, output_dir):
+0034:     """
+0035:     沿 x、y、z 轴翻转 NIfTI 文件并保存。
+0036:     """
+0037:     # 加载 NIfTI 文件
+0038:     img = nib.load(file_path)
+0039:     data = img.get_fdata()  # 获取图像数据（NumPy 数组）
+0040:     affine = img.affine      # 获取仿射矩阵
+0041: 
+0042:     # 同时沿 x 轴、y 轴和 z 轴翻转
+0043:     flipped_xyz = np.flip(data, axis=(0, 1, 2))  # 沿 (x, y, z) 轴同时翻转
+0044:     flipped_img_xyz = nib.Nifti1Image(flipped_xyz, affine)
+0045: 
+0046:     # 构造输出文件名
+0047:     output_path_xyz = os.path.join(output_dir, f"flipped_xyz_{os.path.basename(file_path)}")
+0048:     nib.save(flipped_img_xyz, output_path_xyz)
+0049: 
+0050:     print(f"Processed: {file_path}")
+0051:     print(f"Saved flipped image to: {output_path_xyz}")
+0052: 
+0053: # 推理过程
+0054: with torch.no_grad():
+0055:     for i, data in enumerate(tqdm(train_loader)):
+0056:         images = data["mri"].to(device)
+0057: 
+0058:         # 模型推理
+0059:         with torch.cuda.amp.autocast(enabled=True):
+0060:             outputs = model(images)
+0061: 
+0062:         # 将输出限制在合理范围内（如果需要）
+0063:         outputs = torch.clamp(outputs, min=0, max=1.0)
+0064: 
+0065:         # 将 PyTorch 张量转换为 NumPy 数组
+0066:         output_image = outputs.squeeze().cpu().numpy().astype(np.float32)  # 转换为 float32
+0067: 
+0068:         # 保存生成的图像为临时 NIfTI 文件
+0069:         temp_output_path = os.path.join(output_dir, f"temp_generated_image_{i}.nii.gz")
+0070:         temp_output_nifti = nib.Nifti1Image(output_image, affine=np.eye(4))  # 创建 NIfTI 图像
+0071:         nib.save(temp_output_nifti, temp_output_path)  # 保存为 .nii.gz
+0072: 
+0073:         # 对生成的图像进行翻转处理
+0074:         flip_nifti_along_xyz(temp_output_path, output_dir)
+0075: 
+0076:         # 删除临时文件
+0077:         os.remove(temp_output_path)
+0078: 
+0079:         # 可视化生成的图像（可选）
+0080:         plt.figure(figsize=(10, 5))
+0081:         plt.subplot(1, 2, 1)
+0082:         plt.title("Input MRI")
+0083:         plt.imshow(images[0, 0, :, :, images.shape[-1] // 2].cpu().numpy(), cmap="gray")  # 显示中间切片
+0084: 
+0085:         plt.subplot(1, 2, 2)
+0086:         plt.title("Generated Image (Flipped)")
+0087:         flipped_data = nib.load(os.path.join(output_dir, f"flipped_xyz_temp_generated_image_{i}.nii.gz")).get_fdata()
+0088:         plt.imshow(flipped_data[:, :, flipped_data.shape[-1] // 2], cmap="gray")  # 显示中间切片
+0089: 
+0090:         plt.savefig(os.path.join(output_dir, f"visualization_flipped_{i}.png"))
+0091: 
+0092: 
+0093: print(f"All generated and flipped images have been saved to {output_dir}")

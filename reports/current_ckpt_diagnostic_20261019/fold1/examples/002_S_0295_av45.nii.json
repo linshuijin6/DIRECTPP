@@ -1,0 +1,8 @@
+{
+  "ptid": "002_S_0295",
+  "tracer": "av45",
+  "checkpoint_sha256": "9d501d282e0e0eb09e9c6eb27f50dbf9a02c732f247d8195142eb122fa06fdc0",
+  "prediction_sha256": "3fcc114165083304f4dc8d0eb68a243dd6f75f573b735f4ca026f975df52be7c",
+  "cache": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/preprocessed/002_S_0295.npz",
+  "cache_sha256": "5c085f0ede1fab1f23401e8260a8f2d11d910e48bbf783ed1434f2e2b4e08b3d"
+}

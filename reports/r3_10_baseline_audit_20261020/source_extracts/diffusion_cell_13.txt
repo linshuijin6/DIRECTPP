@@ -1,0 +1,116 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+ORIGINAL_SHA256: cb35bdca97dc91fdd846d40acb6f0451ba1c72c51a3326dadca5846134df5d75
+CELL_INDEX_ZERO_BASED: 13
+CELL_EXECUTION_COUNT_METADATA: 14
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import torch
+0002: import os
+0003: import tempfile
+0004: import time
+0005: from liutuo_utils import donkey_noise_like
+0006: import matplotlib.pyplot as plt
+0007: import numpy as np
+0008: import torch
+0009: import torch.nn.functional as F
+0010: from monai import transforms
+0011: from monai.apps import DecathlonDataset
+0012: from monai.config import print_config
+0013: from monai.data import DataLoader
+0014: from monai.utils import set_determinism
+0015: from torch.cuda.amp import GradScaler, autocast
+0016: from tqdm import tqdm
+0017: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0018: checkpoint_dir = '/home/data/liutuo/code/checkpoint/mri2pet_pretrained_clip'
+0019: checkpoint = torch.load(f'{checkpoint_dir}/first_part_10.pth', weights_only=True)
+0020: 
+0021: #checkpoint = torch.load(f'{checkpoint_dir}/first_part_10.pth')
+0022: model.load_state_dict(checkpoint['model'])
+0023: optimizer.load_state_dict(checkpoint['optimizer'])
+0024: start_epoch = checkpoint['epoch'] + 1  # 从上次停止的地方继续
+0025: 
+0026: # 设置新的训练参数
+0027: new_epochs = 90  # 继续训练的epoch数
+0028: total_epochs = start_epoch + new_epochs
+0029: val_interval = 10  # 验证间隔仍保持不变
+0030: epoch_loss_list = []  # 初始化epoch loss列表
+0031: val_epoch_loss_list = []  # 初始化验证epoch loss列表
+0032: 
+0033: 
+0034: n_epochs = 100
+0035: val_interval =10
+0036: epoch_loss_list = []
+0037: val_epoch_loss_list = []
+0038: scaler = GradScaler()  
+0039: total_start = time.time()
+0040: 
+0041: 
+0042: for epoch in range(start_epoch, total_epochs):  # 修改循环范围
+0043:     model.train()
+0044:     epoch_loss = 0
+0045:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0046:     progress_bar.set_description(f"Epoch {epoch}")
+0047:     for step, batch in progress_bar:
+0048:         images = batch["pet"].to(device)#mri
+0049:         pet_index = batch["pet_index"].to(device)
+0050:         optimizer.zero_grad(set_to_none=True)
+0051: 
+0052:         with autocast(device_type='cuda',enabled=True):
+0053:             #noise = torch.randn_like(images).to(device)
+0054:             noise= donkey_noise_like(images).to(device)
+0055: 
+0056:             # Create timesteps
+0057:             #timesteps = torch.randint(0, inferer.scheduler.num_train_timesteps, (images.shape[0],), device=images.device).long()
+0058:             timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0059:             target = inferer.scheduler.get_velocity(images, noise, timesteps)
+0060:             # Get model prediction
+0061:             noise_pred = inferer(inputs=images, diffusion_model=model, noise=noise, timesteps=timesteps,condition=pet_index)
+0062: 
+0063:             loss = F.mse_loss(noise_pred.float(), target.float())
+0064: 
+0065:         scaler.scale(loss).backward()
+0066:         scaler.step(optimizer)
+0067:         scaler.update()
+0068: 
+0069:         epoch_loss += loss.item()
+0070: 
+0071:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0072:     epoch_loss_list.append(epoch_loss / (step + 1))
+0073: 
+0074:     if (epoch + 1) % val_interval == 0:
+0075:         model.eval()
+0076:         val_epoch_loss = 0
+0077:         for step, batch in enumerate(val_loader):
+0078:             images = batch["pet"].to(device)
+0079:             pet_index = batch["pet_index"].to(device)
+0080:             # noise = torch.randn_like(images).to(device)
+0081:             noise= donkey_noise_like(images).to(device)
+0082:             
+0083:             with torch.no_grad():
+0084:                 with autocast(device_type='cuda',enabled=True):
+0085:                     timesteps = torch.randint(0, 1000, (len(images),)).to(device)
+0086:                     # Get model prediction
+0087:                     target = inferer.scheduler.get_velocity(images, noise, timesteps)
+0088:                     noise_pred = inferer(inputs=images, diffusion_model=model, noise=noise, timesteps=timesteps,condition=pet_index)
+0089:                     val_loss = F.mse_loss(noise_pred.float(), target.float())
+0090: 
+0091:             val_epoch_loss += val_loss.item()
+0092:             progress_bar.set_postfix({"val_loss": val_epoch_loss / (step + 1)})
+0093:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0094:          #save checkpoints
+0095:         print('epoch:', epoch + 1)
+0096:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0097:         checkpoint = {
+0098:              'model': model.state_dict(),
+0099:              'optimizer': optimizer.state_dict(),
+0100:              'epoch': epoch
+0101:         }
+0102:         torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')
+0103:         print('Saved all parameters!\n')
+0104:         
+0105:         # Sampling image during training
+0106:         #noise = torch.randn_like(images).to(device)
+0107:         noise= donkey_noise_like(images).to(device)
+0108:         with autocast(device_type='cuda',enabled=True):
+0109:             image = inferer.sample(input_noise=noise, diffusion_model=model, scheduler=scheduler,conditioning=pet_index)
+0110:         compare_3d([image])

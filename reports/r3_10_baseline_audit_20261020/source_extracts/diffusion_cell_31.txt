@@ -1,0 +1,76 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+ORIGINAL_SHA256: cb35bdca97dc91fdd846d40acb6f0451ba1c72c51a3326dadca5846134df5d75
+CELL_INDEX_ZERO_BASED: 31
+CELL_EXECUTION_COUNT_METADATA: None
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import torch
+0002: import numpy as np
+0003: from tqdm import tqdm
+0004: from generative.metrics import SSIMMetric
+0005: 
+0006: # 加载保存的模型参数
+0007: checkpoint = torch.load('/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_200.pth')
+0008: model.load_state_dict(checkpoint['model'])
+0009: 
+0010: # 初始化SSIM度量
+0011: ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0, kernel_size=11)
+0012: 
+0013: # 用于存储10次采样的SSIM值
+0014: ssim_values = []
+0015: 
+0016: # 使用不同输入图像进行10次采样
+0017: for i, data in enumerate(train_loader):
+0018:     if i >= 10:  # 只采样10次
+0019:         break
+0020:     
+0021:     # 获取不同的输入图像和标签
+0022:     input_img = data["mri"].to(device)
+0023:     labels = data["pet"].to(device)
+0024:     pet_index = data["pet_index"].to(device)
+0025: 
+0026:     # 生成随机噪声并初始化采样图像
+0027:     noise = donkey_noise_like(input_img).to(device)
+0028:     current_img = noise  # 从随机噪声开始
+0029:     combined = torch.cat((input_img, noise), dim=1)  # 拼接MR图像和噪声
+0030: 
+0031: 
+0032:     progress_bar = tqdm(scheduler.timesteps, desc=f"Sampling {i+1}")
+0033:     for t in progress_bar:  # go through the noising process
+0034:         with autocast(device_type='cuda', enabled=True):
+0035:             with torch.no_grad():
+0036:                 model_output = model(combined, timesteps=torch.Tensor((t,)).to(current_img.device),context=pet_index)
+0037:                 current_img, _ = scheduler.step(model_output, t, current_img)  # this is the prediction x_t at the time step t
+0038:                 combined = torch.cat((input_img, current_img), dim=1)  # in every step during the denoising process, the brain MR image is concatenated to add anatomical information
+0039: 
+0040: 
+0041:     # 将结果移回CPU
+0042:     current_img = current_img.to('cpu')
+0043:     labels = labels.to('cpu')
+0044:     
+0045: 
+0046:     # 计算当前采样的SSIM并存储
+0047:     ssim_value = ssim_metric(labels, current_img)
+0048:     ssim_values.append(ssim_value.mean().item())
+0049: 
+0050:     # 可视化采样结果
+0051:     compare_3d([input_img, labels, current_img])
+0052:     compare_3d_jet([current_img - labels])
+0053:     from generative.metrics import SSIMMetric
+0054:     from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0055:     ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=11)
+0056:     psnr_metric=PSNRMetric(1.0)
+0057: 
+0058:     ssim_value = ssim_metric(labels, current_img)
+0059:     psnr_value = psnr_metric(labels, current_img)
+0060: 
+0061:     print(f"SSIM: {ssim_value.mean().item()}")
+0062:     print(f"PSNR: {psnr_value.mean().item()}") 
+0063: 
+0064: # 计算SSIM的均值和方差
+0065: ssim_mean = np.mean(ssim_values)
+0066: ssim_variance = np.var(ssim_values)
+0067: 
+0068: # 输出结果
+0069: print(f"SSIM均值: {ssim_mean}")
+0070: print(f"SSIM方差: {ssim_variance}")

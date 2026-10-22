@@ -1,0 +1,16 @@
+{
+  "source_hash_mismatches": [],
+  "source_cell_extracts": 46,
+  "indexed_source_hash_match": {
+    "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet swinunet useful.ipynb": true,
+    "source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb": true,
+    "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb": true,
+    "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb": true
+  },
+  "report_code_fence_balanced": true,
+  "bounded_notebook_count": 66,
+  "bounded_query_hit_count": 19,
+  "notebooks_executed": false,
+  "training_or_inference_launched": false,
+  "scientific_result_verified": false
+}

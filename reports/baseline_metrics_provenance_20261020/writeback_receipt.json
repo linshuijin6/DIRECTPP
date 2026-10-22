@@ -1,0 +1,8 @@
+{
+  "target": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/baseline_metrics_provenance_20261020",
+  "stage_backup": "/tmp/directpp_baseline_metrics_20261020_s0980g2e/audit",
+  "changed_files_copied": 47,
+  "verified_identical_files": 423,
+  "failures": [],
+  "all_stage_files_written_back": true
+}

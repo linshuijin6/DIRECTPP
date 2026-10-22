@@ -1,0 +1,17 @@
+{
+  "host": "server",
+  "pid": 319598,
+  "fold": 1,
+  "training_subjects": 928,
+  "outer_test_overlap": 0,
+  "array_payload_bytes": 54735667200,
+  "measured_resident_bytes": 55190536192,
+  "peak_rss_bytes": 55190540288,
+  "wall_seconds": 344.8369428809965,
+  "cpu_seconds": 97.976947716,
+  "available_memory_before_bytes": 579200565248,
+  "torch_threads": 4,
+  "cuda_initialized": false,
+  "model_constructed": false,
+  "optimization_performed": false
+}

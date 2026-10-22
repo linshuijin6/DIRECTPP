@@ -1,0 +1,35 @@
+Saved all parameters!
+SSIM: 0.8766855001449585
+PSNR: 22.801780700683594
+Saved all parameters!
+SSIM: 0.8860192894935608
+PSNR: 23.372774124145508
+Saved all parameters!
+SSIM: 0.8849292397499084
+PSNR: 23.16374969482422
+Saved all parameters!
+SSIM: 0.891648530960083
+PSNR: 23.482223510742188
+Saved all parameters!
+SSIM: 0.877113938331604
+PSNR: 23.085311889648438
+Saved all parameters!
+SSIM: 0.8942250609397888
+PSNR: 23.66619110107422
+Saved all parameters!
+SSIM: 0.8967483043670654
+PSNR: 23.63365936279297
+Saved all parameters!
+SSIM: 0.8814314007759094
+PSNR: 23.021839141845703
+Saved all parameters!
+SSIM: 0.895134687423706
+PSNR: 23.655906677246094
+Saved all parameters!
+SSIM: 0.8855215907096863
+PSNR: 23.30655860900879
+Saved all parameters!
+SSIM: 0.8919101357460022
+PSNR: 23.51611328125
+[0;31m---------------------------------------------------------------------------[0m[0;31mOutOfMemoryError[0m                          Traceback (most recent call last)Cell [0;32mIn[14], line 65[0m
+[0;31mOutOfMemoryError[0m: CUDA out of memory. Tried to allocate 900.00 MiB. GPU 2 has a total capacity of 47.53 GiB of which 153.06 MiB is free. Including non-PyTorch memory, this process has 16.15 GiB memory in use. Process 1293532 has 31.21 GiB memory in use. Of the allocated memory 15.13 GiB is allocated by PyTorch, and 703.83 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

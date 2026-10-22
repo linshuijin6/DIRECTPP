@@ -1,0 +1,143 @@
+{
+  "hardware": {
+    "host": "server",
+    "pid": 314858,
+    "visible_devices": "GPU-759ccfc6-bc77-4566-8bff-fe3786e91b6f",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "torch": "2.5.1",
+    "cuda": "12.4",
+    "monai": "0+unknown",
+    "transformers": "4.40.2",
+    "xformers": "0.0.28"
+  },
+  "fits": [
+    {
+      "fold": 1,
+      "condition": "Full",
+      "patterns": {
+        "(True, True)": {
+          "train_subjects": 554,
+          "random_step_seconds": 1.4397999717548373,
+          "endpoint_step_seconds": 1.4474054210004397,
+          "gpu_hours": 36.58818080282258
+        },
+        "(True, False)": {
+          "train_subjects": 241,
+          "random_step_seconds": 0.7247121364998748,
+          "endpoint_step_seconds": 0.7276272526626902,
+          "gpu_hours": 8.0099282452218
+        },
+        "(False, True)": {
+          "train_subjects": 133,
+          "random_step_seconds": 0.7259317224998085,
+          "endpoint_step_seconds": 0.7257558573352677,
+          "gpu_hours": 4.424996360718389
+        }
+      },
+      "training_gpu_hours": 49.02310540876277
+    },
+    {
+      "fold": 1,
+      "condition": "No-Scores",
+      "patterns": {
+        "(True, True)": {
+          "train_subjects": 554,
+          "random_step_seconds": 1.6127409575019556,
+          "endpoint_step_seconds": 1.6081741941695025,
+          "gpu_hours": 40.93261145919425
+        },
+        "(True, False)": {
+          "train_subjects": 241,
+          "random_step_seconds": 0.8113050864994875,
+          "endpoint_step_seconds": 0.8048974776659937,
+          "gpu_hours": 8.950816922619534
+        },
+        "(False, True)": {
+          "train_subjects": 133,
+          "random_step_seconds": 0.8112469089974184,
+          "endpoint_step_seconds": 0.807750684665128,
+          "gpu_hours": 4.941996797789856
+        }
+      },
+      "training_gpu_hours": 54.82542517960364
+    },
+    {
+      "fold": 2,
+      "condition": "Full",
+      "patterns": {
+        "(True, True)": {
+          "train_subjects": 551,
+          "random_step_seconds": 1.4509146850032266,
+          "endpoint_step_seconds": 1.4644371234996167,
+          "gpu_hours": 36.69338338259893
+        },
+        "(True, False)": {
+          "train_subjects": 251,
+          "random_step_seconds": 0.7312095652559947,
+          "endpoint_step_seconds": 0.7433312766661402,
+          "gpu_hours": 8.433085523382134
+        },
+        "(False, True)": {
+          "train_subjects": 126,
+          "random_step_seconds": 0.7334688945011294,
+          "endpoint_step_seconds": 0.7382591641653562,
+          "gpu_hours": 4.239974351700221
+        }
+      },
+      "training_gpu_hours": 49.36644325768128
+    },
+    {
+      "fold": 2,
+      "condition": "No-Scores",
+      "patterns": {
+        "(True, True)": {
+          "train_subjects": 551,
+          "random_step_seconds": 1.6078960815066239,
+          "endpoint_step_seconds": 1.6043765783348742,
+          "gpu_hours": 40.592608637217744
+        },
+        "(True, False)": {
+          "train_subjects": 251,
+          "random_step_seconds": 0.792355135006801,
+          "endpoint_step_seconds": 0.7981431593361776,
+          "gpu_hours": 9.125474380270417
+        },
+        "(False, True)": {
+          "train_subjects": 126,
+          "random_step_seconds": 0.8019084474908595,
+          "endpoint_step_seconds": 0.8057405923342836,
+          "gpu_hours": 4.63437441099771
+        }
+      },
+      "training_gpu_hours": 54.35245742848587
+    }
+  ],
+  "pure_training_gpu_hours": 207.56743127453356,
+  "fold_cache_preload_seconds_measured": 344.8369428809965,
+  "fold_cache_peak_rss_bytes_measured": 55190540288,
+  "fold_cache_preload_hours_four_fits": 0.3831521587566628,
+  "inference_seconds_per_tracer_volume": 0.28029041262598187,
+  "training_cache_mode": "fold_memory",
+  "training_host_ram_budget_gib": 80,
+  "streaming_read_hours_warm_scenario": 12.166846806642651,
+  "streaming_read_hours_first_pass_scenario": 108.28549835163996,
+  "two_condition_network_inference_gpu_hours": 0.4610777287697402,
+  "feature_extraction_measured_gpu_hours": 0.8045826675169478,
+  "budget_scope": "new stage-2 allocation for 1856 active subjects; stage-1 feature cache excluded",
+  "planned_total_gpu_hours_low": 250.09399339447197,
+  "planned_total_gpu_hours_high": 270.935159510678,
+  "calendar_days_single_gpu": [
+    10.420583058102999,
+    11.288964979611583
+  ],
+  "calendar_days_two_equivalent_gpus": [
+    5.210291529051499,
+    5.6444824898057915
+  ],
+  "peak_reserved_bytes": 24901582848,
+  "cache_bytes": 127787876550,
+  "two_condition_predictions_float32_bytes": 116431257600,
+  "pilot_steps_per_fit": 36,
+  "historical_138_gpu_hours_verified": false,
+  "caveat": "Extrapolated from short training-side pilot on RTX3090 (repeated RAM-cached examples, not full epochs). Fold RAM cache preload and peak RSS measured once on fold 1 (928 subjects). A6000 throughput unmeasured."
+}

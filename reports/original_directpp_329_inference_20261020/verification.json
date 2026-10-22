@@ -1,0 +1,62 @@
+{
+  "status": "PASS_FOR_NATIVE_REPLAY_COMPLETENESS",
+  "subjects": 329,
+  "metric_rows": 653,
+  "input_order_matches_329": true,
+  "metric_means_recomputed": true,
+  "prediction_identity_and_header_checks": [
+    {
+      "tracer": "fdg",
+      "predictions": 329,
+      "shape": [
+        160,
+        192,
+        160
+      ]
+    },
+    {
+      "tracer": "av45",
+      "predictions": 324,
+      "shape": [
+        160,
+        192,
+        160
+      ]
+    }
+  ],
+  "native_cpu_gpu_checks": {
+    "fdg": {
+      "ptid": "051_S_5005",
+      "native_gpu": 0.951397716999054,
+      "native_cpu": 0.9513977766036987,
+      "absolute_difference": 5.960464477539063e-08
+    },
+    "av45": {
+      "ptid": "051_S_5005",
+      "native_gpu": 0.9202312231063843,
+      "native_cpu": 0.9202312231063843,
+      "absolute_difference": 0.0
+    }
+  },
+  "missing_av45_due_to_zero_placeholder": {
+    "count": 5,
+    "ptids": [
+      "010_S_4442",
+      "018_S_4733",
+      "109_S_4260",
+      "123_S_4362",
+      "141_S_4819"
+    ]
+  },
+  "checkpoint_unchanged": true,
+  "checkpoint_sha256": "a57f7e79071baf4661bfe7d853846cf2fe57590de25b26eaf7a90faead634bb6",
+  "actual_training_membership": "UNRESOLVED; name-set inclusion is not a training receipt",
+  "original_author_cells_only_for_model_transform_inference_metrics": true,
+  "limitations": [
+    "329 PTIDs use original dual-tracer NIfTI/text inputs, not legacy single-tracer MAT inputs",
+    "Paper final test cohort/checkpoint aggregation binding remains unresolved",
+    "Current dependencies and FP32/TF32 settings are recorded; no historical bitwise claim"
+  ],
+  "report_sha256": "2a685b4c41947e6892a526af604fc21cf13bf2c169e3dd2ccf31a1938d977f9a",
+  "paper_comparison_sha256": "a9d82e503ed602badeb8fabedceaf980a2b9735d42b671746e24e0507185bd53"
+}

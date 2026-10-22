@@ -1,0 +1,23 @@
+{
+  "rule": "Pre-specified stage-0 QC: mri_mask_grid_pass==False (saved MRI replay maxabs > 2e-6) -> exclude from adapter fitting, generator training, OOF inference and all evaluation",
+  "decided_by": "author instruction 2026-10-17: exclude per pre-specified QC rule",
+  "selection_independent_of_performance": true,
+  "no_resplit": true,
+  "cohort_json_unchanged": true,
+  "excluded": [
+    {
+      "ptid": "016_S_4952",
+      "diagnosis": "CN",
+      "test_fold": 1,
+      "has_fdg": true,
+      "has_av45": true,
+      "saved_mri_replay_maxabs": 0.9999993443489075,
+      "reason": "MRI replay does not bind historical MRI/mask grid; eight axis-flip probes also failed",
+      "evidence": [
+        "preprocessing_errors.json",
+        "016_S_4952_mri_only_orientation_probe.json",
+        "geometry_qc_final.json"
+      ]
+    }
+  ]
+}

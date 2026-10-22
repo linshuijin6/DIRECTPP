@@ -1,0 +1,37 @@
+[
+  {
+    "ptid": "016_S_4952",
+    "kind": "mri",
+    "path": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/mri_strip_registered/016_S_4952_MRI_registered.nii.gz",
+    "sha256": "df2179e88544d9679121a5f70851e58ec074d009166c077a5a71cfe265591ecc",
+    "bytes": 4739344
+  },
+  {
+    "ptid": "016_S_4952",
+    "kind": "fdg",
+    "path": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/PET2_FDG_strip_registered/016_S_4952_FDG_registered.nii.gz",
+    "sha256": "f9bad5657586f5faf11afb2a0e59190a954ee782864f15b82a09f3f917121f7d",
+    "bytes": 7459723
+  },
+  {
+    "ptid": "016_S_4952",
+    "kind": "av45",
+    "path": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/PET1_AV45_strip_registered/016_S_4952_AV45_registered.nii.gz",
+    "sha256": "9fcd4a2c865ba444999491550191f426e28f94f5c8338bd08806d4366a81567c",
+    "bytes": 7646618
+  },
+  {
+    "ptid": "016_S_4952",
+    "kind": "mask",
+    "path": "/home/data/liutuo/code/liutuo_data/data_augmentation_mri_fenge/016_S_4952fenge.nii.gz",
+    "sha256": "e7cfcfc2a670ba4ddbc564f7f0b6d634e2fd77e2e631cd4d22d27f1b2179b9fe",
+    "bytes": 731823
+  },
+  {
+    "ptid": "016_S_4952",
+    "kind": "saved_mri",
+    "path": "/home/data/liutuo/code/liutuo_data/data_augmentation_mri/016_S_4952.nii.gz",
+    "sha256": "e3cfd30685e0d742edc845cca761137922ad2ea7b50bd7b08a833d59d1a32e28",
+    "bytes": 9099937
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "input": "sorted original-node directory filenames only; original notebook matching rule; no image loading",
+  "sklearn_version": "1.7.2",
+  "subjects": 1857,
+  "train": 1856,
+  "val": [
+    "011_S_4105"
+  ],
+  "train_order_exact": true,
+  "val_order_exact": true,
+  "index_fields_match": {
+    "train": true,
+    "val": true
+  },
+  "directory_duplicate_subjects": {
+    "mri_strip_registered": 0,
+    "PET1_AV45_strip_registered": 0,
+    "PET2_FDG_strip_registered": 0
+  },
+  "train_val_overlap": [],
+  "description_exact": {
+    "train": 1856,
+    "val": 1
+  },
+  "source_hashes": {
+    "train": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+    "val": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b"
+  }
+}

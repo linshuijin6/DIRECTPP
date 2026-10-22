@@ -1,0 +1,109 @@
+{
+  "host": "server",
+  "selected_train_fold": 1,
+  "selected_ptids": [
+    "941_S_4420",
+    "941_S_4764",
+    "941_S_6854",
+    "941_S_7041",
+    "389_S_10127",
+    "389_S_10156"
+  ],
+  "measurements": [
+    {
+      "ptid": "941_S_4420",
+      "repeat": 0,
+      "seconds": 0.7170776359998854
+    },
+    {
+      "ptid": "941_S_4764",
+      "repeat": 0,
+      "seconds": 0.5447628670081031
+    },
+    {
+      "ptid": "941_S_6854",
+      "repeat": 0,
+      "seconds": 0.7491582210059278
+    },
+    {
+      "ptid": "941_S_7041",
+      "repeat": 0,
+      "seconds": 0.5481751509942114
+    },
+    {
+      "ptid": "389_S_10127",
+      "repeat": 0,
+      "seconds": 0.6979822669964051
+    },
+    {
+      "ptid": "389_S_10156",
+      "repeat": 0,
+      "seconds": 0.5616898029984441
+    },
+    {
+      "ptid": "941_S_4420",
+      "repeat": 1,
+      "seconds": 0.07499687800009269
+    },
+    {
+      "ptid": "941_S_4764",
+      "repeat": 1,
+      "seconds": 0.08857479000289459
+    },
+    {
+      "ptid": "941_S_6854",
+      "repeat": 1,
+      "seconds": 0.06794588100456167
+    },
+    {
+      "ptid": "941_S_7041",
+      "repeat": 1,
+      "seconds": 0.06866683599946555
+    },
+    {
+      "ptid": "389_S_10127",
+      "repeat": 1,
+      "seconds": 0.06647987299948
+    },
+    {
+      "ptid": "389_S_10156",
+      "repeat": 1,
+      "seconds": 0.0663879539933987
+    },
+    {
+      "ptid": "941_S_4420",
+      "repeat": 2,
+      "seconds": 0.06523414399998728
+    },
+    {
+      "ptid": "941_S_4764",
+      "repeat": 2,
+      "seconds": 0.0647097880137153
+    },
+    {
+      "ptid": "941_S_6854",
+      "repeat": 2,
+      "seconds": 0.07003307000559289
+    },
+    {
+      "ptid": "941_S_7041",
+      "repeat": 2,
+      "seconds": 0.07309148099739105
+    },
+    {
+      "ptid": "389_S_10127",
+      "repeat": 2,
+      "seconds": 0.07127108400163706
+    },
+    {
+      "ptid": "389_S_10156",
+      "repeat": 2,
+      "seconds": 0.08077139699889813
+    }
+  ],
+  "first_pass_mean_seconds": 0.6364743241671628,
+  "warm_mean_seconds": 0.07151359800142625,
+  "mean_seconds": 0.6364743241671628,
+  "cache_status": "OS/NFS caches uncontrolled; first pass is not guaranteed cold; no global cache dropping",
+  "contents": "three float32 volumes per subject, copied into CPU memory; no test performance computed"
+}

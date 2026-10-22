@@ -1,0 +1,53 @@
+{
+  "source_contract": {
+    "notebook": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "notebook_sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "cells_zero_based": [
+      1,
+      2,
+      4,
+      8,
+      9,
+      11
+    ],
+    "model_source": "source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/nets/diffusion_model_unet.py",
+    "model_source_sha256": "b56b1956b787e85f52fc1a7f46884fea2cbfff81f9c31311db462dda7b378bcc",
+    "biomedclip": "results/checkpoints/vscode-3002/home/ssddata/liutuo/BiomedCLIP",
+    "biomedclip_model_sha256": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb",
+    "biomedclip_config_sha256": {
+      "config.json": "1de3d38ac5ede7babaf72d68e45c00e5bdbf5240c5b50fcec259c79375367431",
+      "configuration_biomed_clip.py": "b88965dbee5b83196eef13c3adc20dc0a5c96736bee14d487cc61809a759257b",
+      "modeling_biomed_clip.py": "4f4afdf5418d70a6198da6a8e4d59453cf37d3c694c793f71f5b9bdbb0b258a1",
+      "preprocessor_config.json": "b73eb29108ff586ec6e81abf6149cd24132ceac0eae76ca20b3f3004e848a4c4",
+      "processing_biomed_clip.py": "22fb0c0ef2324137a441081034ab0d37a95f077ab2fe3d29e29ac4eda6517e0c",
+      "tokenizer.json": "defc1f91456606e7847af3a2fb4a8abb96441423aa5407a52498395ea68327ff",
+      "tokenizer_config.json": "e1790949631401af1bfb6c9c7aeec7fcf612e274d73579d99f704faea40c8ba7"
+    }
+  },
+  "split_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "unique_ptids": 1857,
+  "training_formula": "two forward graphs; summed loss; one backward/optimizer step",
+  "unused_rng_draw_preserved": true,
+  "distillation_rng_draw_then_zero_preserved": true,
+  "training_seed": null,
+  "static_parity": "PASS",
+  "cuda_numerical_parity": "PASS",
+  "fixture_seed_only_not_formal_training": 20261020,
+  "loss": 0.3322526216506958,
+  "loss_absolute_difference": 0.0,
+  "max_gradient_abs_difference": 0.0,
+  "gradient_rtol": 0.001,
+  "gradient_atol": 1e-05,
+  "full_sample_preflight": "PASS",
+  "full_sample_ptid": "002_S_0295",
+  "full_sample_loss": 0.0496736541390419,
+  "full_sample_timestep": 428,
+  "full_sample_has_fdg": true,
+  "full_sample_has_av45": true,
+  "full_sample_peak_allocated_bytes": 46866800128,
+  "full_sample_peak_reserved_bytes": 48901390336,
+  "full_sample_fixture_seed_only_not_formal_training": 20261020
+}

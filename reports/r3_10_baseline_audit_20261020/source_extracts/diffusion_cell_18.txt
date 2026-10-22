@@ -1,0 +1,134 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+ORIGINAL_SHA256: cb35bdca97dc91fdd846d40acb6f0451ba1c72c51a3326dadca5846134df5d75
+CELL_INDEX_ZERO_BASED: 18
+CELL_EXECUTION_COUNT_METADATA: 32
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import tempfile
+0003: import time
+0004: from liutuo_utils import donkey_noise_like
+0005: import matplotlib.pyplot as plt
+0006: import numpy as np
+0007: import torch
+0008: import torch.nn.functional as F
+0009: from monai import transforms
+0010: from monai.apps import DecathlonDataset
+0011: from monai.config import print_config
+0012: from monai.data import DataLoader
+0013: from monai.utils import set_determinism
+0014: from torch.cuda.amp import GradScaler, autocast
+0015: from tqdm import tqdm
+0016: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0017: 
+0018: 
+0019: 
+0020: 
+0021: 
+0022: n_epochs = 100
+0023: val_interval =10
+0024: epoch_loss_list = []
+0025: val_epoch_loss_list = []
+0026: scaler = GradScaler()  
+0027: total_start = time.time()
+0028: checkpoint_dir = '/home/data/liutuo/code/checkpoint/mri2pet_pretrained_clip'
+0029: 
+0030: for epoch in range(n_epochs):
+0031:     model_1.train()
+0032:     epoch_loss = 0
+0033:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0034:     progress_bar.set_description(f"Epoch {epoch}")
+0035:     for step, data in progress_bar:
+0036:         images = data["mri"].to(device)
+0037:         seg = data["pet"].to(device)  # this is the ground truth segmentation
+0038:         pet_index = data["pet_index"].to(device)
+0039:         optimizer_1.zero_grad(set_to_none=True)
+0040:         timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0041: 
+0042:         with autocast(device_type='cuda', enabled=True):
+0043:             noise = donkey_noise_like(images).to(device)
+0044:             #noise = torch.randn_like(images).to(device)
+0045:             noisy_seg = scheduler.add_noise(original_samples=seg, noise=noise, timesteps=timesteps)
+0046:             combined = torch.cat((images, noisy_seg), dim=1)
+0047:             target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0048: 
+0049:             prediction = model_1(x=combined, timesteps=timesteps,context=pet_index)
+0050:             loss = F.mse_loss(prediction.float(), target.float())
+0051:         scaler.scale(loss).backward()
+0052:         scaler.step(optimizer_1)
+0053:         scaler.update()
+0054:         epoch_loss += loss.item()
+0055:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0056: 
+0057:     epoch_loss_list.append(epoch_loss / (step + 1))
+0058: 
+0059:     if (epoch + 1) % val_interval == 0:
+0060:         model_1.eval()
+0061:         val_epoch_loss = 0
+0062:         for step, data_val in enumerate(val_loader):
+0063:             images = data_val["mri"].to(device)
+0064:             seg = data_val["pet"].to(device)
+0065:             pet_index = data_val["pet_index"].to(device)
+0066:             timesteps = torch.randint(0, 1000, (len(images),)).to(device)
+0067: 
+0068:             with torch.no_grad():
+0069:                 with autocast(device_type='cuda', enabled=True):
+0070:                     noise = donkey_noise_like(images).to(device)
+0071:                     noisy_seg = scheduler.add_noise(original_samples=seg, noise=noise, timesteps=timesteps)
+0072:                     combined = torch.cat((images, noisy_seg), dim=1)
+0073:                     target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0074:                     prediction = model_1(x=combined, timesteps=timesteps,context=pet_index)
+0075:                     val_loss = F.mse_loss(prediction.float(), target.float())
+0076:             val_epoch_loss += val_loss.item()
+0077: 
+0078:         print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0079:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0080: 
+0081:         # 保存模型和优化器状态
+0082:         print('epoch:', epoch + 1)
+0083:         print('learning rate:', optimizer_1.state_dict()['param_groups'][0]['lr'])
+0084:         checkpoint = {
+0085:             'model': model_1.state_dict(),
+0086:             'optimizer': optimizer_1.state_dict(),
+0087:             'epoch': epoch
+0088:         }
+0089:         torch.save(checkpoint, f'{checkpoint_dir}/second_part_{epoch + 1}.pth')
+0090:         print('Saved all parameters!\n')
+0091:         # 采样过程
+0092:         model_1.eval()
+0093:         input_img = images.to(device)
+0094:         print(input_img.shape)
+0095:         noise= donkey_noise_like(images).to(device)
+0096:         current_img = noise  # for the segmentation mask, we start from random noise.
+0097:         combined = torch.cat((input_img, noise), dim=1)  # We concatenate the input brain MR image to add anatomical information.
+0098:         
+0099:         #scheduler.set_timesteps(num_inference_steps=1000)
+0100:         
+0101:         # progress_bar = tqdm(scheduler.timesteps)
+0102:         # for t in progress_bar:  # go through the noising process
+0103:         #     with autocast(device_type='cuda', enabled=True):
+0104:         #         with torch.no_grad():
+0105:         #             model_output = model_1(combined, timesteps=torch.Tensor((t,)).to(current_img.device),context=pet_index)
+0106:         #             current_img, img0 = scheduler.step(model_output, t, current_img)  # this is the prediction x_t at the time step t
+0107:         #             combined = torch.cat((input_img, current_img), dim=1)  # in every step during the denoising process, the brain MR image is concatenated to add anatomical information
+0108:         t = scheduler.timesteps[0]
+0109:         print(t)
+0110:         with autocast(device_type='cuda', enabled=True):
+0111:             with torch.no_grad():
+0112:                 model_output = model_1(combined, timesteps=torch.Tensor((t,)).to(current_img.device), context=pet_index)
+0113:                 current_img, img0 = scheduler.step(model_output, t, current_img)
+0114:         
+0115:         current_img =img0.to('cpu')
+0116:         labels = seg.to('cpu')
+0117:         compare_3d([input_img,labels, current_img])
+0118:         compare_3d_jet([current_img - labels])
+0119:         from generative.metrics import SSIMMetric
+0120:         from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0121:         ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=7)
+0122:         psnr_metric=PSNRMetric(1.0)
+0123: 
+0124:         ssim_value = ssim_metric(labels, current_img)
+0125:         psnr_value = psnr_metric(labels, current_img)
+0126: 
+0127:         print(f"SSIM: {ssim_value.mean().item()}")
+0128:         print(f"PSNR: {psnr_value.mean().item()}") 

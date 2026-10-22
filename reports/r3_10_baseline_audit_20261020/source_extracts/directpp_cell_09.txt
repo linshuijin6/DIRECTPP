@@ -1,0 +1,215 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb
+ORIGINAL_SHA256: 6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f
+CELL_INDEX_ZERO_BASED: 9
+CELL_EXECUTION_COUNT_METADATA: None
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import tempfile
+0003: import time
+0004: from liutuo_utils import donkey_noise_like
+0005: import matplotlib.pyplot as plt
+0006: import numpy as np
+0007: import torch
+0008: import torch.nn.functional as F
+0009: from monai import transforms
+0010: from monai.apps import DecathlonDataset
+0011: from monai.config import print_config
+0012: from monai.data import DataLoader
+0013: from monai.utils import set_determinism
+0014: from torch.cuda.amp import GradScaler, autocast
+0015: from tqdm import tqdm
+0016: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0017: 
+0018: 
+0019: 
+0020: 
+0021: 
+0022: n_epochs = 200
+0023: val_interval =10
+0024: epoch_loss_list = []
+0025: val_epoch_loss_list = []
+0026: scaler = GradScaler()  
+0027: total_start = time.time()
+0028: checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'
+0029: 
+0030: 
+0031: # 定义裁剪的最小值和最大值
+0032: # 定义裁剪的最小值和最大值
+0033: clip_sample_min = 0  # 设置合适的最小值
+0034: clip_sample_max = 1   # 设置合适的最大值
+0035: 
+0036: # 定义模态权重
+0037: alpha = 1.0  # FDG 损失权重
+0038: beta = 1.0   # AV45 损失权重
+0039: 
+0040: for epoch in range(n_epochs):
+0041:     model.train()
+0042:     epoch_loss = 0
+0043:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0044:     progress_bar.set_description(f"Epoch {epoch}")
+0045:     
+0046:     for step, data in progress_bar:
+0047:         images = data["mri"].to(device)
+0048:         seg_fdg = data["fdg"].to(device)  # this is the ground truth segmentation
+0049:         seg_av45 = data["av45"].to(device)
+0050:         fdg_index = data["fdg_index"].to(device)
+0051:         av45_index = data["av45_index"].to(device)
+0052:         
+0053:         optimizer.zero_grad(set_to_none=True)
+0054:         timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0055:         
+0056:         with autocast(device_type='cuda', enabled=True):
+0057:             # Create time_embedding
+0058:             time_embedding = torch.randint(
+0059:                 0, 1000, (images.shape[0],), device=images.device
+0060:             ).long()
+0061:             
+0062:             if epoch >= 140:
+0063:                 time_embedding = torch.tensor([0], device=images.device, dtype=torch.long)
+0064:             
+0065:             # Create time
+0066:             t = time_embedding.float() / 1000
+0067:             
+0068:             # 检查 FDG 数据是否为二值化（只有 0 和 1）
+0069:             has_fdg = not torch.all(seg_fdg == 0)  # 如果不是二值化数据，则参与计算
+0070:             has_av45 = not torch.all(seg_av45 == 0)  # 如果不是二值化数据，则参与计算
+0071:             
+0072:             # 默认损失为 0
+0073:             loss_fdg = torch.tensor(0.0, device=device)
+0074:             loss_av45 = torch.tensor(0.0, device=device)
+0075:             
+0076:             # 计算 FDG 损失
+0077:             if has_fdg:  # 如果不是二值化数据，计算 FDG 损失
+0078:                 x_t_fdg = t * seg_fdg + (1 - t) * images
+0079:                 v_fdg_prediction = model(x=x_t_fdg, timesteps=time_embedding, context=fdg_index)
+0080:                 v_fdg = seg_fdg - images
+0081:                 loss_fdg = F.mse_loss(v_fdg.float(), v_fdg_prediction.float())
+0082:             
+0083:             # 计算 AV45 损失
+0084:             if has_av45:  # 如果不是二值化数据，计算 AV45 损失
+0085:                 x_t_av45 = t * seg_av45 + (1 - t) * images
+0086:                 v_av45_prediction = model(x=x_t_av45, timesteps=time_embedding, context=av45_index)
+0087:                 v_av45 = seg_av45 - images
+0088:                 loss_av45 = F.mse_loss(v_av45.float(), v_av45_prediction.float())
+0089:             
+0090:             # 加权总损失
+0091:             loss = alpha * loss_fdg + beta * loss_av45
+0092: 
+0093:         scaler.scale(loss).backward()
+0094:         scaler.step(optimizer)
+0095:         scaler.update()
+0096:         
+0097:         epoch_loss += loss.item()
+0098:         progress_bar.set_postfix({
+0099:             "loss": epoch_loss / (step + 1),
+0100:             # "FDG": "✓" if has_fdg else "✗",
+0101:             # "AV45": "✓" if has_av45 else "✗"
+0102:         })
+0103:         
+0104:         torch.cuda.empty_cache()
+0105:     
+0106:     epoch_loss_list.append(epoch_loss / (step + 1))
+0107:     if (epoch + 1) % val_interval == 0:
+0108:         model.eval()
+0109:         val_epoch_loss = 0
+0110:         
+0111:         for step, data_val in enumerate(val_loader):
+0112:             # 验证阶段的数据加载
+0113:             images = data_val["mri"].to(device)
+0114:             seg_fdg = data_val["fdg"].to(device)  # this is the ground truth segmentation
+0115:             seg_av45 = data_val["av45"].to(device)
+0116:             fdg_index = data_val["fdg_index"].to(device)
+0117:             av45_index = data_val["av45_index"].to(device)
+0118:  
+0119:             # 检查 FDG 和 AV45 数据是否为二值化（只有 0 和 1）
+0120:             has_fdg = not torch.all(seg_fdg == 0)  # 如果不是二值化数据，则参与计算
+0121:             has_av45 = not torch.all(seg_av45 == 0)  # 如果不是二值化数据，则参与计算
+0122:     
+0123:             x_t = images
+0124:             N_sample = 1
+0125:             N_sample_tensor = torch.tensor(N_sample, dtype=torch.float32)
+0126:     
+0127:             progress_bar = [(i / N_sample) for i in range(N_sample)]
+0128:             for t in progress_bar:  # go through the noising process
+0129:                 with autocast(device_type='cuda', enabled=False):
+0130:                     with torch.no_grad():
+0131:                         time_embedding = int(t * 1000)
+0132:     
+0133:                         # FDG 输出（仅当非二值化时计算）
+0134:                         if has_fdg:
+0135:                             v_fdg_output = model(x=x_t, timesteps=torch.Tensor((time_embedding,)).to(x_t.device), context=fdg_index)
+0136:                             x_fdg_t = x_t + (v_fdg_output / N_sample_tensor)
+0137:                             x_fdg_t = torch.clamp(x_fdg_t, min=clip_sample_min, max=clip_sample_max)
+0138:                         else:
+0139:                             x_fdg_t = None  # 跳过 FDG 计算
+0140:     
+0141:                         # AV45 输出（仅当非二值化时计算）
+0142:                         if has_av45:
+0143:                             v_av45_output = model(x=x_t, timesteps=torch.Tensor((time_embedding,)).to(x_t.device), context=av45_index)
+0144:                             x_av45_t = x_t + (v_av45_output / N_sample_tensor)
+0145:                             x_av45_t = torch.clamp(x_av45_t, min=clip_sample_min, max=clip_sample_max)
+0146:                         else:
+0147:                             x_av45_t = None  # 跳过 AV45 计算
+0148:     
+0149:             # 默认损失为 0
+0150:             val_fdg_loss = torch.tensor(0.0, device=device)
+0151:             val_av45_loss = torch.tensor(0.0, device=device)
+0152:     
+0153:             # 计算 FDG 损失（仅当非二值化时计算）
+0154:             if has_fdg and x_fdg_t is not None:
+0155:                 val_fdg_loss = F.mse_loss(x_fdg_t.float(), seg_fdg.float())
+0156:     
+0157:             # 计算 AV45 损失（仅当非二值化时计算）
+0158:             if has_av45 and x_av45_t is not None:
+0159:                 val_av45_loss = F.mse_loss(x_av45_t.float(), seg_av45.float())
+0160:     
+0161:             # 加权总损失
+0162:             val_loss = alpha * val_fdg_loss + beta * val_av45_loss
+0163:     
+0164:             val_epoch_loss += val_loss.item()
+0165:             torch.cuda.empty_cache()
+0166:     
+0167:         print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0168:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0169:     
+0170:         # Saving model parameters
+0171:         print('epoch:', epoch + 1)
+0172:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0173:         checkpoint = {
+0174:             'model': model.state_dict(),
+0175:             'optimizer': optimizer.state_dict(),
+0176:             'epoch': epoch
+0177:         }
+0178:         torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')
+0179:         print('Saved all parameters!\n')
+0180:     
+0181:         # 可视化和评估指标
+0182:         current_fdg_img = x_fdg_t.to('cpu') if x_fdg_t is not None else None
+0183:         current_av45_img = x_av45_t.to('cpu') if x_av45_t is not None else None
+0184:         labels_fdg = seg_fdg.to('cpu')
+0185:         labels_av45 = seg_av45.to('cpu')
+0186:     
+0187:         # 如果存在非二值化的 FDG 或 AV45 数据，则进行可视化和评估
+0188:         if current_fdg_img is not None or current_av45_img is not None:
+0189:             compare_3d([images, labels_fdg, current_fdg_img, labels_av45, current_av45_img])
+0190:             compare_3d_jet([current_fdg_img - labels_fdg, current_av45_img - labels_av45])
+0191:     
+0192:         from generative.metrics import SSIMMetric
+0193:         from monai.metrics import MAEMetric, MSEMetric, PSNRMetric
+0194:     
+0195:         ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0, kernel_size=7)
+0196:         psnr_metric = PSNRMetric(1.0)
+0197:     
+0198:         # 计算 SSIM 和 PSNR（仅当非二值化时计算）
+0199:         if has_fdg and current_fdg_img is not None:
+0200:             ssim_fdg_value = ssim_metric(labels_fdg, current_fdg_img)
+0201:             psnr_fdg_value = psnr_metric(labels_fdg, current_fdg_img)
+0202:             print(f"FDG SSIM: {ssim_fdg_value.mean().item()}")
+0203:             print(f"FDG PSNR: {psnr_fdg_value.mean().item()}")
+0204:     
+0205:         if has_av45 and current_av45_img is not None:
+0206:             ssim_av45_value = ssim_metric(labels_av45, current_av45_img)
+0207:             psnr_av45_value = psnr_metric(labels_av45, current_av45_img)
+0208:             print(f"AV45 SSIM: {ssim_av45_value.mean().item()}")
+0209:             print(f"AV45 PSNR: {psnr_av45_value.mean().item()}")

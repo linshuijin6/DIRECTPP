@@ -1,0 +1,26 @@
+[
+  {
+    "run": "01.30_151382",
+    "path": "/home/ssddata/linshuijin/replicaLT/runs/01.30_151382/events.out.tfevents.1769766199.pnxc.151382.0",
+    "sha256": "dbad316c2d4e8a1e9b0771d1be281daaa1e60532f05da915fd96d2c0d82bb2c2",
+    "record_count": 248621,
+    "fully_read": true,
+    "selected_text_tensors": []
+  },
+  {
+    "run": "02.03_614278",
+    "path": "/home/ssddata/linshuijin/replicaLT/runs/02.03_614278/events.out.tfevents.1770119538.pnxc.614278.0",
+    "sha256": "922c6ef033a090a6dc22c66b1285d92698dcafac19d0b2f032f18d5d04c602ef",
+    "record_count": 1169655,
+    "fully_read": true,
+    "selected_text_tensors": []
+  },
+  {
+    "run": "02.03_1709820",
+    "path": "/home/ssddata/linshuijin/replicaLT/runs/02.03_1709820/events.out.tfevents.1770133778.pnxc.1709820.0",
+    "sha256": "9ccf847f34146b7871f48b534232b8d0fda46a077d56729d09bf52b94428a92a",
+    "record_count": 1155701,
+    "fully_read": true,
+    "selected_text_tensors": []
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "subjects": 1856,
+  "volumes": 2961,
+  "checkpoints": [
+    {
+      "fold": 1,
+      "sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9"
+    },
+    {
+      "fold": 2,
+      "sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14"
+    }
+  ],
+  "exact_coverage": true,
+  "no_duplicates": true,
+  "means_recomputed": true,
+  "max_psnr_formula_error": 5.364597654988756e-13,
+  "source_sha256": {
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/compare_paper.py": "1e4f040a78e9e7f4709c4a5988341d95e0cea7d90910fe229deea441da43627a",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/per_subject_metrics.csv": "dacce2e31b144b0c5297e694c57ddfa54dcc9b0410d5047570ac4028026c63fa",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/config.json": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/cohort.json": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/current_ckpt_diagnostic_20261019/paper_reference_verified.json": "ed07c4a308f9ec73ae097c7341ce82423981026c8b9b5f64d23d024b7795dd44",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb": "0755c31eeb8f628ec6f73a11e91a75577a8211337e8d5729d3a13deabef59489",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/manuscript/BMEF_main.tex": "28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_reflow_test or fanhua.ipynb": "d09273e006ccafe9bfe267192192c5b48cd10c34b8da2e22a1c5c37ad3eebcf2"
+  },
+  "comparison_scope": "Descriptive historical summary comparison; no matched original sample or significance claim"
+}

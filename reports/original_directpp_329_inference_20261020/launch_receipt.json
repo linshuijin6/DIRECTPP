@@ -1,0 +1,10 @@
+{
+  "pid": 753508,
+  "work": "/mnt/datas230/users/linshuijin/DIRECTPP_original329/20261020T165430+0800",
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "gpu_physical_index": 5,
+  "checkpoint": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-24235232d2cdacbd92d4/first_part_152best.pth",
+  "worker_sha256": "98166e0df63082477bacff51b1e46a0fbac1c92f83f4c681f63124db08fa7fed",
+  "original_code_only": true,
+  "train_updates": 0
+}

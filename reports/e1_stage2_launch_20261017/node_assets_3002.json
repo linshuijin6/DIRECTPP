@@ -1,0 +1,12 @@
+{
+  "host": "pnxc",
+  "asset_root": "/home/linshuijin/DIRECTPP_E1/stage01_20261017",
+  "active_subjects": 1856,
+  "cache_files_sha_pass": true,
+  "cache_bytes": 127719062400,
+  "conditions_sha_pass": true,
+  "adapter_identity_pass": true,
+  "wall_seconds": 422.7873487332836,
+  "config_sha256": "612aa3b97b06e793337cf3a1cbbead019f2299067cb45d8f2067683bde51096b",
+  "gpu_used": false
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-10-20T09:24:31.032074+08:00",
+  "jobs": [
+    {
+      "pid": 267390,
+      "uid": 12013,
+      "cmdline": "/home/pnxc/Anaconda3/envs/xiaochou/bin/python -u -B reports/e1_full165_inference_20261020/infer_full.py --fold 1 ",
+      "start_ticks": 604729397,
+      "boot_id": "1665129f-1d1c-471e-b6c8-51a8634daef6",
+      "node": "3002",
+      "physical_gpu": 5,
+      "fold": 1,
+      "gpu_uuid": "GPU-bad1ab40-7758-4710-4a2e-5713637a8af6"
+    },
+    {
+      "pid": 497568,
+      "uid": 12013,
+      "cmdline": "/home/data/linshuijin/.conda/envs/xiaochou/bin/python -u -B reports/e1_full165_inference_20261020/infer_full.py --fold 2 ",
+      "start_ticks": 604727467,
+      "boot_id": "7013fbb3-7482-4960-afdf-734ad34f1e48",
+      "node": "3003",
+      "physical_gpu": 5,
+      "fold": 2,
+      "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417"
+    }
+  ]
+}

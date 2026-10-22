@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "predictions": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/oof/Full_165epoch_20261020/fold1",
+  "prediction_count": 1479,
+  "subjects": 928,
+  "volumes": 1479,
+  "completed_epochs": 165,
+  "checkpoint_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+  "seconds": 3189.177298507653,
+  "hardware": {
+    "host": "pnxc",
+    "pid": 267390,
+    "visible_devices": "GPU-bad1ab40-7758-4710-4a2e-5713637a8af6",
+    "allocator_config": "expandable_segments:True",
+    "gpu": "NVIDIA RTX A6000",
+    "torch": "2.6.0+cu118",
+    "cuda": "11.8",
+    "monai": "0+unknown",
+    "transformers": "4.40.2",
+    "xformers": "0.0.29.post3"
+  }
+}

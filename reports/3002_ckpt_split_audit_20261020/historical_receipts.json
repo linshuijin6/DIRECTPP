@@ -1,0 +1,522 @@
+{
+  "logs": [
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "sha256": "737cf934836ab840ac08b835b13be39680ec625ef86fe3959226afe74689f839",
+      "facts": {
+        "counts": [
+          {
+            "raw_newline_line": 31,
+            "text": "Training set size: 990"
+          },
+          {
+            "raw_newline_line": 32,
+            "text": "Validation set size: 109"
+          },
+          {
+            "raw_newline_line": 34,
+            "text": "Loaded 990 training samples."
+          },
+          {
+            "raw_newline_line": 36,
+            "text": "Loaded 109 validation samples."
+          }
+        ],
+        "First training sample:": {
+          "raw_newline_line": 35,
+          "sample": {
+            "name": "021_S_10774",
+            "examdate": "2025/6/3",
+            "mri": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz",
+            "description": "Subject is a 63-year-old female with a weight of 70.9 kg.",
+            "old_descr": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": 0.113132223,
+              "pT217": 0.089,
+              "pT217_AB42": 0.002361369,
+              "NfL": -999.0,
+              "GFAP": -999.0
+            },
+            "fdg_index": 208,
+            "av45_index": 208,
+            "tau_index": 208
+          }
+        },
+        "First validation sample:": {
+          "raw_newline_line": 37,
+          "sample": {
+            "name": "037_S_6963",
+            "examdate": "2021/12/17",
+            "mri": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz",
+            "description": "Subject is a 57-year-old female with a weight of 83.0 kg.",
+            "old_descr": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": 0.1035,
+              "pT217": 0.063,
+              "pT217_AB42": 0.00232,
+              "NfL": 5.9,
+              "GFAP": 68.1
+            },
+            "fdg_index": 549,
+            "av45_index": 549,
+            "tau_index": 549
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "sha256": "f44aa21d9885ab2f4c149dfb9a6bac48a8280aadc914755e7fb631bef7f38033",
+      "facts": {
+        "counts": [
+          {
+            "raw_newline_line": 31,
+            "text": "Training set size: 1224"
+          },
+          {
+            "raw_newline_line": 32,
+            "text": "Validation set size: 136"
+          },
+          {
+            "raw_newline_line": 34,
+            "text": "Loaded 1224 training samples."
+          },
+          {
+            "raw_newline_line": 36,
+            "text": "Loaded 136 validation samples."
+          }
+        ],
+        "First training sample:": {
+          "raw_newline_line": 35,
+          "sample": {
+            "name": "082_S_6287",
+            "examdate": "2018-05-15",
+            "mri": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+            "description": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+            "old_descr": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": -999.0,
+              "pT217": -999.0,
+              "pT217_AB42": -999.0,
+              "NfL": -999.0,
+              "GFAP": -999.0
+            },
+            "fdg_index": 812,
+            "av45_index": 812,
+            "tau_index": 812
+          }
+        },
+        "First validation sample:": {
+          "raw_newline_line": 37,
+          "sample": {
+            "name": "005_S_10100",
+            "examdate": "2024-05-13",
+            "mri": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+            "description": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+            "old_descr": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": -999.0,
+              "pT217": -999.0,
+              "pT217_AB42": -999.0,
+              "NfL": -999.0,
+              "GFAP": -999.0
+            },
+            "fdg_index": 51,
+            "av45_index": 51,
+            "tau_index": 51
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "sha256": "033aeb8707498c5e59403a88300f149e833a5aec7144cb535d1dc1947b7d4c1f",
+      "facts": {
+        "counts": [
+          {
+            "raw_newline_line": 7,
+            "text": "Loaded 1224 training samples."
+          },
+          {
+            "raw_newline_line": 9,
+            "text": "Loaded 136 validation samples."
+          }
+        ],
+        "First training sample:": {
+          "raw_newline_line": 8,
+          "sample": {
+            "name": "082_S_6287",
+            "examdate": "2018-05-15",
+            "mri": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+            "description": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+            "old_descr": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": -999.0,
+              "pT217": -999.0,
+              "pT217_AB42": -999.0,
+              "NfL": -999.0,
+              "GFAP": -999.0
+            },
+            "fdg_index": 812,
+            "av45_index": 812,
+            "tau_index": 812
+          }
+        },
+        "First validation sample:": {
+          "raw_newline_line": 10,
+          "sample": {
+            "name": "005_S_10100",
+            "examdate": "2024-05-13",
+            "mri": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+            "fdg": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+            "av45": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+            "tau": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+            "description": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+            "old_descr": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+            "diagnosis": "CN",
+            "plasma": {
+              "AB42_AB40": -999.0,
+              "pT217": -999.0,
+              "pT217_AB42": -999.0,
+              "NfL": -999.0,
+              "GFAP": -999.0
+            },
+            "fdg_index": 51,
+            "av45_index": 51,
+            "tau_index": 51
+          }
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "commit": "ddebfa561375d187eeecc5ca7ee6f7e6dd20c6ac",
+      "short": "ddebfa5",
+      "path": "train_data_with_description.json",
+      "sha256": "43d07e2da3f1ad9a6fde60d45624d7d12242aba85826709a6352074273e014cf",
+      "git_blob": "03ada1b8bee9d87323217ba5819c3fbd153d62ec",
+      "count": 1672,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/ddebfa5__train_data_with_description.json"
+    },
+    {
+      "commit": "ddebfa561375d187eeecc5ca7ee6f7e6dd20c6ac",
+      "short": "ddebfa5",
+      "path": "val_data_with_description.json",
+      "sha256": "dca8ea21061bf9c56aff5e1a28f333a973bfe4397aab09a7366810eee36d7004",
+      "git_blob": "06e8d998002396418cd6b346e399fc2f7f9ebc45",
+      "count": 185,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/ddebfa5__val_data_with_description.json"
+    },
+    {
+      "commit": "ddebfa561375d187eeecc5ca7ee6f7e6dd20c6ac",
+      "short": "ddebfa5",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/ddebfa5__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "ddebfa561375d187eeecc5ca7ee6f7e6dd20c6ac",
+      "short": "ddebfa5",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/ddebfa5__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "90de985675d680f7717eb0201a1b415780fbb5e6",
+      "short": "90de985",
+      "path": "train_data_with_description.json",
+      "sha256": "dcfa0dcb6ea65fc9f0a3a2f879cc67289dd33d9cbb14012920c3d4cff588ee30",
+      "git_blob": "df237afae2ca5f57472384d61a71e9a670bb3a4d",
+      "count": 990,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/90de985__train_data_with_description.json"
+    },
+    {
+      "commit": "90de985675d680f7717eb0201a1b415780fbb5e6",
+      "short": "90de985",
+      "path": "val_data_with_description.json",
+      "sha256": "42c9df8e13bd4ef9c3820af715f14b8f6250997f3673bef1b00b37a9699dd42a",
+      "git_blob": "107ca7d98196b5f93345cbacfa239dab4369184e",
+      "count": 109,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/90de985__val_data_with_description.json"
+    },
+    {
+      "commit": "90de985675d680f7717eb0201a1b415780fbb5e6",
+      "short": "90de985",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/90de985__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "90de985675d680f7717eb0201a1b415780fbb5e6",
+      "short": "90de985",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/90de985__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "7bc69a2fb5952bcf760dd3c53aba3a2822a68692",
+      "short": "7bc69a2",
+      "path": "train_data_with_description.json",
+      "sha256": "4ff24a851285175a96a906c2b9ba89789d0d91b059ac254bfa907c829c594958",
+      "git_blob": "92b77c9df9fb0830b70ab94e5b974a093a8b9018",
+      "count": 990,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/7bc69a2__train_data_with_description.json"
+    },
+    {
+      "commit": "7bc69a2fb5952bcf760dd3c53aba3a2822a68692",
+      "short": "7bc69a2",
+      "path": "val_data_with_description.json",
+      "sha256": "63284cebbc3b91bc1b8e0a8610af5104394ff6f46df0e824271128ffad89f969",
+      "git_blob": "e6e9b3a9bab1cf7369328b317aca2c3022a9cc6e",
+      "count": 109,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/7bc69a2__val_data_with_description.json"
+    },
+    {
+      "commit": "7bc69a2fb5952bcf760dd3c53aba3a2822a68692",
+      "short": "7bc69a2",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/7bc69a2__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "7bc69a2fb5952bcf760dd3c53aba3a2822a68692",
+      "short": "7bc69a2",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/7bc69a2__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "c478758015c5c1b50279ac8d784d85a48127cb3f",
+      "short": "c478758",
+      "path": "train_data_with_description.json",
+      "sha256": "4ff24a851285175a96a906c2b9ba89789d0d91b059ac254bfa907c829c594958",
+      "git_blob": "92b77c9df9fb0830b70ab94e5b974a093a8b9018",
+      "count": 990,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/c478758__train_data_with_description.json"
+    },
+    {
+      "commit": "c478758015c5c1b50279ac8d784d85a48127cb3f",
+      "short": "c478758",
+      "path": "val_data_with_description.json",
+      "sha256": "63284cebbc3b91bc1b8e0a8610af5104394ff6f46df0e824271128ffad89f969",
+      "git_blob": "e6e9b3a9bab1cf7369328b317aca2c3022a9cc6e",
+      "count": 109,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/c478758__val_data_with_description.json"
+    },
+    {
+      "commit": "c478758015c5c1b50279ac8d784d85a48127cb3f",
+      "short": "c478758",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/c478758__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "c478758015c5c1b50279ac8d784d85a48127cb3f",
+      "short": "c478758",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/c478758__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "train_data_with_description.json",
+      "sha256": "4ff24a851285175a96a906c2b9ba89789d0d91b059ac254bfa907c829c594958",
+      "git_blob": "92b77c9df9fb0830b70ab94e5b974a093a8b9018",
+      "count": 990,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3484361__train_data_with_description.json"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "val_data_with_description.json",
+      "sha256": "63284cebbc3b91bc1b8e0a8610af5104394ff6f46df0e824271128ffad89f969",
+      "git_blob": "e6e9b3a9bab1cf7369328b317aca2c3022a9cc6e",
+      "count": 109,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3484361__val_data_with_description.json"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3484361__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3484361__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "train_data_with_description.json",
+      "sha256": "455347d1649189542cd2a26d24a3ea4d804a0e714cbf2e4bfcfd0452bf35d17d",
+      "git_blob": "3049e89fa1cd8b8a8408d9472503baebb759ba91",
+      "count": 1224,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/9ba7133__train_data_with_description.json"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "val_data_with_description.json",
+      "sha256": "8e773dbd0b7de159a255933a474f120dff853f53000a22373befb252f85f618b",
+      "git_blob": "685548d214c6b3b99c05f0ca205ec3cb0f22ebbf",
+      "count": 136,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/9ba7133__val_data_with_description.json"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/9ba7133__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/9ba7133__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "2bfadb84a924589b45119022b0c3a5db4331844c",
+      "short": "2bfadb8",
+      "path": "train_data_with_description.json",
+      "sha256": "6354843be57c6d97e0aa06285bb52a9b48772f28385975c88b48e09f87866148",
+      "git_blob": "a0a9cc2c877a74ae31b0c447be6c0495edf942ca",
+      "count": 949,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/2bfadb8__train_data_with_description.json"
+    },
+    {
+      "commit": "2bfadb84a924589b45119022b0c3a5db4331844c",
+      "short": "2bfadb8",
+      "path": "val_data_with_description.json",
+      "sha256": "73290694131753272346b6ee68b0180629a6ffa19b02be634c713efa0ab35773",
+      "git_blob": "c9c339aa495a90b4fc265138aa9abff206d3f62e",
+      "count": 95,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/2bfadb8__val_data_with_description.json"
+    },
+    {
+      "commit": "2bfadb84a924589b45119022b0c3a5db4331844c",
+      "short": "2bfadb8",
+      "path": "adapter_finetune/json/train_data_with_description.json",
+      "sha256": "602602aeda08e79e9a25e188491a0f42c4b4ff64d02219479d1f5eb14e121978",
+      "git_blob": "1bcb1b6d513652f11a891f560463734b3e7b5a63",
+      "count": 583,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/2bfadb8__adapter_finetune__json__train_data_with_description.json"
+    },
+    {
+      "commit": "2bfadb84a924589b45119022b0c3a5db4331844c",
+      "short": "2bfadb8",
+      "path": "adapter_finetune/json/val_data_with_description.json",
+      "sha256": "fa18423c567025b3b08d9ce438865f50fc5ee5258fa15be189d11b53788e6fa1",
+      "git_blob": "9e0be5df82434b9a0ec6aca7efbed6aee52e8304",
+      "count": 64,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/2bfadb8__adapter_finetune__json__val_data_with_description.json"
+    },
+    {
+      "commit": "3d442067598812048c15e1ef359e2bba442e12cd",
+      "short": "3d44206",
+      "path": "train_data_with_description.json",
+      "sha256": "6c3f112b2c7dbfad308af351b38696b6fb51583ffd702b1462a30586393c4575",
+      "git_blob": "31eeb7366a5b75b30f16aa0a923d54b6e2b07e1e",
+      "count": 949,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3d44206__train_data_with_description.json"
+    },
+    {
+      "commit": "3d442067598812048c15e1ef359e2bba442e12cd",
+      "short": "3d44206",
+      "path": "val_data_with_description.json",
+      "sha256": "2323e9deb9c75b3f10e256bb12e7eabe973f94aa8f2e2dac7c9cc9453548e229",
+      "git_blob": "cb889944a63c605dfd7a73cc37b186b451ec31d8",
+      "count": 95,
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_json/3d44206__val_data_with_description.json"
+    }
+  ],
+  "sources": [
+    {
+      "commit": "c478758015c5c1b50279ac8d784d85a48127cb3f",
+      "short": "c478758",
+      "path": "train.py",
+      "sha256": "584e5cadc80c8d49d954953bda3aba389fa3ecb3058054cb238532674b545666",
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_source/c478758__train.py"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "train.py",
+      "sha256": "e6a0cbbe581225bef97a1a84f6eee31a82ad4c29ce6c8dbe85bc91d6c5f72af1",
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_source/3484361__train.py"
+    },
+    {
+      "commit": "3484361d93f262c1d8a2afb0dd873a13d519de57",
+      "short": "3484361",
+      "path": "main.py",
+      "sha256": "c6d5c2467c912e1d875dded8902ad7d8b98db4cdde6844528eddc9cc8f569022",
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_source/3484361__main.py"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "train.py",
+      "sha256": "db7142e50970a7ab5d4b19308c99107d2c27b9bba06c1b92deffe120c026ab48",
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_source/9ba7133__train.py"
+    },
+    {
+      "commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+      "short": "9ba7133",
+      "path": "main.py",
+      "sha256": "a3784c8d0f1c0962a45f80c46154830c8880a7c6da72d2ecd9f524b19c5ceeb9",
+      "extracted_path": "reports/3002_ckpt_split_audit_20261020/historical_source/9ba7133__main.py"
+    }
+  ],
+  "git_extraction_stderr": "fatal: path 'adapter_finetune/json/train_data_with_description.json' does not exist in '3d44206'\nfatal: path 'adapter_finetune/json/val_data_with_description.json' does not exist in '3d44206'\n"
+}

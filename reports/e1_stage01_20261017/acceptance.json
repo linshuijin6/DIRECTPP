@@ -1,0 +1,67 @@
+{
+  "recommendation": "GO_PENDING_AUTHORIZATION",
+  "gates": [
+    {
+      "item": "subject identities / two folds / modality audit",
+      "status": "PASS",
+      "evidence": "cohort.json; qc_exclusions.json; qc_revision_receipt.json"
+    },
+    {
+      "item": "MRI/mask binding (after pre-specified QC exclusion of 016_S_4952)",
+      "status": "PASS",
+      "evidence": "qc_exclusions.json; preprocessing_errors.json"
+    },
+    {
+      "item": "ROI anatomical laterality (global segmenter L/R naming swap, consistent in all subjects; physical names frozen)",
+      "status": "PASS",
+      "evidence": "laterality_fix_receipt.json; hemisphere_label_map.json; reports/e1_laterality_rootcause_20261017/CORRECTION.md"
+    },
+    {
+      "item": "PET-independent ROI validity",
+      "status": "PASS",
+      "evidence": "roi_validity.json"
+    },
+    {
+      "item": "Full / No-Scores PTID embeddings and comparable initialization",
+      "status": "PASS",
+      "evidence": "conditions/index.json; pilot_receipts.json"
+    },
+    {
+      "item": "fold-local adapter refit on active cohort, no held-out PET",
+      "status": "PASS",
+      "evidence": "conditions/qc_exclusion_20261017/adapter_fold1.json, adapter_fold2.json"
+    },
+    {
+      "item": "training-side pilot / checkpoint reload / output roundtrip",
+      "status": "PASS",
+      "evidence": "pilot_receipts.json; evaluation_pipeline_check.json"
+    },
+    {
+      "item": "fold RAM cache measured",
+      "status": "PASS",
+      "evidence": "full_fold_cache_probe.json"
+    },
+    {
+      "item": "physical SUV/SUVR / authentic observed clinical contribution",
+      "status": "LIMITED_NOT_CLAIMED",
+      "evidence": "clinical_source_receipt.json; score_sources.csv"
+    },
+    {
+      "item": "formal stage2 authorization",
+      "status": "NOT_GRANTED",
+      "evidence": "config.json: formal_training_authorized=false"
+    }
+  ],
+  "blockers": [],
+  "stage01_completed": true,
+  "formal_training_started": false,
+  "formal_training_authorized": false,
+  "acceptable_limits": [
+    "Historical conditioning field contribution only",
+    "Normalized-space reconstruction fidelity only",
+    "New E1 folds separate from historical paper results",
+    "Single-seed conditional uncertainty; no clinical equivalence or disease-effect preservation claims",
+    "Segmenter hemisphere names are swapped; lateralized ROI results use physical names from hemisphere_label_map.json"
+  ],
+  "needed_before_stage2": "Explicit author authorization of the four formal fits and the revised budget"
+}

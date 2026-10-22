@@ -1,0 +1,14 @@
+{
+  "paired_shared_index_check": true,
+  "absolute_agreement_identity_check": {
+    "n": 20,
+    "mae": 0.0,
+    "bias": 0.0,
+    "ccc": 1.0,
+    "icc_a1": 1.0,
+    "loa_low": 0.0,
+    "loa_high": 0.0
+  },
+  "known_offset_bias": 0.10000000000000009,
+  "formal_guard": "verified NOT authorized"
+}

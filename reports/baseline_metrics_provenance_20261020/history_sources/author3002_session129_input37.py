@@ -1,0 +1,79 @@
+# Original=3002 /home/ssddata/liutuo/.ipython/profile_default/history.sqlite
+# session=129; input_line=37; source_sha256=aa546d81678ce4b38ed6deac7a4553c1308b352bc37654c0840cecdc7c591fce
+
+import numpy as np
+import matplotlib.pyplot as plt
+from math import pi
+# 数据定义
+methods = ['Cyclegan', 'Swin-Unet', 'DDIM(3D)', 'SegGuidedDif', 'Rectified Flow', 'Ours(single)', 'Ours']
+metrics = ['SSIM (%) ↑', 'PSNR ↑', 'MSE (%) ↓', 'MAE (%) ↓']  # 标注方向性
+data = [
+    [67.82, 17.26, 2.35, 6.47],  # Cyclegan
+    [75.29, 19.82, 1.27, 5.76],  # Swin-Unet
+    [82.62, 23.09, 0.98, 3.98],  # DDIM(3D)
+    [84.85, 23.76, 0.57, 3.73],  # SegGuidedDif
+    [85.69, 24.96, 0.53, 3.52],  # Rectified Flow
+    [87.48, 26.51, 0.43, 3.08],  # Ours(single)
+    [89.94, 28.72, 0.33, 2.96]   # Ours
+]
+
+# 数据标准化处理（对于↑指标越大越好，对于↓指标越小越好）
+def normalize_data(data):
+    normalized_data = []
+    for row in data:
+        norm_row = []
+        for i, value in enumerate(row):
+            if "↑" in metrics[i]:  # 越大越好
+                norm_row.append(value / max([r[i] for r in data]))
+            elif "↓" in metrics[i]:  # 越小越好
+                norm_row.append(min([r[i] for r in data]) / value)
+        normalized_data.append(norm_row)
+    return normalized_data
+
+normalized_data = normalize_data(data)
+
+# 创建雷达图
+def plot_radar_chart(methods, metrics, data, save_path=None):
+    num_vars = len(metrics)
+    angles = np.linspace(0, 2 * pi, num_vars, endpoint=False).tolist()
+    angles += angles[:1]  # 闭合图形
+
+    fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+
+    # 绘制每个方法的线
+    colors = plt.cm.tab10.colors  # 使用 tab10 颜色映射
+    for i, method in enumerate(methods):
+        values = data[i]
+        values += values[:1]  # 闭合图形
+        linewidth = 2 if method != 'Ours' else 4  # 突出 'Ours'
+        ax.plot(angles, values, color=colors[i], label=method, linewidth=linewidth)
+        ax.fill(angles, values, color=colors[i], alpha=0.25)
+
+    # 设置标签
+    ax.set_theta_offset(pi / 2)
+    ax.set_theta_direction(-1)
+    ax.set_thetagrids(np.degrees(angles[:-1]), [m.split(" ")[0] for m in metrics], fontsize=12)
+
+    # 增加网格线
+    ax.set_rgrids([0.2, 0.4, 0.6, 0.8, 1.0], angle=0, weight='black', fontsize=10)
+
+    # 添加图例和标题
+    ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=12)
+    plt.title("Performance Comparison (Radar Chart)", size=16, y=1.1)
+
+    # 调整布局
+    plt.tight_layout()
+
+    # 如果提供了保存路径，则保存图像
+    if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)  # 确保目录存在
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')  # 保存图像，设置高分辨率
+        print(f"Image saved to {save_path}")
+
+    plt.show()
+
+# 指定保存路径
+save_path = "/home/ssddata/liutuo/radar_chartfdg.png"
+
+# 调用函数绘制蛛网图并保存
+plot_radar_chart(methods, metrics, normalized_data, save_path)

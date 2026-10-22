@@ -1,0 +1,54 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_flow.ipynb
+ORIGINAL_SHA256: 6ad4b83141e67a968f1b64008b9121a594721361186a8062daeb51da2d45107a
+CELL_INDEX_ZERO_BASED: 10
+CELL_EXECUTION_COUNT_METADATA: 11
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: def mri_index_transform(x):
+0002:     return torch.cat([desc_text_features[x].unsqueeze(0), c_mri], dim=0)
+0003: 
+0004: def pet_index_transform(x):
+0005:     return torch.cat([desc_text_features[x].unsqueeze(0), c_pet], dim=0)
+0006: 
+0007: from monai.data import CacheDataset, DataLoader
+0008: from monai.data import CacheNTransDataset
+0009: import monai.data as md
+0010: from monai.data import CacheDataset, DataLoader
+0011: from monai.data import CacheNTransDataset
+0012: import monai.data as md
+0013: train_transforms=mt.Compose([
+0014:     mt.Lambdad(keys=["pet","mri"],func=mat_load),
+0015:     mt.EnsureChannelFirstd(keys=["pet","mri"],channel_dim='no_channel'),
+0016:     mt.Orientationd(keys=["pet","mri"],axcodes="LPI"),
+0017:     mt.CropForegroundd(keys=["pet","mri"],source_key="mri"),
+0018:     #mt.NormalizeIntensityd(keys=["pet","mri"]),
+0019:     mt.HistogramNormalized(keys=["pet","mri"]),
+0020:     mt.ResizeWithPadOrCropd(keys=["pet","mri"],spatial_size=(160,192,160)),
+0021:     mt.Spacingd(keys=["pet","mri"],pixdim=(1.0,1.0,1.0), mode=("bilinear")),
+0022:     mt.NormalizeIntensityd(keys=["pet","mri"]),
+0023:     mt.ScaleIntensityd(keys=["pet","mri"],minv=0,maxv=1),
+0024:     mt.Lambdad(keys=["mri_index"], func=mri_index_transform),
+0025:     mt.Lambdad(keys=["pet_index"], func=pet_index_transform),
+0026: #     mt.Lambdad(keys=["pet_index"],func=lambda x:paired_all_with_desc[x]),
+0027: ])
+0028: val_transforms=mt.Compose([
+0029:     mt.Lambdad(keys=["pet","mri"],func=mat_load),
+0030:     mt.EnsureChannelFirstd(keys=["pet","mri"],channel_dim='no_channel'),
+0031:     mt.Orientationd(keys=["pet","mri"],axcodes="LPI"),
+0032:     mt.CropForegroundd(keys=["pet","mri"],source_key="mri"),
+0033:     mt.HistogramNormalized(keys=["pet","mri"]),
+0034:     mt.ResizeWithPadOrCropd(keys=["pet","mri"],spatial_size=(160,192,160)),
+0035:     mt.Spacingd(keys=["pet","mri"],pixdim=(1.0,1.0,1.0), mode=("bilinear")),
+0036:     mt.NormalizeIntensityd(keys=["pet","mri"]),
+0037:     mt.ScaleIntensityd(keys=["pet","mri"],minv=0,maxv=1),
+0038:     mt.Lambdad(keys=["mri_index"], func=mri_index_transform),
+0039:     mt.Lambdad(keys=["pet_index"], func=pet_index_transform),
+0040: 
+0041: ])
+0042: 
+0043: 
+0044: train_ds = CacheDataset(data=train_data, transform=train_transforms,num_workers=20)
+0045: train_loader = DataLoader(train_ds, batch_size=1, shuffle=True, num_workers=0)    
+0046: 
+0047: val_ds = CacheDataset(data=val_data, transform=val_transforms,num_workers=20)
+0048: val_loader = DataLoader(val_ds,  batch_size=1,shuffle=False, num_workers=0)

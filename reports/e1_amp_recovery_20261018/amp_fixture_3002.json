@@ -1,0 +1,13 @@
+{
+  "torch": "2.6.0+cu118",
+  "gpu": "NVIDIA RTX A6000",
+  "finite_loss_overflow_reproduced": true,
+  "retries": 4,
+  "recovered_scale": 65536.0,
+  "actual_optimizer_updates": 1,
+  "parameters_and_adam_state_match_reference": true,
+  "cuda_rng_matches_single_forward": true,
+  "nan_loss_fails": true,
+  "persistent_gradient_fails_without_update": true,
+  "fixture": "synthetic Linear/Dropout; calls native batch_step; not generator/PET results"
+}

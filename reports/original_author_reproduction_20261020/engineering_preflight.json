@@ -1,0 +1,31 @@
+{
+  "status": "CPU_AND_CUDA_PREFLIGHT_PASS",
+  "input_manifest_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+  "directly_hashed_input_files": 5571,
+  "input_subjects": 1857,
+  "e1_hash_crosscheck_rows": 5571,
+  "e1_hash_crosscheck_path_sha_size_equal": true,
+  "sample_ptid": "002_S_0295",
+  "sample_shapes": {
+    "mri": [1, 160, 192, 160],
+    "fdg": [1, 160, 192, 160],
+    "av45": [1, 160, 192, 160]
+  },
+  "conditioning_shapes": {
+    "fdg": [2, 512],
+    "av45": [2, 512]
+  },
+  "model_parameters": 9925921,
+  "model_state_entries": 286,
+  "cuda_numerical_parity": "PASS",
+  "cuda_fixture_loss": 0.3322526216506958,
+  "cuda_formula_loss_absolute_difference": 0.0,
+  "cuda_formula_max_gradient_absolute_difference": 0.0,
+  "full_sample_memory_preflight": "PASS",
+  "full_sample_ptid": "002_S_0295",
+  "full_sample_loss": 0.0496736541390419,
+  "full_sample_timestep": 428,
+  "full_sample_peak_allocated_bytes": 46866800128,
+  "full_sample_peak_reserved_bytes": 48901390336,
+  "fixture_seed_only_not_formal_training": 20261020
+}

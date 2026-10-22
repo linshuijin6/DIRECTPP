@@ -1,0 +1,2602 @@
+[
+  {
+    "session": 5,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 14:49:22.692203",
+    "sha256": "74eeea1f8c0a7a46ef5139683c6895b41891a0ca03185f0e6247b66693e95459",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session5_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 5,
+    "line": 4,
+    "session_start_as_stored": "2025-04-08 14:49:22.692203",
+    "sha256": "74eeea1f8c0a7a46ef5139683c6895b41891a0ca03185f0e6247b66693e95459",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session5_line4.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 5,
+    "line": 5,
+    "session_start_as_stored": "2025-04-08 14:49:22.692203",
+    "sha256": "5805c1c2e9e9b311de60b080db41cd1208e1b90699baaeb7e79aa52495ef665d",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session5_line5.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 5,
+    "line": 6,
+    "session_start_as_stored": "2025-04-08 14:49:22.692203",
+    "sha256": "fb75bc766146102551017c9ee6044592a574794b4cbff8a273e2f5c9d74477c8",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session5_line6.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 5,
+    "line": 14,
+    "session_start_as_stored": "2025-04-08 14:49:22.692203",
+    "sha256": "fb75bc766146102551017c9ee6044592a574794b4cbff8a273e2f5c9d74477c8",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session5_line14.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 6,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 14:58:50.090721",
+    "sha256": "fb75bc766146102551017c9ee6044592a574794b4cbff8a273e2f5c9d74477c8",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session6_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 7,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 15:12:56.265727",
+    "sha256": "fb75bc766146102551017c9ee6044592a574794b4cbff8a273e2f5c9d74477c8",
+    "code_lines": 111,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session7_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 98,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 7,
+    "line": 17,
+    "session_start_as_stored": "2025-04-08 15:12:56.265727",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session7_line17.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 8,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 16:17:47.339829",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session8_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 10,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 16:19:32.583047",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session10_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 11,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 17:00:53.343298",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session11_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 12,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 17:31:12.004615",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session12_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 13,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 18:38:45.615188",
+    "sha256": "73875217755193cd341bdf4929c2b3537beab52dbe5b0b5a92f775875efd0f0c",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session13_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 13,
+    "line": 9,
+    "session_start_as_stored": "2025-04-08 18:38:45.615188",
+    "sha256": "976ca59ff50888551f31ef4b66063d1e353d1fbd033cf54c24e38c29febcb05e",
+    "code_lines": 120,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session13_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 68,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      },
+      {
+        "line": 107,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 13,
+    "line": 17,
+    "session_start_as_stored": "2025-04-08 18:38:45.615188",
+    "sha256": "cc8d0ccbfe08dc3ce6bf5da9acf915adabbfac0ca064a0fa1eea554dfa23ca2a",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session13_line17.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 13,
+    "line": 18,
+    "session_start_as_stored": "2025-04-08 18:38:45.615188",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session13_line18.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 15,
+    "line": 3,
+    "session_start_as_stored": "2025-04-08 23:26:47.798404",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session15_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 16,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 00:21:37.217822",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session16_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 17,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 00:44:48.384441",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session17_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 19,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 07:18:33.560321",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session19_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 21,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 22:47:10.011733",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session21_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 23,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 23:02:17.692091",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session23_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 25,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 23:19:48.016907",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session25_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 27,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 23:33:42.295354",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session27_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 29,
+    "line": 3,
+    "session_start_as_stored": "2025-04-09 23:49:52.011532",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session29_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 31,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 00:05:20.566706",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session31_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 33,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 00:17:38.377624",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session33_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 35,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 00:33:09.338329",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session35_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 37,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 00:42:07.680191",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session37_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 38,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 00:45:24.742047",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session38_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 40,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 07:48:41.369133",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session40_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 41,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 10:34:02.633930",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session41_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 42,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 12:54:46.949178",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session42_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 43,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 13:05:13.070052",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session43_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 45,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 13:23:11.549572",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session45_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 47,
+    "line": 3,
+    "session_start_as_stored": "2025-04-10 13:35:12.312933",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session47_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 49,
+    "line": 4,
+    "session_start_as_stored": "2025-04-10 13:43:26.967494",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session49_line4.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 51,
+    "line": 5,
+    "session_start_as_stored": "2025-04-10 13:57:15.263623",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session51_line5.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 52,
+    "line": 3,
+    "session_start_as_stored": "2025-04-11 07:51:11.078959",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session52_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 55,
+    "line": 3,
+    "session_start_as_stored": "2025-04-11 08:37:54.660099",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session55_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 56,
+    "line": 3,
+    "session_start_as_stored": "2025-04-11 20:52:13.185866",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session56_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 57,
+    "line": 3,
+    "session_start_as_stored": "2025-04-12 07:19:37.304137",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session57_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 58,
+    "line": 3,
+    "session_start_as_stored": "2025-04-14 21:10:40.061070",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session58_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 60,
+    "line": 3,
+    "session_start_as_stored": "2025-04-14 21:14:07.599258",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session60_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 62,
+    "line": 3,
+    "session_start_as_stored": "2025-04-16 08:39:54.495060",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session62_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 63,
+    "line": 4,
+    "session_start_as_stored": "2025-04-16 14:36:51.759667",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session63_line4.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 64,
+    "line": 3,
+    "session_start_as_stored": "2025-04-16 16:53:33.751879",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session64_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 66,
+    "line": 3,
+    "session_start_as_stored": "2025-04-16 16:59:27.873240",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session66_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 67,
+    "line": 3,
+    "session_start_as_stored": "2025-04-16 17:57:29.874910",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session67_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 67,
+    "line": 10,
+    "session_start_as_stored": "2025-04-16 17:57:29.874910",
+    "sha256": "4f5e8aa666a827cf2bbca478035e8d40baf18f1704402c6afa43a6966ed7f689",
+    "code_lines": 209,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session67_line10.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "n_epochs = 200"
+      },
+      {
+        "line": 28,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 178,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 67,
+    "line": 11,
+    "session_start_as_stored": "2025-04-16 17:57:29.874910",
+    "sha256": "ff5eaaea594abeec4442f060050733531fcc278c78d0e7d8ac895e1231703a7b",
+    "code_lines": 209,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session67_line11.py",
+    "matching_notebook_cells": [
+      9
+    ],
+    "directives": [
+      {
+        "line": 22,
+        "text": "n_epochs = 200"
+      },
+      {
+        "line": 28,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 178,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 68,
+    "line": 3,
+    "session_start_as_stored": "2025-04-18 06:23:57.893381",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session68_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 68,
+    "line": 9,
+    "session_start_as_stored": "2025-04-18 06:23:57.893381",
+    "sha256": "b5327527304e7b0b2a9025312fdb89931eae829129687bf545805610d08c4eb9",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session68_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 68,
+    "line": 12,
+    "session_start_as_stored": "2025-04-18 06:23:57.893381",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session68_line12.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 69,
+    "line": 3,
+    "session_start_as_stored": "2025-04-18 18:51:12.980498",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session69_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 69,
+    "line": 9,
+    "session_start_as_stored": "2025-04-18 18:51:12.980498",
+    "sha256": "4aa7e1e6331636e42dceccf375ab8de4f7304ded8587f2d1768abaa064a15fed",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session69_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 70,
+    "line": 3,
+    "session_start_as_stored": "2025-04-19 22:05:45.352452",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session70_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 70,
+    "line": 9,
+    "session_start_as_stored": "2025-04-19 22:05:45.352452",
+    "sha256": "63ac06840b8b999be6de25ef5ac03a51b3aa30521085e5b4214cbf37b9903f93",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session70_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 71,
+    "line": 3,
+    "session_start_as_stored": "2025-04-21 07:08:13.956954",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session71_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 71,
+    "line": 9,
+    "session_start_as_stored": "2025-04-21 07:08:13.956954",
+    "sha256": "dce82fdb5804c2638eeeeeb46d52538a7ca51615080b6fffce71af1413ae5929",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session71_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 72,
+    "line": 3,
+    "session_start_as_stored": "2025-04-22 07:20:02.740518",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session72_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 72,
+    "line": 9,
+    "session_start_as_stored": "2025-04-22 07:20:02.740518",
+    "sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session72_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 74,
+    "line": 3,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session74_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 74,
+    "line": 9,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session74_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 74,
+    "line": 10,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session74_line10.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 74,
+    "line": 11,
+    "session_start_as_stored": "2025-04-22 11:54:15.755683",
+    "sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session74_line11.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 75,
+    "line": 3,
+    "session_start_as_stored": "2025-04-22 14:54:52.252828",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session75_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 75,
+    "line": 9,
+    "session_start_as_stored": "2025-04-22 14:54:52.252828",
+    "sha256": "d21d949343689dddc700c8413c5c5684e24761d19f7ae949e1a1ad299be87f58",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session75_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 76,
+    "line": 3,
+    "session_start_as_stored": "2025-04-22 17:12:49.399359",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session76_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 76,
+    "line": 9,
+    "session_start_as_stored": "2025-04-22 17:12:49.399359",
+    "sha256": "2b62315fa99d14509834526401799a520a7309cbf639d9cea633b862e5717550",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session76_line9.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 77,
+    "line": 3,
+    "session_start_as_stored": "2025-04-23 08:55:00.460977",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session77_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 77,
+    "line": 9,
+    "session_start_as_stored": "2025-04-23 08:55:00.460977",
+    "sha256": "d88582cad9223824c62627ee320bc43b9fe7ad4c5cdc29c0528318f837c93716",
+    "code_lines": 212,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session77_line9.py",
+    "matching_notebook_cells": [
+      10
+    ],
+    "directives": [
+      {
+        "line": 22,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized'"
+      },
+      {
+        "line": 23,
+        "text": "checkpoint = torch.load(f'{checkpoint_dir}/first_part_154.pth')"
+      },
+      {
+        "line": 26,
+        "text": "start_epoch = checkpoint['epoch'] + 1  # Start from the next epoch after the last saved one"
+      },
+      {
+        "line": 29,
+        "text": "new_epochs =140  # Number of additional epochs to train"
+      },
+      {
+        "line": 181,
+        "text": "        torch.save(checkpoint, f'{checkpoint_dir}/first_part_{epoch + 1}.pth')"
+      }
+    ]
+  },
+  {
+    "session": 77,
+    "line": 11,
+    "session_start_as_stored": "2025-04-23 08:55:00.460977",
+    "sha256": "3b1d5c5ccca498168eaf6c365ce3411e7603195bb3212e5cc530685ec346f628",
+    "code_lines": 129,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session77_line11.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 77,
+    "line": 12,
+    "session_start_as_stored": "2025-04-23 08:55:00.460977",
+    "sha256": "ea20ec701177109f2fe7f51152d355aeb73072f372b6f24a94b9c9093aba7d39",
+    "code_lines": 129,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session77_line12.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 78,
+    "line": 3,
+    "session_start_as_stored": "2025-04-24 17:03:49.078819",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session78_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 78,
+    "line": 11,
+    "session_start_as_stored": "2025-04-24 17:03:49.078819",
+    "sha256": "4062c95c3064142e353d578494f6819039f152ebecadc33afcefaecc83b6d459",
+    "code_lines": 139,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session78_line11.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 78,
+    "line": 12,
+    "session_start_as_stored": "2025-04-24 17:03:49.078819",
+    "sha256": "a21b73928c170e986e3984822cb56fe7c04339b711cdc56285e1faa98d7889de",
+    "code_lines": 139,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session78_line12.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 78,
+    "line": 13,
+    "session_start_as_stored": "2025-04-24 17:03:49.078819",
+    "sha256": "50e8cbbe87fe0685cd56b0391df1dcbe7859cd393ff96c3183c7e0a95f24c226",
+    "code_lines": 129,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session78_line13.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 78,
+    "line": 14,
+    "session_start_as_stored": "2025-04-24 17:03:49.078819",
+    "sha256": "76f9af80206a728b2d8caadb7235e4abe3fa084cda29e019dfc6e8777fecde4d",
+    "code_lines": 129,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session78_line14.py",
+    "matching_notebook_cells": [
+      11
+    ],
+    "directives": [
+      {
+        "line": 11,
+        "text": "checkpoint_dir = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow'"
+      },
+      {
+        "line": 12,
+        "text": "checkpoint_path = '/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth'"
+      }
+    ]
+  },
+  {
+    "session": 81,
+    "line": 3,
+    "session_start_as_stored": "2025-04-25 14:26:17.872610",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session81_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 83,
+    "line": 3,
+    "session_start_as_stored": "2025-04-25 15:12:37.779475",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session83_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 85,
+    "line": 3,
+    "session_start_as_stored": "2025-04-25 17:56:21.547258",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session85_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 93,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 15:57:37.459683",
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session93_line3.py",
+    "matching_notebook_cells": [
+      2
+    ],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 93,
+    "line": 4,
+    "session_start_as_stored": "2025-05-07 15:57:37.459683",
+    "sha256": "8b2240209c925f764d4f3c33589d96c0c2ea78a6abbb4cf091fad620b81f5394",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session93_line4.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 93,
+    "line": 5,
+    "session_start_as_stored": "2025-05-07 15:57:37.459683",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session93_line5.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 94,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 16:20:45.035839",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session94_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 95,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 16:38:18.164283",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session95_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 95,
+    "line": 14,
+    "session_start_as_stored": "2025-05-07 16:38:18.164283",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session95_line14.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 96,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 17:29:27.734863",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session96_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 97,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 17:30:16.732546",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session97_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 98,
+    "line": 3,
+    "session_start_as_stored": "2025-05-07 23:19:25.377555",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session98_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 100,
+    "line": 3,
+    "session_start_as_stored": "2025-05-08 00:45:15.814047",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session100_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 103,
+    "line": 3,
+    "session_start_as_stored": "2025-05-08 06:48:08.123344",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session103_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 105,
+    "line": 3,
+    "session_start_as_stored": "2025-05-08 16:31:09.923621",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session105_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 106,
+    "line": 3,
+    "session_start_as_stored": "2025-05-08 16:32:13.382712",
+    "sha256": "d4c0f30c9127162517f3a5cde1f13ffeaa69a8ec5c77bb2b9b2023562d4f7ab9",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session106_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 107,
+    "line": 3,
+    "session_start_as_stored": "2025-05-09 12:01:33.437432",
+    "sha256": "a866434b4d5e8574f9fe0b2076cd265740c612753790756b3e678f2518fbba74",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session107_line3.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "# train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "# val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=0, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 107,
+    "line": 4,
+    "session_start_as_stored": "2025-05-09 12:01:33.437432",
+    "sha256": "7aef5a71eb2d1afb2352728e787c6d959256fa5abd5f19a550e6159dec903065",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session107_line4.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "# train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "# val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=None, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 107,
+    "line": 6,
+    "session_start_as_stored": "2025-05-09 12:01:33.437432",
+    "sha256": "84f1f75a6579577b6d90233c350767b813de4a8279ca80959d9fe755da4d736c",
+    "code_lines": 102,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session107_line6.py",
+    "matching_notebook_cells": [],
+    "directives": [
+      {
+        "line": 14,
+        "text": "# train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "# val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "session": 108,
+    "line": 20,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "7c13937962a4ff317a295aef0f6edba625c983e4781ab46d2017e83b529c9962",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line20.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 23,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "b91a315e4716e63cb2362d9979765fd565304a68bfb014c1d63d1f6bf75b5c11",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line23.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 24,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "b91a315e4716e63cb2362d9979765fd565304a68bfb014c1d63d1f6bf75b5c11",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line24.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 27,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "0a936376c6ccc6ecb0e70a655d505b39aff76454bb6f32636b49cf34fa00e86c",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line27.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 30,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "db50db91974eeed77e9b393f4c701e60d7f4f098786ca67aa288737faa122153",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line30.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 31,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "db50db91974eeed77e9b393f4c701e60d7f4f098786ca67aa288737faa122153",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line31.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 34,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "faf2442cbcf23137580519f07138168b9e96d6e88717d1511926f6c8cf5dbd49",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line34.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 37,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "5972a7bb02f3b8ce1d124910f0dd9da289d231fd88b70f3066bedbdea60726bf",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line37.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 108,
+    "line": 38,
+    "session_start_as_stored": "2025-05-09 12:52:23.163253",
+    "sha256": "5972a7bb02f3b8ce1d124910f0dd9da289d231fd88b70f3066bedbdea60726bf",
+    "code_lines": 128,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session108_line38.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 111,
+    "line": 8,
+    "session_start_as_stored": "2025-05-13 16:04:39.346646",
+    "sha256": "be0cb0d78d681aa5e6fa3c301cd10dc3dd821cf4e8f29e67510c2eaa478b7f7f",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session111_line8.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 111,
+    "line": 9,
+    "session_start_as_stored": "2025-05-13 16:04:39.346646",
+    "sha256": "c8947a590d2f78287edfa756cea9d3712c544a5486f05df6fd7e3cc69b9beb1a",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session111_line9.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 128,
+    "line": 21,
+    "session_start_as_stored": "2025-05-19 11:38:28.865352",
+    "sha256": "1766bef86058c21a3443aa66697be2640eb88ce250aa712495c4f74924c45247",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session128_line21.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 128,
+    "line": 24,
+    "session_start_as_stored": "2025-05-19 11:38:28.865352",
+    "sha256": "e8832a957d1918a304aa106c5cdf69f7e9b07952486f08076be4911ed5f51e79",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session128_line24.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 128,
+    "line": 27,
+    "session_start_as_stored": "2025-05-19 11:38:28.865352",
+    "sha256": "4f9bb1f1d5e01d08231255cbfc92951cf54c99285a7eb50e04ac077241cb5cd9",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session128_line27.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 128,
+    "line": 30,
+    "session_start_as_stored": "2025-05-19 11:38:28.865352",
+    "sha256": "83a9ee7f9055bb1207dcf34ff95441d91d2dd0df0c1851c3d5fb07736108334c",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session128_line30.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 128,
+    "line": 31,
+    "session_start_as_stored": "2025-05-19 11:38:28.865352",
+    "sha256": "83a9ee7f9055bb1207dcf34ff95441d91d2dd0df0c1851c3d5fb07736108334c",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session128_line31.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 130,
+    "line": 14,
+    "session_start_as_stored": "2025-05-29 22:36:04.752308",
+    "sha256": "83a9ee7f9055bb1207dcf34ff95441d91d2dd0df0c1851c3d5fb07736108334c",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session130_line14.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 130,
+    "line": 17,
+    "session_start_as_stored": "2025-05-29 22:36:04.752308",
+    "sha256": "da82f0e82ec8fd683642341307106f79a58ad6f5e99e974dda1bc36a1479972c",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session130_line17.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  },
+  {
+    "session": 130,
+    "line": 18,
+    "session_start_as_stored": "2025-05-29 22:36:04.752308",
+    "sha256": "da82f0e82ec8fd683642341307106f79a58ad6f5e99e974dda1bc36a1479972c",
+    "code_lines": 140,
+    "source": "reports/final165_training_split_audit_20261020/execution_sources/author3002_session130_line18.py",
+    "matching_notebook_cells": [],
+    "directives": []
+  }
+]

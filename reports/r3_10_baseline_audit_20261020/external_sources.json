@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-96628-6_15",
+    "checked_date": "2026-10-20",
+    "location": "Abstract",
+    "finding": "DIReCT explicitly incorporates individualized clinical information via BiomedCLIP. This is a method-level source, not provenance of the Fig.2 baseline run."
+  },
+  {
+    "url": "https://arxiv.org/html/2402.05210v2",
+    "checked_date": "2026-10-20",
+    "location": "Sections 2, 3, Conclusion",
+    "finding": "Original Seg-Diff experiments use 2D slices, 256x256 U-Net, image/mask channel concatenation, DDIM sampling; extension to image translation and 3D is future work. Does not establish DIRECTPP baseline adaptation or dimension."
+  },
+  {
+    "url": "https://github.com/mazurowski-lab/segmentation-guided-diffusion",
+    "checked_date": "2026-10-20",
+    "location": "README training/evaluation",
+    "finding": "Official implementation documents image/mask guidance and PNG slice data; not the local adapted run."
+  }
+]

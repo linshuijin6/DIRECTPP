@@ -1,0 +1,95 @@
+[
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "zero_based_cell": 2,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/final_cell2.py",
+    "text_output_excerpts": [
+      "Training set size: 1856",
+      "Validation set size: 1"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "zero_based_cell": 9,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/final_cell9.py",
+    "text_output_excerpts": [
+      "Epoch 10 Validation loss 0.005348945967853069",
+      "epoch: 10",
+      "Saved all parameters!",
+      "Epoch 20 Validation loss 0.0034379123244434595",
+      "epoch: 20",
+      "Saved all parameters!",
+      "Epoch 30 Validation loss 0.004035886377096176",
+      "epoch: 30",
+      "Saved all parameters!",
+      "Epoch 40 Validation loss 0.0041582901030778885",
+      "epoch: 40",
+      "Saved all parameters!"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "zero_based_cell": 10,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/final_cell10.py",
+    "text_output_excerpts": [
+      "Epoch 155 Validation loss 0.003150797449052334",
+      "epoch: 155",
+      "Saved all parameters!",
+      "Epoch 160 Validation loss 0.0034280240070074797",
+      "epoch: 160",
+      "Saved all parameters!",
+      "Epoch 165 Validation loss 0.0032432121224701405",
+      "epoch: 165",
+      "Saved all parameters!"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "zero_based_cell": 11,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/final_cell11.py",
+    "text_output_excerpts": []
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new_start.ipynb",
+    "sha256": "076c0f6b12fb0d0b020bc78bb166013a16bc75669be8c379ba41ffe62380f55a",
+    "zero_based_cell": 2,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/start_cell2.py",
+    "text_output_excerpts": [
+      "Training set size: 1856",
+      "Validation set size: 1"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new_start.ipynb",
+    "sha256": "076c0f6b12fb0d0b020bc78bb166013a16bc75669be8c379ba41ffe62380f55a",
+    "zero_based_cell": 8,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/start_cell8.py",
+    "text_output_excerpts": [
+      "Epoch 10 Validation loss 0.005831720773130655",
+      "epoch: 10",
+      "Saved all parameters!"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new_start.ipynb",
+    "sha256": "076c0f6b12fb0d0b020bc78bb166013a16bc75669be8c379ba41ffe62380f55a",
+    "zero_based_cell": 9,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/start_cell9.py",
+    "text_output_excerpts": [
+      "Epoch 165 Validation loss 0.003632481675595045",
+      "epoch: 165",
+      "Saved all parameters!"
+    ]
+  },
+  {
+    "original": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new_start.ipynb",
+    "sha256": "076c0f6b12fb0d0b020bc78bb166013a16bc75669be8c379ba41ffe62380f55a",
+    "zero_based_cell": 10,
+    "extracted_source": "reports/csv_bound_ckpt_search_20261020/notebook_evidence/start_cell10.py",
+    "text_output_excerpts": []
+  }
+]

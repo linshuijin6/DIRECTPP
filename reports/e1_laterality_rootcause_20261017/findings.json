@@ -1,0 +1,55 @@
+{
+  "investigation": "E1 ROI laterality (left/right) failure root cause",
+  "work_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "date": "2026-10-17",
+  "root_cause": {
+    "summary": "prepare.py computes world_affine = ref.affine @ proc['mri'].affine, double-applying the MRI geometry and flipping the world x-axis sign. The laterality criterion x(17)<x(53) then evaluates against a mirrored x-axis, so it fails for essentially all subjects. The segmentation labels and raw MRI headers are anatomically correct.",
+    "buggy_line": "world_affine = ref.affine @ np.asarray(proc[\"mri\"].affine)",
+    "why_wrong": "proc['mri'].affine is already the MONAI meta-affine mapping processed-array indices to true RAS world. Left-multiplying by ref.affine (another -1 x-row MNI affine) yields a world_affine with x-row = +1 (det +1, axcodes RPI), i.e. a left-right mirrored frame. The correct index->world map is proc['mri'].affine alone (applied to the LPI-flipped mask grid).",
+    "confidence": "very high"
+  },
+  "hypotheses": {
+    "H1_check_or_affine_bug": {"verdict": "CONFIRMED", "evidence": "raw@proc flips x-row -1 -> +1 (analytic + per-subject); with correct affine (proc alone) 40-42/42 sampled subjects pass, with buggy affine only the 2 degenerate ones pass"},
+    "H2_preprocessing_axis_orientation_mislabel": {"verdict": "REJECTED", "evidence": "both raw MRI (LAS, x-row -1) and MONAI proc meta-affine (LPI, x-row -1) independently agree axis0 increasing -> anatomical LEFT; labels follow this"},
+    "H3_segmentation_mirrored_or_mislabeled": {"verdict": "REJECTED", "evidence": "full cohort 1857/1857: WM(2/41) 1857 correct 0 mirrored; Putamen(12/51) 1857 correct 0 mirrored; Hippocampus(17/53) 1854 correct 0 mirrored 2 degenerate; Amygdala(18/54) 1853 correct 0 mirrored 3 degenerate"},
+    "H4_raw_affine_mirrored_radiological": {"verdict": "REJECTED", "evidence": "raw qform/sform code=4 (MNI/Talairach), axcodes LAS, affine -1,0,0,90 is a standard RAS-world registered image; negative world-x = anatomical left"}
+  },
+  "subject_consistency": {
+    "n_total": 1857,
+    "load_errors": 0,
+    "mirrored_subjects": 0,
+    "site_or_source_subgroups": "none detected; uniform across cohort",
+    "WM_pair_correct": 1857,
+    "Putamen_pair_correct": 1857,
+    "Hippocampus_pair_correct": 1854,
+    "Hippocampus_degenerate_label17": ["010_S_0786 (0 vox)", "100_S_0743 (1 vox)", "128_S_4842 (1 vox)"],
+    "two_buggy_passers": ["100_S_0743", "128_S_4842"],
+    "two_buggy_passers_note": "exactly the degenerate 1-voxel label-17 cases; their pass is spurious"
+  },
+  "raw_header": {"axcodes": "LAS", "qform_code": 4, "sform_code": 4, "det_sign": "negative", "sampled_n": 62, "uniform": true},
+  "mask_header": {"axcodes": "RAS", "affine": "identity", "note": "segmenter read the identity-header saved MRI; labels still landed anatomically correct because the saved array's L/R matches the segmenter frame consistently"},
+  "recommended_fix": {
+    "primary": "Use the correct index->world affine for the laterality check: map the LPI-flipped mask centroids with proc['mri'].affine (NOT ref.affine @ proc['mri'].affine). Equivalent minimal patch: world_affine = np.asarray(proc['mri'].affine).",
+    "do_not": "Do NOT swap labels 17<->53 and do NOT flip the mask grid; the segmentation is anatomically correct and such a fix would INTRODUCE a mirror error.",
+    "also": "Handle degenerate ROIs (<=5 voxels) explicitly rather than letting them pass the ordering test; 3 subjects have near-absent left hippocampus.",
+    "note_on_stored_cache_affine": "The npz caches store the buggy world_affine. If any downstream ROI mapping uses that stored affine for L/R assignment it inherits the mirror; but ROI stats computed directly from label ids on the array grid are unaffected because the labels themselves are correct."
+  },
+  "e1_evaluation_impact": {
+    "roi_mae_per_hemisphere": "Per-label ROI MAE values are unchanged IF they are computed by label id on the array grid (labels are correct). The only thing broken is the laterality QC gate, which currently reports NO_GO erroneously. Fixing the affine flips the gate to PASS for ~1854/1857 (all non-degenerate), unblocking stage-0.",
+    "if_downstream_used_buggy_world_affine_for_LR": "then left/right hemisphere ROI assignments would have been mirrored and per-hemisphere MAE would be swapped between hemispheres; must audit evaluation code that consumes npz 'affine'.",
+    "key_roi_list_checked": ["17/53 Hippocampus", "2/41 CerebralWM", "4/43 LateralVentricle", "10/49 Thalamus", "12/51 Putamen", "13/52 Pallidum", "18/54 Amygdala", "1025/2025 Precuneus", "1008/2008 InfParietal"]
+  },
+  "residual_risks": [
+    "Cortical labels 3/42 are absent in the masks (aseg-style, only subcortical + sparse DKT cortical like 1025/2025 present); ROI panel must rely on present labels.",
+    "3 subjects have degenerate/absent left hippocampus (true segmentation quality issue, not laterality); exclude or flag for hippocampal ROIs.",
+    "Did not re-run the full MONAI pipeline on all 1857 for the affine test (ran MONAI on 52, mask-only index check on all 1857). The index-order argument is affine-sign-anchored and uniform, so this is low risk.",
+    "Downstream evaluation code that reads npz 'affine' for L/R was not audited here; recommended as a follow-up."
+  ],
+  "output_files": {
+    "per_subject_index_evidence": "reports/e1_laterality_rootcause_20261017/per_subject_index_evidence.json",
+    "aggregate": "reports/e1_laterality_rootcause_20261017/aggregate.json",
+    "affine_fix_test": "reports/e1_laterality_rootcause_20261017/affine_fix_test.json",
+    "decisive_tally": "reports/e1_laterality_rootcause_20261017/decisive_tally.json",
+    "full_cohort_consistency": "reports/e1_laterality_rootcause_20261017/full_cohort_consistency.json"
+  }
+}

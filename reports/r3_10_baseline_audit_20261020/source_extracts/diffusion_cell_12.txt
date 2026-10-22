@@ -1,0 +1,41 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+ORIGINAL_SHA256: cb35bdca97dc91fdd846d40acb6f0451ba1c72c51a3326dadca5846134df5d75
+CELL_INDEX_ZERO_BASED: 12
+CELL_EXECUTION_COUNT_METADATA: 13
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: os.environ["TOKENIZERS_PARALLELISM"] = "false"
+0003: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0004: 
+0005: from generative.networks.nets import DiffusionModelUNet
+0006: from generative.networks.schedulers import DDPMScheduler,DDIMScheduler
+0007: from generative.inferers import DiffusionInferer
+0008: model= DiffusionModelUNet(
+0009:     spatial_dims=3,
+0010:     in_channels=1,#1,
+0011:     out_channels=1,
+0012:     num_channels=(64,64,64,128),
+0013:     attention_levels=(False,False,False,True),
+0014:     num_res_blocks=1,
+0015:     num_head_channels=(0,0,0, 128),
+0016:     with_conditioning=True,
+0017:     cross_attention_dim=512,
+0018:     use_flash_attention=True,
+0019: )
+0020: 
+0021: 
+0022: 
+0023: model.to(device)
+0024: scheduler = DDPMScheduler(prediction_type="v_prediction", num_train_timesteps=1000,schedule="scaled_linear_beta",
+0025:                           beta_start=0.0005, beta_end=0.0195)
+0026: scheduler.set_timesteps(num_inference_steps=1000)
+0027: optimizer= torch.optim.Adam(params=model.parameters(), lr=2.5e-5)
+0028: inferer = DiffusionInferer(scheduler)
+0029: 
+0030: # scheduler = DDIMScheduler(prediction_type='v_prediction',num_train_timesteps=1000,
+0031: #                            schedule="scaled_linear_beta",beta_start=0.0005, beta_end=0.0195)
+0032: # scheduler.set_timesteps(num_inference_steps=50)
+0033: # inferer = DiffusionInferer(scheduler)
+0034: # optimizer_1 = torch.optim.Adam(params=model_1.parameters(), lr=2.5e-5)
+0035: 

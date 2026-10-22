@@ -1,0 +1,16 @@
+{
+  "node": "3003",
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "pid": 2998272,
+  "user": "linshuijin",
+  "cmdline": "/home/data/linshuijin/.conda/envs/xiaochou/bin/python -u plasma_train.py --config /mnt/nfsdata/nfsdata/linshuijin/replicaLT/analysis/tau_suvrnorm_3fold_20261013/fold_2/round_2/configs/s2_bound.yaml ",
+  "start_stat": "2998272 (python) S 2998266 2922789 2922789 0 -1 4194304 26765367 88 32 0 2454622 1082327 0 0 25 5 83 0 580839623 49705951232 479785 18446744073709551615 4321280 6412946 140731138084176 0 0 0 0 16781319 65536 0 0 0 17 27 0 0 0 0 0 7471752 7678816 22413312 140731138091579 140731138091777 140731138091777 140731138092994 0\n",
+  "owned_descendants": [
+    2998969,
+    2999018,
+    2999066,
+    2999115
+  ],
+  "action": "SIGTERM only exact author task and its descendants",
+  "timestamp": 1792246716.4960468
+}

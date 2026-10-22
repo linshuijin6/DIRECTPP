@@ -58,14 +58,26 @@ __pycache__/
 /reports/generation_691_audit_20261017/cell_*_source.py.txt
 /reports/generation_691_audit_20261017/cell_*_original_output.log
 
-# Model weights, imaging volumes and runtime event files
+# Model weights, imaging volumes, logs and runtime event files
 *.pth
 *.pt
 *.ckpt
 *.nii
 *.nii.gz
 *.mat
+*.log
+*.exit
+*.whl
+*.tar
+*.tar.gz
+*.tar.part*
 events.out.tfevents.*
+
+# Data caches and large runtime dumps
+/results/cache/
+/directpp_cache/
+/directpp_assets/
+/reports/e1_full165_inference_20261020/regions_long.csv
 
 # LaTeX build intermediates; keep manuscripts, bibliography and figure PDFs
 *.aux

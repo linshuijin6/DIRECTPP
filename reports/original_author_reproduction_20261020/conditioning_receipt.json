@@ -1,0 +1,14 @@
+{
+  "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/conditions.pt",
+  "sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+  "patient_shape": [
+    1857,
+    512
+  ],
+  "tracer_shape": [
+    2,
+    512
+  ],
+  "device": "cuda",
+  "biomedclip_sha256": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb"
+}

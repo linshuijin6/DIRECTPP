@@ -1,0 +1,8 @@
+{
+  "gpu": "NVIDIA RTX A6000",
+  "enabled_scaler_nonempty_state_restored": true,
+  "cuda_rng_restored": true,
+  "next_update_loss_delta": 0.0,
+  "next_update_parameter_maxabs": 0.0,
+  "fixture": "small Linear/Dropout AMP; not generator training; existing generator AMP evidence remains tolerance-based"
+}

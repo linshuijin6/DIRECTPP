@@ -1,0 +1,13 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb
+ORIGINAL_SHA256: 08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe
+CELL_INDEX_ZERO_BASED: 8
+CELL_EXECUTION_COUNT_METADATA: 9
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: train_data = paired_all_with_desc[:1128]
+0002: 
+0003: val_data = paired_all_with_desc[1128:]
+0004: 
+0005: # 输出检查
+0006: print(f"训练集大小: {len(train_data)}") 
+0007: print(f"验证集大小: {len(val_data)}")   

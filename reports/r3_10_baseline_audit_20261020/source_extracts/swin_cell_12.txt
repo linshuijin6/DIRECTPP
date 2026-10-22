@@ -1,0 +1,28 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet swinunet useful.ipynb
+ORIGINAL_SHA256: 36b1db9e305c6b05b22f4398129e3ea385e99c5d102a08ebf040db99444fc53e
+CELL_INDEX_ZERO_BASED: 12
+CELL_EXECUTION_COUNT_METADATA: 13
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: from monai.networks.nets import ViT, ViTAutoEnc, SwinUNETR
+0002: 
+0003: 
+0004: roi = (160,192,160)
+0005: batch_size = 1
+0006: sw_batch_size = 2
+0007: infer_overlap = 0.5
+0008: max_epochs = 500
+0009: val_every = 10
+0010: 
+0011: 
+0012: model = SwinUNETR(
+0013:     img_size=(160,192,160),
+0014:     in_channels=1,
+0015:     out_channels=1,
+0016:     feature_size=48,
+0017:     drop_rate=0.0,
+0018:     attn_drop_rate=0.0,
+0019:     dropout_path_rate=0.0,
+0020:     use_checkpoint=False,
+0021: ).to(device)
+0022: optimizer = torch.optim.Adam(params=model.parameters(), lr=1e-5)

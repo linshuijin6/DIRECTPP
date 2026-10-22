@@ -1,0 +1,37 @@
+{
+ "Hipp": {
+  "n": 52,
+  "left_label_is_anatomical_left": 50,
+  "buggy_pass": 2
+ },
+ "WM": {
+  "n": 52,
+  "left_label_is_anatomical_left": 52,
+  "buggy_pass": 0
+ },
+ "Vent": {
+  "n": 52,
+  "left_label_is_anatomical_left": 52,
+  "buggy_pass": 0
+ },
+ "Thal": {
+  "n": 52,
+  "left_label_is_anatomical_left": 52,
+  "buggy_pass": 0
+ },
+ "Puta": {
+  "n": 52,
+  "left_label_is_anatomical_left": 52,
+  "buggy_pass": 0
+ },
+ "Amyg": {
+  "n": 52,
+  "left_label_is_anatomical_left": 52,
+  "buggy_pass": 0
+ },
+ "Prec": {
+  "n": 52,
+  "left_label_is_anatomical_left": 51,
+  "buggy_pass": 1
+ }
+}

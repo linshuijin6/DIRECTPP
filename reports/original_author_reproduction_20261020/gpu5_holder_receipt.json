@@ -1,0 +1,19 @@
+{
+  "status": "RELEASED_FOR_CUDA_PREFLIGHT",
+  "purpose": "temporary exclusive hold before original-author reproduction validation and training",
+  "node_alias": "3003",
+  "reported_hostname": "pnxc",
+  "physical_gpu": 5,
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "pid": 945345,
+  "process_start_local": "2026-10-20 20:45:30 Asia/Shanghai",
+  "allocated_bytes": 46170898432,
+  "nvidia_smi_used_mib_after_ready": 44361,
+  "prior_observed_pid": 895860,
+  "prior_observed_pid_state_at_claim": "already_exited",
+  "other_compute_pids_on_gpu_at_verification": [],
+  "log": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/gpu5_holder.log",
+  "training_started": false,
+  "released_for_preflight_local": "2026-10-20 Asia/Shanghai",
+  "cuda_preflight_after_release": "PASS"
+}

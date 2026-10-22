@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_BEFORE_CONDITION_ENCODING",
+  "formal_training_started": false,
+  "image_cache_started": false,
+  "failure": "Archived checkpoint directory contained model weights but no Hugging Face config.json",
+  "repair": "Build a run-local bundle from hash-verified author config files plus the same archived model.safetensors",
+  "gpu": "GPU-7b6ef4a8-2ab3-cdf8-b8c9-748509137ebc",
+  "physical_gpu": 0,
+  "node_alias": "3003"
+}

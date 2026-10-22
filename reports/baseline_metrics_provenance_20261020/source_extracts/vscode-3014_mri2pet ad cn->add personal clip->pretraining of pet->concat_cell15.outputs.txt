@@ -1,0 +1,34 @@
+Saved all parameters!
+SSIM: 0.7941421270370483
+PSNR: 21.189674377441406
+Saved all parameters!
+SSIM: 0.7389149069786072
+PSNR: 21.759178161621094
+Saved all parameters!
+SSIM: 0.8449883460998535
+PSNR: 22.835893630981445
+Saved all parameters!
+SSIM: 0.8210538029670715
+PSNR: 22.39444923400879
+Saved all parameters!
+SSIM: 0.68247389793396
+PSNR: 21.60304832458496
+Saved all parameters!
+SSIM: 0.8568824529647827
+PSNR: 22.675094604492188
+Saved all parameters!
+SSIM: 0.8115184307098389
+PSNR: 22.789398193359375
+Saved all parameters!
+SSIM: 0.8509722948074341
+PSNR: 22.5228328704834
+Saved all parameters!
+SSIM: 0.8423036336898804
+PSNR: 22.131242752075195
+Saved all parameters!
+SSIM: 0.5276880860328674
+PSNR: 20.474010467529297
+[0;31m---------------------------------------------------------------------------[0m[0;31mValueError[0m                                Traceback (most recent call last)Cell [0;32mIn[17], line 124[0m
+[0;32m--> 504[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mx and y must have same first dimension, but [39m[38;5;124m"[39m
+[1;32m    507[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mx and y can be no greater than 2D, but have [39m[38;5;124m"[39m
+[0;31mValueError[0m: x and y must have same first dimension, but have shapes (150,) and (10,)

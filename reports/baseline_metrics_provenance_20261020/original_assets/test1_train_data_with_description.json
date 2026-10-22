@@ -1,0 +1,11 @@
+[
+    {
+        "name": "037_S_0552",
+        "mri": "/home/ssddata/liutuo/liutuo_data/test1/MRI/037_S_0552_MRI_registered.nii.gz",
+        "av45": "/home/ssddata/liutuo/liutuo_data/test1/AV45/037_S_0552_AV45_registered.nii.gz",
+        "fdg": "/home/ssddata/liutuo/liutuo_data/test1/FDG/037_S_0552_FDG_registered.nii.gz",
+        "description": "Subject is a 60-year-old female with a weight of 65.4 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0.5. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 27. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 7. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 3.",
+        "fdg_index": 0,
+        "av45_index": 0
+    }
+]

@@ -1,0 +1,30 @@
+{
+ "n": 1857,
+ "errors": [],
+ "tally": {
+  "Hipp": {
+   "n": 1856,
+   "correct": 1854,
+   "mirrored": 0,
+   "degenerate": 2
+  },
+  "WM": {
+   "n": 1857,
+   "correct": 1857,
+   "mirrored": 0,
+   "degenerate": 0
+  },
+  "Puta": {
+   "n": 1857,
+   "correct": 1857,
+   "mirrored": 0,
+   "degenerate": 0
+  },
+  "Amyg": {
+   "n": 1856,
+   "correct": 1853,
+   "mirrored": 0,
+   "degenerate": 3
+  }
+ }
+}

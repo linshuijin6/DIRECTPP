@@ -1,0 +1,10 @@
+{
+  "test_size_expression": "int(len(paired_data)*0.1)",
+  "evaluated_test_size": 185,
+  "random_state": 42,
+  "train_count": 1672,
+  "val_count": 185,
+  "train_order_matches_early_user_manifest": true,
+  "val_order_matches_early_user_manifest": true,
+  "explanation": "Same sorted input and seed; changing test_size from 1 to 185 produces the later 1672/185 split, rather than fresh randomness."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "RUNNING_CACHE_BUILD",
+  "node_alias": "3003",
+  "reported_hostname": "pnxc",
+  "physical_gpu": 5,
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "launcher_pid": 951827,
+  "python_pid": 951830,
+  "process_start_local": "2026-10-20 20:51:44 Asia/Shanghai",
+  "command": "/home/data/linshuijin/.conda/envs/xiaochou/bin/python -u experiments/original_author_reproduction/run.py train --config reports/original_author_reproduction_20261020/config.json --fold 1",
+  "runner_sha256": "a5920654d5215d1089b04ba8f3e2b53cd49e5f37e378d7499aaac173a9f66095",
+  "config_sha256": "ebf7c664c6017ba459fb5875cd04952faf75c5f7d6010112740fdfde00afe454",
+  "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+  "conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+  "training_seed": null,
+  "training_seed_policy": "author_notebook_unseeded_user_selected",
+  "train_subjects_expected": 928,
+  "held_out_subjects_expected": 929,
+  "training_updates_observed_at_receipt": 0,
+  "log": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/fold1.log",
+  "exit_file": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/fold1.exit"
+}

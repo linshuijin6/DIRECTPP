@@ -1,0 +1,16 @@
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8531774282455444
+PSNR: 23.076763153076172
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8655382990837097
+PSNR: 22.839397430419922
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8720636963844299
+PSNR: 23.069067001342773
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.733434796333313
+PSNR: 22.7943058013916

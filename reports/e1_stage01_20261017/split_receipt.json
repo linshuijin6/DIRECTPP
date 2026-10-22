@@ -1,0 +1,31 @@
+{
+  "protocol": "new E1 split, separate from historical paper",
+  "seed": 42,
+  "stratification": "Research Group",
+  "unique_ptids": 1857,
+  "folds": {
+    "1": {
+      "test": 929,
+      "train": 928,
+      "diagnoses": {
+        "CN": 289,
+        "MCI": 260,
+        "EMCI": 145,
+        "LMCI": 76,
+        "AD": 159
+      }
+    },
+    "2": {
+      "test": 928,
+      "train": 929,
+      "diagnoses": {
+        "CN": 288,
+        "MCI": 260,
+        "EMCI": 146,
+        "LMCI": 76,
+        "AD": 158
+      }
+    }
+  },
+  "subject_fold_identity_unique": true
+}

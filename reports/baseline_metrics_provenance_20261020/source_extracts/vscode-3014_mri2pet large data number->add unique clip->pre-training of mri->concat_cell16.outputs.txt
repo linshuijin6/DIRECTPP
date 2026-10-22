@@ -1,0 +1,5 @@
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)Cell [0;32mIn[5], line 7[0m
+[1;32m      3[0m ssim_metric [38;5;241m=[39m SSIMMetric(spatial_dims[38;5;241m=[39m[38;5;241m3[39m, data_range[38;5;241m=[39m[38;5;241m1.0[39m)
+[1;32m      4[0m psnr_metric[38;5;241m=[39mPSNRMetric([38;5;241m1.0[39m)
+[1;32m     10[0m [38;5;28mprint[39m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mSSIM: [39m[38;5;132;01m{[39;00mssim_value[38;5;241m.[39mmean()[38;5;241m.[39mitem()[38;5;132;01m}[39;00m[38;5;124m"[39m)
+[0;31mNameError[0m: name 'labels' is not defined

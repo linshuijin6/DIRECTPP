@@ -1,0 +1,22 @@
+cohort,method,SSIM_percent,PSNR,MSE_percent,MAE_percent,source,cell_zero_based
+ADNI_FDG,Cyclegan,67.82,17.26,2.35,6.47,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,Swin-Unet,75.29,19.82,1.27,5.76,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,DDIM(3D),82.62,23.09,0.98,3.98,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,SegGuidedDif,84.85,23.76,0.57,3.73,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,Rectified Flow,85.69,24.96,0.53,3.52,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,Ours(single),87.48,26.51,0.43,3.08,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_FDG,Ours,89.94,28.72,0.33,2.96,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,9
+ADNI_AV45,Cyclegan,59.56,15.43,3.24,8.39,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,Swin-Unet,69.16,17.54,2.67,7.95,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,DDIM(3D),73.37,21.33,1.73,7.01,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,SegGuidedDif,80.29,21.99,1.12,6.92,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,Rectified Flow,85.43,24.74,0.69,4.31,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,Ours(single),87.37,27.11,0.51,3.16,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+ADNI_AV45,Ours,88.21,28.09,0.39,2.73,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,10
+OASIS,Cyclegan,40.27,12.38,4.86,10.78,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,Swin-Unet,51.34,14.96,3.96,10.16,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,DDIM(3D),68.59,17.05,3.48,8.24,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,SegGuidedDif,71.85,19.63,2.51,7.59,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,Rectified Flow,80.44,21.33,1.87,4.29,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,Ours(single),82.66,25.48,1.12,3.55,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11
+OASIS,Ours,83.97,26.79,0.94,3.01,source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb,11

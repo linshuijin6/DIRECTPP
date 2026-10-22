@@ -1,0 +1,590 @@
+[
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 3,
+    "sha256": "0b296c05a27f24c25d46d841e452cc8df81c8ae14b9a9329c0d1e38a9635d232",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 4,
+    "sha256": "0b296c05a27f24c25d46d841e452cc8df81c8ae14b9a9329c0d1e38a9635d232",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line4.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 5,
+    "sha256": "0b296c05a27f24c25d46d841e452cc8df81c8ae14b9a9329c0d1e38a9635d232",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line5.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 6,
+    "sha256": "17debb080b4f8dbff30872ea4d14eb5e40cc9a90bcea2e20ec6d03dad0f37802",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line6.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 7,
+    "sha256": "0b296c05a27f24c25d46d841e452cc8df81c8ae14b9a9329c0d1e38a9635d232",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line7.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 8,
+    "sha256": "7e8c2c4f17330d1ad8ef5abf29f2332681bc551f45dd1d9c89147878c1a909a1",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line8.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 4,
+    "input_line": 9,
+    "sha256": "e2e85c97d2fd946855cb290ae46855318bb9b78e95dc2a3c164262d0a977ae4d",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session4_line9.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 5,
+    "input_line": 2,
+    "sha256": "e2e85c97d2fd946855cb290ae46855318bb9b78e95dc2a3c164262d0a977ae4d",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session5_line2.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 5,
+    "input_line": 5,
+    "sha256": "e2e85c97d2fd946855cb290ae46855318bb9b78e95dc2a3c164262d0a977ae4d",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session5_line5.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 5,
+    "input_line": 8,
+    "sha256": "ae5bea6d328be9ce0d2a74f17b9787ff46ab9549a699a351336b6b46f193fa19",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session5_line8.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 5,
+    "input_line": 13,
+    "sha256": "ae5bea6d328be9ce0d2a74f17b9787ff46ab9549a699a351336b6b46f193fa19",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session5_line13.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 5,
+    "input_line": 15,
+    "sha256": "3fb68d9b608afd54e054efd7a139b8116b8e1e1125d444c46e45062b62c4b257",
+    "code_lines": 110,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session5_line15.py",
+    "directives": [
+      {
+        "line": 26,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 27,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 6,
+    "input_line": 3,
+    "sha256": "092c317079aaa711c14ea419b624ef4d128c23f93d488fd8aa3383df7a284423",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session6_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = os.path.join(base_dir, \"filtered_subjects_with_description.csv\")"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3002",
+    "session": 9,
+    "input_line": 3,
+    "sha256": "ae5bea6d328be9ce0d2a74f17b9787ff46ab9549a699a351336b6b46f193fa19",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3002_session9_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 1,
+    "input_line": 3,
+    "sha256": "ae5bea6d328be9ce0d2a74f17b9787ff46ab9549a699a351336b6b46f193fa19",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session1_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 1,
+    "input_line": 4,
+    "sha256": "0f437ff717eede1de1c94dc5a90c2484c9ce0daed64275e8452e57fdf5a65c60",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session1_line4.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 2,
+    "input_line": 3,
+    "sha256": "0f437ff717eede1de1c94dc5a90c2484c9ce0daed64275e8452e57fdf5a65c60",
+    "code_lines": 102,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session2_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 89,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 2,
+    "input_line": 6,
+    "sha256": "9ebae4d7ebfbb099e39d110eef2e075d30683cc0da86655cbbb29f637ce378cb",
+    "code_lines": 103,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session2_line6.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 90,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 3,
+    "input_line": 3,
+    "sha256": "9ebae4d7ebfbb099e39d110eef2e075d30683cc0da86655cbbb29f637ce378cb",
+    "code_lines": 103,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session3_line3.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 90,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  },
+  {
+    "node": "3003",
+    "session": 3,
+    "input_line": 14,
+    "sha256": "9ebae4d7ebfbb099e39d110eef2e075d30683cc0da86655cbbb29f637ce378cb",
+    "code_lines": 103,
+    "extracted_source": "reports/final165_training_split_audit_20261020/execution_sources/3003_session3_line14.py",
+    "directives": [
+      {
+        "line": 7,
+        "text": "base_dir = \"/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original\""
+      },
+      {
+        "line": 11,
+        "text": "csv_path = '/mnt/nfsdata/nfsdata/linshuijin/replicaLT/filtered_subjects_with_description.csv'"
+      },
+      {
+        "line": 14,
+        "text": "train_json_path = \"./train_data_with_description.json\""
+      },
+      {
+        "line": 15,
+        "text": "val_json_path = \"./val_data_with_description.json\""
+      },
+      {
+        "line": 90,
+        "text": "train_data, val_data = train_test_split(paired_data, test_size=int(len(paired_data)*0.1), random_state=42)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3790 @@
+{
+  "logs_scanned": 522,
+  "terminal_logs_scanned": 351,
+  "note": "Unrelated terminal snippets omitted from the derived report; original logs unchanged. Line values normalize CR/LF; use raw_newline_evidence for original line numbers.",
+  "hits": [
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.lt.log",
+      "primary": [
+        {
+          "line": 21500,
+          "text": "The above exception was the direct cause of the following exception:"
+        }
+      ],
+      "save_count": 0,
+      "saves": [],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "Loaded 1224 training samples.",
+        "First training sample: {'name': '082_S_6287', 'examdate': '2018-05-15', 'mri': '/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz', 'fdg': '/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz', 'av45': '/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz', 'tau': '/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz', 'description': 'Subject is a 70-year-old female with a weight of 67.7 kg.', 'o"
+      ],
+      "tail": [
+        "raise RuntimeError(f\"applying transform {transform}\") from e",
+        "RuntimeError: applying transform <monai.transforms.utility.dictionary.Lambdad object at 0x748dd440b730>",
+        ""
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.s1.log",
+      "primary": [],
+      "save_count": 35,
+      "saves": [
+        {
+          "line": 9263,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/best.pt"
+        },
+        {
+          "line": 9691,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/best.pt"
+        },
+        {
+          "line": 9875,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 10486,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 11036,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/best.pt"
+        },
+        {
+          "line": 11098,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 11709,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 12320,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1208149/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 21/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6101"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0528.t.log",
+      "primary": [],
+      "save_count": 68,
+      "saves": [
+        {
+          "line": 781768,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch530.pt"
+        },
+        {
+          "line": 797239,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch540.pt"
+        },
+        {
+          "line": 811262,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch550.pt"
+        },
+        {
+          "line": 825228,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch560.pt"
+        },
+        {
+          "line": 839220,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch570.pt"
+        },
+        {
+          "line": 853413,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch580.pt"
+        },
+        {
+          "line": 868827,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch590.pt"
+        },
+        {
+          "line": 884311,
+          "text": "✅ Checkpoint saved: runs/plasma_05.28_3715049/ckpt_epoch600.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_full_av45  (clinical_mode=full)"
+      ],
+      "tail": [
+        "Epoch 600:  57%|▌| 544/949 [08:03<10:40,  1.58s/it, loss=8.38e-5, accu",
+        "Epoch 600:  57%|▌| 544/949 [08:05<10:40,  1.58s/it, loss=8.41e-5, accu",
+        "Epoch 600:  57%|▌| 545/949 [08:05<11:51,  1.76s/it, loss=8.41e-5, accu"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 279185,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch130.pt"
+        },
+        {
+          "line": 300655,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch140.pt"
+        },
+        {
+          "line": 322128,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch150.pt"
+        },
+        {
+          "line": 343601,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch160.pt"
+        },
+        {
+          "line": 365070,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch170.pt"
+        },
+        {
+          "line": 386539,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch180.pt"
+        },
+        {
+          "line": 408007,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch190.pt"
+        },
+        {
+          "line": 429477,
+          "text": "✅ Checkpoint saved: runs/02.03_1709820/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "",
+        "📝 TensorBoard 日志目录: runs/02.03_1709820"
+      ],
+      "tail": [
+        "AV45 PSNR: 25.546245574951172",
+        "",
+        "🎉 训练完成！日志保存在: runs/02.03_1709820"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "primary": [],
+      "save_count": 19,
+      "saves": [
+        {
+          "line": 276536,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch120.pt"
+        },
+        {
+          "line": 299574,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch130.pt"
+        },
+        {
+          "line": 322606,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch140.pt"
+        },
+        {
+          "line": 345631,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch150.pt"
+        },
+        {
+          "line": 368654,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch160.pt"
+        },
+        {
+          "line": 391678,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch170.pt"
+        },
+        {
+          "line": 414702,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch180.pt"
+        },
+        {
+          "line": 437726,
+          "text": "✅ Checkpoint saved: runs/02.03_614278/ckpt_epoch190.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache192",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 195:  85%|▊| 1046/1224 [10:05<01:41,  1.75it/s, loss=0.000452, a",
+        "Epoch 195:  86%|▊| 1047/1224 [10:05<01:44,  1.69it/s, loss=0.000452, a",
+        "Epoch 195:  86%|▊| 1047/1224 [10:05<01:44,  1.69it/s, loss=0.000451, a"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201.log",
+      "primary": [],
+      "save_count": 84,
+      "saves": [
+        {
+          "line": 43183,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch77.pt"
+        },
+        {
+          "line": 43743,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch78.pt"
+        },
+        {
+          "line": 44303,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch79.pt"
+        },
+        {
+          "line": 44863,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch80.pt"
+        },
+        {
+          "line": 45425,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch81.pt"
+        },
+        {
+          "line": 45985,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch82.pt"
+        },
+        {
+          "line": 46545,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch83.pt"
+        },
+        {
+          "line": 47105,
+          "text": "✅ Checkpoint saved: runs/02.01_2344790/ckpt_epoch84.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 84:  47%|▍| 127/273 [03:52<04:32,  1.87s/it, loss=0.0061, accum=",
+        "Epoch 84:  47%|▍| 127/273 [03:53<04:32,  1.87s/it, loss=0.0061, accum=",
+        "Epoch 84:  47%|▍| 128/273 [03:53<04:31,  1.87s/it, loss=0.0061, accum="
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.t.log",
+      "primary": [],
+      "save_count": 47,
+      "saves": [
+        {
+          "line": 24276,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_230.pt"
+        },
+        {
+          "line": 25327,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_240.pt"
+        },
+        {
+          "line": 26378,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_250.pt"
+        },
+        {
+          "line": 27429,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_260.pt"
+        },
+        {
+          "line": 28480,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_270.pt"
+        },
+        {
+          "line": 29531,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_280.pt"
+        },
+        {
+          "line": 30582,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_290.pt"
+        },
+        {
+          "line": 31633,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/04.30_1331774/ckpt/epoch_300.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 309. Best inject_macro_f1: 0.7097",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7097"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0512.tau.full.log",
+      "primary": [],
+      "save_count": 11,
+      "saves": [
+        {
+          "line": 36481,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch20.pt"
+        },
+        {
+          "line": 54719,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch30.pt"
+        },
+        {
+          "line": 72952,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch40.pt"
+        },
+        {
+          "line": 91170,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch50.pt"
+        },
+        {
+          "line": 109390,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch60.pt"
+        },
+        {
+          "line": 127603,
+          "text": "🏆 Best model saved (val_loss=0.0021): runs/plasma_05.12_3814722/best_model.pt"
+        },
+        {
+          "line": 127604,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch70.pt"
+        },
+        {
+          "line": 145819,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_3814722/ckpt_epoch80.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.3/ADNI_cache_image/tau"
+      ],
+      "tail": [
+        "Epoch 84:  19%|▏| 177/949 [03:46<17:57,  1.40s/it, loss=0.00102, accum",
+        "Epoch 84:  19%|▏| 177/949 [03:47<17:57,  1.40s/it, loss=0.00102, accum",
+        "Epoch 84:  19%|▏| 178/949 [03:47<18:18,  1.42s/it, loss=0.00102, accum"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/tm.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 1917,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best_v2.pt"
+        },
+        {
+          "line": 1919,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_010_v2.pt"
+        },
+        {
+          "line": 3799,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_020_v2.pt"
+        },
+        {
+          "line": 5679,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_030_v2.pt"
+        },
+        {
+          "line": 7559,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_040_v2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Epoch 41:  54%|█████▍    | 48/89 [00:52<00:44,  1.08s/it, loss=2.38, L_ip=1.91, L_red=0]",
+        "Epoch 41:  54%|█████▍    | 48/89 [00:53<00:44,  1.08s/it, loss=1.81, L_ip=1.52, L_red=0]",
+        "Epoch 41:  55%|█████▌    | 49/89 [00:53<00:43,  1.08s/it, loss=1.81, L_ip=1.52, L_red=0]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0205.LT.main.tau.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 264851,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch130.pt"
+        },
+        {
+          "line": 285219,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch140.pt"
+        },
+        {
+          "line": 305585,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch150.pt"
+        },
+        {
+          "line": 325952,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch160.pt"
+        },
+        {
+          "line": 346324,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch170.pt"
+        },
+        {
+          "line": 366693,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch180.pt"
+        },
+        {
+          "line": 387059,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch190.pt"
+        },
+        {
+          "line": 407426,
+          "text": "✅ Checkpoint saved: runs/02.05_1888825/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "",
+        "📝 TensorBoard 日志目录: runs/02.05_1888825"
+      ],
+      "tail": [
+        "tau PSNR: 23.523330688476562",
+        "",
+        "🎉 训练完成！日志保存在: runs/02.05_1888825"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.1745.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 12236,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311195/ckpt_epoch10.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.14/ADNI_cache0312",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "File \"/home/pnxc/Anaconda3/envs/xiaochou/lib/python3.10/site-packages/torch/nn/functional.py\", line 2380, in silu",
+        "return torch._C._nn.silu(input)",
+        "iB. GPU 0 has a total capacity of 47.53 GiB of which 789.94 MiB is free. Including non-PyTorch memory, this process has 46.74 GiB memory in use. Of the allocated memory 43.22 GiB is allocated by PyTorch, and 3.18 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201a1.log",
+      "primary": [],
+      "save_count": 77,
+      "saves": [
+        {
+          "line": 39261,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch70.pt"
+        },
+        {
+          "line": 39823,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch71.pt"
+        },
+        {
+          "line": 40383,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch72.pt"
+        },
+        {
+          "line": 40943,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch73.pt"
+        },
+        {
+          "line": 41503,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch74.pt"
+        },
+        {
+          "line": 42063,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch75.pt"
+        },
+        {
+          "line": 42623,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch76.pt"
+        },
+        {
+          "line": 43183,
+          "text": "✅ Checkpoint saved: runs/02.01_1853357/ckpt_epoch77.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 77:   2%| | 6/273 [00:10<08:04,  1.82s/it, loss=0.00648, accum=1",
+        "Epoch 77:   2%| | 6/273 [00:12<08:04,  1.82s/it, loss=0.00617, accum=1",
+        "Epoch 77:   3%| | 7/273 [00:12<08:02,  1.81s/it, loss=0.00617, accum=1"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/tt.tau.suvr.log",
+      "primary": [],
+      "save_count": 12,
+      "saves": [
+        {
+          "line": 38157,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch40.pt"
+        },
+        {
+          "line": 47674,
+          "text": "🏆 Best model saved (val_loss=0.0063): runs/plasma_06.11_523808/best_model.pt"
+        },
+        {
+          "line": 47675,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch50.pt"
+        },
+        {
+          "line": 57191,
+          "text": "🏆 Best model saved (val_loss=0.0058): runs/plasma_06.11_523808/best_model.pt"
+        },
+        {
+          "line": 57192,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch60.pt"
+        },
+        {
+          "line": 66708,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch70.pt"
+        },
+        {
+          "line": 76226,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch80.pt"
+        },
+        {
+          "line": 85751,
+          "text": "✅ Checkpoint saved: runs/plasma_06.11_523808/ckpt_epoch90.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config_suvr_tau.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_full_tau  (clinical_mode=full)"
+      ],
+      "tail": [
+        "Epoch 96:  96%|▉| 454/475 [12:15<00:34,  1.63s/it, loss=0.00267, accum",
+        "Epoch 96:  96%|▉| 454/475 [12:17<00:34,  1.63s/it, loss=0.00266, accum",
+        "Epoch 96:  96%|▉| 455/475 [12:17<00:32,  1.64s/it, loss=0.00266, accum"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0513.av45.demog.log",
+      "primary": [],
+      "save_count": 28,
+      "saves": [
+        {
+          "line": 204378,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.13_752057/best_model.pt"
+        },
+        {
+          "line": 204379,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch150.pt"
+        },
+        {
+          "line": 217861,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.13_752057/best_model.pt"
+        },
+        {
+          "line": 217862,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch160.pt"
+        },
+        {
+          "line": 231353,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch170.pt"
+        },
+        {
+          "line": 244889,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch180.pt"
+        },
+        {
+          "line": 258433,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch190.pt"
+        },
+        {
+          "line": 271958,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_752057/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.3/ADNI_cache_image/av45"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_05.13_752057"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0210_re.log",
+      "primary": [],
+      "save_count": 12,
+      "saves": [
+        {
+          "line": 55405,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260210_111101/checkpoints/best_model.pth"
+        },
+        {
+          "line": 55589,
+          "text": "详细结果已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260210_111101/checkpoints/metrics_test.csv"
+        },
+        {
+          "line": 55590,
+          "text": "分层指标已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260210_111101/checkpoints/metrics_stratified.json"
+        },
+        {
+          "line": 55591,
+          "text": "评估报告已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260210_111101/checkpoints/evaluation_report.txt"
+        },
+        {
+          "line": 83234,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260210_111101/checkpoints/best_model.pth"
+        },
+        {
+          "line": 83418,
+          "text": "详细结果已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260210_111101/checkpoints/metrics_test.csv"
+        },
+        {
+          "line": 83419,
+          "text": "分层指标已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260210_111101/checkpoints/metrics_stratified.json"
+        },
+        {
+          "line": 83420,
+          "text": "评估报告已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260210_111101/checkpoints/evaluation_report.txt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "[clinical] Training on GPU 4...",
+        "2026-02-10 11:11:02,987 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260210_111101",
+        "2026-02-10 11:11:02,987 - INFO - 设备: cuda",
+        "2026-02-10 11:11:02,989 - INFO - 创建数据加载器..."
+      ],
+      "tail": [
+        "======================================================================",
+        "",
+        "All experiments finished."
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0202.log",
+      "primary": [],
+      "save_count": 161,
+      "saves": [
+        {
+          "line": 86319,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch154.pt"
+        },
+        {
+          "line": 86879,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch155.pt"
+        },
+        {
+          "line": 87439,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch156.pt"
+        },
+        {
+          "line": 87999,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch157.pt"
+        },
+        {
+          "line": 88559,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch158.pt"
+        },
+        {
+          "line": 89119,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch159.pt"
+        },
+        {
+          "line": 89679,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch160.pt"
+        },
+        {
+          "line": 90241,
+          "text": "✅ Checkpoint saved: runs/02.02_4001386/ckpt_epoch161.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 161:  57%|▌| 155/273 [04:21<03:16,  1.66s/it, loss=0.0124, accum",
+        "Epoch 161:  57%|▌| 155/273 [04:23<03:16,  1.66s/it, loss=0.0124, accum",
+        "Epoch 161:  57%|▌| 156/273 [04:23<03:14,  1.66s/it, loss=0.0124, accum"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.1.log",
+      "primary": [],
+      "save_count": 14,
+      "saves": [
+        {
+          "line": 161278,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch70.pt"
+        },
+        {
+          "line": 184324,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch80.pt"
+        },
+        {
+          "line": 207348,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch90.pt"
+        },
+        {
+          "line": 230374,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch100.pt"
+        },
+        {
+          "line": 253398,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch110.pt"
+        },
+        {
+          "line": 276422,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch120.pt"
+        },
+        {
+          "line": 299445,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch130.pt"
+        },
+        {
+          "line": 322471,
+          "text": "✅ Checkpoint saved: runs/plasma_03.18_1311687/ckpt_epoch140.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.14/ADNI_cache0312",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 149:   0%| | 5/1224 [00:06<20:28,  1.01s/it, loss=0.000651, accu",
+        "Epoch 149:   0%| | 5/1224 [00:07<20:28,  1.01s/it, loss=0.000637, accu",
+        "Epoch 149:   0%| | 6/1224 [00:07<22:18,  1.10s/it, loss=0.000637, accu"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0513.av45.none.log",
+      "primary": [],
+      "save_count": 29,
+      "saves": [
+        {
+          "line": 217754,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_1698587/ckpt_epoch160.pt"
+        },
+        {
+          "line": 231241,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.13_1698587/best_model.pt"
+        },
+        {
+          "line": 231242,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_1698587/ckpt_epoch170.pt"
+        },
+        {
+          "line": 244811,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.13_1698587/best_model.pt"
+        },
+        {
+          "line": 244812,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_1698587/ckpt_epoch180.pt"
+        },
+        {
+          "line": 258435,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.13_1698587/best_model.pt"
+        },
+        {
+          "line": 258436,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_1698587/ckpt_epoch190.pt"
+        },
+        {
+          "line": 272077,
+          "text": "✅ Checkpoint saved: runs/plasma_05.13_1698587/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_none_av45  (clinical_mode=none)"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_05.13_1698587"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/t.tau.suvr.log",
+      "primary": [],
+      "save_count": 30,
+      "saves": [
+        {
+          "line": 291855,
+          "text": "✅ Checkpoint saved: runs/plasma_06.08_3242296/ckpt_epoch160.pt"
+        },
+        {
+          "line": 310062,
+          "text": "🏆 Best model saved (val_loss=0.0022): runs/plasma_06.08_3242296/best_model.pt"
+        },
+        {
+          "line": 310063,
+          "text": "✅ Checkpoint saved: runs/plasma_06.08_3242296/ckpt_epoch170.pt"
+        },
+        {
+          "line": 328273,
+          "text": "🏆 Best model saved (val_loss=0.0022): runs/plasma_06.08_3242296/best_model.pt"
+        },
+        {
+          "line": 328274,
+          "text": "✅ Checkpoint saved: runs/plasma_06.08_3242296/ckpt_epoch180.pt"
+        },
+        {
+          "line": 346505,
+          "text": "🏆 Best model saved (val_loss=0.0022): runs/plasma_06.08_3242296/best_model.pt"
+        },
+        {
+          "line": 346506,
+          "text": "✅ Checkpoint saved: runs/plasma_06.08_3242296/ckpt_epoch190.pt"
+        },
+        {
+          "line": 364725,
+          "text": "✅ Checkpoint saved: runs/plasma_06.08_3242296/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config_suvr_tau.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_full_tau  (clinical_mode=full)"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_06.08_3242296"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/ada.v2.vali.log",
+      "primary": [],
+      "save_count": 23,
+      "saves": [
+        {
+          "line": 47909,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_130_v2.pt"
+        },
+        {
+          "line": 51590,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_140_v2.pt"
+        },
+        {
+          "line": 55271,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_150_v2.pt"
+        },
+        {
+          "line": 58952,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_160_v2.pt"
+        },
+        {
+          "line": 62633,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_170_v2.pt"
+        },
+        {
+          "line": 66314,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_180_v2.pt"
+        },
+        {
+          "line": 69995,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_190_v2.pt"
+        },
+        {
+          "line": 73676,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_200_v2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/pid521530_20260130_200940/checkpoints/epoch_200_v2.pt",
+        "",
+        "Training finished. Best img2plasma_recall@1: 0.0625"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.s2.log",
+      "primary": [],
+      "save_count": 29,
+      "saves": [
+        {
+          "line": 202813,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch150.pt"
+        },
+        {
+          "line": 216243,
+          "text": "🏆 Best model saved (val_loss=0.0009): runs/plasma_04.30_1597080/best_model.pt"
+        },
+        {
+          "line": 216244,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch160.pt"
+        },
+        {
+          "line": 229664,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch170.pt"
+        },
+        {
+          "line": 243084,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch180.pt"
+        },
+        {
+          "line": 256503,
+          "text": "🏆 Best model saved (val_loss=0.0009): runs/plasma_04.30_1597080/best_model.pt"
+        },
+        {
+          "line": 256504,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch190.pt"
+        },
+        {
+          "line": 269925,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_1597080/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ 缓存目录已创建: /home/ssddata/linshuijin/ADNI_cache_av45_fp16_3tok"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_04.30_1597080"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0511.av45.1.log",
+      "primary": [],
+      "save_count": 9,
+      "saves": [
+        {
+          "line": 13529,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch10.pt"
+        },
+        {
+          "line": 26990,
+          "text": "🏆 Best model saved (val_loss=0.0011): runs/plasma_05.12_2848674/best_model.pt"
+        },
+        {
+          "line": 26991,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch20.pt"
+        },
+        {
+          "line": 40453,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch30.pt"
+        },
+        {
+          "line": 53886,
+          "text": "🏆 Best model saved (val_loss=0.0009): runs/plasma_05.12_2848674/best_model.pt"
+        },
+        {
+          "line": 53887,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch40.pt"
+        },
+        {
+          "line": 67338,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch50.pt"
+        },
+        {
+          "line": 80771,
+          "text": "✅ Checkpoint saved: runs/plasma_05.12_2848674/ckpt_epoch60.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.3/ADNI_cache_image/av45"
+      ],
+      "tail": [
+        "Epoch 66:  44%|▍| 422/949 [02:06<04:34,  1.92it/s, loss=0.000731, accu",
+        "Epoch 66:  44%|▍| 422/949 [02:06<04:34,  1.92it/s, loss=0.000731, accu",
+        "Epoch 66:  45%|▍| 423/949 [02:06<04:57,  1.77it/s, loss=0.000731, accu"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0130.a2.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 1917,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best_v2.pt"
+        },
+        {
+          "line": 1919,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_010_v2.pt"
+        },
+        {
+          "line": 3799,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_020_v2.pt"
+        },
+        {
+          "line": 5679,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_030_v2.pt"
+        },
+        {
+          "line": 7559,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_040_v2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Epoch 46:  26%|██▌       | 23/89 [00:25<01:11,  1.08s/it, loss=1.91, L_ip=1.58, L_red=0]",
+        "Epoch 46:  26%|██▌       | 23/89 [00:26<01:11,  1.08s/it, loss=2, L_ip=1.75, L_red=0]",
+        "Epoch 46:  27%|██▋       | 24/89 [00:26<01:10,  1.08s/it, loss=2, L_ip=1.75, L_red=0]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0201a.log",
+      "primary": [],
+      "save_count": 200,
+      "saves": [
+        {
+          "line": 108167,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch193.pt"
+        },
+        {
+          "line": 108727,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch194.pt"
+        },
+        {
+          "line": 109287,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch195.pt"
+        },
+        {
+          "line": 109847,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch196.pt"
+        },
+        {
+          "line": 110407,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch197.pt"
+        },
+        {
+          "line": 110967,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch198.pt"
+        },
+        {
+          "line": 111527,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch199.pt"
+        },
+        {
+          "line": 112087,
+          "text": "✅ Checkpoint saved: runs/02.01_1849023/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "TAU PSNR: 15.896645545959473",
+        "",
+        "🎉 训练完成！日志保存在: runs/02.01_1849023"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0511.av45.log",
+      "primary": [],
+      "save_count": 29,
+      "saves": [
+        {
+          "line": 203865,
+          "text": "🏆 Best model saved (val_loss=0.0008): runs/plasma_05.11_1876058/best_model.pt"
+        },
+        {
+          "line": 203866,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch150.pt"
+        },
+        {
+          "line": 217284,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch160.pt"
+        },
+        {
+          "line": 230714,
+          "text": "🏆 Best model saved (val_loss=0.0007): runs/plasma_05.11_1876058/best_model.pt"
+        },
+        {
+          "line": 230715,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch170.pt"
+        },
+        {
+          "line": 244145,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch180.pt"
+        },
+        {
+          "line": 257581,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch190.pt"
+        },
+        {
+          "line": 271007,
+          "text": "✅ Checkpoint saved: runs/plasma_05.11_1876058/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.3/ADNI_cache_image/av45"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_05.11_1876058"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0208_re.log",
+      "primary": [],
+      "save_count": 15,
+      "saves": [
+        {
+          "line": 55583,
+          "text": "详细结果已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260208_154309/checkpoints/metrics_test.csv"
+        },
+        {
+          "line": 55584,
+          "text": "分层指标已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260208_154309/checkpoints/metrics_stratified.json"
+        },
+        {
+          "line": 55585,
+          "text": "评估报告已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260208_154309/checkpoints/evaluation_report.txt"
+        },
+        {
+          "line": 55666,
+          "text": "NFO - 加载预训练 backbone: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        },
+        {
+          "line": 83228,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309/checkpoints/best_model.pth"
+        },
+        {
+          "line": 83412,
+          "text": "详细结果已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309/checkpoints/metrics_test.csv"
+        },
+        {
+          "line": 83413,
+          "text": "分层指标已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309/checkpoints/metrics_stratified.json"
+        },
+        {
+          "line": 83414,
+          "text": "评估报告已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309/checkpoints/evaluation_report.txt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "[clinical] Training on GPU 4...",
+        "2026-02-08 15:43:12,198 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260208_154309",
+        "2026-02-08 15:43:12,198 - INFO - 设备: cuda",
+        "2026-02-08 15:43:12,200 - INFO - 创建数据加载器..."
+      ],
+      "tail": [
+        "======================================================================",
+        "",
+        "All experiments finished."
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0520.tau.demog.log",
+      "primary": [],
+      "save_count": 18,
+      "saves": [
+        {
+          "line": 127884,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch70.pt"
+        },
+        {
+          "line": 146110,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch80.pt"
+        },
+        {
+          "line": 164332,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch90.pt"
+        },
+        {
+          "line": 182723,
+          "text": "🏆 Best model saved (val_loss=0.0021): runs/plasma_05.20_3967366/best_model.pt"
+        },
+        {
+          "line": 182724,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch100.pt"
+        },
+        {
+          "line": 201437,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch110.pt"
+        },
+        {
+          "line": 220104,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch120.pt"
+        },
+        {
+          "line": 238787,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3967366/ckpt_epoch130.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config_tau_demog.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_demog_tau  (clinical_mode=demog)"
+      ],
+      "tail": [
+        "Epoch 135:  91%|▉| 865/949 [24:13<02:38,  1.89s/it, loss=0.000715, acc",
+        "Epoch 135:  91%|▉| 865/949 [24:15<02:38,  1.89s/it, loss=0.000715, acc",
+        "Epoch 135:  91%|▉| 866/949 [24:15<02:35,  1.88s/it, loss=0.000715, acc"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0128.av2.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 3730,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_010_v2.pt"
+        },
+        {
+          "line": 7423,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best_v2.pt"
+        },
+        {
+          "line": 7425,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_020_v2.pt"
+        },
+        {
+          "line": 11118,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best_v2.pt"
+        },
+        {
+          "line": 11120,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_030_v2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Epoch 32:  38%|███▊      | 68/179 [01:17<02:10,  1.17s/it, loss=1.63, L_ip=1.43, L_red=0]",
+        "Epoch 32:  38%|███▊      | 68/179 [01:18<02:10,  1.17s/it, loss=1.48, L_ip=1.34, L_red=0]",
+        "Epoch 32:  39%|███▊      | 69/179 [01:18<02:05,  1.14s/it, loss=1.48, L_ip=1.34, L_red=0]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0416_ficd.log",
+      "primary": [],
+      "save_count": 3,
+      "saves": [
+        {
+          "line": 968,
+          "text": "2026-04-16 18:27:20,143 | INFO | Saved best_model.pt with val_loss=0.542317"
+        },
+        {
+          "line": 1932,
+          "text": "2026-04-17 02:02:20,594 | INFO | Saved best_model.pt with val_loss=0.541082"
+        },
+        {
+          "line": 2896,
+          "text": "2026-04-17 09:42:27,464 | INFO | Saved best_model.pt with val_loss=0.540990"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "2026-04-16 10:51:22,018 | INFO | Using device: cuda",
+        "2026-04-16 10:51:22,019 | INFO | Run directory: /home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_tau/260416.3127971",
+        "2026-04-16 10:51:22,019 | INFO | Train samples: 866 | Val samples: 88",
+        ""
+      ],
+      "tail": [
+        "Validate epoch_41:  44%|█████████████████▎                     | 39/88 [3:06:06<3:54:02, 286.57s/it]",
+        "Validate epoch_41:  45%|█████████████████▋                     | 40/88 [3:10:52<3:49:17, 286.61s/it]",
+        ""
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 65203,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch130.pt"
+        },
+        {
+          "line": 70215,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch140.pt"
+        },
+        {
+          "line": 75227,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch150.pt"
+        },
+        {
+          "line": 80239,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch160.pt"
+        },
+        {
+          "line": 85251,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch170.pt"
+        },
+        {
+          "line": 90263,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch180.pt"
+        },
+        {
+          "line": 95275,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch190.pt"
+        },
+        {
+          "line": 100287,
+          "text": "✅ Checkpoint saved: runs/01.30_151382/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/linshuijin/ADNI_CSF_main_cache",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "TAU PSNR: 24.597084045410156",
+        "",
+        "🎉 训练完成！日志保存在: runs/01.30_151382"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0604.tau.suvr.log",
+      "primary": [],
+      "save_count": 29,
+      "saves": [
+        {
+          "line": 291434,
+          "text": "🏆 Best model saved (val_loss=0.0023): runs/plasma_06.04_2856928/best_model.pt"
+        },
+        {
+          "line": 291435,
+          "text": "✅ Checkpoint saved: runs/plasma_06.04_2856928/ckpt_epoch160.pt"
+        },
+        {
+          "line": 309641,
+          "text": "🏆 Best model saved (val_loss=0.0023): runs/plasma_06.04_2856928/best_model.pt"
+        },
+        {
+          "line": 309642,
+          "text": "✅ Checkpoint saved: runs/plasma_06.04_2856928/ckpt_epoch170.pt"
+        },
+        {
+          "line": 327848,
+          "text": "✅ Checkpoint saved: runs/plasma_06.04_2856928/ckpt_epoch180.pt"
+        },
+        {
+          "line": 346054,
+          "text": "🏆 Best model saved (val_loss=0.0023): runs/plasma_06.04_2856928/best_model.pt"
+        },
+        {
+          "line": 346055,
+          "text": "✅ Checkpoint saved: runs/plasma_06.04_2856928/ckpt_epoch190.pt"
+        },
+        {
+          "line": 364261,
+          "text": "✅ Checkpoint saved: runs/plasma_06.04_2856928/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config_suvr_tau.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_full_tau  (clinical_mode=full)"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_06.04_2856928"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0430.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 273185,
+          "text": "🏆 Best model saved (val_loss=0.0020): runs/plasma_04.30_850729/best_model.pt"
+        },
+        {
+          "line": 273186,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch150.pt"
+        },
+        {
+          "line": 291394,
+          "text": "🏆 Best model saved (val_loss=0.0020): runs/plasma_04.30_850729/best_model.pt"
+        },
+        {
+          "line": 291395,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch160.pt"
+        },
+        {
+          "line": 309603,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch170.pt"
+        },
+        {
+          "line": 327815,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch180.pt"
+        },
+        {
+          "line": 346029,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch190.pt"
+        },
+        {
+          "line": 364239,
+          "text": "✅ Checkpoint saved: runs/plasma_04.30_850729/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /home/ssddata/linshuijin/ADNI_cache_tau_fp16_3tok",
+        "✅ GPU 配置接口: PLASMA_TRAIN_GPUS=0"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/plasma_04.30_850729"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0514.tm.none.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 18258,
+          "text": "🏆 Best model saved (val_loss=0.0024): runs/plasma_05.14_600213/best_model.pt"
+        },
+        {
+          "line": 18259,
+          "text": "✅ Checkpoint saved: runs/plasma_05.14_600213/ckpt_epoch10.pt"
+        },
+        {
+          "line": 36470,
+          "text": "🏆 Best model saved (val_loss=0.0022): runs/plasma_05.14_600213/best_model.pt"
+        },
+        {
+          "line": 36471,
+          "text": "✅ Checkpoint saved: runs/plasma_05.14_600213/ckpt_epoch20.pt"
+        },
+        {
+          "line": 54679,
+          "text": "✅ Checkpoint saved: runs/plasma_05.14_600213/ckpt_epoch30.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_full_tau  (clinical_mode=full)"
+      ],
+      "tail": [
+        "Exception ignored in sys.unraisablehook: <built-in function unraisablehook>",
+        "Traceback (most recent call last):",
+        ""
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0318.2.log",
+      "primary": [],
+      "save_count": 18,
+      "saves": [
+        {
+          "line": 253328,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch110.pt"
+        },
+        {
+          "line": 276350,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch120.pt"
+        },
+        {
+          "line": 299373,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch130.pt"
+        },
+        {
+          "line": 322402,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch140.pt"
+        },
+        {
+          "line": 345425,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch150.pt"
+        },
+        {
+          "line": 368450,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch160.pt"
+        },
+        {
+          "line": 391474,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch170.pt"
+        },
+        {
+          "line": 414499,
+          "text": "✅ Checkpoint saved: runs/plasma_03.19_2035409/ckpt_epoch180.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /mnt/nfsdata/nfsdata/lsj.14/ADNI_cache0312",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "Epoch 187:  74%|▋| 909/1224 [18:10<05:47,  1.10s/it, loss=0.000513, ac",
+        "Epoch 187:  74%|▋| 909/1224 [18:11<05:47,  1.10s/it, loss=0.000514, ac",
+        "Epoch 187:  74%|▋| 910/1224 [18:11<05:47,  1.11s/it, l"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/0520.tau.demog.t.log",
+      "primary": [],
+      "save_count": 18,
+      "saves": [
+        {
+          "line": 127931,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch70.pt"
+        },
+        {
+          "line": 146169,
+          "text": "🏆 Best model saved (val_loss=0.0021): runs/plasma_05.20_3968130/best_model.pt"
+        },
+        {
+          "line": 146170,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch80.pt"
+        },
+        {
+          "line": 164396,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch90.pt"
+        },
+        {
+          "line": 182818,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch100.pt"
+        },
+        {
+          "line": 201574,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch110.pt"
+        },
+        {
+          "line": 220252,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch120.pt"
+        },
+        {
+          "line": 238945,
+          "text": "✅ Checkpoint saved: runs/plasma_05.20_3968130/ckpt_epoch130.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 已加载配置文件: plasma_train_config_tau_demog.yaml",
+        "✅ plasma_emb 目录: /mnt/nfsdata/nfsdata/lsj.3/ADNI_plasma_demog_tau  (clinical_mode=demog)"
+      ],
+      "tail": [
+        "Epoch 135:  84%|▊| 796/949 [22:09<04:09,  1.63s/it, loss=0.000717, acc",
+        "Epoch 135:  84%|▊| 796/949 [22:11<04:09,  1.63s/it, loss=0.000717, acc",
+        "Epoch 135:  84%|▊| 797/949 [22:11<04:17,  1.69s/it, loss=0.000717, acc"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/av45_legacy.log",
+      "primary": [],
+      "save_count": 25,
+      "saves": [
+        {
+          "line": 187910,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch140.pt"
+        },
+        {
+          "line": 201331,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch150.pt"
+        },
+        {
+          "line": 214746,
+          "text": "🏆 Best model saved (val_loss=0.0009): runs/05.02_1189447/best_model.pt"
+        },
+        {
+          "line": 214747,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch160.pt"
+        },
+        {
+          "line": 228153,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch170.pt"
+        },
+        {
+          "line": 241581,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch180.pt"
+        },
+        {
+          "line": 255002,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch190.pt"
+        },
+        {
+          "line": 268413,
+          "text": "✅ Checkpoint saved: runs/05.02_1189447/ckpt_epoch200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.",
+        "warn_deprecated(argname, msg, warning_category)",
+        "✅ 缓存目录已创建: /home/ssddata/linshuijin/ADNI_cache_legacy_av45_fp16",
+        "✅ 设置主CUDA设备: 0"
+      ],
+      "tail": [
+        "✅ 图像已保存到 TensorBoard",
+        "",
+        "🎉 训练完成！日志保存在: runs/05.02_1189447"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/ficd/0508_ficd.log",
+      "primary": [],
+      "save_count": 4,
+      "saves": [
+        {
+          "line": 11983,
+          "text": "2026-05-08 19:40:55,794 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 23958,
+          "text": "2026-05-08 21:59:58,575 | INFO | Saved best_model.pt with val_loss=0.047730"
+        },
+        {
+          "line": 59881,
+          "text": "2026-05-09 04:44:29,438 | INFO | Saved best_model.pt with val_loss=0.039898"
+        },
+        {
+          "line": 71856,
+          "text": "2026-05-09 06:56:04,853 | INFO | Saved best_model.pt with val_loss=0.035202"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:86: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)"
+      ],
+      "tail": [
+        "Epoch 41:  65%|██████████▎     | 124/192 [06:22<03:31,  3.11s/it, noise_loss=0.0043, x0_loss=0.0405, loss=0.0448, PSNR=29.7988, SSIM=0.8626]",
+        "Epoch 41:  65%|██████████▎     | 124/192 [06:25<03:31,  3.11s/it, noise_loss=0.0045, x0_loss=0.0404, loss=0.0448, PSNR=29.8508, SSIM=0.8629]",
+        "Epoch 41:  65%|██████████▍     | 125/192 [06:25<03:26,  3.09s/it,"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/ficd/ficd_av45.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 11983,
+          "text": "2026-05-02 22:32:58,507 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 23958,
+          "text": "2026-05-03 00:47:19,934 | INFO | Saved best_model.pt with val_loss=0.043063"
+        },
+        {
+          "line": 71855,
+          "text": "2026-05-03 09:47:11,641 | INFO | Saved best_model.pt with val_loss=0.041705"
+        },
+        {
+          "line": 95804,
+          "text": "2026-05-03 14:15:31,993 | INFO | Saved best_model.pt with val_loss=0.035358"
+        },
+        {
+          "line": 143701,
+          "text": "2026-05-03 23:11:59,513 | INFO | Saved best_model.pt with val_loss=0.032044"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:86: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)"
+      ],
+      "tail": [
+        "Validate best_model: 100%|████████████████████████████████████████| 5/5 [1:25:40<00:00, 1025.99s/it]",
+        "",
+        "2026-05-04 18:35:03,611 | INFO | Validation best_model | loss=0.034764 | PSNR=23.3051 | SSIM=0.8238"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/ficd/ficd_av45.0506.log",
+      "primary": [],
+      "save_count": 4,
+      "saves": [
+        {
+          "line": 11983,
+          "text": "2026-05-06 22:05:02,137 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 23958,
+          "text": "2026-05-07 00:11:01,022 | INFO | Saved best_model.pt with val_loss=0.041950"
+        },
+        {
+          "line": 95803,
+          "text": "2026-05-07 13:01:11,662 | INFO | Saved best_model.pt with val_loss=0.036218"
+        },
+        {
+          "line": 143700,
+          "text": "2026-05-07 22:04:45,766 | INFO | Saved best_model.pt with val_loss=0.030816"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:86: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)",
+        "/home/ssddata/linshuijin/replicaLT/ficd/generative/networks/layers/vector_quantizer.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+        "@torch.cuda.amp.autocast(enabled=False)"
+      ],
+      "tail": [
+        "Validate best_model: 100%|████████████████████████████████████████| 5/5 [1:25:47<00:00, 1031.06s/it]",
+        "",
+        "2026-05-08 17:16:46,175 | INFO | Validation best_model | loss=0.034113 | PSNR=23.2826 | SSIM=0.8687"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/pasta/resume_driver.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 7,
+          "text": "🔁 续训 checkpoint: /home/ssddata/linshuijin/PASTA/pasta_results/model.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "🖥️  使用 GPU: CUDA_VISIBLE_DEVICES=5",
+        "✅ HDF5 数据已存在，跳过转换: /home/ssddata/linshuijin/PASTA/data_av45/train.h5",
+        "========================================",
+        "[Step 2] 开始 PASTA 训练..."
+      ],
+      "tail": [
+        "loss: 0.612739:  83%|████████▎ | 59488/72000 [1:49:22<11:01:27,  3.17s/it]",
+        "loss: 0.724861:  83%|████████▎ | 59488/72000 [1:49:25<11:01:27,  3.17s/it]",
+        "loss: 0.724861:  83%|████████▎ | 59489/72000 [1:49:25<11:00:57,  3.17s/it]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/pasta/pasta.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 1340,
+          "text": "/download/fid_weights/pt_inception-2015-12-05-6726825d.pth\" to /mnt/ssd/linshuijin/.cache/torch/hub/checkpoints/pt_inception-2015-12-05-6726825d.pth"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "🖥️  使用 GPU: CUDA_VISIBLE_DEVICES=5",
+        "========================================",
+        "[Step 1] 转换 NIfTI → HDF5...",
+        "========================================"
+      ],
+      "tail": [
+        "",
+        "🔍 验证 HDF5 结构（train.h5 前 3 个样本）:",
+        ""
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/pasta/0416_in.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 9,
+          "text": "成功加载 checkpoint: /home/ssddata/linshuijin/PASTA/replicaLT_comparison/results/2026-04-12_331111/best_val_model.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "Calculated beta available",
+        "====== 加载模型权重 ========",
+        "missing keys: []",
+        "unexpected keys: []"
+      ],
+      "tail": [
+        "File \"/home/pnxc/Anaconda3/envs/xiaochou/lib/python3.10/site-packages/torch/nn/functional.py\", line 2380, in silu",
+        "return torch._C._nn.silu(input)",
+        "of which 5.00 MiB is free. Process 1509986 has 39.96 GiB memory in use. Including non-PyTorch memory, this process has 7.53 GiB memory in use. Of the allocated memory 6.34 GiB is allocated by PyTorch, and 876.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/pasta/replicaLT_comparison/results_av45/2026-05-02_1366591/resume_driver.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 7,
+          "text": "🔁 续训 checkpoint: /home/ssddata/linshuijin/PASTA/pasta_results/model.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "🖥️  使用 GPU: CUDA_VISIBLE_DEVICES=4",
+        "✅ HDF5 数据已存在，跳过转换: /home/ssddata/linshuijin/PASTA/data_av45/train.h5",
+        "========================================",
+        "[Step 2] 开始 PASTA 训练..."
+      ],
+      "tail": [
+        "loss: 0.504831:  80%|███████▉  | 57548/72000 [02:41<13:00:34,  3.24s/it]",
+        "loss: 0.504831:  80%|███████▉  | 57549/72000 [02:41<13:00:44,  3.24s/it]Terminated",
+        "ERROR conda.cli.main_run:execute(124): `conda run python replicaLT_comparison/train_pasta_replicaLT.py --config /home/ssddata/linshuijin/PASTA/pasta_results/_hyperparameters.yaml --results-folder /home/ssddata/linshuijin/PASTA/pasta_results --resume /home/ssddata/linshuijin/PASTA/pasta_results/model.pt` failed. (See above for error)"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.mri.p2.log",
+      "primary": [],
+      "save_count": 24,
+      "saves": [
+        {
+          "line": 27348,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 29449,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 31550,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 33651,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 35752,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 37853,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 39954,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 42055,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_127948/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (3): ['AB42_AB40_F', 'pT217_F', 'pT217_AB42_F']",
+        ""
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 136/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7050"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.mri.p1s1.log",
+      "primary": [],
+      "save_count": 29,
+      "saves": [
+        {
+          "line": 12793,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 13774,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 14755,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 15736,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 16717,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 17698,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 18679,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 19660,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_357819/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 0",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=softmax, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 101/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6536"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0228.log",
+      "primary": [],
+      "save_count": 22,
+      "saves": [
+        {
+          "line": 4425,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 4651,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 4877,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 5103,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 5217,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/epoch_020_stage2.pt"
+        },
+        {
+          "line": 6338,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/epoch_030_stage2.pt"
+        },
+        {
+          "line": 7459,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/epoch_040_stage2.pt"
+        },
+        {
+          "line": 8580,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2044330/ckpt/epoch_050_stage2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 2",
+        "Using device: cuda",
+        "[Stage-1][Plasma] Selected keys (1): ['pT217_F']",
+        "[Stage-2][Plasma] single key: pT217_F"
+      ],
+      "tail": [
+        "Training finished.",
+        "Best Stage-1 inject_macro_f1: 0.6257",
+        "Best Stage-2 inject_macro_f1: 0.6979"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.1744.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 10212,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_090.pt"
+        },
+        {
+          "line": 11343,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 12474,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 13605,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 14736,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15867,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 16998,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18129,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1001488/ckpt/epoch_160.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=zscore, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 160. Best inject_macro_f1: 0.6906",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6906"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.none.tau.log",
+      "primary": [],
+      "save_count": 21,
+      "saves": [
+        {
+          "line": 19036,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_090.pt"
+        },
+        {
+          "line": 21147,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 23258,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 25369,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 27480,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 29591,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 31702,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 33813,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_616599/ckpt/epoch_160.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Clinical] mode=none, input_dim=0, keys=[]",
+        "[Plasma] Selected keys (1): ['pT217_F']"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 167. Best inject_macro_f1: 0.6883",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6883"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0226.log",
+      "primary": [],
+      "save_count": 28,
+      "saves": [
+        {
+          "line": 56058,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_140.pt"
+        },
+        {
+          "line": 58859,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best.pt"
+        },
+        {
+          "line": 60061,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_150.pt"
+        },
+        {
+          "line": 64063,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_160.pt"
+        },
+        {
+          "line": 68064,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_170.pt"
+        },
+        {
+          "line": 72065,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_180.pt"
+        },
+        {
+          "line": 76066,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_190.pt"
+        },
+        {
+          "line": 80067,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt",
+        "",
+        "Training finished. Best recall@1: 0.8319"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0227.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 52441,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_130.pt"
+        },
+        {
+          "line": 56472,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_140.pt"
+        },
+        {
+          "line": 60503,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_150.pt"
+        },
+        {
+          "line": 64534,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_160.pt"
+        },
+        {
+          "line": 68565,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_170.pt"
+        },
+        {
+          "line": 72596,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_180.pt"
+        },
+        {
+          "line": 76627,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_190.pt"
+        },
+        {
+          "line": 80658,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        ""
+      ],
+      "tail": [
+        "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6871"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.1423.log",
+      "primary": [],
+      "save_count": 25,
+      "saves": [
+        {
+          "line": 13607,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 14738,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15869,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 17000,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18131,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19262,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 20393,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 21524,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_865656/ckpt/epoch_190.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 190. Best inject_macro_f1: 0.6665",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6665"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.mri.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 11347,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 12478,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 13609,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 14740,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15871,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 17002,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18133,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19264,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_122698/ckpt/epoch_170.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        ""
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 175. Best inject_macro_f1: 0.7290",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7290"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.none.log",
+      "primary": [],
+      "save_count": 32,
+      "saves": [
+        {
+          "line": 14952,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 16013,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 17074,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 18135,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 19196,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 20257,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 21318,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_200.pt"
+        },
+        {
+          "line": 22379,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_554630/ckpt/epoch_210.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Clinical] mode=none, input_dim=0, keys=[]",
+        "[Plasma] Selected keys (1): ['pT217_F']"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 211. Best inject_macro_f1: 0.8087",
+        "",
+        "Training finished. Best inject_macro_f1: 0.8087"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.mri.p1s1sigmoid.log",
+      "primary": [],
+      "save_count": 22,
+      "saves": [
+        {
+          "line": 8866,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_090.pt"
+        },
+        {
+          "line": 9847,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 10828,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 11809,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 12790,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 13771,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 14752,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 15733,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_366464/ckpt/epoch_160.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 165. Best inject_macro_f1: 0.6972",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6972"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.2.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 3160,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/best.pt"
+        },
+        {
+          "line": 3405,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/best.pt"
+        },
+        {
+          "line": 3833,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/best.pt"
+        },
+        {
+          "line": 4078,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/best.pt"
+        },
+        {
+          "line": 5116,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/best.pt"
+        },
+        {
+          "line": 6215,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 9266,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 12317,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3077113/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 2",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "Validate:   0%|          | 0/4 [00:00<?, ?it/s]",
+        "Validate:  25%|██▌       | 1/4 [00:00<00:02,  1.32it/s]",
+        "Validate:  50%|█████     | 2/4 [00:01<00:01,  1.62it/s]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.tau.3.log",
+      "primary": [],
+      "save_count": 6,
+      "saves": [
+        {
+          "line": 159,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/best.pt"
+        },
+        {
+          "line": 343,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/best.pt"
+        },
+        {
+          "line": 527,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/best.pt"
+        },
+        {
+          "line": 589,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/best.pt"
+        },
+        {
+          "line": 712,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/epoch_010.pt"
+        },
+        {
+          "line": 713,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_502676/ckpt/best.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "",
+        "/home/pnxc/Anaconda3/envs/xiaochou/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:1272: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.8. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.",
+        "warnings.warn("
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0225.log",
+      "primary": [],
+      "save_count": 28,
+      "saves": [
+        {
+          "line": 56057,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_140.pt"
+        },
+        {
+          "line": 58858,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/best.pt"
+        },
+        {
+          "line": 60060,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_150.pt"
+        },
+        {
+          "line": 64061,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_160.pt"
+        },
+        {
+          "line": 68062,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_170.pt"
+        },
+        {
+          "line": 72063,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_180.pt"
+        },
+        {
+          "line": 76064,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_190.pt"
+        },
+        {
+          "line": 80065,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "",
+        "============================================================"
+      ],
+      "tail": [
+        "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/checkpoints/epoch_200.pt",
+        "",
+        "Training finished. Best recall@1: 0.8319"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.1.log",
+      "primary": [],
+      "save_count": 20,
+      "saves": [
+        {
+          "line": 3160,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/best.pt"
+        },
+        {
+          "line": 3405,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/best.pt"
+        },
+        {
+          "line": 3833,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/best.pt"
+        },
+        {
+          "line": 4078,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/best.pt"
+        },
+        {
+          "line": 5116,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/best.pt"
+        },
+        {
+          "line": 6215,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 9266,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 12317,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_3074763/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 1",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 232. Best inject_macro_f1: 0.8126",
+        "",
+        "Training finished. Best inject_macro_f1: 0.8126"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.mri.p1s1none.log",
+      "primary": [],
+      "save_count": 28,
+      "saves": [
+        {
+          "line": 12792,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 13773,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 14754,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 15735,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 16716,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 17697,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 18678,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 19659,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_368538/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=none, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 115/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6972"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.2.log",
+      "primary": [],
+      "save_count": 10,
+      "saves": [
+        {
+          "line": 484,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        },
+        {
+          "line": 598,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        },
+        {
+          "line": 712,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        },
+        {
+          "line": 939,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        },
+        {
+          "line": 1166,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/epoch_010.pt"
+        },
+        {
+          "line": 1167,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        },
+        {
+          "line": 2298,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/epoch_020.pt"
+        },
+        {
+          "line": 2864,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_850581/ckpt/best.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=zscore, intra_norm=none, intra_temperature=1.0"
+      ],
+      "tail": [
+        "Epoch 26:  29%|██▉       | 13/45 [00:14<00:35,  1.10s/it, loss=4.89, L_ic=0.787, L_ip=2.13]",
+        "Epoch 26:  29%|██▉       | 13/45 [00:15<00:35,  1.10s/it, loss=4.58, L_ic=0.725, L_ip=1.97]",
+        "Epoch 26:  31%|███       | 14/45 [00:15<00:34,  1.10s/it, loss=4.58, L_ic=0.725, L_ip=1.97]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.1.log",
+      "primary": [],
+      "save_count": 7,
+      "saves": [
+        {
+          "line": 143,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/best.pt"
+        },
+        {
+          "line": 257,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/best.pt"
+        },
+        {
+          "line": 597,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/best.pt"
+        },
+        {
+          "line": 1163,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/epoch_010.pt"
+        },
+        {
+          "line": 1164,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/best.pt"
+        },
+        {
+          "line": 2295,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/epoch_020.pt"
+        },
+        {
+          "line": 3426,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_849835/ckpt/epoch_030.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=zscore, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "Epoch 31:  20%|██        | 9/45 [00:10<00:39,  1.09s/it, loss=2.38, L_ic=0.726, L_ip=0.963]",
+        "Epoch 31:  20%|██        | 9/45 [00:11<00:39,  1.09s/it, loss=2.77, L_ic=0.92, L_ip=1.1]",
+        "Epoch 31:  22%|██▏       | 10/45 [00:11<00:38,  1.09s/it, loss=2.77, L_ic=0.92, L_ip=1.1]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.c8p1.log",
+      "primary": [],
+      "save_count": 22,
+      "saves": [
+        {
+          "line": 10826,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 11807,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 12788,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 13769,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 14750,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 15731,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 16712,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 17693,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_724397/ckpt/epoch_180.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=sigmoid, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 185. Best inject_macro_f1: 0.6902",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6902"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0228_s1.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 14611,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15732,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 16853,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 17974,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19095,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 20216,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 21337,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 22458,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        ""
+      ],
+      "tail": [
+        "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2125545/ckpt/epoch_200.pt",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7193"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.log",
+      "primary": [],
+      "save_count": 56,
+      "saves": [
+        {
+          "line": 41486,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_390.pt"
+        },
+        {
+          "line": 42547,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_400.pt"
+        },
+        {
+          "line": 43608,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_410.pt"
+        },
+        {
+          "line": 44669,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_420.pt"
+        },
+        {
+          "line": 45730,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_430.pt"
+        },
+        {
+          "line": 46791,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_440.pt"
+        },
+        {
+          "line": 47852,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_450.pt"
+        },
+        {
+          "line": 48913,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_537284/ckpt/epoch_460.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 462. Best inject_macro_f1: 0.8814",
+        "",
+        "Training finished. Best inject_macro_f1: 0.8814"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.demo.tau.log",
+      "primary": [],
+      "save_count": 15,
+      "saves": [
+        {
+          "line": 2372,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/best.pt"
+        },
+        {
+          "line": 2584,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/best.pt"
+        },
+        {
+          "line": 4273,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/epoch_020.pt"
+        },
+        {
+          "line": 6384,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/epoch_030.pt"
+        },
+        {
+          "line": 6596,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/best.pt"
+        },
+        {
+          "line": 7230,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/best.pt"
+        },
+        {
+          "line": 8497,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/epoch_040.pt"
+        },
+        {
+          "line": 10608,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_604683/ckpt/epoch_050.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 1",
+        "Using device: cuda",
+        "[Clinical] mode=demographics, input_dim=3, keys=['age', 'sex', 'weight']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "Epoch 50:  94%|█████████▍| 85/90 [01:47<00:06,  1.28s/it, loss=2.21, L_ic=0.814, L_ip=0.89]",
+        "Epoch 50:  94%|█████████▍| 85/90 [01:48<00:06,  1.28s/it, loss=1.56, L_ic=0.987, L_ip=0.524]",
+        "Epoch 50:  96%|█████████▌| 86/90 [01:48<00:05,  1.28s/it, loss=1.56, L_ic=0.987, L_ip=0.524]"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.3.log",
+      "primary": [],
+      "save_count": 18,
+      "saves": [
+        {
+          "line": 2548,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_2659346/ckpt/epoch_040.pt"
+        },
+        {
+          "line": 2854,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_2659346/ckpt/best.pt"
+        },
+        {
+          "line": 2916,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_2659346/ckpt/best.pt"
+        },
+        {
+          "line": 2978,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_2659346/ckpt/best.pt"
+        },
+        {
+          "line": 3101,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_2659346/ckpt/best.pt"
+        },
+        {
+          "line": 3178,
+          "text": "save_checkpoint("
+        },
+        {
+          "line": 3179,
+          "text": "File \"/home/ssddata/linshuijin/replicaLT/adapter_v2/train.py\", line 522, in save_checkpoint"
+        },
+        {
+          "line": 3180,
+          "text": "torch.save(state, save_path)"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 1",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "File \"/home/pnxc/Anaconda3/envs/xiaochou/lib/python3.10/site-packages/torch/serialization.py\", line 784, in __exit__",
+        "self.file_like.write_end_of_file()",
+        "RuntimeError: [enforce fail at inline_container.cc:626] . unexpected pos 209278336 vs 209278224"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.control.log",
+      "primary": [],
+      "save_count": 30,
+      "saves": [
+        {
+          "line": 14742,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15873,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 17004,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18135,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19266,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 20397,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 21528,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 22659,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_727090/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 5",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=softmax, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 141/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6791"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0228_2s.log",
+      "primary": [],
+      "save_count": 22,
+      "saves": [
+        {
+          "line": 4876,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 4990,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 5440,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 5554,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/epoch_030_stage2.pt"
+        },
+        {
+          "line": 5779,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 6453,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/best_stage2.pt"
+        },
+        {
+          "line": 6679,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/epoch_040_stage2.pt"
+        },
+        {
+          "line": 7800,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/02.28_2132066/ckpt/epoch_050_stage2.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "[Stage-1][Plasma] Selected keys (1): ['pT217_F']",
+        "[Stage-2][Plasma] single key: pT217_F"
+      ],
+      "tail": [
+        "Training finished.",
+        "Best Stage-1 inject_macro_f1: 0.4924",
+        "Best Stage-2 inject_macro_f1: 0.6725"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.demogra.log",
+      "primary": [],
+      "save_count": 35,
+      "saves": [
+        {
+          "line": 14965,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 16026,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 17087,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 18148,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 19209,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 20270,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 21331,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_200.pt"
+        },
+        {
+          "line": 22392,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.08_534125/ckpt/epoch_210.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 4",
+        "Using device: cuda",
+        "[Clinical] mode=demographics, input_dim=3, keys=['age', 'sex', 'weight']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 218. Best inject_macro_f1: 0.7271",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7271"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.1420.log",
+      "primary": [],
+      "save_count": 30,
+      "saves": [
+        {
+          "line": 14742,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15873,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 17004,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18135,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19266,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 20397,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 21528,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 22659,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_863406/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=softmax, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 141/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.6791"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/ada.full.tau.log",
+      "primary": [],
+      "save_count": 13,
+      "saves": [
+        {
+          "line": 4268,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/epoch_020.pt"
+        },
+        {
+          "line": 6379,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/epoch_030.pt"
+        },
+        {
+          "line": 7224,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/best.pt"
+        },
+        {
+          "line": 8280,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/best.pt"
+        },
+        {
+          "line": 8492,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/epoch_040.pt"
+        },
+        {
+          "line": 8493,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/best.pt"
+        },
+        {
+          "line": 8916,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/best.pt"
+        },
+        {
+          "line": 10605,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/05.09_601762/ckpt/epoch_050.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 1",
+        "Using device: cuda",
+        "[Clinical] mode=full, input_dim=8, keys=['age', 'sex', 'weight', 'cdr', 'mmse', 'gds', 'faq', 'npiq_total']",
+        "[Clinical] source_jsons=['/home/ssddata/linshuijin/replicaLT/train_data_with_description.json', '/home/ssddata/linshuijin/replicaLT/val_data_with_description.json']"
+      ],
+      "tail": [
+        "",
+        "/home/pnxc/Anaconda3/envs/xiaochou/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:1272: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.8. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.",
+        "warnings.warn("
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0309.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 14735,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15866,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 16997,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18128,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19259,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_170.pt"
+        },
+        {
+          "line": 20390,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_180.pt"
+        },
+        {
+          "line": 21521,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_190.pt"
+        },
+        {
+          "line": 22652,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.09_4094814/ckpt/epoch_200.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 1",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        ""
+      ],
+      "tail": [
+        "[EarlyStop] no improvement: 118/150",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7193"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/adapter_v2/0310.1745.log",
+      "primary": [],
+      "save_count": 27,
+      "saves": [
+        {
+          "line": 11349,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_100.pt"
+        },
+        {
+          "line": 12480,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_110.pt"
+        },
+        {
+          "line": 13611,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_120.pt"
+        },
+        {
+          "line": 14742,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_130.pt"
+        },
+        {
+          "line": 15873,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_140.pt"
+        },
+        {
+          "line": 17004,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_150.pt"
+        },
+        {
+          "line": 18135,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_160.pt"
+        },
+        {
+          "line": 19266,
+          "text": "Checkpoint saved: /home/ssddata/linshuijin/replicaLT/adapter_v2/runs/03.10_1002538/ckpt/epoch_170.pt"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "CUDA_VISIBLE_DEVICES set to: 3",
+        "Using device: cuda",
+        "[Plasma] Selected keys (1): ['pT217_F']",
+        "[Plasma] Normalization: inter_norm=minmax, intra_norm=none, intra_temperature=1.0"
+      ],
+      "tail": [
+        "[EarlyStop] Triggered at epoch 175. Best inject_macro_f1: 0.7290",
+        "",
+        "Training finished. Best inject_macro_f1: 0.7290"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260502.1935276/train.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 10,
+          "text": "2026-05-02 22:32:58,507 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 17,
+          "text": "2026-05-03 00:47:19,934 | INFO | Saved best_model.pt with val_loss=0.043063"
+        },
+        {
+          "line": 42,
+          "text": "2026-05-03 09:47:11,641 | INFO | Saved best_model.pt with val_loss=0.041705"
+        },
+        {
+          "line": 55,
+          "text": "2026-05-03 14:15:31,993 | INFO | Saved best_model.pt with val_loss=0.035358"
+        },
+        {
+          "line": 80,
+          "text": "2026-05-03 23:11:59,513 | INFO | Saved best_model.pt with val_loss=0.032044"
+        }
+      ],
+      "head": [
+        "2026-05-02 20:17:01,164 | INFO | Using device: cuda",
+        "2026-05-02 20:17:01,164 | INFO | Run directory: /home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260502.1935276",
+        "2026-05-02 20:17:01,164 | INFO | Train samples: 384 | Val samples: 10",
+        "2026-05-02 20:26:57,014 | INFO | Epoch 1 | noise_loss=0.516779 | x0_pred_loss=0.378298 | total_loss=0.895077",
+        "2026-05-02 20:36:52,026 | INFO | Epoch 2 | noise_loss=0.078614 | x0_pred_loss=0.138980 | total_loss=0.217594"
+      ],
+      "tail": [
+        "2026-05-04 17:09:19,709 | INFO | Validation epoch_100 | loss=0.047587 | PSNR=21.1940 | SSIM=0.8105",
+        "2026-05-04 17:09:19,723 | INFO | Training completed in 161537.77 seconds",
+        "2026-05-04 18:35:03,611 | INFO | Validation best_model | loss=0.034764 | PSNR=23.3051 | SSIM=0.8238"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260508.601074/train.log",
+      "primary": [],
+      "save_count": 4,
+      "saves": [
+        {
+          "line": 10,
+          "text": "2026-05-08 19:40:55,794 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 17,
+          "text": "2026-05-08 21:59:58,575 | INFO | Saved best_model.pt with val_loss=0.047730"
+        },
+        {
+          "line": 36,
+          "text": "2026-05-09 04:44:29,438 | INFO | Saved best_model.pt with val_loss=0.039898"
+        },
+        {
+          "line": 43,
+          "text": "2026-05-09 06:56:04,853 | INFO | Saved best_model.pt with val_loss=0.035202"
+        }
+      ],
+      "head": [
+        "2026-05-08 17:21:04,765 | INFO | Using device: cuda",
+        "2026-05-08 17:21:04,766 | INFO | Run directory: /home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260508.601074",
+        "2026-05-08 17:21:04,766 | INFO | Train samples: 384 | Val samples: 10",
+        "2026-05-08 17:32:22,097 | INFO | Epoch 1 | noise_loss=0.516779 | x0_pred_loss=0.378298 | total_loss=0.895077",
+        "2026-05-08 17:43:25,543 | INFO | Epoch 2 | noise_loss=0.078614 | x0_pred_loss=0.138980 | total_loss=0.217594"
+      ],
+      "tail": [
+        "2026-05-09 09:48:23,139 | INFO | Epoch 39 | noise_loss=0.005277 | x0_pred_loss=0.037238 | total_loss=0.042515",
+        "2026-05-09 09:58:07,380 | INFO | Epoch 40 | noise_loss=0.005866 | x0_pred_loss=0.039247 | total_loss=0.045113",
+        "2026-05-09 11:22:06,432 | INFO | Validation epoch_40 | loss=0.044257 | PSNR=21.3995 | SSIM=0.8310"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260506.13710/train.log",
+      "primary": [],
+      "save_count": 4,
+      "saves": [
+        {
+          "line": 10,
+          "text": "2026-05-06 22:05:02,137 | INFO | Saved best_model.pt with val_loss=0.048324"
+        },
+        {
+          "line": 17,
+          "text": "2026-05-07 00:11:01,022 | INFO | Saved best_model.pt with val_loss=0.041950"
+        },
+        {
+          "line": 54,
+          "text": "2026-05-07 13:01:11,662 | INFO | Saved best_model.pt with val_loss=0.036218"
+        },
+        {
+          "line": 79,
+          "text": "2026-05-07 22:04:45,766 | INFO | Saved best_model.pt with val_loss=0.030816"
+        }
+      ],
+      "head": [
+        "2026-05-06 19:59:40,792 | INFO | Using device: cuda",
+        "2026-05-06 19:59:40,793 | INFO | Run directory: /home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_av45/260506.13710",
+        "2026-05-06 19:59:40,793 | INFO | Train samples: 384 | Val samples: 10",
+        "2026-05-06 20:09:04,423 | INFO | Epoch 1 | noise_loss=0.516779 | x0_pred_loss=0.378298 | total_loss=0.895077",
+        "2026-05-06 20:18:25,030 | INFO | Epoch 2 | noise_loss=0.078614 | x0_pred_loss=0.138980 | total_loss=0.217594"
+      ],
+      "tail": [
+        "2026-05-08 15:50:54,401 | INFO | Validation epoch_100 | loss=0.033362 | PSNR=23.5974 | SSIM=0.8476",
+        "2026-05-08 15:50:54,414 | INFO | Training completed in 157873.45 seconds",
+        "2026-05-08 17:16:46,175 | INFO | Validation best_model | loss=0.034113 | PSNR=23.2826 | SSIM=0.8687"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_tau/260416.3127971/train.log",
+      "primary": [],
+      "save_count": 3,
+      "saves": [
+        {
+          "line": 6,
+          "text": "2026-04-16 18:27:20,143 | INFO | Saved best_model.pt with val_loss=0.542317"
+        },
+        {
+          "line": 9,
+          "text": "2026-04-17 02:02:20,594 | INFO | Saved best_model.pt with val_loss=0.541082"
+        },
+        {
+          "line": 12,
+          "text": "2026-04-17 09:42:27,464 | INFO | Saved best_model.pt with val_loss=0.540990"
+        }
+      ],
+      "head": [
+        "2026-04-16 10:51:22,018 | INFO | Using device: cuda",
+        "2026-04-16 10:51:22,019 | INFO | Run directory: /home/ssddata/linshuijin/replicaLT/runs/ficd_aligned_tau/260416.3127971",
+        "2026-04-16 10:51:22,019 | INFO | Train samples: 866 | Val samples: 88",
+        "2026-04-16 11:25:52,116 | INFO | Epoch 1 | noise_loss=0.430971 | x0_pred_loss=0.944033 | total_loss=1.375004",
+        "2026-04-16 18:27:20,035 | INFO | Validation epoch_1 | loss=0.542317 | PSNR=4.5583 | SSIM=0.0068"
+      ],
+      "tail": [
+        "2026-04-28 18:40:37,293 | INFO | Epoch 40 | noise_loss=0.003023 | x0_pred_loss=0.806742 | total_loss=0.809765",
+        "2026-04-29 01:40:19,199 | INFO | Validation epoch_40 | loss=0.547298 | PSNR=4.4819 | SSIM=0.0066",
+        "2026-04-29 02:17:38,735 | INFO | Epoch 41 | noise_loss=0.003079 | x0_pred_loss=0.806663 | total_loss=0.809741"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/baseline.tau.both.log",
+      "primary": [],
+      "save_count": 2,
+      "saves": [
+        {
+          "line": 30933,
+          "text": "checkpoint = torch.load(self.checkpoint_path, map_location=self.device)"
+        },
+        {
+          "line": 30970,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_both_20260323_102313/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "PET targets: tau",
+        "Condition modes: both",
+        "[tau/both] Training on GPU 4...",
+        "Hyperparams: epochs=60 bs=4 lr=1e-4 early_stop=30 accum=4 val_freq=5"
+      ],
+      "tail": [
+        "测试集: 110 样本",
+        "创建模型...",
+        "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_both_20260323_102313/checkpoints/best_model.pth"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/baseline.tau.clinical.log",
+      "primary": [],
+      "save_count": 2,
+      "saves": [
+        {
+          "line": 30934,
+          "text": "checkpoint = torch.load(self.checkpoint_path, map_location=self.device)"
+        },
+        {
+          "line": 30971,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_clinical_20260324_132254/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "PET targets: tau",
+        "Condition modes: clinical",
+        "[tau/clinical] Training on GPU 4...",
+        "Hyperparams: epochs=60 bs=4 lr=1e-4 early_stop=30 accum=4 val_freq=5"
+      ],
+      "tail": [
+        "测试集: 110 样本",
+        "创建模型...",
+        "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_clinical_20260324_132254/checkpoints/best_model.pth"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/baseline.tau.log",
+      "primary": [],
+      "save_count": 2,
+      "saves": [
+        {
+          "line": 30935,
+          "text": "checkpoint = torch.load(self.checkpoint_path, map_location=self.device)"
+        },
+        {
+          "line": 30972,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_plasma_20260320_222234/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "PET targets: tau",
+        "Condition modes: plasma both",
+        "[tau/plasma] Training on GPU 2...",
+        "Hyperparams: epochs=60 bs=4 lr=1e-4 early_stop=30 accum=4 val_freq=5"
+      ],
+      "tail": [
+        "测试集: 110 样本",
+        "创建模型...",
+        "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_tau_plasma_20260320_222234/checkpoints/best_model.pth"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/runs/exp_nohup_gpu4.log",
+      "primary": [],
+      "save_count": 5,
+      "saves": [
+        {
+          "line": 27573,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        },
+        {
+          "line": 27749,
+          "text": "详细结果已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/metrics_test.csv"
+        },
+        {
+          "line": 27750,
+          "text": "分层指标已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/metrics_stratified.json"
+        },
+        {
+          "line": 27751,
+          "text": "评估报告已保存: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/evaluation_report.txt"
+        },
+        {
+          "line": 55397,
+          "text": "加载 checkpoint: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260207_142331/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "nohup: ignoring input",
+        "[baseline] Training on GPU 4...",
+        "2026-02-07 14:23:33,472 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331",
+        "2026-02-07 14:23:33,472 - INFO - 设备: cuda",
+        "2026-02-07 14:23:33,474 - INFO - 创建数据加载器..."
+      ],
+      "tail": [
+        "tensor(0.4560, dtype=torch.float64) tensor(0.6500, dtype=torch.float64)",
+        "tensor(0.6500, dtype=torch.float64) tensor(0.6500, dtype=torch.float64)",
+        "tensor(0.7990, dtype=torch.float64) tensor(0.0870, dtype=torch.float64)] to numeric"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260208_153113/train.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 9,
+          "text": "NFO - 加载预训练 backbone: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "2026-02-08 15:31:15,559 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260208_153113",
+        "2026-02-08 15:31:15,559 - INFO - 设备: cuda",
+        "2026-02-08 15:31:15,560 - INFO - 创建数据加载器...",
+        "2026-02-08 15:31:16,078 - INFO - 训练集: 896 样本",
+        "2026-02-08 15:31:16,078 - INFO - 验证集: 112 样本"
+      ],
+      "tail": [
+        "2026-02-08 15:31:17,649 - INFO - 开始训练",
+        "2026-02-08 15:31:17,649 - INFO - ======================================================================",
+        "2026-02-08 15:41:02,743 - INFO - Epoch 1/60 - Train Loss: 0.0079, L1: 0.0193, SSIM: 1.0382"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260208_154309/train.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 9,
+          "text": "NFO - 加载预训练 backbone: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "2026-02-09 02:55:13,935 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_plasma_20260208_154309",
+        "2026-02-09 02:55:13,935 - INFO - 设备: cuda",
+        "2026-02-09 02:55:13,937 - INFO - 创建数据加载器...",
+        "2026-02-09 02:55:14,433 - INFO - 训练集: 896 样本",
+        "2026-02-09 02:55:14,433 - INFO - 验证集: 112 样本"
+      ],
+      "tail": [
+        "2026-02-09 14:02:59,986 - INFO - ======================================================================",
+        "2026-02-09 14:02:59,986 - INFO - 训练完成! 最佳 MAE: 0.0194, SSIM: 0.8615",
+        "2026-02-09 14:02:59,987 - INFO - ======================================================================"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309/train.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 9,
+          "text": "NFO - 加载预训练 backbone: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "2026-02-09 14:04:33,316 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_both_20260208_154309",
+        "2026-02-09 14:04:33,316 - INFO - 设备: cuda",
+        "2026-02-09 14:04:33,318 - INFO - 创建数据加载器...",
+        "2026-02-09 14:04:33,696 - INFO - 训练集: 896 样本",
+        "2026-02-09 14:04:33,697 - INFO - 验证集: 112 样本"
+      ],
+      "tail": [
+        "2026-02-10 01:14:49,270 - INFO - ======================================================================",
+        "2026-02-10 01:14:49,271 - INFO - 训练完成! 最佳 MAE: 0.0192, SSIM: 0.8609",
+        "2026-02-10 01:14:49,271 - INFO - ======================================================================"
+      ]
+    },
+    {
+      "path": "/home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260208_154309/train.log",
+      "primary": [],
+      "save_count": 1,
+      "saves": [
+        {
+          "line": 9,
+          "text": "NFO - 加载预训练 backbone: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_baseline_20260207_142331/checkpoints/best_model.pth"
+        }
+      ],
+      "head": [
+        "2026-02-08 15:43:12,198 - INFO - 输出目录: /home/ssddata/linshuijin/replicaLT/baseline/runs/exp_clinical_20260208_154309",
+        "2026-02-08 15:43:12,198 - INFO - 设备: cuda",
+        "2026-02-08 15:43:12,200 - INFO - 创建数据加载器...",
+        "2026-02-08 15:43:12,905 - INFO - 训练集: 896 样本",
+        "2026-02-08 15:43:12,905 - INFO - 验证集: 112 样本"
+      ],
+      "tail": [
+        "2026-02-09 02:53:36,493 - INFO - ======================================================================",
+        "2026-02-09 02:53:36,493 - INFO - 训练完成! 最佳 MAE: 0.0190, SSIM: 0.8610",
+        "2026-02-09 02:53:36,493 - INFO - ======================================================================"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet swinunet useful.ipynb
+ORIGINAL_SHA256: 36b1db9e305c6b05b22f4398129e3ea385e99c5d102a08ebf040db99444fc53e
+CELL_INDEX_ZERO_BASED: 14
+CELL_EXECUTION_COUNT_METADATA: 14
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import torch
+0002: import numpy as np
+0003: from tqdm import tqdm
+0004: from generative.metrics import SSIMMetric
+0005: 
+0006: # 加载保存的模型参数
+0007: checkpoint_path = "/home/data/liutuo/code/checkpoint/swinunter/swinunter_1.pth"
+0008: checkpoint = torch.load(checkpoint_path)
+0009: model.load_state_dict(checkpoint['model'])
+0010: optimizer.load_state_dict(checkpoint['optimizer'])
+0011: model.eval()  # Set the model to evaluation mode
+0012: clip_sample_min = 0  # 设置合适的最小值
+0013: clip_sample_max = 1.0   # 设置合适的最大值
+0014: model.to(device)
+0015: 
+0016: # 初始化SSIM度量
+0017: ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0, kernel_size=11)
+0018: 
+0019: # 遍历数据集，查找特定样本名称
+0020: for batch in train_loader:
+0021:     names = batch["name"]  # 提取样本名称
+0022: 
+0023:     # 查找名称为 "130_S_0460" 的样本
+0024:     if "022_S_0543" not in names:
+0025:         continue  # 如果没有找到该样本，继续下一个 batch
+0026: 
+0027:     # 获取该样本的 MRI 输入图像和 PET 标签
+0028:     images= batch["mri"].to(device)
+0029:     labels = batch["pet"].to(device)
+0030:     pet_index = batch["pet_index"].to(device)
+0031: 
+0032: 
+0033:     x_t = images
+0034:     N_sample =1
+0035:     N_sample_tensor = torch.tensor(N_sample, dtype=torch.float32)
+0036:     progress_bar = [(i / N_sample) for i in range(N_sample)]
+0037:     
+0038:     # for t in progress_bar:
+0039:     #     with autocast(device_type='cuda', enabled=False):
+0040: 
+0041:             
+0042: 
+0043:     x_t = model(x_t).to(x_t.device)
+0044:             
+0045:     x_t = torch.clamp(x_t, min=clip_sample_min, max=clip_sample_max)
+0046:     # 将结果移回CPU
+0047:     current_img = x_t.to('cpu')
+0048:     labels = labels.to('cpu')
+0049:     from generative.metrics import SSIMMetric
+0050:     from monai.metrics import (MAEMetric, MSEMetric, PSNRMetric,)
+0051: 
+0052:     # 计算当前采样的SSIM
+0053:     ssim_value = ssim_metric(labels, current_img)
+0054: 
+0055:     # 可视化采样结果
+0056:     compare_3d([images, labels, current_img])
+0057:     compare_3d_jet([images, labels, current_img])
+0058:     compare_3d_jet([current_img - labels])
+0059: 
+0060:     # 计算并输出PSNR和SSIM
+0061:     psnr_metric = PSNRMetric(1.0)
+0062:     ssim_value = ssim_metric(labels, current_img)
+0063:     psnr_value = psnr_metric(labels, current_img)
+0064: 
+0065:     print(f"SSIM: {ssim_value.mean().item()}")
+0066:     print(f"PSNR: {psnr_value.mean().item()}")
+0067: 
+0068:     # 找到并处理完 "130_S_0460" 样本后，退出循环
+0069:     break

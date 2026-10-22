@@ -1,0 +1,7 @@
+{
+  "authorized": true,
+  "source": "2026-10-18 user: 检查报错并重启训练",
+  "scope": "repair AMP overflow handling; restart failed E1 queues on original GPUs; Full then No-Scores per fold; training only",
+  "timestamp": "2026-10-18T07:41:13.950271+08:00",
+  "prior_authorization": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage2_launch_20261017/authorization.json"
+}

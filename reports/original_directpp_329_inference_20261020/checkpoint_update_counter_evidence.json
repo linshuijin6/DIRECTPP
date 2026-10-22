@@ -1,0 +1,52 @@
+{
+  "scope": "Read-only CPU inspection of actual checkpoint tensors and Adam per-parameter counters; no GPU work or inference changes",
+  "checkpoints": [
+    {
+      "checkpoint": "first_part_140.pth",
+      "physical_path": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-eed613f16d35a01b061e/first_part_140.pth",
+      "sha256": "03b745c0a1a3086e87899e2693210d5fb767ce8f7fe6a3e52bdef695ec01c577",
+      "epoch_zero_based": 139,
+      "completed_epoch_label": 140,
+      "optimizer_step": 259802.0,
+      "optimizer_parameter_states": 286,
+      "model_tensor_count": 286,
+      "epoch_times_1856": 259840,
+      "difference_from_epoch_times_1856": 38.0
+    },
+    {
+      "checkpoint": "first_part_150Best.pth",
+      "physical_path": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-a99b5f35f827c5b4cade/first_part_150Best.pth",
+      "sha256": "0999a8156b0227ad4ac68a539061c66cf40a8fc42493979610f99decc4c89ff5",
+      "epoch_zero_based": 149,
+      "completed_epoch_label": 150,
+      "optimizer_step": 278356.0,
+      "optimizer_parameter_states": 286,
+      "model_tensor_count": 286,
+      "epoch_times_1856": 278400,
+      "difference_from_epoch_times_1856": 44.0,
+      "delta_epochs": 10,
+      "delta_optimizer_steps": 18554.0,
+      "updates_per_epoch_between_checkpoints": 1855.4,
+      "model_tensors_changed_from_previous": 286
+    },
+    {
+      "checkpoint": "first_part_165.pth",
+      "physical_path": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-9fde43ce7ad8254c62d3/first_part_165.pth",
+      "sha256": "fa43adae089aefbe66df8d1f196a618662b75dbdc880cce10923dd22b844165e",
+      "epoch_zero_based": 164,
+      "completed_epoch_label": 165,
+      "optimizer_step": 306190.0,
+      "optimizer_parameter_states": 286,
+      "model_tensor_count": 286,
+      "epoch_times_1856": 306240,
+      "difference_from_epoch_times_1856": 50.0,
+      "delta_epochs": 15,
+      "delta_optimizer_steps": 27834.0,
+      "updates_per_epoch_between_checkpoints": 1855.6,
+      "model_tensors_changed_from_previous": 286
+    }
+  ],
+  "supports": "Weights and optimizer counters changed between checkpoints; counter deltas are consistent with about 1856 optimizer updates per stored epoch under the recovered batch_size=1, one-step-per-batch training code",
+  "does_not_prove": "Exact training PTIDs, immutable split at every epoch, no counter/epoch resets, or successful execution of a particular IPython input; checkpoint counters contain no PTID manifest",
+  "interpretation": "Additional training-continuation evidence independent of train_loader variable names; still not a subject-level training identity receipt"
+}

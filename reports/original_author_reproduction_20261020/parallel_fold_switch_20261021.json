@@ -1,0 +1,40 @@
+{
+  "status": "PARALLEL_TWO_FOLD_TRAINING_STARTED",
+  "switched_at": "2026-10-21T23:02:44+08:00",
+  "reason": "User requested local and cloud servers train different folds concurrently",
+  "local_node": {
+    "node_alias": "3003",
+    "hostname": "pnxc",
+    "physical_gpu": 5,
+    "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+    "fold": 2,
+    "launcher_pid": 2061818,
+    "python_pid": 2061820,
+    "log": "reports/original_author_reproduction_20261020/fold2_local_parallel.log",
+    "exit_file": "reports/original_author_reproduction_20261020/fold2_local_parallel.exit",
+    "first_five_updates_observed": true,
+    "first_five_losses_finite": true,
+    "cuda_full_sample_preflight": "PASS"
+  },
+  "preserved_local_fold1": {
+    "stopped_python_pid": 1071067,
+    "exit_code": 143,
+    "last_complete_epoch_one_based": 37,
+    "recovery": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/recovery.pt",
+    "artifacts_preserved": true
+  },
+  "cloud_node": {
+    "host": "connect.weste.seetacloud.com",
+    "port": 36733,
+    "fold": 1,
+    "python_pid": 13107,
+    "observed_epoch_zero_based": 1,
+    "observed_iteration": 300,
+    "status_at_verification": "RUNNING"
+  },
+  "output_isolation": {
+    "local_fold2": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2",
+    "cloud_fold1": "/root/autodl-tmp/directpp_assets/formal/fold1",
+    "shared_output_directory": false
+  }
+}

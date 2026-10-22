@@ -1,0 +1,71 @@
+[
+  {
+    "run": "01.30_151382",
+    "checkpoint": "/home/ssddata/linshuijin/replicaLT/runs/01.30_151382/ckpt_epoch200.pt",
+    "checkpoint_sha256": "6f73f262df5e38ab7f128774280695e87305bfcb388c9cbd5d3d1cd7eef74b4f",
+    "internal_epoch": 199,
+    "global_step": 49600,
+    "candidate_commit": "7bc69a2fb5952bcf760dd3c53aba3a2822a68692",
+    "candidate_train_json": "historical_json/7bc69a2__train_data_with_description.json",
+    "candidate_val_json": "historical_json/7bc69a2__val_data_with_description.json",
+    "log_verified_train_rows": 990,
+    "log_verified_val_rows": 109,
+    "candidate_train_unique_ptid": 862,
+    "candidate_val_unique_ptid": 109,
+    "candidate_ptid_overlap": 32,
+    "candidate_mri_overlap": 1,
+    "binding": "COUNTS_AND_BOTH_FIRST_RECORDS_MATCH__NO_RUNTIME_SPLIT_HASH",
+    "count_corroboration": {
+      "global_step": 49600,
+      "completed_epochs_at_checkpoint": 200,
+      "steps_per_epoch_from_checkpoint": 248.0,
+      "predicted_batches": 248
+    }
+  },
+  {
+    "run": "02.03_614278",
+    "checkpoint": "/home/ssddata/linshuijin/replicaLT/runs/02.03_614278/ckpt_epoch190.pt",
+    "checkpoint_sha256": "934d8b4aaeb507b243cc81fc7b9f88e8fdf95933cccb4ca43230936e4528b28e",
+    "internal_epoch": 189,
+    "global_step": 232560,
+    "candidate_commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+    "candidate_train_json": "historical_json/9ba7133__train_data_with_description.json",
+    "candidate_val_json": "historical_json/9ba7133__val_data_with_description.json",
+    "log_verified_train_rows": 1224,
+    "log_verified_val_rows": 136,
+    "candidate_train_unique_ptid": 845,
+    "candidate_val_unique_ptid": 133,
+    "candidate_ptid_overlap": 72,
+    "candidate_mri_overlap": 0,
+    "binding": "COUNTS_AND_BOTH_FIRST_RECORDS_MATCH__NO_RUNTIME_SPLIT_HASH",
+    "count_corroboration": {
+      "global_step": 232560,
+      "completed_epochs_at_checkpoint": 190,
+      "steps_per_epoch_from_checkpoint": 1224.0,
+      "predicted_batches": 1224
+    }
+  },
+  {
+    "run": "02.03_1709820",
+    "checkpoint": "/home/ssddata/linshuijin/replicaLT/runs/02.03_1709820/ckpt_epoch200.pt",
+    "checkpoint_sha256": "3181b4604e8b6562fa09f5428430602c3de8d940848f02bd8121a1b0b8464b77",
+    "internal_epoch": 199,
+    "global_step": 214200,
+    "candidate_commit": "9ba7133bf2eff9c112aaa439dc19f5223c5bca31",
+    "candidate_train_json": "historical_json/9ba7133__train_data_with_description.json",
+    "candidate_val_json": "historical_json/9ba7133__val_data_with_description.json",
+    "log_verified_train_rows": 1224,
+    "log_verified_val_rows": 136,
+    "candidate_train_unique_ptid": 845,
+    "candidate_val_unique_ptid": 133,
+    "candidate_ptid_overlap": 72,
+    "candidate_mri_overlap": 0,
+    "binding": "COUNTS_AND_BOTH_FIRST_RECORDS_MATCH__NO_RUNTIME_SPLIT_HASH",
+    "count_corroboration": {
+      "global_step": 214200,
+      "completed_epochs_at_checkpoint": 200,
+      "steps_per_epoch_from_checkpoint": 1071.0,
+      "predicted_batches": 1071
+    }
+  }
+]

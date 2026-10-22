@@ -1,0 +1,1887 @@
+{
+  "profiles": {
+    "90de985": {
+      "train": {
+        "rows": 990,
+        "unique_ptids": 862,
+        "duplicate_ptid_rows": 128,
+        "unique_ptid_date": 990,
+        "unique_ptid_mri": 990,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "021_S_10774",
+          "examdate": "2025/6/3",
+          "mri_image_id": "I11285144"
+        },
+        "pet_path_available": {
+          "fdg": 172,
+          "av45": 476,
+          "tau": 934
+        },
+        "any_tau_av45_path_available": 989
+      },
+      "val": {
+        "rows": 109,
+        "unique_ptids": 109,
+        "duplicate_ptid_rows": 0,
+        "unique_ptid_date": 109,
+        "unique_ptid_mri": 109,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "037_S_6963",
+          "examdate": "2021/12/17",
+          "mri_image_id": "I1478584"
+        },
+        "pet_path_available": {
+          "fdg": 11,
+          "av45": 59,
+          "tau": 99
+        },
+        "any_tau_av45_path_available": 109
+      },
+      "intersections": {
+        "ptid": [
+          "002_S_6103",
+          "003_S_6256",
+          "007_S_6323",
+          "007_S_6515",
+          "021_S_7092",
+          "023_S_6346",
+          "023_S_6400",
+          "023_S_6547",
+          "024_S_6385",
+          "024_S_7025",
+          "027_S_6327",
+          "033_S_6976",
+          "033_S_7079",
+          "033_S_7114",
+          "035_S_6306",
+          "037_S_6083",
+          "041_S_6785",
+          "067_S_6528",
+          "082_S_7122",
+          "098_S_6534",
+          "098_S_6734",
+          "114_S_6429",
+          "114_S_6462",
+          "127_S_6147",
+          "127_S_6241",
+          "129_S_6304",
+          "129_S_7042",
+          "135_S_6586",
+          "941_S_6058",
+          "941_S_6254",
+          "941_S_6333",
+          "941_S_6962"
+        ],
+        "ptid_date": [],
+        "ptid_mri": [
+          [
+            "127_S_6147",
+            "I11175778"
+          ]
+        ]
+      }
+    },
+    "7bc69a2": {
+      "train": {
+        "rows": 990,
+        "unique_ptids": 862,
+        "duplicate_ptid_rows": 128,
+        "unique_ptid_date": 990,
+        "unique_ptid_mri": 990,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "021_S_10774",
+          "examdate": "2025/6/3",
+          "mri_image_id": "I11285144"
+        },
+        "pet_path_available": {
+          "fdg": 172,
+          "av45": 476,
+          "tau": 934
+        },
+        "any_tau_av45_path_available": 989
+      },
+      "val": {
+        "rows": 109,
+        "unique_ptids": 109,
+        "duplicate_ptid_rows": 0,
+        "unique_ptid_date": 109,
+        "unique_ptid_mri": 109,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "037_S_6963",
+          "examdate": "2021/12/17",
+          "mri_image_id": "I1478584"
+        },
+        "pet_path_available": {
+          "fdg": 11,
+          "av45": 59,
+          "tau": 99
+        },
+        "any_tau_av45_path_available": 109
+      },
+      "intersections": {
+        "ptid": [
+          "002_S_6103",
+          "003_S_6256",
+          "007_S_6323",
+          "007_S_6515",
+          "021_S_7092",
+          "023_S_6346",
+          "023_S_6400",
+          "023_S_6547",
+          "024_S_6385",
+          "024_S_7025",
+          "027_S_6327",
+          "033_S_6976",
+          "033_S_7079",
+          "033_S_7114",
+          "035_S_6306",
+          "037_S_6083",
+          "041_S_6785",
+          "067_S_6528",
+          "082_S_7122",
+          "098_S_6534",
+          "098_S_6734",
+          "114_S_6429",
+          "114_S_6462",
+          "127_S_6147",
+          "127_S_6241",
+          "129_S_6304",
+          "129_S_7042",
+          "135_S_6586",
+          "941_S_6058",
+          "941_S_6254",
+          "941_S_6333",
+          "941_S_6962"
+        ],
+        "ptid_date": [],
+        "ptid_mri": [
+          [
+            "127_S_6147",
+            "I11175778"
+          ]
+        ]
+      }
+    },
+    "9ba7133": {
+      "train": {
+        "rows": 1224,
+        "unique_ptids": 845,
+        "duplicate_ptid_rows": 379,
+        "unique_ptid_date": 1052,
+        "unique_ptid_mri": 1224,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "082_S_6287",
+          "examdate": "2018-05-15",
+          "mri_image_id": "I998048"
+        },
+        "pet_path_available": {
+          "fdg": 169,
+          "av45": 479,
+          "tau": 1016
+        },
+        "any_tau_av45_path_available": 1071
+      },
+      "val": {
+        "rows": 136,
+        "unique_ptids": 133,
+        "duplicate_ptid_rows": 3,
+        "unique_ptid_date": 135,
+        "unique_ptid_mri": 136,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "005_S_10100",
+          "examdate": "2024-05-13",
+          "mri_image_id": "I10460270"
+        },
+        "pet_path_available": {
+          "fdg": 15,
+          "av45": 58,
+          "tau": 104
+        },
+        "any_tau_av45_path_available": 115
+      },
+      "intersections": {
+        "ptid": [
+          "003_S_7010",
+          "005_S_6427",
+          "006_S_6234",
+          "006_S_6243",
+          "007_S_4272",
+          "014_S_6145",
+          "014_S_6424",
+          "014_S_6988",
+          "016_S_6809",
+          "016_S_6941",
+          "019_S_7016",
+          "021_S_7062",
+          "022_S_6069",
+          "024_S_6385",
+          "027_S_10289",
+          "027_S_10430",
+          "027_S_5169",
+          "027_S_6577",
+          "027_S_6582",
+          "027_S_6643",
+          "033_S_10016",
+          "033_S_6572",
+          "033_S_6969",
+          "035_S_10048",
+          "035_S_6480",
+          "035_S_7021",
+          "035_S_7073",
+          "035_S_7121",
+          "036_S_6878",
+          "036_S_6885",
+          "041_S_6786",
+          "067_S_7020",
+          "067_S_7068",
+          "070_S_4856",
+          "070_S_6886",
+          "070_S_6966",
+          "073_S_6929",
+          "082_S_6563",
+          "082_S_7122",
+          "098_S_6362",
+          "098_S_6734",
+          "100_S_5091",
+          "100_S_6349",
+          "114_S_6524",
+          "116_S_6133",
+          "116_S_6439",
+          "116_S_6624",
+          "126_S_4514",
+          "127_S_5132",
+          "127_S_6168",
+          "127_S_6357",
+          "129_S_6304",
+          "130_S_10216",
+          "130_S_5175",
+          "130_S_6072",
+          "130_S_6319",
+          "130_S_6688",
+          "135_S_6360",
+          "141_S_6061",
+          "141_S_6253",
+          "141_S_6964",
+          "168_S_6051",
+          "168_S_6371",
+          "301_S_10123",
+          "301_S_10875",
+          "301_S_6056",
+          "305_S_6313",
+          "341_S_6494",
+          "941_S_6044",
+          "941_S_6058",
+          "941_S_6471",
+          "941_S_6580"
+        ],
+        "ptid_date": [
+          [
+            "006_S_6234",
+            "2024-08-13"
+          ],
+          [
+            "014_S_6145",
+            "2017-12-18"
+          ],
+          [
+            "014_S_6424",
+            "2018-08-15"
+          ],
+          [
+            "014_S_6988",
+            "2021-08-17"
+          ],
+          [
+            "027_S_10289",
+            "2024-11-08"
+          ],
+          [
+            "027_S_10430",
+            "2025-01-14"
+          ],
+          [
+            "027_S_5169",
+            "2024-07-12"
+          ],
+          [
+            "027_S_6577",
+            "2025-01-09"
+          ],
+          [
+            "070_S_6886",
+            "2020-09-09"
+          ],
+          [
+            "070_S_6966",
+            "2021-06-28"
+          ],
+          [
+            "082_S_6563",
+            "2020-01-16"
+          ],
+          [
+            "098_S_6362",
+            "2024-06-26"
+          ],
+          [
+            "098_S_6734",
+            "2024-07-17"
+          ],
+          [
+            "100_S_5091",
+            "2023-12-07"
+          ],
+          [
+            "100_S_6349",
+            "2024-04-11"
+          ],
+          [
+            "116_S_6439",
+            "2018-06-29"
+          ],
+          [
+            "116_S_6624",
+            "2018-11-02"
+          ],
+          [
+            "127_S_5132",
+            "2025-04-25"
+          ],
+          [
+            "130_S_10216",
+            "2024-09-26"
+          ],
+          [
+            "130_S_5175",
+            "2024-09-12"
+          ],
+          [
+            "130_S_6072",
+            "2017-08-25"
+          ],
+          [
+            "130_S_6319",
+            "2025-02-06"
+          ],
+          [
+            "130_S_6688",
+            "2024-07-11"
+          ],
+          [
+            "141_S_6061",
+            "2017-08-13"
+          ],
+          [
+            "141_S_6253",
+            "2018-03-18"
+          ],
+          [
+            "141_S_6964",
+            "2021-06-23"
+          ],
+          [
+            "168_S_6371",
+            "2018-05-16"
+          ],
+          [
+            "301_S_10875",
+            "2025-07-16"
+          ],
+          [
+            "301_S_6056",
+            "2024-08-26"
+          ],
+          [
+            "305_S_6313",
+            "2025-04-24"
+          ]
+        ],
+        "ptid_mri": []
+      }
+    },
+    "2bfadb8": {
+      "train": {
+        "rows": 949,
+        "unique_ptids": 720,
+        "duplicate_ptid_rows": 229,
+        "unique_ptid_date": 949,
+        "unique_ptid_mri": 949,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "082_S_6287",
+          "examdate": "2018-05-15",
+          "mri_image_id": "I998048"
+        },
+        "pet_path_available": {
+          "fdg": 150,
+          "av45": 390,
+          "tau": 866
+        },
+        "any_tau_av45_path_available": 868
+      },
+      "val": {
+        "rows": 95,
+        "unique_ptids": 80,
+        "duplicate_ptid_rows": 15,
+        "unique_ptid_date": 95,
+        "unique_ptid_mri": 95,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "941_S_6581",
+          "examdate": "2018-09-12",
+          "mri_image_id": "I1048378"
+        },
+        "pet_path_available": {
+          "fdg": 13,
+          "av45": 33,
+          "tau": 88
+        },
+        "any_tau_av45_path_available": 88
+      },
+      "intersections": {
+        "ptid": [],
+        "ptid_date": [],
+        "ptid_mri": []
+      }
+    },
+    "3d44206": {
+      "train": {
+        "rows": 949,
+        "unique_ptids": 720,
+        "duplicate_ptid_rows": 229,
+        "unique_ptid_date": 949,
+        "unique_ptid_mri": 949,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "082_S_6287",
+          "examdate": "2018-05-15",
+          "mri_image_id": "I998048"
+        },
+        "pet_path_available": {
+          "fdg": 150,
+          "av45": 390,
+          "tau": 866
+        },
+        "any_tau_av45_path_available": 868
+      },
+      "val": {
+        "rows": 95,
+        "unique_ptids": 80,
+        "duplicate_ptid_rows": 15,
+        "unique_ptid_date": 95,
+        "unique_ptid_mri": 95,
+        "null_examdate": 0,
+        "missing_mri_id": 0,
+        "first_identity": {
+          "ptid": "941_S_6581",
+          "examdate": "2018-09-12",
+          "mri_image_id": "I1048378"
+        },
+        "pet_path_available": {
+          "fdg": 13,
+          "av45": 33,
+          "tau": 88
+        },
+        "any_tau_av45_path_available": 88
+      },
+      "intersections": {
+        "ptid": [],
+        "ptid_date": [],
+        "ptid_mri": []
+      }
+    }
+  },
+  "log_first_record_matches": [
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "candidate_commit": "90de985",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "old_descr": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": null
+            }
+          },
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "old_descr": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": null
+            }
+          },
+          "identity_equal": true
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "candidate_commit": "7bc69a2",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "candidate_commit": "9ba7133",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "021_S_10774",
+              "candidate": "082_S_6287"
+            },
+            "examdate": {
+              "log": "2025/6/3",
+              "candidate": "2018-05-15"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "av45_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "tau_index": {
+              "log": 208,
+              "candidate": 812
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "037_S_6963",
+              "candidate": "005_S_10100"
+            },
+            "examdate": {
+              "log": "2021/12/17",
+              "candidate": "2024-05-13"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg.",
+              "candidate": "Subject is a 76-year-old female with a weight of 82.1 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              },
+              "candidate": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 549,
+              "candidate": 51
+            },
+            "av45_index": {
+              "log": 549,
+              "candidate": 51
+            },
+            "tau_index": {
+              "log": 549,
+              "candidate": 51
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "candidate_commit": "2bfadb8",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "021_S_10774",
+              "candidate": "082_S_6287"
+            },
+            "examdate": {
+              "log": "2025/6/3",
+              "candidate": "2018-05-15"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "av45_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "tau_index": {
+              "log": 208,
+              "candidate": 812
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "037_S_6963",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2021/12/17",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              },
+              "candidate": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 549,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 549,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 549,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0130.main.log",
+      "candidate_commit": "3d44206",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "021_S_10774",
+              "candidate": "082_S_6287"
+            },
+            "examdate": {
+              "log": "2025/6/3",
+              "candidate": "2018-05-15"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.1101,
+                "pT217_F": 0.107,
+                "pT217_AB42_F": 0.00416,
+                "NfL_Q": 16.7,
+                "GFAP_Q": 133.4
+              }
+            },
+            "fdg_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "av45_index": {
+              "log": 208,
+              "candidate": 812
+            },
+            "tau_index": {
+              "log": 208,
+              "candidate": 812
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "037_S_6963",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2021/12/17",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.0966,
+                "pT217_F": 0.089,
+                "pT217_AB42_F": 0.00303,
+                "NfL_Q": 20.8,
+                "GFAP_Q": 176.7
+              }
+            },
+            "fdg_index": {
+              "log": 549,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 549,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 549,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "candidate_commit": "90de985",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "082_S_6287",
+              "candidate": "021_S_10774"
+            },
+            "examdate": {
+              "log": "2018-05-15",
+              "candidate": "2025/6/3"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+              "candidate": null
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "av45_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "tau_index": {
+              "log": 812,
+              "candidate": 208
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "037_S_6963"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2021/12/17"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": null
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 549
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "candidate_commit": "7bc69a2",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "082_S_6287",
+              "candidate": "021_S_10774"
+            },
+            "examdate": {
+              "log": "2018-05-15",
+              "candidate": "2025/6/3"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "av45_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "tau_index": {
+              "log": 812,
+              "candidate": 208
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "037_S_6963"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2021/12/17"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 549
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "candidate_commit": "9ba7133",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "candidate_commit": "2bfadb8",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.me.train.log",
+      "candidate_commit": "3d44206",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.1101,
+                "pT217_F": 0.107,
+                "pT217_AB42_F": 0.00416,
+                "NfL_Q": 16.7,
+                "GFAP_Q": 133.4
+              }
+            }
+          },
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.0966,
+                "pT217_F": 0.089,
+                "pT217_AB42_F": 0.00303,
+                "NfL_Q": 20.8,
+                "GFAP_Q": 176.7
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "candidate_commit": "90de985",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "082_S_6287",
+              "candidate": "021_S_10774"
+            },
+            "examdate": {
+              "log": "2018-05-15",
+              "candidate": "2025/6/3"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+              "candidate": null
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "av45_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "tau_index": {
+              "log": 812,
+              "candidate": 208
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "037_S_6963"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2021/12/17"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": null
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 549
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "candidate_commit": "7bc69a2",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "082_S_6287",
+              "candidate": "021_S_10774"
+            },
+            "examdate": {
+              "log": "2018-05-15",
+              "candidate": "2025/6/3"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/082_S_6287__I998048.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/021_S_10774__I11285144.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/082_S_6287_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/AV45/082_S_6287__I998049__I1599655.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/AV45/021_S_10774__I11285144__I11336397.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/082_S_6287__I998049__I1599669.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/TAU/021_S_10774_2025-6-3_zero.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 70-year-old female with a weight of 67.7 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0.",
+              "candidate": "Subject is a 63-year-old female with a weight of 70.9 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.113132223,
+                "pT217": 0.089,
+                "pT217_AB42": 0.002361369,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              }
+            },
+            "fdg_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "av45_index": {
+              "log": 812,
+              "candidate": 208
+            },
+            "tau_index": {
+              "log": 812,
+              "candidate": 208
+            }
+          },
+          "identity_equal": false
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "037_S_6963"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2021/12/17"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/037_S_6963__I1478584.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/FDG/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_none/AV45/037_S_6963_2021-12-17_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/PET_MNI/TAU/037_S_6963__I1478584__I1614198.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 57-year-old female with a weight of 83.0 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 29. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 1. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40": 0.1035,
+                "pT217": 0.063,
+                "pT217_AB42": 0.00232,
+                "NfL": 5.9,
+                "GFAP": 68.1
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 549
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 549
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "candidate_commit": "9ba7133",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "candidate_commit": "2bfadb8",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": true,
+          "differences": {},
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    },
+    {
+      "log_path": "/home/ssddata/linshuijin/replicaLT/0203.LT.main.log",
+      "candidate_commit": "3d44206",
+      "first_record_comparison": {
+        "train": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.1101,
+                "pT217_F": 0.107,
+                "pT217_AB42_F": 0.00416,
+                "NfL_Q": 16.7,
+                "GFAP_Q": 133.4
+              }
+            }
+          },
+          "identity_equal": true
+        },
+        "val": {
+          "all_logged_fields_equal": false,
+          "differences": {
+            "name": {
+              "log": "005_S_10100",
+              "candidate": "941_S_6581"
+            },
+            "examdate": {
+              "log": "2024-05-13",
+              "candidate": "2018-09-12"
+            },
+            "mri": {
+              "log": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/005_S_10100__I10460270.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/MRI/941_S_6581__I1048378.nii.gz"
+            },
+            "fdg": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/005_S_10100_fdg_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/FDG/941_S_6581_fdg_zero.nii.gz"
+            },
+            "av45": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/005_S_10100_av45_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/linshuijin/zero/AV45/941_S_6581_av45_zero.nii.gz"
+            },
+            "tau": {
+              "log": "/mnt/nfsdata/nfsdata/linshuijin/zero/TAU/005_S_10100_tau_zero.nii.gz",
+              "candidate": "/mnt/nfsdata/nfsdata/lsj.14/ADNI_CSF/PET_MNI/TAU/941_S_6581__I1048378__I1603410.nii.gz"
+            },
+            "description": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg.",
+              "candidate": "Subject is a 74-year-old female."
+            },
+            "old_descr": {
+              "log": "Subject is a 76-year-old female with a weight of 82.1 kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 26. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 3. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 1.",
+              "candidate": "Subject is a 74-year-old female. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is 0. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is 30. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is 0. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is 0. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is 0."
+            },
+            "plasma": {
+              "log": {
+                "AB42_AB40": -999.0,
+                "pT217": -999.0,
+                "pT217_AB42": -999.0,
+                "NfL": -999.0,
+                "GFAP": -999.0
+              },
+              "candidate": {
+                "AB42_AB40_F": 0.0966,
+                "pT217_F": 0.089,
+                "pT217_AB42_F": 0.00303,
+                "NfL_Q": 20.8,
+                "GFAP_Q": 176.7
+              }
+            },
+            "fdg_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "av45_index": {
+              "log": 51,
+              "candidate": 1345
+            },
+            "tau_index": {
+              "log": 51,
+              "candidate": 1345
+            }
+          },
+          "identity_equal": false
+        }
+      }
+    }
+  ],
+  "between_versions_ptid_intersections": {
+    "7bc69a2__9ba7133": {
+      "train_to_train": 737,
+      "train_to_val": 115,
+      "val_to_train": 98,
+      "val_to_val": 14
+    },
+    "9ba7133__2bfadb8": {
+      "train_to_train": 681,
+      "train_to_val": 73,
+      "val_to_train": 99,
+      "val_to_val": 13
+    },
+    "2bfadb8__3d44206": {
+      "train_to_train": 720,
+      "train_to_val": 0,
+      "val_to_train": 0,
+      "val_to_val": 80
+    },
+    "90de985__7bc69a2": {
+      "train_to_train": 862,
+      "train_to_val": 32,
+      "val_to_train": 32,
+      "val_to_val": 109
+    }
+  }
+}

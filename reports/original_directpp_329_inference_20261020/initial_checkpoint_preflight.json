@@ -1,0 +1,242 @@
+{
+  "data": {
+    "mri": {
+      "total": 329,
+      "missing": 0,
+      "examples": []
+    },
+    "pet": {
+      "total": 329,
+      "missing": 0,
+      "examples": []
+    }
+  },
+  "checkpoints": [
+    {
+      "path": "/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_180.pth",
+      "exists": true,
+      "bytes": 119529822,
+      "sha256": "ca91da47e75b9132195cbd5d1a5e97194be0dbf1fd435313a8ac86a9e8dfc5e2",
+      "keys": [
+        "model",
+        "optimizer",
+        "epoch"
+      ],
+      "epoch": 179,
+      "first_tensors": [
+        {
+          "key": "conv_in.conv.weight",
+          "shape": [
+            32,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "key": "conv_in.conv.bias",
+          "shape": [
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.weight",
+          "shape": [
+            128,
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.bias",
+          "shape": [
+            128
+          ]
+        }
+      ],
+      "model_tensors": 286
+    },
+    {
+      "path": "/home/data/liutuo/code/checkpoint/best 200pth/noise2image about mri2pet_method_two_second_part_200.pth",
+      "exists": true,
+      "bytes": 119529822,
+      "sha256": "be319f2043eca35e452bbf33babf297b2a98293588a7ff7a29b17e3f31587312",
+      "keys": [
+        "model",
+        "optimizer",
+        "epoch"
+      ],
+      "epoch": 199,
+      "first_tensors": [
+        {
+          "key": "conv_in.conv.weight",
+          "shape": [
+            32,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "key": "conv_in.conv.bias",
+          "shape": [
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.weight",
+          "shape": [
+            128,
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.bias",
+          "shape": [
+            128
+          ]
+        }
+      ],
+      "model_tensors": 286
+    },
+    {
+      "path": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_140.pth",
+      "exists": true,
+      "bytes": 119519454,
+      "sha256": "c52480a93cc1bd0b4bcc7bacb9636596c6af6afceee19217264f3b5abc974475",
+      "keys": [
+        "model",
+        "optimizer",
+        "epoch"
+      ],
+      "epoch": 139,
+      "first_tensors": [
+        {
+          "key": "conv_in.conv.weight",
+          "shape": [
+            32,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "key": "conv_in.conv.bias",
+          "shape": [
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.weight",
+          "shape": [
+            128,
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.bias",
+          "shape": [
+            128
+          ]
+        }
+      ],
+      "model_tensors": 286
+    },
+    {
+      "path": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_156.pth",
+      "exists": true,
+      "bytes": 119519454,
+      "sha256": "59e6e351cb67ac1109c4059667086e700423c18243b521757000301aa138160d",
+      "keys": [
+        "model",
+        "optimizer",
+        "epoch"
+      ],
+      "epoch": 155,
+      "first_tensors": [
+        {
+          "key": "conv_in.conv.weight",
+          "shape": [
+            32,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "key": "conv_in.conv.bias",
+          "shape": [
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.weight",
+          "shape": [
+            128,
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.bias",
+          "shape": [
+            128
+          ]
+        }
+      ],
+      "model_tensors": 286
+    },
+    {
+      "path": "/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_flow/noise2image about mri2pet_method_two_second_part_159.pth",
+      "exists": true,
+      "bytes": 119519454,
+      "sha256": "46f2ac4af07818f6b9020ccd8faaec40f6d1847bf67d8cbb20c4759c0d078c9f",
+      "keys": [
+        "model",
+        "optimizer",
+        "epoch"
+      ],
+      "epoch": 158,
+      "first_tensors": [
+        {
+          "key": "conv_in.conv.weight",
+          "shape": [
+            32,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "key": "conv_in.conv.bias",
+          "shape": [
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.weight",
+          "shape": [
+            128,
+            32
+          ]
+        },
+        {
+          "key": "time_embed.0.bias",
+          "shape": [
+            128
+          ]
+        }
+      ],
+      "model_tensors": 286
+    }
+  ],
+  "dependencies": {
+    "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/ADNI1_imdb_with_meta_description.csv": true,
+    "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/ADNI2_imdb_with_meta_description.csv": true
+  },
+  "python": "/home/data/linshuijin/.conda/envs/xiaochou/bin/python",
+  "torch": "2.5.1"
+}

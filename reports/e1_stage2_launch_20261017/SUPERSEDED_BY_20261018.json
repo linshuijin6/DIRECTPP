@@ -1,0 +1,6 @@
+{
+  "status": "SUPERSEDED_FOR_CURRENT_PROCESS_STATUS",
+  "replacement_report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_amp_recovery_20261018",
+  "reason": "Both original Full tasks exited with Nonfinite gradient; current restart has new PIDs/logs/config snapshot.",
+  "original_logs_preserved": true
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "ptid": "016_S_4952",
+    "error": "ValueError(\"Unbound historical mask grid: 016_S_4952: {'ptid': '016_S_4952', 'mri_min': 0.0, 'mri_max': 1.0, 'has_mri': True, 'fdg_min': 0.0, 'fdg_max': 1.0, 'has_fdg': True, 'av45_min': 0.0, 'av45_max': 1.0, 'has_av45': True, 'saved_mri_replay_maxabs': 0.9999993443489075, 'saved_mri_replay_mae': 0.23747645143608892}\")"
+  }
+]

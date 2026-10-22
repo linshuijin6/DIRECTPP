@@ -1,0 +1,1667 @@
+{
+  "live_source": "/home/data/liutuo/code/monai",
+  "archived_source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3003/home/data/liutuo/code/monai",
+  "all_python_sources_byte_identical": true,
+  "files": [
+    {
+      "path": "__init__.py",
+      "sha256": "3b018ef27d5eaea7ce26c2e897586cb8735d73b00eb0e6fcdca33b9b3d554337"
+    },
+    {
+      "path": "_extensions/__init__.py",
+      "sha256": "34404fade46143c1fd815be0acbaffcb9dbf4e6a81f7abbfbb855099e353f772"
+    },
+    {
+      "path": "_extensions/loader.py",
+      "sha256": "ed288ac37eaafa73b31fc0916c1bab16bcfb18ce34182bbbadcf774e6f17a672"
+    },
+    {
+      "path": "_version.py",
+      "sha256": "cef31cc52fc6ff7bc37c7367a265736382aa7a2638ac40517c948890626b3c9e"
+    },
+    {
+      "path": "apps/__init__.py",
+      "sha256": "54321cdc707fb856ea28bd534be39e46faf210c0dfce6db6289473c29917b06a"
+    },
+    {
+      "path": "apps/auto3dseg/__init__.py",
+      "sha256": "0e1501d8e974fa234093564d983d5191338350e85d8a26eff21f4c81c2ee17ab"
+    },
+    {
+      "path": "apps/auto3dseg/__main__.py",
+      "sha256": "7c20e10fcba198940a90a0712ceea1309844bd925122c8d373501dddb6263486"
+    },
+    {
+      "path": "apps/auto3dseg/auto_runner.py",
+      "sha256": "6b8472f774e42b46936faf1bc257bc1e81b84b351b51fd086c3ad8df78d345e8"
+    },
+    {
+      "path": "apps/auto3dseg/bundle_gen.py",
+      "sha256": "cbff656f0d319357a6d13b089fb993247983dce40d70d655b2382485d620d0bc"
+    },
+    {
+      "path": "apps/auto3dseg/data_analyzer.py",
+      "sha256": "5c9b90f9b484dc6ffaaf68ba4bbe638e8fa49564d41a9cb9698dd6aa28d25aa9"
+    },
+    {
+      "path": "apps/auto3dseg/ensemble_builder.py",
+      "sha256": "19a2e9780216e57f680bddb571ebc4f3a7283ac9975b60b5dfa147ba8e94c8ca"
+    },
+    {
+      "path": "apps/auto3dseg/hpo_gen.py",
+      "sha256": "54c7cdd0ce59f0cab7129bb87e0383e4de97f816363c04480baf705b6b791105"
+    },
+    {
+      "path": "apps/auto3dseg/transforms.py",
+      "sha256": "88ee2ff7e770433beea498255fe1f61d8bb052198575580b6f287806e0f2ec36"
+    },
+    {
+      "path": "apps/auto3dseg/utils.py",
+      "sha256": "ec33c96ec2fd61b85174c67a744bc203fb7fb8b492cfbf96652536a4c638feaa"
+    },
+    {
+      "path": "apps/datasets.py",
+      "sha256": "9ac4f9f01a07950150a43e13c7e09387002491a528c283593a0707d131e0d2ed"
+    },
+    {
+      "path": "apps/deepedit/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/deepedit/interaction.py",
+      "sha256": "87dcd39a11c09b09dd477d794649ea5ed2d662ac981af75c9a33fa12946bcc78"
+    },
+    {
+      "path": "apps/deepedit/transforms.py",
+      "sha256": "51d8f7e66d7422b7a4e46b6aa3a1e0bfa2eded2ea34a8fb3d0dbb255bb3cd34a"
+    },
+    {
+      "path": "apps/deepgrow/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/deepgrow/dataset.py",
+      "sha256": "5b4c2fd50ba3038b1982b01c052eb8765dce05b0c1336705e112b47c30909d15"
+    },
+    {
+      "path": "apps/deepgrow/interaction.py",
+      "sha256": "fac9ad3a5f778bf483128fd8a3c0c4e54dc59c3ad471d25678fd789c2ab9192e"
+    },
+    {
+      "path": "apps/deepgrow/transforms.py",
+      "sha256": "46628ca0de2caa14fce288274c9b79e6de94b642ff3a993345c3f954fb1e4acb"
+    },
+    {
+      "path": "apps/detection/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/detection/metrics/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/detection/metrics/coco.py",
+      "sha256": "6e917a84000c2ac04d2df6adf85ce1d0247ed2cc03b000157304da67e968d7f8"
+    },
+    {
+      "path": "apps/detection/metrics/matching.py",
+      "sha256": "185e30807e4b7adec6c16d521b0cdfcf3e414670951210deeff291ef3a4baf8e"
+    },
+    {
+      "path": "apps/detection/networks/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/detection/networks/retinanet_detector.py",
+      "sha256": "f84706bc324ad77a3baaac7a6d41edc449e221d097ae2233c2dcb5a39a661bdd"
+    },
+    {
+      "path": "apps/detection/networks/retinanet_network.py",
+      "sha256": "5dbc7559e1961e4402ed5254020603dc68c68b37a117cff05a7b63745632483e"
+    },
+    {
+      "path": "apps/detection/transforms/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/detection/transforms/array.py",
+      "sha256": "08773ece5ec83e52983c1551f3ccd54fafde0451253e286d91f3bda28d81b1a9"
+    },
+    {
+      "path": "apps/detection/transforms/box_ops.py",
+      "sha256": "dd114af33347f2e7e91d3fda079c45476c17ad06ae050116432c4da239759926"
+    },
+    {
+      "path": "apps/detection/transforms/dictionary.py",
+      "sha256": "386118aead85f2016361162fed976558533ac9846cff6e32627ec9d866258097"
+    },
+    {
+      "path": "apps/detection/utils/ATSS_matcher.py",
+      "sha256": "69a8d8d9427e3adf4be4a0f039114e0ae32c4d0114d36059f7eb4d31f2181fdf"
+    },
+    {
+      "path": "apps/detection/utils/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/detection/utils/anchor_utils.py",
+      "sha256": "7284b356ae6272dcd62f85eac2d94b4ca97375e97a71f1c52dbbcceb33a2abc3"
+    },
+    {
+      "path": "apps/detection/utils/box_coder.py",
+      "sha256": "f3541ef307fa2116f890981c4bde7bc9674ea58fc6f2751dc8814f5f1a4c42f9"
+    },
+    {
+      "path": "apps/detection/utils/box_selector.py",
+      "sha256": "b9723462b86e81847af3162c851b392693d34f59cbdd030c4b59c9fd1a5d755a"
+    },
+    {
+      "path": "apps/detection/utils/detector_utils.py",
+      "sha256": "a54edb3b31fe6b2f4b9f3bb56870ab23095a1957f9c63d7713b4a89b1fef1679"
+    },
+    {
+      "path": "apps/detection/utils/hard_negative_sampler.py",
+      "sha256": "3f2c1d5e414801db9d9a9dd6f0958cfc270b0b704a590879c75cb4b6eba891c8"
+    },
+    {
+      "path": "apps/detection/utils/predict_utils.py",
+      "sha256": "ea3ed4fbba4bb5b9a013a497291fcc54899cebbf8cf16b734244fcf5c095b0af"
+    },
+    {
+      "path": "apps/generation/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/generation/maisi/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/generation/maisi/networks/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/generation/maisi/networks/autoencoderkl_maisi.py",
+      "sha256": "1711ec07b5b5235d4da5dca0e20375937408734b5cab714c2c8d130e32389a08"
+    },
+    {
+      "path": "apps/generation/maisi/networks/controlnet_maisi.py",
+      "sha256": "d0adaec8c7ef735fb67050a83439e078c6f370fa6f151d496747ea17da63f2be"
+    },
+    {
+      "path": "apps/generation/maisi/networks/diffusion_model_unet_maisi.py",
+      "sha256": "5c53a2cba1a78170bf38a33575489e97f829ef5c9415680f12b61d82b54b4005"
+    },
+    {
+      "path": "apps/mmars/__init__.py",
+      "sha256": "0689698048bd8cd060ace41ddcac29fbd4102de590c10b6537f30990ad5ebb9b"
+    },
+    {
+      "path": "apps/mmars/mmars.py",
+      "sha256": "018b31e450e6274753d21024586621338ef468f206db73d89681e284365f38a1"
+    },
+    {
+      "path": "apps/mmars/model_desc.py",
+      "sha256": "93b592311bb240df313dac7c6949862a24cd6667156ad76a3d80a0c438a1fb1e"
+    },
+    {
+      "path": "apps/nnunet/__init__.py",
+      "sha256": "832aa68357f13dfdd117a2cbdb9827a4c4df352d78bb1c1eb89f777b85338c1f"
+    },
+    {
+      "path": "apps/nnunet/__main__.py",
+      "sha256": "aab96804bca62bdf0e3dc6812a872b945f22a36878994b9724f1552d94fe5c3a"
+    },
+    {
+      "path": "apps/nnunet/nnunetv2_runner.py",
+      "sha256": "d15653a739a390e85a99da9819df5b8537597110de3ac30e0488da5b55298bcc"
+    },
+    {
+      "path": "apps/nnunet/utils.py",
+      "sha256": "3b02c171cd0b67f9fbfa87c4f048248262074f6df0ab5c724820fa9698528f3d"
+    },
+    {
+      "path": "apps/nuclick/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/nuclick/transforms.py",
+      "sha256": "91fdb139bd62071f8e59cef09e0b115af74d57c2a95fac5e4cc16e619a99f341"
+    },
+    {
+      "path": "apps/pathology/__init__.py",
+      "sha256": "49105bc603f365db42db64e96359b4f99dd24817cc8a0eb161549d80e0a58178"
+    },
+    {
+      "path": "apps/pathology/engines/__init__.py",
+      "sha256": "b2a4763d48e615fe3a8d145003c659f6e99b433b8b183a41691590355036afb4"
+    },
+    {
+      "path": "apps/pathology/engines/utils.py",
+      "sha256": "37bdd12bcb4a9f9dae99316256dc4d765838251d7c03c598dfa4117ab7e05fde"
+    },
+    {
+      "path": "apps/pathology/handlers/__init__.py",
+      "sha256": "611bd9e42e88e7aaafbb50d31913895794aad19177b7a7f7e2f57755d7a0f479"
+    },
+    {
+      "path": "apps/pathology/handlers/utils.py",
+      "sha256": "324406f7555ca4848a6d7fa2dbc4d82b50ec288be0d2cedac0d702d9c7a6cd1e"
+    },
+    {
+      "path": "apps/pathology/inferers/__init__.py",
+      "sha256": "76906600ccf25e71145276ee53ee0345461702d4d0f967bf54290ccb4448692d"
+    },
+    {
+      "path": "apps/pathology/inferers/inferer.py",
+      "sha256": "f8acd7544b5869556ae9bdbc975e1b09c00871e77c2fe8b8e2cf8faa6aa5d42f"
+    },
+    {
+      "path": "apps/pathology/losses/__init__.py",
+      "sha256": "c8f19abd87bc37afdb2af44dd7ed5ac069a09c764aa63430c3740c2fa50c44f4"
+    },
+    {
+      "path": "apps/pathology/losses/hovernet_loss.py",
+      "sha256": "4b0f700408a504e281f2829a3d4e322b154e97ccb896ff97ce027a8853740325"
+    },
+    {
+      "path": "apps/pathology/metrics/__init__.py",
+      "sha256": "73bc515338507ac11644850517abccf90b3dbf42eff10cc234d77e8493822fe2"
+    },
+    {
+      "path": "apps/pathology/metrics/lesion_froc.py",
+      "sha256": "d18b36ad6a4aefd32e5242381bcd7dddfa229a24ba04de9eae01c3194072619b"
+    },
+    {
+      "path": "apps/pathology/transforms/__init__.py",
+      "sha256": "737624a2b9ea8d7f9f1d19f09299ff3f19a73237baa627f5ab13dd14dc905165"
+    },
+    {
+      "path": "apps/pathology/transforms/post/__init__.py",
+      "sha256": "59465b68cd9b835de6a5b9cd8689740f4037dbc5e052ca535ad3ef962d54aa99"
+    },
+    {
+      "path": "apps/pathology/transforms/post/array.py",
+      "sha256": "c5ec3b4ce92d2cf829c1da1ecd79ea127a594aca35d607bf132ca5e7458ebb0b"
+    },
+    {
+      "path": "apps/pathology/transforms/post/dictionary.py",
+      "sha256": "65179e16a71946496dc2145a2ac79d7a9b69ac1d41f3d94a5858a6033924d158"
+    },
+    {
+      "path": "apps/pathology/transforms/stain/__init__.py",
+      "sha256": "8bd1dfad78901c6e571dfa8cb73da0ef2057ee9d6e374c5c1803c26325d2995f"
+    },
+    {
+      "path": "apps/pathology/transforms/stain/array.py",
+      "sha256": "0ebd5f0a6910cdcf27e345db2c01e9ab5106e7090ca938d681837614625f3069"
+    },
+    {
+      "path": "apps/pathology/transforms/stain/dictionary.py",
+      "sha256": "b1317b0c955741ed52050ae10bce1797692620daa84d7e936fc612bf6547f55b"
+    },
+    {
+      "path": "apps/pathology/utils.py",
+      "sha256": "ba5803cb8ded492989c3005ffb9d4d0b40f4fca7f405eca6c442bba75dfa5452"
+    },
+    {
+      "path": "apps/reconstruction/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/reconstruction/complex_utils.py",
+      "sha256": "bc8542c1e5b03c72f96d82b76bb683312eb8088ecbf40521f65da01b7722b0ce"
+    },
+    {
+      "path": "apps/reconstruction/fastmri_reader.py",
+      "sha256": "09b0161cdf7e6fc4c5808a6cbb55264b4cc7660de5bea232ada645383a1331d3"
+    },
+    {
+      "path": "apps/reconstruction/mri_utils.py",
+      "sha256": "5847a7b6bf487c275345c4442d8908811c76a02688a1cd491151351497d096a4"
+    },
+    {
+      "path": "apps/reconstruction/networks/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/reconstruction/networks/blocks/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/reconstruction/networks/blocks/varnetblock.py",
+      "sha256": "c25a0cf30cbf0db142b820eb2baf2ae6d1f80cf32f7bbada3e76563e60e0ac29"
+    },
+    {
+      "path": "apps/reconstruction/networks/nets/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/reconstruction/networks/nets/coil_sensitivity_model.py",
+      "sha256": "6529b25b817337eb45bdb6dc8525266bb546cc28846495cdeb99d775c15b2739"
+    },
+    {
+      "path": "apps/reconstruction/networks/nets/complex_unet.py",
+      "sha256": "14c9bb0d33822516fcd2d45696a04fce9364754c11a3bb656efb2b1d7e771d6e"
+    },
+    {
+      "path": "apps/reconstruction/networks/nets/utils.py",
+      "sha256": "459eed30e405617d5b0469cbd5c892bdc6ea4b516c39787edddad524df4833c1"
+    },
+    {
+      "path": "apps/reconstruction/networks/nets/varnet.py",
+      "sha256": "9f69857f8a996d9e22dd1d664fb92f32c755b64d8633e1bc21617ca7f185efac"
+    },
+    {
+      "path": "apps/reconstruction/transforms/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/reconstruction/transforms/array.py",
+      "sha256": "f2ab430b91319bd86f4b0c1b745595e226e23f1a31658257fbc93931879bd1e1"
+    },
+    {
+      "path": "apps/reconstruction/transforms/dictionary.py",
+      "sha256": "dcd1a489ed1661976c596c75fe1f4eaebc6d964c46dd6faeef82f623120aa41c"
+    },
+    {
+      "path": "apps/tcia/__init__.py",
+      "sha256": "daebb79cfd63de60ecd80786fbdce65e2703df7790b3583454708df0acac11b4"
+    },
+    {
+      "path": "apps/tcia/label_desc.py",
+      "sha256": "07c97d995991ccbcac2e610821855e7a7972ffaf28902b78eb5a9e2d04b1089f"
+    },
+    {
+      "path": "apps/tcia/utils.py",
+      "sha256": "e28b6a5d7aa49ec492880261fe938f795d46a76cfbc541f4360da40a9b156f7b"
+    },
+    {
+      "path": "apps/utils.py",
+      "sha256": "19e96592c7aebf75cab3e03a5dc81bb6a92d41acaff4d548857f6d4d018cd742"
+    },
+    {
+      "path": "apps/vista3d/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "apps/vista3d/inferer.py",
+      "sha256": "dd681717610b3e1a07b75de31583a57c4b2cd74df51abdbf166e7f814cba84b7"
+    },
+    {
+      "path": "apps/vista3d/sampler.py",
+      "sha256": "d6e65021108ef4763c46cd85b59d6fd17b4f40667d472123c54c9c32022ac7b0"
+    },
+    {
+      "path": "apps/vista3d/transforms.py",
+      "sha256": "4412bd75922195ef22c197e2408e6a80bb16a6bdf0b86d601200fb43338675b4"
+    },
+    {
+      "path": "auto3dseg/__init__.py",
+      "sha256": "0db642ef0ab1e3304d720b8b406bbc6c698088a9e4f4bbe3b500edc1dc06d7d2"
+    },
+    {
+      "path": "auto3dseg/algo_gen.py",
+      "sha256": "fc1b1ca009d4cd0291ab3e631ef76cb827b7b53c6aecf51060f30b5f45aec427"
+    },
+    {
+      "path": "auto3dseg/analyzer.py",
+      "sha256": "ee5f104f7ea51baf1bf2b2b6dc20b6a26cfa3ced5fc660f03a58f15cc9f97254"
+    },
+    {
+      "path": "auto3dseg/operations.py",
+      "sha256": "d6c3435a7cf966cdbeb1ca5bd70a2dc5aafbc86610f953c8fbf6f62a766a5bd8"
+    },
+    {
+      "path": "auto3dseg/seg_summarizer.py",
+      "sha256": "4f92b0bdce9e29eb7ebe5cef0508022c76f11eda3e3f9b6237feee224e6e55fb"
+    },
+    {
+      "path": "auto3dseg/utils.py",
+      "sha256": "cc489c10effefbafb59334f91e59a1000779ef9827976005996f0edc59c8ce71"
+    },
+    {
+      "path": "bundle/__init__.py",
+      "sha256": "c6f620880ceaf5f8b2324091a34bf09f8d594b38f4b9dcaf1748e6c929ea0512"
+    },
+    {
+      "path": "bundle/__main__.py",
+      "sha256": "462027eab68f52f3cc7d7bddd378ab0210779e4200806d657fc184df83c6e09b"
+    },
+    {
+      "path": "bundle/config_item.py",
+      "sha256": "acc8d7486923259762d38070487c02708c3321bfd37e5982df10e10b7495251b"
+    },
+    {
+      "path": "bundle/config_parser.py",
+      "sha256": "706c849fe72a364d2b104675422bfa532766203bed59970c5658f27d59b98b9d"
+    },
+    {
+      "path": "bundle/properties.py",
+      "sha256": "88ddcae0556637d9f2d47c3da798fbfd42dc09d483f0f9ab47ba97c5b373e3d9"
+    },
+    {
+      "path": "bundle/reference_resolver.py",
+      "sha256": "e584f3544a100c94aff8f17bf5a6f0620817099705c5a39adef7855449667be3"
+    },
+    {
+      "path": "bundle/scripts.py",
+      "sha256": "671764348d43d4ba40269b9f9c949ec59b75dc4a628529f3173768e436c7dcd5"
+    },
+    {
+      "path": "bundle/utils.py",
+      "sha256": "b7edb6b85bcb9fb632f9daf5bf5537de978d3b1800994e132621806ec06b50ab"
+    },
+    {
+      "path": "bundle/workflows.py",
+      "sha256": "6bd5ffcaa573fcd3d18f43760725d10c65c15848a28f36042afdaa1f5e02df6e"
+    },
+    {
+      "path": "config/__init__.py",
+      "sha256": "08ddbc09f4ddb29df4d60bfc6177d5be46f3b427db02aacb2ab262fc2f283fdb"
+    },
+    {
+      "path": "config/deviceconfig.py",
+      "sha256": "7f75dad0e2fd90da9db1b6743df504be6e8d662bc03e1e39e3f54213c066b161"
+    },
+    {
+      "path": "config/type_definitions.py",
+      "sha256": "6bcfd898b91539e95d721012e9c3372a21bd9fd622c645c7a32628d57a2c90c2"
+    },
+    {
+      "path": "data/__init__.py",
+      "sha256": "9680f000c175e216f81d2d384b0ba4a0872121f53a88663ec4fac9546c95c01a"
+    },
+    {
+      "path": "data/box_utils.py",
+      "sha256": "61b1ba94ea18c141a6c1c366a0aceadb19cd4db600e0b3241e67ecaad7a8a428"
+    },
+    {
+      "path": "data/csv_saver.py",
+      "sha256": "7dc645e2404d4270c5c108d5f534b8ce3abfceab2ffeedd095dc51a6b302ef32"
+    },
+    {
+      "path": "data/dataloader.py",
+      "sha256": "182d71f1a6496a275737ccda03e565ea21079533f8a1c8c8bd1842bfbe1e9644"
+    },
+    {
+      "path": "data/dataset.py",
+      "sha256": "8950f20afeedd951b9e42569ea150e860e1e65c11cf1b6411d1257d78556d982"
+    },
+    {
+      "path": "data/dataset_summary.py",
+      "sha256": "e4392bce535bde5c39f23ea5311eda006647d58230e9bd541508e46e8babc6dd"
+    },
+    {
+      "path": "data/decathlon_datalist.py",
+      "sha256": "df3ee9f8fa84763e3532591116673e4351cdc48d03e93822e1f983de9d68abf1"
+    },
+    {
+      "path": "data/fft_utils.py",
+      "sha256": "8a7f59bbc842e28495cee03e665db7e97e8492f80591ad115dd3b182f74692fd"
+    },
+    {
+      "path": "data/folder_layout.py",
+      "sha256": "22c1d6d7e064ba99ff4fcafa320153209421e47c02834c50c0e2a6801b65d201"
+    },
+    {
+      "path": "data/grid_dataset.py",
+      "sha256": "3b48077f7060ae2b07d5eace319352a6822eb7dda6c9d9cda731985a704a8385"
+    },
+    {
+      "path": "data/image_dataset.py",
+      "sha256": "3a1349ddac1ab96b6ab0385e7c8183c37518185dd1a2579e3543dd24e2a0de42"
+    },
+    {
+      "path": "data/image_reader.py",
+      "sha256": "5c391855640dfde1e8308d6214558df08088d31f40c4a49cf1b1926af1ec91fb"
+    },
+    {
+      "path": "data/image_writer.py",
+      "sha256": "ac7eaf6e83c5917e3388dde59eb98ae80cc0390608f6d1223896fb025dad8fef"
+    },
+    {
+      "path": "data/iterable_dataset.py",
+      "sha256": "0342f98dac709df80fae8063f7ab654f5eb47ac236d72bad9d37f76b8736f4cb"
+    },
+    {
+      "path": "data/itk_torch_bridge.py",
+      "sha256": "ded87e077b49b89136d8915f39480679330e3e1d5ccc912249c705ca7fce6f4c"
+    },
+    {
+      "path": "data/meta_obj.py",
+      "sha256": "10341d61b7381e41dcb8361ba24bee21b0d6fa97aabe73d6d893d64fcce068d5"
+    },
+    {
+      "path": "data/meta_tensor.py",
+      "sha256": "2c2c808728d9361e329c5b7610f645b0a72579d2173033be5c5b31fd50689b92"
+    },
+    {
+      "path": "data/samplers.py",
+      "sha256": "2d40801f2dfc75d1a6ebba09269dd6e884c1b0346ac860ab2ad627fa98eb59ce"
+    },
+    {
+      "path": "data/synthetic.py",
+      "sha256": "1f431a42ada79d8c5710c96f396d7e5e8589598fd52ac819ef9b562ced5a0978"
+    },
+    {
+      "path": "data/test_time_augmentation.py",
+      "sha256": "2a021c3c3c05fca7a50425f5d7c279831d77b1e7c66838101540e0196099ba30"
+    },
+    {
+      "path": "data/thread_buffer.py",
+      "sha256": "16d2654702c743353db1fdd7264e06edbffeb8a5da4501c038c6ae73ecd63764"
+    },
+    {
+      "path": "data/torchscript_utils.py",
+      "sha256": "2a82629e926235ea4fea2fb50c3cb7fbc9b5420d5b3df0194d27265ebd0b4fa8"
+    },
+    {
+      "path": "data/ultrasound_confidence_map.py",
+      "sha256": "a44029e25afeb34d3f4fd77820461227907d550c1ffd3ec14bd181c7c8f0fd28"
+    },
+    {
+      "path": "data/utils.py",
+      "sha256": "abbbebacbd3869998739033ea5d676bd70c59e8399a622bbcdce662538ce5e68"
+    },
+    {
+      "path": "data/video_dataset.py",
+      "sha256": "98c4d90a4800c7f041a05e071d672612e4fdce83685153c5b4f79862defab7e0"
+    },
+    {
+      "path": "data/wsi_datasets.py",
+      "sha256": "3228781bfaf34d00b44ecf13a1b9cd357a320b1380872d2b16aa511030043567"
+    },
+    {
+      "path": "data/wsi_reader.py",
+      "sha256": "c956e0978e1b4bdc45d30b2bfd978bc1a9633254ceaed8d54e960aca4c9d10c5"
+    },
+    {
+      "path": "engines/__init__.py",
+      "sha256": "a15d331f99fca8f74208d642a8ba8de19ee2a800e8b83b599adb30590a1958e9"
+    },
+    {
+      "path": "engines/evaluator.py",
+      "sha256": "7745782a8d66715b2bf4fb4e861b49632e1256dad7b8a759f7258cf66098a400"
+    },
+    {
+      "path": "engines/trainer.py",
+      "sha256": "0a60b0d02db4035114826a41b7f7861e9f4e6c824ee6c86a17b6d018956c91cd"
+    },
+    {
+      "path": "engines/utils.py",
+      "sha256": "60669ad469366f76c1b6875b4e819a48e0feb3d5fbc0c81f80448ea336422eb3"
+    },
+    {
+      "path": "engines/workflow.py",
+      "sha256": "4b80c22c14a775c68ce8b0dbeb14be8132fcc42b3c7e255e8dbfbc3bea4b29e4"
+    },
+    {
+      "path": "fl/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "fl/client/__init__.py",
+      "sha256": "5a791c7fe1ae862f9ddbd7801f4a79d63cf54e7f5649533851419b6dbf5202a4"
+    },
+    {
+      "path": "fl/client/client_algo.py",
+      "sha256": "bdeb506d2366baf25104472ed0028cf7a80a61b9125e5bb81d2ae2a8aef08a25"
+    },
+    {
+      "path": "fl/client/monai_algo.py",
+      "sha256": "5cb6a74baa58b825dd6fa6f4d7d86238f8e5bc856aba9044bc0082fd1f2332da"
+    },
+    {
+      "path": "fl/utils/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "fl/utils/constants.py",
+      "sha256": "3a3300135ee7898a9087b9f3e39482e825ef90c6b8f9766c22ea07507a8fed6d"
+    },
+    {
+      "path": "fl/utils/exchange_object.py",
+      "sha256": "ab8d6dacec0176883f83793f121d841672ee7c72759a3ee71b243e4a1b96e4ca"
+    },
+    {
+      "path": "fl/utils/filters.py",
+      "sha256": "2275e99587ace76249aadb0d6de3c03cf0184bc6a6fee44eed49011f2632242a"
+    },
+    {
+      "path": "handlers/__init__.py",
+      "sha256": "95a1248ae3fe7b0ed4cee1bcf75df9b89bc2ef7a1c55b4f49d0ff7c4c2c484a7"
+    },
+    {
+      "path": "handlers/checkpoint_loader.py",
+      "sha256": "634a8d06ae5bf8627e5ce24d8eeb257a00a92063d960e74db373f1ccd6020a6f"
+    },
+    {
+      "path": "handlers/checkpoint_saver.py",
+      "sha256": "cffc391ed3527913374301d022040aa95a1d498372f1d84bf0a4c15331ee1748"
+    },
+    {
+      "path": "handlers/classification_saver.py",
+      "sha256": "08dcdd53d1ab2a3f0a102e368da072dab120a5dde6aa0cfe61983876beb52728"
+    },
+    {
+      "path": "handlers/clearml_handlers.py",
+      "sha256": "6cc56119495496295325f9306f8607120ac604e527bde39b7c782acc3cb7495c"
+    },
+    {
+      "path": "handlers/confusion_matrix.py",
+      "sha256": "2a9753574562583467bd551be7c2dce140611b0c94fcf7f9c13a52692c951f7a"
+    },
+    {
+      "path": "handlers/decollate_batch.py",
+      "sha256": "fb88453d3e190a20296e7515a659bc73ab90df6e9b2a03ed922628a634117130"
+    },
+    {
+      "path": "handlers/earlystop_handler.py",
+      "sha256": "6f00acc13c82cc5a54db7f8e3457a0e17d74048dd576d9339f9f9aef6334f47d"
+    },
+    {
+      "path": "handlers/garbage_collector.py",
+      "sha256": "25bc818ebbb5c01f86d4234ca294257a00bcd451f75b61a9b969e07d43eeb78e"
+    },
+    {
+      "path": "handlers/hausdorff_distance.py",
+      "sha256": "8be23611666b0a99288cf479126a9608e8830accee8e87b9442678c540da8dc7"
+    },
+    {
+      "path": "handlers/ignite_metric.py",
+      "sha256": "3d282348f689ee73a16970dec1326e7170e1918549852cffa90dfaa80f86ecf3"
+    },
+    {
+      "path": "handlers/logfile_handler.py",
+      "sha256": "cbe21ff2b4ad743e6587f3595faf1a4e94836d819c84621fe9fd1569614f9012"
+    },
+    {
+      "path": "handlers/lr_schedule_handler.py",
+      "sha256": "8c4bf54273e4870a503b56b316fce12febace32c0ff6456641be666a7f3c7af0"
+    },
+    {
+      "path": "handlers/mean_dice.py",
+      "sha256": "68998bf4810426d5aceb912ddc709eed2d0921eec9eb3f8d7340444044b2f6c6"
+    },
+    {
+      "path": "handlers/mean_iou.py",
+      "sha256": "fb8bc3a98c7e65defb3dc476f9683a5fe337e67d77b0c579572b068830af8db4"
+    },
+    {
+      "path": "handlers/metric_logger.py",
+      "sha256": "664e79c8ee4f97033b5a11cf7a51cf7efdd62ee2727312ebb503308c427fec54"
+    },
+    {
+      "path": "handlers/metrics_reloaded_handler.py",
+      "sha256": "f49b5f59e0ef8eb74a34c2a9449401bb493a5c6c60f217ce9badb6e2c07803a1"
+    },
+    {
+      "path": "handlers/metrics_saver.py",
+      "sha256": "96d5da6a3dc2e15cefdd51164f83bbc259ae62cec91e2eea0a45d77d50603dbf"
+    },
+    {
+      "path": "handlers/mlflow_handler.py",
+      "sha256": "0213ed66db95d3a8edf0468cbccddeb7a30c2684aa601040615dee8a975a946e"
+    },
+    {
+      "path": "handlers/nvtx_handlers.py",
+      "sha256": "703fa7615689edf504526af9ccb53dfacf3aed2a94c0feb84778b846e8b93065"
+    },
+    {
+      "path": "handlers/panoptic_quality.py",
+      "sha256": "0ebfdc3003499ded42bdcfe99c8df740050c01529b90ee0d05f4c58de74664e1"
+    },
+    {
+      "path": "handlers/parameter_scheduler.py",
+      "sha256": "24c54c1169c5d2c51e8f29c1fc9ff67cbf4e2894ffb3e65b69812e71379bd479"
+    },
+    {
+      "path": "handlers/postprocessing.py",
+      "sha256": "2a5325e2450a9f467455d88e146ecdfc1c4d228ef1f6c9bac8e738da65c66d1f"
+    },
+    {
+      "path": "handlers/probability_maps.py",
+      "sha256": "820be079b4e5c7eaf9066729898bb9313174d0032d48c821440f0eaf0f68eee2"
+    },
+    {
+      "path": "handlers/regression_metrics.py",
+      "sha256": "3da2fc0172e197b030e42d7f5523c802dd82f07efcd5e93fb0f0ffc4566058f0"
+    },
+    {
+      "path": "handlers/roc_auc.py",
+      "sha256": "d00fd8d5bbd1a64058d25e47c9344aa29514ba9ab470c1ae6e7aa07e51d70368"
+    },
+    {
+      "path": "handlers/smartcache_handler.py",
+      "sha256": "3f05a62d82815854e439d7105e530bd7c004496b509cf265f48722f5d8ef7531"
+    },
+    {
+      "path": "handlers/stats_handler.py",
+      "sha256": "f2c396762fbcf8e9654983d177ac982ea9f986fd34c2f61e6a31d13e28f7312b"
+    },
+    {
+      "path": "handlers/surface_distance.py",
+      "sha256": "1ca42b446cb4f2e58dafd5fe989d4884cc15fe77593a28c4252ed360bf4a42c8"
+    },
+    {
+      "path": "handlers/tensorboard_handlers.py",
+      "sha256": "de78eeff110978ea42b4e6eb21fb96735bbc7524708ecfb6eadca1d3a14ff308"
+    },
+    {
+      "path": "handlers/trt_handler.py",
+      "sha256": "b9615d802f1029191c37059f2886d031d2baf8c5ffd4e37498a69b7889f596d2"
+    },
+    {
+      "path": "handlers/utils.py",
+      "sha256": "21bd6ef8f2ebb489222ea4df4449eb096a4de1a7f56ed74dce4c8c66ebae6325"
+    },
+    {
+      "path": "handlers/validation_handler.py",
+      "sha256": "3593b6d5ceb3cd76e60202591e491da194124081f0bb187de100f73cb5257465"
+    },
+    {
+      "path": "inferers/__init__.py",
+      "sha256": "2bbe2dfd109e50f74466f1f320fcd503067d0ed9a8b8baa16f7a831261415ace"
+    },
+    {
+      "path": "inferers/inferer.py",
+      "sha256": "699c0298ce961a3e3d4878bf8c89107860ecb4ccf8e5faef3352e89a87aace6e"
+    },
+    {
+      "path": "inferers/merger.py",
+      "sha256": "0a1faaa065154d30d637dcff2d7051c4496fcae6713a6baa01c79ca60d71c408"
+    },
+    {
+      "path": "inferers/splitter.py",
+      "sha256": "fe14e715dbc3351724900ed91907a156c359c3cde85e81855b293955736a8098"
+    },
+    {
+      "path": "inferers/utils.py",
+      "sha256": "056560ea3e85197e6d160adfe90bf1260164af86c9593a458150504637c0ab90"
+    },
+    {
+      "path": "losses/__init__.py",
+      "sha256": "8a0cbb063a10cccdcc72624f0f6b667a25b69634977c1d8705d7386220f36048"
+    },
+    {
+      "path": "losses/adversarial_loss.py",
+      "sha256": "f70e3b94f614ddc963db0f5467f65c5c22a79a531f03be1892314e0957e11741"
+    },
+    {
+      "path": "losses/barlow_twins.py",
+      "sha256": "a6b0dd698d2f5c05ccb950e673d4efeacbd1673370280d0b76c9916949aeb222"
+    },
+    {
+      "path": "losses/cldice.py",
+      "sha256": "35e51526e163a30947f743122edabc1c9ce1ccb5706a5fc6ee068ec9cd7fe4e6"
+    },
+    {
+      "path": "losses/contrastive.py",
+      "sha256": "f920af810380d4900341a165ed2e30128205b4d778b8591f4cf964324932fcb4"
+    },
+    {
+      "path": "losses/deform.py",
+      "sha256": "9813af1602b25b5ab0f76ebb01909dd21ff18b5d31bf2ff26d87e1cd0ce5e6b2"
+    },
+    {
+      "path": "losses/dice.py",
+      "sha256": "4b824a3f26c737cd89636eaa230a894c9a2f4f760759b5503b0281df46cb5626"
+    },
+    {
+      "path": "losses/ds_loss.py",
+      "sha256": "b6cf7645cfd80247dbe565145b145379ca58df6955c02db4a6eeeef9d2428326"
+    },
+    {
+      "path": "losses/focal_loss.py",
+      "sha256": "3a102dc730306750a83461f54b67506c6ee20f2a30614aafeb82978b41a03219"
+    },
+    {
+      "path": "losses/giou_loss.py",
+      "sha256": "32882ae9f474b4efff5e3d14977f3c40c131d375eb492f947bdea2f5a858faea"
+    },
+    {
+      "path": "losses/hausdorff_loss.py",
+      "sha256": "5e1386b58c6cf816113743435d7dc9dffefdb28e6313387dc01f04066e4da0bc"
+    },
+    {
+      "path": "losses/image_dissimilarity.py",
+      "sha256": "7c8218d73cb17f197e84a8bbf7bc69c830e49d41a474b5862430702b722f275f"
+    },
+    {
+      "path": "losses/multi_scale.py",
+      "sha256": "ee12f872504b6b77f4b73f7eef86ebab95ce14286ba7277f87d70740a3e7b1e4"
+    },
+    {
+      "path": "losses/nacl_loss.py",
+      "sha256": "20fe18daa29c3cd9fad2b800df3512be3aa7bc2888b1bbe6c26db96a8f5aa698"
+    },
+    {
+      "path": "losses/perceptual.py",
+      "sha256": "1bc7e720f61b33f8c161d0e25152977318fcba1fcef9da25ea02521740b5957b"
+    },
+    {
+      "path": "losses/spatial_mask.py",
+      "sha256": "acfc96f1f24f49da87512ed807b9b7d12ab81be618a686cefdfbcab05480150d"
+    },
+    {
+      "path": "losses/spectral_loss.py",
+      "sha256": "3ea99976624e03369aad6d1bcc1bbc49e2fdb0ecb75d086e97ba672d8e0887e2"
+    },
+    {
+      "path": "losses/ssim_loss.py",
+      "sha256": "bfc2da557b41ce94decbcd0206db164ece6a5b0edf889c18017a97702828e640"
+    },
+    {
+      "path": "losses/sure_loss.py",
+      "sha256": "3c30cd35e666f122cf4420d43db73ca38fbeae26c79d8e276e8f32e799d1a34c"
+    },
+    {
+      "path": "losses/tversky.py",
+      "sha256": "f22740b71ad95b7498234bc2f07c3610390e6f8c9b8029c90f768d8a958e1067"
+    },
+    {
+      "path": "losses/unified_focal_loss.py",
+      "sha256": "ac28fc229b9e607fd432b3945d4d2d8db5c8378522c776c69d1650b51be5ed28"
+    },
+    {
+      "path": "metrics/__init__.py",
+      "sha256": "0d48cadffa9f1996f0d330afe8e2603122f701f898378eda62a2ecc67ebdf875"
+    },
+    {
+      "path": "metrics/active_learning_metrics.py",
+      "sha256": "b8a203d8ee269d8fbd3f6673c93e2ca8977635f8338d2a4d2a9030ba5582a335"
+    },
+    {
+      "path": "metrics/confusion_matrix.py",
+      "sha256": "4a96f6d2360f9db80665f3ca0d0237e9e3f39cf7f5c6e8f185ba0d9d6f07c5d4"
+    },
+    {
+      "path": "metrics/cumulative_average.py",
+      "sha256": "f061a31e68816e8062929ae0d77f344ac367ed1833148ac71960580c1bfa79b1"
+    },
+    {
+      "path": "metrics/f_beta_score.py",
+      "sha256": "bab23427fb6f974a90e7e9767e0595fe30a16e0a732e682946ad76e41df2c69c"
+    },
+    {
+      "path": "metrics/fid.py",
+      "sha256": "a791b4ded427ff6ae1ba461d90f4bee58f4847355c1a58017315350422862f37"
+    },
+    {
+      "path": "metrics/froc.py",
+      "sha256": "abb30016c1c7229e441c11f06b951b1793d10298d4a27c3e8545dac7d9355b14"
+    },
+    {
+      "path": "metrics/generalized_dice.py",
+      "sha256": "f598849867cc64bc45005e8099dadb28e73c03f40e50c526219e882e6fa1d350"
+    },
+    {
+      "path": "metrics/hausdorff_distance.py",
+      "sha256": "e3f649676815d5b3e1391e4cc73d0fc8de98fd7d664d9e94e93e20491c237c31"
+    },
+    {
+      "path": "metrics/loss_metric.py",
+      "sha256": "9bd8d7a1b54728b78363ff32ac0f66ec5c1f6a94806fe91821d5093ac6ef06f6"
+    },
+    {
+      "path": "metrics/meandice.py",
+      "sha256": "6c588370af9a7f872a57e24700ed908768b1c23e9f2e368109a08eea30409b14"
+    },
+    {
+      "path": "metrics/meaniou.py",
+      "sha256": "706a16d6b7bbbf88715c97e3c8454414db2ecc4ba98096887ba64afeaadb223c"
+    },
+    {
+      "path": "metrics/metric.py",
+      "sha256": "56d20c36e7701641211805f59f469831a8f5f322ad98434aa68d09b96a1516f4"
+    },
+    {
+      "path": "metrics/mmd.py",
+      "sha256": "6bf3b45a550faed7a01b5e9e06711a7f51e780f378b389c01f55adbc6a3ef015"
+    },
+    {
+      "path": "metrics/panoptic_quality.py",
+      "sha256": "86c3abf6469cf4b2d5388dadbc5b98f34b1f4e4f70f47386eb3681c6d8c506f2"
+    },
+    {
+      "path": "metrics/regression.py",
+      "sha256": "255ef1f226c3d38859796cfcdc0736ea38f2b9fb026a7bc09a8843f9e58ab5b6"
+    },
+    {
+      "path": "metrics/rocauc.py",
+      "sha256": "c4ea2981869a85a1f5f8f983e321b70777f6e6403de722b9e816d723292b6bad"
+    },
+    {
+      "path": "metrics/surface_dice.py",
+      "sha256": "68d111b13b8990f31fc5ab4f680ce85b52adbd9bd402fe2a7bfeca97f74e44e2"
+    },
+    {
+      "path": "metrics/surface_distance.py",
+      "sha256": "6ca0d39bbba58637e2a611cbac326803738a2379e9c10cb6679c18f89917b578"
+    },
+    {
+      "path": "metrics/utils.py",
+      "sha256": "790f50186bee366605ae0b5514d880e38a4185a1cb0a49a9c9e2b615c2bfd8f7"
+    },
+    {
+      "path": "metrics/wrapper.py",
+      "sha256": "735ce0fb1732a50c99f38d1312e8612e0af8b029583164f196fd4e89e253b6f1"
+    },
+    {
+      "path": "networks/__init__.py",
+      "sha256": "673536428f200d736244117425aa48a37c6579c6478d7b09b9aac5d0829528a6"
+    },
+    {
+      "path": "networks/blocks/__init__.py",
+      "sha256": "c5ffb848b4232f76d4ed3fef0a70086de073cf462cdabaed95e8093396de8fe4"
+    },
+    {
+      "path": "networks/blocks/acti_norm.py",
+      "sha256": "6d51976d367fb2c46f9840f947b2ce43b8e3e15e966d5165f0930efb8899d839"
+    },
+    {
+      "path": "networks/blocks/activation.py",
+      "sha256": "4b9937cdc3f63ec1c191e23181680d83ca695bcd2d4d17ac54fda3f59b2f4c5c"
+    },
+    {
+      "path": "networks/blocks/aspp.py",
+      "sha256": "186184ecd7d68fbed191a5876dc2ee50fe007dff967a20ebb60b45b92a1e9109"
+    },
+    {
+      "path": "networks/blocks/attention_utils.py",
+      "sha256": "50096db4ba67f2f24222263259711417e37355340138af9a4e2786b51e56ad79"
+    },
+    {
+      "path": "networks/blocks/backbone_fpn_utils.py",
+      "sha256": "99d5c5c2d9d1830b9a8ac4e563e73b3a4635659058dc8f367408e95c501915b8"
+    },
+    {
+      "path": "networks/blocks/convolutions.py",
+      "sha256": "81199b61fcb7211e2d6a25eec5e1f92863858cfe791685567cfe1ed4be9a8b4b"
+    },
+    {
+      "path": "networks/blocks/crf.py",
+      "sha256": "807c91801583f439a66c22675f0b0c6ba58decdf5f0cbb93fd2c07f0c9c78571"
+    },
+    {
+      "path": "networks/blocks/crossattention.py",
+      "sha256": "53afeba7d151a1de7fd6c023e4604de0c328bd35d071f8e5a2c5b5bcc5775160"
+    },
+    {
+      "path": "networks/blocks/denseblock.py",
+      "sha256": "86cd6b701a7de5eb994f950b8e079f3c0a591fbe7e86a49a54a28db47746b75d"
+    },
+    {
+      "path": "networks/blocks/dints_block.py",
+      "sha256": "f895b3e3e9e7023acec54da827cebea8df0aadbf056b2292f19a5ba75c0b5f37"
+    },
+    {
+      "path": "networks/blocks/downsample.py",
+      "sha256": "d7c7306172f91f70c2e58ab5d9c76a4c88a30c97cc084d9834794f7ad141e946"
+    },
+    {
+      "path": "networks/blocks/dynunet_block.py",
+      "sha256": "920f0d3532f89c1aaccba801731992e5908fc6585633f881d01cb24d0e007cfb"
+    },
+    {
+      "path": "networks/blocks/encoder.py",
+      "sha256": "3701f955240bc1a989aab49b652750a8cc190a4f3408f6d2a4c184134af40b0a"
+    },
+    {
+      "path": "networks/blocks/fcn.py",
+      "sha256": "9a708caf1854763db26740cf223d177fd38a55dbfeaa11b50699c08398fbaba7"
+    },
+    {
+      "path": "networks/blocks/feature_pyramid_network.py",
+      "sha256": "fc3780cbf94d9cfaa336224b728a63a9efcf1d54e100272dae06d7992481dc9c"
+    },
+    {
+      "path": "networks/blocks/fft_utils_t.py",
+      "sha256": "f1b3af84b80fe670cbcfc430cc3e179d16b113dfad19b6b6f9bfd00caf08592b"
+    },
+    {
+      "path": "networks/blocks/localnet_block.py",
+      "sha256": "6f6f9966f90c3e98472596136f01190e1a80fa63014853395903a8a2193fe96e"
+    },
+    {
+      "path": "networks/blocks/mednext_block.py",
+      "sha256": "18a685911be6868efdcb1c1f632792689b4716d935f39758d2d038feb3e7b100"
+    },
+    {
+      "path": "networks/blocks/mlp.py",
+      "sha256": "ab0fe3832ad8c2843959804cd6bb5249a3b80bcdfb65b72da112a187f0504052"
+    },
+    {
+      "path": "networks/blocks/patchembedding.py",
+      "sha256": "b69d1ca31a62ef42dc524d371db9f2805782c5c06fe5b34725bc3572b206fc9b"
+    },
+    {
+      "path": "networks/blocks/pos_embed_utils.py",
+      "sha256": "bc5110ab167a5009a3732fe27050cbf44c23447617b886d6af572159426a3bb8"
+    },
+    {
+      "path": "networks/blocks/regunet_block.py",
+      "sha256": "d452c8c1506d93ae8823ac50ed0e0b318f033f4acc99e7ed37b1ee6848277f70"
+    },
+    {
+      "path": "networks/blocks/rel_pos_embedding.py",
+      "sha256": "c2e4c9b24fcd1d20d7fb75745fd72d17df56221dbe4872c36d0c73ac6eedcffe"
+    },
+    {
+      "path": "networks/blocks/segresnet_block.py",
+      "sha256": "7511056b4096b925a548e9b9ddf4fbbd9cfa502d89ffb24011a78707dad88c09"
+    },
+    {
+      "path": "networks/blocks/selfattention.py",
+      "sha256": "b1555560b9b80723816c46eb2985b6900dc946007692f799a8330e7c4cc7b8eb"
+    },
+    {
+      "path": "networks/blocks/spade_norm.py",
+      "sha256": "2aad889a609005a15444c9ce4e3d3c6a98601a41778210e6d7d917a4f46af757"
+    },
+    {
+      "path": "networks/blocks/spatialattention.py",
+      "sha256": "1e1a0e9e9d187f280e6677bc8d98f141ecd15c8c1083591fb3e09da34aeec61c"
+    },
+    {
+      "path": "networks/blocks/squeeze_and_excitation.py",
+      "sha256": "cb6917828485c72c2ef8a08661b23f77e34208011bb8a008639812a8efd3ed32"
+    },
+    {
+      "path": "networks/blocks/text_embedding.py",
+      "sha256": "1c89424d0092c8e1179eaa3597d4ce0b4e5db82a1e59df4a6f839cd20bcb64ac"
+    },
+    {
+      "path": "networks/blocks/transformerblock.py",
+      "sha256": "520247e12f786b919a5368fef479e6624093db8eef83157beb23bd77fe93bb59"
+    },
+    {
+      "path": "networks/blocks/unetr_block.py",
+      "sha256": "77faea13be8e15f777411707ba8af965e8b6a4eaeea6895e056bb779852ea747"
+    },
+    {
+      "path": "networks/blocks/upsample.py",
+      "sha256": "09eaaa2b1df580dc35093df1cfa5295347ce8e05beed95b109100e1f8a80731b"
+    },
+    {
+      "path": "networks/blocks/warp.py",
+      "sha256": "5d5159299474901844b54e7ec50b1aa8bd3a6bea4023b24956ea50083d97e1ef"
+    },
+    {
+      "path": "networks/layers/__init__.py",
+      "sha256": "79288db47bb4119d40f1fc3f94f4e2ff8b3375132c81995986d2fa4d1edf5277"
+    },
+    {
+      "path": "networks/layers/conjugate_gradient.py",
+      "sha256": "9020308ed5ff8f9c2b811f31e7659d1a5e320b066672750538d9ccd341b5b165"
+    },
+    {
+      "path": "networks/layers/convutils.py",
+      "sha256": "cf06d82b85893b54e3d8a0129ce7f1c189dbde9e298b35f1759466e88d4fde3e"
+    },
+    {
+      "path": "networks/layers/drop_path.py",
+      "sha256": "499b5135ad5b0f0935ad759b51eef46036b0e87fcd29ea659bf5a4e587b52f86"
+    },
+    {
+      "path": "networks/layers/factories.py",
+      "sha256": "74c8fecb72d15793ff166a8c099b9ffc0f0ff25fdf81edd35405d6ccd84e36ea"
+    },
+    {
+      "path": "networks/layers/filtering.py",
+      "sha256": "dbde1368417fa05f88b8becd43387ae22c16dbc6d17b36cf1b0a7d2b29cffe4b"
+    },
+    {
+      "path": "networks/layers/gmm.py",
+      "sha256": "02af980878146a580e650d31e66c182897b51bb6a20a22726dd90f4e2893d76d"
+    },
+    {
+      "path": "networks/layers/simplelayers.py",
+      "sha256": "72251d2ab8ff0e911d4f700ab3bd1a3f24a1ef750cb328683824e2476aa4f09b"
+    },
+    {
+      "path": "networks/layers/spatial_transforms.py",
+      "sha256": "7f3dadefe89b8a334ba93629027e1981d5edcc1488c9695a177e6642da96458e"
+    },
+    {
+      "path": "networks/layers/utils.py",
+      "sha256": "93fdb154ef014c430c549b5e994c8a056c38ff9c6da9de8e393386f2a95df13a"
+    },
+    {
+      "path": "networks/layers/vector_quantizer.py",
+      "sha256": "d0f09c687e7fb9ac453911e011eb5029aceaef88e03959af409de1e18c1ab7a6"
+    },
+    {
+      "path": "networks/layers/weight_init.py",
+      "sha256": "7a1c08e45ee39bf9660e42b8a952fba1c2330843f1e543e02da51172c7cc3709"
+    },
+    {
+      "path": "networks/nets/__init__.py",
+      "sha256": "b0498e767af0cbe7826faf8710f7fdc9214cc84985d0671d5f31112f033bb330"
+    },
+    {
+      "path": "networks/nets/ahnet.py",
+      "sha256": "453fa5a026b967fdc8d83581f25991921c465d2b27315042103a70a3af3e601e"
+    },
+    {
+      "path": "networks/nets/attentionunet.py",
+      "sha256": "96ab2bce9cb4b11bae16302d294509d214f794617db24a5ea565cb1b4241a3e9"
+    },
+    {
+      "path": "networks/nets/autoencoder.py",
+      "sha256": "42e2dd0df0f085e7c8a80da7f177e61728b94fc7a73fa3b83c44dd04a98530a7"
+    },
+    {
+      "path": "networks/nets/autoencoderkl.py",
+      "sha256": "4e8c08f9ac8b12face8818c665e43431b5ebc459cb10a8f9141a93079e608151"
+    },
+    {
+      "path": "networks/nets/basic_unet.py",
+      "sha256": "2bbe90f965ee08f18d7fc5fda9ad70c2d8afd60cf094446b2fa04aa8a729ce54"
+    },
+    {
+      "path": "networks/nets/basic_unetplusplus.py",
+      "sha256": "336b120a05afaa0a6246ad6da51d7ae2e7676cdd5690ed5af353e68027d5e655"
+    },
+    {
+      "path": "networks/nets/cell_sam_wrapper.py",
+      "sha256": "f3c6f3773cf0ff5ff09dc61dc6dd8402d50dedcd043ddccd68ba75956d48fffb"
+    },
+    {
+      "path": "networks/nets/classifier.py",
+      "sha256": "53de0e33dd7fa4d4fbe30415fbf2cec409db2ef8ee26f9e8acc2bec5c13b1c91"
+    },
+    {
+      "path": "networks/nets/controlnet.py",
+      "sha256": "c7e14fe0fea162ae89f31d31db9a3a2ed7e09fca073b8024504c3c715d305030"
+    },
+    {
+      "path": "networks/nets/daf3d.py",
+      "sha256": "9a3422682ade291f22b04d693167cf3163f9e54abd8dc10b72576ed82668e4f1"
+    },
+    {
+      "path": "networks/nets/densenet.py",
+      "sha256": "d0b66a594dc735f9c490d2813f0560d861687881d00796817cfdbf539e1bbfc8"
+    },
+    {
+      "path": "networks/nets/diffusion_model_unet.py",
+      "sha256": "0af9c98e8cadc71b24ba20aa50aaad950e2f14d8d8522304e0e77e3890ed5259"
+    },
+    {
+      "path": "networks/nets/dints.py",
+      "sha256": "1802f672658e93f9a1b11688759de9afe98c2ea9dc58835d2425a3dba22e90bd"
+    },
+    {
+      "path": "networks/nets/dynunet.py",
+      "sha256": "4b60d7fed6f2edee620872fbaba5fa7febd3e87c0fead6dbda546af601d5276e"
+    },
+    {
+      "path": "networks/nets/efficientnet.py",
+      "sha256": "45c10ced94cb0a9f4fcc4d3ab0224351b4adccc66922d4a26630e56d151acfee"
+    },
+    {
+      "path": "networks/nets/flexible_unet.py",
+      "sha256": "54dddc2503cc998fbe4e9664b83c045a89cf80973847724a0702421ac9fbb204"
+    },
+    {
+      "path": "networks/nets/fullyconnectednet.py",
+      "sha256": "8f9ba8ebcaa7612c601ffb0431187bb3740634a15a2402319b1f0e8b112fd888"
+    },
+    {
+      "path": "networks/nets/generator.py",
+      "sha256": "ab6d04025f4ded0e7ab7bf098996941243e1616c83d36a2a3b4c9e90909df71d"
+    },
+    {
+      "path": "networks/nets/highresnet.py",
+      "sha256": "d4cc7c951e4ae2c4571968eca4300768aab45ab5fd43bab3f0270108a6712179"
+    },
+    {
+      "path": "networks/nets/hovernet.py",
+      "sha256": "8100de0c6a82c232400933e640b031f673d104efc3eb917eb1cc75e70dc7a3f4"
+    },
+    {
+      "path": "networks/nets/mednext.py",
+      "sha256": "b2fb08934747ecc74d23c16bede3f660cf23d48049da9685ee6ff6556a4b399e"
+    },
+    {
+      "path": "networks/nets/milmodel.py",
+      "sha256": "6940e06091b4912de9e27056fdd17b6f8716c2e0b7d70dca233994cd7034f071"
+    },
+    {
+      "path": "networks/nets/netadapter.py",
+      "sha256": "26d70c13da5c83cb9de231ca64a33d7c4fbc95e3f63d05e05087ca05d074c1c0"
+    },
+    {
+      "path": "networks/nets/patchgan_discriminator.py",
+      "sha256": "c934f4a27d25ce50f04aee01f4c70ca9dc6abb9c43ed6b3dc02c04931bc912ed"
+    },
+    {
+      "path": "networks/nets/quicknat.py",
+      "sha256": "928d413bd9788b8055606e55e28864c14132a11acf3cfce6a8daa71612d36749"
+    },
+    {
+      "path": "networks/nets/regressor.py",
+      "sha256": "e8dcf9c89b900c924eaf9474ae1a2dfe61eeeff303080e326d5e3cc12d474b53"
+    },
+    {
+      "path": "networks/nets/regunet.py",
+      "sha256": "f80eb2811ee557201f945caa5a45553ac63de2e3175a89757f6c6bfc79ac5357"
+    },
+    {
+      "path": "networks/nets/resnet.py",
+      "sha256": "a28d4c080f6171c055c0370cad93695666c34919f774e124ae7dc36ca5b65999"
+    },
+    {
+      "path": "networks/nets/segresnet.py",
+      "sha256": "c4d91222f764ee40327377959fe53f8068fc3281957399e494529cfdf920394b"
+    },
+    {
+      "path": "networks/nets/segresnet_ds.py",
+      "sha256": "5c517b1ca32df566df73d7d94a07e355d7d841c3f4775f72829dd54fb387cc98"
+    },
+    {
+      "path": "networks/nets/senet.py",
+      "sha256": "82e96a3cc62648005b31b377f4d1251b3494d53286be225ab3b10f4c1699eb40"
+    },
+    {
+      "path": "networks/nets/spade_autoencoderkl.py",
+      "sha256": "f9bd926e5e233e9c28dee91382c4dc38ddba7124c1df92bdb32d52f432a5673d"
+    },
+    {
+      "path": "networks/nets/spade_diffusion_model_unet.py",
+      "sha256": "cd8b178641cda47596c9a97996300cc4e20227596861040c00ebb35b374b0423"
+    },
+    {
+      "path": "networks/nets/spade_network.py",
+      "sha256": "1a0b98b9c8c84724ffad96bd0ebbd49afd3416da971d9b58d557c933d472827b"
+    },
+    {
+      "path": "networks/nets/swin_unetr.py",
+      "sha256": "ebd18732fb414e926f586bd8b1861e9d2756a20c38cbbecccb6066d35ea68a60"
+    },
+    {
+      "path": "networks/nets/torchvision_fc.py",
+      "sha256": "de0e4f0fb0b5312910f319dd86755dd1bdda37ccdfb214fcba2152d0e1f241a6"
+    },
+    {
+      "path": "networks/nets/transchex.py",
+      "sha256": "b80fd17d30df3e1c00d5e7003d9f440e733224a9f6b5430b11677207fad4dafd"
+    },
+    {
+      "path": "networks/nets/transformer.py",
+      "sha256": "fa7ce5db4679c5db67ef10a139dfdc45b6cf5683c814655f4d0c377c810632e1"
+    },
+    {
+      "path": "networks/nets/unet.py",
+      "sha256": "b766a7f8d67c411a566a5eae8755a9c46d6d6de90a443810b694fb61e5d616f6"
+    },
+    {
+      "path": "networks/nets/unetr.py",
+      "sha256": "1baee48e204ccf5dccccfe1e57c5caf86c9d4a880cc205da04c1434a1179b01f"
+    },
+    {
+      "path": "networks/nets/varautoencoder.py",
+      "sha256": "3ddf417575b58958e601509921cd84946b520c059105a2f010ac4b0e2732c592"
+    },
+    {
+      "path": "networks/nets/vista3d.py",
+      "sha256": "8ec41f125fc4cc49a3d0b0a8f2bb3dc0af683aa37c51d8ac9f9c595c0bba9918"
+    },
+    {
+      "path": "networks/nets/vit.py",
+      "sha256": "c84cc5150967e627a49e717c035fde701fdcd12b8e0419eb5cf7ac9bf93356db"
+    },
+    {
+      "path": "networks/nets/vitautoenc.py",
+      "sha256": "bdf4015a34dbd24ec4638b82efaae6b8e08851481e06f7ff1085c1a1f0b35474"
+    },
+    {
+      "path": "networks/nets/vnet.py",
+      "sha256": "cda262e644a24cb02e1474e14997e126f1cfeb32a1de8056b13586fb7dbc3bf8"
+    },
+    {
+      "path": "networks/nets/voxelmorph.py",
+      "sha256": "43955014b2ca485aa1b06d19f3fef66467cad6703891d09f16719ba88e84a1f8"
+    },
+    {
+      "path": "networks/nets/vqvae.py",
+      "sha256": "65ff5f4cbfeb96e86e2611fa813341ea288a45fc01c5fbaeca109d53d4cb9809"
+    },
+    {
+      "path": "networks/schedulers/__init__.py",
+      "sha256": "acf9ab36f9edf0187d0f6a263cc80388656e4f55d526582d956225a80fec8dbe"
+    },
+    {
+      "path": "networks/schedulers/ddim.py",
+      "sha256": "332807be02c1fcd2fde3cf03847b04fe0f84bd5e839433ed88144ea670af0c77"
+    },
+    {
+      "path": "networks/schedulers/ddpm.py",
+      "sha256": "2cfaa694d25ec77d90aea7156f9b3b5c234a56514fb1dff4e7e2091e950964f2"
+    },
+    {
+      "path": "networks/schedulers/pndm.py",
+      "sha256": "f507bc34ec3fb6f9690812bbcaf926cab8b219f20ee5144357c64a3e1f397106"
+    },
+    {
+      "path": "networks/schedulers/scheduler.py",
+      "sha256": "5f97aee409ad36269db3d720685cb9afb05d94a600492202c864b217e7e4eb1f"
+    },
+    {
+      "path": "networks/trt_compiler.py",
+      "sha256": "2057ec335a8566f9825016c4bdb1e765eebfce631c5e0864a64ce63f8ddd65b9"
+    },
+    {
+      "path": "networks/utils.py",
+      "sha256": "0e2a3cff4436590b7772b818c4a941acdbca5a445a0dd6d4d60be8ac5f2fd25a"
+    },
+    {
+      "path": "optimizers/__init__.py",
+      "sha256": "5d42fba3dbd22fb6d9226a71559a9c73573c33050cace64be2727e9a3000ef23"
+    },
+    {
+      "path": "optimizers/lr_finder.py",
+      "sha256": "b5b562eaa77e2cb23aa4434cf5c0d4bfe1e1d47ab388edd66fd688e89a1a3e78"
+    },
+    {
+      "path": "optimizers/lr_scheduler.py",
+      "sha256": "60f6393168024e6131b88381b1526b81f12b9024f510b05e91c1f45de44fe8a9"
+    },
+    {
+      "path": "optimizers/novograd.py",
+      "sha256": "7608f233e586aab107b1228d748dcbc35c09d98346de8282628b5f3ec0c113cd"
+    },
+    {
+      "path": "optimizers/utils.py",
+      "sha256": "195b09b1958ed9a00ff48cf085781c6bff6050d1c50a5ba9eaa1b8645b38db3e"
+    },
+    {
+      "path": "transforms/__init__.py",
+      "sha256": "97221feb8bfe236b282237cad91c4e592eff08873ec7a6d12472c8e9467cc83b"
+    },
+    {
+      "path": "transforms/adaptors.py",
+      "sha256": "2e96028657653aeafe54582efe70480737b427ce35f8d5a07f4507bef1d134f5"
+    },
+    {
+      "path": "transforms/compose.py",
+      "sha256": "cd06bf85ff2021ab5eaf7068fd75b52156205fb6856bf0a8ebe0593f0a1e690c"
+    },
+    {
+      "path": "transforms/croppad/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/croppad/array.py",
+      "sha256": "992cddd5774d2b8bd907df1f965fa044440cd445ae3ce7cd754353a668b2f900"
+    },
+    {
+      "path": "transforms/croppad/batch.py",
+      "sha256": "e6e91c624dd5083a64eb600be50fe34eaa57992353970d14094843780078695d"
+    },
+    {
+      "path": "transforms/croppad/dictionary.py",
+      "sha256": "58ece3fcf8e6a01df32c49ad42569f6fdf8f5a05ddface4aed9e43a1cf00767b"
+    },
+    {
+      "path": "transforms/croppad/functional.py",
+      "sha256": "8aba03d1705a306d4ca31ebe128b488769c053124fae923252b1e8a5cf374ae8"
+    },
+    {
+      "path": "transforms/intensity/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/intensity/array.py",
+      "sha256": "4a91b7bbd2cfb90c4393bee512f3c2e3eb47d6d88eb5a7030df7324327488642"
+    },
+    {
+      "path": "transforms/intensity/dictionary.py",
+      "sha256": "30478c2907249fa5fe704939d59d984c68edf3d468841cc57cefe35370f4eb09"
+    },
+    {
+      "path": "transforms/inverse.py",
+      "sha256": "5a0f149cc26bbb8d46dde1c68a951e9805b3887194faa75df8595f8b778ea5ea"
+    },
+    {
+      "path": "transforms/inverse_batch_transform.py",
+      "sha256": "7cc6ee919ab63fdf4186aa8cb9664527db9ba19e5d37ad4c06fbe27307f8d15d"
+    },
+    {
+      "path": "transforms/io/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/io/array.py",
+      "sha256": "cf868ec4ae38221ced37e2f31b6b913980f083fbb50ba81ca71f591fe661a150"
+    },
+    {
+      "path": "transforms/io/dictionary.py",
+      "sha256": "eb833d294b0acb3c17a290dc6ab5d3ec9288bfdac73fc01ef9f611bc8d3206e3"
+    },
+    {
+      "path": "transforms/lazy/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/lazy/array.py",
+      "sha256": "da334b990dffb0c5fb0dd6df713dc4c6da707b91603816dbcf646a94397235cc"
+    },
+    {
+      "path": "transforms/lazy/dictionary.py",
+      "sha256": "6e0a59e423e1e6b8dd7f54f979056ac652e1d01e7bc5358759a05453189002ee"
+    },
+    {
+      "path": "transforms/lazy/functional.py",
+      "sha256": "a7e9d2975c69364e87b4efd1978aa7e4c1ea62983dd24f1ebfe6a83215ca5f2e"
+    },
+    {
+      "path": "transforms/lazy/utils.py",
+      "sha256": "76d2d1265229a7949e87c8726f97dc37cf3e487ed5b20e6e2cad69ddfb5074fe"
+    },
+    {
+      "path": "transforms/meta_utility/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/meta_utility/dictionary.py",
+      "sha256": "62a6d87993a2e1c1449843e6af0d95229388c2b7bac31601d941994ab7fe3283"
+    },
+    {
+      "path": "transforms/nvtx.py",
+      "sha256": "d442845d92214d414aa08ac999dfdf7afc2b1f0a3bdf575515414940588e937c"
+    },
+    {
+      "path": "transforms/post/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/post/array.py",
+      "sha256": "d3a0df77fe9c7fe5499de7aded6c1bc45165244858877eb9c6eddf91cbc64f0b"
+    },
+    {
+      "path": "transforms/post/dictionary.py",
+      "sha256": "a6ae0e8771a80dc4bab235242ef1f3626c92c6ec73556ee0ae3a2016e46c52c0"
+    },
+    {
+      "path": "transforms/regularization/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/regularization/array.py",
+      "sha256": "a121b4f1bee8a4a19b1d5664a5e7dd1b5a34b17fc5efe56896dce9366e4c07a9"
+    },
+    {
+      "path": "transforms/regularization/dictionary.py",
+      "sha256": "6f6870f271259107b2bb72d94a75afcfba5031c2bdb42b8d1e92ee78019342bf"
+    },
+    {
+      "path": "transforms/signal/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/signal/array.py",
+      "sha256": "79396fa8e214422c61fafa13349725e77d91bc6e1995004d787860dd34f70ada"
+    },
+    {
+      "path": "transforms/signal/dictionary.py",
+      "sha256": "26b51e1ddb2d4af42ac7bbb7da1ef860189201615e3b3b7cc004b4100dd51169"
+    },
+    {
+      "path": "transforms/smooth_field/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/smooth_field/array.py",
+      "sha256": "3f3e04ae671f553459a417b8fc80174d61e51929917c4c5e80d298cab495c2c1"
+    },
+    {
+      "path": "transforms/smooth_field/dictionary.py",
+      "sha256": "894e15d958d2cb61f52b4dca82e98c52bddcc995561094b45beb6073a499b4fe"
+    },
+    {
+      "path": "transforms/spatial/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/spatial/array.py",
+      "sha256": "e442a2bdd3d808fe22e2a6149642b5469610173694fdb698cb382e6e27778ed3"
+    },
+    {
+      "path": "transforms/spatial/dictionary.py",
+      "sha256": "b744af103495345504c367caeba395176d2ca92cc23718a5d7b1e6bec30506df"
+    },
+    {
+      "path": "transforms/spatial/functional.py",
+      "sha256": "2304b4c22b42a9b1a4caec73bbf47866da7dd12d2983d858d62ac6edf797aa28"
+    },
+    {
+      "path": "transforms/traits.py",
+      "sha256": "17c9268677a44f2680768f302058cedfebaaa55b661729b798dc5b61bcaf9052"
+    },
+    {
+      "path": "transforms/transform.py",
+      "sha256": "0ea5b27ee23e1430718ea7ab9f7dd1e886b58807c76f72a1e7abbefffb69d4ac"
+    },
+    {
+      "path": "transforms/utility/__init__.py",
+      "sha256": "b3d76349dea4bd588f9c5bcc475d4381ddf42efe2863a15a3c9af86592592ead"
+    },
+    {
+      "path": "transforms/utility/array.py",
+      "sha256": "26ee56bcb0e6ba3aa1db23db8bd897faa6d2b5b59ae62a9432b6ee3b0cb4c7ac"
+    },
+    {
+      "path": "transforms/utility/dictionary.py",
+      "sha256": "37a136df4fa0db3ba91bade80ac0175a091d7d9985fbef9365bbe4ee9e45414f"
+    },
+    {
+      "path": "transforms/utils.py",
+      "sha256": "4a74e2c9dfb743970d183cc04ca4d7209a487969828372ea0715a7c8a53193ef"
+    },
+    {
+      "path": "transforms/utils_create_transform_ims.py",
+      "sha256": "4042551ec0995fb671b0102b93a363802cd266eba891ff25d6e16a894641072b"
+    },
+    {
+      "path": "transforms/utils_morphological_ops.py",
+      "sha256": "b6dd2544b2f19a59e7f6ba14b8f101b6a6a1eadec11fc8adb71c8316eb249142"
+    },
+    {
+      "path": "transforms/utils_pytorch_numpy_unification.py",
+      "sha256": "dd6642092469bc5a39ba0745630f49cd22f449503df360a6be567bf85744e289"
+    },
+    {
+      "path": "utils/__init__.py",
+      "sha256": "dbf008a5bd70a863249a0a19debe379ae15312c9cc4c290fbb72ed7248a96078"
+    },
+    {
+      "path": "utils/aliases.py",
+      "sha256": "b81c642ee7517f2dd1b6cf51668e0d0cf1a8ab87b762671a8a193a953f76185a"
+    },
+    {
+      "path": "utils/component_store.py",
+      "sha256": "15ef636c7830c01040789030d27234d807b5defd7bc25c05e8df6e52e7bcb498"
+    },
+    {
+      "path": "utils/decorators.py",
+      "sha256": "aa185d98932331f64850ceb1fd5194185ee46aad9c05401a9bc5b298053f9a1c"
+    },
+    {
+      "path": "utils/deprecate_utils.py",
+      "sha256": "80a78457832c239d6a790e60722da67bf0bed1efad0f06b7559cdddd73d0a8b9"
+    },
+    {
+      "path": "utils/dist.py",
+      "sha256": "edbac1e360af752f09bebf18ee17eaa2fd6e93a34d9d879af5d61f80c632d016"
+    },
+    {
+      "path": "utils/enums.py",
+      "sha256": "a2b095ed21836a362d9770e14d38db2c36dacabe96c64312c3f6d9eb27861936"
+    },
+    {
+      "path": "utils/jupyter_utils.py",
+      "sha256": "910a9f2d32c0adedd32f35d3b74f755ff5de5b2e4ad10280713b98949f0139a8"
+    },
+    {
+      "path": "utils/misc.py",
+      "sha256": "47eb024b9bbb480f215fa7bbc7a59273c1602dc369a8a151443316c54776c02a"
+    },
+    {
+      "path": "utils/module.py",
+      "sha256": "d86f6682b521cad9080031d63c01f8c562978088649c16338ff4422997581c90"
+    },
+    {
+      "path": "utils/nvtx.py",
+      "sha256": "8bd241c51d6e856d590a02cf2e54f1f1bf74ed0957905cc9c9304b32516386d5"
+    },
+    {
+      "path": "utils/ordering.py",
+      "sha256": "d27940e5be50a550876ed8826d30be62caa34e68e6d1bb9bd0878984614139eb"
+    },
+    {
+      "path": "utils/profiling.py",
+      "sha256": "576fdc48782b726545e3cfc6de7522dbe3ba7e75ec4bcf674a56fc8e3e7c60ba"
+    },
+    {
+      "path": "utils/state_cacher.py",
+      "sha256": "482b344d6b9dfe547c7ef0e16743ce6972c62e8d49dcd00b5a48343833b04fb9"
+    },
+    {
+      "path": "utils/tf32.py",
+      "sha256": "e1baa93f1a1300c9900cd45b6eb778a871b6eded51af178099f0dfdef3fcb507"
+    },
+    {
+      "path": "utils/type_conversion.py",
+      "sha256": "7e3d665167fee5606ff66f9fa5ef208dc1a58c6046480f3e469a41a4a0ffc2fd"
+    },
+    {
+      "path": "visualize/__init__.py",
+      "sha256": "a7b76ff7e8516bdbc0865a47ca4f3ac9aa7d1e078378944ede95e61610f1f0c7"
+    },
+    {
+      "path": "visualize/class_activation_maps.py",
+      "sha256": "e5e110926a5c1374298af69d8e5b116412dc51cecda491c37d690a08b3809d43"
+    },
+    {
+      "path": "visualize/gradient_based.py",
+      "sha256": "a17a8cc6a20295596b825a19c20753525e295a596ca12d32b1b8eebc06eef8a8"
+    },
+    {
+      "path": "visualize/img2tensorboard.py",
+      "sha256": "36731cc9f205a97fa30fb4c13b7467d36cede6eba0efd77fee92086950f973e2"
+    },
+    {
+      "path": "visualize/occlusion_sensitivity.py",
+      "sha256": "3901c424bc88841f335aa42c7ca697fb592f0a3585558b4b7d2e1d142d272852"
+    },
+    {
+      "path": "visualize/utils.py",
+      "sha256": "07e3214d5b3bb106c8a984b7c8f9e90703f0d8af36ac4d8f06d1887e9c19b563"
+    },
+    {
+      "path": "visualize/visualizer.py",
+      "sha256": "a9c93268c6426decd8530136d24e7273e3dbed4a3355abcc0dbae6c90c1f6076"
+    }
+  ]
+}

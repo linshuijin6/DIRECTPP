@@ -1,0 +1,25 @@
+{
+  "scanned_notebooks": 143,
+  "scan_failures": [],
+  "actual_full_template_exact_matches": 1857,
+  "filled_table_numeric_match": {
+    "MMSE Total Score": true,
+    "GDSCALE Total Score": true,
+    "Global CDR": true,
+    "FAQ Total Score": true,
+    "NPI-Q Total Score": true
+  },
+  "observed_conditioning_disagreements": 38,
+  "confirmed_imputed_cells": null,
+  "confirmed_diagnosis_derived_cells": null,
+  "current_pipeline_direct_target_pet_in_patient_prompt": false,
+  "upstream_filling_method": "not recovered in bounded source scope",
+  "upstream_target_pet_dependency": "not established; unknown is not proof of absence",
+  "upstream_cross_fold_fit": "not established; pre-existing fixed values preserved, no new global imputer fitted",
+  "diagnosis_dependency": "not confirmed; research-group-specific random statistics code is not bound to the patient table",
+  "training_scope_gate": "LIMITED_HISTORICAL_FIELDS",
+  "confirmed_adverse_dependency_found": false,
+  "adverse_dependency_search_scope": "bounded recovered-source audit; False means no confirmed finding, not proven absence",
+  "allowed_interpretation": "Incremental contribution of historical conditioning fields; not authentic observed-score benefit or exclusion of shortcuts",
+  "clinical_visit_alignment": "unverified; EXAMDATE/VISCODE absent"
+}

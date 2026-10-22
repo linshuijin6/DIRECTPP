@@ -1,0 +1,23 @@
+# Revision search scope only: files remain in place and Git visibility is unchanged.
+# Read AGENTS.md before broadening a search. Explicit file reads still work;
+# use --no-ignore only within a named historical directory when needed.
+
+# Legacy reports, result copies and notebook extracts are opt-in.
+/appendix/**
+!/appendix/**/
+# Preserve historical analysis entrypoints selected by core_code_index.csv.
+!/appendix/legacy_only/8_revision_evidence/recalculate_table_s1.py
+!/appendix/legacy_only/8_revision_evidence/compute_regional_statistics.py
+!/appendix/legacy_only/8_revision_evidence/revision_20261016/analyze_evidence.py
+!/appendix/legacy_only/8_revision_evidence/revision_20261016/reextract_syn_regions.py
+!/appendix/legacy_only/8_revision_evidence/revision_20261016/finalize_evidence.py
+
+# Historical reconnaissance is available through explicit scoped searches.
+/reports/history_audit_20261017/
+/reports/generator_fold_search_20261017/
+/reports/generation_metric_origin_20261017/
+/reports/generation_691_audit_20261017/
+/reports/source_collection/
+
+# Existing .gitignore rules continue to select source_archive core/dependencies.
+# Keep current experiments, reviewer inputs and E1 reports searchable.

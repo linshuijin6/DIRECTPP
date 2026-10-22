@@ -1,0 +1,76 @@
+--- before_fix/run.py
++++ experiments/e1_clinical_conditioning/run.py
+@@ -233,26 +233,38 @@
+ 
+ 
+ def batch_step(model,opt,scaler,data,row,patient,adapter,timestep):
+-    opt.zero_grad(set_to_none=True)
+     images=data["mri"];times=torch.tensor([timestep],device="cuda",dtype=torch.long);t=times.float()/1000
+-    losses=[]
+-    for i,tracer in enumerate(TRACERS):
+-        if not row["has_"+tracer]:continue
+-        with torch.autocast("cuda",dtype=torch.float16):
+-            target=data[tracer];context=torch.stack([patient,adapter[i]])[None]
+-            pred=model(x=t*target+(1-t)*images,timesteps=times,context=context)
+-            tracer_loss=F.mse_loss((target-images).float(),pred.float())
+-        assert torch.isfinite(tracer_loss),"Nonfinite pilot/training loss"
+-        # Gradient of L_FDG + L_AV45 is the sum of branch gradients. Release
+-        # each graph before the next forward; optimizer/scaler update only once.
+-        scaler.scale(tracer_loss).backward()
+-        losses.append(tracer_loss.detach())
+-        del pred,tracer_loss
+-    loss=sum(losses)
+-    scaler.unscale_(opt)
+-    assert torch.stack([torch.isfinite(p.grad).all() for p in model.parameters() if p.grad is not None]).all(),"Nonfinite gradient"
+-    scaler.step(opt);scaler.update()
+-    return float(loss.detach())
++    cuda_rng=torch.cuda.get_rng_state()
++    for attempt in range(8):
++        # Recompute the same subject/timestep and stochastic forward at a lower
++        # scale after overflow; count only an actual, finite optimizer update.
++        if attempt:torch.cuda.set_rng_state(cuda_rng)
++        opt.zero_grad(set_to_none=True)
++        losses=[]
++        for i,tracer in enumerate(TRACERS):
++            if not row["has_"+tracer]:continue
++            with torch.autocast("cuda",dtype=torch.float16):
++                target=data[tracer];context=torch.stack([patient,adapter[i]])[None]
++                pred=model(x=t*target+(1-t)*images,timesteps=times,context=context)
++                tracer_loss=F.mse_loss((target-images).float(),pred.float())
++            assert torch.isfinite(tracer_loss),"Nonfinite pilot/training loss"
++            # Gradient of L_FDG + L_AV45 is the sum of branch gradients. Release
++            # each graph before the next forward; optimizer/scaler update once.
++            scaler.scale(tracer_loss).backward()
++            losses.append(tracer_loss.detach())
++            del pred,tracer_loss
++        loss=sum(losses)
++        scaler.unscale_(opt)
++        finite=bool(torch.stack([torch.isfinite(p.grad).all() for p in model.parameters() if p.grad is not None]).all())
++        scale=scaler.get_scale()
++        if not finite and not scaler.is_enabled():
++            raise RuntimeError("Nonfinite gradient with AMP scaling disabled")
++        # GradScaler skips optimizer.step on overflow and backs off the scale.
++        scaler.step(opt);scaler.update()
++        if finite:return float(loss.detach())
++        print(json.dumps(dict(event="amp_overflow_retry",ptid=row["ptid"],timestep=timestep,
++            attempt=attempt+1,loss=float(loss.detach()),scale_before=scale,scale_after=scaler.get_scale())),flush=True)
++    raise RuntimeError(f"Nonfinite gradient persisted after 8 AMP attempts: {row['ptid']}, timestep={timestep}")
+ 
+ 
+ @torch.inference_mode()
+@@ -465,13 +477,12 @@
+             updates+=1
+             if iteration<=5 or iteration%100==0 or iteration==len(train_rows):
+                 event=dict(event="optimizer_step",epoch=epoch,iteration=iteration,optimizer_updates=updates,
+-                    ptid=r["ptid"],timestep=t,loss=losses[-1],step_seconds=time.monotonic()-started,
++                    ptid=r["ptid"],timestep=t,loss=losses[-1],amp_scale=scaler.get_scale(),step_seconds=time.monotonic()-started,
+                     peak_allocated_bytes=torch.cuda.max_memory_allocated(),peak_reserved_bytes=torch.cuda.max_memory_reserved())
+                 print(json.dumps(event),flush=True)
+                 if updates==5:write_json(out/"startup_5_updates.json",dict(**identity,pid=os.getpid(),**event))
+         print(json.dumps(dict(event="epoch_complete",epoch=epoch,loss=float(np.mean(losses)),seconds=time.monotonic()-epoch_start)),flush=True)
+-        if (epoch+1)%10==0 or epoch+1==cfg["epochs"]:
+-            save_recovery(out/"recovery.pt",model,opt,scaler,rng,epoch,updates,identity)
++        save_recovery(out/"recovery.pt",model,opt,scaler,rng,epoch,updates,identity)
+ 
+ 
+ @torch.inference_mode()

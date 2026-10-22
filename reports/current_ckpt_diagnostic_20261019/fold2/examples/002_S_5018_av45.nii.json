@@ -1,0 +1,8 @@
+{
+  "ptid": "002_S_5018",
+  "tracer": "av45",
+  "checkpoint_sha256": "a936a95c96f795dfaf018b34e5824ee3b7d5d9aa2d5e181ca75ee2806b3cf542",
+  "prediction_sha256": "7a39117bca3b0b1f46a8184b9c4fdcab1ca17d808a63d8cb270048865e9ca34a",
+  "cache": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/preprocessed/002_S_5018.npz",
+  "cache_sha256": "5f6afdd5cba5684962474e958cb1f972cb432821d687f9c3d7f42bfe5d6a7a3f"
+}

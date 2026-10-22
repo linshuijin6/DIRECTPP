@@ -1,0 +1,41 @@
+{
+  "verification": "PASS",
+  "nodes_visited": [
+    "3001",
+    "3002",
+    "3003",
+    "3014",
+    "3015"
+  ],
+  "focused_log_count": 23,
+  "bound_checkpoint_logs": 22,
+  "cpu_loaded_and_finite": 6,
+  "corrupt_latest_files": 2,
+  "zip_crc_pass_3015": 5,
+  "access_errors": [],
+  "artifacts": {
+    "3001_inventory.json": "c682b744dececed6cbfec3e0bc9da451eb884f6ce7ecd98612295655a351a714",
+    "3014_inventory.json": "92aa2dd77e0ad2981f9fb7d48ebfc7358fcaaa261e67f81ca24a4770e448cdef",
+    "3002_inventory.json": "7036f65543a6ba396663d377c76e3280b473ca74cfa4bf5a30f0b5d6f9d6003c",
+    "3003_inventory.json": "b36db7714461a3929a020100fe74500626bd12ef738c7cc9fb81ed5cb099286d",
+    "3014_log_hits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "3002_runs.json": "644a472a55fb6ace407cefd46bd5992ad4f76ea49dd32fe6f74a774fcbaf50e3",
+    "3003_runs.json": "da9d474ad3de1d5c2d157f748bde35ce72abc01e91fb376f4966c4bb7aa56737",
+    "3002_focused_logs.json": "140b1eca46fa137d7900d7cbe582196bb9cdf1baa74b7d34269a74982874d4ce",
+    "3003_focused_logs.json": "4a3c2e23539c435be8d840fc0e88b4450ffef7b41666e35f3afab0fe65da373d",
+    "3002_checkpoint_validation.json": "7f3e6d377bf1a7c1be8c450cf1a4d99af337a63967177a45c78e2db7fc6813bd",
+    "3003_checkpoint_validation.json": "bed74eb839d70330866e91529c90b4abe20044f2e552ebe517f67250ebc36b1f",
+    "3002_log_hits.json": "28188079ad28848538c050dc0b868fdf97e9ff28b1240084c3832a451ca55a1f",
+    "3015_connection.json": "f2b486fd828633115c570ad1a6825e8b025a0cd2254ca12113eb3a818777be8c",
+    "3014_notebook_outputs.json": "69819af7cf57545a8a4c1e7b1f968ffb80d690281d204a81613ebddb02629775",
+    "3015_inventory.json": "14dd036bac4b4f8cc9ba959875185ae0d3a0002d4e6782e0dc64373da4247b5e",
+    "3015_focused_logs_and_runs.json": "a5b512f3d1f31d5cf611978fe91f55bf910f856592fb822c31068e9bded83e50",
+    "3003_log_hits.json": "16128e991e80819b2b14ff95bc5e370430110ce862fc39716b2f8f618cbb965a",
+    "3015_checkpoint_validation.json": "ab3ea476a3cb380eb849d8fea1f362d425fbe1982b9e0a9ee356ed9e1215e312",
+    "3003_previous_good_checkpoints.json": "265b7d14f8dca4d709d66b7219d558051412f921e4b8b56589e22f85fee6b256",
+    "3003_raw_newline_evidence.json": "9eee463a82bfe36dff1b6eac1fb53da3e09e475891efa3c58b6cb1cd45a580d0",
+    "3002_raw_newline_evidence.json": "c593237b5d9e1561666eb1db6c8c685d48cee174c3df5c2518b78bb90079d3c3",
+    "focused_runs.csv": "ad44d98f380629ba60cb9619a10d68e63da9f49ce4c9b6afe6582b798d47aaad",
+    "REPORT.md": "19932add32339a493ffce63bf2d65d6dc4f7c3d3f2bc37c6ad82def19eecb7b9"
+  }
+}

@@ -1,0 +1,131 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb
+ORIGINAL_SHA256: 0755c31eeb8f628ec6f73a11e91a75577a8211337e8d5729d3a13deabef59489
+CELL_INDEX_ZERO_BASED: 7
+CELL_EXECUTION_COUNT_METADATA: 8
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: from torch.cuda.amp import GradScaler, autocast
+0002: import os
+0003: 
+0004: import matplotlib.pyplot as plt
+0005: import torch
+0006: import json
+0007: import torch.nn as nn
+0008: 
+0009: import torch.nn.functional as F
+0010: from monai import transforms
+0011: from monai.config import print_config
+0012: from monai import data
+0013: from monai.utils import first, set_determinism
+0014: from torch.cuda.amp import GradScaler, autocast
+0015: from monai.data import CacheDataset, DataLoader
+0016: from monai.networks.nets import ViT, ViTAutoEnc, SwinUNETR
+0017: from tqdm import tqdm
+0018: 
+0019: from generative.inferers import DiffusionInferer
+0020: from generative.networks.nets import AutoencoderKL, DiffusionModelUNet
+0021: from generative.networks.schedulers import DDPMScheduler, DDIMScheduler
+0022: import random
+0023: import time
+0024: import matplotlib.pyplot as plt
+0025: import numpy as np
+0026: 
+0027: from generative.metrics import SSIMMetric
+0028: from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0029: checkpoint_dir = '/home/ssddata/liutuo/checkpoint/swinunter_fdg'
+0030: n_epochs = 13
+0031: val_interval = 1 #10
+0032: epoch_loss_list = []
+0033: val_epoch_loss_list = []
+0034: val_epoch_loss = 0
+0035: start_epoch = 0
+0036: from generative.metrics import SSIMMetric
+0037: from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0038: ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=7)
+0039: psnr_metric=PSNRMetric(1.0)
+0040: clip_sample_min = 0  # 设置合适的最小值
+0041: clip_sample_max = 1.0   # 设置合适的最大值
+0042: 
+0043: scaler = GradScaler()
+0044: 
+0045: 
+0046: for epoch in range(start_epoch, n_epochs):
+0047:     epoch
+0048:     model.train()
+0049:     epoch_loss = 0
+0050: 
+0051:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0052:     progress_bar.set_description(f"Epoch {epoch}")
+0053: 
+0054:     for step, data in progress_bar:
+0055:         images = data["mri"].to(device)  
+0056:         targets = data["fdg"].to(device)  
+0057: 
+0058:  
+0059: 
+0060:         optimizer.zero_grad(set_to_none=True)
+0061:     
+0062:         with autocast(enabled=True):
+0063: 
+0064:             t1ce_pre = model(images)
+0065:             loss = F.mse_loss(targets.float(), t1ce_pre.float())
+0066: 
+0067:         scaler.scale(loss).backward()
+0068:         scaler.step(optimizer)
+0069:         scaler.update()
+0070: 
+0071:         epoch_loss += loss.item()
+0072: 
+0073:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0074: 
+0075:     epoch_loss_list.append(epoch_loss / (step + 1))
+0076:     
+0077:     if (epoch) % val_interval == 0 or (epoch == 0):
+0078:         model.eval()
+0079:         ssim_values = []
+0080:         psnr_values = []
+0081: 
+0082:         with torch.no_grad():
+0083:             for step, batch in enumerate(val_loader):
+0084:                 images = data["mri"].to(device)  # 确保将张量加载到 GPU
+0085:                 targets = data["fdg"].to(device)  # 确保目标也在 GPU
+0086: 
+0087:                 t1ce_pre= model(images)
+0088:                 t1ce_pre= torch.clamp(t1ce_pre, min=clip_sample_min, max=clip_sample_max)
+0089:                 val_loss =F.mse_loss(targets.float(), t1ce_pre.float())
+0090:                 val_epoch_loss += val_loss.item()
+0091:                 torch.cuda.empty_cache()
+0092:             print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0093:             val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0094:             # Saving model parameters
+0095:             print('epoch:', epoch + 1)
+0096:             print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0097:             checkpoint = {
+0098:                 'model': model.state_dict(),
+0099:                 'optimizer': optimizer.state_dict(),
+0100:                 'epoch': epoch
+0101:             }
+0102:             torch.save(checkpoint, f'{checkpoint_dir}/swinunter_{epoch + 1}.pth')
+0103:             print('Saved all parameters!\n')
+0104:         
+0105: 
+0106:             ssim_value = ssim_metric(targets, t1ce_pre)
+0107:             psnr_value = psnr_metric(targets, t1ce_pre)
+0108:             # print(f"SSIM: {ssim_value.mean().item()}")
+0109:             # print(f"PSNR: {psnr_value.mean().item()}") 
+0110:             # 将当前批次的 SSIM 和 PSNR 值添加到列表中
+0111:             ssim_values.append(ssim_value)
+0112:             psnr_values.append(psnr_value)
+0113:             current_img =  t1ce_pre.to('cpu')
+0114:             labels = targets.to('cpu')
+0115:             compare_3d([images,labels, current_img])
+0116:             compare_3d_jet([current_img - labels])
+0117: 
+0118: 
+0119: 
+0120:         # 计算平均 SSIM 和 PSNR 值
+0121:         average_ssim = sum(ssim_values) / len(ssim_values)
+0122:         average_psnr = sum(psnr_values) / len(psnr_values)
+0123: 
+0124:         print(f"Average SSIM: {average_ssim}")
+0125:         print(f"Average PSNR: {average_psnr}")

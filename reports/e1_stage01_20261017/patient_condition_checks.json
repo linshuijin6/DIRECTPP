@@ -1,0 +1,12 @@
+{
+  "n": 1857,
+  "dimension": 512,
+  "rows_changed": 1857,
+  "full_norm_min": 3.50174617767334,
+  "full_norm_max": 3.7505640983581543,
+  "no_scores_norm_min": 4.429878234863281,
+  "no_scores_norm_max": 5.2752580642700195,
+  "padding_used": false,
+  "all_score_text_removed": true,
+  "ptid_binding": "index.json; PTID not embedded in patient text"
+}

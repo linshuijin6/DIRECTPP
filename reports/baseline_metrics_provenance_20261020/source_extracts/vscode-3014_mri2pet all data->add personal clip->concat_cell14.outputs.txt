@@ -1,0 +1,40 @@
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8054155707359314
+PSNR: 23.565141677856445
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8574592471122742
+PSNR: 23.462398529052734
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8704100251197815
+PSNR: 23.486604690551758
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8682590126991272
+PSNR: 23.113555908203125
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.849762499332428
+PSNR: 23.117237091064453
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8396660089492798
+PSNR: 23.838788986206055
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8832023739814758
+PSNR: 23.861400604248047
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8694887161254883
+PSNR: 23.590669631958008
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.7386496663093567
+PSNR: 20.464881896972656
+Saved all parameters!
+Saved all parameters!
+SSIM: 0.8759110569953918
+PSNR: 23.407920837402344

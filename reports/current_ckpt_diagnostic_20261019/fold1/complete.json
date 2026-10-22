@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "subjects": 928,
+  "volumes": 1479,
+  "completed_epochs": 89,
+  "checkpoint_sha256": "9d501d282e0e0eb09e9c6eb27f50dbf9a02c732f247d8195142eb122fa06fdc0",
+  "seconds": 1301.7304078610614,
+  "hardware": {
+    "host": "pnxc",
+    "pid": 3626139,
+    "visible_devices": "GPU-4e00852f-6d7a-af71-10b5-1c59593a6681",
+    "allocator_config": "expandable_segments:True",
+    "gpu": "NVIDIA RTX A6000",
+    "torch": "2.6.0+cu118",
+    "cuda": "11.8",
+    "monai": "0+unknown",
+    "transformers": "4.40.2",
+    "xformers": "0.0.29.post3"
+  }
+}

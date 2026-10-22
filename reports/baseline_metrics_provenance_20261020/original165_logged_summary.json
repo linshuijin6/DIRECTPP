@@ -1,0 +1,21 @@
+{
+  "output_subject_count": 1856,
+  "output_equals_supplied_train": true,
+  "extra_to_train": [],
+  "missing_from_train": [],
+  "val_in_outputs": [],
+  "unique_subject_tracer_rows": 2961,
+  "metric_rows": 2961,
+  "per_tracer": {
+    "fdg": {
+      "n": 1597,
+      "mean_ssim_percent": 95.91667501565435,
+      "mean_psnr": 32.66853644333125
+    },
+    "av45": {
+      "n": 1364,
+      "mean_ssim_percent": 93.77367302052787,
+      "mean_psnr": 31.260303519061583
+    }
+  }
+}

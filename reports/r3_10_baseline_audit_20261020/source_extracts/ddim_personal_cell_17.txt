@@ -1,0 +1,159 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb
+ORIGINAL_SHA256: 08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe
+CELL_INDEX_ZERO_BASED: 17
+CELL_EXECUTION_COUNT_METADATA: 14
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import tempfile
+0003: import time
+0004: from liutuo_utils import donkey_noise_like
+0005: import matplotlib.pyplot as plt
+0006: import numpy as np
+0007: import torch
+0008: import torch.nn.functional as F
+0009: from monai import transforms
+0010: from monai.apps import DecathlonDataset
+0011: from monai.config import print_config
+0012: from monai.data import DataLoader
+0013: from monai.utils import set_determinism
+0014: from torch.cuda.amp import GradScaler, autocast
+0015: from tqdm import tqdm
+0016: from torch.amp import GradScaler, autocast  # 从 torch.amp 导入 GradScaler
+0017: 
+0018: 
+0019: 
+0020: 
+0021: 
+0022: n_epochs = 300
+0023: val_interval =10
+0024: epoch_loss_list = []
+0025: val_epoch_loss_list = []
+0026: scaler = GradScaler()  
+0027: total_start = time.time()
+0028: checkpoint_dir = '/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_compare'
+0029: 
+0030: 
+0031: 
+0032: for epoch in range(n_epochs):
+0033:     model.train()
+0034:     epoch_loss = 0
+0035:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0036:     progress_bar.set_description(f"Epoch {epoch}")
+0037:     for step, data in progress_bar:
+0038:         images = data["mri"].to(device)
+0039:         seg = data["pet"].to(device) # this is the ground truth segmentation
+0040:     
+0041:         optimizer.zero_grad(set_to_none=True)
+0042:         timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0043:         
+0044:         
+0045:         with autocast(device_type='cuda', enabled=True):
+0046:             # Generate random noise
+0047:             noise= donkey_noise_like(images).to(device)
+0048:             #noise = torch.randn_like(seg).to(device)
+0049:             noisy_seg = scheduler.add_noise(
+0050:                 original_samples=seg, noise=noise, timesteps=timesteps
+0051:             )  # we only add noise to the segmentation mask
+0052:             combined = torch.cat(
+0053:                 (images, noisy_seg), dim=1
+0054:             )
+0055:             #print( combined.shape)
+0056:             # we concatenate the brain MR image with the noisy segmenatation mask, to condition the generation process
+0057:             target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0058:             
+0059:             
+0060:             prediction = model(x=combined, timesteps=timesteps)
+0061:             # Get model prediction
+0062:             loss = F.mse_loss(prediction.float(), target.float())
+0063:         scaler.scale(loss).backward()
+0064:         scaler.step(optimizer)
+0065:         scaler.update()
+0066:         epoch_loss += loss.item()
+0067:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0068:         
+0069:         torch.cuda.empty_cache()
+0070:     
+0071:     epoch_loss_list.append(epoch_loss / (step + 1))
+0072:     if (epoch + 1) % val_interval == 0:
+0073:         model.eval()
+0074:         val_epoch_loss = 0
+0075:         for step, data_val in enumerate(val_loader):
+0076:             images = data_val["mri"].to(device)
+0077:             seg = data_val["pet"].to(device)  # this is the ground truth segmentation
+0078:             
+0079:             timesteps = torch.randint(0, 1000, (len(images),)).to(device)
+0080:             
+0081:             with torch.no_grad():
+0082:                 with autocast(device_type='cuda', enabled=True):
+0083:                     noise = torch.randn_like(seg).to(device)
+0084:                     noisy_seg = scheduler.add_noise(original_samples=seg, noise=noise, timesteps=timesteps)
+0085:                     combined = torch.cat((images, noisy_seg), dim=1)
+0086:                     target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0087:                     prediction = model(x=combined, timesteps=timesteps)
+0088:                     val_loss = F.mse_loss(prediction.float(), target.float())
+0089:             val_epoch_loss += val_loss.item()
+0090:             torch.cuda.empty_cache()
+0091:         print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0092:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0093:          # Saving model parameters
+0094:         print('epoch:', epoch + 1)
+0095:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0096:         checkpoint = {
+0097:             'model': model.state_dict(),
+0098:             'optimizer': optimizer.state_dict(),
+0099:             'epoch': epoch
+0100:         }
+0101:         torch.save(checkpoint, f'{checkpoint_dir}/noise2image about mri2pet_method_two_second_part_{epoch + 1}.pth')
+0102:         print('Saved all parameters!\n')
+0103:         
+0104:         # 采样过程
+0105:         model.eval()
+0106:         input_img = image_1.to(device)
+0107:         print(input_img.shape)
+0108:         noise= donkey_noise_like(images).to(device)
+0109:         current_img = noise  # for the segmentation mask, we start from random noise.
+0110:         combined = torch.cat((input_img, noise), dim=1)  # We concatenate the input brain MR image to add anatomical information.
+0111:         
+0112:         #scheduler.set_timesteps(num_inference_steps=1000)
+0113:         progress_bar = tqdm(scheduler.timesteps)
+0114:         for t in progress_bar:  # go through the noising process
+0115:             with autocast(device_type='cuda', enabled=True):
+0116:                 with torch.no_grad():
+0117:                     model_output = model(combined, timesteps=torch.Tensor((t,)).to(current_img.device))
+0118:                     current_img, _ = scheduler.step(model_output, t, current_img)  # this is the prediction x_t at the time step t
+0119:                     combined = torch.cat((input_img, current_img), dim=1)  # in every step during the denoising process, the brain MR image is concatenated to add anatomical information
+0120: 
+0121:         current_img = current_img.to('cpu')
+0122:         labels = label_1.to('cpu')
+0123:         compare_3d([input_img,labels, current_img])
+0124:         compare_3d_jet([current_img - labels])
+0125:         from generative.metrics import SSIMMetric
+0126:         from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0127:         ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=7)
+0128:         psnr_metric=PSNRMetric(1.0)
+0129: 
+0130:         ssim_value = ssim_metric(labels, current_img)
+0131:         psnr_value = psnr_metric(labels, current_img)
+0132: 
+0133:         print(f"SSIM: {ssim_value.mean().item()}")
+0134:         print(f"PSNR: {psnr_value.mean().item()}") 
+0135: 
+0136: total_time = time.time() - total_start
+0137: print(f"train diffusion completed, total time: {total_time}.")
+0138: plt.style.use("seaborn-bright")
+0139: plt.title("Learning Curves Diffusion Model", fontsize=20)
+0140: plt.plot(np.linspace(1, n_epochs, n_epochs), epoch_loss_list, color="C0", linewidth=2.0, label="Train")
+0141: plt.plot(
+0142:     np.linspace(val_interval, n_epochs, int(n_epochs / val_interval)),
+0143:     val_epoch_loss_list,
+0144:     color="C1",
+0145:     linewidth=2.0,
+0146:     label="Validation",
+0147: )
+0148: plt.yticks(fontsize=12)
+0149: plt.xticks(fontsize=12)
+0150: plt.xlabel("Epochs", fontsize=16)
+0151: plt.ylabel("Loss", fontsize=16)
+0152: plt.legend(prop={"size": 14})
+0153: plt.show()

@@ -1,0 +1,12 @@
+Saved all parameters!
+Average SSIM: tensor([[0.7297]], device='cuda:2')
+Average PSNR: tensor([[22.8739]], device='cuda:2')
+Saved all parameters!
+Average SSIM: tensor([[0.8928]], device='cuda:2')
+Average PSNR: tensor([[28.1559]], device='cuda:2')
+Saved all parameters!
+Average SSIM: tensor([[0.9165]], device='cuda:2')
+Average PSNR: tensor([[28.5509]], device='cuda:2')
+Saved all parameters!
+Average SSIM: tensor([[0.8648]], device='cuda:2')
+Average PSNR: tensor([[26.6088]], device='cuda:2')

@@ -1,0 +1,39 @@
+Saved all parameters!
+Average SSIM: tensor([[0.7292]], device='cuda:5')
+Average PSNR: tensor([[21.1204]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.7086]], device='cuda:5')
+Average PSNR: tensor([[19.5939]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.7658]], device='cuda:5')
+Average PSNR: tensor([[25.7873]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.5990]], device='cuda:5')
+Average PSNR: tensor([[27.7299]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.8413]], device='cuda:5')
+Average PSNR: tensor([[23.8628]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.4508]], device='cuda:5')
+Average PSNR: tensor([[10.6689]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.8368]], device='cuda:5')
+Average PSNR: tensor([[25.5630]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.6117]], device='cuda:5')
+Average PSNR: tensor([[32.5574]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.7979]], device='cuda:5')
+Average PSNR: tensor([[25.4575]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.8708]], device='cuda:5')
+Average PSNR: tensor([[25.9936]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.8198]], device='cuda:5')
+Average PSNR: tensor([[25.5041]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.3831]], device='cuda:5')
+Average PSNR: tensor([[32.7466]], device='cuda:5')
+Saved all parameters!
+Average SSIM: tensor([[0.8788]], device='cuda:5')
+Average PSNR: tensor([[27.9856]], device='cuda:5')

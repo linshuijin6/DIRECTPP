@@ -1,0 +1,12 @@
+{
+  "cpu_resume_next_update_bitwise_pass": true,
+  "optimizer_state_restored": true,
+  "scaler_state_restored": true,
+  "python_numpy_torch_rng_restored": true,
+  "wrong_condition_rejected": true,
+  "pilot_resume_rejected": true,
+  "unauthorized_training_rejected": true,
+  "active_subjects": 1856,
+  "asset_path_remap_pass": true,
+  "formal_gpu_training_performed": false
+}

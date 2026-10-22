@@ -1,0 +1,108 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb
+ORIGINAL_SHA256: 6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f
+CELL_INDEX_ZERO_BASED: 2
+CELL_EXECUTION_COUNT_METADATA: 3
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import pandas as pd
+0003: from sklearn.model_selection import train_test_split
+0004: import json
+0005: 
+0006: # 数据目录（保持不变）
+0007: base_dir = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45"
+0008: mri_dir = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/mri_strip_registered"
+0009: av45_dir = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET1_AV45_strip_registered"
+0010: fdg_dir = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET2_FDG_strip_registered"
+0011: csv_path = os.path.join(base_dir, "filtered_subjects_with_description.csv")
+0012: 
+0013: # JSON 文件保存路径（保持不变）
+0014: train_json_path = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/train_data_with_description.json"
+0015: val_json_path = "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/val_data_with_description.json"
+0016: 
+0017: # 加载 CSV 文件（保持不变）
+0018: csv_data = pd.read_csv(csv_path)
+0019: csv_dict = csv_data.set_index("Subject ID")["Description"].to_dict()
+0020: 
+0021: # 获取文件列表（保持不变）
+0022: mri_files = sorted(os.listdir(mri_dir))
+0023: av45_files = sorted(os.listdir(av45_dir))
+0024: fdg_files = sorted(os.listdir(fdg_dir))
+0025: 
+0026: def get_subject_id(filename):
+0027:     """从文件名中提取统一的 subject ID（前三个部分，如 '002_S_0295'）"""
+0028:     parts = filename.split('_')
+0029:     return f"{parts[0]}_{parts[1]}_{parts[2]}"
+0030: 
+0031: # 使用统一的 get_subject_id 处理所有文件（保持不变）
+0032: mri_dict = {get_subject_id(f): os.path.join(mri_dir, f) for f in mri_files}
+0033: av45_dict = {get_subject_id(f): os.path.join(av45_dir, f) for f in av45_files}
+0034: fdg_dict = {get_subject_id(f): os.path.join(fdg_dir, f) for f in fdg_files}
+0035: 
+0036: # 匹配文件并加入描述信息和 Subject ID
+0037: paired_data = []
+0038: for patient_id, mri_file in mri_dict.items():
+0039:     if patient_id in av45_dict and patient_id in fdg_dict:
+0040:         # 检查描述信息是否存在
+0041:         description = csv_dict.get(patient_id, None)  # 从 csv_dict 中获取 Description 信息
+0042:         # 构建数据条目
+0043:         paired_data.append({
+0044:             "name": patient_id,  # 添加 name 字段
+0045:             "mri": os.path.join(mri_dir, mri_file),
+0046:             "av45": os.path.join(av45_dir, av45_dict[patient_id]),
+0047:             "fdg": os.path.join(fdg_dir, fdg_dict[patient_id]),
+0048:             "description": description  # 加入 Description 信息
+0049:         })
+0050: 
+0051: print(f"Total matched pairs with description: {len(paired_data)}")
+0052: # 在 paired_data 中新增键 fdg_index 和 av45_index
+0053: for idx, data in enumerate(paired_data):
+0054:     data["fdg_index"] = idx  # 将样本在 paired_data 中的索引作为 fdg_index
+0055:     data["av45_index"] = idx
+0056: 
+0057: import torch
+0058: from transformers import AutoTokenizer, AutoModel
+0059: 
+0060: # 示例：假设已经加载 BiomedCLIP 模型和处理器
+0061: # 这里替换为您实际使用的 BiomedCLIP 模型和 tokenizer
+0062: local_model_path = "/home/ssddata/liutuo/BiomedCLIP"
+0063: processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+0064: model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+0065: 
+0066: device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+0067: model.to(device)
+0068: model.eval()
+0069: 
+0070: 
+0071: # 假设 paired_data 已经加载
+0072: modal_information = [data["description"] for data in paired_data if data["description"] is not None]
+0073: 
+0074: # 对描述信息进行 Tokenizer 编码
+0075: text_inputs = processor(
+0076:     modal_information,
+0077:     padding=True,
+0078:     truncation=True,
+0079:     return_tensors="pt",
+0080:     max_length=256 # 根据模型输入限制选择合适的 max_length
+0081: ).to(device)
+0082: 
+0083: # 转化为 BiomedCLIP 嵌入
+0084: with torch.no_grad():
+0085:     desc_text_features = model.get_text_features(text_inputs['input_ids'])  # 使用模型方法提取嵌入
+0086:     print(f"Shape of features: {desc_text_features.shape}, Dtype: {desc_text_features.dtype}")
+0087: 
+0088: # 划分训练集和验证集
+0089: train_data, val_data = train_test_split(paired_data, test_size=1, random_state=42)
+0090: 
+0091: print(f"Training set size: {len(train_data)}")
+0092: print(f"Validation set size: {len(val_data)}")
+0093: 
+0094: # 保存到 JSON 文件
+0095: with open(train_json_path, "w") as f:
+0096:     json.dump(train_data, f, indent=4)
+0097: 
+0098: with open(val_json_path, "w") as f:
+0099:     json.dump(val_data, f, indent=4)
+0100: 
+0101: print(f"Saved train data to: {train_json_path}")
+0102: print(f"Saved validation data to: {val_json_path}")

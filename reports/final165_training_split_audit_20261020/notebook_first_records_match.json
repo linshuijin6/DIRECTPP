@@ -1,0 +1,42 @@
+{
+  "train": {
+    "raw_record_equal": false,
+    "ptid": "021_S_4924",
+    "differences": {
+      "mri": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/mri_strip_registered/021_S_4924_MRI_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/mri_strip_registered/021_S_4924_MRI_registered.nii.gz"
+      },
+      "av45": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET1_AV45_strip_registered/021_S_4924_AV45_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET1_AV45_strip_registered/021_S_4924_AV45_registered.nii.gz"
+      },
+      "fdg": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET2_FDG_strip_registered/021_S_4924_FDG_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET2_FDG_strip_registered/021_S_4924_FDG_registered.nii.gz"
+      }
+    },
+    "non_path_fields_equal": true,
+    "path_basenames_equal": true
+  },
+  "val": {
+    "raw_record_equal": false,
+    "ptid": "011_S_4105",
+    "differences": {
+      "mri": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/mri_strip_registered/011_S_4105_MRI_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/mri_strip_registered/011_S_4105_MRI_registered.nii.gz"
+      },
+      "av45": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET1_AV45_strip_registered/011_S_4105_AV45_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET1_AV45_strip_registered/011_S_4105_AV45_registered.nii.gz"
+      },
+      "fdg": {
+        "notebook": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45/PET2_FDG_strip_registered/011_S_4105_FDG_registered.nii.gz",
+        "manifest": "/home/ssddata/liutuo/liutuo_data/ADNI1234_mri_fdg_av45_original/PET2_FDG_strip_registered/011_S_4105_FDG_registered.nii.gz"
+      }
+    },
+    "non_path_fields_equal": true,
+    "path_basenames_equal": true
+  }
+}

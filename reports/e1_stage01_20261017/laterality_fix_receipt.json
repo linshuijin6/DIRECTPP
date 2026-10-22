@@ -1,0 +1,49 @@
+{
+  "subjects": 1856,
+  "consistent_global_mirror": 1856,
+  "inconsistent": [],
+  "gate_pairs": {
+    "2_41": {
+      "mirrored": 1856,
+      "not_mirrored": 0,
+      "untested": 0
+    },
+    "12_51": {
+      "mirrored": 1856,
+      "not_mirrored": 0,
+      "untested": 0
+    },
+    "4_43": {
+      "mirrored": 1856,
+      "not_mirrored": 0,
+      "untested": 0
+    },
+    "10_49": {
+      "mirrored": 1856,
+      "not_mirrored": 0,
+      "untested": 0
+    }
+  },
+  "informative_pairs": {
+    "17_53": {
+      "mirrored": 1853,
+      "not_mirrored": 2,
+      "untested": 1
+    },
+    "18_54": {
+      "mirrored": 1854,
+      "not_mirrored": 1,
+      "untested": 1
+    },
+    "1025_2025": {
+      "mirrored": 1854,
+      "not_mirrored": 2,
+      "untested": 0
+    }
+  },
+  "subjects_with_invalid_rois": 17,
+  "invalid_roi_cells": 168,
+  "caches_and_masks_modified": false,
+  "gate_pass": true,
+  "config_backup": "config.before_laterality_fix.json"
+}

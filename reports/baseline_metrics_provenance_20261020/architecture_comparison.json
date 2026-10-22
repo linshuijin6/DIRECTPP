@@ -1,0 +1,37 @@
+{
+  "original_source": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+  "original_cell_zero_based": 8,
+  "restored_source": "experiments/e1_clinical_conditioning/common.py",
+  "function": "new_model",
+  "constructor_kwargs_equal": true,
+  "kwargs": {
+    "spatial_dims": 3,
+    "in_channels": 1,
+    "out_channels": 1,
+    "num_channels": [
+      32,
+      64,
+      64,
+      128
+    ],
+    "attention_levels": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "num_res_blocks": 1,
+    "num_head_channels": [
+      0,
+      0,
+      0,
+      128
+    ],
+    "with_conditioning": true,
+    "cross_attention_dim": 512,
+    "use_flash_attention": true
+  },
+  "shared_model_dependency": "source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/nets/diffusion_model_unet.py",
+  "dependency_sha256": "b56b1956b787e85f52fc1a7f46884fea2cbfff81f9c31311db462dda7b378bcc",
+  "scope": "Static constructor/source comparison, not numerical training replay"
+}

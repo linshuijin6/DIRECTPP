@@ -1,0 +1,121 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet _add pretrained commom clip_concat-ddpm.ipynb
+ORIGINAL_SHA256: cb35bdca97dc91fdd846d40acb6f0451ba1c72c51a3326dadca5846134df5d75
+CELL_INDEX_ZERO_BASED: 20
+CELL_EXECUTION_COUNT_METADATA: None
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: # 加载上次训练的模型和优化器状态
+0002: checkpoint = torch.load(f'{checkpoint_dir}/noise2image about mri2pet_method_two_second_part_160.pth')
+0003: model.load_state_dict(checkpoint['model'])
+0004: optimizer.load_state_dict(checkpoint['optimizer'])
+0005: start_epoch = checkpoint['epoch'] + 1  # 从上次停止的地方继续
+0006: 
+0007: # 设置新的训练参数
+0008: new_epochs = 40  # 继续训练的epoch数
+0009: total_epochs = start_epoch + new_epochs
+0010: val_interval = 10  # 验证间隔仍保持不变
+0011: epoch_loss_list = []  # 初始化epoch loss列表
+0012: val_epoch_loss_list = []  # 初始化验证epoch loss列表
+0013: 
+0014: for epoch in range(start_epoch, total_epochs):
+0015:     model.train()
+0016:     epoch_loss = 0
+0017:     progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), ncols=70)
+0018:     progress_bar.set_description(f"Epoch {epoch}")
+0019:     for step, data in progress_bar:
+0020:         images = data["mri"].to(device)
+0021:         seg = data["pet"].to(device)  # this is the ground truth segmentation
+0022:         pet_index = data["pet_index"].to(device)
+0023:         optimizer.zero_grad(set_to_none=True)
+0024:         timesteps = torch.randint(0, 1000, (len(images),)).to(device)  # pick a random time step t
+0025: 
+0026:         with autocast(device_type='cuda', enabled=True):
+0027:             noise = donkey_noise_like(images).to(device)
+0028:             #noise = torch.randn_like(images).to(device)
+0029:             noisy_seg = scheduler.add_noise(original_samples=seg, noise=noise, timesteps=timesteps)
+0030:             combined = torch.cat((images, noisy_seg), dim=1)
+0031:             target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0032: 
+0033:             prediction = model(x=combined, timesteps=timesteps)
+0034:             loss = F.mse_loss(prediction.float(), target.float())
+0035:         scaler.scale(loss).backward()
+0036:         scaler.step(optimizer)
+0037:         scaler.update()
+0038:         epoch_loss += loss.item()
+0039:         progress_bar.set_postfix({"loss": epoch_loss / (step + 1)})
+0040: 
+0041:     epoch_loss_list.append(epoch_loss / (step + 1))
+0042: 
+0043:     if (epoch + 1) % val_interval == 0:
+0044:         model.eval()
+0045:         val_epoch_loss = 0
+0046:         for step, data_val in enumerate(val_loader):
+0047:             images = data_val["mri"].to(device)
+0048:             seg = data_val["pet"].to(device)
+0049:             pet_index = data_val["pet_index"].to(device)
+0050:             timesteps = torch.randint(0, 1000, (len(images),)).to(device)
+0051: 
+0052:             with torch.no_grad():
+0053:                 with autocast(device_type='cuda', enabled=True):
+0054:                     noise = donkey_noise_like(images).to(device)
+0055:                     noisy_seg = scheduler.add_noise(original_samples=seg, noise=noise, timesteps=timesteps)
+0056:                     combined = torch.cat((images, noisy_seg), dim=1)
+0057:                     target = inferer.scheduler.get_velocity(seg, noise, timesteps)
+0058:                     prediction = model(x=combined, timesteps=timesteps)
+0059:                     val_loss = F.mse_loss(prediction.float(), target.float())
+0060:             val_epoch_loss += val_loss.item()
+0061: 
+0062:         print("Epoch", epoch + 1, "Validation loss", val_epoch_loss / (step + 1))
+0063:         val_epoch_loss_list.append(val_epoch_loss / (step + 1))
+0064: 
+0065:         # 保存模型和优化器状态
+0066:         print('epoch:', epoch + 1)
+0067:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0068:         checkpoint = {
+0069:             'model': model.state_dict(),
+0070:             'optimizer': optimizer.state_dict(),
+0071:             'epoch': epoch
+0072:         }
+0073:         torch.save(checkpoint, f'{checkpoint_dir}/noise2image about mri2pet_method_two_second_part_{epoch + 1}.pth')
+0074:         print('Saved all parameters!\n')
+0075:          # Saving model parameters
+0076:         print('epoch:', epoch + 1)
+0077:         print('learning rate:', optimizer.state_dict()['param_groups'][0]['lr'])
+0078:         checkpoint = {
+0079:             'model': model.state_dict(),
+0080:             'optimizer': optimizer.state_dict(),
+0081:             'epoch': epoch
+0082:         }
+0083:         torch.save(checkpoint, f'{checkpoint_dir}/noise2image about mri2pet_method_two_second_part_{epoch + 1}.pth')
+0084:         print('Saved all parameters!\n')
+0085:         # 采样过程
+0086:         model.eval()
+0087:         input_img = image_1.to(device)
+0088:         print(input_img.shape)
+0089:         noise= donkey_noise_like(images).to(device)
+0090:         current_img = noise  # for the segmentation mask, we start from random noise.
+0091:         combined = torch.cat((input_img, noise), dim=1)  # We concatenate the input brain MR image to add anatomical information.
+0092:         
+0093:         #scheduler.set_timesteps(num_inference_steps=1000)
+0094:         progress_bar = tqdm(scheduler.timesteps)
+0095:         for t in progress_bar:  # go through the noising process
+0096:             with autocast(device_type='cuda', enabled=True):
+0097:                 with torch.no_grad():
+0098:                     model_output = model(combined, timesteps=torch.Tensor((t,)).to(current_img.device))
+0099:                     current_img, _ = scheduler.step(model_output, t, current_img)  # this is the prediction x_t at the time step t
+0100:                     combined = torch.cat((input_img, current_img), dim=1)  # in every step during the denoising process, the brain MR image is concatenated to add anatomical information
+0101: 
+0102:         current_img = current_img.to('cpu')
+0103:         labels = label_1.to('cpu')
+0104:         compare_3d([input_img,labels, current_img])
+0105:         compare_3d_jet([current_img - labels])
+0106:         from generative.metrics import SSIMMetric
+0107:         from monai.metrics import (MAEMetric,MSEMetric,PSNRMetric,)
+0108:         ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0,kernel_size=7)
+0109:         psnr_metric=PSNRMetric(1.0)
+0110: 
+0111:         ssim_value = ssim_metric(labels, current_img)
+0112:         psnr_value = psnr_metric(labels, current_img)
+0113: 
+0114:         print(f"SSIM: {ssim_value.mean().item()}")
+0115:         print(f"PSNR: {psnr_value.mean().item()}") 

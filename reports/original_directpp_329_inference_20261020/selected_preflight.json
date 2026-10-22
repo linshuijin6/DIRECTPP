@@ -1,0 +1,12 @@
+{
+  "hostname": "pnxc",
+  "checkpoint_sha256": "a57f7e79071baf4661bfe7d853846cf2fe57590de25b26eaf7a90faead634bb6",
+  "epoch_zero_based": 151,
+  "model_tensors": 286,
+  "all_model_tensors_finite": true,
+  "source_notebook_sha256": "076c0f6b12fb0d0b020bc78bb166013a16bc75669be8c379ba41ffe62380f55a",
+  "metric_notebook_sha256": "d09273e006ccafe9bfe267192192c5b48cd10c34b8da2e22a1c5c37ad3eebcf2",
+  "manifest_sha256": "4c8424d3f3c992871a55335fd890a81dd93b50aa613d6fcff4b36dfa20c22276",
+  "inference_authorized": true,
+  "training_authorized": false
+}

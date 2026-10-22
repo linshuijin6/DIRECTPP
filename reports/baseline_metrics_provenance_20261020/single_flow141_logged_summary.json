@@ -1,0 +1,16 @@
+{
+  "source_zero_based_cell": 16,
+  "source_notebook": "source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_flow.ipynb",
+  "n": 329,
+  "full_order_matches_output_val_manifest": true,
+  "val_name_order_equals_all_data_after_first_800": true,
+  "original_core_fields_match": true,
+  "schema_difference": "val entries additionally contain mri_index, pet_index, index",
+  "means_from_per_subject_logs": {
+    "ssim": 0.8761628166882826,
+    "psnr": 23.799274456174903,
+    "mse": 0.004468275977887417,
+    "mae": 0.031853901641301835
+  },
+  "relation_to_paper": "Candidate single-tracer code; means differ from Fig.2 and no final paper run binding"
+}

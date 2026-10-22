@@ -1,0 +1,117 @@
+未生成的文件名: ['099_S_4565', '098_S_4201', '011_S_4949', '073_S_4559', '014_S_4615', '024_S_4674', '029_S_2395', '123_S_4096', '127_S_5067', '031_S_4721', '067_S_4767', '006_S_4363', '070_S_5040', '130_S_2373', '100_S_4512', '052_S_5062', '037_S_4381', '029_S_4384', '021_S_4659', '099_S_4104', '009_S_5027', '130_S_2403', '067_S_5160', '136_S_4269', '073_S_4216', '029_S_4307', '130_S_4343', '036_S_4715', '099_S_4498']
+SSIM: 0.9252616763114929
+PSNR: 30.179840087890625
+Saved generated PET for 099_S_4565 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/099_S_4565.nii
+Saved labels for 099_S_4565 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/099_S_4565.nii
+SSIM: 0.905384361743927
+PSNR: 27.90479850769043
+Saved generated PET for 098_S_4201 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/098_S_4201.nii
+Saved labels for 098_S_4201 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/098_S_4201.nii
+SSIM: 0.8850419521331787
+PSNR: 27.603717803955078
+Saved generated PET for 011_S_4949 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/011_S_4949.nii
+Saved labels for 011_S_4949 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/011_S_4949.nii
+SSIM: 0.8949108123779297
+PSNR: 27.757070541381836
+Saved generated PET for 073_S_4559 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/073_S_4559.nii
+Saved labels for 073_S_4559 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/073_S_4559.nii
+SSIM: 0.9266420006752014
+PSNR: 28.884916305541992
+Saved generated PET for 014_S_4615 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/014_S_4615.nii
+Saved labels for 014_S_4615 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/014_S_4615.nii
+SSIM: 0.900642454624176
+PSNR: 28.451444625854492
+Saved generated PET for 024_S_4674 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/024_S_4674.nii
+Saved labels for 024_S_4674 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/024_S_4674.nii
+SSIM: 0.8262820839881897
+PSNR: 24.12533950805664
+Saved generated PET for 029_S_2395 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/029_S_2395.nii
+Saved labels for 029_S_2395 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/029_S_2395.nii
+SSIM: 0.8249578475952148
+PSNR: 24.419919967651367
+Saved generated PET for 123_S_4096 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/123_S_4096.nii
+Saved labels for 123_S_4096 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/123_S_4096.nii
+SSIM: 0.9088553190231323
+PSNR: 28.39665412902832
+Saved generated PET for 127_S_5067 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/127_S_5067.nii
+Saved labels for 127_S_5067 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/127_S_5067.nii
+SSIM: 0.8989647626876831
+PSNR: 28.90835952758789
+Saved generated PET for 031_S_4721 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/031_S_4721.nii
+Saved labels for 031_S_4721 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/031_S_4721.nii
+SSIM: 0.9115734100341797
+PSNR: 28.980594635009766
+Saved generated PET for 067_S_4767 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/067_S_4767.nii
+Saved labels for 067_S_4767 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/067_S_4767.nii
+SSIM: 0.9161889553070068
+PSNR: 29.808380126953125
+Saved generated PET for 006_S_4363 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/006_S_4363.nii
+Saved labels for 006_S_4363 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/006_S_4363.nii
+SSIM: 0.9145322442054749
+PSNR: 28.618793487548828
+Saved generated PET for 070_S_5040 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/070_S_5040.nii
+Saved labels for 070_S_5040 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/070_S_5040.nii
+SSIM: 0.8926939368247986
+PSNR: 26.91849708557129
+Saved generated PET for 130_S_2373 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/130_S_2373.nii
+Saved labels for 130_S_2373 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/130_S_2373.nii
+SSIM: 0.9043864011764526
+PSNR: 28.3931941986084
+Saved generated PET for 100_S_4512 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/100_S_4512.nii
+Saved labels for 100_S_4512 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/100_S_4512.nii
+SSIM: 0.9296607971191406
+PSNR: 29.46985626220703
+Saved generated PET for 052_S_5062 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/052_S_5062.nii
+Saved labels for 052_S_5062 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/052_S_5062.nii
+SSIM: 0.9088707566261292
+PSNR: 28.17369842529297
+Saved generated PET for 037_S_4381 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/037_S_4381.nii
+Saved labels for 037_S_4381 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/037_S_4381.nii
+SSIM: 0.7988635301589966
+PSNR: 24.363662719726562
+Saved generated PET for 029_S_4384 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/029_S_4384.nii
+Saved labels for 029_S_4384 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/029_S_4384.nii
+SSIM: 0.8953943252563477
+PSNR: 26.96084976196289
+Saved generated PET for 021_S_4659 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/021_S_4659.nii
+Saved labels for 021_S_4659 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/021_S_4659.nii
+SSIM: 0.9302208423614502
+PSNR: 30.88829803466797
+Saved generated PET for 099_S_4104 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/099_S_4104.nii
+Saved labels for 099_S_4104 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/099_S_4104.nii
+SSIM: 0.9018451571464539
+PSNR: 29.220348358154297
+Saved generated PET for 009_S_5027 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/009_S_5027.nii
+Saved labels for 009_S_5027 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/009_S_5027.nii
+SSIM: 0.9197020530700684
+PSNR: 29.195966720581055
+Saved generated PET for 130_S_2403 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/130_S_2403.nii
+Saved labels for 130_S_2403 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/130_S_2403.nii
+SSIM: 0.8938482999801636
+PSNR: 27.874778747558594
+Saved generated PET for 067_S_5160 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/067_S_5160.nii
+Saved labels for 067_S_5160 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/067_S_5160.nii
+SSIM: 0.8953357338905334
+PSNR: 27.971839904785156
+Saved generated PET for 136_S_4269 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/136_S_4269.nii
+Saved labels for 136_S_4269 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/136_S_4269.nii
+SSIM: 0.8969218134880066
+PSNR: 26.79741859436035
+Saved generated PET for 073_S_4216 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/073_S_4216.nii
+Saved labels for 073_S_4216 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/073_S_4216.nii
+SSIM: 0.7949857115745544
+PSNR: 23.393482208251953
+Saved generated PET for 029_S_4307 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/029_S_4307.nii
+Saved labels for 029_S_4307 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/029_S_4307.nii
+SSIM: 0.9051598906517029
+PSNR: 28.93238067626953
+Saved generated PET for 130_S_4343 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/130_S_4343.nii
+Saved labels for 130_S_4343 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/130_S_4343.nii
+SSIM: 0.8938920497894287
+PSNR: 28.697219848632812
+Saved generated PET for 036_S_4715 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/036_S_4715.nii
+Saved labels for 036_S_4715 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/036_S_4715.nii
+SSIM: 0.8802304267883301
+PSNR: 24.07118797302246
+Saved generated PET for 099_S_4498 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/generated_PET/099_S_4498.nii
+Saved labels for 099_S_4498 to /home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET_nii/099_S_4498.nii

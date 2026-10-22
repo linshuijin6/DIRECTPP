@@ -1,0 +1,116 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb
+ORIGINAL_SHA256: 0755c31eeb8f628ec6f73a11e91a75577a8211337e8d5729d3a13deabef59489
+CELL_INDEX_ZERO_BASED: 4
+CELL_EXECUTION_COUNT_METADATA: 7
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: from monai.transforms import Compose, LoadImaged, Lambdad, EnsureChannelFirstd, Orientationd, CropForegroundd, \
+0002:     HistogramNormalized, ResizeWithPadOrCropd, Spacingd, NormalizeIntensityd, ScaleIntensityd
+0003: from monai.data import CacheDataset, DataLoader
+0004: import nibabel as nib
+0005: import numpy as np
+0006: import json
+0007: 
+0008: import monai.transforms as mt
+0009: 
+0010: # 定义 transform 函数
+0011: def fdg_index_transform(x):
+0012:     return torch.cat([desc_text_features[x].unsqueeze(0), fdg_feature_optimized], dim=0)
+0013: 
+0014: def av45_index_transform(x):
+0015:     return torch.cat([desc_text_features[x].unsqueeze(0), av45_feature_optimized], dim=0)
+0016: 
+0017: 
+0018: # 自定义加载函数
+0019: def mat_load(filepath):
+0020:     """
+0021:     使用 nibabel 加载 NIfTI 文件，并转换为 NumPy 数组。
+0022:     """
+0023:     return nib.load(filepath).get_fdata()
+0024: 
+0025: # 加载 JSON 文件
+0026: train_json_path = "/home/ssddata/liutuo/liutuo_data/test1/train_data_with_description.json"
+0027: val_json_path = "/home/ssddata/liutuo/liutuo_data/test1/val_data_with_description.json"
+0028: 
+0029: # 加载 JSON 文件
+0030: with open(train_json_path, "r") as f:
+0031:     train_data = json.load(f)
+0032: 
+0033: with open(val_json_path, "r") as f:
+0034:     val_data = json.load(f)
+0035: 
+0036: # 转换数据格式
+0037: train_data = [
+0038:     {
+0039:         "name": item["name"],
+0040:         "mri": item["mri"],
+0041:         "av45": item["av45"],
+0042:         "fdg": item["fdg"],
+0043:         "description": item.get("description", {}),  # 确保 description 存在
+0044:         "fdg_index": item.get("fdg_index"),  # 保留 fdg_index
+0045:         "av45_index": item.get("av45_index"),  # 保留 av45_index
+0046:     }
+0047:     for item in train_data
+0048: ]
+0049: 
+0050: val_data = [
+0051:     {
+0052:         "name": item["name"],
+0053:         "mri": item["mri"],
+0054:         "av45": item["av45"],
+0055:         "fdg": item["fdg"],
+0056:         "description": item.get("description", {}),  # 确保 description 存在
+0057:         "fdg_index": item.get("fdg_index"),  # 保留 fdg_index
+0058:         "av45_index": item.get("av45_index"),  # 保留 av45_index
+0059:     }
+0060:     for item in val_data
+0061: ]
+0062: 
+0063: 
+0064: 
+0065: # 构建数据增强 pipeline
+0066: # 定义训练集数据增强流程
+0067: train_transforms = mt.Compose([
+0068:     mt.Lambdad(keys=["mri", "fdg","av45"], func=mat_load),  # 加载 NIfTI 文件
+0069:     mt.EnsureChannelFirstd(keys=["mri", "fdg","av45"],channel_dim='no_channel'),
+0070:     mt.Orientationd(keys=["mri", "fdg","av45"], axcodes="LPI"),
+0071:     mt.CropForegroundd(keys=["mri", "fdg","av45"], source_key="mri"),
+0072:     mt.HistogramNormalized(keys=["mri"]),
+0073:     mt.ResizeWithPadOrCropd(keys=["mri", "fdg","av45"], spatial_size=[160, 192, 160]),
+0074:     mt.Spacingd(keys=["mri", "fdg","av45"], pixdim=(1.0, 1.0, 1.0)),
+0075:     mt.NormalizeIntensityd(keys=["mri", "fdg","av45"]),
+0076:     mt.ScaleIntensityd(keys=["mri", "fdg","av45"]),
+0077:     # mt.Lambdad(keys=["fdg_index"], func=fdg_index_transform),  # 添加 fdg_index 转换
+0078:     # mt.Lambdad(keys=["av45_index"], func=av45_index_transform),  # 添加 av45_index 转换
+0079: ])
+0080: 
+0081: # 定义验证集数据增强流程（通常与训练集一致，但不含随机性增强）
+0082: val_transforms = mt.Compose([
+0083:     mt.Lambdad(keys=["mri", "fdg","av45"], func=mat_load),  # 加载 NIfTI 文件
+0084:     mt.EnsureChannelFirstd(keys=["mri", "fdg","av45"],channel_dim='no_channel'),
+0085:     mt.Orientationd(keys=["mri", "fdg","av45"], axcodes="LPI"),
+0086:     mt.CropForegroundd(keys=["mri", "fdg","av45"], source_key="mri"),
+0087:     mt.HistogramNormalized(keys=["mri"]),
+0088:     mt.ResizeWithPadOrCropd(keys=["mri", "fdg","av45"], spatial_size=[160, 192, 160]),
+0089:     mt.Spacingd(keys=["mri", "fdg","av45"], pixdim=(1.0, 1.0, 1.0)),
+0090:     mt.NormalizeIntensityd(keys=["mri", "fdg","av45"]),
+0091:     mt.ScaleIntensityd(keys=["mri", "fdg","av45"]),
+0092:     # mt.Lambdad(keys=["fdg_index"], func=fdg_index_transform),  # 添加 fdg_index 转换
+0093:     # mt.Lambdad(keys=["av45_index"], func=av45_index_transform),  # 添加 av45_index 转换
+0094: ])
+0095: 
+0096: 
+0097: # 构建 CacheDataset
+0098: train_ds = CacheDataset(data=train_data, transform=train_transforms, num_workers=0, )
+0099: train_loader = DataLoader(train_ds, batch_size=1, shuffle=True, num_workers=0)    #shuffle=True
+0100: 
+0101: val_ds = CacheDataset(data=val_data, transform=val_transforms, num_workers=0, )
+0102: val_loader = DataLoader(val_ds, batch_size=1, shuffle=False, num_workers=0)
+0103: 
+0104: # 测试 DataLoader
+0105: for batch_data in train_loader:
+0106:     print("MRI shape:", batch_data["mri"].shape)
+0107:     print("AV45 shape:", batch_data["av45"].shape)
+0108:     print("FDG shape:", batch_data["fdg"].shape)
+0109:     print("description:", train_data[0]["description"])  # 从原始数据访问描述信息
+0110:     break

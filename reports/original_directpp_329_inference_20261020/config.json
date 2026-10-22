@@ -1,0 +1,18 @@
+{
+  "project_root": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_directpp_329_inference_20261020",
+  "work": "/mnt/datas230/users/linshuijin/DIRECTPP_original329/20261020T165430+0800",
+  "original_code_root": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo",
+  "native_notebook": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new_start.ipynb",
+  "metric_notebook": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_reflow_test or fanhua.ipynb",
+  "data_root": "/mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original",
+  "biomedclip_bundle": "/mnt/datas230/users/linshuijin/DIRECTPP_original329/20261020T165430+0800/original_biomedclip",
+  "checkpoint": "/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-24235232d2cdacbd92d4/first_part_152best.pth",
+  "manifest": "/mnt/datas230/users/linshuijin/DIRECTPP_original329/20261020T165430+0800/original_329_val.json",
+  "expected_n": 329,
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "gpu_physical_index": 5,
+  "selection_basis": "Original new_start cell10 explicitly loads first_part_152best.pth; no selection on these evaluation metrics",
+  "inference_scope": "329 frozen PTIDs mapped to original dual-tracer NIfTI/description inputs; not a replay of legacy single-tracer MAT preprocessing",
+  "execution_policy": "Extract original source cells; no experiments/e1_clinical_conditioning imports; no training or original-file writes"
+}

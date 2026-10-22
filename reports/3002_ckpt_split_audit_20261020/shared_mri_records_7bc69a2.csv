@@ -1,0 +1,3 @@
+split,row_index,ptid,examdate_raw,examdate_normalized,mri_image_id,mri
+train,798,127_S_6147,2025/3/26,2025-03-26,I11175778,/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/127_S_6147__I11175778.nii.gz
+val,97,127_S_6147,2025/2/17,2025-02-17,I11175778,/mnt/nfsdata/nfsdata/ADNI/ADNI0103/Coregistration/MRI/127_S_6147__I11175778.nii.gz

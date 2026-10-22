@@ -1,0 +1,106 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb
+ORIGINAL_SHA256: 08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe
+CELL_INDEX_ZERO_BASED: 3
+CELL_EXECUTION_COUNT_METADATA: 4
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import os
+0002: import pandas as pd
+0003: import torch
+0004: from transformers import AutoProcessor, AutoModel
+0005: import scipy.io as sio
+0006: 
+0007: # 读取CSV文件并创建Subject到Description和Group的映射
+0008: label_path1 = "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/ADNI1_imdb_with_meta_description.csv"
+0009: label_path2 = "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/ADNI2_imdb_with_meta_description.csv"
+0010: 
+0011: label1 = pd.read_csv(label_path1)
+0012: label2 = pd.read_csv(label_path2)
+0013: 
+0014: label1_dict = dict(zip(label1["Subject"], label1["Group"]))
+0015: label2_dict = dict(zip(label2["Subject"], label2["Group"]))
+0016: 
+0017: label1_desc_dict = dict(zip(label1["Subject"], label1["description"]))
+0018: label2_desc_dict = dict(zip(label2["Subject"], label2["description"]))
+0019: 
+0020: # 使用本地路径加载处理器和模型
+0021: local_model_path = "/home/data/liutuo/code/BiomedCLIP"
+0022: processor = AutoProcessor.from_pretrained(local_model_path, trust_remote_code=True)
+0023: model = AutoModel.from_pretrained(local_model_path, trust_remote_code=True)
+0024: 
+0025: device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+0026: model.to(device)
+0027: model.eval()
+0028: 
+0029: # 定义函数以读取.mat文件
+0030: def mat_load(mat_file_dir):
+0031:     mat = sio.loadmat(mat_file_dir)
+0032:     image = mat["IMG"]
+0033:     return image
+0034: 
+0035: # 获取路径中的数据列表
+0036: def get_data_list_from_path(path):
+0037:     data_list = [os.path.join(path, data) for data in os.listdir(path)]
+0038:     return data_list
+0039: 
+0040: # 获取路径中的数据并创建映射
+0041: def get_data_from_path(path, label_dict):
+0042:     data_all = []
+0043:     for data in os.listdir(path):
+0044:         image = os.path.join(path, data)
+0045:         name = data[:-4]
+0046:         try:
+0047:             label = label_dict[name]
+0048:         except KeyError:
+0049:             continue
+0050:         data_all.append({"image": image, "name": name, "label": label})
+0051:     return data_all
+0052: 
+0053: # 获取配对数据并附加Description
+0054: def get_data_from_path_paired_with_description(path, label_dict, label_desc_dict, mri_name_image_dict):
+0055:     data_all = []
+0056:     for data in os.listdir(path):
+0057:         pet = os.path.join(path, data)
+0058:         name = data[:-4]
+0059:         try:
+0060:             mri = mri_name_image_dict[name]
+0061:             label = label_dict[name]
+0062:             description = label_desc_dict[name]
+0063:         except KeyError:
+0064:             continue
+0065:         data_all.append({
+0066:             "pet": pet,
+0067:             "mri": mri,
+0068:             "name": name,
+0069:             "label": label,
+0070:             "description": description,
+0071:         })
+0072:     return data_all
+0073: 
+0074: # 设置路径
+0075: mri_path = "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/MRI"
+0076: pet_path = "/home/data/liutuo/code/liutuo_data/ADNI1+2_baseline/PET"
+0077: 
+0078: # 获取MRI数据并创建映射
+0079: data_all = get_data_from_path(mri_path, label1_dict)
+0080: data_all_adni2 = get_data_from_path(mri_path, label2_dict)
+0081: 
+0082: mri_name_image_dict = dict(zip([data["name"] for data in data_all],
+0083:                                [data["image"] for data in data_all]))
+0084: mri_name_image_dict_adni2 = dict(zip([data["name"] for data in data_all_adni2],
+0085:                                      [data["image"] for data in data_all_adni2]))
+0086: 
+0087: # 获取配对数据并附加Description
+0088: paired_all_with_desc1 = get_data_from_path_paired_with_description(pet_path, label1_dict, label1_desc_dict, mri_name_image_dict)
+0089: paired_all_with_desc2 = get_data_from_path_paired_with_description(pet_path, label2_dict, label2_desc_dict, mri_name_image_dict_adni2)
+0090: 
+0091: # 合并两个数据集
+0092: paired_all_with_desc = paired_all_with_desc1 + paired_all_with_desc2
+0093: 
+0094: # 将Description转化为BiomedCLIP嵌入
+0095: modal_information = [data["description"] for data in paired_all_with_desc]
+0096: text_inputs = processor.tokenizer(modal_information, padding=True, truncation=True, return_tensors="pt", max_length=256).to(device)
+0097: 
+0098: with torch.no_grad():
+0099:     desc_text_features = model.get_text_features(text_inputs['input_ids'])  # 使用实际的特征提取方法
+0100:     print(desc_text_features.shape, desc_text_features.dtype)

@@ -1,0 +1,6 @@
+Saved generated FDG image to /home/ssddata/liutuo/liutuo_data/New Folder/generated_fdg_0.nii.gz
+Saved generated AV45 image to /home/ssddata/liutuo/liutuo_data/New Folder/generated_av45_0.nii.gz
+Saved real FDG image to /home/ssddata/liutuo/liutuo_data/New Folder/real_fdg_0.nii.gz
+Saved real AV45 image to /home/ssddata/liutuo/liutuo_data/New Folder/real_av45_0.nii.gz
+[FDG] SSIM: 0.9567, PSNR: 28.4572
+[AV45] SSIM: 0.9403, PSNR: 28.1964

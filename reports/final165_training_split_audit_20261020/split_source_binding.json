@@ -1,0 +1,34 @@
+{
+  "user_supplied_on": "2026-10-16",
+  "supplied_manifest_identity": {
+    "train": {
+      "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/appendix/legacy_only/5_data_splits/train_data_1856_first_part_165.json",
+      "sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+      "rows": 1856,
+      "unique_ptids": 1856
+    },
+    "val": {
+      "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/appendix/legacy_only/5_data_splits/val_data_1_first_part_165.json",
+      "sha256": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b",
+      "rows": 1,
+      "unique_ptids": 1
+    }
+  },
+  "origin_archive_supplied_comparison": [
+    {
+      "split": "train",
+      "supplied_sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+      "archive_original_sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+      "live_original_sha256": "cb21eeabd8b0513ee15ebd183eb14b88abef9d89788b1ce5ff007c1fea079103",
+      "all_equal": true
+    },
+    {
+      "split": "val",
+      "supplied_sha256": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b",
+      "archive_original_sha256": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b",
+      "live_original_sha256": "3c9ea3b9e3afaa3aca66fcda8eee7626519f6edde5bc6c476febf518cee47e9b",
+      "all_equal": true
+    }
+  ],
+  "prior_receipt": "appendix/legacy_only/8_revision_evidence/revision_20261016/final165_split_receipt.json"
+}

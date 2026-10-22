@@ -1,0 +1,8 @@
+{
+  "ptid": "002_S_4219",
+  "tracer": "fdg",
+  "checkpoint_sha256": "a936a95c96f795dfaf018b34e5824ee3b7d5d9aa2d5e181ca75ee2806b3cf542",
+  "prediction_sha256": "2a2817d34abce4eba882052560e68a16eee279de711206ad28dc1fde8d03f049",
+  "cache": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/preprocessed/002_S_4219.npz",
+  "cache_sha256": "ab2ea15e54dc4798aae96d47c5de952c2528d0f4435be9fd52914931bb12a691"
+}

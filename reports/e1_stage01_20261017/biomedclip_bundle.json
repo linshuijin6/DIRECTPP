@@ -1,0 +1,13 @@
+{
+  "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/biomedclip",
+  "files": {
+    "config.json": "1de3d38ac5ede7babaf72d68e45c00e5bdbf5240c5b50fcec259c79375367431",
+    "configuration_biomed_clip.py": "b88965dbee5b83196eef13c3adc20dc0a5c96736bee14d487cc61809a759257b",
+    "model.safetensors": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb",
+    "modeling_biomed_clip.py": "4f4afdf5418d70a6198da6a8e4d59453cf37d3c694c793f71f5b9bdbb0b258a1",
+    "preprocessor_config.json": "b73eb29108ff586ec6e81abf6149cd24132ceac0eae76ca20b3f3004e848a4c4",
+    "processing_biomed_clip.py": "22fb0c0ef2324137a441081034ab0d37a95f077ab2fe3d29e29ac4eda6517e0c",
+    "tokenizer.json": "defc1f91456606e7847af3a2fb4a8abb96441423aa5407a52498395ea68327ff",
+    "tokenizer_config.json": "e1790949631401af1bfb6c9c7aeec7fcf612e274d73579d99f704faea40c8ba7"
+  }
+}

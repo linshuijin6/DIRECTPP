@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/home/ssddata/liutuo/checkpoint/swinunter",
+    "exists": false,
+    "error": "[Errno 2] No such file or directory: '/home/ssddata/liutuo/checkpoint/swinunter'"
+  },
+  {
+    "path": "/home/ssddata/liutuo/checkpoint/swinunter_fdg",
+    "exists": true,
+    "files": [
+      {
+        "name": "swinunter_1.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_10.pth",
+        "bytes": 753967218
+      },
+      {
+        "name": "swinunter_11.pth",
+        "bytes": 753967218
+      },
+      {
+        "name": "swinunter_12.pth",
+        "bytes": 753967218
+      },
+      {
+        "name": "swinunter_13.pth",
+        "bytes": 753967218
+      },
+      {
+        "name": "swinunter_2.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_3.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_4.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_5.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_6.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_7.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_8.pth",
+        "bytes": 753966602
+      },
+      {
+        "name": "swinunter_9.pth",
+        "bytes": 753966602
+      }
+    ]
+  }
+]

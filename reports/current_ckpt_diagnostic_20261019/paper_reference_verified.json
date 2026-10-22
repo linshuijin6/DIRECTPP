@@ -1,0 +1,31 @@
+{
+  "source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_AV45-swin unet or fanhua.ipynb",
+  "source_sha256": "0755c31eeb8f628ec6f73a11e91a75577a8211337e8d5729d3a13deabef59489",
+  "entries": [
+    {
+      "tracer": "fdg",
+      "cell_zero_based": 9,
+      "source_line": "    [89.94, 28.72, 0.33, 2.96]   # Ours",
+      "values_SSIMP_PSNR_MSEP_MAEP": [
+        89.94,
+        28.72,
+        0.33,
+        2.96
+      ],
+      "cell_source_sha256": "aa546d81678ce4b38ed6deac7a4553c1308b352bc37654c0840cecdc7c591fce"
+    },
+    {
+      "tracer": "av45",
+      "cell_zero_based": 10,
+      "source_line": "    [88.21, 28.09, 0.39, 2.73]   # Ours",
+      "values_SSIMP_PSNR_MSEP_MAEP": [
+        88.21,
+        28.09,
+        0.39,
+        2.73
+      ],
+      "cell_source_sha256": "c37abb71c4c740686511eae3cd6225227cf2258530e9cda29c63699bf898780d"
+    }
+  ],
+  "scope": "Verified plotting input values directly from indexed core notebook; this does not recover original per-subject evaluation cohort."
+}

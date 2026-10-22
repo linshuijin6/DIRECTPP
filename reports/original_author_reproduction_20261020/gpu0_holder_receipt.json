@@ -1,0 +1,20 @@
+{
+  "status": "RELEASED_BY_USER_REQUEST",
+  "purpose": "temporary exclusive hold before original-author reproduction validation and training",
+  "node_alias": "3003",
+  "reported_hostname": "pnxc",
+  "physical_gpu": 0,
+  "gpu_uuid": "GPU-7b6ef4a8-2ab3-cdf8-b8c9-748509137ebc",
+  "pid": 943746,
+  "process_start_local": "2026-10-20 20:44:03 Asia/Shanghai",
+  "allocated_bytes": 46170898432,
+  "nvidia_smi_used_mib_after_ready": 44363,
+  "other_compute_pids_on_gpu_at_verification": [],
+  "log": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/gpu0_holder.log",
+  "training_started": false,
+  "initial_holder_released_for_preflight": true,
+  "replacement_holder_pid": 948028,
+  "replacement_holder_released_local": "2026-10-20 Asia/Shanghai",
+  "post_release_gpu_used_mib": 15,
+  "post_release_compute_pids": []
+}

@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "check": "authorization",
+      "pass_before_model_allocation": true,
+      "message": "Stage 2 is NOT authorized. Four formal fits remain disabled."
+    },
+    {
+      "check": "clinical_dependency",
+      "pass_before_model_allocation": true,
+      "message": "Clinical-source scientific gate blocked: target-PET / cross-fold input fitting or unaccepted claim scope"
+    },
+    {
+      "check": "laterality",
+      "pass_before_model_allocation": true,
+      "message": "Anatomical ROI laterality gate failed; formal training blocked"
+    },
+    {
+      "check": "mask_binding",
+      "pass_before_model_allocation": true,
+      "message": "MRI/mask binding gate failed; formal training blocked"
+    }
+  ],
+  "persistent_config_unchanged": true,
+  "cuda_initialized": false,
+  "formal_training_started": false
+}

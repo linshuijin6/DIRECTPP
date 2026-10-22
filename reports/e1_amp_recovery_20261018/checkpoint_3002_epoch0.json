@@ -1,0 +1,16 @@
+{
+  "path": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/formal/fold1_Full/recovery.pt",
+  "epoch": 0,
+  "optimizer_updates": 928,
+  "config_sha256": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+  "scaler": {
+    "scale": 65536.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 928
+  },
+  "model_and_optimizer_finite": true,
+  "checkpoint_bytes": 119483342,
+  "atomic_epoch_checkpoint_readable": true
+}

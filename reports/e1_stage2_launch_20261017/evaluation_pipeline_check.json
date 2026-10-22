@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "ptid": "002_S_0413",
+      "fold": 1,
+      "condition": "Full",
+      "tracer": "av45",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "3a04b293f8ae3dfaf0eca0c319236f305644993c8ad61c52fd864259c28cd2bc"
+    },
+    {
+      "ptid": "002_S_0413",
+      "fold": 1,
+      "condition": "Full",
+      "tracer": "fdg",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "de514a65871db8bd47a0de36cec484811b9dd034ae69cc394207e9a74fde4b65"
+    },
+    {
+      "ptid": "002_S_0413",
+      "fold": 1,
+      "condition": "No-Scores",
+      "tracer": "av45",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "184da0a8cde29fadd6039c283937632c3b151f9b4b1c4691b05d0d0605161924"
+    },
+    {
+      "ptid": "002_S_0413",
+      "fold": 1,
+      "condition": "No-Scores",
+      "tracer": "fdg",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "f27d6843b403ecfca4c1723cf7d885c339af8f5152a0bfe695064e300371851f"
+    },
+    {
+      "ptid": "002_S_0295",
+      "fold": 2,
+      "condition": "Full",
+      "tracer": "av45",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "61f1fb072d70c244a5ddf601c2bf928c89761e3a1206ea5ee55b1c6147d5e916"
+    },
+    {
+      "ptid": "002_S_0295",
+      "fold": 2,
+      "condition": "Full",
+      "tracer": "fdg",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "ca348804cc86a5dbb2fa7619959fda73ebe3c85b23dbba7002e69c46196a806b"
+    },
+    {
+      "ptid": "002_S_0295",
+      "fold": 2,
+      "condition": "No-Scores",
+      "tracer": "av45",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "308d385063a9181d4a20d8b1e42d379170c50b151c5622f9ba2e7276e197c7f3"
+    },
+    {
+      "ptid": "002_S_0295",
+      "fold": 2,
+      "condition": "No-Scores",
+      "tracer": "fdg",
+      "grid_pass": true,
+      "roi_arithmetic_pass": true,
+      "identity_image_metric_pass": true,
+      "nonempty_rois": 98,
+      "source_sha256": "7bde1820159640c1d2b8bc6266bd3486d8a9b12c8ef79430905b462fe137681b"
+    }
+  ],
+  "numerical_fixtures_pass": true,
+  "scientific_evaluation_authorized": false,
+  "roi_validity_filter_pass": true,
+  "physical_name_map_pass": true,
+  "active_subjects": 1856,
+  "invalid_subjects": 17,
+  "laterality_gate_pass": true,
+  "interpretation": "Engineering fixtures and historical training-side output I/O only; pilot quality is not an E1 result. Current ROI validity/name mapping checked independently."
+}

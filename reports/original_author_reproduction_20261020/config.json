@@ -1,0 +1,50 @@
+{
+  "experiment": "original_author_training_reconstruction",
+  "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020",
+  "assets": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020",
+  "data_root": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45",
+  "source_contract": {
+    "notebook": "source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb",
+    "notebook_sha256": "6ce109159da4b04758146170d0968e2b42d5f2cd79a03192da8de11f0a5edd1f",
+    "cells_zero_based": [
+      1,
+      2,
+      4,
+      8,
+      9,
+      11
+    ],
+    "model_source": "source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/nets/diffusion_model_unet.py",
+    "model_source_sha256": "b56b1956b787e85f52fc1a7f46884fea2cbfff81f9c31311db462dda7b378bcc",
+    "biomedclip": "results/checkpoints/vscode-3002/home/ssddata/liutuo/BiomedCLIP",
+    "biomedclip_model_sha256": "8d6e9edd227566b056eef0c682bb13f9e501364c1c29b8ccb06986a9ffb5cfbb"
+  },
+  "split_algorithm": "KFold(n_splits=2, shuffle=True, random_state=42)",
+  "split_seed": 42,
+  "stratified": false,
+  "historical_1856_1_validation_ptid": "011_S_4105",
+  "training_seed": null,
+  "training_seed_policy": "author_notebook_unseeded_user_selected",
+  "epochs": 200,
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "distill_start_epoch_zero_based": 140,
+  "val_interval": 10,
+  "learning_rate": 2.5e-05,
+  "batch_size": 1,
+  "persistent_cache_root": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction",
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "expected_effective": {
+    "fdg": 1598,
+    "av45": 1365
+  },
+  "minimum_gpu_total_bytes": 50465865728,
+  "minimum_gpu_free_bytes": 48318382080,
+  "minimum_host_available_bytes": 17179869184,
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "status": "PREPARED_NOT_ENCODED_NOT_TRAINED"
+}

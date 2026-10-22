@@ -1,0 +1,13 @@
+ORIGINAL: source_archive/vscode-3002/home/ssddata/liutuo/mri2pet swinunet useful.ipynb
+ORIGINAL_SHA256: 36b1db9e305c6b05b22f4398129e3ea385e99c5d102a08ebf040db99444fc53e
+CELL_INDEX_ZERO_BASED: 8
+CELL_EXECUTION_COUNT_METADATA: 9
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: train_data = paired_all_with_desc[:800]
+0002: 
+0003: val_data = paired_all_with_desc[800:]
+0004: 
+0005: # 输出检查
+0006: print(f"训练集大小: {len(train_data)}") 
+0007: print(f"验证集大小: {len(val_data)}")   

@@ -1,0 +1,91 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/mri2pet all data_add personal clip_concat-ddpm ddim.ipynb
+ORIGINAL_SHA256: 08513920dcb07f4ecfe20f56393afab040fd35cc826b4b3bb55308aff72afbbe
+CELL_INDEX_ZERO_BASED: 13
+CELL_EXECUTION_COUNT_METADATA: 30
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: scheduler = DDIMScheduler(prediction_type='v_prediction',num_train_timesteps=1000,
+0002:                            schedule="scaled_linear_beta",beta_start=0.0005, beta_end=0.0195)
+0003: scheduler.set_timesteps(num_inference_steps=10)#50
+0004: inferer = DiffusionInferer(scheduler)
+0005: optimizer = torch.optim.Adam(params=model.parameters(), lr=2.5e-5)
+0006: 
+0007: import torch
+0008: import numpy as np
+0009: from tqdm import tqdm
+0010: from generative.metrics import SSIMMetric
+0011: # for batch in train_loader:
+0012: #     names = batch["name"]  # 提取样本名称
+0013: 
+0014: #     # 查找名称为 "130_S_0460" 的样本
+0015: #     if "002_S_2010" not in names:
+0016: #         continue  # 如果没有找到该样本，继续下一个 batch
+0017: #     image_1 = batch["mri"]
+0018: #     label_1 = batch["pet"]
+0019:    
+0020: 
+0021: 
+0022: 
+0023: #     compare_3d([image_1, label_1])
+0024: #     break  # Uncomment to compare only the first batch
+0025: 
+0026: # 加载保存的模型参数
+0027: checkpoint = torch.load('/home/data/liutuo/code/checkpoint/mri2pet all data-_add personal clip-_concat_final/noise2image about mri2pet_method_two_second_part_40.pth')
+0028: model.load_state_dict(checkpoint['model'])
+0029: model.eval()
+0030: model.to(device)
+0031: 
+0032: # 初始化SSIM度量
+0033: ssim_metric = SSIMMetric(spatial_dims=3, data_range=1.0, kernel_size=11)
+0034: 
+0035: # 遍历数据集，查找特定样本名称
+0036: for batch in train_loader:
+0037:     names = batch["name"]  # 提取样本名称
+0038: 
+0039:     # 查找名称为 "130_S_0460" 的样本
+0040:     if "022_S_0543" not in names:
+0041:         continue  # 如果没有找到该样本，继续下一个 batch
+0042: 
+0043:     # 获取该样本的 MRI 输入图像和 PET 标签
+0044:     input_img = batch["mri"].to(device)
+0045:     labels = batch["pet"].to(device)
+0046:     pet_index = batch["pet_index"].to(device)
+0047: 
+0048:     # 生成随机噪声并初始化采样图像
+0049:     noise = donkey_noise_like(input_img).to(device)
+0050:     current_img = noise  # 从随机噪声开始
+0051:     combined = torch.cat((input_img, noise), dim=1)  # 拼接MR图像和噪声
+0052: 
+0053:     # 采样过程
+0054:     progress_bar = tqdm(scheduler.timesteps, desc=f"Sampling")
+0055:     for t in progress_bar:
+0056:         with autocast(device_type='cuda', enabled=True):
+0057:             with torch.no_grad():
+0058:                 model_output = model(combined, timesteps=torch.Tensor((t,)).to(current_img.device), context=pet_index)
+0059:                 current_img, _ = scheduler.step(model_output, t, current_img)
+0060:                 combined = torch.cat((input_img, current_img), dim=1)  # 每一步都拼接MR图像
+0061: 
+0062:     # 将结果移回CPU
+0063:     current_img = current_img.to('cpu')
+0064:     labels = labels.to('cpu')
+0065:     from generative.metrics import SSIMMetric
+0066:     from monai.metrics import (MAEMetric, MSEMetric, PSNRMetric,)
+0067: 
+0068:     # 计算当前采样的SSIM
+0069:     ssim_value = ssim_metric(labels, current_img)
+0070: 
+0071:     # 可视化采样结果
+0072:     compare_3d([input_img, labels, current_img])
+0073:     compare_3d_jet([input_img, labels, current_img])
+0074:     compare_3d_jet([current_img - labels])
+0075: 
+0076:     # 计算并输出PSNR和SSIM
+0077:     psnr_metric = PSNRMetric(1.0)
+0078:     ssim_value = ssim_metric(labels, current_img)
+0079:     psnr_value = psnr_metric(labels, current_img)
+0080: 
+0081:     print(f"SSIM: {ssim_value.mean().item()}")
+0082:     print(f"PSNR: {psnr_value.mean().item()}")
+0083: 
+0084:     # 找到并处理完 "130_S_0460" 样本后，退出循环
+0085:     break

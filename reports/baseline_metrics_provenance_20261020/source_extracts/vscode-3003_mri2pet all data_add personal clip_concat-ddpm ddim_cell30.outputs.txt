@@ -1,0 +1,2 @@
+[0;31m---------------------------------------------------------------------------[0m[0;31mRuntimeError[0m                              Traceback (most recent call last)Cell [0;32mIn[19], line 36[0m
+[0;31mRuntimeError[0m: mat1 and mat2 shapes cannot be multiplied (1x1 and 512x128)

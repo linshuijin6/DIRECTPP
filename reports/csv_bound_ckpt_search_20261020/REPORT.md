@@ -1,0 +1,96 @@
+```text
+按指定1857人CSV重新定位DIRECTPP checkpoint
+日期：2026-10-20（Asia/Shanghai）
+
+本轮补充核查与更正（2026-10-20，针对first_part_165）
+上一轮漏查用户2026-10-16提供的165对应名单收据；不再将165名单关系仅描述为文件名/当前notebook推测。
+用户提供的1856/1名单、DIRECTPP原归档、3002原文件三方SHA一致；原目录排序+test_size=1、seed42重建后，完整名单顺序和索引一致。
+原作者IPython session77依次保留同版划分、loader和加载154的续训输入，与new-final对应cell一致；但输入记录不单独证明成功更新或现存165的实际训练队列。
+1856/1文件与165推理准备有关联；原作者可能为推理复用train_data/train_loader命名，不能仅凭名称确认实际训练归属。
+用户自己的3002历史先使用test_size=1，后改为10%；本文1672/185应称为“本人后续修改的10%分支”，不代表第一次原样复用的划分。
+checkpoint仍无内嵌manifest，154之前每个epoch的冻结数据状态未完全绑定；这不替代论文整体OOF执行核查。
+完整证据和可复核名单：../final165_training_split_audit_20261020/REPORT.md。
+
+结论
+前两轮重点列出的3002三份1–2月权重，不能作为本次指定CSV的匹配结果。
+它们对应990/109、1224/136的CSF/TAU扩展候选名单；本次按逐PTID和description对照后予以排除。
+现已找回正确数据分支、原始双示踪剂权重及当前E1的同源权重；三者的证据强度和运行身份不同。
+若要找“本人后续10%分支的1672/185运行权重”，当前仍未定位到可绑定的实物文件，不用原作者权重替代它。
+
+目标CSV
+source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/filtered_subjects_with_description.csv
+1857行、1857个唯一PTID。
+SHA256：ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445
+原3002上 /home/ssddata/liutuo/liutuo_data/filtered_subjects_with_description.csv 仍在，SHA相同。
+原3002的ADNI1234_mri_fdg_av45_original目录内同名CSV也同SHA。
+NFS /mnt/nfsdata/nfsdata/linshuijin/ADNILT/ADNI1234_mri_fdg_av45_original/filtered_subjects_with_description.csv 同SHA。
+CSV没有逐扫描image_id/日期列，表匹配本身不能认证某个MRI/PET配对或完整实验协议。
+
+一、本人后续10%数据分支：已找回，checkpoint未绑定
+3002 Git ddebfa561375d187eeecc5ca7ee6f7e6dd20c6ac 保留train=1672、val=185的根目录JSON。
+3014当前 /mnt/ssd/linshuijin/replicaLT/{train,val}_data_with_description.json 与这两份Git文件逐字节相同。
+合并后恰为目标CSV全部1857个PTID，无额外/缺失；1857条description与CSV逐字匹配。
+train/val各自PTID唯一，两边无交集。
+回收名单：matching_1857_train.json、matching_1857_val.json、matching_1857_membership.csv。
+早期9605888:train.py使用ADNILT/ADNI1234_mri_fdg_av45_original里的CSV，保存目标为 ./checkpoint。
+ddebfa5:train_single_gpu.py同样读取这一CSV，保存目标为 ./checkpoint2。
+3014现存train.py仍为该原始数据分支，但保存目录硬编码为 /home/data/linshuijin/replicaLT/checkpoint，不能据此声称权重写在3014。
+已查3002/3003/3014/3015本地replicaLT的checkpoint相关目录：
+3014 checkpoint/为空；未发现checkpoint2/。
+其他节点first_part文件已处于后续plasma/CSF运行命名空间，未找到1672/185运行的独立名单/日志绑定。
+3001 home内未定位到replicaLT。
+另筛查3002的401份root/terminal日志，未恢复该1672/185运行的训练保存记录；PTID出现在数据转换日志不算训练证据。
+因此这里确认的是“同一CSV的代码和完整名单”，尚不能给出已确认的本人1672/185分支训练权重路径。
+
+二、原始liutuo运行的双示踪剂权重：实物已找到，可直接定位
+以下路径均相对DIRECTPP项目根目录；它们是归档入口symlink，真实文件仍保留。
+优先候选：
+results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow_noHistogramNormalized/first_part_165.pth
+内部epoch=164，model/optimizer/epoch三类字段；CPU weights_only加载通过，286项模型张量均有限。
+SHA256：fa43adae089aefbe66df8d1f196a618662b75dbdc880cce10923dd22b844165e
+原3002同绝对路径文件当前仍在，SHA与归档一致。
+物理文件：/mnt/datas230/users/linshuijin/DIRECTPP_assets/20261016T164446+0800/vscode-3002-9fde43ce7ad8254c62d3/first_part_165.pth
+
+另一条原始分支：
+results/checkpoints/vscode-3002/home/ssddata/liutuo/checkpoint/mri2pet _two trace_add clip_flow/first_part_152best.pth
+内部epoch=151，CPU加载通过；SHA=a57f7e79071baf4661bfe7d853846cf2fe57590de25b26eaf7a90faead634bb6。
+
+同族另外保留first_part_150Best.pth、first_part_140.pth及其他epoch文件。
+本轮按明确的两条原始checkpoint目录入口核实29份权重：20份位于noHistogramNormalized目录、9份位于clip_flow目录；均CPU加载通过。
+全部源路径、项目入口、物理路径、epoch及SHA见archive_checkpoint_index.csv。
+目录名称和best文件名不作为预处理、最佳选择或论文最终权重的独立证据。
+
+与CSV/运行记录的关系及限制
+NFS ADNILT原始数据目录现存1856/1的两份JSON，PTID合并及description同样完整匹配目标1857人CSV。
+原始new-final notebook cell2的留存输出为1856/1；cell10保留155/160/165验证与“Saved all parameters!”输出，cell11明确加载first_part_165.pth。
+new_start notebook保留另一分支的first_part_152best.pth加载路径及保存输出。
+这能将上述实物权重定位为原始FDG/AV45代码链的强候选；它们来源是liutuo目录，不是本人home的1672/185运行。
+但源notebook读取路径写为ADNI1234_mri_fdg_av45（该目录内CSV当前已不存在），当前同SHA原表保留在上一级及_original目录。
+历史checkpoint没有CSV/split哈希；notebook单元可独立执行，GitHub副本还共享历史输出。
+因此不能仅将当前cell2、保存输出和文件名拼接为每个权重训练时完整名单已获认证，更不能把1856/1视为论文整体实验设计。
+
+三、当前E1：确实同一CSV来源，但属于2026-10修稿实验
+reports/e1_stage01_20261017/metadata.csv 与目标CSV逐字节相同，SHA均为ab18b043...。
+当前cohort/config冻结哈希与下列两份checkpoint静态元数据、推理快照收据一致；QC排除016_S_4952后有效1856人，两折各928。
+reports/e1_full165_inference_20261020/fold1/checkpoint.pt
+reports/e1_full165_inference_20261020/fold2/checkpoint.pt
+两者epoch=164、condition=Full，是完成165 epoch的冻结推理快照；不当作早期本人复现权重。
+其来源分别为3002 /home/linshuijin/DIRECTPP_E1/.../fold1_Full/recovery.pt，和3003 /mnt/datas230/users/linshuijin/DIRECTPP_E1/.../fold2_Full/recovery.pt。
+本轮核对文件SHA并用pickletools静态读取身份字段；weights_only加载因NumPy RNG对象不在默认allowlist失败，未改用非受限反序列化。
+检查结果见e1_same_csv_checkpoints.json；这项加载限制不等于文件损坏。
+
+四、本次排除的旧候选
+990/109候选：合并只有557个PTID属于目标CSV，额外382人；重合记录的description/old_descr均不匹配原CSV。
+1224/136候选：合并只有552个PTID属于目标CSV，额外354人；同样未匹配原description。
+所以前两轮的0130.main、0203.me.train、0203.LT.main不能继续作为本次目标数据的候选答案。
+
+核查范围与产物
+五个节点的home/replicaLT、已知训练源码及历史Git、已索引原始checkpoint目录、明确引用的ADNILT数据目录。
+额外只读核实NFS replicaLT/runs直接子目录157份hparams，未找到ADNILT/1857/1672对应配置；未扫NFS全盘或其他用户home。
+csv_identity_binding.json：目标CSV与四套名单的逐人/description对照。
+*_source_refs.json、*_checkpoint_dirs.json：各节点源码引用和checkpoint目录实况。
+early_source_receipts.json及historical_source/：原Git路径、commit、SHA和只读派生源码。
+notebook_receipts.json及notebook_evidence/：原文件SHA、零起算cell、保存输出摘录及派生源码。
+archive_checkpoint_validation.json、archive_checkpoint_index.csv：29份原始权重实物和内部元数据。
+只新增本报告目录；未修改原CSV/名单/checkpoint/稿件，未训练、推理或改动队列。
+```

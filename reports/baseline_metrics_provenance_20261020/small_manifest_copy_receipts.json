@@ -1,0 +1,38 @@
+[
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test1/test_filtered_subjects_with_description.csv",
+    "sha256": "2846d4617f59ce4de6a1499800edce0d2f6ccf6032b5fc8039661324c22ef0b9",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test1_test_filtered_subjects_with_description.csv"
+  },
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test1/train_data_with_description.json",
+    "sha256": "24f972f486d5a9638474be81d62c8327242d82d430456721914bbee5371cba85",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test1_train_data_with_description.json"
+  },
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test1/val_data_with_description.json",
+    "sha256": "6cf7e04e4caf470ff5538460675bf2e03559bab1d0ad68182fb39830e19d70bf",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test1_val_data_with_description.json"
+  },
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test/test_filtered_subjects_with_description.csv",
+    "sha256": "4d58ea18a0ea038cf319e2f0567375b96798c86e44807c7d2d4e12f5690f7534",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test_test_filtered_subjects_with_description.csv"
+  },
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test/train_data_with_description.json",
+    "sha256": "2bac59530527ce3b807a1328c26da33e023871ae28749014aa0948bb0f7f0982",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test_train_data_with_description.json"
+  },
+  {
+    "original_node": "3002",
+    "original_path": "/home/ssddata/liutuo/liutuo_data/test/val_data_with_description.json",
+    "sha256": "9000cb2e4d3982aa157908515569eb22cf9e27c683e5c19447a713fa6f567289",
+    "derived": "reports/baseline_metrics_provenance_20261020/original_assets/test_val_data_with_description.json"
+  }
+]

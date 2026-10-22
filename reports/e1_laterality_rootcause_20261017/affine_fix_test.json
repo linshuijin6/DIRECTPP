@@ -1,0 +1,2519 @@
+{
+ "tally": {
+  "Hipp": {
+   "n": 42,
+   "buggy_pass": 2,
+   "correct_pass": 40
+  },
+  "WM": {
+   "n": 42,
+   "buggy_pass": 0,
+   "correct_pass": 42
+  },
+  "Vent": {
+   "n": 42,
+   "buggy_pass": 0,
+   "correct_pass": 42
+  },
+  "Thal": {
+   "n": 42,
+   "buggy_pass": 0,
+   "correct_pass": 42
+  },
+  "Puta": {
+   "n": 42,
+   "buggy_pass": 0,
+   "correct_pass": 42
+  },
+  "Amyg": {
+   "n": 42,
+   "buggy_pass": 0,
+   "correct_pass": 42
+  },
+  "Prec": {
+   "n": 42,
+   "buggy_pass": 1,
+   "correct_pass": 41
+  }
+ },
+ "rows": [
+  {
+   "ptid": "100_S_0743",
+   "Hipp": {
+    "nL": 1,
+    "nR": 458,
+    "buggy_pass": true,
+    "correct_pass": false,
+    "xL_correct": 138.0,
+    "xR_correct": 63.0
+   },
+   "WM": {
+    "nL": 275178,
+    "nR": 273319,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.0,
+    "xR_correct": 110.0
+   },
+   "Vent": {
+    "nL": 51891,
+    "nR": 50953,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.5,
+    "xR_correct": 103.6
+   },
+   "Thal": {
+    "nL": 1055,
+    "nR": 149,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 71.0,
+    "xR_correct": 106.6
+   },
+   "Puta": {
+    "nL": 5387,
+    "nR": 3798,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 69.7,
+    "xR_correct": 93.2
+   },
+   "Amyg": {
+    "nL": 7,
+    "nR": 57,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 95.4,
+    "xR_correct": 109.3
+   },
+   "Prec": {
+    "nL": 12052,
+    "nR": 14378,
+    "buggy_pass": true,
+    "correct_pass": false,
+    "xL_correct": 89.5,
+    "xR_correct": 88.6
+   }
+  },
+  {
+   "ptid": "128_S_4842",
+   "Hipp": {
+    "nL": 1,
+    "nR": 519,
+    "buggy_pass": true,
+    "correct_pass": false,
+    "xL_correct": 78.0,
+    "xR_correct": 62.0
+   },
+   "WM": {
+    "nL": 266172,
+    "nR": 319484,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.4,
+    "xR_correct": 113.7
+   },
+   "Vent": {
+    "nL": 20348,
+    "nR": 19555,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.6,
+    "xR_correct": 98.8
+   },
+   "Thal": {
+    "nL": 1786,
+    "nR": 715,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.6,
+    "xR_correct": 98.0
+   },
+   "Puta": {
+    "nL": 4096,
+    "nR": 3968,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.9,
+    "xR_correct": 106.1
+   },
+   "Amyg": {
+    "nL": 1,
+    "nR": 22,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 31.0,
+    "xR_correct": 97.3
+   },
+   "Prec": {
+    "nL": 12029,
+    "nR": 20042,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 90.0,
+    "xR_correct": 93.6
+   }
+  },
+  {
+   "ptid": "002_S_0295",
+   "Hipp": {
+    "nL": 4712,
+    "nR": 4547,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.9,
+    "xR_correct": 116.8
+   },
+   "WM": {
+    "nL": 273520,
+    "nR": 273895,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.6,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 26379,
+    "nR": 35176,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.1,
+    "xR_correct": 105.3
+   },
+   "Thal": {
+    "nL": 7839,
+    "nR": 8163,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.9,
+    "xR_correct": 103.4
+   },
+   "Puta": {
+    "nL": 6858,
+    "nR": 6595,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.8,
+    "xR_correct": 118.3
+   },
+   "Amyg": {
+    "nL": 2154,
+    "nR": 2106,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.7,
+    "xR_correct": 115.5
+   },
+   "Prec": {
+    "nL": 14860,
+    "nR": 14236,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.6,
+    "xR_correct": 97.1
+   }
+  },
+  {
+   "ptid": "002_S_0413",
+   "Hipp": {
+    "nL": 4579,
+    "nR": 4571,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 116.0
+   },
+   "WM": {
+    "nL": 287591,
+    "nR": 281792,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 29337,
+    "nR": 26450,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.6,
+    "xR_correct": 104.1
+   },
+   "Thal": {
+    "nL": 7657,
+    "nR": 8212,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.8,
+    "xR_correct": 104.2
+   },
+   "Puta": {
+    "nL": 5322,
+    "nR": 5452,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.4,
+    "xR_correct": 117.8
+   },
+   "Amyg": {
+    "nL": 2170,
+    "nR": 2273,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.3,
+    "xR_correct": 114.7
+   },
+   "Prec": {
+    "nL": 13950,
+    "nR": 11853,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.4,
+    "xR_correct": 96.9
+   }
+  },
+  {
+   "ptid": "002_S_0685",
+   "Hipp": {
+    "nL": 4895,
+    "nR": 5090,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.1,
+    "xR_correct": 117.7
+   },
+   "WM": {
+    "nL": 278519,
+    "nR": 272501,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.2,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 28340,
+    "nR": 29702,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.9,
+    "xR_correct": 103.3
+   },
+   "Thal": {
+    "nL": 7928,
+    "nR": 8361,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.8,
+    "xR_correct": 103.7
+   },
+   "Puta": {
+    "nL": 6204,
+    "nR": 6470,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.8,
+    "xR_correct": 117.3
+   },
+   "Amyg": {
+    "nL": 1793,
+    "nR": 1898,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.4,
+    "xR_correct": 114.2
+   },
+   "Prec": {
+    "nL": 12455,
+    "nR": 11904,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.7,
+    "xR_correct": 97.7
+   }
+  },
+  {
+   "ptid": "002_S_0729",
+   "Hipp": {
+    "nL": 4095,
+    "nR": 3577,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.0,
+    "xR_correct": 115.4
+   },
+   "WM": {
+    "nL": 274869,
+    "nR": 263090,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.7,
+    "xR_correct": 117.3
+   },
+   "Vent": {
+    "nL": 20412,
+    "nR": 21752,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.8,
+    "xR_correct": 103.2
+   },
+   "Thal": {
+    "nL": 8400,
+    "nR": 8930,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.3,
+    "xR_correct": 102.6
+   },
+   "Puta": {
+    "nL": 6860,
+    "nR": 6713,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.6,
+    "xR_correct": 117.3
+   },
+   "Amyg": {
+    "nL": 1622,
+    "nR": 1512,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.3,
+    "xR_correct": 114.3
+   },
+   "Prec": {
+    "nL": 11509,
+    "nR": 10815,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 82.2,
+    "xR_correct": 98.7
+   }
+  },
+  {
+   "ptid": "002_S_1155",
+   "Hipp": {
+    "nL": 4857,
+    "nR": 4672,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.1,
+    "xR_correct": 115.4
+   },
+   "WM": {
+    "nL": 287176,
+    "nR": 288058,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.2,
+    "xR_correct": 117.7
+   },
+   "Vent": {
+    "nL": 34685,
+    "nR": 32489,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.0,
+    "xR_correct": 106.0
+   },
+   "Thal": {
+    "nL": 7892,
+    "nR": 8459,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.1,
+    "xR_correct": 102.6
+   },
+   "Puta": {
+    "nL": 6670,
+    "nR": 6732,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.4,
+    "xR_correct": 116.0
+   },
+   "Amyg": {
+    "nL": 2173,
+    "nR": 2015,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.8,
+    "xR_correct": 113.7
+   },
+   "Prec": {
+    "nL": 13593,
+    "nR": 13788,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.0,
+    "xR_correct": 97.5
+   }
+  },
+  {
+   "ptid": "002_S_1261",
+   "Hipp": {
+    "nL": 3569,
+    "nR": 3497,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.0,
+    "xR_correct": 113.7
+   },
+   "WM": {
+    "nL": 278545,
+    "nR": 274463,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 118.1
+   },
+   "Vent": {
+    "nL": 39372,
+    "nR": 34802,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.4,
+    "xR_correct": 104.9
+   },
+   "Thal": {
+    "nL": 7717,
+    "nR": 8027,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.5,
+    "xR_correct": 102.0
+   },
+   "Puta": {
+    "nL": 5735,
+    "nR": 5430,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.4,
+    "xR_correct": 115.8
+   },
+   "Amyg": {
+    "nL": 1555,
+    "nR": 1478,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.2,
+    "xR_correct": 112.3
+   },
+   "Prec": {
+    "nL": 12430,
+    "nR": 12243,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.2,
+    "xR_correct": 99.3
+   }
+  },
+  {
+   "ptid": "002_S_1268",
+   "Hipp": {
+    "nL": 3630,
+    "nR": 3534,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.7,
+    "xR_correct": 116.4
+   },
+   "WM": {
+    "nL": 264159,
+    "nR": 264959,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.5,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 52141,
+    "nR": 54959,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.3,
+    "xR_correct": 105.2
+   },
+   "Thal": {
+    "nL": 6591,
+    "nR": 7438,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.2,
+    "xR_correct": 104.3
+   },
+   "Puta": {
+    "nL": 5404,
+    "nR": 5717,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 59.8,
+    "xR_correct": 118.3
+   },
+   "Amyg": {
+    "nL": 1406,
+    "nR": 1649,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.5,
+    "xR_correct": 116.9
+   },
+   "Prec": {
+    "nL": 12746,
+    "nR": 11492,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 82.2,
+    "xR_correct": 96.2
+   }
+  },
+  {
+   "ptid": "002_S_1280",
+   "Hipp": {
+    "nL": 5055,
+    "nR": 4451,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.3,
+    "xR_correct": 114.5
+   },
+   "WM": {
+    "nL": 277282,
+    "nR": 275350,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.0,
+    "xR_correct": 117.5
+   },
+   "Vent": {
+    "nL": 21756,
+    "nR": 22579,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.9,
+    "xR_correct": 102.7
+   },
+   "Thal": {
+    "nL": 8231,
+    "nR": 8312,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.4,
+    "xR_correct": 101.7
+   },
+   "Puta": {
+    "nL": 7010,
+    "nR": 6967,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.6,
+    "xR_correct": 115.9
+   },
+   "Amyg": {
+    "nL": 2194,
+    "nR": 2212,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.3,
+    "xR_correct": 112.5
+   },
+   "Prec": {
+    "nL": 13399,
+    "nR": 13954,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.3,
+    "xR_correct": 97.3
+   }
+  },
+  {
+   "ptid": "002_S_2010",
+   "Hipp": {
+    "nL": 5253,
+    "nR": 5011,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.5,
+    "xR_correct": 114.6
+   },
+   "WM": {
+    "nL": 275468,
+    "nR": 265171,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.6,
+    "xR_correct": 117.3
+   },
+   "Vent": {
+    "nL": 12503,
+    "nR": 13439,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.7,
+    "xR_correct": 103.3
+   },
+   "Thal": {
+    "nL": 9047,
+    "nR": 9347,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.9,
+    "xR_correct": 100.4
+   },
+   "Puta": {
+    "nL": 7450,
+    "nR": 7128,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.7,
+    "xR_correct": 115.1
+   },
+   "Amyg": {
+    "nL": 2181,
+    "nR": 2318,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 67.0,
+    "xR_correct": 112.2
+   },
+   "Prec": {
+    "nL": 12087,
+    "nR": 11916,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.1,
+    "xR_correct": 98.9
+   }
+  },
+  {
+   "ptid": "002_S_2043",
+   "Hipp": {
+    "nL": 5169,
+    "nR": 4758,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.8,
+    "xR_correct": 113.9
+   },
+   "WM": {
+    "nL": 294005,
+    "nR": 288962,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.2,
+    "xR_correct": 117.1
+   },
+   "Vent": {
+    "nL": 14709,
+    "nR": 16350,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.6,
+    "xR_correct": 103.8
+   },
+   "Thal": {
+    "nL": 8363,
+    "nR": 9113,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.6,
+    "xR_correct": 101.3
+   },
+   "Puta": {
+    "nL": 5768,
+    "nR": 5583,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.3,
+    "xR_correct": 115.9
+   },
+   "Amyg": {
+    "nL": 2251,
+    "nR": 2137,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 67.1,
+    "xR_correct": 112.8
+   },
+   "Prec": {
+    "nL": 15874,
+    "nR": 14940,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.8,
+    "xR_correct": 97.6
+   }
+  },
+  {
+   "ptid": "002_S_2073",
+   "Hipp": {
+    "nL": 4870,
+    "nR": 4525,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.1,
+    "xR_correct": 113.5
+   },
+   "WM": {
+    "nL": 290613,
+    "nR": 293314,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 117.1
+   },
+   "Vent": {
+    "nL": 13882,
+    "nR": 16451,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.4,
+    "xR_correct": 102.3
+   },
+   "Thal": {
+    "nL": 8437,
+    "nR": 8905,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.2,
+    "xR_correct": 100.8
+   },
+   "Puta": {
+    "nL": 6541,
+    "nR": 6441,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 116.5
+   },
+   "Amyg": {
+    "nL": 2271,
+    "nR": 2249,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.7,
+    "xR_correct": 112.4
+   },
+   "Prec": {
+    "nL": 12971,
+    "nR": 14733,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.1,
+    "xR_correct": 97.7
+   }
+  },
+  {
+   "ptid": "002_S_4171",
+   "Hipp": {
+    "nL": 4750,
+    "nR": 4359,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 117.0
+   },
+   "WM": {
+    "nL": 272850,
+    "nR": 262938,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 118.0
+   },
+   "Vent": {
+    "nL": 20792,
+    "nR": 21546,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.1,
+    "xR_correct": 103.5
+   },
+   "Thal": {
+    "nL": 7579,
+    "nR": 7630,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.8,
+    "xR_correct": 103.9
+   },
+   "Puta": {
+    "nL": 5604,
+    "nR": 5810,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.2,
+    "xR_correct": 116.5
+   },
+   "Amyg": {
+    "nL": 2036,
+    "nR": 2042,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.3,
+    "xR_correct": 114.4
+   },
+   "Prec": {
+    "nL": 13194,
+    "nR": 12579,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.2,
+    "xR_correct": 98.3
+   }
+  },
+  {
+   "ptid": "002_S_4213",
+   "Hipp": {
+    "nL": 4762,
+    "nR": 4955,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.8,
+    "xR_correct": 115.7
+   },
+   "WM": {
+    "nL": 277118,
+    "nR": 274788,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.1,
+    "xR_correct": 117.0
+   },
+   "Vent": {
+    "nL": 30176,
+    "nR": 29714,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.4,
+    "xR_correct": 104.1
+   },
+   "Thal": {
+    "nL": 7639,
+    "nR": 7906,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.6,
+    "xR_correct": 101.1
+   },
+   "Puta": {
+    "nL": 5783,
+    "nR": 5601,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 116.2
+   },
+   "Amyg": {
+    "nL": 2055,
+    "nR": 1952,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.3,
+    "xR_correct": 113.3
+   },
+   "Prec": {
+    "nL": 11485,
+    "nR": 14025,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.2,
+    "xR_correct": 97.5
+   }
+  },
+  {
+   "ptid": "002_S_4219",
+   "Hipp": {
+    "nL": 4340,
+    "nR": 4491,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.5,
+    "xR_correct": 115.6
+   },
+   "WM": {
+    "nL": 262930,
+    "nR": 259044,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.1,
+    "xR_correct": 117.8
+   },
+   "Vent": {
+    "nL": 28019,
+    "nR": 30765,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.4,
+    "xR_correct": 105.1
+   },
+   "Thal": {
+    "nL": 6097,
+    "nR": 6740,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.3,
+    "xR_correct": 102.1
+   },
+   "Puta": {
+    "nL": 5330,
+    "nR": 5352,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.9,
+    "xR_correct": 115.8
+   },
+   "Amyg": {
+    "nL": 1666,
+    "nR": 2029,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.8,
+    "xR_correct": 112.5
+   },
+   "Prec": {
+    "nL": 12379,
+    "nR": 11652,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.3,
+    "xR_correct": 97.7
+   }
+  },
+  {
+   "ptid": "002_S_4225",
+   "Hipp": {
+    "nL": 3534,
+    "nR": 3282,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.0,
+    "xR_correct": 114.8
+   },
+   "WM": {
+    "nL": 275653,
+    "nR": 274170,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.3,
+    "xR_correct": 118.2
+   },
+   "Vent": {
+    "nL": 35187,
+    "nR": 39576,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.5,
+    "xR_correct": 104.7
+   },
+   "Thal": {
+    "nL": 7145,
+    "nR": 7912,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.2,
+    "xR_correct": 104.0
+   },
+   "Puta": {
+    "nL": 5938,
+    "nR": 5757,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.5,
+    "xR_correct": 117.4
+   },
+   "Amyg": {
+    "nL": 1768,
+    "nR": 1420,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.7,
+    "xR_correct": 113.9
+   },
+   "Prec": {
+    "nL": 11790,
+    "nR": 12011,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.8,
+    "xR_correct": 99.3
+   }
+  },
+  {
+   "ptid": "002_S_4229",
+   "Hipp": {
+    "nL": 4413,
+    "nR": 4223,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.9,
+    "xR_correct": 114.3
+   },
+   "WM": {
+    "nL": 271529,
+    "nR": 264800,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.6,
+    "xR_correct": 117.8
+   },
+   "Vent": {
+    "nL": 54347,
+    "nR": 55798,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 71.0,
+    "xR_correct": 106.0
+   },
+   "Thal": {
+    "nL": 7739,
+    "nR": 8879,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.0,
+    "xR_correct": 103.2
+   },
+   "Puta": {
+    "nL": 6701,
+    "nR": 6778,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 116.5
+   },
+   "Amyg": {
+    "nL": 2225,
+    "nR": 2266,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.5,
+    "xR_correct": 113.4
+   },
+   "Prec": {
+    "nL": 11595,
+    "nR": 11980,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.7,
+    "xR_correct": 96.7
+   }
+  },
+  {
+   "ptid": "002_S_4237",
+   "Hipp": {
+    "nL": 4216,
+    "nR": 3780,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.6,
+    "xR_correct": 114.8
+   },
+   "WM": {
+    "nL": 248555,
+    "nR": 243300,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.7,
+    "xR_correct": 118.3
+   },
+   "Vent": {
+    "nL": 61764,
+    "nR": 59899,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 71.6,
+    "xR_correct": 107.0
+   },
+   "Thal": {
+    "nL": 6657,
+    "nR": 7127,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.8,
+    "xR_correct": 104.9
+   },
+   "Puta": {
+    "nL": 5084,
+    "nR": 4950,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.2,
+    "xR_correct": 116.8
+   },
+   "Amyg": {
+    "nL": 1534,
+    "nR": 1667,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.0,
+    "xR_correct": 112.6
+   },
+   "Prec": {
+    "nL": 11417,
+    "nR": 13108,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.0,
+    "xR_correct": 97.6
+   }
+  },
+  {
+   "ptid": "002_S_4251",
+   "Hipp": {
+    "nL": 4976,
+    "nR": 4826,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.6,
+    "xR_correct": 115.4
+   },
+   "WM": {
+    "nL": 282308,
+    "nR": 273910,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.0,
+    "xR_correct": 117.8
+   },
+   "Vent": {
+    "nL": 18979,
+    "nR": 15215,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.1,
+    "xR_correct": 101.7
+   },
+   "Thal": {
+    "nL": 7781,
+    "nR": 8209,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.6,
+    "xR_correct": 100.1
+   },
+   "Puta": {
+    "nL": 6714,
+    "nR": 6797,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.4,
+    "xR_correct": 114.4
+   },
+   "Amyg": {
+    "nL": 2194,
+    "nR": 2369,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.3,
+    "xR_correct": 112.7
+   },
+   "Prec": {
+    "nL": 10420,
+    "nR": 10841,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.4,
+    "xR_correct": 99.9
+   }
+  },
+  {
+   "ptid": "002_S_4262",
+   "Hipp": {
+    "nL": 4493,
+    "nR": 4694,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.3,
+    "xR_correct": 116.9
+   },
+   "WM": {
+    "nL": 273746,
+    "nR": 269179,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.5,
+    "xR_correct": 117.9
+   },
+   "Vent": {
+    "nL": 50990,
+    "nR": 40758,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.9,
+    "xR_correct": 104.5
+   },
+   "Thal": {
+    "nL": 7642,
+    "nR": 8041,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.3,
+    "xR_correct": 103.0
+   },
+   "Puta": {
+    "nL": 5976,
+    "nR": 5791,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.8,
+    "xR_correct": 117.6
+   },
+   "Amyg": {
+    "nL": 1822,
+    "nR": 1959,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.5,
+    "xR_correct": 113.7
+   },
+   "Prec": {
+    "nL": 13291,
+    "nR": 13541,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 82.3,
+    "xR_correct": 98.2
+   }
+  },
+  {
+   "ptid": "002_S_4270",
+   "Hipp": {
+    "nL": 4136,
+    "nR": 3663,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.4,
+    "xR_correct": 113.5
+   },
+   "WM": {
+    "nL": 286317,
+    "nR": 287326,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.7,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 20748,
+    "nR": 28136,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.6,
+    "xR_correct": 104.3
+   },
+   "Thal": {
+    "nL": 7575,
+    "nR": 8026,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.1,
+    "xR_correct": 101.5
+   },
+   "Puta": {
+    "nL": 6849,
+    "nR": 6696,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.3,
+    "xR_correct": 115.6
+   },
+   "Amyg": {
+    "nL": 1839,
+    "nR": 1889,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.8,
+    "xR_correct": 113.4
+   },
+   "Prec": {
+    "nL": 13102,
+    "nR": 12669,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.0,
+    "xR_correct": 97.9
+   }
+  },
+  {
+   "ptid": "002_S_4447",
+   "Hipp": {
+    "nL": 4951,
+    "nR": 4755,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.0,
+    "xR_correct": 113.8
+   },
+   "WM": {
+    "nL": 296091,
+    "nR": 299482,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 17031,
+    "nR": 18359,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.4,
+    "xR_correct": 104.3
+   },
+   "Thal": {
+    "nL": 8230,
+    "nR": 8526,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.1,
+    "xR_correct": 101.1
+   },
+   "Puta": {
+    "nL": 7771,
+    "nR": 7749,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.0,
+    "xR_correct": 115.8
+   },
+   "Amyg": {
+    "nL": 2160,
+    "nR": 1934,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 68.0,
+    "xR_correct": 111.2
+   },
+   "Prec": {
+    "nL": 12349,
+    "nR": 13813,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.3,
+    "xR_correct": 97.7
+   }
+  },
+  {
+   "ptid": "002_S_4473",
+   "Hipp": {
+    "nL": 4214,
+    "nR": 3540,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.4,
+    "xR_correct": 113.5
+   },
+   "WM": {
+    "nL": 266775,
+    "nR": 261174,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 118.0
+   },
+   "Vent": {
+    "nL": 49251,
+    "nR": 57304,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 72.9,
+    "xR_correct": 105.7
+   },
+   "Thal": {
+    "nL": 7154,
+    "nR": 7935,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.8,
+    "xR_correct": 103.9
+   },
+   "Puta": {
+    "nL": 6377,
+    "nR": 6059,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.2
+   },
+   "Amyg": {
+    "nL": 1885,
+    "nR": 1802,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.1,
+    "xR_correct": 114.1
+   },
+   "Prec": {
+    "nL": 10591,
+    "nR": 11669,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.7,
+    "xR_correct": 97.6
+   }
+  },
+  {
+   "ptid": "002_S_4521",
+   "Hipp": {
+    "nL": 5043,
+    "nR": 4192,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.6,
+    "xR_correct": 115.4
+   },
+   "WM": {
+    "nL": 282004,
+    "nR": 273997,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 14248,
+    "nR": 20929,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.5,
+    "xR_correct": 103.5
+   },
+   "Thal": {
+    "nL": 7969,
+    "nR": 8234,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.8,
+    "xR_correct": 101.2
+   },
+   "Puta": {
+    "nL": 7039,
+    "nR": 7091,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.3,
+    "xR_correct": 116.5
+   },
+   "Amyg": {
+    "nL": 2121,
+    "nR": 2200,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.6,
+    "xR_correct": 113.6
+   },
+   "Prec": {
+    "nL": 13421,
+    "nR": 12637,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.9,
+    "xR_correct": 98.2
+   }
+  },
+  {
+   "ptid": "002_S_4654",
+   "Hipp": {
+    "nL": 3956,
+    "nR": 3615,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.2,
+    "xR_correct": 114.4
+   },
+   "WM": {
+    "nL": 283469,
+    "nR": 284116,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.3
+   },
+   "Vent": {
+    "nL": 30068,
+    "nR": 28658,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.4,
+    "xR_correct": 104.3
+   },
+   "Thal": {
+    "nL": 7541,
+    "nR": 8082,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.1,
+    "xR_correct": 102.1
+   },
+   "Puta": {
+    "nL": 6074,
+    "nR": 5960,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.7,
+    "xR_correct": 116.8
+   },
+   "Amyg": {
+    "nL": 1651,
+    "nR": 1475,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.8,
+    "xR_correct": 113.7
+   },
+   "Prec": {
+    "nL": 11528,
+    "nR": 10093,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.7,
+    "xR_correct": 98.4
+   }
+  },
+  {
+   "ptid": "002_S_4746",
+   "Hipp": {
+    "nL": 4764,
+    "nR": 4347,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.1,
+    "xR_correct": 116.1
+   },
+   "WM": {
+    "nL": 275884,
+    "nR": 272257,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.6,
+    "xR_correct": 118.0
+   },
+   "Vent": {
+    "nL": 30105,
+    "nR": 29928,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.3,
+    "xR_correct": 104.3
+   },
+   "Thal": {
+    "nL": 8313,
+    "nR": 8780,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.7,
+    "xR_correct": 102.6
+   },
+   "Puta": {
+    "nL": 6130,
+    "nR": 6405,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.5,
+    "xR_correct": 116.4
+   },
+   "Amyg": {
+    "nL": 2089,
+    "nR": 2041,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.6,
+    "xR_correct": 113.7
+   },
+   "Prec": {
+    "nL": 11256,
+    "nR": 10687,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.7,
+    "xR_correct": 98.9
+   }
+  },
+  {
+   "ptid": "002_S_4799",
+   "Hipp": {
+    "nL": 4516,
+    "nR": 4238,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.0,
+    "xR_correct": 114.8
+   },
+   "WM": {
+    "nL": 301623,
+    "nR": 305149,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.0,
+    "xR_correct": 117.0
+   },
+   "Vent": {
+    "nL": 25608,
+    "nR": 33534,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.1,
+    "xR_correct": 104.2
+   },
+   "Thal": {
+    "nL": 7521,
+    "nR": 8368,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.0,
+    "xR_correct": 102.0
+   },
+   "Puta": {
+    "nL": 6299,
+    "nR": 6247,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.0,
+    "xR_correct": 117.9
+   },
+   "Amyg": {
+    "nL": 2265,
+    "nR": 2124,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.8,
+    "xR_correct": 115.9
+   },
+   "Prec": {
+    "nL": 13077,
+    "nR": 13746,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.0,
+    "xR_correct": 97.8
+   }
+  },
+  {
+   "ptid": "002_S_5018",
+   "Hipp": {
+    "nL": 4890,
+    "nR": 4267,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.5,
+    "xR_correct": 115.9
+   },
+   "WM": {
+    "nL": 281154,
+    "nR": 276071,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.2,
+    "xR_correct": 117.1
+   },
+   "Vent": {
+    "nL": 14381,
+    "nR": 20998,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.9,
+    "xR_correct": 104.7
+   },
+   "Thal": {
+    "nL": 8861,
+    "nR": 9316,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.9,
+    "xR_correct": 102.5
+   },
+   "Puta": {
+    "nL": 6741,
+    "nR": 6672,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.9,
+    "xR_correct": 118.6
+   },
+   "Amyg": {
+    "nL": 1975,
+    "nR": 1954,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.8,
+    "xR_correct": 115.3
+   },
+   "Prec": {
+    "nL": 11464,
+    "nR": 11588,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.6,
+    "xR_correct": 97.4
+   }
+  },
+  {
+   "ptid": "002_S_5178",
+   "Hipp": {
+    "nL": 5042,
+    "nR": 4804,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.2,
+    "xR_correct": 113.4
+   },
+   "WM": {
+    "nL": 295550,
+    "nR": 292450,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.7,
+    "xR_correct": 117.5
+   },
+   "Vent": {
+    "nL": 17249,
+    "nR": 19556,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.9,
+    "xR_correct": 102.6
+   },
+   "Thal": {
+    "nL": 7695,
+    "nR": 8551,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.1,
+    "xR_correct": 100.7
+   },
+   "Puta": {
+    "nL": 5941,
+    "nR": 5855,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 115.9
+   },
+   "Amyg": {
+    "nL": 2306,
+    "nR": 2377,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.1,
+    "xR_correct": 112.9
+   },
+   "Prec": {
+    "nL": 12526,
+    "nR": 13164,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.2,
+    "xR_correct": 98.2
+   }
+  },
+  {
+   "ptid": "002_S_6007",
+   "Hipp": {
+    "nL": 4907,
+    "nR": 4468,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.5,
+    "xR_correct": 115.0
+   },
+   "WM": {
+    "nL": 288309,
+    "nR": 289033,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.4,
+    "xR_correct": 117.6
+   },
+   "Vent": {
+    "nL": 14943,
+    "nR": 16798,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.1,
+    "xR_correct": 101.8
+   },
+   "Thal": {
+    "nL": 8900,
+    "nR": 9505,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.0,
+    "xR_correct": 100.7
+   },
+   "Puta": {
+    "nL": 6259,
+    "nR": 6450,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.3,
+    "xR_correct": 116.0
+   },
+   "Amyg": {
+    "nL": 2154,
+    "nR": 2108,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.6,
+    "xR_correct": 114.6
+   },
+   "Prec": {
+    "nL": 12952,
+    "nR": 13908,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.9,
+    "xR_correct": 98.6
+   }
+  },
+  {
+   "ptid": "002_S_6009",
+   "Hipp": {
+    "nL": 5530,
+    "nR": 5142,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.9,
+    "xR_correct": 113.5
+   },
+   "WM": {
+    "nL": 305878,
+    "nR": 302586,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.9,
+    "xR_correct": 117.5
+   },
+   "Vent": {
+    "nL": 14792,
+    "nR": 20316,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.7,
+    "xR_correct": 104.2
+   },
+   "Thal": {
+    "nL": 8382,
+    "nR": 8799,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.8,
+    "xR_correct": 100.6
+   },
+   "Puta": {
+    "nL": 6830,
+    "nR": 6809,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.5,
+    "xR_correct": 115.0
+   },
+   "Amyg": {
+    "nL": 2353,
+    "nR": 2331,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.2,
+    "xR_correct": 110.8
+   },
+   "Prec": {
+    "nL": 15434,
+    "nR": 14780,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.8,
+    "xR_correct": 98.4
+   }
+  },
+  {
+   "ptid": "002_S_6030",
+   "Hipp": {
+    "nL": 5468,
+    "nR": 5119,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.1,
+    "xR_correct": 113.7
+   },
+   "WM": {
+    "nL": 307822,
+    "nR": 305783,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.6,
+    "xR_correct": 117.2
+   },
+   "Vent": {
+    "nL": 11677,
+    "nR": 11636,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.2,
+    "xR_correct": 100.4
+   },
+   "Thal": {
+    "nL": 9261,
+    "nR": 9906,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.0,
+    "xR_correct": 100.3
+   },
+   "Puta": {
+    "nL": 6638,
+    "nR": 6881,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.1,
+    "xR_correct": 114.6
+   },
+   "Amyg": {
+    "nL": 2256,
+    "nR": 2489,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 66.0,
+    "xR_correct": 111.2
+   },
+   "Prec": {
+    "nL": 13761,
+    "nR": 13631,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.8,
+    "xR_correct": 98.1
+   }
+  },
+  {
+   "ptid": "002_S_6053",
+   "Hipp": {
+    "nL": 5126,
+    "nR": 4928,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.7,
+    "xR_correct": 115.7
+   },
+   "WM": {
+    "nL": 298425,
+    "nR": 297682,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.5,
+    "xR_correct": 117.8
+   },
+   "Vent": {
+    "nL": 24141,
+    "nR": 26267,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.8,
+    "xR_correct": 104.1
+   },
+   "Thal": {
+    "nL": 7847,
+    "nR": 8358,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.1,
+    "xR_correct": 102.5
+   },
+   "Puta": {
+    "nL": 5784,
+    "nR": 5790,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.0,
+    "xR_correct": 116.1
+   },
+   "Amyg": {
+    "nL": 1986,
+    "nR": 2233,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.3,
+    "xR_correct": 113.3
+   },
+   "Prec": {
+    "nL": 11895,
+    "nR": 12182,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.7,
+    "xR_correct": 96.3
+   }
+  },
+  {
+   "ptid": "002_S_6066",
+   "Hipp": {
+    "nL": 5175,
+    "nR": 4997,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.4,
+    "xR_correct": 114.4
+   },
+   "WM": {
+    "nL": 313831,
+    "nR": 310788,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.2,
+    "xR_correct": 117.0
+   },
+   "Vent": {
+    "nL": 8977,
+    "nR": 7995,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.8,
+    "xR_correct": 103.5
+   },
+   "Thal": {
+    "nL": 8481,
+    "nR": 9130,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 78.1,
+    "xR_correct": 100.5
+   },
+   "Puta": {
+    "nL": 6821,
+    "nR": 7048,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.9,
+    "xR_correct": 115.1
+   },
+   "Amyg": {
+    "nL": 2154,
+    "nR": 2464,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.7,
+    "xR_correct": 112.9
+   },
+   "Prec": {
+    "nL": 12258,
+    "nR": 12901,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.4,
+    "xR_correct": 97.0
+   }
+  },
+  {
+   "ptid": "002_S_6103",
+   "Hipp": {
+    "nL": 5107,
+    "nR": 4925,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.2,
+    "xR_correct": 115.8
+   },
+   "WM": {
+    "nL": 295476,
+    "nR": 287481,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.3,
+    "xR_correct": 117.2
+   },
+   "Vent": {
+    "nL": 15312,
+    "nR": 20816,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 73.4,
+    "xR_correct": 104.9
+   },
+   "Thal": {
+    "nL": 8077,
+    "nR": 8609,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.3,
+    "xR_correct": 101.7
+   },
+   "Puta": {
+    "nL": 7442,
+    "nR": 7526,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.2,
+    "xR_correct": 115.5
+   },
+   "Amyg": {
+    "nL": 2325,
+    "nR": 2401,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.7,
+    "xR_correct": 112.9
+   },
+   "Prec": {
+    "nL": 14083,
+    "nR": 13472,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.7,
+    "xR_correct": 98.6
+   }
+  },
+  {
+   "ptid": "002_S_6404",
+   "Hipp": {
+    "nL": 5189,
+    "nR": 4843,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.9,
+    "xR_correct": 115.0
+   },
+   "WM": {
+    "nL": 287858,
+    "nR": 291478,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.8,
+    "xR_correct": 116.9
+   },
+   "Vent": {
+    "nL": 26067,
+    "nR": 22619,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 72.1,
+    "xR_correct": 104.2
+   },
+   "Thal": {
+    "nL": 7696,
+    "nR": 8347,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 76.9,
+    "xR_correct": 100.4
+   },
+   "Puta": {
+    "nL": 6133,
+    "nR": 6460,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 114.9
+   },
+   "Amyg": {
+    "nL": 2383,
+    "nR": 2346,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.8,
+    "xR_correct": 112.1
+   },
+   "Prec": {
+    "nL": 11772,
+    "nR": 13168,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.5,
+    "xR_correct": 98.1
+   }
+  },
+  {
+   "ptid": "002_S_6456",
+   "Hipp": {
+    "nL": 5029,
+    "nR": 4516,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.2,
+    "xR_correct": 114.2
+   },
+   "WM": {
+    "nL": 291939,
+    "nR": 289770,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.0,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 21107,
+    "nR": 28160,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.1,
+    "xR_correct": 105.4
+   },
+   "Thal": {
+    "nL": 7982,
+    "nR": 8484,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 77.5,
+    "xR_correct": 100.8
+   },
+   "Puta": {
+    "nL": 6104,
+    "nR": 6343,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.2,
+    "xR_correct": 116.5
+   },
+   "Amyg": {
+    "nL": 2082,
+    "nR": 2215,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.2,
+    "xR_correct": 113.6
+   },
+   "Prec": {
+    "nL": 13953,
+    "nR": 12073,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.8,
+    "xR_correct": 96.9
+   }
+  },
+  {
+   "ptid": "002_S_6652",
+   "Hipp": {
+    "nL": 5073,
+    "nR": 5185,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.6,
+    "xR_correct": 115.6
+   },
+   "WM": {
+    "nL": 274861,
+    "nR": 272493,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.5,
+    "xR_correct": 117.3
+   },
+   "Vent": {
+    "nL": 23786,
+    "nR": 21558,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.6,
+    "xR_correct": 102.8
+   },
+   "Thal": {
+    "nL": 7423,
+    "nR": 7929,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.4,
+    "xR_correct": 101.5
+   },
+   "Puta": {
+    "nL": 6304,
+    "nR": 6712,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.9,
+    "xR_correct": 116.0
+   },
+   "Amyg": {
+    "nL": 2100,
+    "nR": 2080,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.5,
+    "xR_correct": 112.7
+   },
+   "Prec": {
+    "nL": 12805,
+    "nR": 11295,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 81.0,
+    "xR_correct": 97.3
+   }
+  },
+  {
+   "ptid": "002_S_6695",
+   "Hipp": {
+    "nL": 4066,
+    "nR": 4214,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.1,
+    "xR_correct": 114.0
+   },
+   "WM": {
+    "nL": 288158,
+    "nR": 287993,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.8,
+    "xR_correct": 117.4
+   },
+   "Vent": {
+    "nL": 37820,
+    "nR": 34421,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.5,
+    "xR_correct": 104.9
+   },
+   "Thal": {
+    "nL": 7395,
+    "nR": 8118,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.9,
+    "xR_correct": 103.1
+   },
+   "Puta": {
+    "nL": 5997,
+    "nR": 6046,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.1,
+    "xR_correct": 116.3
+   },
+   "Amyg": {
+    "nL": 2010,
+    "nR": 1906,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 65.6,
+    "xR_correct": 111.3
+   },
+   "Prec": {
+    "nL": 12146,
+    "nR": 11654,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.1,
+    "xR_correct": 96.9
+   }
+  },
+  {
+   "ptid": "003_S_0907",
+   "Hipp": {
+    "nL": 4354,
+    "nR": 4475,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 62.4,
+    "xR_correct": 116.3
+   },
+   "WM": {
+    "nL": 250387,
+    "nR": 249390,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.1,
+    "xR_correct": 117.8
+   },
+   "Vent": {
+    "nL": 33261,
+    "nR": 34179,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 74.3,
+    "xR_correct": 104.4
+   },
+   "Thal": {
+    "nL": 6509,
+    "nR": 7216,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.9,
+    "xR_correct": 103.1
+   },
+   "Puta": {
+    "nL": 5515,
+    "nR": 5307,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 63.9,
+    "xR_correct": 115.9
+   },
+   "Amyg": {
+    "nL": 1855,
+    "nR": 1713,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.6,
+    "xR_correct": 113.8
+   },
+   "Prec": {
+    "nL": 11962,
+    "nR": 11156,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 80.1,
+    "xR_correct": 99.0
+   }
+  },
+  {
+   "ptid": "003_S_0908",
+   "Hipp": {
+    "nL": 4917,
+    "nR": 4442,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.9,
+    "xR_correct": 116.5
+   },
+   "WM": {
+    "nL": 269075,
+    "nR": 273114,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 60.6,
+    "xR_correct": 116.8
+   },
+   "Vent": {
+    "nL": 39730,
+    "nR": 49587,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.6,
+    "xR_correct": 104.4
+   },
+   "Thal": {
+    "nL": 7543,
+    "nR": 8377,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 75.4,
+    "xR_correct": 103.7
+   },
+   "Puta": {
+    "nL": 5680,
+    "nR": 5469,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 61.5,
+    "xR_correct": 117.6
+   },
+   "Amyg": {
+    "nL": 2039,
+    "nR": 1654,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 64.5,
+    "xR_correct": 113.6
+   },
+   "Prec": {
+    "nL": 13399,
+    "nR": 10927,
+    "buggy_pass": false,
+    "correct_pass": true,
+    "xL_correct": 79.6,
+    "xR_correct": 96.2
+   }
+  }
+ ]
+}

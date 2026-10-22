@@ -1,0 +1,50 @@
+[
+  {
+    "checkpoint": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/fold1/checkpoint.pt",
+    "physical_path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/fold1/checkpoint.pt",
+    "source_at_snapshot": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/formal/fold1_Full/recovery.pt",
+    "sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "expected_snapshot_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray._reconstruct was not an allowed global by default. Please use `torch.serialization.add_safe_globals([_reconstruct])` to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+    "static_pickle_metadata": {
+      "epoch": 164,
+      "fold": 1,
+      "condition": "Full",
+      "config_sha256": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+      "cohort_sha256": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+      "adapter_sha256": "c9285ea53df7b198ab5c825fd32d76fba8b2c41ec7bc0bdcd17e9d88bc56be8c",
+      "adapter_receipt_sha256": "0ab5ddb8ef63b340c10b96c18aeb8336d2367e8389217f73f13d78ab151ea25f",
+      "condition_sha256": "4d353ad1592613f67c6ef643033a0cbc243a858dc5feafa3410b9f3d7494cd80"
+    },
+    "metadata_extraction": "pickletools only; no pickle execution",
+    "snapshot_identity_match": true,
+    "epoch_match": true,
+    "sha_match": true,
+    "frozen_metadata_csv_sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+    "current_cohort_hash_match": true
+  },
+  {
+    "checkpoint": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/fold2/checkpoint.pt",
+    "physical_path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/fold2/checkpoint.pt",
+    "source_at_snapshot": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/formal/fold2_Full/recovery.pt",
+    "sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "expected_snapshot_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray._reconstruct was not an allowed global by default. Please use `torch.serialization.add_safe_globals([_reconstruct])` to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+    "static_pickle_metadata": {
+      "epoch": 164,
+      "fold": 2,
+      "condition": "Full",
+      "config_sha256": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+      "cohort_sha256": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+      "adapter_sha256": "050b95e801e0755b942ac7f30b348906b2f5b700044c38acdf46254987e9d821",
+      "adapter_receipt_sha256": "0bd34d880a80e92e2af69b02f4ec3285082f8034be7f163c75dcc92fda2367e0",
+      "condition_sha256": "4d353ad1592613f67c6ef643033a0cbc243a858dc5feafa3410b9f3d7494cd80"
+    },
+    "metadata_extraction": "pickletools only; no pickle execution",
+    "snapshot_identity_match": true,
+    "epoch_match": true,
+    "sha_match": true,
+    "frozen_metadata_csv_sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+    "current_cohort_hash_match": true
+  }
+]

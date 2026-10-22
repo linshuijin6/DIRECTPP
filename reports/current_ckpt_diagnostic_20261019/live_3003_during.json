@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-19T09:58:25.505718+08:00",
+  "node": "3003",
+  "physical_gpu": 5,
+  "gpu_uuid": "GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417",
+  "pid": 3434650,
+  "queue_pid": 3434649,
+  "boot_id": "7013fbb3-7482-4960-afdf-734ad34f1e48",
+  "process_start_ticks": 586847648,
+  "process_identity_matches_launch": true,
+  "cmdline": [
+    "/home/data/linshuijin/.conda/envs/xiaochou/bin/python",
+    "-u",
+    "-B",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/experiments/e1_clinical_conditioning/run.py",
+    "train",
+    "--config",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/config.json",
+    "--fold",
+    "2",
+    "--condition",
+    "Full"
+  ],
+  "gpu": "index, uuid, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\n5, GPU-138b9a94-aa8c-4ced-3cef-82535dfaa417, 31973 MiB, 16568 MiB, 100 %",
+  "apps": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\nGPU-138b9a94-aa8c-4ced-3cef-82535dfaa417, 3434650, /home/data/linshuijin/.conda/envs/xiaochou/bin/python, 24204 MiB\nGPU-138b9a94-aa8c-4ced-3cef-82535dfaa417, 4076869, /home/data/linshuijin/.conda/envs/xiaochou/bin/python, 7740 MiB",
+  "status": "Name:\tpython\nUmask:\t0022\nState:\tR (running)\nTgid:\t3434650\nNgid:\t3446288\nPid:\t3434650\nPPid:\t3434649\nTracerPid:\t0\nUid:\t12013\t12013\t12013\t12013\nGid:\t2000\t2000\t2000\t2000\nFDSize:\t256\nGroups:\t27 1003 2000 \nNStgid:\t3434650\nNSpid:\t3434650\nNSpgid:\t3434649\nNSsid:\t3434649\nKthread:\t0\nVmPeak:\t179958668 kB\nVmSize:\t179958668 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t54827800 kB\nVmRSS:\t54470296 kB\nRssAnon:\t54349336 kB\nRssFile:\t  104832 kB\nRssShmem:\t   16128 kB\nVmData:\t58811280 kB\nVmStk:\t     200 kB\nVmExe:\t    2044 kB\nVmLib:\t 2430236 kB\nVmPTE:\t  109756 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t105\nSigQ:\t0/1029994\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000001001007\nSigCgt:\t0000000100000000\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\tffff,ffffffff\nCpus_allowed_list:\t0-47\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000003\nMems_allowed_list:\t0-1\nvoluntary_ctxt_switches:\t693128\nnonvoluntary_ctxt_switches:\t13669873\n",
+  "queues": {}
+}

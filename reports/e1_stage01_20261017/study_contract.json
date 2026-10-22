@@ -1,0 +1,48 @@
+{
+  "formal_conditions": [
+    "Full",
+    "No-Scores"
+  ],
+  "formal_fits": 4,
+  "formal_authorized": false,
+  "primary": [
+    "AV45 subject-level ROI MAE",
+    "FDG subject-level ROI MAE"
+  ],
+  "bootstrap": {
+    "unit": "subject",
+    "paired": true,
+    "stratify": "fold",
+    "replicates": 10000,
+    "seed": 20261017
+  },
+  "multiple_testing": {
+    "primary": "Holm,2 tests",
+    "roi_delta_mae": "BH,196 tests"
+  },
+  "no_patient": {
+    "stage": "future fixed Full-model inference only",
+    "n": 20,
+    "selection": "2 per diagnosis and test fold, first sorted PTIDs with both PET and MRI-mask grid binding; no performance selection",
+    "file": "planned_no_patient_subjects.csv",
+    "extra_tracer_forwards": 40,
+    "executed": false
+  },
+  "clinical_only": {
+    "stage": "after spatial evaluation passes",
+    "models": [
+      "demographics-only Ridge",
+      "demographics plus historical conditioning fields Ridge"
+    ],
+    "outer_folds": 2,
+    "inner_folds": 3,
+    "alpha_grid": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "generator_training": false
+  },
+  "E4_boundary": "Disease-group regional demographic adjustment is separate from E1 gain heterogeneity; no added generator training"
+}

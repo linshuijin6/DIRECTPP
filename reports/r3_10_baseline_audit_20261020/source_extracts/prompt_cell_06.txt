@@ -1,0 +1,56 @@
+ORIGINAL: source_archive/vscode-3003/home/data/liutuo/code/chu li shu ju.ipynb
+ORIGINAL_SHA256: f74728f83e3a1a9554f84c8080371652430bf868fa5322a052c8af250911a97b
+CELL_INDEX_ZERO_BASED: 6
+CELL_EXECUTION_COUNT_METADATA: 29
+SOURCE_ONLY; DERIVED COPY; NOT AN INDEPENDENT IMPLEMENTATION
+
+0001: import pandas as pd
+0002: 
+0003: # 定义生成描述的函数
+0004: def generate_description(row):
+0005:     # 提取需要的字段
+0006:     subject_id = row['Subject ID']
+0007:     sex = "male" if row['Sex'] == 'M' else "female"
+0008:     weight = row['Weight']
+0009:     age = row['Age']
+0010:     mmse_score = row['MMSE Total Score']
+0011:     gds_score = row['GDSCALE Total Score']
+0012:     global_cdr = row['Global CDR']
+0013:     faq_score = row['FAQ Total Score']
+0014:     npi_q_score = row['NPI-Q Total Score']
+0015:     
+0016:     # 构建描述字符串
+0017:     description = (
+0018:         f"Subject is a {age:.0f}-year-old {sex} with a weight of {weight:.1f} kg. "
+0019:         f"The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is {global_cdr:.1f}. "
+0020:         f"The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is {mmse_score:.0f}. "
+0021:         f"The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is {gds_score:.0f}. "
+0022:         f"The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is {faq_score:.0f}. "
+0023:         f"The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is {npi_q_score:.0f}."
+0024:     )
+0025:     return description
+0026: 
+0027: # 主函数
+0028: if __name__ == "__main__":
+0029:     # 指定文件路径
+0030:     input_file = "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/filtered_subjects_filled.csv"
+0031:     output_file = "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/filtered_subjects_with_description.csv"
+0032:     
+0033:     # 加载 CSV 文件
+0034:     df = pd.read_csv(input_file)
+0035:     
+0036:     # 确保所需列存在
+0037:     required_columns = [
+0038:         'Subject ID', 'Sex', 'Weight', 'Age',
+0039:         'MMSE Total Score', 'GDSCALE Total Score',
+0040:         'Global CDR', 'FAQ Total Score', 'NPI-Q Total Score'
+0041:     ]
+0042:     if not all(col in df.columns for col in required_columns):
+0043:         raise ValueError(f"CSV 文件缺少必要列: {required_columns}")
+0044:     
+0045:     # 生成 Description 列
+0046:     df['Description'] = df.apply(generate_description, axis=1)
+0047:     
+0048:     # 保存更新后的数据到新文件
+0049:     df.to_csv(output_file, index=False)
+0050:     print(f"已保存更新后的数据到 {output_file}")

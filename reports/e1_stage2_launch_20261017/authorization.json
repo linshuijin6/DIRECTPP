@@ -1,0 +1,9 @@
+{
+  "authorized": true,
+  "authorized_by": "author",
+  "authorization_source": "2026-10-17 user: PLEASE IMPLEMENT THIS PLAN: E1 启动准备与 Gemini 交接",
+  "scope": "four formal fits: folds 1/2 x Full/No-Scores, fixed 165 epochs; fresh initialization; two serial native CLI queues; first five real optimizer updates only monitored by Codex",
+  "resource_scope": "one task per node; replace the previously identified author TAU task on 3002 GPU3 and 3003 GPU5 only after live identity verification; preserve 3002 GPU5 TAU task",
+  "monitoring_handoff": "Gemini, read-only; no additional experiments or automatic retry",
+  "timestamp": "2026-10-17T14:17:41.724909+00:00"
+}

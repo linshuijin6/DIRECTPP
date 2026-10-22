@@ -1,0 +1,41 @@
+{
+  "subjects": 1856,
+  "laterality_pass": 1854,
+  "failed": [
+    "100_S_0743",
+    "123_S_4096"
+  ],
+  "pair_summary": {
+    "17_53": {
+      "correct": 1849,
+      "mirrored": 0,
+      "untested": 7
+    },
+    "2_41": {
+      "correct": 1856,
+      "mirrored": 0,
+      "untested": 0
+    },
+    "12_51": {
+      "correct": 1856,
+      "mirrored": 0,
+      "untested": 0
+    },
+    "18_54": {
+      "correct": 1849,
+      "mirrored": 0,
+      "untested": 7
+    },
+    "1025_2025": {
+      "correct": 1854,
+      "mirrored": 2,
+      "untested": 0
+    }
+  },
+  "subjects_with_invalid_rois": 17,
+  "invalid_roi_cells": 168,
+  "root_cause": "prepare.py world_affine=ref.affine@proc.affine double-applied geometry (x mirrored); labels correct; caches unchanged",
+  "evidence": "reports/e1_laterality_rootcause_20261017/FINDINGS.md",
+  "gate_pass": false,
+  "config_backup": "config.before_laterality_fix.json"
+}

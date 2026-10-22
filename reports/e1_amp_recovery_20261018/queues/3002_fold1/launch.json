@@ -1,0 +1,13 @@
+{
+  "launcher_pid": 2823184,
+  "node": "3002",
+  "gpu_uuid": "GPU-4e00852f-6d7a-af71-10b5-1c59593a6681",
+  "fold": 1,
+  "queue": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_amp_recovery_20261018/queues/3002_fold1",
+  "command": [
+    "nohup",
+    "setsid",
+    "bash",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_amp_recovery_20261018/queues/3002_fold1/queue.sh"
+  ]
+}

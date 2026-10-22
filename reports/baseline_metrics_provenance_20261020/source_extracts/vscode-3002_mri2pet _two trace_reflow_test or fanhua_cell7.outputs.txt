@@ -1,0 +1,7 @@
+Saved generated FDG image to /home/ssddata/liutuo/liutuo_data/test1/ddim/data_augmentation_fdg_generated/generated_fdg_037_S_0552.nii.gz
+Saved generated AV45 image to /home/ssddata/liutuo/liutuo_data/test1/ddim/data_augmentation_av45_generated/generated_av45_037_S_0552.nii.gz
+Saved real MRI image to /home/ssddata/liutuo/liutuo_data/test1/ddim/data_augmentation_mri/real_mri_037_S_0552.nii.gz
+Saved real FDG image to /home/ssddata/liutuo/liutuo_data/test1/ddim/data_augmentation_fdg/real_fdg_037_S_0552.nii.gz
+Saved real AV45 image to /home/ssddata/liutuo/liutuo_data/test1/ddim/data_augmentation_av45/real_av45_037_S_0552.nii.gz
+[FDG] SSIM: 0.9215, PSNR: 30.5220, MSE: 0.0009, MAE: 0.0158
+[AV45] SSIM: 0.8848, PSNR: 30.8085, MSE: 0.0008, MAE: 0.0163

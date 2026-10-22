@@ -1,0 +1,19 @@
+{
+  "ssh_args": [
+    "ssh",
+    "-J",
+    "3014",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=10",
+    "-i",
+    "/home/data/linshuijin/.ssh/id_ed25519_cluster",
+    "linshuijin@100.78.249.60"
+  ],
+  "actual_ip": "100.78.249.60",
+  "proxyjump": "3014",
+  "exit_code": 0,
+  "stderr": "",
+  "supersedes_stale_alias": "3015 -> 192.168.1.13"
+}

@@ -16,5 +16,81 @@
     "source_sha256": "bc5eb1d789ea60780858bab2f10725cd0564005aa2451bacc051ab44055e1461",
     "target_sha256": "bc5eb1d789ea60780858bab2f10725cd0564005aa2451bacc051ab44055e1461",
     "status": "verified"
+  },
+  {
+    "source_host": "user_supplied_workspace",
+    "source": null,
+    "archive_path": "reports/source_reports/raw_review.md",
+    "bytes": 19885,
+    "source_sha256": null,
+    "target_sha256": "da64297ee5cdcf88a812143b574fbe1b8ce5e38bcf59457679b22a909ccc493e",
+    "status": "local_sha256_recorded",
+    "material_role": "editor_decision_letter_and_reviewer_3_comments",
+    "reviewer_scope": [
+      "Editor",
+      "R2 overview and attachment reference",
+      "R3"
+    ],
+    "recorded_on": "2026-10-19",
+    "note": "User supplied this workspace file. External source path and source-side checksum were not provided; this is a local snapshot only. File content was not modified."
+  },
+  {
+    "source_host": "user_supplied_workspace",
+    "source": null,
+    "archive_path": "reports/source_reports/DIReCTpp_Reviewer3_A1E585AEE7BF88E690_20261018.md",
+    "bytes": 26243,
+    "source_sha256": null,
+    "target_sha256": "828a9ab2627123caa879f62d257be0c88d2746d76bd602a8ff763ee6f8ed8760",
+    "status": "local_sha256_recorded",
+    "material_role": "combined_reviewer_2_and_3_analysis",
+    "reviewer_scope": [
+      "R2",
+      "R3",
+      "Editor"
+    ],
+    "recorded_on": "2026-10-19",
+    "note": "User supplied this workspace file. External source path and source-side checksum were not provided; this is a local snapshot only. File content was not modified."
+  },
+  {
+    "source_host": "local_derivation",
+    "source": [
+      "reports/source_reports/raw_review.md",
+      "reports/source_reports/BMEF_Reviewer_Report_English.docx",
+      "reports/source_reports/DIReCTpp_Reviewer3_A1E585AEE7BF88E690_20261018.md"
+    ],
+    "archive_path": "reports/source_reports/REVIEW_REQUIREMENTS.md",
+    "bytes": 12405,
+    "source_sha256": null,
+    "target_sha256": "0684abdebc08c3d39f1254f64a482f7a83cd8b5ce68a937e2292bb69851a292e",
+    "status": "derived_index",
+    "material_role": "review_requirements_navigation",
+    "reviewer_scope": [
+      "Editor",
+      "R2",
+      "R3"
+    ],
+    "recorded_on": "2026-10-19",
+    "note": "Derived registration and navigation; not a scientific completion assessment."
+  },
+  {
+    "source_host": "local_derivation",
+    "source": [
+      "reports/source_reports/raw_review.md",
+      "reports/source_reports/BMEF_Reviewer_Report_English.docx",
+      "reports/source_reports/DIReCTpp_Reviewer3_A1E585AEE7BF88E690_20261018.md"
+    ],
+    "archive_path": "reports/source_reports/review_comment_register.csv",
+    "bytes": 44771,
+    "source_sha256": null,
+    "target_sha256": "4ed565d0a32bfd6ba0dcedfa727c7b8465950902e429710e811daf4b1c8f0221",
+    "status": "derived_index",
+    "material_role": "complete_comment_register",
+    "reviewer_scope": [
+      "Editor",
+      "R2",
+      "R3"
+    ],
+    "recorded_on": "2026-10-19",
+    "note": "Derived registration and navigation; not a scientific completion assessment."
   }
 ]
