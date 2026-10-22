@@ -562,6 +562,11 @@ def require_training_hardware(cfg: dict) -> dict:
     return info
 
 
+def context_from_batch(batch, tracer: str):
+    """Return the archived Full conditioning context for one tracer."""
+    return batch[f"{tracer}_index"].cuda()
+
+
 def author_loss(model, batch, epoch: int):
     import torch
     import torch.nn.functional as F
@@ -569,8 +574,8 @@ def author_loss(model, batch, epoch: int):
     images = batch["mri"].cuda()
     seg_fdg = batch["fdg"].cuda()
     seg_av45 = batch["av45"].cuda()
-    fdg_index = batch["fdg_index"].cuda()
-    av45_index = batch["av45_index"].cuda()
+    fdg_index = context_from_batch(batch, "fdg")
+    av45_index = context_from_batch(batch, "av45")
     # Cell 9 performs this unused draw; retain its effect on the RNG stream.
     torch.randint(0, 1000, (len(images),), device=images.device)
     with torch.amp.autocast("cuda", enabled=True):
@@ -604,7 +609,7 @@ def validate(model, loader) -> float:
         for batch in loader:
             images = batch["mri"].cuda()
             targets = {t: batch[t].cuda() for t in TRACERS}
-            contexts = {t: batch[f"{t}_index"].cuda() for t in TRACERS}
+            contexts = {t: context_from_batch(batch, t) for t in TRACERS}
             total = torch.tensor(0.0, device="cuda")
             with torch.amp.autocast("cuda", enabled=False):
                 for tracer in TRACERS:
@@ -884,7 +889,7 @@ def command_infer(args) -> None:
                 target = batch[tracer].cuda()
                 if torch.all((target == 0) | (target == 1)):
                     continue
-                context = batch[f"{tracer}_index"].cuda()
+                context = context_from_batch(batch, tracer)
                 velocity = model(x=image, timesteps=timestep, context=context)
                 prediction = torch.clamp(image + velocity, 0, 1).float()
                 path = output / f"generated_{tracer}_{sid}.nii.gz"
