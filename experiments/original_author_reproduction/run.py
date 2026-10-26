@@ -849,7 +849,8 @@ def command_infer(args) -> None:
     import nibabel as nib
     import torch
     import torch.nn.functional as F
-    from monai.data import DataLoader, Dataset
+    from monai.data import DataLoader, Dataset, PersistentDataset
+    from monai.data.utils import pickle_hashing
     from monai.metrics import PSNRMetric
     try:
         from generative.metrics import SSIMMetric
@@ -865,7 +866,21 @@ def command_infer(args) -> None:
         raise RuntimeError("Inference requires CUDA")
     conditions = encode_conditions(cfg, cohort)
     held_out = [r for r in cohort if r["test_fold"] == args.fold]
-    loader = DataLoader(Dataset(held_out, build_transform(conditions)), batch_size=1, shuffle=False, num_workers=0)
+    transform = build_transform(conditions)
+    cache_dir = args.cache_dir.resolve() if args.cache_dir else None
+    if cache_dir:
+        expected_cache = {pickle_hashing(row).decode() + ".pt" for row in cohort}
+        actual_cache = {path.name for path in cache_dir.glob("*.pt")}
+        if actual_cache != expected_cache:
+            raise RuntimeError(
+                f"Persistent cache identity mismatch: expected {len(expected_cache)}, "
+                f"found {len(actual_cache)}, missing {len(expected_cache - actual_cache)}, "
+                f"extra {len(actual_cache - expected_cache)}"
+            )
+        dataset = PersistentDataset(held_out, transform, cache_dir=cache_dir)
+    else:
+        dataset = Dataset(held_out, transform)
+    loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0)
     checkpoint = Path(cfg["assets"]) / "formal" / f"fold{args.fold}" / f"first_part_{args.epoch}.pth"
     receipt = checkpoint.with_suffix(".json")
     if not checkpoint.exists() or not receipt.exists():
@@ -918,6 +933,8 @@ def command_infer(args) -> None:
             "subjects": len(held_out),
             "metric_rows": len(rows),
             "counts": {t: sum(r["tracer"] == t for r in rows) for t in TRACERS},
+            "input_source": "verified_persistent_cache" if cache_dir else "source_images",
+            "persistent_cache": str(cache_dir) if cache_dir else None,
             "metrics_sha256": sha256(output / "metrics.csv"),
             "checkpoint_sha256": sha256(checkpoint),
         },
@@ -1105,6 +1122,7 @@ def parser() -> argparse.ArgumentParser:
     infer.add_argument("--config", type=Path, required=True)
     infer.add_argument("--fold", type=int, required=True)
     infer.add_argument("--epoch", type=int, required=True)
+    infer.add_argument("--cache-dir", type=Path)
     summarize = sub.add_parser("summarize")
     summarize.add_argument("--config", type=Path, required=True)
     return p

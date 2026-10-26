@@ -1,0 +1,96 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "generated_at": "2026-10-26T09:26:03+08:00",
+  "metric_rows": 5926,
+  "unique_epoch_subject_tracer_identities": 5926,
+  "nonfinite_metric_values": 0,
+  "receipts": [
+    {
+      "fold": 1,
+      "epoch": 165,
+      "subjects": 929,
+      "metric_rows": 1482,
+      "counts": {
+        "fdg": 792,
+        "av45": 690
+      },
+      "input_source": "verified_persistent_cache",
+      "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+      "metrics_sha256": "d91d445c72bb6d9ea05b37dea6e74fc373c3f5b332dbcd257f6c217ee48d72fa",
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold1/complete.json"
+    },
+    {
+      "fold": 2,
+      "epoch": 165,
+      "subjects": 928,
+      "metric_rows": 1481,
+      "counts": {
+        "fdg": 806,
+        "av45": 675
+      },
+      "input_source": "verified_persistent_cache",
+      "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+      "metrics_sha256": "2fb5ccc1b426234b62ec1a1e73cac766399561827f8c09cc6ffabd258ef5385a",
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold2/complete.json"
+    },
+    {
+      "fold": 1,
+      "epoch": 200,
+      "subjects": 929,
+      "metric_rows": 1482,
+      "counts": {
+        "fdg": 792,
+        "av45": 690
+      },
+      "input_source": "verified_persistent_cache",
+      "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+      "metrics_sha256": "a1e9a2ac045fc799ce2f14d50aca659b3b6d9625f3659b92f385c0d8f5c442e0",
+      "checkpoint_sha256": "18977785fd4e0ccdb797648f9ecb139f81dfdf68923621c7b239d7fcb9fd78f6",
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch200/fold1/complete.json"
+    },
+    {
+      "fold": 2,
+      "epoch": 200,
+      "subjects": 928,
+      "metric_rows": 1481,
+      "counts": {
+        "fdg": 806,
+        "av45": 675
+      },
+      "input_source": "verified_persistent_cache",
+      "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+      "metrics_sha256": "0c95331198e20de275261cc1097be38ec92f88edc10df02c3a6efd9200b67da4",
+      "checkpoint_sha256": "58a5ae21594ddb4268972e997fd1a97e37cd444522ec415a54b91f0912798690",
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch200/fold2/complete.json"
+    }
+  ],
+  "files": {
+    "per_subject_metrics.csv": {
+      "sha256": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+      "bytes": 2068072
+    },
+    "overall_summary.csv": {
+      "sha256": "f9123ce70846e2e5aeaf25226f8330b2a0fa53c97f826ed3173e7032ab94e267",
+      "bytes": 712
+    },
+    "by_fold_summary.csv": {
+      "sha256": "a41ca00035fb257a8208bfca134d38b3966539bda0d947452627b9487128f996",
+      "bytes": 3552
+    },
+    "distribution_summary.csv": {
+      "sha256": "d388c6d81e4f7d2fe01d26bdea553d481bf517954622742e7527bb968cda5737",
+      "bytes": 1875
+    },
+    "paired_endpoint_deltas.csv": {
+      "sha256": "9910e80f2015ca99335d5c3cde1c7c4f97d7ba343e3df7259ab35ed99484177a",
+      "bytes": 2003
+    },
+    "completion.json": {
+      "sha256": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+      "bytes": 451
+    }
+  },
+  "scope": "new author-code-semantics reconstruction; not proof of the historical paper run"
+}

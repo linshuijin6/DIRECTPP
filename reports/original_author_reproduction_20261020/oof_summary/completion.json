@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_TWO_FOLD_OOF_RECONSTRUCTION",
+  "historical_fold_identity_recovered": false,
+  "training_seed": null,
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "per_subject_sha256": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+  "summary_sha256": "f9123ce70846e2e5aeaf25226f8330b2a0fa53c97f826ed3173e7032ab94e267",
+  "scope": "new author-code-semantics reconstruction; not proof of the historical paper run"
+}

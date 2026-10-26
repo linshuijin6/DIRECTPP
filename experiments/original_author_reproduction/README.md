@@ -1,5 +1,8 @@
 # 原作者生成训练语义两折复现
 
+本次完成的 Fold 1/Fold 2 训练与 OOF 指标见
+[`MAIN_EXPERIMENT_F1_F2_REPORT.md`](../../reports/original_author_reproduction_20261020/MAIN_EXPERIMENT_F1_F2_REPORT.md)。
+
 本目录只实现 `source_archive/vscode-3002/home/ssddata/liutuo/mri2pet _two trace_new-final.ipynb`
 零起算 cell 1、2、4、8、9、11 的隔离复现。它不导入或改写
 `experiments/e1_clinical_conditioning`。
@@ -53,6 +56,11 @@ python experiments/original_author_reproduction/run.py infer --config <config> -
 python experiments/original_author_reproduction/run.py infer --config <config> --fold 2 --epoch 200
 python experiments/original_author_reproduction/run.py summarize --config <config>
 ```
+
+如果已存在由同一 `cohort.json` 身份生成的 MONAI `PersistentDataset` 缓存，可在推理时
+传入 `--cache-dir <cache>`。入口会先按 MONAI 的 `pickle_hashing` 规则核对缓存目录必须
+恰好覆盖本次 cohort 的全部缓存键；缺失、额外或来自其他 cohort 的缓存都会拒绝运行。
+完成收据会记录 `input_source` 与实际缓存路径。未传该参数时仍从配置中的原始影像路径读取。
 
 不得复用既有输出目录、历史 `first_part_165.pth` 或 E1 checkpoint。`COMPLETE` 仅表示这次新建
 复现完整，不认证论文历史两折身份、历史训练 RNG 或 Fig. 2 的原始结果链。
