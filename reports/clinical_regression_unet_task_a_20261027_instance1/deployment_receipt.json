@@ -1,0 +1,17 @@
+{
+  "status": "READY_FOR_FORMAL_TRAINING",
+  "validated_commit": "0aa502a",
+  "remote_host": "autodl-container-e1a2l2ecb5-f3d3c148",
+  "remote_code": "/root/autodl-tmp/DIRECTPP_task_a",
+  "python": "/root/miniconda3/bin/python",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_uuid": "GPU-67973436-ddfb-1936-b0cb-2cf4e22aec41",
+  "config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+  "cache_files": 1857,
+  "cuda_full_sample_preflight": "PASS_NO_OPTIMIZER_STEP",
+  "cuda_peak_allocated_bytes": 12751513088,
+  "cuda_peak_reserved_bytes": 16234053632,
+  "formal_training_started": false
+}
