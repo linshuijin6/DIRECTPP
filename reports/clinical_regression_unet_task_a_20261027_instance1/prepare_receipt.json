@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "subjects": 1857,
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "expected_effective": {
+    "fdg": 1598,
+    "av45": 1365
+  },
+  "split_manifest_reused_not_regenerated": true,
+  "diagnosis_used": false,
+  "biomedclip_used": false,
+  "cache_copied": false,
+  "config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+}

@@ -1,0 +1,152 @@
+{
+  "experiment": "clinical_regression_unet_task_a",
+  "report": "/root/autodl-tmp/DIRECTPP_task_a/reports/clinical_regression_unet_task_a_20261027_instance1",
+  "assets": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027",
+  "full_config": "/root/autodl-tmp/DIRECTPP_task_a/reports/original_author_reproduction_20261020/config.json",
+  "full_report": "/root/autodl-tmp/DIRECTPP_task_a/reports/original_author_reproduction_20261020",
+  "full_config_sha256": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+  "clinical_table": "/root/autodl-tmp/DIRECTPP_task_a/reports/e1_stage01_20261017/metadata.csv",
+  "clinical_table_sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+  "clinical_source_status": "/root/autodl-tmp/DIRECTPP_task_a/reports/e1_stage01_20261017/clinical_source_receipt.json",
+  "clinical_source_status_sha256": "4caa5dcfc7b742e0974513fa7951d078426f42da11c80bed1650d2104c1b7717",
+  "clinical_features_sha256": "3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693",
+  "clinical_fields": [
+    "age",
+    "sex",
+    "weight",
+    "cdr",
+    "mmse",
+    "gds",
+    "faq",
+    "npiq"
+  ],
+  "clinical_value_policy": "values rendered in the actual frozen Full Description",
+  "clinical_provenance_limit": "historical filled fields; upstream imputation method not recovered",
+  "fold_normalization": {
+    "1": {
+      "fit_subjects": 928,
+      "continuous": {
+        "age": {
+          "mean": 73.14762931034483,
+          "scale": 7.545892264635491
+        },
+        "weight": {
+          "mean": 74.23157327586206,
+          "scale": 21.449527386658428
+        },
+        "cdr": {
+          "mean": 0.34375,
+          "scale": 0.3623494782617352
+        },
+        "mmse": {
+          "mean": 26.49137931034483,
+          "scale": 3.126625617606845
+        },
+        "gds": {
+          "mean": 1.6864224137931034,
+          "scale": 1.663421420316147
+        },
+        "faq": {
+          "mean": 6.439655172413793,
+          "scale": 7.084665072636727
+        },
+        "npiq": {
+          "mean": 2.2974137931034484,
+          "scale": 2.108560597728343
+        }
+      },
+      "sex_encoding": {
+        "F": 0,
+        "M": 1
+      }
+    },
+    "2": {
+      "fit_subjects": 929,
+      "continuous": {
+        "age": {
+          "mean": 72.78579117330463,
+          "scale": 7.278141067525595
+        },
+        "weight": {
+          "mean": 75.02195909580193,
+          "scale": 21.12452474696637
+        },
+        "cdr": {
+          "mean": 0.3444564047362756,
+          "scale": 0.359813895330291
+        },
+        "mmse": {
+          "mean": 26.547900968783637,
+          "scale": 3.169777628152585
+        },
+        "gds": {
+          "mean": 1.691065662002153,
+          "scale": 1.676898004063741
+        },
+        "faq": {
+          "mean": 6.182992465016146,
+          "scale": 6.917076984976357
+        },
+        "npiq": {
+          "mean": 2.1883745963401506,
+          "scale": 1.9707316005975093
+        }
+      },
+      "sex_encoding": {
+        "F": 0,
+        "M": 1
+      }
+    }
+  },
+  "cache": {
+    "cache_dir": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "files": 1857,
+    "bytes": 109553770710,
+    "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a"
+  },
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "expected_effective_by_fold": {
+    "1": {
+      "fdg": 792,
+      "av45": 690
+    },
+    "2": {
+      "fdg": 806,
+      "av45": 675
+    }
+  },
+  "expected_effective": {
+    "fdg": 1598,
+    "av45": 1365
+  },
+  "model": {
+    "name": "ClinicalRegressionUNet3D",
+    "channels": [
+      32,
+      64,
+      64,
+      128
+    ],
+    "condition": "8 clinical + 2 tracer one-hot -> MLP(10,64,256) -> bottleneck FiLM",
+    "prediction": "direct normalized PET regression",
+    "model_source_sha256": "70541de08b5f19cbba4ea04b98002af2b82482bcb301881c0466b4451dc00094"
+  },
+  "runner_sha256": "d9f65bf2b2a202d7018db0626a8b09fad37910eddb1377f8784184e6f32808a1",
+  "seed": 42,
+  "epochs": 200,
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "val_interval": 10,
+  "learning_rate": 2.5e-05,
+  "batch_size": 1,
+  "loss": "sum of valid-tracer direct PET MSE; sequential backward; one optimizer step",
+  "amp": true,
+  "minimum_output_free_bytes": 53687091200,
+  "status": "PREPARED_NOT_TRAINED"
+}

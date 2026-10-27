@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "subjects": 1857,
+  "unique_ptids": 1857,
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "cache": {
+    "cache_dir": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "files": 1857,
+    "bytes": 109553770710,
+    "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a"
+  },
+  "sample_ptid": "002_S_0295",
+  "sample_shapes": {
+    "mri": [
+      1,
+      160,
+      192,
+      160
+    ],
+    "fdg": [
+      1,
+      160,
+      192,
+      160
+    ],
+    "av45": [
+      1,
+      160,
+      192,
+      160
+    ]
+  },
+  "clinical_shape": [
+    8
+  ],
+  "cached_condition_keys_exposed": false,
+  "diagnosis_field_present": false,
+  "torch": "2.7.0+cu128"
+}
