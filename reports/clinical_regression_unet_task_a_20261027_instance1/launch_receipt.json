@@ -1,0 +1,11 @@
+{
+  "status": "FORMAL_PIPELINE_LAUNCHED",
+  "launcher_pid": 211989,
+  "deployed_commit": "861b2c0",
+  "validated_config_commit": "0aa502a",
+  "config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+  "gpu_uuid": "GPU-67973436-ddfb-1936-b0cb-2cf4e22aec41",
+  "command": "bash experiments/clinical_regression_unet/run_instance1.sh",
+  "launched_unix": 1793068312.175194,
+  "log": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/runtime/formal_pipeline.log"
+}

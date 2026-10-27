@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "experiment": "clinical_regression_unet_task_a",
+  "fold": 1,
+  "config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "clinical_features_sha256": "3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693",
+  "model_source_sha256": "70541de08b5f19cbba4ea04b98002af2b82482bcb301881c0466b4451dc00094",
+  "hardware": {
+    "host": "autodl-container-e1a2l2ecb5-f3d3c148",
+    "pid": 212239,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.7.0+cu128",
+    "cuda": "12.8",
+    "cuda_visible_devices": "0",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "67973436-ddfb-1936-b0cb-2cf4e22aec41",
+    "gpu_free_bytes": 50422808576,
+    "gpu_total_bytes": 50866487296
+  },
+  "train_subjects": 928,
+  "held_out_subjects": 929,
+  "start_epoch_zero_based": 0,
+  "initial_model_sha256": "308be4852bd468e32ff538d0ac6bf6e7cc550164c8ff3e6486248a04e5b3d66c",
+  "parameters": 2643331
+}

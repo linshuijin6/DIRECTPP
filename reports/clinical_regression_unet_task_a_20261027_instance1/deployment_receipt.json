@@ -1,5 +1,5 @@
 {
-  "status": "READY_FOR_FORMAL_TRAINING",
+  "status": "FORMAL_TRAINING_RUNNING",
   "validated_commit": "0aa502a",
   "remote_host": "autodl-container-e1a2l2ecb5-f3d3c148",
   "remote_code": "/root/autodl-tmp/DIRECTPP_task_a",
@@ -13,5 +13,10 @@
   "cuda_full_sample_preflight": "PASS_NO_OPTIMIZER_STEP",
   "cuda_peak_allocated_bytes": 12751513088,
   "cuda_peak_reserved_bytes": 16234053632,
-  "formal_training_started": false
+  "formal_training_started": true,
+  "deployed_commit": "861b2c0",
+  "launcher_pid": 211989,
+  "fold1_python_pid": 212239,
+  "first_100_updates_finite": true,
+  "first_100_updates_amp_scale": 65536.0
 }
