@@ -1,0 +1,14 @@
+{
+  "purpose": "Tracer-only control OOF inference for completed folds 1 and 2 at preregistered epochs 165 and 200",
+  "fold1_inference": "reused completed outputs from 2026-10-26 after metrics receipt validation",
+  "fold2_inference": "scheduled on node3014 physical GPU0, RTX 3090 24GB",
+  "assets": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022",
+  "cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+  "runtime_config_sha256": "769f0d8482c6ca765e184bf54a89a34f5896e9d7f350b660d0c100f5a15913f3",
+  "checkpoint_sha256": {
+    "fold1_epoch165": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+    "fold1_epoch200": "6cdf299a6c97782018badd5170da541e119f16737605f9ec60b5ea783bbce02b",
+    "fold2_epoch165": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+    "fold2_epoch200": "afdcafe5f252bab349ee8a449724aec42c80c919f2210a2f716545f3a7c31545"
+  }
+}

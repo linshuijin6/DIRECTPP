@@ -12,3 +12,10 @@
   - 浮点级证实 28.72 dB、19.82 dB、21.33 dB 与单样本/局部运行输出的直接因果对应关系；
   - 裁决原作者 `test_size=1` 与定性视觉切片制作（`test/` 与 `test1/`）的真实实验过程；
   - 给出修稿应对建议与科学评测方案。
+
+- **[TRACER_ONLY_CONTROL_EXPERIMENT_REPORT.md](file:///mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tracer_only_control_20261027/TRACER_ONLY_CONTROL_EXPERIMENT_REPORT.md)**  
+  *Tracer-Only 消融对照实验报告（Fold 1 / Fold 2 两折 OOF 全景评估与配对统计学分析）(2026-10-27)*  
+  - 对应审稿人 Reviewer 2 & Reviewer 3 关于临床条件特征在生成器阶段的独立贡献消融评估要求；
+  - 涵盖 1,857 名受试者、2,963 目标体积的两折交叉留出（OOF）全量生成指标；
+  - 给出 Full DIRECTPP vs. Tracer-Only 配对 $t$ 检验、95% 置信区间与 Cohen's d 效应量分析；
+  - 证实图像体素级重建的高度等效性，并提供直接可交付 ChatGPT 深度分析的提示词模板。
