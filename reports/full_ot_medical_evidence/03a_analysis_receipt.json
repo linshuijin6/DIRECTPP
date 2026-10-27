@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "epoch": 165,
+  "bootstrap_replicates": 10000,
+  "permutation_resamples": 10000,
+  "seed": 20261017,
+  "delta_definition": "MAE_OT - MAE_Full; positive favors Full",
+  "unit": "normalized uptake (arbitrary units)",
+  "input_source_hashes": {
+    "reports/full_ot_medical_evidence/01_roi_protocol_recon.md": "43dc74a2c6abd1af6ab9bf7b7d8b86a9534a3b321c256d58450d43e59e8950fc",
+    "reports/full_ot_medical_evidence/02_spatial_compatibility_report.md": "04c593d9cfcb7060fef93da5b446fc712ea5c93875af1375144a74593da82fff",
+    "reports/full_ot_medical_evidence/02_spatial_validation_results.json": "25499795f14e0521acc1cd5b29a290d8edc12862dd982828fac01babab7f644c",
+    "experiments/e1_clinical_conditioning/evaluate.py": "0bbdb4691d561c0e08526cb76c62fd8d30647805061e3bde5a66e914852e4ddb",
+    "reports/e1_stage01_20261017/config.json": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+    "reports/e1_stage01_20261017/roi_labels.csv": "6dae68a41bafc35429f816f6873cc5308d894c25c42acfd9fdbd5de224a7d8ca",
+    "reports/e1_stage01_20261017/roi_validity.json": "c5d324aea1a83286570bd899732380905666ae0a08e1385b24d3513ca76c61ec",
+    "reports/e1_stage01_20261017/hemisphere_label_map.json": "d6c93a9e432a38bd5e277fdafa04f7b3a7674fdf3f36edbdbf2db3a006cb755a",
+    "reports/full_ot_medical_evidence/02_prediction_identity_checks.csv": "fe6f84a6aa723d701ead016d112375bb158a658503f1b25568eff97697d1cf07"
+  },
+  "integrity": {
+    "regional_rows": 290178,
+    "valid_regional_rows": 289932,
+    "invalid_regional_rows": 246,
+    "subject_tracer_rows": 2961,
+    "subjects": 1856,
+    "tracer_counts": {
+      "av45": 1364,
+      "fdg": 1597
+    },
+    "fold_tracer_counts": {
+      "fold1_fdg": 791,
+      "fold1_av45": 689,
+      "fold2_fdg": 806,
+      "fold2_av45": 675
+    },
+    "valid_roi_count_min": 74,
+    "valid_roi_count_max": 98,
+    "complete98_subject_tracer_rows": 2933,
+    "subject_tracer_rows_with_invalid_roi": 28,
+    "duplicate_regional_keys": 0,
+    "duplicate_subject_keys": 0,
+    "missing_valid_values": 0,
+    "invalid_rows_all_three_uptakes_excluded": true
+  },
+  "outputs": {
+    "03a_regional_uptake.csv": {
+      "sha256": "efc721a7e19ae71b1ca355a135a0312f5a198c40a5dfdaf92c4d5d9892e70907",
+      "bytes": 56964897
+    },
+    "03a_subject_roi_mae.csv": {
+      "sha256": "fc287fee71f871ec69ab878ddb1538786922fc07a35269ff80c08787ca91a477",
+      "bytes": 294260
+    },
+    "03a_primary_paired_comparison.csv": {
+      "sha256": "dd1d3b27b067b9591b9519551362d7274bb99f3a8c34f4e592fd723789544a79",
+      "bytes": 1643
+    },
+    "03a_per_roi_comparison.csv": {
+      "sha256": "5315ccbaa0fd0d23cd4d5e9e28df373584cfcdcde609a0e3438311cf71e99151",
+      "bytes": 54646
+    },
+    "03a_key_roi_summary.csv": {
+      "sha256": "0e7bf97c5dd77132bed89560086acb01a1fe3db3b9471632ceeefcdec030eb4a",
+      "bytes": 5904
+    },
+    "03a_precheck.json": {
+      "sha256": "8989d07c1e49cf6abc97cd3da07c0e3e7d954d2594e4f60eb9906c3c5864785b",
+      "bytes": 421
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "subjects": 10,
+  "regional_rows": 1960,
+  "e1_evaluate_max_abs_difference": 0.0,
+  "direct_boolean_mean_max_abs_difference": 0.0,
+  "invalid_triplet_failures": [],
+  "same_mask_for_real_full_ot": true,
+  "ptids": [
+    "003_S_4152",
+    "002_S_1261",
+    "002_S_2073",
+    "002_S_4229",
+    "002_S_0729",
+    "002_S_5018",
+    "002_S_0295",
+    "002_S_2010",
+    "002_S_4171",
+    "002_S_1155"
+  ]
+}
