@@ -41,9 +41,9 @@ ssh -p 40818 root@connect.westb.seetacloud.com
 - 显存峰值：`12,751,513,088` 字节分配，`16,234,053,632` 字节保留（与实例 1 完全一致）
 - 科学状态：`PASS_NO_OPTIMIZER_STEP`（未执行任何优化器参数更新）
 
-## 待用户验证确认后启动命令
+## 正式启动记录
 
-在实例 2 执行以下命令启动 Fold 2 训练：
+Fold 2 已于 2026-10-27 13:42:36（Asia/Shanghai）启动。复现命令为：
 
 ```bash
 cd /root/autodl-tmp/DIRECTPP_task_a
