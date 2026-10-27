@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "synthetic_shape": [
+    1,
+    1,
+    32,
+    32,
+    32
+  ],
+  "outputs": {
+    "fdg": -0.29959622025489807,
+    "av45": -0.2991703748703003
+  },
+  "loss": 0.7565501928329468,
+  "parameters": 2643331,
+  "direct_pet_regression": true,
+  "biomedclip": false,
+  "attention": false,
+  "time_or_flow": false,
+  "checkpoint_roundtrip": "PASS",
+  "full_sample": "PASS_NO_OPTIMIZER_STEP",
+  "full_sample_ptid": "002_S_0295",
+  "full_sample_loss": 0.29227325320243835,
+  "full_sample_valid": {
+    "fdg": true,
+    "av45": true
+  },
+  "peak_allocated_bytes": 13047063552,
+  "peak_reserved_bytes": 15871246336
+}

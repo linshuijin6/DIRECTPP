@@ -1,0 +1,40 @@
+{
+  "status": "READY_FOR_FORMAL_PARALLEL_LAUNCH",
+  "node": "3014",
+  "ssh": "linshuijin@192.168.1.14",
+  "python": "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python",
+  "torch": "2.5.1+cu124",
+  "training_gpu_assignments": {
+    "fold1": 1,
+    "fold2": 3
+  },
+  "inference_gpu_assignments": {
+    "fold1_epoch165": 1,
+    "fold2_epoch165": 3,
+    "fold1_epoch200": 4,
+    "fold2_epoch200": 5
+  },
+  "spare_gpu": 6,
+  "base_git_commit": "ac6db0e33dda16d25d67fa92b3a7a2d76315738e",
+  "config_sha256": "844ab034d6e29fe071e89f761081b6eb138a5a7d5de1c65a28d1aeccd9277b65",
+  "launcher_sha256": "9f8dc09f94ce46e213df9b1efd37fc6fff8b354705108c32ef2340d93e912ba7",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "clinical_features_sha256": "3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693",
+  "cache_files": 1857,
+  "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+  "cache_copied": false,
+  "cache_comparison": {
+    "sample_file": "0015032f7c994e196ec7c9277624318e.pt",
+    "ptid": "129_S_0778",
+    "mri_max_abs_vs_instance1_cache": 1.7881393432617188e-07,
+    "fdg_max_abs_vs_instance1_cache": 1.7881393432617188e-07,
+    "av45_max_abs_vs_instance1_cache": 0.0,
+    "voxels_over_1e-6": 0,
+    "interpretation": "same preprocessing contract with platform-level floating-point last-bit differences"
+  },
+  "cuda_full_sample_preflight": "PASS_NO_OPTIMIZER_STEP",
+  "cuda_peak_allocated_bytes": 13047063552,
+  "cuda_peak_reserved_bytes": 15871246336,
+  "formal_training_started": false,
+  "output_isolated_from_instance1": true
+}
