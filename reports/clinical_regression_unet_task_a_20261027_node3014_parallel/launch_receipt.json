@@ -1,0 +1,28 @@
+{
+  "status": "FORMAL_PARALLEL_TRAINING_RUNNING",
+  "launched_at": "2026-10-27T11:34:37+08:00",
+  "node": "3014",
+  "deployed_commit": "6c1a1025521e025e661294e7c0f60f08decac0c3",
+  "launcher": "experiments/clinical_regression_unet/run_node3014_parallel.sh",
+  "launcher_pid": 249492,
+  "fold1": {
+    "physical_gpu": 1,
+    "gpu_uuid": "GPU-5bf1c074-363c-79b4-4380-68192ca0a7b4",
+    "pid": 250129,
+    "first_100_updates_finite": true,
+    "iteration_100_loss": 0.018070805817842484,
+    "iteration_100_amp_scale": 65536.0
+  },
+  "fold2": {
+    "physical_gpu": 3,
+    "gpu_uuid": "GPU-9c5b1bfd-29e6-5e38-35fa-2231e8e8e23f",
+    "pid": 250130,
+    "first_100_updates_finite": true,
+    "iteration_100_loss": 0.020090516656637192,
+    "iteration_100_amp_scale": 65536.0
+  },
+  "config_sha256": "844ab034d6e29fe071e89f761081b6eb138a5a7d5de1c65a28d1aeccd9277b65",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "output": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027_node3014_parallel",
+  "instance1_training_left_running": true
+}
