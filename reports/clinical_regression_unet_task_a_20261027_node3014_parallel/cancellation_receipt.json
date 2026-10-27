@@ -1,0 +1,13 @@
+{
+  "status": "CANCELLED_BY_USER_MIGRATED_TO_CLOUD_INSTANCE2",
+  "cancelled_at": "2026-10-27T13:29:00+08:00",
+  "fold1_last_complete_epoch": 9,
+  "fold2_last_complete_epoch": 8,
+  "fold1_exit_code": 143,
+  "fold2_exit_code": 143,
+  "recovery_checkpoints_preserved": true,
+  "partial_logs_preserved": true,
+  "inference_started": false,
+  "files_deleted": false,
+  "reason": "Node 3014 was slower than cloud RTX 4090 execution; user requested retaining only the two cloud instances."
+}
