@@ -1,0 +1,142 @@
+{
+  "stage": "4C-2",
+  "status": "PASS",
+  "pilot_groups_complete": 4,
+  "prediction_records": 32,
+  "unique_prediction_files": 32,
+  "identity_numeric_qc_pass": true,
+  "full_ot_same_subject_mri_tracer_pass": true,
+  "context_checkpoint_condition_pass": true,
+  "spatial_threshold": 2e-06,
+  "max_mri_e1_abs_error": 1.7881393432617188e-07,
+  "prediction_min": 0.0,
+  "prediction_max": 1.0,
+  "prediction_min_std": 0.2081701159477234,
+  "prediction_total_bytes": 403676670,
+  "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+  "cache_files_after_all_runs": 1857,
+  "all_group_cache_tree_unchanged": true,
+  "groups": [
+    {
+      "status": "COMPLETE",
+      "model": "Full",
+      "outer_fold": 1,
+      "epoch": 165,
+      "subjects": [
+        "002_S_0295",
+        "002_S_5018",
+        "002_S_2010",
+        "002_S_4171"
+      ],
+      "diagnoses": [
+        "CN",
+        "AD",
+        "EMCI",
+        "LMCI"
+      ],
+      "records": 8,
+      "runtime_seconds": 20.15605988004245,
+      "peak_gpu_memory_bytes": 8946178048,
+      "cache_files_before": 1857,
+      "cache_files_after": 1857,
+      "cache_tree_unchanged": true,
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "condition_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "prediction_manifest_sha256": "c865d25b6e1f7be8d4f5bb7d0f279441719fc854249e502bc6f0abd29abb329b",
+      "complete_sha256": "f3cc3a16e0b52e77eb7d7b35ba3857426c4dea64c19358a6d3d3ea4956567cd4"
+    },
+    {
+      "status": "COMPLETE",
+      "model": "OT",
+      "outer_fold": 1,
+      "epoch": 165,
+      "subjects": [
+        "002_S_0295",
+        "002_S_5018",
+        "002_S_2010",
+        "002_S_4171"
+      ],
+      "diagnoses": [
+        "CN",
+        "AD",
+        "EMCI",
+        "LMCI"
+      ],
+      "records": 8,
+      "runtime_seconds": 14.817179937032051,
+      "peak_gpu_memory_bytes": 8946178048,
+      "cache_files_before": 1857,
+      "cache_files_after": 1857,
+      "cache_tree_unchanged": true,
+      "checkpoint_sha256": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+      "condition_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "prediction_manifest_sha256": "162c8b2da24952c6f959acb39c445d5e96933b862cee040eeb3a11596384afb0",
+      "complete_sha256": "b4c63fe89d1108fc29ecfb410278279b05988ac1d61a2a128201b424e84ad35c"
+    },
+    {
+      "status": "COMPLETE",
+      "model": "Full",
+      "outer_fold": 2,
+      "epoch": 165,
+      "subjects": [
+        "002_S_1261",
+        "003_S_4152",
+        "002_S_2073",
+        "002_S_4229"
+      ],
+      "diagnoses": [
+        "CN",
+        "AD",
+        "EMCI",
+        "LMCI"
+      ],
+      "records": 8,
+      "runtime_seconds": 23.670368170016445,
+      "peak_gpu_memory_bytes": 8946178048,
+      "cache_files_before": 1857,
+      "cache_files_after": 1857,
+      "cache_tree_unchanged": true,
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "condition_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "prediction_manifest_sha256": "b9e7c5bd02fdf5a92337cae04d81d34e69fec7b530d661ea837d2af72bc5586f",
+      "complete_sha256": "8d42f00ec014e672060e8a0cfb6c5f7439e90dbff5607382819e4860f8f9b75a"
+    },
+    {
+      "status": "COMPLETE",
+      "model": "OT",
+      "outer_fold": 2,
+      "epoch": 165,
+      "subjects": [
+        "002_S_1261",
+        "003_S_4152",
+        "002_S_2073",
+        "002_S_4229"
+      ],
+      "diagnoses": [
+        "CN",
+        "AD",
+        "EMCI",
+        "LMCI"
+      ],
+      "records": 8,
+      "runtime_seconds": 18.517427755054086,
+      "peak_gpu_memory_bytes": 8946178048,
+      "cache_files_before": 1857,
+      "cache_files_after": 1857,
+      "cache_tree_unchanged": true,
+      "checkpoint_sha256": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+      "condition_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "prediction_manifest_sha256": "359610f93495b6f7b2f5152b7d7403f3859ded1548c0b3cf7730cd9964737750",
+      "complete_sha256": "071906d153a23af45ac050788446f806763126c8406f929489b2439228ae3e17"
+    }
+  ],
+  "pilot_manifest": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04c2_pilot_prediction_manifest.csv",
+  "pilot_manifest_sha256": "267d1d26f38b18ea78a95293a682493cb9b876f2b4364bffd26f44a021ac9d70",
+  "pilot_config": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04c2_pilot_config.json",
+  "pilot_config_sha256": "6773dfcc6980abace92f26824f258e9bafec224479e8d602aaf90a04e8ae4756",
+  "runner": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/experiments/train_side_inference/run.py",
+  "runner_sha256": "1c77a6988c03252ef663ff6b611788ea1c82954653934f4165b1d6718917ca81",
+  "full_4b_manifests_modified": false,
+  "full_queue_inference_run": false,
+  "classification_training_run": false
+}

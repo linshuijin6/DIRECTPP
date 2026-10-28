@@ -1,0 +1,37 @@
+{
+  "stage": "4C-2",
+  "mode": "pilot_exactly_four_diagnoses_per_outer_fold",
+  "epoch": 165,
+  "output_root": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c2_pilot/20261028/epoch165",
+  "selection_rule": "within frozen outer_train rows, sort by PTID and select first CN, AD, EMCI, LMCI",
+  "diagnosis_order": ["CN", "AD", "EMCI", "LMCI"],
+  "strict_limits": {
+    "subjects_per_fold": 4,
+    "tracers_per_subject": 2,
+    "volumes_per_model_fold": 8,
+    "model_fold_runs": 4,
+    "total_volumes": 32
+  },
+  "selected": {
+    "outer_fold1": [
+      {"diagnosis": "CN", "ptid": "002_S_0295", "generator_fold": 2},
+      {"diagnosis": "AD", "ptid": "002_S_5018", "generator_fold": 2},
+      {"diagnosis": "EMCI", "ptid": "002_S_2010", "generator_fold": 2},
+      {"diagnosis": "LMCI", "ptid": "002_S_4171", "generator_fold": 2}
+    ],
+    "outer_fold2": [
+      {"diagnosis": "CN", "ptid": "002_S_1261", "generator_fold": 1},
+      {"diagnosis": "AD", "ptid": "003_S_4152", "generator_fold": 1},
+      {"diagnosis": "EMCI", "ptid": "002_S_2073", "generator_fold": 1},
+      {"diagnosis": "LMCI", "ptid": "002_S_4229", "generator_fold": 1}
+    ]
+  },
+  "derived_output_protocol": "outer_fold{f}/{full|ot}/{fdg|av45}/generated_{tracer}_{PTID}.nii.gz",
+  "frozen_4b_manifests_modified": false,
+  "pre_inference_check_only": {
+    "status": "PASS_CHECK_ONLY",
+    "safety_tests": "PASS",
+    "result_sha256": "8900ae20c78c29b02e939174418415edc48948170573a23fdf7a780a8c7fa07f"
+  },
+  "runner_sha256_before_pilot": "50a12784b7b768d421321ab96e8bc7018597fb237fe2e33a46fede6a06a56976"
+}
