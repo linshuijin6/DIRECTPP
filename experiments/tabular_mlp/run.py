@@ -229,6 +229,8 @@ def command_prepare(args) -> None:
     out, assets = args.out.resolve(), args.assets.resolve()
     conditions_source = args.conditions.resolve()
     cache_root = args.cache_root.resolve()
+    if not re.fullmatch(r"[0-9a-f]{40}", args.commit):
+        raise ValueError("--commit must be the deployed 40-character Git SHA")
     if out.exists() or assets.exists():
         raise RuntimeError("Tabular-MLP report/assets already exist; refusing to overwrite")
     required = ("cohort.json", "split_manifest.csv", "split_receipt.json", "input_hashes.csv", "input_hashes_receipt.json")
@@ -299,6 +301,7 @@ def command_prepare(args) -> None:
         tracer_token_source="byte-identical Full conditions.pt tracer tensor (actual Full uses raw BiomedCLIP text features)",
         tracer_adapter_claim=False,
         cache_input_policy="exact completed Full persistent cache bound to frozen input-manifest and condition hashes",
+        git_commit=args.commit,
         mlp={"input_dim": 8, "hidden_dim": MLP_HIDDEN_DIM, "output_dim": MLP_OUTPUT_DIM,
              "layers": "Linear(8,128), GELU, Linear(128,512)", "clinical_tokens": 1},
         base_training_source_sha256=_sha(Path(full.__file__)),
@@ -322,6 +325,7 @@ def command_prepare(args) -> None:
             "tracer_shape": list(conditions["tracer"].shape),
             "cache_namespace": expected_namespace,
             "cache_files": len(cache_files),
+            "git_commit": args.commit,
             "config_sha256": _sha(out / "config.json"),
         },
     )
@@ -606,6 +610,7 @@ def parser() -> argparse.ArgumentParser:
     prepare.add_argument("--conditions", type=Path, required=True)
     prepare.add_argument("--cache-root", type=Path, required=True)
     prepare.add_argument("--cache-receipt", type=Path, required=True)
+    prepare.add_argument("--commit", required=True)
     prepare.add_argument("--out", type=Path, required=True)
     prepare.add_argument("--assets", type=Path, required=True)
     preflight = sub.add_parser("preflight")
