@@ -1,0 +1,130 @@
+{
+  "stage": "4B_preflight_only",
+  "status": "PREPARED_NOT_INFERRED_NOT_TRAINED",
+  "epoch": 165,
+  "generator_outer_folds": [
+    1,
+    2
+  ],
+  "outer_test_rule": "generator_fold == outer_fold",
+  "outer_train_rule": "generator_fold != outer_fold",
+  "train_side_rule": "use the same G_f checkpoint as outer test; never use outer-train subjects' cross-OOF prediction",
+  "tasks": {
+    "ad_cn": {
+      "diagnoses": [
+        "AD",
+        "CN"
+      ],
+      "positive": [
+        "AD"
+      ],
+      "expected": 469
+    },
+    "mci_cn": {
+      "diagnoses": [
+        "CN",
+        "EMCI",
+        "LMCI"
+      ],
+      "positive": [
+        "EMCI",
+        "LMCI"
+      ],
+      "expected": 740
+    },
+    "lmci_emci": {
+      "diagnoses": [
+        "EMCI",
+        "LMCI"
+      ],
+      "positive": [
+        "LMCI"
+      ],
+      "expected": 436
+    }
+  },
+  "conditions": [
+    "MRI",
+    "MRI+Real",
+    "MRI+Full",
+    "MRI+OT"
+  ],
+  "inner_validation": {
+    "method": "StratifiedShuffleSplit",
+    "fraction": 0.2,
+    "base_seed": 20261028,
+    "fold_seed_rule": "base_seed + outer_fold"
+  },
+  "generator_checkpoints": {
+    "Full_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.pth",
+      "sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "bytes": 119476177,
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.json",
+      "receipt_sha256": "a465094ed6ae366b6e0bc8573232fca28e418a1ce7fa7321aaac0e517a4af11c",
+      "model_sha256": "f6e664e45976bb43d8e8d2ac7343bcc0f60d7bd2b532802752265433008d6285"
+    },
+    "Full_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.pth",
+      "sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "bytes": 119475766,
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.json",
+      "receipt_sha256": "a56215276e4eeea5158b0b45f9464b2b33ec8262ff6621dc8fddbf2f7addc24d",
+      "model_sha256": "467500a1b499b611eb9f44aeada27aae3650b4ac3a53e701273156f7f96822d1"
+    },
+    "OT_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.pth",
+      "sha256": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+      "bytes": 119476177,
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.json",
+      "receipt_sha256": "66efe1be61fa7fd171cbcdedbea00ea12b6cbe838d9cad0ca599dc326c32654a",
+      "model_sha256": "f62dc84c150fae4a254fff29f5b71f159afb4e2933b772eb51e9437830c8be13"
+    },
+    "OT_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.pth",
+      "sha256": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+      "bytes": 119476177,
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.json",
+      "receipt_sha256": "cd047ffe5bf90eea877d58ce9757b8793a81e693fd87f54cdbf8195551976c16",
+      "model_sha256": "b9b4cddc59cf5e721c67fc2dcb6427f9b9b9a637ce8c7033cba3535c7bf3ddfd"
+    }
+  },
+  "conditions_identity": {
+    "Full": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/conditions.pt",
+      "sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "bytes": 3845354
+    },
+    "OT": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/tracer_only_conditions.pt",
+      "sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "bytes": 8605
+    }
+  },
+  "planned_train_side_root": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4b_train_side/20261028/epoch165",
+  "classification": {
+    "backbone": "MONAI DenseNet121",
+    "spatial_dims": 3,
+    "in_channels": 1,
+    "dual_input_channels": 3,
+    "out_channels": 2,
+    "fits": 24,
+    "loss": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "max_epochs": 200,
+    "validation_interval_epochs": 2,
+    "batch_size": "UNVERIFIED_RESOURCE_DEPENDENT; identical across Full/OT",
+    "checkpoint_selection": "maximum inner-validation AUC; deterministic earliest-epoch tie break",
+    "threshold_selection": "maximum inner-validation Youden J at selected checkpoint; tie closest to 0.5 then lower threshold",
+    "training_seed": 20261028,
+    "primary_comparison": "paired pooled outer-OOF AUC, MRI+Full minus MRI+OT",
+    "secondary_metrics": [
+      "ACC",
+      "SEN",
+      "SPE",
+      "balanced_ACC"
+    ],
+    "confidence_interval": "subject bootstrap 95%"
+  }
+}

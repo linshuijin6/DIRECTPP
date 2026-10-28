@@ -1,0 +1,111 @@
+{
+  "status": "PASS_STATIC_PREFLIGHT",
+  "tasks": {
+    "ad_cn": {
+      "subjects": 469,
+      "labels": {
+        "0": 304,
+        "1": 165
+      },
+      "diagnoses": {
+        "AD": 165,
+        "CN": 304
+      },
+      "outer": {
+        "1": {
+          "test": 236,
+          "train": 233,
+          "inner_validation": 47
+        },
+        "2": {
+          "test": 233,
+          "train": 236,
+          "inner_validation": 48
+        }
+      }
+    },
+    "mci_cn": {
+      "subjects": 740,
+      "labels": {
+        "0": 304,
+        "1": 436
+      },
+      "diagnoses": {
+        "CN": 304,
+        "EMCI": 287,
+        "LMCI": 149
+      },
+      "outer": {
+        "1": {
+          "test": 371,
+          "train": 369,
+          "inner_validation": 74
+        },
+        "2": {
+          "test": 369,
+          "train": 371,
+          "inner_validation": 75
+        }
+      }
+    },
+    "lmci_emci": {
+      "subjects": 436,
+      "labels": {
+        "0": 287,
+        "1": 149
+      },
+      "diagnoses": {
+        "EMCI": 287,
+        "LMCI": 149
+      },
+      "outer": {
+        "1": {
+          "test": 212,
+          "train": 224,
+          "inner_validation": 45
+        },
+        "2": {
+          "test": 224,
+          "train": 212,
+          "inner_validation": 43
+        }
+      }
+    }
+  },
+  "outputs": {
+    "04b_manifest_ad_cn.csv": {
+      "sha256": "cccc213b5d62375f6b66a6d4b639e58b381ffcb40d7607e9a6b6df633160356b",
+      "bytes": 3030428,
+      "rows": 938
+    },
+    "04b_manifest_mci_cn.csv": {
+      "sha256": "c63e22b8a0debd7f6f39464522deb997c84f1a63dffc7fb2d30b7554c6b5d475",
+      "bytes": 4784040,
+      "rows": 1480
+    },
+    "04b_manifest_lmci_emci.csv": {
+      "sha256": "35dd4078cdde7d9a4e7c55810f5e27ee2490aea47f20ea12d629159a766c0aae",
+      "bytes": 2822511,
+      "rows": 872
+    },
+    "04b_execution_config_draft.json": {
+      "sha256": "239f95c4b2fefc054e6320dac5b15a6f38509c7e964911fa5a4f325f6ac536e8",
+      "bytes": 4864
+    }
+  },
+  "source_hashes": {
+    "reports/full_ot_medical_evidence/04a_classification_protocol_recon.md": "d084fdef146eb840968fde7373707995ca7dba4aab7d03e103873ff32fc5fa67",
+    "reports/full_ot_medical_evidence/02_spatial_validation_results.json": "25499795f14e0521acc1cd5b29a290d8edc12862dd982828fac01babab7f644c",
+    "reports/full_ot_medical_evidence/02_prediction_identity_checks.csv": "fe6f84a6aa723d701ead016d112375bb158a658503f1b25568eff97697d1cf07",
+    "reports/e1_stage01_20261017/cohort.json": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "reports/e1_stage01_20261017/input_hashes_final.csv": "4ce44b3bf7a0dfd48ad67388964b1cde863bc9f67f5aa36e2c5857c2dbf63023",
+    "experiments/original_author_reproduction/run.py": "1811340c23d498b5aad1da4f64d68f3a8dd51691f60ff71cfb011e2fa15c3eec",
+    "experiments/tracer_only_control/run.py": "95bc18bd6e20df290459f727907431e80403540ae71c12ec5ed3a27441acff44"
+  },
+  "checkpoint_identity_verified": true,
+  "condition_identity_verified": true,
+  "generator_fold_source": "Stage 2 Full/OT Epoch 165 prediction identity; not E1 cohort.test_fold",
+  "dual_cohort_e1_vs_generator_fold_mismatches": 529,
+  "images_or_models_loaded": false,
+  "inference_or_training_run": false
+}
