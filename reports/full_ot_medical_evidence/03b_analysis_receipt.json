@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "epoch": 165,
+  "bootstrap_replicates": 10000,
+  "seed": 20261017,
+  "input_and_integrity": {
+    "stage3a_input_sha256": "efc721a7e19ae71b1ca355a135a0312f5a198c40a5dfdaf92c4d5d9892e70907",
+    "stage3a_input_bytes": 56964897,
+    "stage3a_receipt_expected_sha256": "efc721a7e19ae71b1ca355a135a0312f5a198c40a5dfdaf92c4d5d9892e70907",
+    "input_rows_total": 290178,
+    "input_rows_valid": 289932,
+    "subjects": 1856,
+    "tracer_subjects": {
+      "fdg": 1597,
+      "av45": 1364
+    },
+    "agreement_rows": 1176,
+    "comparison_rows": 588,
+    "disease_rows": 588,
+    "key_and_paper_summary_rows": 48,
+    "agreement_duplicate_keys": 0,
+    "comparison_duplicate_keys": 0,
+    "disease_duplicate_keys": 0,
+    "agreement_families": {
+      "delta_ccc": "196 overall tracer-ROI tests, BH-FDR",
+      "delta_icc_a1": "196 overall tracer-ROI tests, BH-FDR",
+      "fold_rows": "descriptive repeatability checks; no q-values"
+    },
+    "disease_family": "196 overall tracer-ROI contrast-error tests, diagnosis+fold-stratified subject bootstrap, BH-FDR",
+    "delta_directions": {
+      "agreement": "Full minus OT; positive favors Full",
+      "disease": "Error_OT minus Error_Full; positive favors Full"
+    },
+    "paper_roi_source": "manuscript Fig. 4 panels A-F, mapped in 01_roi_protocol_recon.md; marking only, not added to E1 key set"
+  },
+  "outputs": {
+    "03b_regional_agreement.csv": {
+      "sha256": "c3509a6fb028f6dc71f08c04ec60efb816a592145509be2eb7429e3a33ef20f0",
+      "bytes": 221093
+    },
+    "03b_full_ot_agreement_comparison.csv": {
+      "sha256": "63e82b869a404fa71a5d10bd3cc564322f789780f70fe86dbe0120b5ead67aed",
+      "bytes": 153559
+    },
+    "03b_disease_contrast.csv": {
+      "sha256": "b7627c3a95f19faee2f8562fdd8dd9b5f9e3b894cf38f6a0754741cf7a06fec1",
+      "bytes": 130053
+    },
+    "03b_key_and_paper_roi_summary.csv": {
+      "sha256": "6ce3deb4d2ed2bf32ddf7e7d31a0f62304e60fd0ced81b6b8352b92c4affb340",
+      "bytes": 21773
+    }
+  },
+  "source_hashes": {
+    "manuscript/BMEF_main.tex": "28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba",
+    "reports/full_ot_medical_evidence/01_roi_protocol_recon.md": "43dc74a2c6abd1af6ab9bf7b7d8b86a9534a3b321c256d58450d43e59e8950fc",
+    "reports/full_ot_medical_evidence/03a_roi_accuracy_report.md": "7cfd915cb22a8ccb2c8317d2e58f01aa3f3c8d51e3378b7fae31b835eea8f315",
+    "reports/full_ot_medical_evidence/03a_regional_uptake.csv": "efc721a7e19ae71b1ca355a135a0312f5a198c40a5dfdaf92c4d5d9892e70907",
+    "reports/full_ot_medical_evidence/03a_analysis_receipt.json": "e572ba2f06a47f569d3995e27359593c7e45dea17ab3f45e329d420d07efe104",
+    "experiments/e1_clinical_conditioning/evaluate.py": "0bbdb4691d561c0e08526cb76c62fd8d30647805061e3bde5a66e914852e4ddb",
+    "reports/e1_stage01_20261017/config.json": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+    "reports/e1_stage01_20261017/roi_labels.csv": "6dae68a41bafc35429f816f6873cc5308d894c25c42acfd9fdbd5de224a7d8ca",
+    "reports/e1_stage01_20261017/roi_validity.json": "c5d324aea1a83286570bd899732380905666ae0a08e1385b24d3513ca76c61ec",
+    "reports/e1_stage01_20261017/hemisphere_label_map.json": "d6c93a9e432a38bd5e277fdafa04f7b3a7674fdf3f36edbdbf2db3a006cb755a"
+  },
+  "elapsed_seconds": 290.5100338459015
+}
