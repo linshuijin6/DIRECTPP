@@ -1,0 +1,42 @@
+{
+  "protocol_version": "stage4d_generator_anchored_2fold_v1",
+  "seed": 20261028,
+  "tasks": ["ad_cn", "mci_cn", "lmci_emci"],
+  "outer_folds": [1, 2],
+  "conditions": ["mri", "mri_real", "mri_full", "mri_ot"],
+  "manifests": {
+    "ad_cn": "reports/full_ot_medical_evidence/04b_manifest_ad_cn.csv",
+    "mci_cn": "reports/full_ot_medical_evidence/04b_manifest_mci_cn.csv",
+    "lmci_emci": "reports/full_ot_medical_evidence/04b_manifest_lmci_emci.csv"
+  },
+  "manifest_receipt": "reports/full_ot_medical_evidence/04b_manifest_receipt.json",
+  "stage4c4": {
+    "receipt": "reports/full_ot_medical_evidence/04c4_full_inference_receipt.json",
+    "prediction_manifest": "reports/full_ot_medical_evidence/04c4_full_prediction_manifest.csv",
+    "classification_asset_index": "reports/full_ot_medical_evidence/04c4_classification_asset_index.csv",
+    "expected_predictions": 3620
+  },
+  "model": {
+    "name": "MONAI DenseNet121",
+    "spatial_dims": 3,
+    "out_channels": 2,
+    "input_shape": [160, 192, 160]
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "loss": "CrossEntropyLoss",
+    "max_epochs": 200,
+    "validation_interval": 2,
+    "batch_size": 1,
+    "num_workers": 0,
+    "cache_in_memory": true,
+    "amp": true,
+    "deterministic": true,
+    "bootstrap_replicates": 2000,
+    "checkpoint_selection": "maximum_inner_validation_auc_earliest_epoch_tie",
+    "threshold_selection": "maximum_youden_j_closest_to_0.5_then_lower"
+  },
+  "output_root": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/20261028",
+  "smoke_output_root": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/smoke_20261028"
+}
