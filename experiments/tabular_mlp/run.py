@@ -49,6 +49,7 @@ CONTINUOUS = ("age", "weight", "cdr", "mmse", "gds", "faq", "npiq")
 SEX_ENCODING = {"female": 0.0, "male": 1.0}
 MLP_HIDDEN_DIM = 128
 MLP_OUTPUT_DIM = 512
+SMOKE_MAX_STEPS = 8
 _FULL_NEW_MODEL = full.new_model
 _FULL_CHECKPOINT_IDENTITY = full.checkpoint_identity
 _FULL_LOAD_CONFIG = full.load_config
@@ -516,7 +517,7 @@ def command_preflight(args) -> None:
     scaler = torch.amp.GradScaler("cuda")
     gradient_l2_by_step = []
     first_nonzero_step = None
-    for smoke_step in range(1, 4):
+    for smoke_step in range(1, SMOKE_MAX_STEPS + 1):
         optimizer.zero_grad(set_to_none=True)
         loss, timestep, has_fdg, has_av45 = full.author_loss(model, small, 0)
         scaler.scale(loss).backward()
@@ -536,7 +537,7 @@ def command_preflight(args) -> None:
             first_nonzero_step = smoke_step
             break
     if first_nonzero_step is None:
-        raise RuntimeError("Clinical MLP gradient remained zero after three optimizer steps")
+        raise RuntimeError(f"Clinical MLP gradient remained zero after {SMOKE_MAX_STEPS} optimizer steps")
     model.eval()
     with torch.no_grad():
         context_before = _tabular_context_from_batch(small, "fdg")
