@@ -1,0 +1,182 @@
+{
+  "stage": "4C-3_readiness",
+  "status": "PASS_DRY_RUN",
+  "runner": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/experiments/train_side_inference/run.py",
+  "runner_sha256": "7e1e84c89aae8ae9df42e870de2a969b67adec045e6e7c5136aac56eaba7cf3f",
+  "formal_output_protocol": {
+    "root": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165",
+    "layout": "outer_fold{f}/{model}/{tracer}/generated_{tracer}_{PTID}.nii.gz",
+    "source_of_truth_after_execution": "per-run prediction_manifest.json and complete.json; downstream classification must parse receipts and must not synthesize paths",
+    "pilot_root": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c2_pilot/20261028/epoch165",
+    "pilot_isolated": true,
+    "frozen_4b_manifests_modified": false
+  },
+  "counts": {
+    "Full_G1": {
+      "subjects": 457,
+      "volumes": 914
+    },
+    "OT_G1": {
+      "subjects": 457,
+      "volumes": 914
+    },
+    "Full_G2": {
+      "subjects": 448,
+      "volumes": 896
+    },
+    "OT_G2": {
+      "subjects": 448,
+      "volumes": 896
+    },
+    "unique_subjects": 905,
+    "prediction_paths": 3620
+  },
+  "plan_sha256": "90bf9386eab2e688b15162f97e337f131c33cfbc15b7beead86c73ba203e01f1",
+  "all_prediction_paths_unique": true,
+  "formal_run_directories_unoccupied": true,
+  "checkpoint_identity": {
+    "Full_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.pth",
+      "sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.json",
+      "epoch": 165,
+      "fold": 1
+    },
+    "Full_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.pth",
+      "sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.json",
+      "epoch": 165,
+      "fold": 2
+    },
+    "OT_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.pth",
+      "sha256": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.json",
+      "epoch": 165,
+      "fold": 1
+    },
+    "OT_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.pth",
+      "sha256": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.json",
+      "epoch": 165,
+      "fold": 2
+    }
+  },
+  "condition_identity": {
+    "Full": {
+      "sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "patient_shape": [
+        1857,
+        512
+      ],
+      "tracer_shape": [
+        2,
+        512
+      ]
+    },
+    "OT": {
+      "sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "mode": "tracer_only_fixed_empty_patient",
+      "empty_patient_shape": [
+        1,
+        512
+      ],
+      "tracer_shape": [
+        2,
+        512
+      ],
+      "empty_patient_sha256": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d"
+    }
+  },
+  "cache": {
+    "receipt": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/persistent_cache_receipt.json",
+    "recorded_cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+    "relocated_exact_namespace_backup": true,
+    "files": 1857,
+    "subjects": 1857,
+    "input_manifest_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+    "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "per_cache_file_sha256": "UNAVAILABLE; namespace/input/condition binding and complete expected file set are checked",
+    "selected_cache_keys": 905,
+    "all_selected_cache_keys_exist": true
+  },
+  "selection_rule": "frozen outer_train only; generator_fold != outer_fold; use G_f",
+  "group_dry_run": {
+    "Full_fold1": {
+      "subjects": 457,
+      "volumes": 914,
+      "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/full",
+      "status": "PASS"
+    },
+    "Full_fold2": {
+      "subjects": 448,
+      "volumes": 896,
+      "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/full",
+      "status": "PASS"
+    },
+    "OT_fold1": {
+      "subjects": 457,
+      "volumes": 914,
+      "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/ot",
+      "status": "PASS"
+    },
+    "OT_fold2": {
+      "subjects": 448,
+      "volumes": 896,
+      "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/ot",
+      "status": "PASS"
+    }
+  },
+  "rejection_tests": [
+    {
+      "name": "wrong_generator_fold",
+      "status": "PASS_REJECTED",
+      "reason": "row belongs to wrong outer fold: 002_S_0295"
+    },
+    {
+      "name": "wrong_checkpoint_sha",
+      "status": "PASS_REJECTED",
+      "reason": "SHA-256 mismatch: /mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.pth"
+    },
+    {
+      "name": "full_ot_condition_mismatch",
+      "status": "PASS_REJECTED",
+      "reason": "OT is not frozen empty-patient+tracer conditioning"
+    },
+    {
+      "name": "output_points_to_oof",
+      "status": "PASS_REJECTED",
+      "reason": "output overlaps protected asset: /mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof"
+    },
+    {
+      "name": "outer_test_selected",
+      "status": "PASS_REJECTED",
+      "reason": "outer-test subject selected into train-side execution: 002_S_1261"
+    },
+    {
+      "name": "cross_oof_allowed_on_train_row",
+      "status": "PASS_REJECTED",
+      "reason": "cross-OOF use not forbidden: 002_S_0295"
+    },
+    {
+      "name": "existing_output_refuses_overwrite",
+      "status": "PASS_REJECTED",
+      "reason": "run output already exists; refusing overwrite: /tmp/directpp_4c1_5_mdyv3_/out/outer_fold1/full"
+    },
+    {
+      "name": "missing_ot_runtime",
+      "status": "PASS_REJECTED",
+      "reason": "missing file: /mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/tracer_only_conditions.pt.missing"
+    }
+  ],
+  "rejection_tests_status": "PASS",
+  "models_loaded": false,
+  "generator_forward_run": false,
+  "pet_written": false,
+  "pilot_outputs_modified": false,
+  "full_inference_run": false,
+  "classification_training_run": false
+}

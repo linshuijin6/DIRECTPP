@@ -33,6 +33,10 @@ TRACERS = ("fdg", "av45")
 PILOT_DIAGNOSES = ("CN", "AD", "EMCI", "LMCI")
 PILOT_SUBJECTS_PER_FOLD = 4
 PILOT_VOLUMES_PER_RUN = 8
+FULL_SUBJECTS = {1: 457, 2: 448}
+FULL_VOLUMES = {1: 914, 2: 896}
+PILOT_OUTPUT_ROOT = Path("/mnt/datas230/users/linshuijin/DIRECTPP_stage4c2_pilot/20261028/epoch165")
+FORMAL_OUTPUT_ROOT = Path("/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165")
 
 
 class ContractError(RuntimeError):
@@ -388,6 +392,9 @@ def safety_tests(config: dict, selected: dict[int, list[dict]], output_root: Pat
     outer_test["outer_fold"] = "1"
     outer_test["outer_role"] = "outer_test"
     expect("outer_test_selected", lambda: validate_execution_selection([outer_test], 1, 1))
+    bad_cross_oof = copy.deepcopy(selected[1][0])
+    bad_cross_oof["full_fdg_existing_oof_usage"] = "ALLOWED_OUTER_TEST"
+    expect("cross_oof_allowed_on_train_row", lambda: validate_execution_selection([bad_cross_oof], 1, 1))
     with tempfile.TemporaryDirectory(prefix="directpp_4c1_") as tmp:
         root = Path(tmp) / "out"
         (root / "outer_fold1" / "full").mkdir(parents=True)
@@ -411,6 +418,93 @@ def command_check(args) -> None:
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
+def command_dry_run(args) -> None:
+    """Enumerate the complete formal plan without loading a generator or writing PET."""
+    from monai.data.utils import pickle_hashing
+
+    output_root = args.output_root.resolve()
+    if output_root == PILOT_OUTPUT_ROOT.resolve() or overlaps(output_root, PILOT_OUTPUT_ROOT):
+        raise ContractError("formal output root overlaps pilot output")
+    result, config, selected = preflight(
+        args.config.resolve(), args.receipt.resolve(), [p.resolve() for p in args.manifests], output_root,
+        models=("Full", "OT"), folds=(1, 2),
+    )
+    for fold in (1, 2):
+        validate_execution_selection(selected[fold], fold, FULL_SUBJECTS[fold])
+        if len(selected[fold]) * len(TRACERS) != FULL_VOLUMES[fold]:
+            raise ContractError(f"full dry-run count mismatch for fold {fold}")
+    union = {r["ptid"] for rows in selected.values() for r in rows}
+    if len(union) != 905 or set(r["ptid"] for r in selected[1]) & set(r["ptid"] for r in selected[2]):
+        raise ContractError("full dry-run unique subject union is not the frozen 905")
+
+    _, cohort, cache_info = verify_full_runtime(selected)
+    by_ptid = {r["name"]: r for r in cohort}
+    cache_dir = Path(cache_info["cache_dir"])
+    plans, missing_cache = [], []
+    for model in ("Full", "OT"):
+        condition = config["conditions_identity"][model]
+        for fold in (1, 2):
+            checkpoint = config["generator_checkpoints"][f"{model}_fold{fold}"]
+            for row in selected[fold]:
+                source = by_ptid[row["ptid"]]
+                cache_key = pickle_hashing(source).decode() + ".pt"
+                cache_path = cache_dir / cache_key
+                if not cache_path.is_file():
+                    missing_cache.append(str(cache_path))
+                for tracer in TRACERS:
+                    prediction = output_root / f"outer_fold{fold}" / model.lower() / tracer / f"generated_{tracer}_{row['ptid']}.nii.gz"
+                    plans.append({
+                        "model": model, "outer_fold": fold, "generator_fold": int(row["generator_fold"]),
+                        "ptid": row["ptid"], "diagnosis": row["diagnosis"], "tracer": tracer,
+                        "checkpoint_sha256": checkpoint["sha256"], "condition_sha256": condition["sha256"],
+                        "cache_key": cache_key, "cache_path": str(cache_path),
+                        "e1_cache_path": row["e1_cache_path"], "e1_cache_sha256": row["e1_cache_sha256"],
+                        "prediction": str(prediction),
+                    })
+    if missing_cache:
+        raise ContractError(f"full dry-run missing cache entry: {missing_cache[0]}")
+    paths = [p["prediction"] for p in plans]
+    if len(plans) != 3620 or len(set(paths)) != 3620:
+        raise ContractError("full dry-run does not contain 3,620 unique prediction paths")
+    if any(Path(p).exists() for p in paths):
+        raise ContractError("formal prediction path is already occupied")
+    safety = safety_tests(config, selected, output_root)
+    if not all(x["status"] == "PASS_REJECTED" for x in safety):
+        raise ContractError("dry-run safety rejection test failed")
+    canonical_plan = json.dumps(plans, sort_keys=True, separators=(",", ":")).encode()
+    receipt = {
+        "stage": "4C-3_readiness", "status": "PASS_DRY_RUN",
+        "runner": str(Path(__file__).resolve()), "runner_sha256": sha256(Path(__file__).resolve()),
+        "formal_output_protocol": {
+            "root": str(output_root),
+            "layout": "outer_fold{f}/{model}/{tracer}/generated_{tracer}_{PTID}.nii.gz",
+            "source_of_truth_after_execution": "per-run prediction_manifest.json and complete.json; downstream classification must parse receipts and must not synthesize paths",
+            "pilot_root": str(PILOT_OUTPUT_ROOT), "pilot_isolated": True,
+            "frozen_4b_manifests_modified": False,
+        },
+        "counts": {
+            "Full_G1": {"subjects": 457, "volumes": 914},
+            "OT_G1": {"subjects": 457, "volumes": 914},
+            "Full_G2": {"subjects": 448, "volumes": 896},
+            "OT_G2": {"subjects": 448, "volumes": 896},
+            "unique_subjects": 905, "prediction_paths": 3620,
+        },
+        "plan_sha256": hashlib.sha256(canonical_plan).hexdigest(),
+        "all_prediction_paths_unique": True,
+        "formal_run_directories_unoccupied": True,
+        "checkpoint_identity": result["checkpoints"], "condition_identity": result["conditions"],
+        "cache": {**cache_info, "selected_cache_keys": 905, "all_selected_cache_keys_exist": True},
+        "selection_rule": "frozen outer_train only; generator_fold != outer_fold; use G_f",
+        "group_dry_run": {key: {**value, "status": "PASS"} for key, value in result["output_plan"]["counts"].items()},
+        "rejection_tests": safety,
+        "rejection_tests_status": "PASS",
+        "models_loaded": False, "generator_forward_run": False, "pet_written": False,
+        "pilot_outputs_modified": False, "full_inference_run": False, "classification_training_run": False,
+    }
+    atomic_json(args.results.resolve(), receipt)
+    print(json.dumps(receipt, ensure_ascii=False, indent=2))
+
+
 def cache_tree_identity(cache_dir: Path) -> list[tuple[str, int, int]]:
     return sorted((p.name, p.stat().st_size, p.stat().st_mtime_ns) for p in cache_dir.glob("*.pt"))
 
@@ -419,26 +513,32 @@ def tensor_sha(tensor) -> str:
     return hashlib.sha256(tensor.detach().cpu().contiguous().numpy().tobytes()).hexdigest()
 
 
-def command_pilot(args) -> None:
-    """Run exactly four frozen-diagnosis subjects (eight volumes) for one model/fold."""
-    if args.acknowledge != "RUN_STAGE_4C2_PILOT_8_VOLUMES":
-        raise ContractError("pilot requires the exact Stage 4C-2 pilot acknowledgement")
+def command_controlled_inference(args, mode: str) -> None:
+    """Single protected implementation shared by pilot and formal inference."""
+    if mode not in ("pilot", "formal"):
+        raise ContractError("unknown controlled inference mode")
+    expected_ack = "RUN_STAGE_4C2_PILOT_8_VOLUMES" if mode == "pilot" else "RUN_STAGE_4C4_FULL_TRAIN_SIDE_PET"
+    if args.acknowledge != expected_ack:
+        raise ContractError(f"{mode} inference authorization missing or incorrect")
+    required_root = PILOT_OUTPUT_ROOT if mode == "pilot" else FORMAL_OUTPUT_ROOT
+    if args.output_root.resolve() != required_root.resolve():
+        raise ContractError(f"{mode} output root differs from frozen derived-output contract")
     result, config, selected = preflight(
         args.config.resolve(), args.receipt.resolve(), [p.resolve() for p in args.manifests], args.output_root,
         models=(args.model,), folds=(args.outer_fold,),
     )
-    pilot = select_pilot(selected)
-    rows = pilot[args.outer_fold]
-    validate_execution_selection(rows, args.outer_fold, PILOT_SUBJECTS_PER_FOLD)
-    if len(rows) * len(TRACERS) != PILOT_VOLUMES_PER_RUN:
-        raise ContractError("pilot volume cap invariant failed")
-    # Recheck output against the derived pilot rows, not the frozen 4B planned paths.
-    pilot_selected = {1: pilot[1], 2: pilot[2]}
-    output_check = verify_output(args.output_root, config, pilot_selected, models=(args.model,), folds=(args.outer_fold,))
-    if output_check["planned_volumes"] != PILOT_VOLUMES_PER_RUN:
-        raise ContractError("pilot output plan exceeds strict eight-volume run cap")
+    execution_selected = select_pilot(selected) if mode == "pilot" else selected
+    rows = execution_selected[args.outer_fold]
+    expected_subjects = PILOT_SUBJECTS_PER_FOLD if mode == "pilot" else FULL_SUBJECTS[args.outer_fold]
+    expected_volumes = PILOT_VOLUMES_PER_RUN if mode == "pilot" else FULL_VOLUMES[args.outer_fold]
+    validate_execution_selection(rows, args.outer_fold, expected_subjects)
+    if len(rows) * len(TRACERS) != expected_volumes:
+        raise ContractError(f"{mode} volume count invariant failed")
+    output_check = verify_output(args.output_root, config, execution_selected, models=(args.model,), folds=(args.outer_fold,))
+    if output_check["planned_volumes"] != expected_volumes:
+        raise ContractError(f"{mode} output plan count mismatch")
     if not result["dependencies"]["cuda_available"]:
-        raise ContractError("CUDA is required for pilot inference")
+        raise ContractError(f"CUDA is required for {mode} inference")
 
     import nibabel as nib
     import numpy as np
@@ -457,7 +557,8 @@ def command_pilot(args) -> None:
     cache_keys = {r["name"]: pickle_hashing(r).decode() + ".pt" for r in data}
     missing = [key for key in cache_keys.values() if not (cache_dir / key).is_file()]
     if missing:
-        raise ContractError(f"pilot persistent-cache key missing: {missing[0]}")
+        raise ContractError(f"{mode} persistent-cache key missing: {missing[0]}")
+    cache_sha_before = {ptid: sha256(cache_dir / key) for ptid, key in cache_keys.items()}
     full_conditions = torch.load(config["conditions_identity"]["Full"]["path"], map_location="cpu", weights_only=False)
     ot_asset = torch.load(config["conditions_identity"]["OT"]["path"], map_location="cpu", weights_only=False)
     transform = full.build_transform(full_conditions)
@@ -521,12 +622,13 @@ def command_pilot(args) -> None:
                     nib.save(nib.Nifti1Image(array, np.eye(4)), tmp)
                     os.replace(tmp, path)
                     records.append({
-                        "ptid": ptid, "diagnosis": row["diagnosis"], "outer_fold": fold,
+                        "ptid": ptid, "diagnosis": row["diagnosis"], "execution_mode": mode, "outer_fold": fold,
                         "generator_fold": int(row["generator_fold"]), "model": model_name, "tracer": tracer,
                         "checkpoint_sha256": item["sha256"], "condition_sha256": condition_sha,
                         "context_sha256": tensor_sha(expected), "runtime_config_sha256": result["config"]["sha256"],
                         "cache_namespace": cache_info["cache_namespace"], "cache_key": cache_keys[ptid],
                         "cache_path": str(cache_dir / cache_keys[ptid]), "cache_hit_verified": True,
+                        "cache_sha256_before": cache_sha_before[ptid],
                         "source_mri_sha256": row["source_mri_sha256"],
                         "e1_cache_sha256": row["e1_cache_sha256"], "mri_array_sha256": hashlib.sha256(mri_array.tobytes()).hexdigest(),
                         "mri_e1_max_abs_error": mri_max_abs, "formula": "clamp(MRI + model_velocity(t=0, context), 0, 1)",
@@ -534,19 +636,25 @@ def command_pilot(args) -> None:
                         "min": float(array.min()), "max": float(array.max()), "std": float(array.std()),
                         "prediction": str(path), "prediction_sha256": sha256(path), "bytes": path.stat().st_size,
                     })
-        if len(records) != PILOT_VOLUMES_PER_RUN:
-            raise ContractError(f"pilot generated {len(records)} records, expected exactly 8")
+        if len(records) != expected_volumes:
+            raise ContractError(f"{mode} generated {len(records)} records, expected exactly {expected_volumes}")
         cache_after = cache_tree_identity(cache_dir)
         if cache_after != cache_before:
-            raise ContractError("PersistentDataset cache changed during pilot")
+            raise ContractError(f"PersistentDataset cache tree changed during {mode} inference")
+        cache_sha_after = {ptid: sha256(cache_dir / key) for ptid, key in cache_keys.items()}
+        if cache_sha_after != cache_sha_before:
+            raise ContractError("PersistentDataset cache content SHA changed during inference")
+        for record in records:
+            record["cache_sha256_after"] = cache_sha_after[record["ptid"]]
         elapsed = time.monotonic() - started
         group = {
-            "status": "COMPLETE", "model": model_name, "outer_fold": fold, "epoch": 165,
+            "status": "COMPLETE", "mode": mode, "model": model_name, "outer_fold": fold, "epoch": 165,
             "subjects": [r["ptid"] for r in rows], "diagnoses": [r["diagnosis"] for r in rows],
             "records": len(records), "runtime_seconds": elapsed,
             "peak_gpu_memory_bytes": int(torch.cuda.max_memory_allocated()),
             "cache_files_before": len(cache_before), "cache_files_after": len(cache_after),
-            "cache_tree_unchanged": True, "checkpoint_sha256": item["sha256"],
+            "cache_tree_unchanged": True, "selected_cache_sha_unchanged": True,
+            "checkpoint_sha256": item["sha256"],
             "condition_sha256": config["conditions_identity"][model_name]["sha256"],
         }
         atomic_json(run_dir / "prediction_manifest.json", {"records": records})
@@ -564,66 +672,12 @@ def command_pilot(args) -> None:
         raise
 
 
-def command_infer(args) -> None:
-    """Authorized-stage executor; intentionally unreachable without explicit acknowledgement."""
-    if args.acknowledge != "RUN_STAGE_4C3_FULL_TRAIN_SIDE_PET":
-        raise ContractError("full inference is disabled in Stage 4C-2 and requires later-stage authorization")
-    result, config, selected = preflight(
-        args.config.resolve(), args.receipt.resolve(), [p.resolve() for p in args.manifests], args.output_root,
-        models=(args.model,), folds=(args.outer_fold,),
-    )
-    if not result["dependencies"]["cuda_available"]:
-        raise ContractError("CUDA is required for inference")
-    # Imports and model loading occur only after every identity/output check.
-    import nibabel as nib
-    import numpy as np
-    import torch
-    from monai.data import DataLoader, PersistentDataset
-    from experiments.original_author_reproduction import run as full
+def command_pilot(args) -> None:
+    command_controlled_inference(args, "pilot")
 
-    fold, model_name = args.outer_fold, args.model
-    item = config["generator_checkpoints"][f"{model_name}_fold{fold}"]
-    cohort = load_json(Path(load_json(FULL_CONFIG)["report"]) / "cohort.json")
-    by_ptid = {r["name"]: r for r in cohort}
-    data = [by_ptid[r["ptid"]] for r in selected[fold]]
-    full_conditions = torch.load(config["conditions_identity"]["Full"]["path"], map_location="cpu", weights_only=False)
-    transform = full.build_transform(full_conditions)
-    _, _, cache_info = verify_full_runtime(selected)
-    cache_dir = Path(cache_info["cache_dir"])
-    loader = DataLoader(PersistentDataset(data, transform, cache_dir=cache_dir), batch_size=1, shuffle=False, num_workers=0)
-    state = torch.load(item["path"], map_location="cpu", weights_only=False)
-    generator = full.new_model().cuda().eval()
-    generator.load_state_dict(state["model"])
-    ot_asset = torch.load(config["conditions_identity"]["OT"]["path"], map_location="cpu", weights_only=False)
-    run_dir = args.output_root.resolve() / f"outer_fold{fold}" / model_name.lower()
-    run_dir.mkdir(parents=True, exist_ok=False)
-    records = []
-    with torch.no_grad():
-        for batch in loader:
-            ptid, image = batch["name"][0], batch["mri"].cuda()
-            timestep = torch.tensor([0], device="cuda", dtype=torch.long)
-            for ti, tracer in enumerate(TRACERS):
-                if model_name == "Full":
-                    context = batch[f"{tracer}_index"].cuda()
-                    condition_sha = config["conditions_identity"]["Full"]["sha256"]
-                else:
-                    cached = batch[f"{tracer}_index"]
-                    if tuple(cached.shape[-2:]) != (2, 512):
-                        raise ContractError("cached Full context shape mismatch")
-                    context = torch.stack((ot_asset["empty_patient"][0], ot_asset["tracer"][ti])).unsqueeze(0).cuda()
-                    condition_sha = config["conditions_identity"]["OT"]["sha256"]
-                pred = torch.clamp(image + generator(x=image, timesteps=timestep, context=context), 0, 1).float()
-                array = pred.squeeze().cpu().numpy()
-                target_dir = run_dir / tracer
-                target_dir.mkdir(exist_ok=True)
-                path = target_dir / f"generated_{tracer}_{ptid}.nii.gz"
-                if path.exists():
-                    raise ContractError(f"refusing overwrite: {path}")
-                nib.save(nib.Nifti1Image(array, np.eye(4)), path)
-                records.append({"ptid": ptid, "outer_fold": fold, "generator_fold": 3-fold, "model": model_name, "tracer": tracer, "checkpoint_sha256": item["sha256"], "condition_sha256": condition_sha, "runtime_config_sha256": result["config"]["sha256"], "cache_namespace": cache_info["cache_namespace"], "source_mri_sha256": next(r["source_mri_sha256"] for r in selected[fold] if r["ptid"] == ptid), "shape": list(array.shape), "dtype": str(array.dtype), "finite": bool(np.isfinite(array).all()), "min": float(array.min()), "max": float(array.max()), "prediction": str(path), "prediction_sha256": sha256(path)})
-    manifest = run_dir / "prediction_manifest.json"
-    manifest.write_text(json.dumps(records, indent=2) + "\n")
-    (run_dir / "complete.json").write_text(json.dumps({"status": "COMPLETE", "records": len(records), "subjects": len(data), "manifest_sha256": sha256(manifest)}, indent=2) + "\n")
+
+def command_infer(args) -> None:
+    command_controlled_inference(args, "formal")
 
 
 def command_finalize_pilot(args) -> None:
@@ -744,22 +798,21 @@ def parser() -> argparse.ArgumentParser:
     common.add_argument("--config", type=Path, default=DEFAULT_DIR / "04b_execution_config_draft.json")
     common.add_argument("--receipt", type=Path, default=DEFAULT_DIR / "04b_manifest_receipt.json")
     common.add_argument("--manifests", type=Path, nargs=3, default=[DEFAULT_DIR / "04b_manifest_ad_cn.csv", DEFAULT_DIR / "04b_manifest_mci_cn.csv", DEFAULT_DIR / "04b_manifest_lmci_emci.csv"])
-    common.add_argument("--output-root", type=Path, default=Path("/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165"))
     sub = p.add_subparsers(dest="command", required=True)
     c = sub.add_parser("check-only", parents=[common])
+    c.add_argument("--output-root", type=Path, default=FORMAL_OUTPUT_ROOT)
     c.add_argument("--results", type=Path, default=DEFAULT_DIR / "04c1_check_only_results.json")
     c.set_defaults(func=command_check)
     pilot = sub.add_parser("pilot", parents=[common])
-    pilot.set_defaults(output_root=Path("/mnt/datas230/users/linshuijin/DIRECTPP_stage4c2_pilot/20261028/epoch165"))
+    pilot.add_argument("--output-root", type=Path, default=PILOT_OUTPUT_ROOT)
     pilot.add_argument("--model", choices=("Full", "OT"), required=True)
     pilot.add_argument("--outer-fold", type=int, choices=(1, 2), required=True)
     pilot.add_argument("--acknowledge", required=True)
     pilot.set_defaults(func=command_pilot)
-    pilot = sub.add_parser("pilot", parents=[common])
-    pilot.add_argument("--model", choices=("Full", "OT"), required=True)
-    pilot.add_argument("--outer-fold", type=int, choices=(1, 2), required=True)
-    pilot.add_argument("--acknowledge", required=True)
-    pilot.set_defaults(func=command_pilot, output_root=Path("/mnt/datas230/users/linshuijin/DIRECTPP_stage4c2_pilot/20261028/epoch165"))
+    dry = sub.add_parser("dry-run", parents=[common])
+    dry.add_argument("--output-root", type=Path, default=FORMAL_OUTPUT_ROOT)
+    dry.add_argument("--results", type=Path, default=DEFAULT_DIR / "04c3_dry_run_receipt.json")
+    dry.set_defaults(func=command_dry_run)
     finalize = sub.add_parser("finalize-pilot")
     finalize.add_argument("--config", type=Path, default=DEFAULT_DIR / "04b_execution_config_draft.json")
     finalize.add_argument("--pilot-config", type=Path, default=DEFAULT_DIR / "04c2_pilot_config.json")
@@ -768,6 +821,7 @@ def parser() -> argparse.ArgumentParser:
     finalize.add_argument("--output-receipt", type=Path, default=DEFAULT_DIR / "04c2_pilot_receipt.json")
     finalize.set_defaults(func=command_finalize_pilot)
     i = sub.add_parser("infer", parents=[common])
+    i.add_argument("--output-root", type=Path, default=FORMAL_OUTPUT_ROOT)
     i.add_argument("--model", choices=("Full", "OT"), required=True)
     i.add_argument("--outer-fold", type=int, choices=(1, 2), required=True)
     i.add_argument("--acknowledge", required=True)
