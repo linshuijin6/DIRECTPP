@@ -1,0 +1,190 @@
+{
+  "status": "PASS_CHECK_ONLY",
+  "stage": "4C-1",
+  "mode": "check-only",
+  "epoch": 165,
+  "config": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04b_execution_config_draft.json",
+    "bytes": 4864,
+    "sha256": "239f95c4b2fefc054e6320dac5b15a6f38509c7e964911fa5a4f325f6ac536e8"
+  },
+  "manifests": [
+    {
+      "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04b_manifest_ad_cn.csv",
+      "bytes": 3030428,
+      "sha256": "cccc213b5d62375f6b66a6d4b639e58b381ffcb40d7607e9a6b6df633160356b"
+    },
+    {
+      "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04b_manifest_mci_cn.csv",
+      "bytes": 4784040,
+      "sha256": "c63e22b8a0debd7f6f39464522deb997c84f1a63dffc7fb2d30b7554c6b5d475"
+    },
+    {
+      "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04b_manifest_lmci_emci.csv",
+      "bytes": 2822511,
+      "sha256": "35dd4078cdde7d9a4e7c55810f5e27ee2490aea47f20ea12d629159a766c0aae"
+    }
+  ],
+  "subject_union": 905,
+  "selected_by_outer_fold": {
+    "1": {
+      "generator_fold": 2,
+      "subjects": 457,
+      "volumes_per_model": 914
+    },
+    "2": {
+      "generator_fold": 1,
+      "subjects": 448,
+      "volumes_per_model": 896
+    }
+  },
+  "checkpoints": {
+    "Full_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.pth",
+      "sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.json",
+      "epoch": 165,
+      "fold": 1
+    },
+    "Full_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.pth",
+      "sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold2/first_part_165.json",
+      "epoch": 165,
+      "fold": 2
+    },
+    "OT_fold1": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.pth",
+      "sha256": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold1/first_part_165.json",
+      "epoch": 165,
+      "fold": 1
+    },
+    "OT_fold2": {
+      "path": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.pth",
+      "sha256": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+      "receipt": "/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold2/first_part_165.json",
+      "epoch": 165,
+      "fold": 2
+    }
+  },
+  "conditions": {
+    "Full": {
+      "sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "patient_shape": [
+        1857,
+        512
+      ],
+      "tracer_shape": [
+        2,
+        512
+      ]
+    },
+    "OT": {
+      "sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "mode": "tracer_only_fixed_empty_patient",
+      "empty_patient_shape": [
+        1,
+        512
+      ],
+      "tracer_shape": [
+        2,
+        512
+      ],
+      "empty_patient_sha256": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d"
+    }
+  },
+  "persistent_cache": {
+    "receipt": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/persistent_cache_receipt.json",
+    "recorded_cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+    "relocated_exact_namespace_backup": true,
+    "files": 1857,
+    "subjects": 1857,
+    "input_manifest_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+    "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "per_cache_file_sha256": "UNAVAILABLE; namespace/input/condition binding and complete expected file set are checked"
+  },
+  "output_plan": {
+    "root": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165",
+    "root_created": false,
+    "counts": {
+      "Full_fold1": {
+        "subjects": 457,
+        "volumes": 914,
+        "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165/outer_fold1/full"
+      },
+      "Full_fold2": {
+        "subjects": 448,
+        "volumes": 896,
+        "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165/outer_fold2/full"
+      },
+      "OT_fold1": {
+        "subjects": 457,
+        "volumes": 914,
+        "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165/outer_fold1/ot"
+      },
+      "OT_fold2": {
+        "subjects": 448,
+        "volumes": 896,
+        "run_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c_train_side/20261028/epoch165/outer_fold2/ot"
+      }
+    },
+    "planned_volumes": 3620,
+    "layout": "outer_fold{f}/{model}/{tracer}/generated_{tracer}_{PTID}.nii.gz"
+  },
+  "dependencies": {
+    "python": "3.10.14",
+    "torch": "2.5.1",
+    "monai": "1.5.1",
+    "nibabel": "5.3.2",
+    "numpy": "1.26.4",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "entrypoints_importable": true,
+    "model_instantiated": false
+  },
+  "real_inference_run": false,
+  "model_loaded": false,
+  "forward_run": false,
+  "pet_written": false,
+  "ready_for_gpu_inference_on_this_host": true,
+  "safety_tests": [
+    {
+      "name": "wrong_generator_fold",
+      "status": "PASS_REJECTED",
+      "reason": "outer-test subject selected into train-side set"
+    },
+    {
+      "name": "wrong_checkpoint_sha",
+      "status": "PASS_REJECTED",
+      "reason": "SHA-256 mismatch: /mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/formal/fold1/first_part_165.pth"
+    },
+    {
+      "name": "full_ot_condition_mismatch",
+      "status": "PASS_REJECTED",
+      "reason": "OT is not frozen empty-patient+tracer conditioning"
+    },
+    {
+      "name": "output_points_to_oof",
+      "status": "PASS_REJECTED",
+      "reason": "output overlaps protected asset: /mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof"
+    },
+    {
+      "name": "outer_test_selected",
+      "status": "PASS_REJECTED",
+      "reason": "outer-test subject selected into train-side set"
+    },
+    {
+      "name": "existing_output_refuses_overwrite",
+      "status": "PASS_REJECTED",
+      "reason": "run output already exists; refusing overwrite: /tmp/directpp_4c1_tllnr9ph/out/outer_fold1/full"
+    },
+    {
+      "name": "missing_ot_runtime",
+      "status": "PASS_REJECTED",
+      "reason": "missing file: /mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/tracer_only_conditions.pt.missing"
+    }
+  ],
+  "safety_tests_status": "PASS"
+}
