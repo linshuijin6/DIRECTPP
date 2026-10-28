@@ -1,0 +1,311 @@
+{
+  "analysis": "DIReCT++ Full vs Clinical Regression 3D U-Net paired OOF analysis",
+  "generated_at": "2026-10-28T19:23:04+08:00",
+  "epoch_analyzed": 165,
+  "bootstrap": {
+    "seed": 42,
+    "iterations": 10000,
+    "unit": "paired subject-tracer observation",
+    "stratification": "held-out fold with original fold sizes preserved",
+    "ci": "two-sided 95% percentile interval for mean paired delta"
+  },
+  "multiple_testing": {
+    "method": "Holm",
+    "family": "all eight prespecified primary comparisons: 2 tracers × 4 metrics"
+  },
+  "repository": {
+    "root": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+    "git_commit": "b56766c4a7728d1904affc656783dc034b4ebc3e",
+    "git_status_short_at_generation": "?? reports/clinical_regression_unet_e165_paired_analysis_20261028/"
+  },
+  "runtime": {
+    "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+    "executable": "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2"
+  },
+  "input_files": {
+    "full_metrics": {
+      "path": "reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv",
+      "sha256": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+      "bytes": 2068072
+    },
+    "full_config": {
+      "path": "reports/original_author_reproduction_20261020/config.json",
+      "sha256": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+      "bytes": 2057
+    },
+    "full_completion": {
+      "path": "reports/original_author_reproduction_20261020/oof_summary/completion.json",
+      "sha256": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+      "bytes": 451
+    },
+    "full_analysis_manifest": {
+      "path": "reports/original_author_reproduction_20261020/oof_summary/analysis_manifest.json",
+      "sha256": "f33c1884c890f4f66fe349b901a6b7dda00a1bba6af7e0541708706d1762c394",
+      "bytes": 3948
+    },
+    "full_cohort": {
+      "path": "reports/original_author_reproduction_20261020/cohort.json",
+      "sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+      "bytes": 2313541
+    },
+    "full_split_manifest": {
+      "path": "reports/original_author_reproduction_20261020/split_manifest.csv",
+      "sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+      "bytes": 667214
+    },
+    "full_input_hashes": {
+      "path": "reports/original_author_reproduction_20261020/input_hashes.csv",
+      "sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+      "bytes": 1241030
+    },
+    "full_input_hashes_receipt": {
+      "path": "reports/original_author_reproduction_20261020/input_hashes_receipt.json",
+      "sha256": "d38ff430fc8b6ae082ae3b99521e4f513bd5fe5b59c4dbfd9f4fdf28e1337b0b",
+      "bytes": 204
+    },
+    "full_conditioning_receipt": {
+      "path": "reports/original_author_reproduction_20261020/conditioning_receipt.json",
+      "sha256": "c4ca0de3ecafcc321ad15430bf5c2694948c898b407b92966ef84533310af186",
+      "bytes": 376
+    },
+    "full_persistent_cache_receipt": {
+      "path": "reports/original_author_reproduction_20261020/persistent_cache_receipt.json",
+      "sha256": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+      "bytes": 453
+    },
+    "full_runner": {
+      "path": "experiments/original_author_reproduction/run.py",
+      "sha256": "1811340c23d498b5aad1da4f64d68f3a8dd51691f60ff71cfb011e2fa15c3eec",
+      "bytes": 50248
+    },
+    "full_model_source": {
+      "path": "source_archive/vscode-3002/home/ssddata/liutuo/generative/networks/nets/diffusion_model_unet.py",
+      "sha256": "b56b1956b787e85f52fc1a7f46884fea2cbfff81f9c31311db462dda7b378bcc",
+      "bytes": 82378
+    },
+    "unet_metrics": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/per_subject_metrics.csv",
+      "sha256": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f",
+      "bytes": 2064906
+    },
+    "unet_config": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/config.json",
+      "sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+      "bytes": 4670
+    },
+    "unet_completion": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/completion.json",
+      "sha256": "95384d94eb185d6655863d4c8a22970da4362f2b852d0545b1db66f25fc4b31a",
+      "bytes": 383
+    },
+    "unet_clinical_features": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/clinical_features.csv",
+      "sha256": "3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693",
+      "bytes": 97906
+    },
+    "unet_config_check": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/config_check.json",
+      "sha256": "37f31a2e2ba6474ddee69cc7c1250c21adb63c2dce87e698c6f31911805e4c2d",
+      "bytes": 839
+    },
+    "unet_prepare_receipt": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/prepare_receipt.json",
+      "sha256": "fecd9463d7d5a96bfe3af8b70c69e8a139dd9f9fc7bcbc914651805a54e51b8c",
+      "bytes": 375
+    },
+    "unet_runner": {
+      "path": "experiments/clinical_regression_unet/run.py",
+      "sha256": "d9f65bf2b2a202d7018db0626a8b09fad37910eddb1377f8784184e6f32808a1",
+      "bytes": 40025
+    },
+    "unet_model": {
+      "path": "experiments/clinical_regression_unet/model.py",
+      "sha256": "70541de08b5f19cbba4ea04b98002af2b82482bcb301881c0466b4451dc00094",
+      "bytes": 4863
+    },
+    "clinical_metadata": {
+      "path": "reports/e1_stage01_20261017/metadata.csv",
+      "sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+      "bytes": 1452705
+    },
+    "clinical_source_receipt": {
+      "path": "reports/e1_stage01_20261017/clinical_source_receipt.json",
+      "sha256": "4caa5dcfc7b742e0974513fa7951d078426f42da11c80bed1650d2104c1b7717",
+      "bytes": 1322
+    },
+    "unet_fold1_metrics_e165": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof/epoch165/fold1/metrics.csv",
+      "sha256": "9246b311231dffe49435a1fa2d2542462e9f8a97abc772192bdb1765cbcf6ff3",
+      "bytes": 516454
+    },
+    "unet_fold1_completion_e165": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof/epoch165/fold1/complete.json",
+      "sha256": "d4e9cb0a4bf7c5a8364aa734dc409333968bad5cc99ecaa094b3413c2c040367",
+      "bytes": 384
+    },
+    "unet_fold2_metrics_e165": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof/epoch165/fold2/metrics.csv",
+      "sha256": "3e642b563337e47f1405a2bdf8748a8fb767afdb1be6fc8d6e781c4c57947d74",
+      "bytes": 516067
+    },
+    "unet_fold2_completion_e165": {
+      "path": "reports/clinical_regression_unet_task_a_20261027_instance1/oof/epoch165/fold2/complete.json",
+      "sha256": "cadddc46914a172290b224d82c89c2075aba94141b3d918d21d161ec39bf37f9",
+      "bytes": 384
+    }
+  },
+  "analysis_code": {
+    "path": "reports/clinical_regression_unet_e165_paired_analysis_20261028/analysis.py",
+    "sha256": "85cf793708d4be96a224e535d7337461748f30acfabfbdc7f55813007df157bd"
+  },
+  "validation": {
+    "status": "PASS",
+    "joined_subject_tracer_pairs": 2963,
+    "expected_pairs": 2963,
+    "strict_audit": {
+      "status": "PASS_NO_MATERIAL_FAIRNESS_BLOCKER",
+      "epoch_analyzed": 165,
+      "joined_subject_tracer_pairs": 2963,
+      "strict_checks": {
+        "full_metrics_hash_matches_completion": true,
+        "full_metrics_hash_matches_analysis_manifest": true,
+        "unet_metrics_hash_matches_completion": true,
+        "full_completion_status_and_primary_epoch": true,
+        "unet_completion_status_and_primary_epoch": true,
+        "full_cohort_hash_matches_config": true,
+        "full_split_hash_matches_config": true,
+        "unet_reuses_full_config_hash": true,
+        "unet_reuses_full_cohort_hash": true,
+        "unet_reuses_full_split_hash": true,
+        "unet_reuses_full_input_hash_manifest": true,
+        "full_input_hash_receipt_matches_manifest": true,
+        "full_conditioning_shapes_match_contract": true,
+        "full_cache_binds_input_and_condition_hashes": true,
+        "unet_clinical_features_hash_matches_config": true,
+        "clinical_metadata_hash_matches_config": true,
+        "clinical_source_receipt_hash_matches_config": true,
+        "unet_runner_hash_matches_config": true,
+        "unet_model_hash_matches_config": true,
+        "full_model_hash_matches_config": true,
+        "config_check_pass": true,
+        "prepare_receipt_pass": true,
+        "split_manifest_reused_not_regenerated": true,
+        "diagnosis_not_used_by_unet": true,
+        "biomedclip_not_used_by_unet": true,
+        "sample_grid_is_1x160x192x160": true,
+        "clinical_fields_are_required_eight": true,
+        "unet_fold1_receipt_epoch165": true,
+        "unet_fold1_metrics_hash_matches_receipt": true,
+        "unet_fold1_expected_counts_in_receipt": true,
+        "unet_fold1_postprocessing_clamp_only": true,
+        "unet_fold2_receipt_epoch165": true,
+        "unet_fold2_metrics_hash_matches_receipt": true,
+        "unet_fold2_expected_counts_in_receipt": true,
+        "unet_fold2_postprocessing_clamp_only": true,
+        "full_no_duplicate_keys": true,
+        "full_all_metrics_finite": true,
+        "full_valid_tracers": true,
+        "full_valid_folds": true,
+        "full_nonnegative_error_metrics": true,
+        "full_one_held_out_fold_per_subject": true,
+        "full_expected_tracer_fold_counts": true,
+        "unet_no_duplicate_keys": true,
+        "unet_all_metrics_finite": true,
+        "unet_valid_tracers": true,
+        "unet_valid_folds": true,
+        "unet_nonnegative_error_metrics": true,
+        "unet_one_held_out_fold_per_subject": true,
+        "unet_expected_tracer_fold_counts": true,
+        "full_and_unet_key_sets_identical": true,
+        "metrics_equal_manifest_valid_tracer_set": true,
+        "expected_total_subject_tracer_pairs": true,
+        "clinical_features_cover_full_cohort": true,
+        "clinical_values_match_full_descriptions": true,
+        "same_metric_implementations_in_source": true,
+        "both_inference_paths_clamp_0_1": true,
+        "full_preprocessing_contract_present": true,
+        "unet_reuses_frozen_full_tensors": true
+      },
+      "clinical_mismatch_examples": [],
+      "clinical_source_limit": "Incremental contribution of historical conditioning fields; not authentic observed-score benefit or exclusion of shortcuts",
+      "upstream_clinical_filling_method": "not recovered in bounded source scope",
+      "upstream_target_pet_dependency": "not established; unknown is not proof of absence",
+      "full_training_seed_policy": "author_notebook_unseeded_user_selected",
+      "unet_training_seed": 42,
+      "same_preprocessed_grid": [
+        1,
+        160,
+        192,
+        160
+      ],
+      "metric_scope": "complete preprocessed volume; not brain-mask restricted",
+      "intensity_scope": "per-volume normalized uptake scaled to [0,1]; not clinical SUVR",
+      "full_conditioning": "Eight clinical values rendered as text plus tracer text, encoded by BiomedCLIP into 512-dimensional embeddings and supplied through cross-attention.",
+      "unet_conditioning": "The same eight clinical values (fold-training standardized; sex F=0/M=1) plus a two-element tracer one-hot, mapped by a 10→64→256 MLP to bottleneck FiLM parameters.",
+      "architectural_difference": "Full is the reconstructed conditional 3D velocity/residual framework; the baseline is a deterministic four-level direct-regression 3D U-Net. This is a matched-information whole-framework comparison, not a single-factor ablation."
+    },
+    "synthetic_self_tests": {
+      "status": "PASS",
+      "holm_known_case": [
+        0.06,
+        0.06,
+        0.03
+      ],
+      "constant_delta_bootstrap_ci": [
+        1.5,
+        1.5
+      ]
+    },
+    "independent_numeric_verification": {
+      "status": "PASS",
+      "methods": [
+        "vectorized vs loop-based stratified paired bootstrap using independent fold RNG replays",
+        "scipy one-sample t-test on deltas vs scipy paired t-test on method scores",
+        "NumPy moments vs Python statistics mean/sample SD for Cohen dz",
+        "two independent Holm step-down implementations"
+      ],
+      "max_absolute_discrepancy": 1.1102230246251565e-16
+    },
+    "images_or_figures_generated": false,
+    "source_experiments_modified": false,
+    "paper_sources_modified": false
+  },
+  "outputs": {
+    "AUDIT.md": {
+      "sha256": "92027177a9c636c1b51e9b89316f7e91e127c7b5d87d239a374b34d04e81aa9d",
+      "bytes": 10353
+    },
+    "REPORT.md": {
+      "sha256": "870351d70490e0a3401f86e8263448364fe59a59f1e9c25d81a987747eb8095f",
+      "bytes": 8501
+    },
+    "table_main_e165.csv": {
+      "sha256": "61350c8b1a9d6db8a9180662afcbdd0195866821535ffd966e59d999c40d43a4",
+      "bytes": 803
+    },
+    "table_main_e165.md": {
+      "sha256": "e0cbd12e9c89b28b88a645ab2eecfe91a08a461e4c534a67d9b66177e9c014c3",
+      "bytes": 1509
+    },
+    "table_main_e165.tex": {
+      "sha256": "e3521242b36e67a1f118341d8d4a439c4935247e32b02087db2ae6619586db1b",
+      "bytes": 1968
+    },
+    "paired_statistics_full.csv": {
+      "sha256": "64a0fcebaaae1a3dd3249ebc9c42fa64dc9d3653ee0877883f4a17d918f24165",
+      "bytes": 3619
+    },
+    "fold_statistics.csv": {
+      "sha256": "cec8d71ee3592c46a89102cfc7281b9b3cc619566b9b5bad58057d7b7512d695",
+      "bytes": 3121
+    },
+    "subject_deltas_e165.csv": {
+      "sha256": "26b3c8d3fe7e7e8b93213e763444437090a4a51e82aace388fb4047e0c5653b1",
+      "bytes": 835765
+    }
+  }
+}

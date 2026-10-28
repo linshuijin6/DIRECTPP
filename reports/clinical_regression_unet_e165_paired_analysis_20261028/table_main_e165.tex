@@ -1,0 +1,26 @@
+% Requires \usepackage{booktabs}
+\begin{table*}[t]
+\centering
+\caption{Paired comparison of DIReCT++ Full and the clinical regression 3D U-Net at epoch 165.}
+\label{tab:clinical-regression-e165}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrcccc}
+\toprule
+Tracer & Metric & $n$ & DIReCT++ Full & Regression U-Net & Paired $\Delta$ [95\% CI] & Holm-adjusted $p$ \\
+\midrule
+FDG & SSIM $\uparrow$ & 1598 & 0.9211 $\pm$ 0.0417 & 0.9003 $\pm$ 0.0356 & 0.0208 [0.0198, 0.0218] & 1.41e-238 \\
+FDG & PSNR $\uparrow$ & 1598 & 27.223 $\pm$ 2.145 & 26.612 $\pm$ 1.891 & 0.611 [0.566, 0.657] & 3.86e-123 \\
+FDG & MSE $\downarrow$ & 1598 & 0.00224 $\pm$ 0.00268 & 0.00247 $\pm$ 0.00197 & -0.00023 [-0.00028, -0.00016] & 1.32e-13 \\
+FDG & MAE $\downarrow$ & 1598 & 0.02413 $\pm$ 0.00961 & 0.02585 $\pm$ 0.00818 & -0.00172 [-0.00192, -0.00151] & 3.45e-57 \\
+AV45 & SSIM $\uparrow$ & 1365 & 0.8844 $\pm$ 0.0406 & 0.8604 $\pm$ 0.0374 & 0.0240 [0.0227, 0.0253] & 1.61e-200 \\
+AV45 & PSNR $\uparrow$ & 1365 & 24.966 $\pm$ 2.267 & 24.637 $\pm$ 2.028 & 0.329 [0.249, 0.410] & 3.88e-15 \\
+AV45 & MSE $\downarrow$ & 1365 & 0.00373 $\pm$ 0.00333 & 0.00388 $\pm$ 0.00241 & -0.00015 [-0.00026, -0.00004] & 0.006 \\
+AV45 & MAE $\downarrow$ & 1365 & 0.03096 $\pm$ 0.01103 & 0.03243 $\pm$ 0.00954 & -0.00147 [-0.00186, -0.00110] & 1.32e-13 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.99\textwidth}
+\footnotesize
+\textit{Note.} Method values are mean $\pm$ sample SD. $\Delta=$ DIReCT++ Full $-$ Regression U-Net; positive values favor Full for SSIM/PSNR and negative values favor Full for MSE/MAE. Confidence intervals are 95\% percentile intervals from 10{,}000 subject-level paired bootstrap resamples (seed 42), stratified by held-out fold. Two-sided paired $t$-test $p$ values were Holm-adjusted across all eight tracer-by-metric primary comparisons. Metrics are from frozen two-fold OOF predictions at epoch 165 over the complete preprocessed volume.
+\end{minipage}
+\end{table*}
