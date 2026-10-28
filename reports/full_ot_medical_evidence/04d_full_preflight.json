@@ -1,0 +1,322 @@
+{
+  "fits": [
+    {
+      "condition": "mri",
+      "counts": [
+        186,
+        47,
+        236
+      ],
+      "e1_sha_verified": 469,
+      "files_present": 469,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        186,
+        47,
+        236
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 469,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        186,
+        47,
+        236
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1407,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 938,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        186,
+        47,
+        236
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1407,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 938,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri",
+      "counts": [
+        188,
+        48,
+        233
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 469,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        188,
+        48,
+        233
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 469,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        188,
+        48,
+        233
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1407,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 938,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        188,
+        48,
+        233
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1407,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 938,
+      "task": "ad_cn"
+    },
+    {
+      "condition": "mri",
+      "counts": [
+        295,
+        74,
+        371
+      ],
+      "e1_sha_verified": 436,
+      "files_present": 740,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        295,
+        74,
+        371
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 740,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        295,
+        74,
+        371
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 2220,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 872,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        295,
+        74,
+        371
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 2220,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 872,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri",
+      "counts": [
+        296,
+        75,
+        369
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 740,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        296,
+        75,
+        369
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 740,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        296,
+        75,
+        369
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 2220,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 872,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        296,
+        75,
+        369
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 2220,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 872,
+      "task": "mci_cn"
+    },
+    {
+      "condition": "mri",
+      "counts": [
+        179,
+        45,
+        212
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 436,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        179,
+        45,
+        212
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 436,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        179,
+        45,
+        212
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1308,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        179,
+        45,
+        212
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1308,
+      "outer_fold": 1,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri",
+      "counts": [
+        169,
+        43,
+        224
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 436,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_real",
+      "counts": [
+        169,
+        43,
+        224
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 436,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_full",
+      "counts": [
+        169,
+        43,
+        224
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1308,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    },
+    {
+      "condition": "mri_ot",
+      "counts": [
+        169,
+        43,
+        224
+      ],
+      "e1_sha_verified": 0,
+      "files_present": 1308,
+      "outer_fold": 2,
+      "synthetic_sha_verified": 0,
+      "task": "lmci_emci"
+    }
+  ],
+  "stage4c4": {
+    "classification_asset_index": "e842dbe201c76408d3424b3cfa94a9f18195e2a33fb8ae29a81392a0dbad1013",
+    "prediction_manifest": "bf7bb61aed09b74486624dfd2e2e4c6bb3976533167fa7f474e612c1c9bc0e79",
+    "receipt": "72468964ffdf65751783bd53d28a2929de6833ae6d69714169cf39a68dcce412"
+  },
+  "status": "PASS"
+}

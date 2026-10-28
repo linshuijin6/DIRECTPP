@@ -1,0 +1,79 @@
+{
+  "status": "PRESERVATION_VERIFIED_FORWARD_TOLERANCE_EXCLUDED",
+  "generated_at": "2026-10-28T18:35:47+0800",
+  "host": "server",
+  "scope": "Task A lightweight preservation set: formal checkpoints and receipts, runtime logs, OOF metrics and receipts, OOF summary, terminal snapshot, and the fold-1 forward probe cache file",
+  "user_direction": "Ignore the cross-device forward relative-tolerance result and ensure that the planned files have been downloaded",
+  "remote_source": {
+    "instance": "remote_instance_1",
+    "ssh": "ssh -p 36733 root@connect.weste.seetacloud.com",
+    "assets": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027",
+    "report": "/root/autodl-tmp/DIRECTPP_task_a/reports/clinical_regression_unet_task_a_20261027_instance1"
+  },
+  "local_destinations": {
+    "large_assets": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027",
+    "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/clinical_regression_unet_task_a_20261027_instance1",
+    "workspace_links": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/clinical_regression_unet_task_a_20261027"
+  },
+  "checks": {
+    "formal_checksum_dry_run": {
+      "status": "PASS",
+      "method": "rsync -anic with the lightweight-transfer exclusion for *.nii.gz",
+      "differences": 0,
+      "fold1_files": 47,
+      "fold1_bytes": 700909823,
+      "fold2_files": 47,
+      "fold2_bytes": 700910030
+    },
+    "runtime_checksum_dry_run": {
+      "status": "PASS",
+      "method": "rsync -anic with the lightweight-transfer exclusion for *.nii.gz",
+      "differences": 0,
+      "files": 6,
+      "bytes": 4375747
+    },
+    "oof_summary_checksum_dry_run": {
+      "status": "PASS",
+      "method": "rsync -anic",
+      "differences": 0
+    },
+    "oof_metrics_and_receipts_checksum_dry_run": {
+      "status": "PASS",
+      "method": "rsync -anic with include rules for metrics.csv and complete.json",
+      "differences": 0
+    },
+    "receipt_bound_verification": {
+      "status": "PASS",
+      "checkpoint_snapshots_verified": 42,
+      "fixed_endpoint_checkpoints_cross_verified": 4,
+      "oof_metric_groups_verified": 4,
+      "summary_files_verified": 3,
+      "per_subject_metric_rows": 5926,
+      "config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    "remote_cache_probe": {
+      "status": "PASS",
+      "fold": 1,
+      "ptid": "002_S_0729",
+      "file": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027/remote_cache_probe/3284ec31db3d8ebf1c414bb7b78ee6d1.pt",
+      "sha256": "69974a29257de5b2c05433682b5875a8cd4b172420f1a887dda7a5164fdf90b0",
+      "matches_remote_snapshot": true
+    },
+    "terminal_snapshot": {
+      "status": "PASS",
+      "file": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027/remote_terminal_snapshot_20261028_170940.txt",
+      "sha256": "2a0ada2547eaa8cefcd908cf732c89594a308df23c626aa523b8f1f4d0661a5e"
+    },
+    "workspace_symlinks": {
+      "status": "PASS",
+      "formal_target": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027/formal",
+      "runtime_target": "/mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027/runtime"
+    }
+  },
+  "intentional_exclusions": {
+    "generated_nifti_predictions": "5926 *.nii.gz files were intentionally excluded by the approved lightweight-transfer plan; their per-subject metrics, prediction hashes, and completion receipts are preserved",
+    "cross_device_forward_tolerance": "Not used as a preservation/release gate by explicit user direction; the original download_receipt.json remains preserved with the measured deviations and VERIFICATION_FAILED status"
+  },
+  "preservation_release_gate": "PASS_FOR_DOWNLOADED_FILE_PRESERVATION",
+  "scientific_interpretation": "This receipt verifies preservation of the planned lightweight artifact set. It does not reclassify the cross-device forward reproduction result and does not claim that excluded NIfTI prediction payloads were downloaded."
+}

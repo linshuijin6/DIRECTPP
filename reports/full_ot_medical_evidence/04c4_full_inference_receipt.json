@@ -1,0 +1,89 @@
+{
+  "actual_predictions": 3620,
+  "cache_unchanged": true,
+  "classification_asset_rows": 3290,
+  "epoch": 165,
+  "expected_predictions": 3620,
+  "finalizer_sha256": "342f2d1bf14577347c61066669ede351149a4d449e4486c2c04f8afc336aa101",
+  "full_ot_paired": true,
+  "groups": [
+    {
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "complete_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/full/complete.json",
+      "complete_sha256": "3d6fbd6ad9a3e225995f463e73a11757e7f55fda7818870d4ff678e4197d32f7",
+      "condition_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "manifest_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/full/prediction_manifest.json",
+      "manifest_sha256": "51d865428a7483e32763f5073185cb82060bd3a8ad6ce5fcf66df6dd761c4239",
+      "model": "Full",
+      "outer_fold": 1,
+      "peak_gpu_memory_bytes": 8946178048,
+      "predictions": 914,
+      "runtime_seconds": 3373.577323525911,
+      "subjects": 457
+    },
+    {
+      "checkpoint_sha256": "573778adc2717ee8dcb41118da1428746bdd472ec7b7f87014407d707e0e69db",
+      "complete_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/ot/complete.json",
+      "complete_sha256": "34326e1f620743a64f9e06904f7bfc936c7f571648bece35cbeb0bdd808025e0",
+      "condition_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "manifest_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold1/ot/prediction_manifest.json",
+      "manifest_sha256": "94608f62fb695e6638dc805083ffa1f9bff2a1f9d9658c94065b6b35a894e22f",
+      "model": "OT",
+      "outer_fold": 1,
+      "peak_gpu_memory_bytes": 8946178048,
+      "predictions": 914,
+      "runtime_seconds": 3373.533018175978,
+      "subjects": 457
+    },
+    {
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "complete_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/full/complete.json",
+      "complete_sha256": "a0cc0e1bdaf948036fb01edf873c4255c359c138fb56014b4c014f09c15d9b16",
+      "condition_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+      "manifest_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/full/prediction_manifest.json",
+      "manifest_sha256": "cf823b6a105f006ea7014102b5fe0116df3e71fe167da3b35708940fcff88eb2",
+      "model": "Full",
+      "outer_fold": 2,
+      "peak_gpu_memory_bytes": 8946178048,
+      "predictions": 896,
+      "runtime_seconds": 4244.193978786003,
+      "subjects": 448
+    },
+    {
+      "checkpoint_sha256": "32b89214b55ed03e12c8124d245af203699ad4d187a3616a6938b4c89c206085",
+      "complete_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/ot/complete.json",
+      "complete_sha256": "a965fb866b854b3a0562cf9dbc524d331f27b357cc21879ebd6b5c4ac928f515",
+      "condition_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+      "manifest_path": "/mnt/datas230/users/linshuijin/DIRECTPP_stage4c3_train_side/20261028/epoch165/outer_fold2/ot/prediction_manifest.json",
+      "manifest_sha256": "f250392fb6afddeeb8aa40698aeb9fc746d99c29a19684e26670c6356afdfc2b",
+      "model": "OT",
+      "outer_fold": 2,
+      "peak_gpu_memory_bytes": 8946178048,
+      "predictions": 896,
+      "runtime_seconds": 4244.295186102972,
+      "subjects": 448
+    }
+  ],
+  "mri_e1_alignment_pass": true,
+  "outputs": {
+    "04c4_classification_asset_index.csv": {
+      "bytes": 3445212,
+      "rows": 3290,
+      "sha256": "e842dbe201c76408d3424b3cfa94a9f18195e2a33fb8ae29a81392a0dbad1013"
+    },
+    "04c4_full_inference_report.md": {
+      "bytes": 1381,
+      "sha256": "1d9efbeffbac9ba6f2c1892cff906a34cab833aea3888f9b36a9266104d5278a"
+    },
+    "04c4_full_prediction_manifest.csv": {
+      "bytes": 4338589,
+      "rows": 3620,
+      "sha256": "bf7bb61aed09b74486624dfd2e2e4c6bb3976533167fa7f474e612c1c9bc0e79"
+    }
+  },
+  "predictions_regenerated": false,
+  "source_4b_manifest_receipt_sha256": "00ec0ef3b619d03dcf5b7b83faf8c37036d2adc2140f86adeb5955f172f4248b",
+  "stage": "4C-4",
+  "status": "COMPLETE",
+  "unique_prediction_paths": 3620
+}

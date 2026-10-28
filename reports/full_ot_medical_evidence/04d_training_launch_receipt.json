@@ -1,0 +1,87 @@
+{
+  "fits": 24,
+  "gpu_checks": [
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 0
+    },
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 1
+    },
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 2
+    },
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 3
+    },
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 4
+    },
+    {
+      "compute_processes": 0,
+      "free_mb": 24110,
+      "physical_gpu": 5
+    }
+  ],
+  "host": "server",
+  "launched_epoch": 1793172506.2554305,
+  "launcher_pid": 2645631,
+  "output_root": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/20261028",
+  "preflight": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/04d_full_preflight.json",
+  "preflight_status": "PASS",
+  "stage4c4_status": "COMPLETE",
+  "status": "LAUNCHED",
+  "workers": [
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_ad_cn_fold1.log",
+      "outer_fold": 1,
+      "physical_gpu": 0,
+      "pid": 2645729,
+      "task": "ad_cn"
+    },
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_ad_cn_fold2.log",
+      "outer_fold": 2,
+      "physical_gpu": 1,
+      "pid": 2645747,
+      "task": "ad_cn"
+    },
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_mci_cn_fold1.log",
+      "outer_fold": 1,
+      "physical_gpu": 2,
+      "pid": 2645765,
+      "task": "mci_cn"
+    },
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_mci_cn_fold2.log",
+      "outer_fold": 2,
+      "physical_gpu": 3,
+      "pid": 2645775,
+      "task": "mci_cn"
+    },
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_lmci_emci_fold1.log",
+      "outer_fold": 1,
+      "physical_gpu": 4,
+      "pid": 2645868,
+      "task": "lmci_emci"
+    },
+    {
+      "log": "/mnt/datas230/users/linshuijin/DIRECTPP_classification_2fold/launch_20261028_attempt2/worker_lmci_emci_fold2.log",
+      "outer_fold": 2,
+      "physical_gpu": 5,
+      "pid": 2645884,
+      "task": "lmci_emci"
+    }
+  ]
+}

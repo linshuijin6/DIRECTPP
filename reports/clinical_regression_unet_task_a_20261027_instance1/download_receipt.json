@@ -1,0 +1,363 @@
+{
+  "status": "VERIFICATION_FAILED",
+  "generated_at": "2026-10-28T18:01:20+0800",
+  "host": "server",
+  "duration_seconds": 51.7,
+  "environment": {
+    "host": "server",
+    "python": "3.10.14",
+    "torch": "2.5.1",
+    "cuda": "12.4",
+    "cudnn": 90100,
+    "cudnn_deterministic": true,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3090",
+      "uuid": "e3cf8985-38b7-4d07-a4d4-0a22444a45ca",
+      "total_memory_bytes": 25296044032
+    },
+    "monai": "1.5.1"
+  },
+  "instance1_config_sha256": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+  "forward_tolerance_policy": "cross-device (RTX 4090/torch 2.7.0+cu128 -> local) bit-exactness not expected; MSE relative deviation <= 1e-06 required, actual recorded",
+  "forward": {
+    "fdg": {
+      "remote_cache_probe": {
+        "ptid": "002_S_0729",
+        "cache_source": "remote_cache_probe",
+        "local_mse": 0.002332483185455203,
+        "remote_mse": 0.0023323348723351955,
+        "abs_diff": 1.4831312000751495e-07,
+        "rel_diff": 6.358997662244785e-05,
+        "tolerance": 1e-06
+      },
+      "local_nfs_backup": {
+        "ptid": "002_S_0729",
+        "cache_source": "local_nfs_backup",
+        "local_mse": 0.002332483185455203,
+        "remote_mse": 0.0023323348723351955,
+        "abs_diff": 1.4831312000751495e-07,
+        "rel_diff": 6.358997662244785e-05,
+        "tolerance": 1e-06
+      }
+    },
+    "av45": {
+      "remote_cache_probe": {
+        "ptid": "002_S_0729",
+        "cache_source": "remote_cache_probe",
+        "local_mse": 0.0028648206498473883,
+        "remote_mse": 0.0028646683786064386,
+        "abs_diff": 1.5227124094963074e-07,
+        "rel_diff": 5.315492783974716e-05,
+        "tolerance": 1e-06
+      },
+      "local_nfs_backup": {
+        "ptid": "002_S_0729",
+        "cache_source": "local_nfs_backup",
+        "local_mse": 0.0028648206498473883,
+        "remote_mse": 0.0028646683786064386,
+        "abs_diff": 1.5227124094963074e-07,
+        "rel_diff": 5.315492783974716e-05,
+        "tolerance": 1e-06
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "config.scientific_fields_match_local_twin",
+      "status": "PASS",
+      "detail": "all scientific fields identical"
+    },
+    {
+      "check": "config.local_twin_loads_frozen_artifacts",
+      "status": "PASS",
+      "detail": "load_config verified all frozen hashes"
+    },
+    {
+      "check": "config.local_twin_identity[cohort_sha256]",
+      "status": "PASS",
+      "detail": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311"
+    },
+    {
+      "check": "config.local_twin_identity[split_manifest_sha256]",
+      "status": "PASS",
+      "detail": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c"
+    },
+    {
+      "check": "config.local_twin_identity[clinical_features_sha256]",
+      "status": "PASS",
+      "detail": "3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693"
+    },
+    {
+      "check": "oof_summary.status",
+      "status": "PASS",
+      "detail": "COMPLETE_TWO_FOLD_OOF_CLINICAL_REGRESSION_UNET"
+    },
+    {
+      "check": "oof_summary.receipt[per_subject_metrics.csv]",
+      "status": "PASS",
+      "detail": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f"
+    },
+    {
+      "check": "oof_summary.receipt[overall_summary.csv]",
+      "status": "PASS",
+      "detail": "2764c73bc016edc22dd1215b1aafb62aeb676a04a1a471e612a723aea711116c"
+    },
+    {
+      "check": "oof_summary.receipt[by_fold_summary.csv]",
+      "status": "PASS",
+      "detail": "4f8db44e1835f8a8dedf83f7b7fe3be313abd8e9510c74af4e400670ca21edbe"
+    },
+    {
+      "check": "oof_summary.row_counts",
+      "status": "PASS",
+      "detail": "per_subject=5926/5926 overall=4/4 by_fold=8/8"
+    },
+    {
+      "check": "formal.fold1.snapshot_count",
+      "status": "PASS",
+      "detail": "21 snapshot checkpoints"
+    },
+    {
+      "check": "formal.fold1.all_snapshot_receipts",
+      "status": "PASS",
+      "detail": "21 receipts verified; mismatches: []"
+    },
+    {
+      "check": "checkpoint.identity[fold1/e165]",
+      "status": "PASS",
+      "detail": "receipt config_sha256 9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "oof.cross_checkpoint_sha[fold1/e165]",
+      "status": "PASS",
+      "detail": "a1258990474f4292fa965a0a6148be417cd30ac16045da56ec5d027c9bfca49b"
+    },
+    {
+      "check": "checkpoint.identity[fold1/e200]",
+      "status": "PASS",
+      "detail": "receipt config_sha256 9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "oof.cross_checkpoint_sha[fold1/e200]",
+      "status": "PASS",
+      "detail": "9bf7e98f048bd9bb810e29c9a709efcb7153a3700f15ad926fdd685a50dca38c"
+    },
+    {
+      "check": "formal.fold2.snapshot_count",
+      "status": "PASS",
+      "detail": "21 snapshot checkpoints"
+    },
+    {
+      "check": "formal.fold2.all_snapshot_receipts",
+      "status": "PASS",
+      "detail": "21 receipts verified; mismatches: []"
+    },
+    {
+      "check": "checkpoint.identity[fold2/e165]",
+      "status": "PASS",
+      "detail": "receipt config_sha256 9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "oof.cross_checkpoint_sha[fold2/e165]",
+      "status": "PASS",
+      "detail": "948e7e5943f8537411e8df38128a77ea6bf5e0c799e3c2fe5561d996fa82923f"
+    },
+    {
+      "check": "checkpoint.identity[fold2/e200]",
+      "status": "PASS",
+      "detail": "receipt config_sha256 9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "oof.cross_checkpoint_sha[fold2/e200]",
+      "status": "PASS",
+      "detail": "20692af2f605737d95f8973c69adb0c58e7766068e6eb272026b52d1e2955bb7"
+    },
+    {
+      "check": "oof.metrics_receipt[fold1/e165]",
+      "status": "PASS",
+      "detail": "9246b311231dffe49435a1fa2d2542462e9f8a97abc772192bdb1765cbcf6ff3"
+    },
+    {
+      "check": "oof.metric_counts[fold1/e165]",
+      "status": "PASS",
+      "detail": "actual {'fdg': 792, 'av45': 690} vs expected {'fdg': 792, 'av45': 690}"
+    },
+    {
+      "check": "oof.metrics_receipt[fold1/e200]",
+      "status": "PASS",
+      "detail": "8a72784564adc2aa1927ec7d6c7923f243d8a1d3bdc8ca737cdccf3a57003b34"
+    },
+    {
+      "check": "oof.metric_counts[fold1/e200]",
+      "status": "PASS",
+      "detail": "actual {'fdg': 792, 'av45': 690} vs expected {'fdg': 792, 'av45': 690}"
+    },
+    {
+      "check": "oof.metrics_receipt[fold2/e165]",
+      "status": "PASS",
+      "detail": "3e642b563337e47f1405a2bdf8748a8fb767afdb1be6fc8d6e781c4c57947d74"
+    },
+    {
+      "check": "oof.metric_counts[fold2/e165]",
+      "status": "PASS",
+      "detail": "actual {'fdg': 806, 'av45': 675} vs expected {'fdg': 806, 'av45': 675}"
+    },
+    {
+      "check": "oof.metrics_receipt[fold2/e200]",
+      "status": "PASS",
+      "detail": "61aeddfee8863b68caf98037327ef569f802bf45472153156242a24a67d03f9d"
+    },
+    {
+      "check": "oof.metric_counts[fold2/e200]",
+      "status": "PASS",
+      "detail": "actual {'fdg': 806, 'av45': 675} vs expected {'fdg': 806, 'av45': 675}"
+    },
+    {
+      "check": "checkpoint.structure[fold1/e165]",
+      "status": "PASS",
+      "detail": "epoch=164 fold=1"
+    },
+    {
+      "check": "checkpoint.embedded_identity[fold1/e165]",
+      "status": "PASS",
+      "detail": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "checkpoint.finite_tensors[fold1/e165]",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "checkpoint.structure[fold1/e200]",
+      "status": "PASS",
+      "detail": "epoch=199 fold=1"
+    },
+    {
+      "check": "checkpoint.embedded_identity[fold1/e200]",
+      "status": "PASS",
+      "detail": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "checkpoint.finite_tensors[fold1/e200]",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "checkpoint.structure[fold2/e165]",
+      "status": "PASS",
+      "detail": "epoch=164 fold=2"
+    },
+    {
+      "check": "checkpoint.embedded_identity[fold2/e165]",
+      "status": "PASS",
+      "detail": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "checkpoint.finite_tensors[fold2/e165]",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "checkpoint.structure[fold2/e200]",
+      "status": "PASS",
+      "detail": "epoch=199 fold=2"
+    },
+    {
+      "check": "checkpoint.embedded_identity[fold2/e200]",
+      "status": "PASS",
+      "detail": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc"
+    },
+    {
+      "check": "checkpoint.finite_tensors[fold2/e200]",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "cache.name_set_matches_frozen_expectation",
+      "status": "PASS",
+      "detail": "files=1857 name_set_sha256=4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a"
+    },
+    {
+      "check": "forward.first_subject_matches_remote_selection",
+      "status": "PASS",
+      "detail": "local ptid=002_S_0729 cache=3284ec31db3d8ebf1c414bb7b78ee6d1.pt; remote ptid=002_S_0729 cache=3284ec31db3d8ebf1c414bb7b78ee6d1.pt"
+    },
+    {
+      "check": "forward.cache_provenance_note",
+      "status": "INFO",
+      "detail": "local nfs_backup cache differs from the instance-1 cache at the float32 last-bit level (node3014 deployment_receipt.json: mri/fdg max abs 1.79e-7, av45 0.0, voxels over 1e-6 = 0); whole-file SHA differs accordingly"
+    },
+    {
+      "check": "forward.remote_cache_probe_file_identical_to_instance1",
+      "status": "PASS",
+      "detail": "69974a29257de5b2c05433682b5875a8cd4b172420f1a887dda7a5164fdf90b0"
+    },
+    {
+      "check": "forward.cache_identity[3284ec31db3d8ebf1c414bb7b78ee6d1.pt]",
+      "status": "PASS",
+      "detail": "cached name=002_S_0729 expected=002_S_0729"
+    },
+    {
+      "check": "forward.local_cache_file_hash",
+      "status": "INFO",
+      "detail": "local 18078a2eab1785a4d56f8e98bbf0956c98c4df3afc1622d80ed982b25388e13b vs instance-1 69974a29257de5b2c05433682b5875a8cd4b172420f1a887dda7a5164fdf90b0 (expected: differs at float32 last-bit level, see provenance note)"
+    },
+    {
+      "check": "forward.deterministic[fdg]",
+      "status": "PASS",
+      "detail": "repeated eval forward must be identical"
+    },
+    {
+      "check": "forward.remote_row_present[fdg]",
+      "status": "PASS",
+      "detail": "ptid=002_S_0729 tracer=fdg"
+    },
+    {
+      "check": "forward.remote_cache.mse_within_tolerance[fdg]",
+      "status": "FAIL",
+      "detail": "local=0.0023324831854552031 remote=0.0023323348723351955 rel_diff=6.359e-05 (tolerance 1e-06)"
+    },
+    {
+      "check": "forward.deterministic[av45]",
+      "status": "PASS",
+      "detail": "repeated eval forward must be identical"
+    },
+    {
+      "check": "forward.remote_row_present[av45]",
+      "status": "PASS",
+      "detail": "ptid=002_S_0729 tracer=av45"
+    },
+    {
+      "check": "forward.remote_cache.mse_within_tolerance[av45]",
+      "status": "FAIL",
+      "detail": "local=0.0028648206498473883 remote=0.0028646683786064386 rel_diff=5.315e-05 (tolerance 1e-06)"
+    },
+    {
+      "check": "forward.cache_identity[3284ec31db3d8ebf1c414bb7b78ee6d1.pt]",
+      "status": "PASS",
+      "detail": "cached name=002_S_0729 expected=002_S_0729"
+    },
+    {
+      "check": "forward.remote_row_present[fdg]",
+      "status": "PASS",
+      "detail": "ptid=002_S_0729 tracer=fdg"
+    },
+    {
+      "check": "forward.local_cache.mse_diff[fdg]",
+      "status": "INFO",
+      "detail": "local=0.0023324831854552031 remote=0.0023323348723351955 rel_diff=6.359e-05 (tolerance 1e-06) [INFO: local cache last-bit difference documented upstream]"
+    },
+    {
+      "check": "forward.remote_row_present[av45]",
+      "status": "PASS",
+      "detail": "ptid=002_S_0729 tracer=av45"
+    },
+    {
+      "check": "forward.local_cache.mse_diff[av45]",
+      "status": "INFO",
+      "detail": "local=0.0028648206498473883 remote=0.0028646683786064386 rel_diff=5.315e-05 (tolerance 1e-06) [INFO: local cache last-bit difference documented upstream]"
+    }
+  ],
+  "symlink_note": "results/clinical_regression_unet_task_a_20261027/{formal,runtime} are symlinks to /mnt/datas230/users/linshuijin/DIRECTPP_clinical_regression_unet/task_a_20261027/ ; absolute paths are valid on this host only",
+  "release_gate": "AutoDL instance 1 (ssh -p 36733 root@connect.weste.seetacloud.com) and instance 2 (ssh -p 40818 root@connect.westb.seetacloud.com) may be shut down and released by the user only when status is ALL_VERIFICATIONS_PASSED"
+}

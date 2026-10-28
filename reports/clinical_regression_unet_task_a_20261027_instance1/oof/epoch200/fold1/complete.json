@@ -1,0 +1,13 @@
+{
+  "fold": 1,
+  "epoch": 200,
+  "held_out_subjects": 929,
+  "metric_rows": 1482,
+  "counts": {
+    "fdg": 792,
+    "av45": 690
+  },
+  "metrics_sha256": "8a72784564adc2aa1927ec7d6c7923f243d8a1d3bdc8ca737cdccf3a57003b34",
+  "checkpoint_sha256": "9bf7e98f048bd9bb810e29c9a709efcb7153a3700f15ad926fdd685a50dca38c",
+  "postprocessing": "clamp [0,1] only; no target-derived calibration"
+}

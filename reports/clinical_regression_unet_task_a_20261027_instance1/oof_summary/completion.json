@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_TWO_FOLD_OOF_CLINICAL_REGRESSION_UNET",
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "per_subject_sha256": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f",
+  "overall_sha256": "2764c73bc016edc22dd1215b1aafb62aeb676a04a1a471e612a723aea711116c",
+  "by_fold_sha256": "4f8db44e1835f8a8dedf83f7b7fe3be313abd8e9510c74af4e400670ca21edbe"
+}
