@@ -514,18 +514,29 @@ def command_preflight(args) -> None:
     }
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg["learning_rate"])
     scaler = torch.amp.GradScaler("cuda")
-    optimizer.zero_grad(set_to_none=True)
-    loss, timestep, has_fdg, has_av45 = full.author_loss(model, small, 0)
-    scaler.scale(loss).backward()
-    scaler.unscale_(optimizer)
-    gradients = [parameter.grad for parameter in model.clinical_encoder.parameters()]
-    if not gradients or any(gradient is None or not torch.isfinite(gradient).all() for gradient in gradients):
-        raise RuntimeError("Clinical MLP has missing or non-finite gradients")
-    gradient_l2 = float(torch.sqrt(sum((gradient.float() ** 2).sum() for gradient in gradients)))
-    if gradient_l2 <= 0:
-        raise RuntimeError("Clinical MLP gradient is zero")
-    scaler.step(optimizer)
-    scaler.update()
+    gradient_l2_by_step = []
+    first_nonzero_step = None
+    for smoke_step in range(1, 4):
+        optimizer.zero_grad(set_to_none=True)
+        loss, timestep, has_fdg, has_av45 = full.author_loss(model, small, 0)
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)
+        gradients = [parameter.grad for parameter in model.clinical_encoder.parameters()]
+        if not gradients or any(gradient is None or not torch.isfinite(gradient).all() for gradient in gradients):
+            raise RuntimeError("Clinical MLP has missing or non-finite gradients")
+        gradient_l2 = float(torch.sqrt(sum((gradient.float() ** 2).sum() for gradient in gradients)))
+        gradient_l2_by_step.append(gradient_l2)
+        # The Full generator has a zero-initialized output layer, so step 1 may
+        # legitimately produce zero conditioning gradients.  Apply the same
+        # optimizer update as formal training and require a later non-zero MLP
+        # gradient before allowing launch.
+        scaler.step(optimizer)
+        scaler.update()
+        if gradient_l2 > 0:
+            first_nonzero_step = smoke_step
+            break
+    if first_nonzero_step is None:
+        raise RuntimeError("Clinical MLP gradient remained zero after three optimizer steps")
     model.eval()
     with torch.no_grad():
         context_before = _tabular_context_from_batch(small, "fdg")
@@ -562,6 +573,8 @@ def command_preflight(args) -> None:
         tracer_token_shape=list(context_before[:, 1:].shape),
         cross_attention_shape=list(context_before.shape),
         mlp_gradient_l2=gradient_l2,
+        mlp_gradient_l2_by_step=gradient_l2_by_step,
+        mlp_first_nonzero_step=first_nonzero_step,
         mlp_gradient_nonzero_finite=True,
         loss=float(loss.detach()),
         timestep=timestep,
