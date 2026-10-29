@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Full OOF AV45 PSNR 诊断型可视化</title><style>
+    :root { color-scheme: light; --ink:#25364a; --muted:#66717f; --line:#d9dee5; --paper:#ffffff; --wash:#f5f7fa; --accent:#3b6fb6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:var(--wash); line-height:1.45; }
+    main { width:min(1180px, calc(100% - 32px)); margin:24px auto 56px; }
+    header, section { background:var(--paper); border:1px solid var(--line); border-radius:8px; padding:22px; margin:0 0 18px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    h2 { margin:0 0 16px; font-size:21px; }
+    h3 { margin:0 0 8px; font-size:19px; }
+    h3 span { color:var(--muted); font-size:14px; font-weight:normal; }
+    p { margin:8px 0; }
+    .notice { border-left:4px solid var(--accent); padding-left:12px; }
+    .metrics { display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:10px; margin:16px 0; }
+    .metric { background:var(--wash); border:1px solid var(--line); border-radius:6px; padding:11px 13px; }
+    .metric span { display:block; color:var(--muted); font-size:12px; }
+    .metric strong { display:block; margin-top:2px; font-size:18px; }
+    .grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:14px; }
+    .grid figure { margin:0; }
+    .grid img, .subject img { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:5px; background:white; }
+    .subject img.hist { width:min(820px, 100%); margin:14px auto 0; }
+    figcaption { color:var(--muted); font-size:13px; margin-top:5px; }
+    table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+    th, td { border-bottom:1px solid var(--line); padding:9px 8px; text-align:right; white-space:nowrap; }
+    th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align:left; }
+    th { background:var(--wash); font-size:12px; }
+    .table-wrap { overflow-x:auto; }
+    .numbers { color:#384a5d; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; overflow-wrap:anywhere; }
+    code { background:var(--wash); padding:2px 5px; border-radius:4px; overflow-wrap:anywhere; }
+    a { color:#245b9b; }
+    .back { text-align:right; font-size:13px; }
+    .checks td:first-child { text-align:left; white-space:normal; }
+    footer { color:var(--muted); font-size:12px; padding:0 4px; }
+    @media (max-width:760px) { .metrics, .grid { grid-template-columns:1fr; } main { width:min(100% - 18px, 1180px); } header, section { padding:15px; } }
+    </style></head>
+<body><main>
+<header>
+  <h1>Full OOF AV45 PSNR 诊断型可视化</h1>
+  <p class="notice">以下图像用于人工检查空间、强度和指标口径。该报告不提供最终因果结论。</p>
+  <p>数据：原作者语义重建实验，epoch 165，两折 OOF，AV45。预测在推理时截断至 [0,1]；指标基于完整预处理体积 160×192×160，PSNR 使用 data_range=1，逐受试者计算后取平均。</p>
+</header>
+
+<section id="overview"><h2>A. Overview</h2><div class="metrics"><div class="metric"><span>Subjects</span><strong>1365</strong></div><div class="metric"><span>Mean PSNR</span><strong>24.966449 dB</strong></div><div class="metric"><span>Median PSNR</span><strong>25.159788 dB</strong></div><div class="metric"><span>SD</span><strong>2.267488 dB</strong></div><div class="metric"><span>Minimum</span><strong>10.285664 dB</strong></div><div class="metric"><span>Maximum</span><strong>30.388371 dB</strong></div></div>
+  <p>逐受试者源：<code>reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv</code></p>
+  <p>计算实现：<code>experiments/original_author_reproduction/run.py</code>；MSE/MAE 为完整预处理体积逐体素均值。</p>
+</section>
+
+<section id="subject-table"><h2>B. Subject table</h2>
+  <p>固定规则：PSNR 降序、PTID 升序处理并列；取排名 1–3、682–684、1363–1365（1-based）。</p>
+  <div class="table-wrap"><table><thead><tr><th>组别</th><th>PTID</th><th>PSNR rank</th><th>fold</th><th>AV45 PSNR</th><th>AV45 MSE</th><th>AV45 MAE</th><th>FDG PSNR</th></tr></thead><tbody><tr><td>较高</td><td><a href="#subject-073_S_4216">073_S_4216</a></td><td>1</td><td>2</td><td>30.388371</td><td>0.00091446</td><td>0.01457376</td><td>29.064970</td></tr><tr><td>较高</td><td><a href="#subject-036_S_2378">036_S_2378</a></td><td>2</td><td>2</td><td>30.200729</td><td>0.00095483</td><td>0.01608483</td><td>29.859419</td></tr><tr><td>较高</td><td><a href="#subject-116_S_4043">116_S_4043</a></td><td>3</td><td>2</td><td>30.196247</td><td>0.00095582</td><td>0.01485575</td><td>27.823795</td></tr><tr><td>中位附近</td><td><a href="#subject-130_S_0886">130_S_0886</a></td><td>682</td><td>2</td><td>25.161671</td><td>0.00304672</td><td>0.02981143</td><td>25.965858</td></tr><tr><td>中位附近</td><td><a href="#subject-389_S_10251">389_S_10251</a></td><td>683</td><td>2</td><td>25.159788</td><td>0.00304804</td><td>0.03015399</td><td>—</td></tr><tr><td>中位附近</td><td><a href="#subject-016_S_2284">016_S_2284</a></td><td>684</td><td>1</td><td>25.155781</td><td>0.00305086</td><td>0.02658755</td><td>27.805700</td></tr><tr><td>较低</td><td><a href="#subject-128_S_4842">128_S_4842</a></td><td>1363</td><td>1</td><td>16.243507</td><td>0.02374922</td><td>0.09008364</td><td>16.361000</td></tr><tr><td>较低</td><td><a href="#subject-123_S_4096">123_S_4096</a></td><td>1364</td><td>1</td><td>15.765768</td><td>0.02651082</td><td>0.08666420</td><td>15.294534</td></tr><tr><td>较低</td><td><a href="#subject-016_S_4952">016_S_4952</a></td><td>1365</td><td>1</td><td>10.285664</td><td>0.09363402</td><td>0.22390945</td><td>10.918450</td></tr></tbody></table></div>
+  <p><a href="summary.csv">下载 summary.csv</a></p>
+</section>
+
+<section><h2>D. Global quick diagnostics</h2><div class="grid">
+  <figure><a href="assets/global_psnr_hist.png"><img src="assets/global_psnr_hist.png" alt="Full OOF AV45 PSNR histogram"></a><figcaption>全部 1365 人的 AV45 PSNR。</figcaption></figure>
+  <figure><a href="assets/global_mse_hist.png"><img src="assets/global_mse_hist.png" alt="Full OOF AV45 MSE histogram"></a><figcaption>全部 1365 人的 AV45 MSE。</figcaption></figure>
+  <figure><a href="assets/global_psnr_vs_mse.png"><img src="assets/global_psnr_vs_mse.png" alt="Full OOF AV45 PSNR versus MSE"></a><figcaption>全部 1365 人；虚线为 data_range=1 时的公式。</figcaption></figure>
+  <figure><a href="assets/selected_intensity_ranges.png"><img src="assets/selected_intensity_ranges.png" alt="Selected nine subjects real and synthetic AV45 intensity ranges"></a><figcaption>固定选择的 9 人；每人的统计基于完整 160×192×160 体积。该图不是全队列强度统计。</figcaption></figure>
+</div></section>
+
+<section><h2>指标口径一致性</h2><div class="table-wrap"><table class="checks"><tbody>
+  <tr><td>CSV 中 1365 人 PSNR 的均值</td><td>24.966449093 dB</td></tr>
+  <tr><td>由每人 MSE 与 data_range=1 计算 PSNR 后再平均</td><td>24.966448455 dB</td></tr>
+  <tr><td>逐行 |CSV PSNR − 公式 PSNR| 最大值</td><td>3.673e-06 dB</td></tr>
+  <tr><td>先平均 MSE 再换算得到的 PSNR（不同聚合顺序）</td><td>24.283918550 dB</td></tr>
+  <tr><td>9 人从现有预测与 GT 重算：PSNR 最大绝对差</td><td>2.364e-06 dB</td></tr>
+  <tr><td>9 人从现有预测与 GT 重算：MSE 最大绝对差</td><td>1.880e-09</td></tr>
+  <tr><td>9 人从现有预测与 GT 重算：MAE 最大绝对差</td><td>1.641e-08</td></tr>
+</tbody></table></div></section>
+
+<section><h2>C. Per-subject visual panels</h2><p>三方向均使用体积中心切片；MRI / Real / Syn / Error 使用相同数组轴和切片索引。Real 与 Syn 共用显示范围；青色线为同层 MRI &gt; 0.15 后最大二维连通区域的外轮廓。</p></section>
+<section class="subject" id="subject-073_S_4216"><h3>073_S_4216 <span>较高 · rank 1 · fold 2</span></h3><p class="numbers">PSNR 30.388371 dB · MSE 0.00091446 · MAE 0.01457376 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8483 · Syn min/max/p1/p50/p99: 0.0000 / 0.9718 / 0.0000 / 0.0017 / 0.8271</p><a href="assets/073_S_4216_slices.png"><img src="assets/073_S_4216_slices.png" alt="073_S_4216 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/073_S_4216_hist.png"><img class="hist" src="assets/073_S_4216_hist.png" alt="073_S_4216 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-036_S_2378"><h3>036_S_2378 <span>较高 · rank 2 · fold 2</span></h3><p class="numbers">PSNR 30.200729 dB · MSE 0.00095483 · MAE 0.01608483 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0110 / 0.8594 · Syn min/max/p1/p50/p99: 0.0000 / 0.9530 / 0.0000 / 0.0021 / 0.8645</p><a href="assets/036_S_2378_slices.png"><img src="assets/036_S_2378_slices.png" alt="036_S_2378 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/036_S_2378_hist.png"><img class="hist" src="assets/036_S_2378_hist.png" alt="036_S_2378 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-116_S_4043"><h3>116_S_4043 <span>较高 · rank 3 · fold 2</span></h3><p class="numbers">PSNR 30.196247 dB · MSE 0.00095582 · MAE 0.01485575 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8314 · Syn min/max/p1/p50/p99: 0.0000 / 0.9334 / 0.0000 / 0.0013 / 0.8298</p><a href="assets/116_S_4043_slices.png"><img src="assets/116_S_4043_slices.png" alt="116_S_4043 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/116_S_4043_hist.png"><img class="hist" src="assets/116_S_4043_hist.png" alt="116_S_4043 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-130_S_0886"><h3>130_S_0886 <span>中位附近 · rank 682 · fold 2</span></h3><p class="numbers">PSNR 25.161671 dB · MSE 0.00304672 · MAE 0.02981143 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8198 · Syn min/max/p1/p50/p99: 0.0000 / 0.9426 / 0.0000 / 0.0019 / 0.8164</p><a href="assets/130_S_0886_slices.png"><img src="assets/130_S_0886_slices.png" alt="130_S_0886 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/130_S_0886_hist.png"><img class="hist" src="assets/130_S_0886_hist.png" alt="130_S_0886 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-389_S_10251"><h3>389_S_10251 <span>中位附近 · rank 683 · fold 2</span></h3><p class="numbers">PSNR 25.159788 dB · MSE 0.00304804 · MAE 0.03015399 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8024 · Syn min/max/p1/p50/p99: 0.0000 / 0.9563 / 0.0000 / 0.0016 / 0.8232</p><a href="assets/389_S_10251_slices.png"><img src="assets/389_S_10251_slices.png" alt="389_S_10251 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/389_S_10251_hist.png"><img class="hist" src="assets/389_S_10251_hist.png" alt="389_S_10251 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-016_S_2284"><h3>016_S_2284 <span>中位附近 · rank 684 · fold 1</span></h3><p class="numbers">PSNR 25.155781 dB · MSE 0.00305086 · MAE 0.02658755 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8461 · Syn min/max/p1/p50/p99: 0.0000 / 0.9970 / 0.0000 / 0.0000 / 0.8283</p><a href="assets/016_S_2284_slices.png"><img src="assets/016_S_2284_slices.png" alt="016_S_2284 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/016_S_2284_hist.png"><img class="hist" src="assets/016_S_2284_hist.png" alt="016_S_2284 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-128_S_4842"><h3>128_S_4842 <span>较低 · rank 1363 · fold 1</span></h3><p class="numbers">PSNR 16.243507 dB · MSE 0.02374922 · MAE 0.09008364 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0004 / 0.8347 · Syn min/max/p1/p50/p99: 0.0000 / 0.9682 / 0.0000 / 0.0264 / 0.8146</p><a href="assets/128_S_4842_slices.png"><img src="assets/128_S_4842_slices.png" alt="128_S_4842 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/128_S_4842_hist.png"><img class="hist" src="assets/128_S_4842_hist.png" alt="128_S_4842 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-123_S_4096"><h3>123_S_4096 <span>较低 · rank 1364 · fold 1</span></h3><p class="numbers">PSNR 15.765768 dB · MSE 0.02651082 · MAE 0.08666420 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8145 · Syn min/max/p1/p50/p99: 0.0000 / 0.9149 / 0.0000 / 0.0040 / 0.7720</p><a href="assets/123_S_4096_slices.png"><img src="assets/123_S_4096_slices.png" alt="123_S_4096 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/123_S_4096_hist.png"><img class="hist" src="assets/123_S_4096_hist.png" alt="123_S_4096 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section><section class="subject" id="subject-016_S_4952"><h3>016_S_4952 <span>较低 · rank 1365 · fold 1</span></h3><p class="numbers">PSNR 10.285664 dB · MSE 0.09363402 · MAE 0.22390945 · Real min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.0000 / 0.8325 · Syn min/max/p1/p50/p99: 0.0000 / 1.0000 / 0.0000 / 0.3372 / 0.9371</p><a href="assets/016_S_4952_slices.png"><img src="assets/016_S_4952_slices.png" alt="016_S_4952 MRI, real AV45, synthetic AV45, error and outline panels" loading="lazy"></a><a href="assets/016_S_4952_hist.png"><img class="hist" src="assets/016_S_4952_hist.png" alt="016_S_4952 real and synthetic AV45 intensity histogram" loading="lazy"></a><p class="back"><a href="#subject-table">返回受试者表</a></p></section>
+
+<section><h2>来源校验</h2><div class="table-wrap"><table class="checks"><tbody>
+  <tr><td>逐受试者指标 SHA-256</td><td><code>814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b</code></td></tr>
+  <tr><td>cohort SHA-256</td><td><code>91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311</code></td></tr>
+  <tr><td>评估实现 SHA-256</td><td><code>1811340c23d498b5aad1da4f64d68f3a8dd51691f60ff71cfb011e2fa15c3eec</code></td></tr>
+</tbody></table></div></section>
+<footer>Generated from existing Full OOF outputs. No training or PET generation is performed by this report.</footer>
+</main></body></html>
