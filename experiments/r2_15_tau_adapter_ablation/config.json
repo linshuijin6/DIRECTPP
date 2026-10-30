@@ -1,0 +1,17 @@
+{
+  "source_config": "reports/e1_stage01_20261017/config.json",
+  "expected_raw_tracers_sha256": "eaa3c76e8b9169247385fc88eb9cfd4c3af77b1baff0eb7348efdc7cf0cbb28e",
+  "expected_feature_sha256": {
+    "fdg": "1206cc6a999d2b7b7487575473ba38c576711e5455af12e00dff2613b5568fa1",
+    "av45": "029c1a4f67a6e07c4dbf203073d73a0263a6f8f0d138d9185311e963f4fad33f"
+  },
+  "groups": [
+    {"id": "T070", "tau": 0.70, "cross_weight": 100.0},
+    {"id": "T082", "tau": 0.82, "cross_weight": 100.0},
+    {"id": "T090", "tau": 0.90, "cross_weight": 100.0},
+    {"id": "T098", "tau": 0.98, "cross_weight": 100.0},
+    {"id": "T000", "tau": null, "cross_weight": 0.0}
+  ],
+  "folds": [1, 2],
+  "log_interval_steps": 100
+}

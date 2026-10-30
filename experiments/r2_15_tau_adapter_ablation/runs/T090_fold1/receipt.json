@@ -1,0 +1,40 @@
+{
+  "result": {
+    "group": "T090",
+    "fold": 1,
+    "tau": 0.9,
+    "cross_weight": 100.0,
+    "seed": 43,
+    "train_n_fdg": 795,
+    "train_n_av45": 687,
+    "heldout_n_fdg": 802,
+    "heldout_n_av45": 677,
+    "fdg_alignment": 0.9839774370193481,
+    "av45_alignment": 0.980828046798706,
+    "heldout_fdg_alignment": 0.9832744002342224,
+    "heldout_av45_alignment": 0.9820600748062134,
+    "cross_tracer_similarity": 0.9018968939781189,
+    "alignment_loss": -1.9648054838180542,
+    "cross_term_loss": 0.00035982971894554794,
+    "total_loss": -1.96444571018219,
+    "actual_tau_deviation": 0.0018969178199768066,
+    "initial_parameters_sha256": "f9c429752f5c2bb399aacab7809583de3ed1ceedb0c24dfd99215ca83e2849fe",
+    "checkpoint_sha256": "5eead60908f588f59e2533497924404652eef02ef6dc18bf04011dc5d7f01de6",
+    "embedding_sha256": "47605b0d47630fc19bbab4c8fb2f3ad7b60c35a0637eceeae9257ce360e7d8f8"
+  },
+  "input_hashes": {
+    "source_config": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+    "experiment_config": "0bd49eb0fd6b042b38ce8fa0b6b1a12c5d362bf1e9103690cbeab9028ed7e88a",
+    "cohort": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "qc_exclusions": "1be70ddf6f6a58543914f40a8764c4a25f89e1fc496970081e4bbd9aac276820",
+    "raw_tracers": "eaa3c76e8b9169247385fc88eb9cfd4c3af77b1baff0eb7348efdc7cf0cbb28e",
+    "e1_adapter_source": "be176ddb938a84ab24ef06d72afa4c7be6b5b0fa833a6ca52c78da18d2195e93",
+    "ablation_source": "d46edd81b52015ce0d97bbfcebc1eaecfe7ebd980d034d72b93e180894856de7",
+    "fdg_features": "1206cc6a999d2b7b7487575473ba38c576711e5455af12e00dff2613b5568fa1",
+    "fdg_index": "6617cdc29dec20954ffbe6cbff11d64f6b1ca7e050cab192c83d2e2dd46dac32",
+    "av45_features": "029c1a4f67a6e07c4dbf203073d73a0263a6f8f0d138d9185311e963f4fad33f",
+    "av45_index": "71741e9d8a4a098d8db901543454de07a9c954d7e83d2d2077da2d316cd21325"
+  },
+  "optimization_log_sha256": "eccc6a8d35144a6ce3f0600a5b2ab8c038b96996a7d8f65c604e0ffbd3e8ef08",
+  "parameters_sha256": "358e825028e5fee6acdbf9132b713e13a7bf49779ee929df6d3439ef4c7c3109"
+}
