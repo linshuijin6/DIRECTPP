@@ -1,0 +1,13 @@
+tracer,analysis_group,correction_method,n_available_rois,n_tests,n_unavailable_p_values,n_significant_q_lt_0_05,n_nonsignificant_q_ge_0_05,alpha
+AV45,overall,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+AV45,AD,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+AV45,CN,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+AV45,EMCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+AV45,LMCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+AV45,MCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,overall,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,AD,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,CN,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,EMCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,LMCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,0,98,0.05
+FDG,MCI,"Benjamini-Hochberg (SciPy false_discovery_control, method=bh)",98,98,0,1,97,0.05
