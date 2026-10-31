@@ -385,6 +385,9 @@ def main() -> None:
                             "alpha": ALPHA})
     families = pd.DataFrame(family_rows)
     statistics.to_csv(OUTPUT / "regional_paired_statistics.csv", index=False, float_format="%.17g")
+    statistics[statistics.analysis_group == "overall"].to_csv(
+        OUTPUT / "regional_paired_statistics_overall.csv", index=False, float_format="%.17g"
+    )
     families.to_csv(OUTPUT / "statistical_families.csv", index=False)
     audit.to_csv(OUTPUT / "input_audit.csv", index=False)
     write_report(statistics, families, audit, subjects)

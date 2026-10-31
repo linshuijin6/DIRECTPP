@@ -63,9 +63,12 @@ def check_one(row: pd.Series, real: np.ndarray, syn: np.ndarray) -> None:
 
 def main() -> None:
     table = pd.read_csv(HERE / "regional_paired_statistics.csv", dtype={"roi_id": str})
+    overall = pd.read_csv(HERE / "regional_paired_statistics_overall.csv", dtype={"roi_id": str})
     audit = pd.read_csv(HERE / "input_audit.csv", dtype={"roi_id": str})
     families = pd.read_csv(HERE / "statistical_families.csv")
     assert len(audit) == 196 and len(table) == 1176 and len(families) == 12
+    pd.testing.assert_frame_equal(overall.reset_index(drop=True),
+                                  table[table.analysis_group == "overall"].reset_index(drop=True))
     assert table[["tracer", "roi_id", "analysis_group"]].duplicated().sum() == 0
     checked = 0
     for a in audit.itertuples(index=False):
