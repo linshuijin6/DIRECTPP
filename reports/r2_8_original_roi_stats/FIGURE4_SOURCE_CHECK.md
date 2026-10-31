@@ -3,6 +3,8 @@
 ## 结论
 
 **数值与图示相符，但尚不能证明 Figure 4 面板使用的恰是这批 CSV 文件。**
+按用户版本决定，`shuijin/` 外的两套同名 `*_adjust` CSV 为 **abandon 版本**：
+保留作只读历史材料，不用于后续 R2-8 重算、结果选择或 FDR 族。
 原稿 Figure 4 A/B 各展示 8 个相同 ROI，全部标为 `ns`。这 16 个 ROI 在本次指定的
 `shuijin/statistics_of_regions_{av45,fdg}_adjust` CSV 中均存在；全部受试者合并后的
 Real–Syn **配对** t 检验 16/16 个原始 p > 0.05，BH 校正后 16/16 个 q ≥ 0.05。
@@ -44,8 +46,8 @@ FDG 分别为 3/98、0/98。完整 196 行见 `regional_paired_statistics_overal
    这些标签对应的 8 个 ROI ID 都能在两套指定 CSV 中找到；A/B 均为 `ns`，
    与上表 16 个整体配对 p > 0.05 一致。图示的 Real/Syn 分布位置及轮廓与
    指定 CSV 目视相符；这是形状层面的对应性推断。
-2. **用于排除明显混淆的版本比较：** 归档另有不在 `shuijin/` 下的同名
-   `statistics_of_regions_*_adjust` 目录，真实均值相同而合成均值不同。
+2. **用于排除明显混淆的历史对照：** abandon 目录中的真实均值相同，
+   合成均值不同。
    若对这些另一版本做 overall 配对 t 检验，AV45 图示 8 个 ROI 的 8/8 项、
    FDG 的 8/8 项原始 p < 0.05；FDG 其中 6/8 项即使用 Welch 独立样本检验
    也 p < 0.05。这与原稿 A/B 全部 `ns` 不合。
