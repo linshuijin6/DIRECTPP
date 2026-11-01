@@ -37,6 +37,14 @@ cell 10（MONAI 缓存和加载）与 cell 13（DenseNet121、CE、Adam 和训�
 启动前拒绝已有计算进程的 GPU。OOM 后保留失败记录；人工按 5→2→1 顺序更改
 batch size，使用新的输出目录。正式训练需另行授权后显式指定 `--epochs 200`。
 
+用户随后明确指定 3002 GPU 3 进行共享试跑：只有这种明确指定的情况才传
+`--allow-shared`；本次同时传 `--memory-limit-gib 12`，给已有任务保留显存。
+3002 的解释器为 `/home/pnxc/Anaconda3/envs/xiaochou/bin/python`。
+该节点无法访问仓库影像软链接的目标，需明确传
+`--data-root /home/ssddata/liutuo/liutuo_data`。五个模态目录的完整文件名单和
+文件大小已与原资产逐项比较一致；此参数只做运行时路径映射，不改写总表。
+共享 GPU 的计时包含资源竞争，不能当作独占 GPU 的性能测量。
+
 影像条件为 `mri`、`mri_real_fdg`、`mri_syn_fdg`、`mri_real_av45`、
 `mri_syn_av45`、`mri_real_both`、`mri_syn_both`。通道顺序固定 MRI、FDG、AV45。
 保留 LoadImaged、EnsureChannelFirstd、CacheDataset；不新增归一化、重采样或增强。
@@ -63,3 +71,22 @@ checkpoint；并列保留较早模型。最终重新加载最佳模型，test �
 其他任务按实际训练/验证/test batch 数分别缩放。1/2 通道和 MRI+Clinical
 如未计时，只能标为外推，不能假设耗时严格与输入通道数成比例。Clinical-only
 需自己的短计时。无 GPU 实测时，不输出虚构的 GPU-hours。
+
+`timing_probe.py` 仅对当前固定训练集的少量真实 batch 进行计时，不保存模型或
+测试预测。每种输入两次预热、四次计时，用于区分通道数和临床基线的成本；
+不构成额外完整 fit，不用其预测或损失作科学结果。
+
+## 本轮获授权的云端接续
+
+用户新增授权实例 3/4/5/6 在原 direct_single PID 结束后自动接续 **63 项影像分类**；
+临床基线暂不启动。`watch_queue.py` 读取每实例的固定队列，按预估计时器唤醒后检查一次原 PID
+启动时间、GPU 释放、四轮试跑放行和数据就绪。每实例仅顺序执行自己的队列，
+失败即停止，不自动恢复或更改参数。每次正式 fit 为 200 epochs、batch size 5。
+
+`finish_cloud_staging.py` 逐模态等待原文件上传结束、核对文件大小，再借
+四实例共同挂载的共享文件系统向其余三实例并行复制；校验成功才写 `inputs_ready.json`。程序、队列、部署状态
+及上传状态见 `reports/r2_11_classification_3fold/`。这两个脚本是本次固定任务的
+一次性接续程序，不接入外部调度器。
+
+用户随后要求不轮询：两个接续脚本使用 --first-check-utc 设置首次唤醒期限；
+未结束则按已记录进度及实际速率重新估时后睡眠。没有每分钟 PID 或 SSH 查询。

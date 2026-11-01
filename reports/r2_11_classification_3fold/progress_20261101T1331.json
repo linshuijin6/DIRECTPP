@@ -1,0 +1,68 @@
+{
+  "checked_at_utc": "2026-11-01T05:31:00+00:00",
+  "checked_at_cst": "2026-11-01 13:31",
+  "completed": 11,
+  "running": 4,
+  "queued": 48,
+  "total": 63,
+  "completed_fit_epochs": 200,
+  "test_evaluations_per_completed_fit": 1,
+  "instances": [
+    {
+      "instance": 3,
+      "completed": 3,
+      "total": 15,
+      "task": "mci_cn",
+      "condition": "mri_real_av45",
+      "fold": 3,
+      "epoch": 29,
+      "training_pid": 97548,
+      "status": "CLASSIFICATION_RUNNING",
+      "classifier_live": true,
+      "reported_OOM": false,
+      "gpu_utilization_percent": 100
+    },
+    {
+      "instance": 4,
+      "completed": 2,
+      "total": 16,
+      "task": "mci_cn",
+      "condition": "mri_real_fdg",
+      "fold": 2,
+      "epoch": 192,
+      "training_pid": 98811,
+      "status": "CLASSIFICATION_RUNNING",
+      "classifier_live": true,
+      "reported_OOM": false,
+      "gpu_utilization_percent": 100
+    },
+    {
+      "instance": 5,
+      "completed": 3,
+      "total": 16,
+      "task": "mci_cn",
+      "condition": "mri_syn_av45",
+      "fold": 2,
+      "epoch": 49,
+      "training_pid": 44465,
+      "status": "CLASSIFICATION_RUNNING",
+      "classifier_live": true,
+      "reported_OOM": false,
+      "gpu_utilization_percent": 100
+    },
+    {
+      "instance": 6,
+      "completed": 3,
+      "total": 16,
+      "task": "mci_cn",
+      "condition": "mri_syn_fdg",
+      "fold": 2,
+      "epoch": 48,
+      "training_pid": 100352,
+      "status": "CLASSIFICATION_RUNNING",
+      "classifier_live": true,
+      "reported_OOM": false,
+      "gpu_utilization_percent": 100
+    }
+  ]
+}

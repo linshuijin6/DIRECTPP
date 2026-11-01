@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-31T16:22:13.675344+00:00",
+  "phase": "shared_fs_distribution",
+  "upload_complete": true,
+  "active_modality": "data_augmentation_fdg_generated",
+  "relay_bytes": 13949194076,
+  "peer_bytes": {
+    "3": 11809422484,
+    "4": 11809422484,
+    "5": 11887256970
+  },
+  "peer_copy_elapsed_seconds": 937,
+  "estimated_remaining_minutes": [
+    80,
+    90
+  ],
+  "next_agent_check_utc": "2026-10-31T17:57:13.675344+00:00",
+  "no_periodic_polling": true
+}

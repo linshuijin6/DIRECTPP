@@ -1,0 +1,28 @@
+{
+  "63_image_DenseNet": {
+    "fits": 63,
+    "center_GPU_hours": 237.54883152859182,
+    "low_GPU_hours": 170.89938341142164,
+    "high_GPU_hours": 298.84509842203335
+  },
+  "9_MRI_Clinical": {
+    "fits": 9,
+    "center_GPU_hours": 34.1054583335774,
+    "low_GPU_hours": 25.317798577914942,
+    "high_GPU_hours": 44.57369555214927
+  },
+  "9_Clinical_only": {
+    "fits": 9,
+    "center_GPU_hours": 0.1502573463853935,
+    "low_GPU_hours": 0.06855738301517081,
+    "high_GPU_hours": 0.400639457478427
+  },
+  "81_total": {
+    "fits": 81,
+    "center_GPU_hours": 271.8045472085546,
+    "low_GPU_hours": 196.2857393723518,
+    "high_GPU_hours": 343.81943343166097
+  },
+  "basis": "Shared RTX A6000 GPU3 on node3002, batch5; 4-epoch fit plus four measured batches per probe condition after two warmups. Bounds are planning ranges, not confidence intervals; no exclusive RTX4090 timing yet.",
+  "range_rules": "Train/inference min and max probe batch times with 10% margin; cached loading 0.5x to 2x; checkpoint updates 1 to 100 (center 50). Clinical-only adds estimated 0.5ms host cost per batch; 0.5x to 3x compute range."
+}

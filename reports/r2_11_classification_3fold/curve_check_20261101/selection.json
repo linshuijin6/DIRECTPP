@@ -1,0 +1,104 @@
+{
+  "sampled_at_utc": "2026-11-01T05:34:36.744589+00:00",
+  "seed": 20261101,
+  "candidate_count": 11,
+  "candidates": [
+    {
+      "instance": 3,
+      "port": 44919,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_av45/fold2",
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_av45"
+    },
+    {
+      "instance": 3,
+      "port": 44919,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_both/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_both"
+    },
+    {
+      "instance": 3,
+      "port": 44919,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_both/fold3",
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_both"
+    },
+    {
+      "instance": 4,
+      "port": 22299,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_syn_both/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_both"
+    },
+    {
+      "instance": 4,
+      "port": 22299,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_syn_both/fold3",
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_syn_both"
+    },
+    {
+      "instance": 5,
+      "port": 15055,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_real_av45/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_av45"
+    },
+    {
+      "instance": 5,
+      "port": 15055,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_real_both/fold2",
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_both"
+    },
+    {
+      "instance": 5,
+      "port": 15055,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_syn_av45/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_av45"
+    },
+    {
+      "instance": 6,
+      "port": 51712,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_real_fdg/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "instance": 6,
+      "port": 51712,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_both/fold2",
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_both"
+    },
+    {
+      "instance": 6,
+      "port": 51712,
+      "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_fdg/fold1",
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_fdg"
+    }
+  ],
+  "selected": {
+    "instance": 3,
+    "port": 44919,
+    "path": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_both/fold1",
+    "task": "mci_cn",
+    "fold": 1,
+    "condition": "mri_real_both"
+  },
+  "selection_rule": "Uniform random choice among completed fits, without reading metrics or curves first"
+}

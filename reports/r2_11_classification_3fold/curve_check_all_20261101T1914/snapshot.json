@@ -1,0 +1,298 @@
+{
+  "cutoff_epoch": 1793531713.2752807,
+  "cutoff_utc": "2026-11-01T11:15:13.275281+00:00",
+  "completed_fit_count": 29,
+  "entries": [
+    {
+      "id": "mci_cn__mri_real_both__fold1",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_both/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "mci_cn__mri_real_both__fold3",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_both/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "mci_cn__mri_real_av45__fold2",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_av45/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_av45"
+    },
+    {
+      "id": "mci_cn__mri_real_av45__fold3",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri_real_av45/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_av45"
+    },
+    {
+      "id": "mci_cn__mri__fold1",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri"
+    },
+    {
+      "id": "mci_cn__mri__fold3",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn/mri/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri"
+    },
+    {
+      "id": "ad_cn__mri_real_av45__fold1",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/ad_cn/mri_real_av45/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 1,
+      "condition": "mri_real_av45"
+    },
+    {
+      "id": "ad_cn__mri_real_av45__fold2",
+      "instance": 3,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/ad_cn/mri_real_av45/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_real_av45"
+    },
+    {
+      "id": "mci_cn__mri_syn_both__fold1",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_syn_both/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_both"
+    },
+    {
+      "id": "mci_cn__mri_syn_both__fold3",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_syn_both/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_syn_both"
+    },
+    {
+      "id": "mci_cn__mri_real_fdg__fold2",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_real_fdg/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "id": "mci_cn__mri_real_fdg__fold3",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri_real_fdg/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "id": "mci_cn__mri__fold2",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn/mri/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri"
+    },
+    {
+      "id": "ad_cn__mri_real_both__fold1",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/ad_cn/mri_real_both/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 1,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "ad_cn__mri_syn_both__fold2",
+      "instance": 4,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/ad_cn/mri_syn_both/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_syn_both"
+    },
+    {
+      "id": "mci_cn__mri_real_both__fold2",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_real_both/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "mci_cn__mri_real_av45__fold1",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_real_av45/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_av45"
+    },
+    {
+      "id": "mci_cn__mri_syn_av45__fold1",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_syn_av45/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_av45"
+    },
+    {
+      "id": "mci_cn__mri_syn_av45__fold2",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_syn_av45/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_av45"
+    },
+    {
+      "id": "mci_cn__mri_syn_av45__fold3",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn/mri_syn_av45/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_syn_av45"
+    },
+    {
+      "id": "ad_cn__mri_syn_both__fold1",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/ad_cn/mri_syn_both/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 1,
+      "condition": "mri_syn_both"
+    },
+    {
+      "id": "ad_cn__mri_real_both__fold3",
+      "instance": 5,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/ad_cn/mri_real_both/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "mci_cn__mri_syn_both__fold2",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_both/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_both"
+    },
+    {
+      "id": "mci_cn__mri_real_fdg__fold1",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_real_fdg/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "id": "mci_cn__mri_syn_fdg__fold1",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_fdg/fold1",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "id": "mci_cn__mri_syn_fdg__fold2",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_fdg/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "id": "mci_cn__mri_syn_fdg__fold3",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn/mri_syn_fdg/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "id": "ad_cn__mri_real_both__fold2",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/ad_cn/mri_real_both/fold2",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_real_both"
+    },
+    {
+      "id": "ad_cn__mri_syn_both__fold3",
+      "instance": 6,
+      "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/ad_cn/mri_syn_both/fold3",
+      "best_checkpoint_exists": true,
+      "history_available": true,
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri_syn_both"
+    }
+  ],
+  "scope": "All fits with complete summary at snapshot cutoff; no filtering by metrics; no changes to source files, GPU jobs, or training settings"
+}

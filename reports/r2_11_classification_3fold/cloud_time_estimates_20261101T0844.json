@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-11-01T00:43:55+00:00",
+  "basis": "four exclusive RTX4090 48GB, batch5, observed recent epochs about27-29s on741-subject task; other cohorts scaled by batch counts; cache scaled by size/channels",
+  "fit_epochs": 200,
+  "formal_fits": 63,
+  "task_input_groups": 21,
+  "remaining_GPU_hours": 78.30634989010989,
+  "remaining_wall_hours": 20.418093028243685,
+  "planning_range_multiplier": [
+    0.8,
+    1.25
+  ],
+  "clinic_baselines_included": false,
+  "instance_remaining_hours": {
+    "3": 18.455450054623743,
+    "4": 20.418093028243685,
+    "5": 19.803201886339778,
+    "6": 19.629604920902683
+  }
+}

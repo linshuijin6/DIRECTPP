@@ -1,0 +1,6 @@
+{
+  "pilot_passed": true,
+  "batch_size": 5,
+  "source": "pilot_3002_gpu3_bs5/summary.json",
+  "formal_scope": "63 image fits only; clinical baselines excluded"
+}

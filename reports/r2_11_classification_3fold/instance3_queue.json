@@ -1,0 +1,91 @@
+{
+  "instance": 3,
+  "ssh_port": 44919,
+  "prior_pid": 57412,
+  "prior_starttime": "1666194680",
+  "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+  "code_root": "/root/autodl-tmp/DIRECTPP",
+  "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+  "inputs_ready": "/root/autodl-tmp/DIRECTPP_classification_inputs/inputs_ready.json",
+  "release_file": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pilot_release.json",
+  "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3",
+  "persistent_root": "/autodl-fs/data/DIRECTPP_classification_3fold/20261031",
+  "jobs": [
+    {
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_both"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_both"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_real_av45"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_real_av45"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 1,
+      "condition": "mri_real_av45"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_real_av45"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri_real_av45"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 2,
+      "condition": "mri_real_both"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 1,
+      "condition": "mri_real_both"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 2,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 3,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 1,
+      "condition": "mri_syn_fdg"
+    }
+  ],
+  "prior_epochs_file": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/fdg_fold1/training_epochs.jsonl"
+}

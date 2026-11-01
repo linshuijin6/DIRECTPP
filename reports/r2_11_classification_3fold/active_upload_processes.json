@@ -1,0 +1,27 @@
+[
+  {
+    "pid": 4062560,
+    "starttime": "114263071",
+    "command": "tar -C /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/data/vscode-3002/home/ssddata/liutuo/liutuo_data -cf - -T /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r2_11_classification_3fold/transfer_data_augmentation_fdg_generated.txt "
+  },
+  {
+    "pid": 4062562,
+    "starttime": "114263072",
+    "command": "tar -C /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/data/vscode-3002/home/ssddata/liutuo/liutuo_data -cf - -T /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r2_11_classification_3fold/transfer_data_augmentation_av45.txt "
+  },
+  {
+    "pid": 4062564,
+    "starttime": "114263072",
+    "command": "tar -C /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/data/vscode-3002/home/ssddata/liutuo/liutuo_data -cf - -T /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r2_11_classification_3fold/transfer_data_augmentation_av45_generated.txt "
+  },
+  {
+    "pid": 4062566,
+    "starttime": "114263073",
+    "command": "tar -C /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/data/vscode-3002/home/ssddata/liutuo/liutuo_data -cf - -T /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r2_11_classification_3fold/transfer_data_augmentation_mri.txt "
+  },
+  {
+    "pid": 4062568,
+    "starttime": "114263073",
+    "command": "tar -C /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/data/vscode-3002/home/ssddata/liutuo/liutuo_data -cf - -T /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r2_11_classification_3fold/transfer_data_augmentation_fdg.txt "
+  }
+]

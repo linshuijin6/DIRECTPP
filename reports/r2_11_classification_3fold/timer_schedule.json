@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-31T15:58:40+00:00",
+  "upload_to_instance6": "complete_and_size_validated_5530_files",
+  "distribution": "complete_on_all_four_instances",
+  "next_distribution_check": "20 minutes after first transfer validation",
+  "instance_next_checks_utc": {
+    "3": "2026-11-01T04:01:42.375292+00:00",
+    "4": "2026-11-01T03:58:00.320318+00:00",
+    "5": "2026-11-01T00:11:20.065641+00:00",
+    "6": "2026-11-01T00:19:32.972917+00:00"
+  },
+  "next_distribution_check_utc": "2026-10-31T17:57:13.675344+00:00",
+  "distribution_complete_utc": "2026-10-31T17:16:25.890535+00:00",
+  "next_agent_check_utc": null,
+  "phase": "all_four_classification_queues_running",
+  "prior_training_waits_superseded": true,
+  "policy": "no periodic polling; each queue waits for its own training child to exit and starts its next assigned fit"
+}

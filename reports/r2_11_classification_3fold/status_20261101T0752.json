@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-31T23:52:13+00:00",
+  "formal_classification_started": false,
+  "data_ready_all_four": true,
+  "instances": [
+    {
+      "instance": 3,
+      "last_logged_prior_epoch": 165,
+      "prior_pid": 57412,
+      "prior_live": true
+    },
+    {
+      "instance": 4,
+      "last_logged_prior_epoch": 170,
+      "prior_pid": 60766,
+      "prior_live": true
+    },
+    {
+      "instance": 5,
+      "last_logged_prior_epoch": 200,
+      "prior_pid": 42438,
+      "prior_live": true,
+      "note": "200 epochs recorded; process and GPU still held"
+    },
+    {
+      "instance": 6,
+      "last_logged_prior_epoch": 190,
+      "prior_pid": 59831,
+      "prior_live": true
+    }
+  ],
+  "next_agent_check_utc": "2026-11-01T00:30:00+00:00"
+}

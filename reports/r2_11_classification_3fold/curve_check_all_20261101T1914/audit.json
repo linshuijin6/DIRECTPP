@@ -1,0 +1,24 @@
+{
+  "snapshot_cutoff_utc": "2026-11-01T11:15:13.275281+00:00",
+  "expected_fits": 29,
+  "inspected_fits": 29,
+  "counts_by_task": {
+    "mci_cn": 21,
+    "ad_cn": 8
+  },
+  "descriptive_curve_groups": {
+    "末20轮低loss": 22,
+    "末段反弹后回落，需观察": 4,
+    "末10轮仍明显反弹": 3
+  },
+  "issues": [],
+  "grouping_note": "Descriptive groups: max loss in epochs181-200<=0.01; otherwise max loss in191-200>0.1 flags late rebound; all other fits are a recovery/watch group. These are not preregistered convergence thresholds or stopping rules.",
+  "best_epoch_median": 54.0,
+  "best_epoch_min": 6,
+  "best_epoch_max": 172,
+  "best_epoch_le100": 26,
+  "best_epoch_gt100": 3,
+  "validation_loss_logged": false,
+  "no_test_metrics_used": true,
+  "training_unchanged": true
+}

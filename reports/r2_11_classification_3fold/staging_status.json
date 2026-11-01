@@ -1,0 +1,38 @@
+{
+  "status": "ALL_FOUR_INPUTS_READY",
+  "checked_utc": "2026-10-31T17:16:25.890535+00:00",
+  "instances": [
+    {
+      "instance": 3,
+      "files": 5530,
+      "bytes": 57737240498,
+      "bad_files": 0,
+      "examples": [],
+      "checked_epoch": 1793466983.440774
+    },
+    {
+      "instance": 4,
+      "files": 5530,
+      "bytes": 57737240498,
+      "bad_files": 0,
+      "examples": [],
+      "checked_epoch": 1793466984.200994
+    },
+    {
+      "instance": 5,
+      "files": 5530,
+      "bytes": 57737240498,
+      "bad_files": 0,
+      "examples": [],
+      "checked_epoch": 1793466985.0579755
+    },
+    {
+      "instance": 6,
+      "files": 5530,
+      "bytes": 57737240498,
+      "bad_files": 0,
+      "examples": [],
+      "checked_epoch": 1793466985.908353
+    }
+  ]
+}

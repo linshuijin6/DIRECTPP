@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-31T14:32:51.292428+00:00",
+  "seconds_field_is": "one epoch, including recovery write on logged epochs; timer reset inside epoch loop",
+  "observed": [
+    {
+      "instance": 3,
+      "last_logged_epoch": 90,
+      "epoch_seconds": 445.830300308764
+    },
+    {
+      "instance": 4,
+      "last_logged_epoch": 90,
+      "epoch_seconds": 447.50705349072814
+    },
+    {
+      "instance": 5,
+      "last_logged_epoch": 110,
+      "epoch_seconds": 377.6804699320346
+    },
+    {
+      "instance": 6,
+      "last_logged_epoch": 100,
+      "epoch_seconds": 380.61967438831925
+    }
+  ],
+  "interpretation": "Prior user-supplied 44.8/38.1 seconds per epoch was approximately 10x too small; likely morning Nov 1, not 23:00 Oct 31. No launch is based on ETA; PID and GPU state are authoritative."
+}

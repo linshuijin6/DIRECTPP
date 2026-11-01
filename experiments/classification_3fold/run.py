@@ -51,7 +51,7 @@ def save_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
-def load_subjects(path):
+def load_subjects(path, data_root=None):
     df = pd.read_csv(path, keep_default_na=False)
     required = {"PTID", "diagnosis_original", "five_modalities_complete"}
     required.update(k for v in CONDITIONS.values() for k in v)
@@ -61,13 +61,15 @@ def load_subjects(path):
         raise ValueError("Missing PTID/diagnosis or duplicate PTID")
     df = df[df.five_modalities_complete.astype(str).eq("1")].sort_values("PTID").copy()
     for k in required - {"PTID", "diagnosis_original", "five_modalities_complete"}:
+        if data_root is not None:
+            df[k] = df[k].map(lambda p: str(data_root / Path(p).parent.name / Path(p).name) if p else "")
         if df[k].eq("").any() or not all((ROOT / p).is_file() for p in df[k]):
             raise ValueError(f"Incomplete image paths in five-modality cohort: {k}")
     return df
 
 
 def prepare(args):
-    df = load_subjects(args.subjects)
+    df = load_subjects(args.subjects, args.data_root)
     rows = []
     for task, (mapping, expected) in TASKS.items():
         data = df[df.diagnosis_original.isin(mapping)].copy()
@@ -115,7 +117,7 @@ def fit(args):
     processes = subprocess.check_output([
         "nvidia-smi", "-i", str(args.gpu), "--query-compute-apps=pid", "--format=csv,noheader"
     ], text=True).strip()
-    if processes:
+    if processes and not args.allow_shared:
         raise RuntimeError(f"GPU {args.gpu} has compute processes; no training started")
     os.environ["CUDA_VISIBLE_DEVICES"] = info[0]
     import torch
@@ -125,6 +127,10 @@ def fit(args):
     from monai.transforms import Compose, LoadImaged, EnsureChannelFirstd, Identityd
 
     device = torch.device("cuda:0")
+    if args.memory_limit_gib is not None:
+        torch.cuda.set_per_process_memory_fraction(
+            args.memory_limit_gib * 2**30 / torch.cuda.get_device_properties(device).total_memory,
+            device=device)
     seed = 42 + list(TASKS).index(args.task) * 100 + args.fold
     random.seed(seed)
     np.random.seed(seed)
@@ -134,7 +140,7 @@ def fit(args):
     torch.backends.cudnn.deterministic = True
     torch.set_num_threads(args.cpu_threads)
     imports_seed_s = time.perf_counter() - started
-    df = load_subjects(args.subjects).set_index("PTID")
+    df = load_subjects(args.subjects, args.data_root).set_index("PTID")
     splits = pd.read_csv(args.splits)
     selected = splits[(splits.task == args.task) & (splits.fold == args.fold)].copy()
     mapping, expected = TASKS[args.task]
@@ -184,10 +190,12 @@ def fit(args):
     load_started = time.perf_counter()
     loaders = {}
     for role in ["train", "validation"]:
+        print(f"Caching {role}: {len(data[role])} subjects", flush=True)
         ds = CacheDataset(data=data[role], transform=transforms, num_workers=args.cache_workers,
                           progress=False)
         loaders[role] = DataLoader(ds, batch_size=args.batch_size, shuffle=role == "train",
                                    num_workers=0, generator=torch.Generator().manual_seed(seed))
+        print(f"Cached {role}; elapsed {time.perf_counter() - load_started:.1f}s", flush=True)
     data_load_s = time.perf_counter() - load_started
     torch.cuda.synchronize()
     torch.cuda.reset_peak_memory_stats()
@@ -211,10 +219,13 @@ def fit(args):
                     parameters=sum(p.numel() for p in model.parameters()),
                     host=socket.gethostname(), physical_gpu=args.gpu, gpu_uuid=info[0],
                     gpu_name=info[1], gpu_total_MiB=int(info[2]), gpu_free_before_MiB=int(info[3]),
+                    shared_gpu=bool(processes), existing_gpu_pids=processes.splitlines(),
+                    memory_limit_GiB=args.memory_limit_gib,
                     initialization_imports_seed_s=imports_seed_s, data_loading_s=data_load_s,
                     model_optimizer_initialization_s=model_init_s,
                     initialization_total_s=time.perf_counter() - started,
                     subjects=str(args.subjects), splits=str(args.splits),
+                    data_root=str(args.data_root) if args.data_root else None,
                     clinical_csv=str(args.clinical_csv) if clinical else None,
                     cache_workers=args.cache_workers, cpu_threads=args.cpu_threads,
                     torch_version=torch.__version__,
@@ -324,6 +335,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mode", choices=["prepare", "fit"])
     parser.add_argument("--subjects", type=Path, default=SUBJECTS)
+    parser.add_argument("--data-root", type=Path, help="Explicit node-local root containing the same modality directories")
     parser.add_argument("--splits", type=Path, default=REPORT / "splits.csv")
     parser.add_argument("--task", choices=TASKS, default="mci_cn")
     parser.add_argument("--condition", choices=CONDITIONS, default="mri_syn_both")
@@ -331,6 +343,8 @@ def main():
     parser.add_argument("--epochs", type=int, default=4)
     parser.add_argument("--batch-size", type=int, choices=[1, 2, 5], default=5)
     parser.add_argument("--gpu", type=int, default=0, help="Physical GPU index; UUID binding is internal")
+    parser.add_argument("--allow-shared", action="store_true", help="Only for an explicitly designated shared GPU")
+    parser.add_argument("--memory-limit-gib", type=float, help="Optional process allocator cap on a shared GPU")
     parser.add_argument("--cache-workers", type=int, default=20)
     parser.add_argument("--cpu-threads", type=int, default=4)
     parser.add_argument("--clinical-csv", type=Path, default=CLINICAL)

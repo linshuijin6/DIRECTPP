@@ -1,0 +1,96 @@
+{
+  "instance": 6,
+  "ssh_port": 51712,
+  "prior_pid": 59831,
+  "prior_starttime": "1432391669",
+  "gpu_uuid": "GPU-dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+  "code_root": "/root/autodl-tmp/DIRECTPP",
+  "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+  "inputs_ready": "/root/autodl-tmp/DIRECTPP_classification_inputs/inputs_ready.json",
+  "release_file": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pilot_release.json",
+  "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6",
+  "persistent_root": "/autodl-fs/data/DIRECTPP_classification_3fold/20261031",
+  "jobs": [
+    {
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_both"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 1,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 2,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "mci_cn",
+      "fold": 3,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_real_both"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri_syn_both"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 1,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 3,
+      "condition": "mri_syn_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 3,
+      "condition": "mri_syn_both"
+    },
+    {
+      "task": "ad_cn",
+      "fold": 2,
+      "condition": "mri"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 2,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 3,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 1,
+      "condition": "mri_real_fdg"
+    },
+    {
+      "task": "emci_lmci",
+      "fold": 3,
+      "condition": "mri"
+    }
+  ],
+  "prior_epochs_file": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold2/training_epochs.jsonl"
+}

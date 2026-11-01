@@ -1,0 +1,136 @@
+{
+  "checked_at_utc": "2026-11-01T00:32:25.111654+00:00",
+  "new_prior_policy": "retain verified epoch165 checkpoint; terminate prior task; launch image classification",
+  "formal_scope": 63,
+  "instances": [
+    {
+      "instance": 3,
+      "watch": {
+        "status": "CLASSIFICATION_RUNNING",
+        "instance": 3,
+        "monitor_pid": 89798,
+        "host": "autodl-container-9b594ca734-b8eefc9f",
+        "checked_utc": "2026-11-01T00:30:50.815164+00:00",
+        "prior_pid": 57412,
+        "job": {
+          "task": "mci_cn",
+          "fold": 1,
+          "condition": "mri_real_both"
+        },
+        "job_number": 1,
+        "jobs_total": 15,
+        "training_pid": 89807,
+        "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance3/mci_cn_mri_real_both_fold1.log"
+      },
+      "checkpoint165": {
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold1/formal/checkpoint_epoch165.pt",
+        "bytes": 39824372,
+        "epoch": 165,
+        "task": "fdg_fold1",
+        "checkpoint_readable": true
+      },
+      "user_stop_receipt": {
+        "instance": 3,
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold1/formal/checkpoint_epoch165.pt",
+        "verified_epoch": 165,
+        "prior_pid": 57412,
+        "requested_policy": "user_stop_after_saved_epoch165",
+        "checked_utc": "2026-11-01T00:30:44.649863+00:00",
+        "prior_action": "SIGTERM_confirmed_exit",
+        "classification_monitor_pid": 89798
+      }
+    },
+    {
+      "instance": 4,
+      "watch": {
+        "status": "CLASSIFICATION_RUNNING",
+        "instance": 4,
+        "monitor_pid": 93128,
+        "host": "autodl-container-58a0ln8rhl-a7b5e942",
+        "checked_utc": "2026-11-01T00:30:51.031292+00:00",
+        "prior_pid": 60766,
+        "job": {
+          "task": "mci_cn",
+          "fold": 1,
+          "condition": "mri_syn_both"
+        },
+        "job_number": 1,
+        "jobs_total": 16,
+        "training_pid": 93137,
+        "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance4/mci_cn_mri_syn_both_fold1.log"
+      },
+      "checkpoint165": {
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold2/formal/checkpoint_epoch165.pt",
+        "bytes": 39824372,
+        "epoch": 165,
+        "task": "fdg_fold2",
+        "checkpoint_readable": true
+      },
+      "user_stop_receipt": {
+        "instance": 4,
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold2/formal/checkpoint_epoch165.pt",
+        "verified_epoch": 165,
+        "prior_pid": 60766,
+        "requested_policy": "user_stop_after_saved_epoch165",
+        "checked_utc": "2026-11-01T00:30:44.634553+00:00",
+        "prior_action": "SIGTERM_confirmed_exit",
+        "classification_monitor_pid": 93128
+      }
+    },
+    {
+      "instance": 5,
+      "watch": {
+        "status": "CLASSIFICATION_RUNNING",
+        "instance": 5,
+        "monitor_pid": 43273,
+        "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+        "checked_utc": "2026-11-01T00:11:20.344215+00:00",
+        "prior_pid": 42438,
+        "job": {
+          "task": "mci_cn",
+          "fold": 2,
+          "condition": "mri_real_both"
+        },
+        "job_number": 1,
+        "jobs_total": 16,
+        "training_pid": 43511,
+        "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance5/mci_cn_mri_real_both_fold2.log"
+      },
+      "checkpoint165": {
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold1/formal/checkpoint_epoch165.pt",
+        "bytes": 39824372,
+        "epoch": 165,
+        "task": "av45_fold1",
+        "checkpoint_readable": true
+      }
+    },
+    {
+      "instance": 6,
+      "watch": {
+        "status": "CLASSIFICATION_RUNNING",
+        "instance": 6,
+        "monitor_pid": 78690,
+        "host": "autodl-container-5h9rm8rk3z-3396b382",
+        "checked_utc": "2026-11-01T00:19:33.304703+00:00",
+        "prior_pid": 59831,
+        "job": {
+          "task": "mci_cn",
+          "fold": 2,
+          "condition": "mri_syn_both"
+        },
+        "job_number": 1,
+        "jobs_total": 16,
+        "training_pid": 92492,
+        "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261031_instance6/mci_cn_mri_syn_both_fold2.log"
+      },
+      "checkpoint165": {
+        "checkpoint": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold2/formal/checkpoint_epoch165.pt",
+        "bytes": 39824372,
+        "epoch": 165,
+        "task": "av45_fold2",
+        "checkpoint_readable": true
+      }
+    }
+  ],
+  "next_startup_check_utc": "2026-11-01T00:38:25.111670+00:00"
+}
