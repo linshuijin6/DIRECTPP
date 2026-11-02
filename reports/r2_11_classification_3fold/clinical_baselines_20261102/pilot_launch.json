@@ -1,0 +1,20 @@
+[
+  {
+    "instance": 3,
+    "condition": "clinical",
+    "pid": 131098,
+    "output": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance3/clinical",
+    "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance3/pilot.log",
+    "epochs": 4,
+    "batch_size": 5
+  },
+  {
+    "instance": 4,
+    "condition": "mri_clinical",
+    "pid": 134412,
+    "output": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance4/mri_clinical",
+    "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance4/pilot.log",
+    "epochs": 4,
+    "batch_size": 5
+  }
+]

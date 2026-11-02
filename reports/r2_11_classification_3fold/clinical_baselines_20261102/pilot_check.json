@@ -1,0 +1,143 @@
+[
+  {
+    "instance": 3,
+    "output": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance3/clinical",
+    "summary": {
+      "task": "mci_cn",
+      "condition": "clinical",
+      "fold": 1,
+      "seed": 143,
+      "epochs": 4,
+      "batch_size": 5,
+      "lr": 0.0001,
+      "val_interval": 2,
+      "split_sizes": {
+        "train": 419,
+        "validation": 75,
+        "test": 247
+      },
+      "parameters": 18,
+      "host": "autodl-container-9b594ca734-b8eefc9f",
+      "physical_gpu": 0,
+      "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+      "gpu_name": "NVIDIA GeForce RTX 4090",
+      "gpu_total_MiB": 49140,
+      "gpu_free_before_MiB": 48510,
+      "shared_gpu": false,
+      "existing_gpu_pids": [],
+      "memory_limit_GiB": null,
+      "initialization_imports_seed_s": 2.1625406369566917,
+      "data_loading_s": 0.019207648932933807,
+      "model_optimizer_initialization_s": 0.0008549503982067108,
+      "initialization_total_s": 2.559542965143919,
+      "subjects": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_subjects.csv",
+      "splits": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/splits.csv",
+      "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+      "clinical_csv": "/root/autodl-tmp/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/filtered_subjects_with_description.csv",
+      "cache_workers": 20,
+      "cpu_threads": 4,
+      "torch_version": "2.5.1+cu124",
+      "pilot_only": true,
+      "status": "complete",
+      "best_validation_ACC": 0.5866666666666667,
+      "best_epoch": 4,
+      "test_metrics": {
+        "ACC": 0.5465587044534413,
+        "AUC": 0.5514536849222448,
+        "SEN": 0.6068965517241379,
+        "SPE": 0.46078431372549017,
+        "balanced_ACC": 0.5338404327248141
+      },
+      "test_evaluations": 1,
+      "first_epoch_s": 0.18461940810084343,
+      "subsequent_epoch_mean_s": 0.08527564754088719,
+      "validation_times_s": [
+        0.013250190764665604,
+        0.0068662129342556
+      ],
+      "checkpoint_save_times_s": [
+        0.0005646832287311554,
+        0.0008460842072963715
+      ],
+      "checkpoint_reload_s": 0.001298416405916214,
+      "test_data_loading_s": 0.008602980524301529,
+      "test_inference_s": 0.01481718197464943,
+      "gpu_peak_allocated_MiB": 65.0068359375,
+      "gpu_peak_reserved_MiB": 66.0,
+      "cpu_current_RSS_GiB": 0.9505577087402344,
+      "cpu_peak_RSS_GiB": 0.9506340026855469,
+      "total_wall_s": 3.053473189473152
+    },
+    "checks_passed": true
+  },
+  {
+    "instance": 4,
+    "output": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance4/mri_clinical",
+    "summary": {
+      "task": "mci_cn",
+      "condition": "mri_clinical",
+      "fold": 1,
+      "seed": 143,
+      "epochs": 4,
+      "batch_size": 5,
+      "lr": 0.0001,
+      "val_interval": 2,
+      "split_sizes": {
+        "train": 419,
+        "validation": 75,
+        "test": 247
+      },
+      "parameters": 11244690,
+      "host": "autodl-container-58a0ln8rhl-a7b5e942",
+      "physical_gpu": 0,
+      "gpu_uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+      "gpu_name": "NVIDIA GeForce RTX 4090",
+      "gpu_total_MiB": 49140,
+      "gpu_free_before_MiB": 48509,
+      "shared_gpu": false,
+      "existing_gpu_pids": [],
+      "memory_limit_GiB": null,
+      "initialization_imports_seed_s": 2.7764647156000137,
+      "data_loading_s": 66.3000295497477,
+      "model_optimizer_initialization_s": 0.15476041287183762,
+      "initialization_total_s": 69.73212287575006,
+      "subjects": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_subjects.csv",
+      "splits": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/splits.csv",
+      "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+      "clinical_csv": "/root/autodl-tmp/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/filtered_subjects_with_description.csv",
+      "cache_workers": 20,
+      "cpu_threads": 4,
+      "torch_version": "2.5.1+cu124",
+      "pilot_only": true,
+      "status": "complete",
+      "best_validation_ACC": 0.68,
+      "best_epoch": 2,
+      "test_metrics": {
+        "ACC": 0.6518218623481782,
+        "AUC": 0.7328600405679514,
+        "SEN": 0.8206896551724138,
+        "SPE": 0.4117647058823529,
+        "balanced_ACC": 0.6162271805273833
+      },
+      "test_evaluations": 1,
+      "first_epoch_s": 25.82111568376422,
+      "subsequent_epoch_mean_s": 25.43497288102905,
+      "validation_times_s": [
+        1.609327021986246,
+        1.5708535797894
+      ],
+      "checkpoint_save_times_s": [
+        0.0682886578142643
+      ],
+      "checkpoint_reload_s": 0.09686605632305145,
+      "test_data_loading_s": 30.891213677823544,
+      "test_inference_s": 5.272507548332214,
+      "gpu_peak_allocated_MiB": 10856.67236328125,
+      "gpu_peak_reserved_MiB": 17324.0,
+      "cpu_current_RSS_GiB": 14.941520690917969,
+      "cpu_peak_RSS_GiB": 15.701824188232422,
+      "total_wall_s": 211.38470232114196
+    },
+    "checks_passed": true
+  }
+]

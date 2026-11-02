@@ -1,0 +1,42 @@
+[
+  {
+    "instance": 3,
+    "monitor_pid": 131635,
+    "started_utc": "2026-11-02T01:53:53.733055+00:00",
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance3",
+    "jobs": 5,
+    "epochs_each": 200,
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/instance3_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch.log"
+  },
+  {
+    "instance": 4,
+    "monitor_pid": 134949,
+    "started_utc": "2026-11-02T01:53:53.992020+00:00",
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance4",
+    "jobs": 5,
+    "epochs_each": 200,
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/instance4_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch.log"
+  },
+  {
+    "instance": 5,
+    "monitor_pid": 48497,
+    "started_utc": "2026-11-02T01:53:53.858634+00:00",
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance5",
+    "jobs": 5,
+    "epochs_each": 200,
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/instance5_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch.log"
+  },
+  {
+    "instance": 6,
+    "monitor_pid": 134282,
+    "started_utc": "2026-11-02T01:53:53.926386+00:00",
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance6",
+    "jobs": 3,
+    "epochs_each": 200,
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/instance6_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch.log"
+  }
+]

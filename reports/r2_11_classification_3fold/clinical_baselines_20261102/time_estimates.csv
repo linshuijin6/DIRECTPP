@@ -1,0 +1,19 @@
+instance,order,task,condition,fold,estimated_seconds,estimated_hours,source
+3,1,ad_cn,clinical,1,13.826421500065319,0.003840672638907033,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+3,2,ad_cn,clinical,2,13.826421500065319,0.003840672638907033,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+3,3,ad_cn,clinical,3,13.826365563474093,0.0038406571009650258,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+3,4,mci_cn,mri_clinical,1,5351.466870856782,1.486518575237995,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+3,5,emci_lmci,mri_clinical,1,3186.6750905620956,0.8851875251561376,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+4,1,mci_cn,clinical,1,20.268383859346308,0.0056301066275961965,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+4,2,mci_cn,clinical,2,20.268383859346308,0.0056301066275961965,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+4,3,mci_cn,clinical,3,20.268383859346308,0.0056301066275961965,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+4,4,mci_cn,mri_clinical,2,5351.466870856782,1.486518575237995,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+4,5,ad_cn,mri_clinical,1,3444.2109031063487,0.9567252508628746,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+5,1,emci_lmci,clinical,1,12.94528051043186,0.003595911252897739,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+5,2,emci_lmci,clinical,2,12.945224573840637,0.0035958957149557326,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+5,3,emci_lmci,clinical,3,12.945224573840637,0.0035958957149557326,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+5,4,mci_cn,mri_clinical,3,5351.466870856782,1.486518575237995,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+5,5,ad_cn,mri_clinical,2,3444.2109031063487,0.9567252508628746,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+6,1,ad_cn,mri_clinical,3,3444.1987018656555,0.9567218616293488,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+6,2,emci_lmci,mri_clinical,2,3186.662889321402,0.8851841359226117,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling
+6,3,emci_lmci,mri_clinical,3,3186.662889321402,0.8851841359226117,4-epoch mci_cn fold1 pilot; batch-count/data-size scaling

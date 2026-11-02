@@ -1,0 +1,41 @@
+{
+  "instance": 5,
+  "ssh_port": 15055,
+  "prior_pid": 42438,
+  "prior_starttime": "369445966",
+  "gpu_uuid": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+  "code_root": "/root/autodl-tmp/DIRECTPP",
+  "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+  "inputs_ready": "/root/autodl-tmp/DIRECTPP_classification_inputs/inputs_ready.json",
+  "release_file": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/pilot_release.json",
+  "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance5",
+  "persistent_root": "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical",
+  "jobs": [
+    {
+      "task": "emci_lmci",
+      "condition": "clinical",
+      "fold": 1
+    },
+    {
+      "task": "emci_lmci",
+      "condition": "clinical",
+      "fold": 2
+    },
+    {
+      "task": "emci_lmci",
+      "condition": "clinical",
+      "fold": 3
+    },
+    {
+      "task": "mci_cn",
+      "condition": "mri_clinical",
+      "fold": 3
+    },
+    {
+      "task": "ad_cn",
+      "condition": "mri_clinical",
+      "fold": 2
+    }
+  ],
+  "prior_epochs_file": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold1/training_epochs.jsonl"
+}

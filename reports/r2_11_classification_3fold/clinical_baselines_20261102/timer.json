@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-02T01:54:28.228037+00:00",
+  "started_utc": "2026-11-02T01:53:53.992020+00:00",
+  "central_completion_utc": "2026-11-02T04:37:31.516501+00:00",
+  "estimated_total_GPU_hours": 10.024483911014823,
+  "queue_hours": {
+    "3": 2.3832281027729114,
+    "4": 2.460134145983658,
+    "5": 2.454031528783679,
+    "6": 2.727090133474572
+  },
+  "next_check_utc": "2026-11-02T04:52:31.516501+00:00",
+  "range_note": "Planning range 0.85-1.25 times measured batch-scaled estimate; not a confidence interval",
+  "polling": false
+}

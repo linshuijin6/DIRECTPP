@@ -1,0 +1,13 @@
+{
+  "pilot_passed": true,
+  "batch_size": 5,
+  "epochs_formal": 200,
+  "conditions": [
+    "clinical",
+    "mri_clinical"
+  ],
+  "pilot_outputs": [
+    "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance3/clinical",
+    "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_pilots_instance4/mri_clinical"
+  ]
+}

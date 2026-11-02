@@ -1,0 +1,166 @@
+[
+  {
+    "instance": 3,
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 3,
+      "monitor_pid": 131635,
+      "host": "autodl-container-9b594ca734-b8eefc9f",
+      "checked_utc": "2026-11-02T01:54:48.222259+00:00",
+      "prior_pid": 57412,
+      "job": {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 1
+      },
+      "job_number": 4,
+      "jobs_total": 5,
+      "training_pid": 132488,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance3/mci_cn_mri_clinical_fold1.log"
+    },
+    "fits": [
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 1,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      },
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 2,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      },
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 3,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      },
+      {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 1,
+        "epochs": 200,
+        "status": "running",
+        "last_epoch": 0
+      }
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090, 17852 MiB, 49140 MiB, 89 %"
+  },
+  {
+    "instance": 4,
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 4,
+      "monitor_pid": 134949,
+      "host": "autodl-container-58a0ln8rhl-a7b5e942",
+      "checked_utc": "2026-11-02T01:55:34.241092+00:00",
+      "prior_pid": 60766,
+      "job": {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 2
+      },
+      "job_number": 4,
+      "jobs_total": 5,
+      "training_pid": 135817,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance4/mci_cn_mri_clinical_fold2.log"
+    },
+    "fits": [
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 1,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      },
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 2,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      },
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 3,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      }
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090, 0 MiB, 49140 MiB, 0 %"
+  },
+  {
+    "instance": 5,
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 5,
+      "monitor_pid": 48497,
+      "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+      "checked_utc": "2026-11-02T01:55:50.285045+00:00",
+      "prior_pid": 42438,
+      "job": {
+        "task": "emci_lmci",
+        "condition": "clinical",
+        "fold": 2
+      },
+      "job_number": 2,
+      "jobs_total": 5,
+      "training_pid": 48780,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance5/emci_lmci_clinical_fold2.log"
+    },
+    "fits": [
+      {
+        "task": "emci_lmci",
+        "condition": "clinical",
+        "fold": 1,
+        "epochs": 200,
+        "status": "complete",
+        "last_epoch": 200
+      }
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090, 4 MiB, 49140 MiB, 0 %"
+  },
+  {
+    "instance": 6,
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 6,
+      "monitor_pid": 134282,
+      "host": "autodl-container-5h9rm8rk3z-3396b382",
+      "checked_utc": "2026-11-02T01:53:54.254051+00:00",
+      "prior_pid": 59831,
+      "job": {
+        "task": "ad_cn",
+        "condition": "mri_clinical",
+        "fold": 3
+      },
+      "job_number": 1,
+      "jobs_total": 3,
+      "training_pid": 134291,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance6/ad_cn_mri_clinical_fold3.log"
+    },
+    "fits": [
+      {
+        "task": "ad_cn",
+        "condition": "mri_clinical",
+        "fold": 3,
+        "epochs": 200,
+        "status": "running",
+        "last_epoch": 5
+      }
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090, 17853 MiB, 49140 MiB, 93 %"
+  }
+]
