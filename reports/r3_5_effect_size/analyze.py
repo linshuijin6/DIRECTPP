@@ -164,11 +164,16 @@ def compute():
     assert len(frame) == 20 and not frame.duplicated(["tracer", "roi_id"]).any()
     assert frame.groupby("panel").size().to_dict() == dict(C=5, D=5, E=5, F=5)
     fdr_path = ROOT / "reports/r2_9_figure4_fdr/all_392_student_fdr.csv"
+    if not fdr_path.is_file():
+        raise FileNotFoundError(f"Supplemental R2-9 results required: {fdr_path}")
     if fdr_path.exists():
         fdr = pd.read_csv(fdr_path, float_precision="round_trip")
         assert len(fdr) == 392 and fdr.groupby(["tracer", "modality"]).size().eq(98).all()
+        assert not fdr.duplicated(["tracer", "roi_id", "modality"]).any()
         assert fdr.family_n_tests.eq(98).all()
         assert fdr.test.eq("Student_independent_two_sided").all() and fdr.equal_var.all()
+        assert fdr.contrast.eq("AD-CN").all()
+        assert fdr.raw_p.between(0, 1).all() and fdr.bh_q.between(0, 1).all()
         indexed = fdr.set_index(["tracer", "roi_id", "modality"])
         for i, row in frame.iterrows():
             significant = []
@@ -182,6 +187,12 @@ def compute():
                                   rtol=1e-11, atol=1e-13)
                 frame.at[i, f"r2_9_{mode}_p"] = float(stat.raw_p)
                 frame.at[i, f"r2_9_{mode}_q"] = float(stat.bh_q)
+                assert stat.family == f"{row.tracer}_{mode}_AD_vs_CN_98"
+                frame.at[i, f"r2_9_{mode}_family"] = stat.family
+                frame.at[i, f"r2_9_{mode}_family_n_tests"] = int(stat.family_n_tests)
+                frame.at[i, f"r2_9_{mode}_significant_q_lt_0_05"] = bool(stat.bh_q < 0.05)
+                frame.at[i, f"r2_9_{mode}_binary_matches_figure"] = bool(
+                    (stat.bh_q < 0.05) == (row.panel in "CD"))
                 significant.append(bool(stat.bh_q < 0.05))
             frame.at[i, "r2_9_status"] = "new_recalculation_not_historical_plot_values"
             frame.at[i, "both_fdr_significant"] = all(significant)
@@ -192,9 +203,12 @@ def compute():
 
 
 def report(frame):
+    n_matches = sum(int(frame[f"r2_9_{mode}_binary_matches_figure"].sum()) for mode in ("real", "syn"))
     lines = [
         "# R3-5：Figure 4C–F 的 AD−CN Cohen’s d", "",
-        "20 个图示 tracer×ROI 全部覆盖（40 个 Real/Syn 组间统计标注）。两处效应量符号改变："
+        f"已依据补充的R2-9数据完成20个图示tracer×ROI的40个Cohen’s d，"
+        f"{n_matches}/40条FDR显著/不显著分类与图面一致（C/D均显著，E/F均不显著）。"
+        "两处效应量符号改变："
         "AV45 右海马、FDG 左丘脑，但均发生在接近零的效应量上。最大绝对幅度变化为 "
         f"{frame.abs_d_difference.abs().max():.4f}。指定 CSV 支持 C/D 的疾病差异方向大体保持，"
         "不足以认定原稿的 **precisely preserved**，也不构成临床等效性证据。", "",
@@ -241,7 +255,8 @@ def report(frame):
         "这不是 Real−Syn 配对差的 Cohen’s dz。单位为 normalized uptake（任意单位），不称 SUV/SUVR。",
         "",
         "下表均值±SD 保留5位，效应量保留6位；[CSV](figure4_effect_sizes.csv) 保留完整计算精度、"
-        "合并SD和逐项来源信息。", "",
+        "合并SD、原始p、BH q、所属98项检验族及逐项来源信息。"
+        "本轮仅重新计算效应量、读取既有p/q，不重跑392项检验或FDR校正。", "",
         "| 面板/示踪剂 | ROI ID / 解剖名 | N_AD/N_CN | Real AD 均值±SD | Real CN 均值±SD | Syn AD 均值±SD | Syn CN 均值±SD |",
         "|---|---|---:|---:|---:|---:|---:|",
     ]
@@ -250,13 +265,13 @@ def report(frame):
                  for m, g in [("real", "AD"), ("real", "CN"), ("syn", "AD"), ("syn", "CN")]]
         lines.append(f"| {r.panel}/{r.tracer} | {r.roi_id} {r.roi_name} | {r.N_AD}/{r.N_CN} | "
                      + " | ".join(cells) + " |")
-    lines += ["", "| 面板/示踪剂 | ROI ID | d_real | d_syn | delta_d | abs_d_difference | 方向 | 绝对效应量 | R2-9 FDR分类 |",
-              "|---|---:|---:|---:|---:|---:|---|---|---|"]
+    lines += ["", "| 面板/示踪剂 | ROI ID | d_real | d_syn | delta_d | abs_d_difference | Real q | Syn q | 方向 | R2-9 FDR分类 |",
+              "|---|---:|---:|---:|---:|---:|---:|---:|---|---|"]
     for r in frame.itertuples():
         direction = "**反向（近零）**" if r.direction_reversed else "同向"
         lines.append(f"| {r.panel}/{r.tracer} | {r.roi_id} | {r.d_real:+.6f} | {r.d_syn:+.6f} | "
-                     f"{r.delta_d:+.6f} | {r.abs_d_difference:+.6f} | {direction} | "
-                     f"{'增加' if r.abs_d_difference > 0 else '减小'} | "
+                     f"{r.delta_d:+.6f} | {r.abs_d_difference:+.6f} | "
+                     f"{r.r2_9_real_q:.6g} | {r.r2_9_syn_q:.6g} | {direction} | "
                      f"{ {'both_significant': '均显著', 'both_non_significant': '均不显著', 'real_only': '仅Real显著', 'syn_only': '仅Syn显著'}.get(r.r2_9_fdr_classification, '未定位')} |")
     lines += ["", "## 3. 方向、幅度及原稿表述", "",
               "C 中 AV45 五项均为 AD>CN，Real d=1.5133–1.6831、Syn d=1.5288–1.6437；"
@@ -282,12 +297,10 @@ def report(frame):
               "解释成精确保持。若最终写入回复，证据支持较窄的“组间差异方向大体保持，并报告效应量变化”。"
               "本轮不修改原稿。", "",
               "## 4. R2-9新复算证据及与 R2-8/10 的关系", "",
-              "初次核查时，本地 `reports/` 文件清单及当前 Git 树未找到 R2-9 Figure 4 FDR 审计文件。"
-              "通过 GitHub 连接器只读核查了仓库 `linshuijin6/DIRECTPP` 的主分支 reports 目录、"
-              "`Figure 4 FDR` / `r2_9` 文件检索、`R2-9` issue/commit 检索和分支发现；"
-              "均未定位对应逐项结果。主分支核实为 "
-              f"[`{GITHUB_COMMIT[:7]}`](https://github.com/linshuijin6/DIRECTPP/tree/{GITHUB_COMMIT}/reports)。"
-              "这是本次可见范围内的未定位，不表示历史审计不存在；没有对全历史归档展开追查。",
+              "初次核查未定位到既有R2-9逐项结果，后按作者授权补算。"
+              "本轮使用已完成的 [完整392项结果](../r2_9_figure4_fdr/all_392_student_fdr.csv) "
+              "和 [40条图示核验](../r2_9_figure4_fdr/figure4_cf_40_verification.csv)，"
+              "逐项核对源文件哈希、AD/CN人数、PTID/组别集合及 d 与 Student t 的代数关系。",
               "",
               "随后按作者授权完成 [R2-9新复算](../r2_9_figure4_fdr/REPORT.md)："
               "双侧Student检验、AV45/FDG×Real/Syn四个独立98 ROI的BH族。"
@@ -309,8 +322,8 @@ def report(frame):
               "不证明等方差成立。所有 d 均为描述性点估计，没有置信区间或显著性结论。",
               "",
               "运行：`/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python reports/r3_5_effect_size/analyze.py`。"
-              "脚本只写本目录 CSV/Markdown；GitHub 检索记录是本次会话已完成的只读核查，"
-              "重跑脚本不会重新联网。受保护输入在运行前后核验 SHA-256。", "",
+              "脚本只写本目录CSV/Markdown；不联网，不重跑组间检验或FDR。"
+              "受保护输入在运行前后核验SHA-256。", "",
               "本次会话另以标准库 csv/statistics/math 独立重读20个源文件，以组内离均差平方和"
               "复算合并SD，核对全部80组均值/SD、40个 d 及40个差值，均一致；"
               "本地报告链接存在，新增p/q明确标记为R2-9新复算来源，输出目录仅含指定三个文件。", "",
@@ -327,7 +340,8 @@ def evidence_files():
             R28 / "analyze.py", R28 / "REPORT.md", R28 / "input_audit.csv",
             R28 / "regional_paired_statistics.csv", R28 / "FIGURE4_SOURCE_CHECK.md",
             ROOT / "reports/r2_10_normalized_calibration/REPORT.md", LUT,
-            ROOT / "reports/r2_9_figure4_fdr/all_392_student_fdr.csv"]
+            ROOT / "reports/r2_9_figure4_fdr/all_392_student_fdr.csv",
+            ROOT / "reports/r2_9_figure4_fdr/figure4_cf_40_verification.csv"]
 
 
 def main():
