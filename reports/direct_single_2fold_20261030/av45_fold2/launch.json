@@ -1,0 +1,32 @@
+{
+  "task": "av45_fold2",
+  "config_sha256": "5b0d8645d43612304984b13d2c47e8b5421b5fe3646cf57d087e781adb6d7648",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "conditions_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba",
+  "runner_sha256": "5d30eb01ac8a37f93be8548d10cb078e4b178675f158f2f06952f29739d7539d",
+  "model_sha256": "d1395a1c0a1be6b526b334dac4aceef59d67567b92b894cf913c9cbde365f46b",
+  "epochs": 200,
+  "status": "STARTED",
+  "pid": 59831,
+  "host": "autodl-container-5h9rm8rk3z-3396b382",
+  "gpu": {
+    "host": "autodl-container-5h9rm8rk3z-3396b382",
+    "pid": 59831,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cuda_visible_devices": "GPU-dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+    "free_bytes_at_start": 50325225472,
+    "total_bytes": 50864390144
+  },
+  "parameters": 9925921,
+  "started_utc": "2026-10-31T02:47:04.889557+00:00",
+  "train_subjects": 690,
+  "log_path": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold2/train.log",
+  "checkpoint_dir": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold2/formal",
+  "recovery_path": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold2/formal/recovery.pt",
+  "resource_receipt_sha256": "051cb9b8b358d50dca8cec25e426623c50cdaf7fe625615f053ff8f7435e317a"
+}

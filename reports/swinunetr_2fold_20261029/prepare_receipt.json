@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED_CACHE_VERIFIED",
+  "config_sha256": "4b8ddfb71e9188851c32980252e326aa6cd3f02c4f04576e10cb14a7b3c7e693",
+  "cache": {
+    "path": "/home/linshuijin/fs_recon_local/DIRECTPP_swinunetr/20261029/full_cache",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109552940631,
+    "valid": true,
+    "copied_from_node": "3003",
+    "source_path": "/dev/shm/persistent_cache_repro"
+  }
+}

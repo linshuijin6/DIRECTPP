@@ -1,14 +1,14 @@
 # R2-9：Student 检验与 Figure 4C–F 的 FDR 核验
 
-按当前授权新复算392项 AD/CN Student 检验，分为4个各98项的 BH-FDR 族。图示40条结果中，36条与原图的显著/不显著分类一致，4条不一致。**历史绘图程序尚未完全复现；本次 p/q 是新复算值，不是已恢复的历史绘图 p/q。**
+按当前授权新复算392项 AD/CN Student 检验，分为4个各98项的 BH-FDR 族。图示40条结果中，40条与原图的显著/不显著分类一致，0条不一致。**历史绘图程序尚未完全复现；本次 p/q 是新复算值，不是已恢复的历史绘图 p/q。**
 
-四条不一致全部来自 E 面板：AV45 左、右侧脑室（ROI 4、43）的 Real/Syn 均为 q<0.05，原图却均标 ns。C/D 的20条均显著，E/F 的其余16条均不显著。
+**映射更正与结论撤回：**E 前两项是 Left-VentralDC（28）与 Right-VentralDC（60），作者指出后已放大原图并核对LUT。旧版沿用R2-8误认成侧脑室4/43，因此旧版“4条不一致”结论撤回。更正后C/D的20条均显著、E/F的20条均不显著，40条二元分类全部与图面一致。完整392项表本已包含28/60，本次仅更正图示选择，该完整文件逐字节不变；没有重跑检验或FDR校正。
 
 ## 本地旧结果检查
 
 2026-11-02 检查 Git 未提交文件、`reports/` 与 `scripts/` 的文件名和脚本/报告内容；在这两个目录包含隐藏和被忽略文件，按 R2-9、FDR、Figure 4、392项与 equal_var=True 定向检索。另按相关文件名补查 `appendix/legacy_only/8_revision_evidence/`。未找到 R2-9 专用报告、脚本或392项结果，仅命中审稿要求、R2-8 来源核验和上一轮 R3-5 文件。这是上述范围内未定位，并非已证明全盘不存在；未做全仓库历史扫描。
 
-因此执行用户授权的补算。此前 R3-5 的“未定位”结论保留为前一轮核查记录，本报告提供新生成的可追溯统计证据。
+因此此前按用户授权执行补算；本次ROI映射更正复用该完整结果。R3-5现已同步更正28/60并挂接新复算p/q。
 
 ## 数据与统计口径
 
@@ -60,10 +60,10 @@ ROI ID、名称、tracer 和图面顺序沿用已核验的 [R3-5 映射](../r3_5
 | D/FDG | 17 Left-Hippocampus | syn | 302/371 | **** | 2.4565186e-14 | 1.2670465e-13 | 是 | 是 |
 | D/FDG | 53 Right-Hippocampus | real | 303/371 | **** | 6.0863911e-21 | 4.5882025e-20 | 是 | 是 |
 | D/FDG | 53 Right-Hippocampus | syn | 303/371 | **** | 2.2050688e-19 | 1.5435481e-18 | 是 | 是 |
-| E/AV45 | 4 Left-Lateral-Ventricle | real | 179/511 | ns | 0.00030318421 | 0.00033013392 | 是 | **否** |
-| E/AV45 | 4 Left-Lateral-Ventricle | syn | 179/511 | ns | 0.00048502801 | 0.00052814161 | 是 | **否** |
-| E/AV45 | 43 Right-Lateral-Ventricle | real | 179/511 | ns | 5.5841909e-05 | 6.1488844e-05 | 是 | **否** |
-| E/AV45 | 43 Right-Lateral-Ventricle | syn | 179/511 | ns | 0.00010973102 | 0.00012082742 | 是 | **否** |
+| E/AV45 | 28 Left-VentralDC | real | 179/511 | ns | 0.22717124 | 0.2368381 | 否 | 是 |
+| E/AV45 | 28 Left-VentralDC | syn | 179/511 | ns | 0.28289829 | 0.28581476 | 否 | 是 |
+| E/AV45 | 60 Right-VentralDC | real | 179/511 | ns | 0.1635349 | 0.17288321 | 否 | 是 |
+| E/AV45 | 60 Right-VentralDC | syn | 179/511 | ns | 0.25648522 | 0.26182866 | 否 | 是 |
 | E/AV45 | 53 Right-Hippocampus | real | 179/511 | ns | 0.93732858 | 0.93732858 | 否 | 是 |
 | E/AV45 | 53 Right-Hippocampus | syn | 179/511 | ns | 0.99493243 | 0.99493243 | 否 | 是 |
 | E/AV45 | 7 Left-Cerebellum-White-Matter | real | 179/511 | ns | 0.39142223 | 0.39957686 | 否 | 是 |
@@ -83,7 +83,7 @@ ROI ID、名称、tracer 和图面顺序沿用已核验的 [R3-5 映射](../r3_5
 
 ## 与 R3-5 效应量合看
 
-图示20个 tracer×ROI 中，12个在 Real/Syn 中均 q<0.05。以下按 |d_syn|−|d_real| 的绝对值列出其中幅度变化最大的三项，仅为描述排序，不设置事后“较大”或临床容许阈值：
+图示20个 tracer×ROI 中，10个在 Real/Syn 中均 q<0.05。以下按 |d_syn|−|d_real| 的绝对值列出其中幅度变化最大的三项，仅为描述排序，不设置事后“较大”或临床容许阈值：
 
 | 面板/示踪剂 | ROI ID / 解剖名 | d_real | d_syn | abs_d_difference |
 |---|---|---:|---:|---:|
@@ -103,12 +103,13 @@ AV45 右海马（53）与 FDG 左丘脑（10）的效应量符号改变均发生
 
 运行：`/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python reports/r2_9_figure4_fdr/analyze.py`。环境版本：NumPy 1.26.4、pandas 2.3.3、SciPy 1.15.2。仅写本目录的两个CSV和本报告；不修改原始CSV、稿件、图件、既有 R2-8/10 或 R3-5 文件，不启动训练/推理，不操作 Notion，不提交或推送 Git。
 
-脚本对全部392个 t 值作合并SD公式核对，并对196个源文件及依赖文件做运行前后哈希检查。另以标准库csv逐源行独立重读、离均差平方和和t分布尾概率复核392项 p，以排序/反向累计最小值独立核对四族全部392项 q；核验记录见本次交付。
+首次补算对全部392个 t 值作合并SD公式核对，并对196个源文件及依赖文件做运行前后哈希检查。另以标准库csv逐源行独立重读、离均差平方和和t分布尾概率复核392项 p，以排序/反向累计最小值独立核对四族全部392项 q。本次使用 `--refresh-figure4` 仅重选40条、更新本报告，完整392项文件SHA-256保持不变。
 
 | 关键只读依赖 | SHA-256 |
 |---|---|
 | `reports/r2_8_original_roi_stats/analyze.py` | `c89bb1331338f42e84495b5a69c8f2ae8d7be7f0cc22f8119efdb4fcef38b88c` |
 | `reports/r2_8_original_roi_stats/input_audit.csv` | `c92459670d2a6591ed52f314d3f4155f2674c428d7576a700ea8e40fb2b2c47c` |
-| `reports/r3_5_effect_size/figure4_effect_sizes.csv` | `0de54891d2341ac84f6a0df6f177d3b07a634057a717b83842e476fc815724a2` |
+| `reports/r3_5_effect_size/figure4_effect_sizes.csv` | `4da1c2185d0a8e7f3849f3dc34dba8fa6cad551e813c0879c1f1e29c1f56c4b5` |
 | `manuscript/figures/figure_4.pdf` | `14c65aeaff839fd47feb4308dd86bccf48f057f651cb41ce4bc6b54d1d8f0c74` |
 | `manuscript/BMEF_main.tex` | `28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba` |
+| `reports/r2_9_figure4_fdr/all_392_student_fdr.csv` | `438965bd10ee93d9478844e865890e96eaeeeb486a71cc603ab2e36ea8cac123` |

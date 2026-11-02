@@ -1,0 +1,14 @@
+{
+  "fold": 1,
+  "epoch": 165,
+  "subjects": 929,
+  "metric_rows": 1482,
+  "counts": {
+    "fdg": 792,
+    "av45": 690
+  },
+  "input_source": "verified_persistent_cache",
+  "persistent_cache": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+  "metrics_sha256": "7ac781fee5c2539d57fe159430d21e363d8dcef787436f7737c20c70c3e029d4",
+  "checkpoint_sha256": "5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7"
+}

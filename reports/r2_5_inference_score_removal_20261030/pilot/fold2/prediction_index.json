@@ -1,0 +1,46 @@
+[
+  {
+    "ptid": "018_S_4399",
+    "fold": 2,
+    "tracer": "fdg",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold2/018_S_4399_fdg.nii",
+    "sha256": "9fd8b86e89a729f569ae8f9ec6e524a872482bf1ccac2aaf2cdc681328b9fd34",
+    "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "cache_sha256": "d5842f63eac051e169a648c8439cb9d1ed3d7eb4ea133d619c278bf69d9a2134"
+  },
+  {
+    "ptid": "018_S_4399",
+    "fold": 2,
+    "tracer": "av45",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold2/018_S_4399_av45.nii",
+    "sha256": "e65318ef9ffb71982cdcb01faed7e9c63e273e86ab0ad617b47cf9bc2822b2af",
+    "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "cache_sha256": "d5842f63eac051e169a648c8439cb9d1ed3d7eb4ea133d619c278bf69d9a2134"
+  },
+  {
+    "ptid": "137_S_4631",
+    "fold": 2,
+    "tracer": "fdg",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold2/137_S_4631_fdg.nii",
+    "sha256": "adb773c99764dbf6a36c5af0fda81661d1adb876910be1c36f2bca40c2c91f8e",
+    "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "cache_sha256": "f67a6da21545f6a2ce700939731afdb6ca8e7eb71134823bfbf8b3e2bd025210"
+  },
+  {
+    "ptid": "137_S_4631",
+    "fold": 2,
+    "tracer": "av45",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold2/137_S_4631_av45.nii",
+    "sha256": "dfe714170a0bec763da3a918c3966791c5aa28b501b0d9dceda7433bc54c6b48",
+    "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+    "cache_sha256": "f67a6da21545f6a2ce700939731afdb6ca8e7eb71134823bfbf8b3e2bd025210"
+  }
+]

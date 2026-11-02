@@ -1,0 +1,17 @@
+{
+  "allocation_status": "EXCLUSIVE",
+  "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+  "host": "autodl-container-9b594ca734-b8eefc9f",
+  "issued_utc": "2026-10-31T02:46:48.047658+00:00",
+  "issued_by": "DIReCT Single per-instance handoff after prior training completion; live nvidia-smi no holders",
+  "protection_id": "direct-single-fdg_fold1-57139-1793414808",
+  "prior_training_completion_sha256": "48c88f18db7c24f037f9434a29a9048d2a971975a9b58f81df02ad0e958d212f",
+  "prior_oof_completion_sha256": null,
+  "prior_oof_pending_allowed": true,
+  "live_gpu": {
+    "uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+    "free_mib": 48510,
+    "total_mib": 49140,
+    "compute_apps": ""
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "experiment": "swinunetr_mri_pet_2fold_oof",
+  "created_utc": "2026-10-29T14:25:34.873420+00:00",
+  "report": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance3_fdg_fold1_200",
+  "assets": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5",
+  "full_config": "/root/autodl-tmp/DIRECTPP/reports/original_author_reproduction_20261020/config.json",
+  "full_report": "/root/autodl-tmp/DIRECTPP/reports/original_author_reproduction_20261020",
+  "full_identity": {
+    "report": "/root/autodl-tmp/DIRECTPP/reports/original_author_reproduction_20261020",
+    "hashes": {
+      "full_config": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+      "cohort": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+      "split_manifest": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+      "split_receipt": "5476b682b098657f71f69bbc7968dea92d60bee373a52e78134ce8d9f6475143",
+      "persistent_cache_receipt": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+      "full_oof_completion": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+      "full_oof_per_subject_metrics": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b"
+    },
+    "fold_counts": {
+      "1": 929,
+      "2": 928
+    },
+    "effective_by_fold": {
+      "1": {
+        "FDG": 792,
+        "AV45": 690
+      },
+      "2": {
+        "FDG": 806,
+        "AV45": 675
+      }
+    },
+    "effective": {
+      "FDG": 1598,
+      "AV45": 1365
+    },
+    "cache_receipt": {
+      "status": "COMPLETE",
+      "cache_version": 1,
+      "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+      "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+      "subjects": 1857,
+      "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+      "conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a"
+    },
+    "full_oof_epoch": 165,
+    "cohort_size": 1857
+  },
+  "full_config_sha256": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "cache": {
+    "path": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109553770710,
+    "valid": true
+  },
+  "cache_receipt_sha256": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+  "model": {
+    "implementation": "monai.networks.nets.SwinUNETR",
+    "monai_api": "MONAI >= 1.5 constructor without img_size; explicit spatial_dims=3",
+    "spatial_dims": 3,
+    "in_channels": 1,
+    "out_channels": 1,
+    "feature_size": 48,
+    "use_checkpoint": true,
+    "prediction": "direct normalized PET regression from MRI only"
+  },
+  "model_source_sha256": "97942d6d6fe262a00d2d1253c8fa76daf535ce2b0ae8423b4b69a69bb3a23947",
+  "runner_sha256": "917b677d03c04b88446df42f9550b087e068431fa33c5f25a514fb3405aa5d76",
+  "epochs": 200,
+  "recovery_interval": 10,
+  "milestone_epochs": [
+    50,
+    100,
+    150,
+    200
+  ],
+  "final_epoch": 200,
+  "epoch_budget_provenance": "User-fixed 200 epochs; recovered historical candidate used 800 epochs, not verified as Figure 2 final run",
+  "validation": "none; no held-out fold access during training",
+  "learning_rate": 1e-05,
+  "batch_size": 1,
+  "loss": "MSE on valid single-tracer PET only",
+  "optimizer": "Adam",
+  "amp": "CUDA autocast float16 with GradScaler",
+  "activation_checkpointing": true,
+  "seed_policy": "unseeded like recovered Swin and Full runs; capture and restore RNG state",
+  "metrics": {
+    "ssim": "generative.metrics.SSIMMetric spatial_dims=3 data_range=1 kernel_size=7",
+    "psnr": "MONAI PSNRMetric max_val=1.0",
+    "mse": "torch.nn.functional.mse_loss",
+    "mae": "torch.nn.functional.l1_loss",
+    "output_clamp": [
+      0.0,
+      1.0
+    ]
+  },
+  "expected_effective": {
+    "FDG": 1598,
+    "AV45": 1365
+  },
+  "expected_effective_by_fold": {
+    "1": {
+      "FDG": 792,
+      "AV45": 690
+    },
+    "2": {
+      "FDG": 806,
+      "AV45": 675
+    }
+  },
+  "training_subjects_by_tracer_fold": {
+    "FDG": {
+      "1": 806,
+      "2": 792
+    },
+    "AV45": {
+      "1": 675,
+      "2": 690
+    }
+  },
+  "training_seed_comparison": {
+    "swin": "no fixed seed found in recovered training cells; RNG states recorded",
+    "full": "training_seed=null in frozen Full config"
+  },
+  "status": "PREPARED_CACHE_VERIFIED"
+}

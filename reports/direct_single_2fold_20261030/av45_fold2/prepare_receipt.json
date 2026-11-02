@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED",
+  "config_sha256": "82fd4d333576110202f610eee1f769a4e46b8632fbb7bd8aa97bed03e5b05e89",
+  "cache": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109552940631,
+    "valid": true
+  },
+  "train_subjects": 690,
+  "heldout_metric_rows": 675
+}

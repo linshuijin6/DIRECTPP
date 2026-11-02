@@ -1,0 +1,15 @@
+{
+  "status": "PREPARED_CACHE_VERIFIED",
+  "config_sha256": "3e2abbd940fe599fd53199a186a797e4fa81809fbb92461c300b732b060f1333",
+  "cache": {
+    "path": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109553770710,
+    "valid": true
+  }
+}

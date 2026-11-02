@@ -1,0 +1,41 @@
+{
+  "status": "SYNTHETIC_PARALLEL_COST_TEST_ONLY",
+  "gpu": "NVIDIA GeForce RTX 4090 48GB",
+  "model_parameters": 62186659,
+  "input_shape_per_process": [1, 1, 160, 192, 160],
+  "input_dtype": "float32",
+  "training_step": "MONAI SwinUNETR forward + MSE + backward + Adam update, AMP fp16, activation checkpointing",
+  "per_process_steps": 5,
+  "warmup_steps_per_process": 1,
+  "parallel_median_step_seconds": {
+    "fold1": 1.307982573285699,
+    "fold2": 1.3076342744752765
+  },
+  "serial_repeat_median_step_seconds": 0.6138090463355184,
+  "parallel_slowdown_vs_serial": 2.131,
+  "peak_allocated_bytes_per_process": 14355274752,
+  "peak_reserved_bytes_per_process": 22395486208,
+  "estimated_same_tracer_two_fold_runtime_hours": {
+    "FDG_serial": 217.97,
+    "FDG_parallel": 234.27,
+    "FDG_parallel_delta_hours": 16.30,
+    "FDG_parallel_delta_percent": 7.48,
+    "AV45_serial": 186.19,
+    "AV45_parallel": 200.50,
+    "AV45_parallel_delta_hours": 14.32,
+    "AV45_parallel_delta_percent": 7.69
+  },
+  "estimated_all_four_runtime_hours": {
+    "serial": 404.16,
+    "two_at_a_time_same_gpu": 434.78
+  },
+  "method": "Serial estimates use the current isolated single-process median. Parallel pair estimates use max(fold updates * concurrent per-step median); pair scheduling is sequential across tracers.",
+  "heldout_accessed": false,
+  "formal_training_started": false,
+  "limitations": [
+    "Synthetic tensors only; no real cache I/O or data-loading overhead.",
+    "Five updates per process are a short benchmark, not a long-run throughput guarantee.",
+    "Estimate excludes periodic recovery writes and possible clock or thermal variation.",
+    "No formal OOF training or checkpoint was created."
+  ]
+}

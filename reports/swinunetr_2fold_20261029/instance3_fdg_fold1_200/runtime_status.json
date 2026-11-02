@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-10-29T14:30:00Z",
+  "status": "RUNNING",
+  "host": "autodl-container-9b594ca734-b8eefc9f",
+  "pid": 2034,
+  "tracer": "FDG",
+  "fold": 1,
+  "epochs": 200,
+  "fresh_initialization": true,
+  "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+  "gpu_utilization_percent": 79,
+  "gpu_memory_used_mib": 21914,
+  "gpu_memory_total_mib": 49140,
+  "compute_process_pid": 2034,
+  "log_path": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/logs/fdg_fold1.log",
+  "remote_assets": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5",
+  "remote_report": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance3_fdg_fold1_200",
+  "note": "New run started from epoch 1 without --resume; legacy v4 assets untouched."
+}

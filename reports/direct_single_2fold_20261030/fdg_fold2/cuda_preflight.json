@@ -1,0 +1,107 @@
+{
+  "status": "PASS_NO_FORMAL_TRAINING_STATE",
+  "task": "fdg_fold2",
+  "hardware": {
+    "host": "autodl-container-58a0ln8rhl-a7b5e942",
+    "pid": 60522,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cuda_visible_devices": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "free_bytes_at_start": 20199636992,
+    "total_bytes": 50864390144
+  },
+  "allocation": {
+    "allocation_status": "EXCLUSIVE",
+    "gpu_uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "host": "autodl-container-58a0ln8rhl-a7b5e942",
+    "issued_utc": "2026-10-31T02:46:48.290947+00:00",
+    "issued_by": "DIReCT Single per-instance handoff after prior training completion; live nvidia-smi no holders",
+    "protection_id": "direct-single-fdg_fold2-60454-1793414808",
+    "prior_training_completion_sha256": "a3e8c10217393954bd03f6b707ff68be7d385536f92235f006d4017194a21177",
+    "prior_oof_completion_sha256": null,
+    "prior_oof_pending_allowed": true,
+    "live_gpu": {
+      "uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+      "free_mib": 48509,
+      "total_mib": 49140,
+      "compute_apps": ""
+    }
+  },
+  "allocation_receipt_sha256": "2c932c13f071578c480a3e8800134e47373be7b8b8226165e642d980fcf1b952",
+  "config_sha256": "8818b163f307ba5a9d8daf5a9aafd3287f396bcb6fa2d92801073156800b0e55",
+  "parameters": 9925921,
+  "attention_backend": "torch_sdpa_compat",
+  "input_shape": [
+    1,
+    1,
+    160,
+    192,
+    160
+  ],
+  "context_shape": [
+    1,
+    2,
+    512
+  ],
+  "condition_receipt_sha256": "d97bae8fa60fb44fdb737911a34083d04392f5c7016afdf6b05a301f50a7c076",
+  "warmup_steps": 2,
+  "measured_steps": 10,
+  "step_seconds": [
+    0.48690981045365334,
+    0.4841983988881111,
+    0.4845733679831028,
+    0.5185173936188221,
+    0.48712363839149475,
+    0.5172348320484161,
+    0.4867780916392803,
+    0.48700953647494316,
+    0.48813890293240547,
+    0.5451667495071888
+  ],
+  "step_seconds_median": 0.48706658743321896,
+  "peak_allocated_bytes": 25959200256,
+  "peak_reserved_bytes": 30104616960,
+  "losses": [
+    0.037058088928461075,
+    0.03579948842525482,
+    0.03825307637453079,
+    0.030499255284667015,
+    0.032532621175050735,
+    0.03215394541621208,
+    0.031233426183462143,
+    0.03270842134952545,
+    0.031116800382733345,
+    0.028153203427791595,
+    0.025455618277192116,
+    0.03168909624218941
+  ],
+  "amp_skipped_steps": 0,
+  "successful_optimizer_updates": 12,
+  "checkpoint_bytes": 39800434,
+  "recovery_bytes": 119486024,
+  "estimated_task_assets_bytes": 16045691692,
+  "training_time_estimates": {
+    "fdg_fold1": {
+      "updates": 161200,
+      "hours": 21.809759415065248
+    },
+    "fdg_fold2": {
+      "updates": 158400,
+      "hours": 21.430929847061634
+    },
+    "av45_fold1": {
+      "updates": 135000,
+      "hours": 18.26499702874571
+    },
+    "av45_fold2": {
+      "updates": 138000,
+      "hours": 18.670885851606727
+    }
+  },
+  "all_four_gpu_hours_estimate": 80.17657214247932,
+  "heldout_accessed": false,
+  "formal_state_written": false
+}

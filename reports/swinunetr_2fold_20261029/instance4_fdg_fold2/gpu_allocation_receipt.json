@@ -1,0 +1,16 @@
+{
+  "allocation_status": "EXCLUSIVE",
+  "gpu_uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+  "protection_id": "seetacloud-instance4-dedicated-gpu0",
+  "issued_by": "user-designated dedicated instance; live nvidia-smi recheck immediately before launch shows no compute holders",
+  "host": "autodl-container-58a0ln8rhl-a7b5e942",
+  "issued_utc": "2026-10-29T14:00:39.378122+00:00",
+  "evidence": {
+    "instance": "remote_instance_4",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "memory_used_mib": 0,
+    "memory_free_mib": 48509,
+    "compute_processes": "none",
+    "scope": "SwinUNETR FDG Fold 2 only"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "TRAINING_STARTED",
+  "task": "av45_fold1",
+  "instance_host": "autodl-container-4bd4u9zpqz-e2f0447f",
+  "gpu_uuid": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+  "pid": 42438,
+  "started_utc": "2026-10-31T02:49:04.783523+00:00",
+  "config_sha256": "95558db4489e097ec55b6b0fa7627aae562048baa180cf626133a90c2e5841f8",
+  "log": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold1/train.log",
+  "checkpoint_dir": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold1/formal",
+  "recovery": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/av45_fold1/formal/recovery.pt",
+  "preflight": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold1/cuda_preflight.json"
+}

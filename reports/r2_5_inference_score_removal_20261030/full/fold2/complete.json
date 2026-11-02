@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "stage": "full",
+  "fold": 2,
+  "subjects": 928,
+  "volumes": 1482,
+  "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+  "output": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/full/fold2",
+  "replay_tolerance": null
+}

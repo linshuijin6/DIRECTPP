@@ -1,0 +1,723 @@
+{
+  "status": "ALL_VERIFICATIONS_PASSED",
+  "verified_at": "2026-10-31T11:43:20+0800",
+  "hostname": "server",
+  "duration_sec": 55.25936198234558,
+  "config_sha256": "16199d88e3812c905d26e89fa6d398d2ea53d00305e24abc47d8cc34f4e6bcf7",
+  "report_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3",
+  "assets_dir": "/mnt/datas230/users/linshuijin/DIRECTPP_tabular_mlp/20261028_v3",
+  "endpoint_checkpoints": {
+    "fold1_ep165": "5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7",
+    "fold1_ep200": "d1c9bbec127db3b62a52154777977d8181ee3bd5432c7460102e33a60d9648d8",
+    "fold2_ep165": "b4433a72528728885c1241eb8492bbcb9d8acf69d92632d8b178ab2512644d26",
+    "fold2_ep200": "89cfdf056821fc361cea319ebc211c1ee2e3c5c05e086667044798670fb21830"
+  },
+  "release_gate": "AutoDL instance 1 (ssh -p 36733 root@connect.weste.seetacloud.com) and instance 2 (ssh -p 40818 root@connect.westb.seetacloud.com) may be safely shut down and unsubscribed by the user only when status is ALL_VERIFICATIONS_PASSED",
+  "checks": [
+    {
+      "check": "host",
+      "status": "INFO",
+      "detail": "server"
+    },
+    {
+      "check": "report_dir",
+      "status": "INFO",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3"
+    },
+    {
+      "check": "assets_dir",
+      "status": "INFO",
+      "detail": "/mnt/datas230/users/linshuijin/DIRECTPP_tabular_mlp/20261028_v3"
+    },
+    {
+      "check": "config.exists",
+      "status": "PASS",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/config.json"
+    },
+    {
+      "check": "config.sha256",
+      "status": "PASS",
+      "detail": "16199d88e3812c905d26e89fa6d398d2ea53d00305e24abc47d8cc34f4e6bcf7"
+    },
+    {
+      "check": "prep.cohort.json.exists",
+      "status": "PASS",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/cohort.json"
+    },
+    {
+      "check": "prep.cohort.json.sha256",
+      "status": "PASS",
+      "detail": "actual=91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311 expected=91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311"
+    },
+    {
+      "check": "prep.split_manifest.csv.exists",
+      "status": "PASS",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/split_manifest.csv"
+    },
+    {
+      "check": "prep.split_manifest.csv.sha256",
+      "status": "PASS",
+      "detail": "actual=007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c expected=007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c"
+    },
+    {
+      "check": "prep.input_hashes.csv.exists",
+      "status": "PASS",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/input_hashes.csv"
+    },
+    {
+      "check": "prep.input_hashes.csv.sha256",
+      "status": "PASS",
+      "detail": "actual=3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07 expected=3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07"
+    },
+    {
+      "check": "prep.clinical_features.csv.exists",
+      "status": "PASS",
+      "detail": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/clinical_features.csv"
+    },
+    {
+      "check": "prep.clinical_features.csv.sha256",
+      "status": "PASS",
+      "detail": "actual=3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693 expected=3ef34d4eac02a9e02e7ed73ad3d8b466c6532174232c23117fe208396fa82693"
+    },
+    {
+      "check": "prep.preflight_fold1.exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "prep.preflight_fold2.exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof_summary.completion_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof_summary.status",
+      "status": "PASS",
+      "detail": "COMPLETE_TWO_FOLD_OOF_RECONSTRUCTION"
+    },
+    {
+      "check": "oof_summary.per_subject_metrics_sha256",
+      "status": "PASS",
+      "detail": "actual=cf563c0eb741af5eaffa98560b982bf78e65e863b058206b8d070b312f9bff62 receipt=cf563c0eb741af5eaffa98560b982bf78e65e863b058206b8d070b312f9bff62"
+    },
+    {
+      "check": "oof_summary.per_subject_rows",
+      "status": "PASS",
+      "detail": "5926 rows"
+    },
+    {
+      "check": "oof_summary.overall_summary_sha256",
+      "status": "PASS",
+      "detail": "actual=0a915bbda7b2ad3b10ea48e6dc54229927f852187d396c63891227d10f95fe86 receipt=0a915bbda7b2ad3b10ea48e6dc54229927f852187d396c63891227d10f95fe86"
+    },
+    {
+      "check": "formal.fold1.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.status",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.config_sha256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.epochs_count",
+      "status": "PASS",
+      "detail": "200 epochs"
+    },
+    {
+      "check": "formal.fold1.recovery_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep10.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep10.sha256",
+      "status": "PASS",
+      "detail": "actual=4aa510efffeaaf194adfb74f6d09d97de1f0a2076bc80af682dd1d7ef143d108 receipt=4aa510efffeaaf194adfb74f6d09d97de1f0a2076bc80af682dd1d7ef143d108"
+    },
+    {
+      "check": "formal.fold1.ep20.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep20.sha256",
+      "status": "PASS",
+      "detail": "actual=306d470abf39fca0d41187e7738a6ad5975c7f7f5ab2b7c3a53cbb3a6eef5553 receipt=306d470abf39fca0d41187e7738a6ad5975c7f7f5ab2b7c3a53cbb3a6eef5553"
+    },
+    {
+      "check": "formal.fold1.ep30.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep30.sha256",
+      "status": "PASS",
+      "detail": "actual=905453c060c7067a0b0b61581c74348c4f7a441d0f0982a38d10c796318d9ac2 receipt=905453c060c7067a0b0b61581c74348c4f7a441d0f0982a38d10c796318d9ac2"
+    },
+    {
+      "check": "formal.fold1.ep40.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep40.sha256",
+      "status": "PASS",
+      "detail": "actual=7806636814f102f76c7f551ecf09f43eb9d3d8a61483b2ad9c364ef9ca6c7e8b receipt=7806636814f102f76c7f551ecf09f43eb9d3d8a61483b2ad9c364ef9ca6c7e8b"
+    },
+    {
+      "check": "formal.fold1.ep50.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep50.sha256",
+      "status": "PASS",
+      "detail": "actual=b1ebe400c31ade49e8c03066d4e35cdc4be4dea791a96f4dc0b75d4cbf0b9f11 receipt=b1ebe400c31ade49e8c03066d4e35cdc4be4dea791a96f4dc0b75d4cbf0b9f11"
+    },
+    {
+      "check": "formal.fold1.ep60.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep60.sha256",
+      "status": "PASS",
+      "detail": "actual=eea7dd9555a6c2b24a3c59254082497b99564866c34ccba53a827d83623de784 receipt=eea7dd9555a6c2b24a3c59254082497b99564866c34ccba53a827d83623de784"
+    },
+    {
+      "check": "formal.fold1.ep70.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep70.sha256",
+      "status": "PASS",
+      "detail": "actual=a312e0a3c46a119a215210d3e8fa6527db01153fd2fd1598dd5f3f1cab788f75 receipt=a312e0a3c46a119a215210d3e8fa6527db01153fd2fd1598dd5f3f1cab788f75"
+    },
+    {
+      "check": "formal.fold1.ep80.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep80.sha256",
+      "status": "PASS",
+      "detail": "actual=3610aa4a03bc21b601a4fb321e045052b83b1065fff3dc13f6e0a399346afe26 receipt=3610aa4a03bc21b601a4fb321e045052b83b1065fff3dc13f6e0a399346afe26"
+    },
+    {
+      "check": "formal.fold1.ep90.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep90.sha256",
+      "status": "PASS",
+      "detail": "actual=9dfd1249e58e640bfc03359e7f3106dce807fbe614629c6bf08852d62bc6f1e1 receipt=9dfd1249e58e640bfc03359e7f3106dce807fbe614629c6bf08852d62bc6f1e1"
+    },
+    {
+      "check": "formal.fold1.ep100.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep100.sha256",
+      "status": "PASS",
+      "detail": "actual=2026787d1db80a519a445479d800a5cd355e1d4346d3bcdb7f8f0bf67177ebd3 receipt=2026787d1db80a519a445479d800a5cd355e1d4346d3bcdb7f8f0bf67177ebd3"
+    },
+    {
+      "check": "formal.fold1.ep110.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep110.sha256",
+      "status": "PASS",
+      "detail": "actual=f91649accb222eb6389148152f3d9820cabab9ea978fb1f315202b83439c41ee receipt=f91649accb222eb6389148152f3d9820cabab9ea978fb1f315202b83439c41ee"
+    },
+    {
+      "check": "formal.fold1.ep120.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep120.sha256",
+      "status": "PASS",
+      "detail": "actual=4f6349dc186ecf30e686d9f8b48f95c445a5119d11eb04e3e434ae4ee8993314 receipt=4f6349dc186ecf30e686d9f8b48f95c445a5119d11eb04e3e434ae4ee8993314"
+    },
+    {
+      "check": "formal.fold1.ep130.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep130.sha256",
+      "status": "PASS",
+      "detail": "actual=8f4291a1b1a1951f9e4982f8fadbd2819297e511eb9c6f560fe14b0746bfad0e receipt=8f4291a1b1a1951f9e4982f8fadbd2819297e511eb9c6f560fe14b0746bfad0e"
+    },
+    {
+      "check": "formal.fold1.ep140.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep140.sha256",
+      "status": "PASS",
+      "detail": "actual=9fc841f316d8348f2b63802408acb9dfe17cd31fa4dbec9178e199d6e4dd2b60 receipt=9fc841f316d8348f2b63802408acb9dfe17cd31fa4dbec9178e199d6e4dd2b60"
+    },
+    {
+      "check": "formal.fold1.ep150.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep150.sha256",
+      "status": "PASS",
+      "detail": "actual=47fdc30c63e000897cbd1d8155794dcc6a9c40ea47b94ca9c833239ca94ab90f receipt=47fdc30c63e000897cbd1d8155794dcc6a9c40ea47b94ca9c833239ca94ab90f"
+    },
+    {
+      "check": "formal.fold1.ep160.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep160.sha256",
+      "status": "PASS",
+      "detail": "actual=7b1a4a9148d97d88355f4ecb8b3b2009c7f303071bba5f228f369af56a7bce11 receipt=7b1a4a9148d97d88355f4ecb8b3b2009c7f303071bba5f228f369af56a7bce11"
+    },
+    {
+      "check": "formal.fold1.ep165.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep165.sha256",
+      "status": "PASS",
+      "detail": "actual=5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7 receipt=5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7"
+    },
+    {
+      "check": "formal.fold1.ep170.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep170.sha256",
+      "status": "PASS",
+      "detail": "actual=88598ddc89502f28d9abefee85f4a0bbdd960fbd73418861f49bd26c41f64bd4 receipt=88598ddc89502f28d9abefee85f4a0bbdd960fbd73418861f49bd26c41f64bd4"
+    },
+    {
+      "check": "formal.fold1.ep180.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep180.sha256",
+      "status": "PASS",
+      "detail": "actual=2ca9a6c8be4caf452fcca7d27c2af26a9bf4f3fdb864e4b2aa54962e2ab2ce67 receipt=2ca9a6c8be4caf452fcca7d27c2af26a9bf4f3fdb864e4b2aa54962e2ab2ce67"
+    },
+    {
+      "check": "formal.fold1.ep190.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep190.sha256",
+      "status": "PASS",
+      "detail": "actual=bbefd2fd11a7f337f909b07a85d135822796f8f37e5e6d944f675b0e79292d59 receipt=bbefd2fd11a7f337f909b07a85d135822796f8f37e5e6d944f675b0e79292d59"
+    },
+    {
+      "check": "formal.fold1.ep200.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold1.ep200.sha256",
+      "status": "PASS",
+      "detail": "actual=d1c9bbec127db3b62a52154777977d8181ee3bd5432c7460102e33a60d9648d8 receipt=d1c9bbec127db3b62a52154777977d8181ee3bd5432c7460102e33a60d9648d8"
+    },
+    {
+      "check": "formal.fold2.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.status",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.config_sha256",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.epochs_count",
+      "status": "PASS",
+      "detail": "200 epochs"
+    },
+    {
+      "check": "formal.fold2.recovery_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep10.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep10.sha256",
+      "status": "PASS",
+      "detail": "actual=989a8bd3fa02ea826099df63a7c1e8829f8589d8affc1a4088a3e67297613b0c receipt=989a8bd3fa02ea826099df63a7c1e8829f8589d8affc1a4088a3e67297613b0c"
+    },
+    {
+      "check": "formal.fold2.ep20.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep20.sha256",
+      "status": "PASS",
+      "detail": "actual=4479f931e1b52c72b5526bfc673f67cafb60b74e95d4029ef5835059e3dc3275 receipt=4479f931e1b52c72b5526bfc673f67cafb60b74e95d4029ef5835059e3dc3275"
+    },
+    {
+      "check": "formal.fold2.ep30.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep30.sha256",
+      "status": "PASS",
+      "detail": "actual=b2202e484cd2651a97013696691ca83509f2ee9bb28e9a52c01c85fe7330447b receipt=b2202e484cd2651a97013696691ca83509f2ee9bb28e9a52c01c85fe7330447b"
+    },
+    {
+      "check": "formal.fold2.ep40.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep40.sha256",
+      "status": "PASS",
+      "detail": "actual=8e976b4b72e850c653788abc4e6efd2013cf31de86a058d2fc7fb67fe9467708 receipt=8e976b4b72e850c653788abc4e6efd2013cf31de86a058d2fc7fb67fe9467708"
+    },
+    {
+      "check": "formal.fold2.ep50.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep50.sha256",
+      "status": "PASS",
+      "detail": "actual=77c0526655be1c3fd2e6ee817d84f74b8ad7612434e32c5a0d635880feed623d receipt=77c0526655be1c3fd2e6ee817d84f74b8ad7612434e32c5a0d635880feed623d"
+    },
+    {
+      "check": "formal.fold2.ep60.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep60.sha256",
+      "status": "PASS",
+      "detail": "actual=2299bac3cf2ce690b0ba6b23ffd48bb5f6900829d059db31b1cba833c1afd8c5 receipt=2299bac3cf2ce690b0ba6b23ffd48bb5f6900829d059db31b1cba833c1afd8c5"
+    },
+    {
+      "check": "formal.fold2.ep70.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep70.sha256",
+      "status": "PASS",
+      "detail": "actual=c63d17f83fff0c3f730a5abfdd938dc88335888d85d2c8e4ddcf030e19497584 receipt=c63d17f83fff0c3f730a5abfdd938dc88335888d85d2c8e4ddcf030e19497584"
+    },
+    {
+      "check": "formal.fold2.ep80.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep80.sha256",
+      "status": "PASS",
+      "detail": "actual=9b9d3d4ebb6f38bcbcefb054b7d2d24995b8106e01976e2f35fb578d96d76ef7 receipt=9b9d3d4ebb6f38bcbcefb054b7d2d24995b8106e01976e2f35fb578d96d76ef7"
+    },
+    {
+      "check": "formal.fold2.ep90.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep90.sha256",
+      "status": "PASS",
+      "detail": "actual=e6c7dd3d7acc99e2df2190d0b954b7366ea74bea7fd45691baa3e2eb4f56e784 receipt=e6c7dd3d7acc99e2df2190d0b954b7366ea74bea7fd45691baa3e2eb4f56e784"
+    },
+    {
+      "check": "formal.fold2.ep100.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep100.sha256",
+      "status": "PASS",
+      "detail": "actual=921c3155efd61a0aed966cc9f59b1e8a3834c747700a700a63258b79283d6ca4 receipt=921c3155efd61a0aed966cc9f59b1e8a3834c747700a700a63258b79283d6ca4"
+    },
+    {
+      "check": "formal.fold2.ep110.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep110.sha256",
+      "status": "PASS",
+      "detail": "actual=42ff7a9bdb60a6afb5710d9cbe8586b863d0626850491c079cfc11f467b1cffa receipt=42ff7a9bdb60a6afb5710d9cbe8586b863d0626850491c079cfc11f467b1cffa"
+    },
+    {
+      "check": "formal.fold2.ep120.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep120.sha256",
+      "status": "PASS",
+      "detail": "actual=c502e754e9d9d2626c45f0861a2889b7be574a54475b96b08e580858107a10c9 receipt=c502e754e9d9d2626c45f0861a2889b7be574a54475b96b08e580858107a10c9"
+    },
+    {
+      "check": "formal.fold2.ep130.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep130.sha256",
+      "status": "PASS",
+      "detail": "actual=d53be60759f680fed4631d531ebfd08236f2212d27cc196aae228cf9915e5068 receipt=d53be60759f680fed4631d531ebfd08236f2212d27cc196aae228cf9915e5068"
+    },
+    {
+      "check": "formal.fold2.ep140.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep140.sha256",
+      "status": "PASS",
+      "detail": "actual=514feb124fb1da30e7eeaa4d1fae238250907d08f88295147bdbb686168475b3 receipt=514feb124fb1da30e7eeaa4d1fae238250907d08f88295147bdbb686168475b3"
+    },
+    {
+      "check": "formal.fold2.ep150.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep150.sha256",
+      "status": "PASS",
+      "detail": "actual=ba2cab8ec019c0df01f58fcdf03cb5a1e1e17d7d3bdf8289314bb7e94f7bf17c receipt=ba2cab8ec019c0df01f58fcdf03cb5a1e1e17d7d3bdf8289314bb7e94f7bf17c"
+    },
+    {
+      "check": "formal.fold2.ep160.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep160.sha256",
+      "status": "PASS",
+      "detail": "actual=2b1be972d6623910b37a030623ecfa1560e35d70db478e04bada5bf2797a6042 receipt=2b1be972d6623910b37a030623ecfa1560e35d70db478e04bada5bf2797a6042"
+    },
+    {
+      "check": "formal.fold2.ep165.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep165.sha256",
+      "status": "PASS",
+      "detail": "actual=b4433a72528728885c1241eb8492bbcb9d8acf69d92632d8b178ab2512644d26 receipt=b4433a72528728885c1241eb8492bbcb9d8acf69d92632d8b178ab2512644d26"
+    },
+    {
+      "check": "formal.fold2.ep170.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep170.sha256",
+      "status": "PASS",
+      "detail": "actual=824fd89b19b75b56d468574ac92ccfafe6ef765cd60836bbcd689134d7af8cde receipt=824fd89b19b75b56d468574ac92ccfafe6ef765cd60836bbcd689134d7af8cde"
+    },
+    {
+      "check": "formal.fold2.ep180.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep180.sha256",
+      "status": "PASS",
+      "detail": "actual=baebb3d14221bef1ee62ab504e6542e821f86a49af59433de5db5bb30c76149f receipt=baebb3d14221bef1ee62ab504e6542e821f86a49af59433de5db5bb30c76149f"
+    },
+    {
+      "check": "formal.fold2.ep190.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep190.sha256",
+      "status": "PASS",
+      "detail": "actual=3ee4c8fc8c1e0099652f84fdca058233eb465466aa6e1f6e739e675b8aa65816 receipt=3ee4c8fc8c1e0099652f84fdca058233eb465466aa6e1f6e739e675b8aa65816"
+    },
+    {
+      "check": "formal.fold2.ep200.pth_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "formal.fold2.ep200.sha256",
+      "status": "PASS",
+      "detail": "actual=89cfdf056821fc361cea319ebc211c1ee2e3c5c05e086667044798670fb21830 receipt=89cfdf056821fc361cea319ebc211c1ee2e3c5c05e086667044798670fb21830"
+    },
+    {
+      "check": "oof.ep165.fold1.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof.ep165.fold1.checkpoint_cross_match",
+      "status": "PASS",
+      "detail": "oof_receipt=5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7 formal_pth=5da5610c53ca24229a89755e8f6374a5da1041bb2e45736412b2394521409cd7"
+    },
+    {
+      "check": "oof.ep165.fold1.metrics_sha256",
+      "status": "PASS",
+      "detail": "actual=7ac781fee5c2539d57fe159430d21e363d8dcef787436f7737c20c70c3e029d4 receipt=7ac781fee5c2539d57fe159430d21e363d8dcef787436f7737c20c70c3e029d4"
+    },
+    {
+      "check": "oof.ep165.fold1.metric_rows",
+      "status": "PASS",
+      "detail": "rows=1482 expected=1482"
+    },
+    {
+      "check": "oof.ep165.fold2.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof.ep165.fold2.checkpoint_cross_match",
+      "status": "PASS",
+      "detail": "oof_receipt=b4433a72528728885c1241eb8492bbcb9d8acf69d92632d8b178ab2512644d26 formal_pth=b4433a72528728885c1241eb8492bbcb9d8acf69d92632d8b178ab2512644d26"
+    },
+    {
+      "check": "oof.ep165.fold2.metrics_sha256",
+      "status": "PASS",
+      "detail": "actual=de437d63ca30c01b838801070298ad90211ab0536ee1e0c81ab7452271fc7f06 receipt=de437d63ca30c01b838801070298ad90211ab0536ee1e0c81ab7452271fc7f06"
+    },
+    {
+      "check": "oof.ep165.fold2.metric_rows",
+      "status": "PASS",
+      "detail": "rows=1481 expected=1481"
+    },
+    {
+      "check": "oof.ep200.fold1.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof.ep200.fold1.checkpoint_cross_match",
+      "status": "PASS",
+      "detail": "oof_receipt=d1c9bbec127db3b62a52154777977d8181ee3bd5432c7460102e33a60d9648d8 formal_pth=d1c9bbec127db3b62a52154777977d8181ee3bd5432c7460102e33a60d9648d8"
+    },
+    {
+      "check": "oof.ep200.fold1.metrics_sha256",
+      "status": "PASS",
+      "detail": "actual=0df2097beb355919c4aff1e1834719666934c32ba4f931e4ab1b00d906ef3840 receipt=0df2097beb355919c4aff1e1834719666934c32ba4f931e4ab1b00d906ef3840"
+    },
+    {
+      "check": "oof.ep200.fold1.metric_rows",
+      "status": "PASS",
+      "detail": "rows=1482 expected=1482"
+    },
+    {
+      "check": "oof.ep200.fold2.complete_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "oof.ep200.fold2.checkpoint_cross_match",
+      "status": "PASS",
+      "detail": "oof_receipt=89cfdf056821fc361cea319ebc211c1ee2e3c5c05e086667044798670fb21830 formal_pth=89cfdf056821fc361cea319ebc211c1ee2e3c5c05e086667044798670fb21830"
+    },
+    {
+      "check": "oof.ep200.fold2.metrics_sha256",
+      "status": "PASS",
+      "detail": "actual=5a83bec997795290bb96999eeac3f1d6ed7fcb6f99af859a235b0a100de69edc receipt=5a83bec997795290bb96999eeac3f1d6ed7fcb6f99af859a235b0a100de69edc"
+    },
+    {
+      "check": "oof.ep200.fold2.metric_rows",
+      "status": "PASS",
+      "detail": "rows=1481 expected=1481"
+    },
+    {
+      "check": "torch.load.fold1.ep165.keys",
+      "status": "PASS",
+      "detail": "['epoch', 'model', 'optimizer']"
+    },
+    {
+      "check": "torch.load.fold1.ep165.tensors_finite",
+      "status": "PASS",
+      "detail": "all parameters finite"
+    },
+    {
+      "check": "torch.load.fold1.ep200.keys",
+      "status": "PASS",
+      "detail": "['epoch', 'model', 'optimizer']"
+    },
+    {
+      "check": "torch.load.fold1.ep200.tensors_finite",
+      "status": "PASS",
+      "detail": "all parameters finite"
+    },
+    {
+      "check": "torch.load.fold2.ep165.keys",
+      "status": "PASS",
+      "detail": "['epoch', 'model', 'optimizer']"
+    },
+    {
+      "check": "torch.load.fold2.ep165.tensors_finite",
+      "status": "PASS",
+      "detail": "all parameters finite"
+    },
+    {
+      "check": "torch.load.fold2.ep200.keys",
+      "status": "PASS",
+      "detail": "['epoch', 'model', 'optimizer']"
+    },
+    {
+      "check": "torch.load.fold2.ep200.tensors_finite",
+      "status": "PASS",
+      "detail": "all parameters finite"
+    },
+    {
+      "check": "symlink.formal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "symlink.runtime",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "verification_duration_sec",
+      "status": "INFO",
+      "detail": "55.26"
+    }
+  ]
+}

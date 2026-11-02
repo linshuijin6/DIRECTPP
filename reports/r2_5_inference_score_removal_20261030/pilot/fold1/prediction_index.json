@@ -1,0 +1,46 @@
+[
+  {
+    "ptid": "067_S_2301",
+    "fold": 1,
+    "tracer": "fdg",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold1/067_S_2301_fdg.nii",
+    "sha256": "2889b423e8b5f57f3aeff6c0ed42c02ccb47d4e214dcea2df114ca74cd0a0810",
+    "checkpoint_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "cache_sha256": "ff34a49e21ad9b68ddf3a3ef64f78f4eff6cd4e95079704a3fe91210d4f4e10e"
+  },
+  {
+    "ptid": "067_S_2301",
+    "fold": 1,
+    "tracer": "av45",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold1/067_S_2301_av45.nii",
+    "sha256": "fd39dbd5e11f7947c82db83a231ec55be79e7f66292cd430370c68e748db96d0",
+    "checkpoint_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "cache_sha256": "ff34a49e21ad9b68ddf3a3ef64f78f4eff6cd4e95079704a3fe91210d4f4e10e"
+  },
+  {
+    "ptid": "052_S_4959",
+    "fold": 1,
+    "tracer": "fdg",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold1/052_S_4959_fdg.nii",
+    "sha256": "77d7663ffe7b50d49d07249948b905ff4e8d7b3dfa57764a0fa07d081ef4ade0",
+    "checkpoint_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "cache_sha256": "7f8ca67c9513cc51e664bb2e11bc1069a15d009a30f050dda486da061a7b7b6e"
+  },
+  {
+    "ptid": "052_S_4959",
+    "fold": 1,
+    "tracer": "av45",
+    "condition": "No-Scores",
+    "checkpoint_training_condition": "Full",
+    "path": "/home/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold1/052_S_4959_av45.nii",
+    "sha256": "39b691eb4d218577b3d3bc3f8bd8e536afde48525dc0f39c637c0920f76e30bb",
+    "checkpoint_sha256": "f9455190e0d427783860174ac5a2bbc08e906bfaadd225586d39b674b861f5e9",
+    "cache_sha256": "7f8ca67c9513cc51e664bb2e11bc1069a15d009a30f050dda486da061a7b7b6e"
+  }
+]

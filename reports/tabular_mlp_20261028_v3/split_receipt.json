@@ -1,0 +1,15 @@
+{
+  "protocol": "reconstructed author-described two-fold OOF",
+  "historical_identity_claim": false,
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "unique_ptids": 1857,
+  "held_out_union_complete": true,
+  "held_out_intersection_count": 0,
+  "historical_1856_1_crosscheck": {
+    "train": 1856,
+    "val": "011_S_4105"
+  }
+}

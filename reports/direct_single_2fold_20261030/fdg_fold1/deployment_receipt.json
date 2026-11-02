@@ -1,0 +1,15 @@
+{
+  "status_at_registration": "WAITING_FOR_PRIOR_TASK",
+  "registered_utc": "2026-10-30T12:20:58.785382+00:00",
+  "task": "fdg_fold1",
+  "instance": 3,
+  "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+  "handoff_monitor_pid": 35118,
+  "training_pid": null,
+  "remote_config_sha256": "8b82c135cc2bfb7f4ab62c85b9f56b3d8919aadf22c28bf2eb07ac2de53e7623",
+  "condition_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba",
+  "remote_report": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/fdg_fold1",
+  "planned_train_log": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/fdg_fold1/train.log",
+  "planned_assets": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold1",
+  "planned_recovery": "/root/autodl-tmp/DIRECTPP_direct_single/20261030/fdg_fold1/formal/recovery.pt"
+}

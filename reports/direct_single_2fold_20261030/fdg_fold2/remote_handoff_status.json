@@ -1,0 +1,7 @@
+{
+  "status": "WAITING_FOR_PRIOR_TASK",
+  "task": "fdg_fold2",
+  "prior_training_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/formal/FDG/fold2/complete.json",
+  "prior_oof_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/complete.json",
+  "checked_utc": "2026-10-30T12:14:45.164885+00:00"
+}

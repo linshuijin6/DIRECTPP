@@ -1,0 +1,31 @@
+{
+  "tracer": "FDG",
+  "fold": 2,
+  "config_sha256": "8ad2d2f417f24a90ce3700ab95cd429813001ecdbd89ffee033d047b8fb95602",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "model_source_sha256": "97942d6d6fe262a00d2d1253c8fa76daf535ce2b0ae8423b4b69a69bb3a23947",
+  "epochs": 200,
+  "status": "STARTED",
+  "pid": 4322,
+  "log_path": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/logs/fdg_fold2.log",
+  "hardware": {
+    "host": "autodl-container-58a0ln8rhl-a7b5e942",
+    "pid": 4322,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cuda_visible_devices": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "free_bytes_at_start": 50184716288,
+    "total_bytes": 50864390144
+  },
+  "parameters": 62186659,
+  "training_subjects": 792,
+  "heldout_subjects": 928,
+  "heldout_access_during_training": false,
+  "seed_policy": "unseeded like recovered Swin and Full runs; capture and restore RNG state",
+  "start_epoch_one_based": 1,
+  "resource_receipt_sha256": "11d91651d19dd2e44f53fbc4d4ead9bfe752c5c0ffaaaa011dd19c1adcd94a60"
+}

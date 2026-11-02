@@ -1,0 +1,14 @@
+{
+  "status": "COPIED_AND_IDENTITY_VERIFIED",
+  "source_node": "3003",
+  "source_path": "/dev/shm/persistent_cache_repro",
+  "target_node": "3002",
+  "target_path": "/home/linshuijin/fs_recon_local/DIRECTPP_swinunetr/20261029/full_cache",
+  "method": "rsync -a over SSH",
+  "files": 1857,
+  "bytes": 109552940631,
+  "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+  "source_cache_check": "PASS",
+  "target_cache_check": "PASS",
+  "source_full_cache_modified": false
+}

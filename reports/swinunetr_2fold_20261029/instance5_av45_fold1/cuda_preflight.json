@@ -1,0 +1,117 @@
+{
+  "status": "PASS_NO_FORMAL_TRAINING_STATE",
+  "hardware": {
+    "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+    "pid": 3208,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cuda_visible_devices": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+    "free_bytes_at_start": 27909881856,
+    "total_bytes": 50866487296
+  },
+  "allocation_receipt_sha256": "6c78b6a88c875c0a25bc28616610a077bcd1786bb7789149607849e9ffdc1c16",
+  "allocation": {
+    "allocation_status": "EXCLUSIVE",
+    "gpu_uuid": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+    "protection_id": "seetacloud-instance5-dedicated-gpu0",
+    "issued_by": "user-designated dedicated instance; current live nvidia-smi query shows no compute holders",
+    "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+    "issued_utc": "2026-10-29T14:11:46.418575+00:00",
+    "evidence": {
+      "instance": "remote_instance_5",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "memory_used_mib": 1,
+      "memory_free_mib": 48510,
+      "compute_processes": "none",
+      "scope": "SwinUNETR AV45 Fold 1 only"
+    }
+  },
+  "tracer": "AV45",
+  "fold": 1,
+  "sample_ptids": [
+    "002_S_0295",
+    "002_S_0413",
+    "002_S_0685",
+    "002_S_1155",
+    "002_S_1268",
+    "002_S_1280",
+    "002_S_2010",
+    "002_S_2043",
+    "002_S_4171",
+    "002_S_4219",
+    "002_S_4225",
+    "002_S_4237"
+  ],
+  "input_shape": [
+    1,
+    1,
+    160,
+    192,
+    160
+  ],
+  "parameters": 62186659,
+  "warmup_steps": 2,
+  "measured_steps": 10,
+  "mean_loss": 0.17666637152433395,
+  "all_losses_finite": true,
+  "amp_skipped_steps": 0,
+  "amp_final_scale": 65536.0,
+  "successful_optimizer_updates": 12,
+  "step_seconds": [
+    0.6096817469224334,
+    0.612905393820256,
+    0.6090827449224889,
+    0.6426985738798976,
+    0.6087705329991877,
+    0.6096239988692105,
+    0.6408443967811763,
+    0.6090909820050001,
+    0.6097023617476225,
+    0.6095211701467633
+  ],
+  "step_seconds_median": 0.6096528728958219,
+  "step_seconds_mean": 0.6161921902094036,
+  "benchmark_wall_seconds": 9.154368276242167,
+  "peak_allocated_bytes": 14357863424,
+  "peak_reserved_bytes": 22395486208,
+  "model_checkpoint_bytes": 256333998,
+  "rolling_recovery_bytes": 753980366,
+  "persistent_milestone_count": 4,
+  "estimated_per_instance_storage_bytes": 1779316358,
+  "estimated_four_instance_storage_bytes": 7117265432,
+  "estimated_all_oof_prediction_bytes_uncompressed": 58254950400,
+  "estimated_four_instance_total_assets_bytes": 65372215832,
+  "training_time_estimates": {
+    "FDG_fold1": {
+      "updates": 161200,
+      "seconds": 98276.0431108065,
+      "hours": 27.298900864112916
+    },
+    "FDG_fold2": {
+      "updates": 158400,
+      "seconds": 96569.0150666982,
+      "hours": 26.824726407416165
+    },
+    "AV45_fold1": {
+      "updates": 135000,
+      "seconds": 82303.13784093596,
+      "hours": 22.861982733593322
+    },
+    "AV45_fold2": {
+      "updates": 138000,
+      "seconds": 84132.09645962343,
+      "hours": 23.37002679433984
+    }
+  },
+  "fdg_fold1_estimated_hours": 27.298900864112916,
+  "all_four_estimated_hours": 100.35563679946225,
+  "heldout_accessed": false,
+  "formal_checkpoint_written": false,
+  "activation_checkpointing": true,
+  "autocast": "float16",
+  "optimizer_steps": 12,
+  "config_sha256": "6fb02471974c7c28196232f8dc423b1ec8afd9280aa67bc83dbb1f00e57e4cd3"
+}

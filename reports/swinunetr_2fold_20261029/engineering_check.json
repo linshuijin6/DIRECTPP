@@ -1,0 +1,152 @@
+{
+  "status": "IMPLEMENTATION_AND_DATA_READY_GPU_PREFLIGHT_BLOCKED",
+  "model": {
+    "implementation": "MONAI 1.5.1 SwinUNETR",
+    "spatial_dims": 3,
+    "in_channels": 1,
+    "out_channels": 1,
+    "feature_size": 48,
+    "parameters": 62186659,
+    "activation_checkpointing": true
+  },
+  "environment": {
+    "node": "3002 / pnxc",
+    "conda_env": "xiaochou",
+    "python": "/home/pnxc/Anaconda3/envs/xiaochou/bin/python",
+    "torch": "2.6.0+cu118",
+    "cuda": "11.8",
+    "monai": "1.5.1"
+  },
+  "engineering_checks": {
+    "py_compile": "PASS",
+    "git_diff_check": "PASS",
+    "cpu_forward_smoke_64cube": "PASS",
+    "output_shape": [
+      1,
+      1,
+      64,
+      64,
+      64
+    ],
+    "finite_output": true,
+    "monai_constructor_compatibility": "PASS; img_size omitted, spatial_dims=3 explicit",
+    "cpu_forward_backward_adam_64cube": "PASS; finite MSE/gradients; optimizer step advanced once; finite-gradient check uses aggregation and does not clip"
+  },
+  "full_data": {
+    "cohort_unique_subjects": 1857,
+    "fold_1_heldout": 929,
+    "fold_2_heldout": 928,
+    "subject_disjoint_split": "PASS",
+    "fdg_valid_targets": 1598,
+    "av45_valid_targets": 1365,
+    "split_and_full_epoch165_oof_receipts": "PASS",
+    "cache_status": "PASS",
+    "cache_files": 1857,
+    "cache_bytes": 109552940631,
+    "cache_name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "cache_source_node": "3003",
+    "cache_source_path": "/dev/shm/persistent_cache_repro",
+    "cache_copy_target_node": "3002",
+    "cache_copy_target": "/home/linshuijin/fs_recon_local/DIRECTPP_swinunetr/20261029/full_cache",
+    "source_unchanged": true,
+    "identity_validation": "1857/1857 expected MONAI pickle_hashing keys; zero missing/extra; source and target key-set hashes match",
+    "sample_ptid": "002_S_0295",
+    "sample_tensor_shapes": {
+      "mri": [
+        1,
+        160,
+        192,
+        160
+      ],
+      "fdg": [
+        1,
+        160,
+        192,
+        160
+      ],
+      "av45": [
+        1,
+        160,
+        192,
+        160
+      ]
+    }
+  },
+  "training": {
+    "epochs": 800,
+    "optimizer": "Adam",
+    "learning_rate": 1e-05,
+    "batch_size": 1,
+    "loss": "MSE",
+    "amp": "CUDA float16 autocast + GradScaler",
+    "heldout_validation_during_training": false,
+    "recovery_every_epochs": 10,
+    "weight_only_milestones": [
+      200,
+      400,
+      600,
+      800
+    ],
+    "final_checkpoint_epoch": 800,
+    "total_optimizer_updates_all_four": 2370400
+  },
+  "cuda_preflight": {
+    "status": "NOT_RUN",
+    "reason": "Fresh Observer snapshots show zero ready GPUs; all candidate devices are occupied by other processes and no safe-handoff allocation receipt is available.",
+    "peak_allocated_bytes": null,
+    "peak_reserved_bytes": null,
+    "measured_step_seconds": null,
+    "fdg_fold1_estimated_hours": null,
+    "all_four_estimated_hours": null
+  },
+  "checkpoint_storage_estimate": {
+    "status": "PARAMETER_BASED_ESTIMATE_ONLY; CUDA preflight measurement pending",
+    "model_weights_approx_bytes": 248746636,
+    "adam_recovery_approx_bytes": 746239908,
+    "four_weight_milestones_plus_one_recovery_per_instance_approx_bytes": 1741226452,
+    "four_instances_approx_bytes": 6964905808,
+    "note": "Formula estimate from parameter count; excludes serialization metadata and prediction files."
+  },
+  "gpu_allocation": {
+    "observer_snapshot": "fresh; zero ready GPUs across active nodes",
+    "node_3002": "xiaochou environment available; all 48 GB GPUs busy, including shared-capacity candidates",
+    "node_3003": "cache source; all GPUs busy; local filesystem only about 1 GB free",
+    "allocation_receipt": "none"
+  },
+  "formal_training": {
+    "status": "NOT_STARTED",
+    "pid": null,
+    "log_path": null,
+    "first_instance": "FDG Fold 1 after full-size CUDA preflight and safe GPU allocation",
+    "other_instances": "not started"
+  },
+  "blockers": [
+    "Obtain an exclusive or verified safe-handoff GPU allocation on 3002, then run the full-size forward/backward/optimizer preflight and cost estimate.",
+    "Do not run preflight or training on any currently shared GPU."
+  ],
+  "assets_storage": {
+    "node": "3002",
+    "free_bytes_after_cache_copy": 1214353358848,
+    "cache_copy_bytes": 109552940631
+  },
+  "comparison_with_full": {
+    "swinunetr": {
+      "input": "MRI-only",
+      "tracers": "two independent single-tracer models",
+      "lr": 1e-05,
+      "epochs": 800,
+      "endpoint": 800,
+      "fixed_seed": false
+    },
+    "directpp_full": {
+      "input": "MRI plus patient/tracer text embeddings",
+      "tracers": "one shared dual-tracer model",
+      "lr": 2.5e-05,
+      "epochs": 200,
+      "primary_endpoint": 165,
+      "secondary_endpoint": 200,
+      "training_seed": null
+    },
+    "interpretation": "Training information, learning rate and budget differ; neither run fixes a training seed."
+  }
+}

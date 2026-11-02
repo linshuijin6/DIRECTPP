@@ -1,0 +1,7 @@
+{
+  "status": "WAITING_FOR_PRIOR_TASK",
+  "task": "av45_fold2",
+  "prior_training_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/formal/AV45/fold2/complete.json",
+  "prior_oof_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/complete.json",
+  "checked_utc": "2026-10-30T12:14:45.388547+00:00"
+}

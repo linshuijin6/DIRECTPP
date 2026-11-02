@@ -1,0 +1,40 @@
+{
+  "stage": "pilot",
+  "fold": 2,
+  "checkpoint_training_condition": "Full",
+  "inference_conditions": [
+    "Full",
+    "No-Scores"
+  ],
+  "checkpoint": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_full165_inference_20261020/fold2/checkpoint.pt",
+  "checkpoint_sha256": "fc69fa4e84bb5a85a692eaf923e7db7676f86f2ffb55215c7de80989a767bc14",
+  "checkpoint_identity": {
+    "fold": 2,
+    "condition": "Full",
+    "config_sha256": "0890bc7601cec8e7964c50b2f9460afb4098192e091a5de6c1fab11f5f6d1b00",
+    "cohort_sha256": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "adapter_sha256": "050b95e801e0755b942ac7f30b348906b2f5b700044c38acdf46254987e9d821",
+    "adapter_receipt_sha256": "0bd34d880a80e92e2af69b02f4ec3285082f8034be7f163c75dcc92fda2367e0",
+    "condition_sha256": "4d353ad1592613f67c6ef643033a0cbc243a858dc5feafa3410b9f3d7494cd80"
+  },
+  "epoch_zero_based": 164,
+  "completed_epochs": 165,
+  "condition_sha256": {
+    "Full": "4d353ad1592613f67c6ef643033a0cbc243a858dc5feafa3410b9f3d7494cd80",
+    "No-Scores": "52d08a8935ad5d10ed6e5e979abc02d40b42aee05c1e4c96471054ec7b2c22ba"
+  },
+  "adapter_sha256": "050b95e801e0755b942ac7f30b348906b2f5b700044c38acdf46254987e9d821",
+  "source_snapshot_sha256": "376f21682c09e7c418ed9666c6371cd5d7d0a1920c6959b752e15ff79f63c6e8",
+  "source_prediction_index_sha256": "a49c24c0b903e1f4f35b6d0ce93d4637193eea7edb9165675483a72f5e83a06c",
+  "source_metrics_sha256": "987e0f13443e0ab51e453525e60a46b89566c09e80179d6954b6d7416dc88903",
+  "source_training_ptids_sha256": "9cc7e3170d2d7e15b2efd64239cff6224964e1bd7ac500559df2d92b19f2aa30",
+  "source_test_ptids_sha256": "99016f25b54d17fb39e3d563ee281cb068e70ba91cb8539b19749964313f9d83",
+  "selected_ptids": [
+    "018_S_4399",
+    "137_S_4631"
+  ],
+  "output": "/mnt/datas230/users/linshuijin/DIRECTPP_E1/stage01_20261017/oof/R2_5_FullWeights_NoScores_20261030/pilot/fold2",
+  "precision": "native E1 FP16 autocast, cudnn TF32 disabled",
+  "script_sha256": "6efba107f60161d2f25d17e96c4b426060f0d37ba60aa3835958d15f53d77528",
+  "interpretation": "fixed Full weights with alternative inference-time clinical token"
+}

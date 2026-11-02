@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_TWO_FOLD_OOF_RECONSTRUCTION",
+  "historical_fold_identity_recovered": false,
+  "training_seed": null,
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "per_subject_sha256": "cf563c0eb741af5eaffa98560b982bf78e65e863b058206b8d070b312f9bff62",
+  "summary_sha256": "0a915bbda7b2ad3b10ea48e6dc54229927f852187d396c63891227d10f95fe86",
+  "scope": "new author-code-semantics reconstruction; not proof of the historical paper run",
+  "experiment": "directpp_tabular_mlp_ablation",
+  "clinical_encoder": "tabular_mlp",
+  "full_vs_mlp_only_scientific_difference": "subject patient token encoder"
+}

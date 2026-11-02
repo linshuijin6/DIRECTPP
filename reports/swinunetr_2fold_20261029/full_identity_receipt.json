@@ -1,0 +1,41 @@
+{
+  "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020",
+  "hashes": {
+    "full_config": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+    "cohort": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+    "split_manifest": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+    "split_receipt": "5476b682b098657f71f69bbc7968dea92d60bee373a52e78134ce8d9f6475143",
+    "persistent_cache_receipt": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+    "full_oof_completion": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+    "full_oof_per_subject_metrics": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b"
+  },
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "effective_by_fold": {
+    "1": {
+      "FDG": 792,
+      "AV45": 690
+    },
+    "2": {
+      "FDG": 806,
+      "AV45": 675
+    }
+  },
+  "effective": {
+    "FDG": 1598,
+    "AV45": 1365
+  },
+  "cache_receipt": {
+    "status": "COMPLETE",
+    "cache_version": 1,
+    "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "subjects": 1857,
+    "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+    "conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a"
+  },
+  "full_oof_epoch": 165,
+  "cohort_size": 1857
+}

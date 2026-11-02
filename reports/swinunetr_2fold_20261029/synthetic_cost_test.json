@@ -1,0 +1,75 @@
+{
+  "status": "SYNTHETIC_TRAIN_STEP_PASS",
+  "scope": "5 synthetic full-volume optimizer updates; one warmup + four measured; not formal preflight or experiment",
+  "hardware": {
+    "host": "autodl-container-9b594ca734-b8eefc9f",
+    "pid": 4975,
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "cuda_visible_devices": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_uuid": "78b16573-7ae5-8fd3-653b-cae3904821d5",
+    "free_bytes_at_start": 27909881856,
+    "total_bytes": 50866487296
+  },
+  "shape": [
+    1,
+    1,
+    160,
+    192,
+    160
+  ],
+  "dtype": "float32",
+  "model_parameters": 62186659,
+  "activation_checkpointing": true,
+  "amp": "float16 autocast + GradScaler",
+  "optimizer": "Adam lr=1e-5",
+  "loss": "MSE",
+  "losses_finite": true,
+  "loss_values": [
+    0.4359906017780304,
+    0.4247448444366455,
+    0.4143824279308319,
+    0.4044165313243866,
+    0.39544418454170227
+  ],
+  "all_step_seconds": [
+    0.612899262458086,
+    0.6886048149317503,
+    0.6162829771637917,
+    0.6142576280981302
+  ],
+  "step_median_seconds": 0.6152703026309609,
+  "step_mean_seconds": 0.6330111706629395,
+  "peak_allocated_bytes": 14355274752,
+  "peak_reserved_bytes": 22395486208,
+  "weight_checkpoint_bytes": 256342964,
+  "rolling_recovery_bytes": 753980366,
+  "persistent_milestones": 4,
+  "estimated_storage_per_instance_bytes": 1779352222,
+  "estimated_storage_four_instances_bytes": 7117408888,
+  "training_estimates": {
+    "FDG_fold1": {
+      "optimizer_updates": 644800,
+      "hours": 110.201747537901
+    },
+    "FDG_fold2": {
+      "optimizer_updates": 633600,
+      "hours": 108.28757326304913
+    },
+    "AV45_fold1": {
+      "optimizer_updates": 540000,
+      "hours": 92.29054539464414
+    },
+    "AV45_fold2": {
+      "optimizer_updates": 552000,
+      "hours": 94.34144640341401
+    }
+  },
+  "fdg_fold1_hours": 110.201747537901,
+  "all_four_hours": 405.12131259900826,
+  "synthetic_seed": 20261029,
+  "heldout_accessed": false,
+  "formal_outputs_written": false
+}

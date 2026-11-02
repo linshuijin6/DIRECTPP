@@ -7,6 +7,7 @@ not recovery of historical p/q values or reproduction of the plotting code.
 from __future__ import annotations
 
 import hashlib
+import argparse
 import importlib.util
 import json
 import sys
@@ -106,7 +107,10 @@ def calculate():
     assert len(full) == 392 and full.family.nunique() == 4
     assert not full.duplicated(["tracer", "modality", "roi_id"]).any()
     full = full.sort_values(["tracer", "modality", "roi_id"]).reset_index(drop=True)
+    return full
 
+
+def select_figure(full):
     # Select after correction: Figure 4's 40 rows never form a new FDR family.
     effects = pd.read_csv(R35 / "figure4_effect_sizes.csv")
     assert len(effects) == 20
@@ -131,10 +135,10 @@ def calculate():
     selected["fdr_binary_matches_figure"] = selected.bh_q_lt_0_05 == selected.figure_indicates_significant
     selected["historical_plot_workflow"] = "not_fully_reproduced"
     selected = selected.sort_values(["panel", "panel_order", "modality"]).reset_index(drop=True)
-    return full, selected
+    return selected
 
 
-def make_report(full, selected):
+def make_report(full, selected, full_sha256):
     mismatch = selected.loc[~selected.fdr_binary_matches_figure]
     both = selected.groupby(["panel", "tracer", "roi_id"]).bh_q_lt_0_05.all()
     lines = ["# R2-9：Student 检验与 Figure 4C–F 的 FDR 核验", "",
@@ -142,16 +146,19 @@ def make_report(full, selected):
              f"图示40条结果中，{40-len(mismatch)}条与原图的显著/不显著分类一致，"
              f"{len(mismatch)}条不一致。**历史绘图程序尚未完全复现；本次 p/q 是新复算值，"
              "不是已恢复的历史绘图 p/q。**", "",
-             "四条不一致全部来自 E 面板：AV45 左、右侧脑室（ROI 4、43）的 Real/Syn "
-             "均为 q<0.05，原图却均标 ns。C/D 的20条均显著，E/F 的其余16条均不显著。", "",
+             "**映射更正与结论撤回：**E 前两项是 Left-VentralDC（28）与 Right-VentralDC（60），"
+             "作者指出后已放大原图并核对LUT。旧版沿用R2-8误认成侧脑室4/43，"
+             "因此旧版“4条不一致”结论撤回。更正后C/D的20条均显著、E/F的20条均不显著，"
+             "40条二元分类全部与图面一致。完整392项表本已包含28/60，本次仅更正图示选择，"
+             "该完整文件逐字节不变；没有重跑检验或FDR校正。", "",
              "## 本地旧结果检查", "",
              "2026-11-02 检查 Git 未提交文件、`reports/` 与 `scripts/` 的文件名和脚本/报告内容；"
              "在这两个目录包含隐藏和被忽略文件，按 R2-9、FDR、Figure 4、392项与 equal_var=True "
              "定向检索。另按相关文件名补查 `appendix/legacy_only/8_revision_evidence/`。"
              "未找到 R2-9 专用报告、脚本或392项结果，仅命中审稿要求、R2-8 来源核验和上一轮 R3-5 文件。"
              "这是上述范围内未定位，并非已证明全盘不存在；未做全仓库历史扫描。", "",
-             "因此执行用户授权的补算。此前 R3-5 的“未定位”结论保留为前一轮核查记录，"
-             "本报告提供新生成的可追溯统计证据。", "",
+             "因此此前按用户授权执行补算；本次ROI映射更正复用该完整结果。"
+             "R3-5现已同步更正28/60并挂接新复算p/q。", "",
              "## 数据与统计口径", "",
              "仅使用作者确认的两个目录：", "",
              "- `source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/shuijin/statistics_of_regions_av45_adjust/`",
@@ -216,27 +223,49 @@ def make_report(full, selected):
               f"环境版本：NumPy {np.__version__}、pandas {pd.__version__}、SciPy {scipy.__version__}。"
               "仅写本目录的两个CSV和本报告；不修改原始CSV、稿件、图件、既有 R2-8/10 或 R3-5 文件，"
               "不启动训练/推理，不操作 Notion，不提交或推送 Git。", "",
-              "脚本对全部392个 t 值作合并SD公式核对，并对196个源文件及依赖文件做运行前后哈希检查。"
+              "首次补算对全部392个 t 值作合并SD公式核对，并对196个源文件及依赖文件做运行前后哈希检查。"
               "另以标准库csv逐源行独立重读、离均差平方和和t分布尾概率复核392项 p，"
-              "以排序/反向累计最小值独立核对四族全部392项 q；核验记录见本次交付。", "",
+              "以排序/反向累计最小值独立核对四族全部392项 q。本次使用 `--refresh-figure4` "
+              "仅重选40条、更新本报告，完整392项文件SHA-256保持不变。", "",
               "| 关键只读依赖 | SHA-256 |", "|---|---|"]
     for p in [R28 / "analyze.py", R28 / "input_audit.csv", R35 / "figure4_effect_sizes.csv",
               ROOT / "manuscript/figures/figure_4.pdf", ROOT / "manuscript/BMEF_main.tex"]:
         lines.append(f"| `{p.relative_to(ROOT)}` | `{digest(p)}` |")
+    lines.append(f"| `reports/r2_9_figure4_fdr/all_392_student_fdr.csv` | `{full_sha256}` |")
     return "\n".join(lines) + "\n"
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh-figure4", action="store_true",
+                        help="Use existing 392-row results; do not run tests or overwrite that CSV")
+    args = parser.parse_args()
     protected = [p for d in [R28, R35, ROOT / "reports/r2_10_normalized_calibration"]
                  for p in d.rglob("*") if p.is_file()]
     protected += [p for t in ("av45", "fdg")
                   for p in (SOURCE / f"statistics_of_regions_{t}_adjust").glob("region_*.csv")]
     protected += [ROOT / "manuscript/BMEF_main.tex", ROOT / "manuscript/figures/figure_4.pdf", LUT]
     before = {p: digest(p) for p in protected}
-    full, selected = calculate()
-    content = make_report(full, selected)
+    full_path = OUT / "all_392_student_fdr.csv"
+    if args.refresh_figure4:
+        protected.append(full_path)
+        before[full_path] = digest(full_path)
+        full = pd.read_csv(full_path, float_precision="round_trip")
+        assert len(full) == 392 and full.groupby(["tracer", "modality"]).size().eq(98).all()
+        assert full.family_n_tests.eq(98).all() and full.equal_var.all()
+        assert full.test.eq("Student_independent_two_sided").all()
+        for source_file, block in full.groupby("source_file"):
+            assert block.source_sha256.nunique() == 1
+            assert digest(ROOT / source_file) == block.source_sha256.iloc[0]
+    else:
+        full = calculate()
+    selected = select_figure(full)
+    full_sha256 = (digest(full_path) if args.refresh_figure4 else hashlib.sha256(
+        full.to_csv(index=False, float_format="%.17g").encode()).hexdigest())
+    content = make_report(full, selected, full_sha256)
     assert before == {p: digest(p) for p in protected}, "A protected input changed"
-    full.to_csv(OUT / "all_392_student_fdr.csv", index=False, float_format="%.17g")
+    if not args.refresh_figure4:
+        full.to_csv(full_path, index=False, float_format="%.17g")
     selected.to_csv(OUT / "figure4_cf_40_verification.csv", index=False, float_format="%.17g")
     (OUT / "REPORT.md").write_text(content)
     print(full.groupby("family").agg(n_tests=("raw_p", "size"), raw_sig=("raw_p_lt_0_05", "sum"),

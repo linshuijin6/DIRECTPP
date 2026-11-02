@@ -1,0 +1,91 @@
+{
+  "experiment": "direct_single_2fold_oof",
+  "task": "fdg_fold1",
+  "tracer": "FDG",
+  "fold": 1,
+  "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/direct_single_2fold_20261030/fdg_fold1",
+  "assets": "/mnt/datas230/users/linshuijin/DIRECTPP_direct_single/20261030/fdg_fold1",
+  "full_config": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/config.json",
+  "full_config_sha256": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+  "full_report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020",
+  "full_identity": {
+    "report": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020",
+    "hashes": {
+      "full_config": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+      "cohort": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+      "split_manifest": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+      "split_receipt": "5476b682b098657f71f69bbc7968dea92d60bee373a52e78134ce8d9f6475143",
+      "persistent_cache_receipt": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+      "full_oof_completion": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+      "full_oof_per_subject_metrics": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b"
+    },
+    "fold_counts": {
+      "1": 929,
+      "2": 928
+    },
+    "effective_by_fold": {
+      "1": {
+        "FDG": 792,
+        "AV45": 690
+      },
+      "2": {
+        "FDG": 806,
+        "AV45": 675
+      }
+    },
+    "effective": {
+      "FDG": 1598,
+      "AV45": 1365
+    },
+    "cache_receipt": {
+      "status": "COMPLETE",
+      "cache_version": 1,
+      "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+      "cache_dir": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+      "subjects": 1857,
+      "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+      "conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a"
+    },
+    "full_oof_epoch": 165,
+    "cohort_size": 1857
+  },
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "input_hashes_sha256": "3f362cdb3ebe8a945b106cc6974e4fbcea9e450474f3cc1f0db28a88ce81ed07",
+  "cache_receipt_sha256": "3b22b5d094a588daa9b991376fe1e0e3b27d293e25027083101a5db465313bb7",
+  "cache": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109552940631,
+    "valid": true
+  },
+  "conditions": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/direct_single_2fold_20261030/conditions.pt",
+  "condition_receipt": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/direct_single_2fold_20261030/conditions_receipt.json",
+  "conditions_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba",
+  "condition_receipt_sha256": "d97bae8fa60fb44fdb737911a34083d04392f5c7016afdf6b05a301f50a7c076",
+  "runner_sha256": "5d30eb01ac8a37f93be8548d10cb078e4b178675f158f2f06952f29739d7539d",
+  "common_sha256": "4c47e387ab9acf6ff4fa1e051357b76aec86e4b182b6aa5a5a1ea8b7cfc41440",
+  "model_sha256": "d1395a1c0a1be6b526b334dac4aceef59d67567b92b894cf913c9cbde365f46b",
+  "author_model_sha256": "b56b1956b787e85f52fc1a7f46884fea2cbfff81f9c31311db462dda7b378bcc",
+  "epochs": 200,
+  "primary_epoch": 165,
+  "secondary_epoch": 200,
+  "learning_rate": 2.5e-05,
+  "batch_size": 1,
+  "optimizer": "Adam",
+  "loss": "MSE(PET-MRI, v_theta((1-t)MRI+tPET,t,context))",
+  "time": "integer Uniform[0,1000) / 1000 until zero-based epoch 139; t=0 from epoch 140",
+  "inference": "MRI + v_theta(MRI,t=0,context), clamp [0,1]",
+  "amp": "CUDA float16 autocast + GradScaler",
+  "seed_policy": "unseeded; record and restore RNG state",
+  "train_subjects": 806,
+  "heldout_metric_rows": 792,
+  "validation": "none; no held-out fold access during training",
+  "created_utc": "2026-10-30T12:06:58.483656+00:00",
+  "attention_compat_sha256": "d1355f9d140a27a85d57fb86e5cd4bcb870069d56e05d39ecbe96721cb7a2e6f"
+}

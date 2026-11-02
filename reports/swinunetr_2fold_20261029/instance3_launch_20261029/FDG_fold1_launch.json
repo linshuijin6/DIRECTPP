@@ -1,0 +1,20 @@
+{
+  "status": "STARTED",
+  "tracer": "FDG",
+  "fold": 1,
+  "pid": 10929,
+  "host": "autodl-container-9b594ca734-b8eefc9f",
+  "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+  "config": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029_instance3_v4/config.json",
+  "config_sha256": "3e2abbd940fe599fd53199a186a797e4fa81809fbb92461c300b732b060f1333",
+  "preflight": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029_instance3_v4/cuda_preflight.json",
+  "preflight_sha256": "f6fb845ec492eb22f4efb65b585e8699a9f389e9f5310e9d7c1dd401d521f9b0",
+  "training_log": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v4/logs/FDG_fold1_training_console.log",
+  "launcher_log": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v4/logs/FDG_fold1_launcher.log",
+  "runner_launch_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v4/formal/FDG/fold1/launch_receipt.json",
+  "runner_launch_receipt_sha256": "cf22044bf8d515037fdb9ac383ce299d8424a3fe8cb15c28dc743fb26ce7b257",
+  "started_utc": "2026-10-29T13:37:55.262748+00:00",
+  "fixed_epochs": 800,
+  "estimated_hours": 109.67633153912094,
+  "other_instances_started": false
+}

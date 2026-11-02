@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "subjects": 1857,
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "clinical_fields": [
+    "age",
+    "sex",
+    "weight",
+    "cdr",
+    "mmse",
+    "gds",
+    "faq",
+    "npiq"
+  ],
+  "missing_values": 0,
+  "diagnosis_input": false,
+  "pet_input": false,
+  "fold_input": false,
+  "full_split_reused_not_regenerated": true,
+  "full_conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+  "tracer_shape": [
+    2,
+    512
+  ],
+  "cache_namespace": "v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+  "cache_files": 1857,
+  "git_commit": "3ae891e020c850641debb4dbb17d663f2329931d",
+  "config_sha256": "16199d88e3812c905d26e89fa6d398d2ea53d00305e24abc47d8cc34f4e6bcf7"
+}

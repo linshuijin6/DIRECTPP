@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "task": "av45_fold2",
+  "cohort": 1857,
+  "train_subjects": 690,
+  "heldout_metric_rows": 675,
+  "cache": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109552940631,
+    "valid": true,
+    "sample_ptid": "002_S_0295",
+    "sample_shapes": {
+      "mri": [
+        1,
+        160,
+        192,
+        160
+      ],
+      "fdg": [
+        1,
+        160,
+        192,
+        160
+      ],
+      "av45": [
+        1,
+        160,
+        192,
+        160
+      ]
+    }
+  },
+  "conditions_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba"
+}

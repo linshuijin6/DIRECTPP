@@ -1,0 +1,18 @@
+{
+  "observed_utc": "2026-10-29T14:30:00Z",
+  "status": "RUNNING",
+  "host": "autodl-container-5h9rm8rk3z-3396b382",
+  "pid": 4799,
+  "tracer": "AV45",
+  "fold": 2,
+  "epochs": 200,
+  "gpu_uuid": "GPU-dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+  "gpu_utilization_percent": 100,
+  "gpu_memory_used_mib": 21913,
+  "gpu_memory_total_mib": 49140,
+  "compute_process_pid": 4799,
+  "log_path": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/logs/av45_fold2.log",
+  "remote_assets": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6",
+  "remote_report": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance6_av45_fold2",
+  "note": "Process verified alive; first 690-subject epoch is in progress."
+}

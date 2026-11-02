@@ -1,0 +1,13 @@
+{
+  "task": "fdg_fold2",
+  "status": "MONITOR_RESTARTED_FOR_TRAINING_HANDOFF",
+  "pid": 60454,
+  "host": "autodl-container-58a0ln8rhl-a7b5e942",
+  "gpu_uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+  "started_utc": "2026-10-31T02:46:47.953147+00:00",
+  "prior_training_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/formal/FDG/fold2/complete.json",
+  "prior_oof_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/complete.json",
+  "prior_oof_present_at_start": false,
+  "handoff_script_sha256": "6b523326e13e6e648c37d5c92d79aa690af95a95a33fbdd87a53dfc15ed27236",
+  "log": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/fdg_fold2/handoff.log"
+}

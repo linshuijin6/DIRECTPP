@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "subjects": 1857,
+  "fold_counts": {
+    "1": 929,
+    "2": 928
+  },
+  "clinical_fields": [
+    "age",
+    "sex",
+    "weight",
+    "cdr",
+    "mmse",
+    "gds",
+    "faq",
+    "npiq"
+  ],
+  "clinical_input_shape": [
+    1,
+    8
+  ],
+  "patient_token_shape": [
+    1,
+    1,
+    512
+  ],
+  "tracer_token_shape": [
+    1,
+    1,
+    512
+  ],
+  "cross_attention_shape": [
+    1,
+    2,
+    512
+  ],
+  "missing_values": 0,
+  "normalization_train_fold_only": true,
+  "fold_train_test_overlap": {
+    "1": 0,
+    "2": 0
+  },
+  "tracer_tensor_sha256": "4855a7255f80026b08f9e929cd555f009873a13917c28eda8ac2250d29cf7f93",
+  "tracer_tokens_byte_identical_to_full": true,
+  "base_full_trainer_sha256": "1811340c23d498b5aad1da4f64d68f3a8dd51691f60ff71cfb011e2fa15c3eec",
+  "base_full_trainer_unmodified": true,
+  "context_hook_paths": [
+    "author_loss",
+    "infer",
+    "validate"
+  ],
+  "cache_verification": "PASS",
+  "fold": 2,
+  "cuda_smoke": "PASS",
+  "fixture_seed_only_not_formal_training": 20261030,
+  "parameters": {
+    "generator": 9925921,
+    "clinical_mlp": 67200,
+    "total": 9993121
+  },
+  "same_seed_full_generator_initialization": "PASS",
+  "mlp_gradient_l2": 5.7506582828992237e-11,
+  "mlp_gradient_l2_by_step": [
+    0.0,
+    0.0,
+    0.0,
+    5.7506582828992237e-11
+  ],
+  "mlp_first_nonzero_step": 4,
+  "mlp_gradient_nonzero_finite": true,
+  "loss": 0.3318276107311249,
+  "timestep": 130,
+  "has_fdg": true,
+  "has_av45": true,
+  "optimizer_step": "PASS",
+  "checkpoint_reload": "PASS",
+  "checkpoint_sha256": "34b563de0cbf4e98635512b8e5e322fe67713415a03b034f0f692c32ba9084f2",
+  "inference_reload_max_abs": 0.0,
+  "tracer_unchanged_in_runtime_context": true,
+  "inference_uses_same_fold_normalization": true,
+  "peak_allocated_bytes": 523417088,
+  "peak_reserved_bytes": 559939584
+}

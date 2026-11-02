@@ -1,0 +1,13 @@
+{
+  "task": "av45_fold2",
+  "status": "MONITOR_RESTARTED_FOR_TRAINING_HANDOFF",
+  "pid": 59519,
+  "host": "autodl-container-5h9rm8rk3z-3396b382",
+  "gpu_uuid": "GPU-dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+  "started_utc": "2026-10-31T02:46:47.881623+00:00",
+  "prior_training_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/formal/AV45/fold2/complete.json",
+  "prior_oof_receipt": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/complete.json",
+  "prior_oof_present_at_start": false,
+  "handoff_script_sha256": "6b523326e13e6e648c37d5c92d79aa690af95a95a33fbdd87a53dfc15ed27236",
+  "log": "/root/autodl-tmp/DIRECTPP/reports/direct_single_2fold_20261030/av45_fold2/handoff.log"
+}
