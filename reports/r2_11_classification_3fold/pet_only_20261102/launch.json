@@ -1,0 +1,54 @@
+[
+  {
+    "instance": 3,
+    "monitor_pid": 135054,
+    "prior_queue_pid": 131635,
+    "prior_starttime": "1683156023",
+    "started_utc": "2026-11-02T03:13:35.077201+00:00",
+    "jobs": 10,
+    "epochs_each": 200,
+    "batch_size": 5,
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3",
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/instance3_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/watch.log"
+  },
+  {
+    "instance": 4,
+    "monitor_pid": 138337,
+    "prior_queue_pid": 134949,
+    "prior_starttime": "2044771589",
+    "started_utc": "2026-11-02T03:13:34.853396+00:00",
+    "jobs": 8,
+    "epochs_each": 200,
+    "batch_size": 5,
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4",
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/instance4_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/watch.log"
+  },
+  {
+    "instance": 5,
+    "monitor_pid": 49971,
+    "prior_queue_pid": 48497,
+    "prior_starttime": "386398278",
+    "started_utc": "2026-11-02T03:13:34.952265+00:00",
+    "jobs": 9,
+    "epochs_each": 200,
+    "batch_size": 5,
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5",
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/instance5_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/watch.log"
+  },
+  {
+    "instance": 6,
+    "monitor_pid": 137129,
+    "prior_queue_pid": 134282,
+    "prior_starttime": "1449352983",
+    "started_utc": "2026-11-02T03:13:34.959082+00:00",
+    "jobs": 9,
+    "epochs_each": 200,
+    "batch_size": 5,
+    "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6",
+    "plan": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/instance6_queue.json",
+    "log": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/pet_only_20261102/watch.log"
+  }
+]

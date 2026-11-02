@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-02T03:12:26.995896+00:00",
+  "estimated_total_GPU_hours": 38.079148919970216,
+  "instances": [
+    {
+      "instance": 3,
+      "jobs": 10,
+      "estimated_ready_utc": "2026-11-02T04:04:58.353883+00:00",
+      "estimated_completion_utc": "2026-11-02T14:01:54.022369+00:00",
+      "pet_only_hours": 9.94879680176576
+    },
+    {
+      "instance": 4,
+      "jobs": 8,
+      "estimated_ready_utc": "2026-11-02T04:21:03.652647+00:00",
+      "estimated_completion_utc": "2026-11-02T13:22:14.386761+00:00",
+      "pet_only_hours": 9.019648364981016
+    },
+    {
+      "instance": 5,
+      "jobs": 9,
+      "estimated_ready_utc": "2026-11-02T04:24:19.501688+00:00",
+      "estimated_completion_utc": "2026-11-02T13:53:49.573503+00:00",
+      "pet_only_hours": 9.491686615347863
+    },
+    {
+      "instance": 6,
+      "jobs": 9,
+      "estimated_ready_utc": "2026-11-02T04:31:24.110796+00:00",
+      "estimated_completion_utc": "2026-11-02T14:08:32.572493+00:00",
+      "pet_only_hours": 9.619017138017549
+    }
+  ],
+  "method": "Static longest-task-first allocation using measured one-channel batch times and prior clinical queue remaining time; PET-only loading is inferred.",
+  "range_note": "Planning allowance about 15%, not a confidence interval"
+}

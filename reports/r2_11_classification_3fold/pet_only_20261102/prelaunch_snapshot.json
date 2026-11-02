@@ -1,0 +1,404 @@
+[
+  {
+    "instance": 3,
+    "checked_utc": "2026-11-02T03:11:49.238725+00:00",
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 3,
+      "monitor_pid": 131635,
+      "host": "autodl-container-9b594ca734-b8eefc9f",
+      "checked_utc": "2026-11-02T01:54:48.222259+00:00",
+      "prior_pid": 57412,
+      "job": {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 1
+      },
+      "job_number": 4,
+      "jobs_total": 5,
+      "training_pid": 132488,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance3/mci_cn_mri_clinical_fold1.log"
+    },
+    "prior_pid": 131635,
+    "prior_starttime": "1683156023",
+    "prior_queue_status": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch_status.json",
+    "gpu_uuid": "GPU-78b16573-7ae5-8fd3-653b-cae3904821d5",
+    "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+    "coverage": {
+      "real_fdg_path": 1106,
+      "syn_fdg_path": 1106,
+      "real_av45_path": 1106,
+      "syn_av45_path": 1106
+    },
+    "pidfd_test_passed": true,
+    "fits": [
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 1,
+        "status": "complete",
+        "split_sizes": {
+          "train": 266,
+          "validation": 47,
+          "test": 157
+        },
+        "initialization_total_s": 2.5925648100674152,
+        "total_wall_s": 15.878615405410528,
+        "epoch": 200,
+        "train_s": 0.06063938923180103,
+        "history_mtime": 1793584450.6096244,
+        "validation_s": 0.005214128643274307
+      },
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 2,
+        "status": "complete",
+        "split_sizes": {
+          "train": 266,
+          "validation": 47,
+          "test": 157
+        },
+        "initialization_total_s": 2.567560449242592,
+        "total_wall_s": 15.189373180270195,
+        "epoch": 200,
+        "train_s": 0.06209303177893162,
+        "history_mtime": 1793584468.2257147,
+        "validation_s": 0.004958023875951767
+      },
+      {
+        "task": "ad_cn",
+        "condition": "clinical",
+        "fold": 3,
+        "status": "complete",
+        "split_sizes": {
+          "train": 266,
+          "validation": 48,
+          "test": 156
+        },
+        "initialization_total_s": 2.4943722896277905,
+        "total_wall_s": 16.231571476906538,
+        "epoch": 200,
+        "train_s": 0.0617218591272831,
+        "history_mtime": 1793584486.3858004,
+        "validation_s": 0.004876094311475754
+      },
+      {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 1,
+        "status": "running",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 55.16748162358999,
+        "total_wall_s": null,
+        "epoch": 190,
+        "train_s": 23.360048534721138,
+        "history_mtime": 1793589106.9004643,
+        "validation_s": 1.366473026573658
+      },
+      {
+        "task": "emci_lmci",
+        "condition": "mri_clinical",
+        "fold": 1,
+        "status": "queued"
+      }
+    ]
+  },
+  {
+    "instance": 4,
+    "checked_utc": "2026-11-02T03:11:49.481753+00:00",
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 4,
+      "monitor_pid": 134949,
+      "host": "autodl-container-58a0ln8rhl-a7b5e942",
+      "checked_utc": "2026-11-02T01:55:34.241092+00:00",
+      "prior_pid": 60766,
+      "job": {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 2
+      },
+      "job_number": 4,
+      "jobs_total": 5,
+      "training_pid": 135817,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance4/mci_cn_mri_clinical_fold2.log"
+    },
+    "prior_pid": 134949,
+    "prior_starttime": "2044771589",
+    "prior_queue_status": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch_status.json",
+    "gpu_uuid": "GPU-1aa1851f-d56a-2168-f42d-517dd6da300c",
+    "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+    "coverage": {
+      "real_fdg_path": 1106,
+      "syn_fdg_path": 1106,
+      "real_av45_path": 1106,
+      "syn_av45_path": 1106
+    },
+    "pidfd_test_passed": true,
+    "fits": [
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 1,
+        "status": "complete",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 3.4623612724244595,
+        "total_wall_s": 31.3735259398818,
+        "epoch": 200,
+        "train_s": 0.14966738745570182,
+        "history_mtime": 1793584466.6039221,
+        "validation_s": 0.014128056913614273
+      },
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 2,
+        "status": "complete",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 3.355652865022421,
+        "total_wall_s": 32.21595485508442,
+        "epoch": 200,
+        "train_s": 0.12163515985012055,
+        "history_mtime": 1793584501.808507,
+        "validation_s": 0.008073215186595917
+      },
+      {
+        "task": "mci_cn",
+        "condition": "clinical",
+        "fold": 3,
+        "status": "complete",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 3.3547008857131004,
+        "total_wall_s": 28.239873189479113,
+        "epoch": 200,
+        "train_s": 0.0936965934932232,
+        "history_mtime": 1793584532.6090024,
+        "validation_s": 0.006096947193145752
+      },
+      {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 2,
+        "status": "running",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 70.83808570727706,
+        "total_wall_s": null,
+        "epoch": 172,
+        "train_s": 25.211529348418118,
+        "history_mtime": 1793589087.5010557,
+        "validation_s": 1.56962256655097
+      },
+      {
+        "task": "ad_cn",
+        "condition": "mri_clinical",
+        "fold": 1,
+        "status": "queued"
+      }
+    ]
+  },
+  {
+    "instance": 5,
+    "checked_utc": "2026-11-02T03:11:49.186669+00:00",
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 5,
+      "monitor_pid": 48497,
+      "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+      "checked_utc": "2026-11-02T01:59:37.910948+00:00",
+      "prior_pid": 42438,
+      "job": {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 3
+      },
+      "job_number": 4,
+      "jobs_total": 5,
+      "training_pid": 49405,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance5/mci_cn_mri_clinical_fold3.log"
+    },
+    "prior_pid": 48497,
+    "prior_starttime": "386398278",
+    "prior_queue_status": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch_status.json",
+    "gpu_uuid": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+    "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+    "coverage": {
+      "real_fdg_path": 1106,
+      "syn_fdg_path": 1106,
+      "real_av45_path": 1106,
+      "syn_av45_path": 1106
+    },
+    "pidfd_test_passed": true,
+    "fits": [
+      {
+        "task": "emci_lmci",
+        "condition": "clinical",
+        "fold": 1,
+        "status": "complete",
+        "split_sizes": {
+          "train": 246,
+          "validation": 44,
+          "test": 146
+        },
+        "initialization_total_s": 33.20034392410889,
+        "total_wall_s": 53.56218163622543,
+        "epoch": 200,
+        "train_s": 0.08976490111090243,
+        "history_mtime": 1793584488.6709208,
+        "validation_s": 0.009976142738014459
+      },
+      {
+        "task": "emci_lmci",
+        "condition": "clinical",
+        "fold": 2,
+        "status": "complete",
+        "split_sizes": {
+          "train": 247,
+          "validation": 44,
+          "test": 145
+        },
+        "initialization_total_s": 32.986326878890395,
+        "total_wall_s": 52.309080180712044,
+        "epoch": 200,
+        "train_s": 0.084998040786013,
+        "history_mtime": 1793584603.5530257,
+        "validation_s": 0.00947597362101078
+      },
+      {
+        "task": "emci_lmci",
+        "condition": "clinical",
+        "fold": 3,
+        "status": "complete",
+        "split_sizes": {
+          "train": 247,
+          "validation": 44,
+          "test": 145
+        },
+        "initialization_total_s": 33.01258102059364,
+        "total_wall_s": 50.713293896988034,
+        "epoch": 200,
+        "train_s": 0.083610621932894,
+        "history_mtime": 1793584716.7427604,
+        "validation_s": 0.009418452624231577
+      },
+      {
+        "task": "mci_cn",
+        "condition": "mri_clinical",
+        "fold": 3,
+        "status": "running",
+        "split_sizes": {
+          "train": 419,
+          "validation": 75,
+          "test": 247
+        },
+        "initialization_total_s": 100.20643449015915,
+        "total_wall_s": null,
+        "epoch": 157,
+        "train_s": 24.046544613316655,
+        "history_mtime": 1793589085.6132216,
+        "validation_s": 1.4374101851135492
+      },
+      {
+        "task": "ad_cn",
+        "condition": "mri_clinical",
+        "fold": 2,
+        "status": "queued"
+      }
+    ]
+  },
+  {
+    "instance": 6,
+    "checked_utc": "2026-11-02T03:11:49.228216+00:00",
+    "state": {
+      "status": "CLASSIFICATION_RUNNING",
+      "instance": 6,
+      "monitor_pid": 134282,
+      "host": "autodl-container-5h9rm8rk3z-3396b382",
+      "checked_utc": "2026-11-02T02:49:07.189261+00:00",
+      "prior_pid": 59831,
+      "job": {
+        "task": "emci_lmci",
+        "condition": "mri_clinical",
+        "fold": 2
+      },
+      "job_number": 2,
+      "jobs_total": 3,
+      "training_pid": 135973,
+      "log": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_clinical_instance6/emci_lmci_mri_clinical_fold2.log"
+    },
+    "prior_pid": 134282,
+    "prior_starttime": "1449352983",
+    "prior_queue_status": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch_status.json",
+    "gpu_uuid": "GPU-dc44f816-7167-e31f-ccb3-47b0f6dbc8c2",
+    "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+    "coverage": {
+      "real_fdg_path": 1106,
+      "syn_fdg_path": 1106,
+      "real_av45_path": 1106,
+      "syn_av45_path": 1106
+    },
+    "pidfd_test_passed": true,
+    "fits": [
+      {
+        "task": "ad_cn",
+        "condition": "mri_clinical",
+        "fold": 3,
+        "status": "complete",
+        "split_sizes": {
+          "train": 266,
+          "validation": 48,
+          "test": 156
+        },
+        "initialization_total_s": 40.61285103484988,
+        "total_wall_s": 3309.5176807101816,
+        "epoch": 200,
+        "train_s": 15.970740466564894,
+        "history_mtime": 1793587719.5992658,
+        "validation_s": 1.0411797165870667
+      },
+      {
+        "task": "emci_lmci",
+        "condition": "mri_clinical",
+        "fold": 2,
+        "status": "running",
+        "split_sizes": {
+          "train": 247,
+          "validation": 44,
+          "test": 145
+        },
+        "initialization_total_s": 39.32952005416155,
+        "total_wall_s": null,
+        "epoch": 88,
+        "train_s": 14.60123611781746,
+        "history_mtime": 1793589109.1488914,
+        "validation_s": 0.8907281927764416
+      },
+      {
+        "task": "emci_lmci",
+        "condition": "mri_clinical",
+        "fold": 3,
+        "status": "queued"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "instance": 3,
+    "checked_utc": "2026-11-02T03:14:05.326386+00:00",
+    "state": {
+      "status": "WAIT_PRIOR_QUEUE_EXIT",
+      "instance": 3,
+      "monitor_pid": 135054,
+      "host": "autodl-container-9b594ca734-b8eefc9f",
+      "checked_utc": "2026-11-02T03:13:35.108992+00:00",
+      "prior_pid": 131635
+    },
+    "prior_queue_alive": true,
+    "blocked_on_exact_prior_pid": true,
+    "pidfd": {
+      "fd": "4",
+      "target": "anon_inode:[pidfd]",
+      "info": "pos:\t0\nflags:\t02000002\nmnt_id:\t15\nino:\t14574\nPid:\t131635\nNSpid:\t131635\n"
+    },
+    "gpu_processes": "132488, /root/miniconda3/bin/python, 17842",
+    "new_fits_started": 0
+  },
+  {
+    "instance": 4,
+    "checked_utc": "2026-11-02T03:14:05.348444+00:00",
+    "state": {
+      "status": "WAIT_PRIOR_QUEUE_EXIT",
+      "instance": 4,
+      "monitor_pid": 138337,
+      "host": "autodl-container-58a0ln8rhl-a7b5e942",
+      "checked_utc": "2026-11-02T03:13:34.914445+00:00",
+      "prior_pid": 134949
+    },
+    "prior_queue_alive": true,
+    "blocked_on_exact_prior_pid": true,
+    "pidfd": {
+      "fd": "4",
+      "target": "anon_inode:[pidfd]",
+      "info": "pos:\t0\nflags:\t02000002\nmnt_id:\t15\nino:\t14297\nPid:\t134949\nNSpid:\t134949\n"
+    },
+    "gpu_processes": "135817, /root/miniconda3/bin/python, 17842",
+    "new_fits_started": 0
+  },
+  {
+    "instance": 5,
+    "checked_utc": "2026-11-02T03:14:05.367395+00:00",
+    "state": {
+      "status": "WAIT_PRIOR_QUEUE_EXIT",
+      "instance": 5,
+      "monitor_pid": 49971,
+      "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+      "checked_utc": "2026-11-02T03:13:35.012212+00:00",
+      "prior_pid": 48497
+    },
+    "prior_queue_alive": true,
+    "blocked_on_exact_prior_pid": true,
+    "pidfd": {
+      "fd": "4",
+      "target": "anon_inode:[pidfd]",
+      "info": "pos:\t0\nflags:\t02000002\nmnt_id:\t15\nino:\t14297\nPid:\t48497\nNSpid:\t48497\n"
+    },
+    "gpu_processes": "49405, /root/miniconda3/bin/python, 17842",
+    "new_fits_started": 0
+  },
+  {
+    "instance": 6,
+    "checked_utc": "2026-11-02T03:14:05.403170+00:00",
+    "state": {
+      "status": "WAIT_PRIOR_QUEUE_EXIT",
+      "instance": 6,
+      "monitor_pid": 137129,
+      "host": "autodl-container-5h9rm8rk3z-3396b382",
+      "checked_utc": "2026-11-02T03:13:35.019001+00:00",
+      "prior_pid": 134282
+    },
+    "prior_queue_alive": true,
+    "blocked_on_exact_prior_pid": true,
+    "pidfd": {
+      "fd": "4",
+      "target": "anon_inode:[pidfd]",
+      "info": "pos:\t0\nflags:\t02000002\nmnt_id:\t15\nino:\t14297\nPid:\t134282\nNSpid:\t134282\n"
+    },
+    "gpu_processes": "135973, /root/miniconda3/bin/python, 17842",
+    "new_fits_started": 0
+  }
+]

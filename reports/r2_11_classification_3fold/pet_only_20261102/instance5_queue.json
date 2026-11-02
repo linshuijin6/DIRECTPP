@@ -1,0 +1,62 @@
+{
+  "instance": 5,
+  "ssh_port": 15055,
+  "prior_pid": 48497,
+  "prior_starttime": "386398278",
+  "gpu_uuid": "GPU-da5fe135-b2e1-e3dd-5bf2-fa7e8ac580be",
+  "code_root": "/root/autodl-tmp/DIRECTPP",
+  "data_root": "/root/autodl-tmp/DIRECTPP_classification_inputs",
+  "inputs_ready": "/root/autodl-tmp/DIRECTPP_classification_inputs/inputs_ready.json",
+  "release_file": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/pilot_release.json",
+  "output_root": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5",
+  "persistent_root": "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only",
+  "jobs": [
+    {
+      "task": "mci_cn",
+      "condition": "real_fdg",
+      "fold": 2
+    },
+    {
+      "task": "mci_cn",
+      "condition": "syn_fdg",
+      "fold": 3
+    },
+    {
+      "task": "mci_cn",
+      "condition": "syn_av45",
+      "fold": 1
+    },
+    {
+      "task": "ad_cn",
+      "condition": "real_fdg",
+      "fold": 2
+    },
+    {
+      "task": "ad_cn",
+      "condition": "syn_fdg",
+      "fold": 3
+    },
+    {
+      "task": "ad_cn",
+      "condition": "syn_av45",
+      "fold": 1
+    },
+    {
+      "task": "emci_lmci",
+      "condition": "real_fdg",
+      "fold": 2
+    },
+    {
+      "task": "emci_lmci",
+      "condition": "syn_fdg",
+      "fold": 3
+    },
+    {
+      "task": "emci_lmci",
+      "condition": "syn_av45",
+      "fold": 1
+    }
+  ],
+  "wait_for_prior_queue_exit": true,
+  "prior_queue_status": "/root/autodl-tmp/DIRECTPP/reports/r2_11_classification_3fold/clinical_baselines_20261102/watch_status.json"
+}
