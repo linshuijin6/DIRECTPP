@@ -1,0 +1,37 @@
+{
+  "task": "av45_fold1",
+  "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+  "source_directory": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/formal/AV45/fold1",
+  "files": [
+    {
+      "name": "checkpoint_epoch50.pt",
+      "bytes": 256346462,
+      "sha256": "636cc6bb81cc8c96cf8a4c361c5b978b57137c88fe05e7526470e344b7de5a49",
+      "mtime_ns": 1793306052278055615
+    },
+    {
+      "name": "checkpoint_epoch100.pt",
+      "bytes": 256346689,
+      "sha256": "a8dbb0763b6d28a96c71fb9c303d85c0c6e7012da68f9c986c4920aea2ab0a6a",
+      "mtime_ns": 1793328969223012331
+    },
+    {
+      "name": "checkpoint_epoch150.pt",
+      "bytes": 256346689,
+      "sha256": "8ebc27e7c7cd542e1b80138bd6800564c55ce83c3361b9be3acb333456bf2771",
+      "mtime_ns": 1793351924363737618
+    },
+    {
+      "name": "checkpoint_epoch200.pt",
+      "bytes": 256346689,
+      "sha256": "32205419bd045a44ecb6a7a2b98d586a2868d35ec20d8a2633afbbd2603a3549",
+      "mtime_ns": 1793374883519177385
+    },
+    {
+      "name": "recovery.pt",
+      "bytes": 753980814,
+      "sha256": "d18bdccaf490127cdc48db05f625ae39a1d5ef934fcc85f4d8c65a44e148f4c7",
+      "mtime_ns": 1793374882575235372
+    }
+  ]
+}

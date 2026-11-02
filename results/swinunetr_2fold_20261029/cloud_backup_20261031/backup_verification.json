@@ -1,0 +1,162 @@
+{
+  "status": "ALL_20_PT_FILES_VERIFIED",
+  "verified_utc": "2026-10-31T03:25:49.743404+00:00",
+  "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031",
+  "file_count": 20,
+  "total_bytes": 7117469308,
+  "tasks": [
+    {
+      "task": "fdg_fold1",
+      "source_host": "autodl-container-9b594ca734-b8eefc9f",
+      "source_directory": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/formal/FDG/fold1",
+      "files": [
+        {
+          "name": "checkpoint_epoch50.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold1/formal/FDG/fold1/checkpoint_epoch50.pt",
+          "bytes": 256346462,
+          "sha256": "ce7753fe4fe594f78395322d698e2d66908a1c469b8a7156d91c99a9eef6ad44"
+        },
+        {
+          "name": "checkpoint_epoch100.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold1/formal/FDG/fold1/checkpoint_epoch100.pt",
+          "bytes": 256346689,
+          "sha256": "4a744671a07a779bbe238a6587da05423aaac20941c79bf7ae03ed8d49577833"
+        },
+        {
+          "name": "checkpoint_epoch150.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold1/formal/FDG/fold1/checkpoint_epoch150.pt",
+          "bytes": 256346689,
+          "sha256": "bef8e0f21f357a4adb51245e3e533225ad19c4a84199e838048a951a4dd5791e"
+        },
+        {
+          "name": "checkpoint_epoch200.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold1/formal/FDG/fold1/checkpoint_epoch200.pt",
+          "bytes": 256346689,
+          "sha256": "4be94899dc8375851f936478a7dc6ba8acfa51d48351f0f6a8daa11d70d0edbd"
+        },
+        {
+          "name": "recovery.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold1/formal/FDG/fold1/recovery.pt",
+          "bytes": 753980878,
+          "sha256": "813a4dc3264eb47376ea4f2d34e9a32a07286168a5b0f50c26a7b215a87bb28c"
+        }
+      ],
+      "status": "SHA256_MATCH"
+    },
+    {
+      "task": "fdg_fold2",
+      "source_host": "autodl-container-58a0ln8rhl-a7b5e942",
+      "source_directory": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/formal/FDG/fold2",
+      "files": [
+        {
+          "name": "checkpoint_epoch50.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold2/formal/FDG/fold2/checkpoint_epoch50.pt",
+          "bytes": 256346462,
+          "sha256": "652beb99afbae0ef240195351a1e5bededebd9037bac75880e798ae82e5395da"
+        },
+        {
+          "name": "checkpoint_epoch100.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold2/formal/FDG/fold2/checkpoint_epoch100.pt",
+          "bytes": 256346689,
+          "sha256": "0fdc4942aaa36c71d79a6f57656ea903e404e296680ad21654cf61d0a6e32b30"
+        },
+        {
+          "name": "checkpoint_epoch150.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold2/formal/FDG/fold2/checkpoint_epoch150.pt",
+          "bytes": 256346689,
+          "sha256": "8bcc8449a925fb51c833e54f4c84717cc2eebb52066ba151a6ddba754660f1fd"
+        },
+        {
+          "name": "checkpoint_epoch200.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold2/formal/FDG/fold2/checkpoint_epoch200.pt",
+          "bytes": 256346689,
+          "sha256": "cfa1a7062f0d10fc76c2f27e5cbd9350f9c2cbfc305a222a0e448a169108212b"
+        },
+        {
+          "name": "recovery.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/fdg_fold2/formal/FDG/fold2/recovery.pt",
+          "bytes": 753980750,
+          "sha256": "8ab2bd8e5d7c0205eb49bfd63a58bed62af247672c216805af28e9e7d0f4c3ed"
+        }
+      ],
+      "status": "SHA256_MATCH"
+    },
+    {
+      "task": "av45_fold1",
+      "source_host": "autodl-container-4bd4u9zpqz-e2f0447f",
+      "source_directory": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/formal/AV45/fold1",
+      "files": [
+        {
+          "name": "checkpoint_epoch50.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold1/formal/AV45/fold1/checkpoint_epoch50.pt",
+          "bytes": 256346462,
+          "sha256": "636cc6bb81cc8c96cf8a4c361c5b978b57137c88fe05e7526470e344b7de5a49"
+        },
+        {
+          "name": "checkpoint_epoch100.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold1/formal/AV45/fold1/checkpoint_epoch100.pt",
+          "bytes": 256346689,
+          "sha256": "a8dbb0763b6d28a96c71fb9c303d85c0c6e7012da68f9c986c4920aea2ab0a6a"
+        },
+        {
+          "name": "checkpoint_epoch150.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold1/formal/AV45/fold1/checkpoint_epoch150.pt",
+          "bytes": 256346689,
+          "sha256": "8ebc27e7c7cd542e1b80138bd6800564c55ce83c3361b9be3acb333456bf2771"
+        },
+        {
+          "name": "checkpoint_epoch200.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold1/formal/AV45/fold1/checkpoint_epoch200.pt",
+          "bytes": 256346689,
+          "sha256": "32205419bd045a44ecb6a7a2b98d586a2868d35ec20d8a2633afbbd2603a3549"
+        },
+        {
+          "name": "recovery.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold1/formal/AV45/fold1/recovery.pt",
+          "bytes": 753980814,
+          "sha256": "d18bdccaf490127cdc48db05f625ae39a1d5ef934fcc85f4d8c65a44e148f4c7"
+        }
+      ],
+      "status": "SHA256_MATCH"
+    },
+    {
+      "task": "av45_fold2",
+      "source_host": "autodl-container-5h9rm8rk3z-3396b382",
+      "source_directory": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/formal/AV45/fold2",
+      "files": [
+        {
+          "name": "checkpoint_epoch50.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold2/formal/AV45/fold2/checkpoint_epoch50.pt",
+          "bytes": 256346462,
+          "sha256": "09286ee01379ade0b6966be4dbf3eae40c001bc9ec5560b2c54e54e2e33aa273"
+        },
+        {
+          "name": "checkpoint_epoch100.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold2/formal/AV45/fold2/checkpoint_epoch100.pt",
+          "bytes": 256346689,
+          "sha256": "ee421c4e3daeceb61c8ba2ac9e8d06472167a7d315a80a77a52bd066b0275d6c"
+        },
+        {
+          "name": "checkpoint_epoch150.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold2/formal/AV45/fold2/checkpoint_epoch150.pt",
+          "bytes": 256346689,
+          "sha256": "a85b274f5ef6cb70b93a840f056033650ba3313087506d85d6b54ecb2a56b744"
+        },
+        {
+          "name": "checkpoint_epoch200.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold2/formal/AV45/fold2/checkpoint_epoch200.pt",
+          "bytes": 256346689,
+          "sha256": "1220ad9011b4cc6cdde8a34ff77754c600ddcebf9d6eabc95803d93fc312140f"
+        },
+        {
+          "name": "recovery.pt",
+          "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/swinunetr_2fold_20261029/cloud_backup_20261031/av45_fold2/formal/AV45/fold2/recovery.pt",
+          "bytes": 753980750,
+          "sha256": "59408b3fd43faafdda9c95d1fd8d3ad79b00be7977bfc4808bdab5da8b07e4a5"
+        }
+      ],
+      "status": "SHA256_MATCH"
+    }
+  ],
+  "scope": "SwinUNETR checkpoint and recovery tensors only; training completion and OOF receipts excluded"
+}

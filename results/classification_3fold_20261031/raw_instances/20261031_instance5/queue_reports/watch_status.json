@@ -1,0 +1,9 @@
+{
+  "status": "QUEUE_COMPLETE",
+  "instance": 5,
+  "monitor_pid": 43273,
+  "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+  "checked_utc": "2026-11-01T19:01:51.444719+00:00",
+  "prior_pid": 42438,
+  "jobs_total": 16
+}
