@@ -76,6 +76,15 @@ checkpoint；并列保留较早模型。最终重新加载最佳模型，test �
 测试预测。每种输入两次预热、四次计时，用于区分通道数和临床基线的成本；
 不构成额外完整 fit，不用其预测或损失作科学结果。
 
+## PET-only 补充输入（2026-11-02获授权）
+
+`real_fdg`、`syn_fdg`、`real_av45`、`syn_av45`分别只加载对应PET字段，
+使用原单通道DenseNet121；其余训练逻辑、预处理和splits.csv保持不变。
+三任务×四输入×三折共36项，输出与既有影像及临床模型分开保存。
+后续队列计划可设置`wait_for_prior_queue_exit`、`prior_pid`及`prior_starttime`，
+通过Linux pidfd事件等待该实例整个临床队列退出，再核对`prior_queue_status`
+为`QUEUE_COMPLETE`后接续；等待期间不轮询，单GPU仍按原队列顺序运行。
+
 ## 本轮获授权的云端接续
 
 用户新增授权实例 3/4/5/6 在原 direct_single PID 结束后自动接续 **63 项影像分类**；

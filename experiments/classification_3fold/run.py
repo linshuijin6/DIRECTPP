@@ -40,6 +40,10 @@ CONDITIONS = {
     "mri_syn_av45": ["mri_path", "syn_av45_path"],
     "mri_real_both": ["mri_path", "real_fdg_path", "real_av45_path"],
     "mri_syn_both": ["mri_path", "syn_fdg_path", "syn_av45_path"],
+    "real_fdg": ["real_fdg_path"],
+    "syn_fdg": ["syn_fdg_path"],
+    "real_av45": ["real_av45_path"],
+    "syn_av45": ["syn_av45_path"],
     "clinical": [],
     "mri_clinical": ["mri_path"],
 }

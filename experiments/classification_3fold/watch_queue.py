@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """One fixed per-instance classification queue, after its previous PID exits."""
 import argparse
+import ctypes
+import errno
 import fcntl
 import json
 import os
 from pathlib import Path
+import select
 import shutil
 import socket
 import statistics
@@ -77,6 +80,30 @@ def main():
         time.sleep(seconds)
 
     try:
+        # PET-only follow-on: wait for the entire prior clinical queue, including
+        # all its remaining children and persistence copies, using a PID event.
+        # Existing queues without this option retain their original behavior.
+        if plan.get("wait_for_prior_queue_exit"):
+            if process_identity(plan["prior_pid"]) == plan["prior_starttime"]:
+                status("WAIT_PRIOR_QUEUE_EXIT")
+                # These four x86_64 cloud instances lack Python's wrapper.
+                # SYS_pidfd_open=434; wait on the kernel event, without polling.
+                libc = ctypes.CDLL(None, use_errno=True)
+                libc.syscall.restype = ctypes.c_long
+                fd = int(libc.syscall(434, plan["prior_pid"], 0))
+                if fd < 0:
+                    code = ctypes.get_errno()
+                    if code != errno.ESRCH:
+                        raise OSError(code, os.strerror(code))
+                else:
+                    try:
+                        if process_identity(plan["prior_pid"]) == plan["prior_starttime"]:
+                            select.select([fd], [], [])
+                    finally:
+                        os.close(fd)
+            previous = json.loads(Path(plan["prior_queue_status"]).read_text())
+            if previous["status"] != "QUEUE_COMPLETE":
+                raise RuntimeError("Prior clinical queue exited before QUEUE_COMPLETE")
         if args.first_check_utc:
             delay = datetime.fromisoformat(args.first_check_utc).timestamp() - time.time()
             if delay > 0:
