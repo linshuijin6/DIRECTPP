@@ -4,6 +4,8 @@ Agent 阅读顺序、历史证据使用及 notebook 检索规则见 [AGENTS.md](
 
 当前工作回到审稿意见与修稿。实验流程按作者说明采用：**生成器两折交叉训练得到全队列 OOF 合成 PET，再做三折分类。论文中的 two-fold 不是笔误；数据泄露不再列为当前追查任务。**
 
+R2-8 原稿 ROI CSV 的指定输入是 `liutuo_data/shuijin/` 下的 AV45/FDG `statistics_of_regions_*_adjust/region_*.csv`；`liutuo_data/` 直属的同名 `*_adjust` 目录已由用户定义为 **abandon 版本**，保留但不用于后续重算。完整路径与适用范围见 [AGENTS.md](AGENTS.md) 和 [R2-8 来源核验](reports/r2_8_original_roi_stats/FIGURE4_SOURCE_CHECK.md)。
+
 下表划定后续优先阅读和修改的代码范围。原文件保持归档位置，本轮只建立入口，没有迁移、抽取或改写实验代码。核心表示与修稿直接相关，不表示每本历史 notebook 都是可一键运行的最终版本。
 
 | 模块 | 优先入口 | 修稿时的用途 |

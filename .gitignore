@@ -72,6 +72,8 @@ __pycache__/
 *.tar.gz
 *.tar.part*
 events.out.tfevents.*
+*.sqlite
+*.db
 
 # Data caches and large runtime dumps
 /results/cache/

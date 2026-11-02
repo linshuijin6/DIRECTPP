@@ -23,12 +23,28 @@ rg -n --no-ignore '关键词' appendix/legacy_only/8_revision_evidence/revision_
 
 历史目录默认隐藏后，没有默认搜索命中不等于文件不存在。可以直接读取明确路径，或在最小目录内使用 `rg --files --hidden --no-ignore <目录>`。
 
+## Python 环境
+
+- 本项目默认使用 `xiaochou` conda 环境，解释器为 `/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python`。运行项目 Python 脚本、分析和检查时直接使用该解释器，无需反复询问或确认环境。
+- 具体任务已指定其他环境时遵循该任务要求；默认解释器不可用或缺少必需依赖时，先核实并说明实际情况，再选择与任务相符的现有环境。
+
 ## Notebook 与归档依赖
 
 - 核心 notebook 先按清单中的零起算 cell 编号读取 `cells[i].source`；需要发现实现时只检索代码单元。避免把整本 JSON、图像 base64、进度条或全部输出送入上下文。
 - 仅在核验某次历史运行时读取相关 cell 输出；输出必须与源文件、cell 和具体运行身份一起解释。不得执行整本历史 notebook 来查看源码。
 - 如需源码提取副本，写入临时或独立派生目录，记录原路径、原文件 SHA-256 和 cell 编号；不得覆盖原 notebook，也不得把提取副本当作独立实现依据。
 - 不要为简化检索搬走、删除或批量重写归档。`experiments/e1_clinical_conditioning/prepare.py` 的 `init()` 仍读取 `appendix/legacy_only/8_revision_evidence/revision_20261016/clinical_observed_subjects.csv` 和 `clinical_observed_provenance.csv`，以及其他归档来源。修改依赖前逐项核实调用和路径。
+
+## R2-8 原稿 ROI CSV 版本（用户 2026-10-31 决定）
+
+以下路径均以 `source_archive/vscode-3002/home/ssddata/liutuo/liutuo_data/` 为前缀，指其中的 `region_*.csv`：
+
+| 示踪剂 | 指定重算输入 | abandon 版本（弃用，保留原位） |
+|---|---|---|
+| AV45 | `shuijin/statistics_of_regions_av45_adjust/` | `statistics_of_regions_av45_adjust/` |
+| FDG | `shuijin/statistics_of_regions_fdg_adjust/` | `statistics_of_regions_fdg_adjust/` |
+
+后续 R2-8 原稿区域摄取值分析只使用指定输入；不得在两套之间择优、混用，或把 abandon 版纳入统计表和 FDR 族。abandon 文件不删除、不改写，仅在明确核查历史来源时只读查看。此版本选择是用户的分析范围决定，不等于已证明 Figure 4 的精确绘图文件身份；重算与核验见 `reports/r2_8_original_roi_stats/`。
 
 ## 证据与修稿范围
 
