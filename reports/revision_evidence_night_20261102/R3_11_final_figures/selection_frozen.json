@@ -1,0 +1,60 @@
+{
+  "frozen_at_utc": "2026-11-03T03:10:45.524713+00:00",
+  "manifest_sha256": "ba4828b291ea7dda0d6f0fc01afed5a541be8c8a1c86fca5b29353f0fa7a9667",
+  "ranking_sha256": "f5a0635865fdb94e767659dc26f47bd1f51f1b6166cd17dad75ff1deeb9e896c",
+  "images_loaded_in_this_task_before_freeze": false,
+  "source_sha256": {
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/oof_summary/analysis_manifest.json": "f33c1884c890f4f66fe349b901a6b7dda00a1bba6af7e0541708706d1762c394",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/cohort.json": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/split_manifest.csv": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/input_index.csv": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/eligibility_and_exclusions_internal.csv": "3faebe4937b8ee9c3ef0659f1c6fd28a52a416147a9152b0149880cd61544237",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/input_manifest.json": "1f648e0d66abe09aad4a6d8d9e7d240ebeaa829086080c1aa22295bfbcaf4316",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/subject_asset_checks.jsonl": "74c4a16c7161ee23a61e96b3522fd81f8a698d7b13819e6ae41f2efe1a1482ac",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/qc_exclusions.json": "1be70ddf6f6a58543914f40a8764c4a25f89e1fc496970081e4bbd9aac276820",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/02_spatial_subject_checks.csv": "f21ebb54c0b1b906c17834111fe76c5d1b1939ca6cd9b889580a16e08e957e4f",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/code/cases.py": "86b559164de41b2757658f7183d032255f2940ba86c4c9c4b47d786e35861e3e",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/G3_cases/selection_manifest_internal.csv": "5e9ebad2effac2f28955d0e2b42f3d0eb5c54e16b32eb49663fbdd0c422c3e4e",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/G3_cases/render_manifest_internal.csv": "42c9dd52dbae6b351f02f83a1aa3567b77560de4c9019e94122ded4504faa04d",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/G3_cases/selection_frozen.json": "c2b8e84bc72268be017bb62241e7fef2994ca6ef0b7c417a6cfab16d24781866",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/G3_cases/REPORT.md": "87f10b8dce21dd11bc47f6fb9483df6ae13e6ff6a83d7f39b3418465fa2e2134",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/FIGURE_INDEX.md": "8b9679ce8a915c687de36aa348d3c53fd766b7cdf39aa201b83882a350ff3319",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_av45_median.png": "7ed98393c07ea03193b05fbd74bcfd55937ecd7eb6281ba47013e27a227c7c1d",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_av45_p10.png": "c2e7e177a95d92f371f8b236fced9e4a6fba93d3e089d92c83a44254414c64c5",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_av45_worst.png": "12fb8ae15f31b6db8258b6d10792adbc229619d7de8dfa1f53c5bca7cfc93680",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_fdg_median.png": "d29efe8a49ced47a19e1e5a898f963c713515dd85808a7cfa9ad9490397de592",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_fdg_p10.png": "d861f27725c73b58ddeba018f267d32072293ad4b7162bad46090750220304f2",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/figures/G3_case_fdg_worst.png": "1eb18b9e32c3880035d52de09b7be063ff2599e9cd305b4e2150c136282f3255"
+  },
+  "display_protocol": {
+    "composite_grid_axis": 2,
+    "composite_index": 80,
+    "detail_axes": [
+      0,
+      1,
+      2
+    ],
+    "detail_indices": [
+      80,
+      96,
+      80
+    ],
+    "display_rotation": "np.rot90, identical to cases.py; no new anatomical reorientation",
+    "pet_range": [
+      0,
+      1
+    ],
+    "error_range": [
+      0,
+      1
+    ],
+    "mri_range": [
+      0,
+      1
+    ],
+    "pet_cmap": "magma",
+    "error_cmap": "inferno",
+    "dpi": 400
+  }
+}

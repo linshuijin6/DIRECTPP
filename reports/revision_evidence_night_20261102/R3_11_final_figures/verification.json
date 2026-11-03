@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-03T03:15:02.843285+00:00",
+  "source_hashes_unchanged": true,
+  "frozen_selection_unchanged": true,
+  "selection_checks": [
+    {
+      "tracer": "fdg",
+      "selection": "median",
+      "ptid": "041_S_1418",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    },
+    {
+      "tracer": "fdg",
+      "selection": "p10",
+      "ptid": "033_S_1281",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    },
+    {
+      "tracer": "fdg",
+      "selection": "worst",
+      "ptid": "123_S_4096",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    },
+    {
+      "tracer": "av45",
+      "selection": "median",
+      "ptid": "036_S_6088",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    },
+    {
+      "tracer": "av45",
+      "selection": "p10",
+      "ptid": "003_S_0907",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    },
+    {
+      "tracer": "av45",
+      "selection": "worst",
+      "ptid": "128_S_4842",
+      "saved_ssim_exact_match": true,
+      "independent_selection_check": true,
+      "existing_qc_included": true
+    }
+  ],
+  "composite_pdf_checks": [
+    {
+      "tracer": "fdg",
+      "ssims_and_labels_match": true,
+      "no_ptid_or_internal_paths": true
+    },
+    {
+      "tracer": "av45",
+      "ssims_and_labels_match": true,
+      "no_ptid_or_internal_paths": true
+    }
+  ],
+  "new_png_pixels": [
+    4800,
+    4160
+  ],
+  "new_png_dpi": 399.9992,
+  "actual_visual_inspection_completed": true,
+  "no_new_image_metrics_computed": true,
+  "files_sha256": {
+    "figure_manifest.json": "9598c043def796a49c7d23ffa194ae4cb45f340a37b8126591015d9a8218a4f8",
+    "CAPTIONS.md": "2f934f14065e1fa147ca2ff809886d581776013e2d0bd3b222fb39795e19f7d9",
+    "REPORT.md": "cf8ff42730785d906bd9ec9df30232a5af84ac9733284b359e00386e4f19ff6a",
+    "build_figures.py": "d37807b35591824e8346bcad09a7174bafbfab06fc1df2509d3cc4f88f1e1c79",
+    "verify_artifacts.py": "3ae36821bd2c3e42bd6980c0f8efa5fdeddcd0544f753ff8123a726360fcc486"
+  }
+}

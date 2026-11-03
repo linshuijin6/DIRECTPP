@@ -1,0 +1,497 @@
+{
+  "created_at_utc": "2026-11-03T03:11:34.761720+00:00",
+  "model": "original_author_reproduction DIReCT++ Full",
+  "epoch": 165,
+  "selection_manifest_sha256": "ba4828b291ea7dda0d6f0fc01afed5a541be8c8a1c86fca5b29353f0fa7a9667",
+  "loading_source": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/revision_evidence_night_20261102/code/cases.py",
+    "sha256": "86b559164de41b2757658f7183d032255f2940ba86c4c9c4b47d786e35861e3e",
+    "lines": [
+      25,
+      35
+    ],
+    "block_sha256": "445cadaa3c36d1259b869e392a6bb59ddbc6df13699b1fe7a7df6fec76fb9db3",
+    "method": "verbatim loading block; no original top-level selection/render side effects"
+  },
+  "display": {
+    "composite_grid_axis": 2,
+    "composite_index": 80,
+    "detail_axes": [
+      0,
+      1,
+      2
+    ],
+    "detail_indices": [
+      80,
+      96,
+      80
+    ],
+    "display_rotation": "np.rot90, identical to cases.py; no new anatomical reorientation",
+    "pet_range": [
+      0,
+      1
+    ],
+    "error_range": [
+      0,
+      1
+    ],
+    "mri_range": [
+      0,
+      1
+    ],
+    "pet_cmap": "magma",
+    "error_cmap": "inferno",
+    "dpi": 400
+  },
+  "metric_scope": "saved whole-volume SSIM; no SSIM/PSNR or brain-mask metrics recomputed",
+  "interpolation": "nearest",
+  "aspect": "equal in existing array grid",
+  "clipping": false,
+  "sources_unchanged_after_render": true,
+  "records": [
+    {
+      "ptid": "041_S_1418",
+      "tracer": "fdg",
+      "fold": 2,
+      "epoch": 165,
+      "selection": "median",
+      "ssim": 0.933095395565033,
+      "displayed_ssim": "0.9331",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold2/generated_fdg_041_S_1418.nii.gz",
+      "prediction_sha256": "f340f1e9503e62e2d69215326478a4771672ab0c28e0e6f6f8bf6b35f9828bc4",
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/2e80f7cbcd9ca9df19aba8f679c60187.pt",
+      "target_cache_sha256": "2c85ce18d171f6522b977afbb24807c5a200318910f20923415795444be15c7a",
+      "mri_array_sha256": "76855d114eb508d50e507283f7853bb8a285f0dfa372e15c419d0905b60222bc",
+      "real_array_sha256": "bb54fce2903917af01370b31c53c1dc0bb2fa0cde0acecebea3ffca7da2d0c17",
+      "synthetic_array_sha256": "f0241369bbc6258b2971b249870d33389366d3198eeee5a617b054b3aa5b066b",
+      "error_array_sha256": "b61b094fee23835a9f69f1153a69f85061549cc7bea68850fe28159fd7c2834b",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9598426818847656
+        ],
+        "Absolute error": [
+          0.0,
+          0.47690778970718384
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_FDG_median_orthogonal.png",
+      "detail_sha256": "d29efe8a49ced47a19e1e5a898f963c713515dd85808a7cfa9ad9490397de592",
+      "detail_action": "reused original 200-dpi optional detail by relative symlink; no regeneration",
+      "plotted_arrays_verified_exact": true
+    },
+    {
+      "ptid": "033_S_1281",
+      "tracer": "fdg",
+      "fold": 2,
+      "epoch": 165,
+      "selection": "p10",
+      "ssim": 0.8746604919433594,
+      "displayed_ssim": "0.8747",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold2/generated_fdg_033_S_1281.nii.gz",
+      "prediction_sha256": "10bbbdf00c49b76962a4ca6e208b64b6cd230ef942c0253166ce90b33f6e409a",
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/949a7195499225bd08f240ca65fb3d6c.pt",
+      "target_cache_sha256": "328547d72cfd7b393d523ccd1563694166e2a33fbc625e6d1b82be5aba159d28",
+      "mri_array_sha256": "8210b9583c9d1461dc3d1f15e72aec8c710122b696607741923ca4b65bcb334d",
+      "real_array_sha256": "8efbe948bd5bca4c6403800f6c666a66252e03e095d6600316f708b88438003d",
+      "synthetic_array_sha256": "b5281b3d4c276b6c633739b03020441ab9fc33011fc50284f677dd519e450d5f",
+      "error_array_sha256": "b661c7da910f692118cab96a3b7892230849a7c125e648ea35beb300ccce0287",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9859756827354431
+        ],
+        "Absolute error": [
+          0.0,
+          0.5384364128112793
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_FDG_p10_orthogonal.png",
+      "detail_sha256": "ea30a0f55d4b1431f7cfc885d0c46f98d3fc644e8f84972cb372817d201b143c",
+      "detail_action": "new detail for selection changed by uniform QC-valid ranking",
+      "plotted_arrays_verified_exact": true
+    },
+    {
+      "ptid": "123_S_4096",
+      "tracer": "fdg",
+      "fold": 1,
+      "epoch": 165,
+      "selection": "worst",
+      "ssim": 0.567237377166748,
+      "displayed_ssim": "0.5672",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold1/generated_fdg_123_S_4096.nii.gz",
+      "prediction_sha256": "b090dd7709b200ed124913f1f95f39214c7d1fa3eeb6b093542ee6cbe102bbcf",
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/e7790cbd29dfc0556783bca9bd809523.pt",
+      "target_cache_sha256": "75345f36204acb064db49ada43e4d66b601dac6a6e9ea51f60191c75a1470be7",
+      "mri_array_sha256": "27143f7339b174cc284318afb114b2d48deed419448560f5880cbb36763e2f7d",
+      "real_array_sha256": "d2c1262860d02736aadf7da3e1bfa4657351b07f03081e52f18a6b50cdee65b1",
+      "synthetic_array_sha256": "40b1895114d5d5b66517b9abf2930528d7f69b3d39e31bb7743ab2fa8f61c20a",
+      "error_array_sha256": "8bbe5578b7e3ef320873d26b948791f46cd5ff4c2935b3f44069b2d93e9f7ce3",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9454536437988281
+        ],
+        "Absolute error": [
+          0.0,
+          0.8449233770370483
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_FDG_worst_orthogonal.png",
+      "detail_sha256": "d7cf9e0df970ee4dcf36d17f710422da25cfd8881c0929c7b4c416c701bc2d65",
+      "detail_action": "new detail for selection changed by uniform QC-valid ranking",
+      "plotted_arrays_verified_exact": true
+    },
+    {
+      "ptid": "036_S_6088",
+      "tracer": "av45",
+      "fold": 1,
+      "epoch": 165,
+      "selection": "median",
+      "ssim": 0.8923619985580444,
+      "displayed_ssim": "0.8924",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold1/generated_av45_036_S_6088.nii.gz",
+      "prediction_sha256": "c5a80773e9f3dce4d979dd38abd1a640f6158d65ceaaa5c3dfe6efcd0a142b7b",
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/a772cb4f7464c782aa8eecc74637a5f3.pt",
+      "target_cache_sha256": "a9e7876f5f362440bbd684bab12d79cf127845ee5fdbc672929af46562745c61",
+      "mri_array_sha256": "dc774f4de474e794721364b3167137b9549222516fbc0b46aa87fe64056c66d4",
+      "real_array_sha256": "e328b9612336f9ab7d97eebc7edc1213b1f47860b16c4ee0a090c3c9eac2354f",
+      "synthetic_array_sha256": "35cf9f06854c9d479ae4a8ab9c2a66d08f01fd39a038ec7c6c89467d36131f4b",
+      "error_array_sha256": "7dd8231b357ab2a045e95a12781754a4fb4cfb02f983477066ee6c169da2c2ab",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9686144590377808
+        ],
+        "Absolute error": [
+          0.0,
+          0.5189372301101685
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_AV45_median_orthogonal.png",
+      "detail_sha256": "3b3b8201fc45d2935a4fd4fcfd99b271143edc89e773b791db726fe310ab7699",
+      "detail_action": "new detail for selection changed by uniform QC-valid ranking",
+      "plotted_arrays_verified_exact": true
+    },
+    {
+      "ptid": "003_S_0907",
+      "tracer": "av45",
+      "fold": 2,
+      "epoch": 165,
+      "selection": "p10",
+      "ssim": 0.8467223644256592,
+      "displayed_ssim": "0.8467",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold2/generated_av45_003_S_0907.nii.gz",
+      "prediction_sha256": "e36c6a17b4784418671ce0299d5ecfcd56895002c4ffd5cc04aed10a919c6507",
+      "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/70bd0adfb527bd340c1ea7e2e90256b7.pt",
+      "target_cache_sha256": "73977484c16d7d8d50d6402d0f789332359e9d7a81fc90828557587bd6b7b440",
+      "mri_array_sha256": "681e3ef6a5e67b4b216d18b711f36d0c2adfeef6e6ae05118174c59a0a537b3b",
+      "real_array_sha256": "99c0dd2c9e29a31fdc42b625f57c7515bc00ab3bc83567cd12f955fa0bbb31fc",
+      "synthetic_array_sha256": "4b45c415b7fbb2a83b4d982e935a1b960147cd1c0264f54e1e64e57600397426",
+      "error_array_sha256": "7007655c43036e448a283de7209f9e7ad8f76d0996c1862c0beee77374650798",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9560397863388062
+        ],
+        "Absolute error": [
+          0.0,
+          0.5315171480178833
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_AV45_p10_orthogonal.png",
+      "detail_sha256": "0fa36fb0f700834f1eeb9debc81c10cbf9f215060f0aa7bf6014fc926cf176be",
+      "detail_action": "new detail for selection changed by uniform QC-valid ranking",
+      "plotted_arrays_verified_exact": true
+    },
+    {
+      "ptid": "128_S_4842",
+      "tracer": "av45",
+      "fold": 1,
+      "epoch": 165,
+      "selection": "worst",
+      "ssim": 0.5808225274085999,
+      "displayed_ssim": "0.5808",
+      "prediction": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold1/generated_av45_128_S_4842.nii.gz",
+      "prediction_sha256": "6a3e8f2f3f0b8b4bad4c8e16ae9364e7f712ec44feb77078d85be9e4e4257df8",
+      "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77",
+      "target_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/8ec57b769eb64c42ab17b744bc46f5be.pt",
+      "target_cache_sha256": "4340727f799f26390d4dbaf8b96bb184677928b2b083a876a9d59e06f168495c",
+      "mri_array_sha256": "e0a6be69912c52e7e39748e07c4eba981805cfafcbe77bd285f803578272fae3",
+      "real_array_sha256": "cb6ba78e1c8be9d57cc565978dcc9d1704a1bf042431a99ad502415a36dcd4d2",
+      "synthetic_array_sha256": "a39f64e89fc29153b59bcef20b9efc56f43d05a96a9f131efb6dd7b918b3143e",
+      "error_array_sha256": "a88b8f41d7cb59ef77706128edb1903087b65ccb2a271325d120c578cc8ebb70",
+      "array_ranges": {
+        "MRI": [
+          0.0,
+          1.0
+        ],
+        "Real PET": [
+          0.0,
+          1.0
+        ],
+        "Synthetic PET": [
+          0.0,
+          0.9682189226150513
+        ],
+        "Absolute error": [
+          0.0,
+          0.8356042504310608
+        ]
+      },
+      "error_verified_by_independent_maximum_identity": true,
+      "error_above_display_max_voxels": 0,
+      "qc": "included in existing eligibility AND spatial gate pass",
+      "shape": [
+        160,
+        192,
+        160
+      ],
+      "detail": "details/R3_11_AV45_worst_orthogonal.png",
+      "detail_sha256": "ec484387e0635d852a4e1979a8b72b2527ff4de54c0586d666496277a82e19a0",
+      "detail_action": "new detail for selection changed by uniform QC-valid ranking",
+      "plotted_arrays_verified_exact": true
+    }
+  ],
+  "exports": [
+    {
+      "path": "details/R3_11_FDG_p10_orthogonal.png",
+      "sha256": "ea30a0f55d4b1431f7cfc885d0c46f98d3fc644e8f84972cb372817d201b143c",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "details/R3_11_FDG_p10_orthogonal.pdf",
+      "sha256": "601d13508118748fd9d3e92eaded40dce2b72478177c63bdd07d0506926fd93f",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "details/R3_11_FDG_worst_orthogonal.png",
+      "sha256": "d7cf9e0df970ee4dcf36d17f710422da25cfd8881c0929c7b4c416c701bc2d65",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "details/R3_11_FDG_worst_orthogonal.pdf",
+      "sha256": "6ddfe0495bf8966fad1dea67916bf50fde1438a075b809762c4f3cc7de4fad5c",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "R3_11_FDG_cases.png",
+      "sha256": "496ccfe349cfeef08de9906147e6c09afab3b51bf7b2f7330b6c135bc2bf7398",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "R3_11_FDG_cases.pdf",
+      "sha256": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "details/R3_11_AV45_median_orthogonal.png",
+      "sha256": "3b3b8201fc45d2935a4fd4fcfd99b271143edc89e773b791db726fe310ab7699",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "details/R3_11_AV45_median_orthogonal.pdf",
+      "sha256": "36e10d70da93a146ed29599ff0ae90a1f45539c2fc6f6dc7e0c648b39d189342",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "details/R3_11_AV45_p10_orthogonal.png",
+      "sha256": "0fa36fb0f700834f1eeb9debc81c10cbf9f215060f0aa7bf6014fc926cf176be",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "details/R3_11_AV45_p10_orthogonal.pdf",
+      "sha256": "59a219c9ce5ba85e45f1dc2223d96eb631f11c38084a650024b93d60cef9ac38",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "details/R3_11_AV45_worst_orthogonal.png",
+      "sha256": "ec484387e0635d852a4e1979a8b72b2527ff4de54c0586d666496277a82e19a0",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "details/R3_11_AV45_worst_orthogonal.pdf",
+      "sha256": "898d2d2853535fba8d2aa486f7bdceceb42aef9faf6039051332702e3b38b950",
+      "text_bounds_pass": true
+    },
+    {
+      "path": "R3_11_AV45_cases.png",
+      "sha256": "d23e54ebc840b3c35f31261274c61fe3b858c70c556e75705326f8977f7ccff5",
+      "text_bounds_pass": true,
+      "pixels": [
+        4800,
+        4160
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ]
+    },
+    {
+      "path": "R3_11_AV45_cases.pdf",
+      "sha256": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+      "text_bounds_pass": true
+    }
+  ],
+  "visual_inspection": {
+    "status": "completed",
+    "inspected_at_utc": "2026-11-03T03:15:02.839606+00:00",
+    "method": "view_image on both composite PNGs, all six orthogonal PNGs, and pdftoppm previews of both composite PDFs",
+    "composite_pngs": [
+      "R3_11_FDG_cases.png",
+      "R3_11_AV45_cases.png"
+    ],
+    "composite_pdfs": [
+      "R3_11_FDG_cases.pdf",
+      "R3_11_AV45_cases.pdf"
+    ],
+    "optional_details": [
+      "details/R3_11_FDG_median_orthogonal.png",
+      "details/R3_11_FDG_p10_orthogonal.png",
+      "details/R3_11_FDG_worst_orthogonal.png",
+      "details/R3_11_AV45_median_orthogonal.png",
+      "details/R3_11_AV45_p10_orthogonal.png",
+      "details/R3_11_AV45_worst_orthogonal.png"
+    ],
+    "observed": "Correct row/column bindings, SSIM labels, clear separate colorbars, equal image aspect; no visible clipping or overlap",
+    "limitation": "Reused original FDG median optional detail retains original 200 dpi and shared colorbar annotation; final composites have independent labeled bars",
+    "pdf_preview_paths": [
+      "/tmp/R3_11_FDG_pdf_check.png",
+      "/tmp/R3_11_AV45_pdf_check.png"
+    ]
+  },
+  "build_script_sha256": "d37807b35591824e8346bcad09a7174bafbfab06fc1df2509d3cc4f88f1e1c79"
+}
