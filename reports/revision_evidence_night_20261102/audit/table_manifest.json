@@ -168,7 +168,7 @@
     "csv": "tables/S-N19_adapter_sensitivity_existing_results.csv",
     "latex": "tables/S-N19_adapter_sensitivity_existing_results.tex",
     "source": "experiments/r2_15_tau_adapter_ablation/results.csv",
-    "note": "All10 existing adapter fits reused; no new optimization. Representation-layer measurements only; not generator quality or downstream clinical benefit. Tau is a squared soft target, not hard constraint or performance-optimized threshold. T000 removes cross-tracer penalty."
+    "note": "All10 existing adapter fits reused; no new optimization. Representation-layer measurements only; not generator quality or downstream clinical benefit. Tau is a squared soft target, not hard constraint or performance-optimized threshold. T000 removes cross-tracer penalty. Full source hashes are retained in G1/tau_results.csv."
   },
   {
     "id": "S-N20",
