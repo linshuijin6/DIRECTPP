@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "clinical_fits": 18,
+  "clinical_prediction_rows": 3294,
+  "new_summary_rows": 30,
+  "new_comparison_rows": 60,
+  "new_delong_rows": 36,
+  "source_statistics_sha256": "465eb2615ba13ae0d49d525c4dd2161bf4d6c86e2b2d7306fd04901f264d2c44",
+  "positive_classes": [
+    "AD",
+    "EMCI+LMCI",
+    "LMCI"
+  ],
+  "no_inference": true
+}

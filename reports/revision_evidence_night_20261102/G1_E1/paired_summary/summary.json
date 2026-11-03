@@ -1,0 +1,138 @@
+{
+  "status": "COMPLETE",
+  "subjects": 1856,
+  "volumes": 2961,
+  "contrasts": [
+    {
+      "tracer": "fdg",
+      "metric": "roi_mae",
+      "n": 1597,
+      "mean": 3.6361114974723826e-05,
+      "ci_low": 1.1827234623388662e-05,
+      "ci_high": 6.019427196742111e-05,
+      "meaning": "No-Scores minus Full",
+      "unit": "normalized uptake",
+      "p_permutation": 0.0017998200179982,
+      "p_holm_within_endpoint_two_tracers": 0.0035996400359964
+    },
+    {
+      "tracer": "fdg",
+      "metric": "brain_mae",
+      "n": 1597,
+      "mean": -1.3916601130521327e-05,
+      "ci_low": -3.507254192544774e-05,
+      "ci_high": 7.217461417053525e-06,
+      "meaning": "No-Scores minus Full",
+      "unit": "normalized uptake",
+      "p_permutation": 0.22037796220377961,
+      "p_holm_within_endpoint_two_tracers": 0.22037796220377961
+    },
+    {
+      "tracer": "fdg",
+      "metric": "psnr",
+      "n": 1597,
+      "mean": -0.004173620876750003,
+      "ci_low": -0.0067381599091314226,
+      "ci_high": -0.0016062547655154849,
+      "meaning": "No-Scores minus Full",
+      "unit": "dB"
+    },
+    {
+      "tracer": "fdg",
+      "metric": "ssim7",
+      "n": 1597,
+      "mean": 0.00022073328009827146,
+      "ci_low": 0.00018237760067731649,
+      "ci_high": 0.0002609208356833915,
+      "meaning": "No-Scores minus Full",
+      "unit": "dimensionless"
+    },
+    {
+      "tracer": "fdg",
+      "metric": "ssim11",
+      "n": 1597,
+      "mean": 0.0002158557204208806,
+      "ci_low": 0.0001789670710497887,
+      "ci_high": 0.00025380105106771386,
+      "meaning": "No-Scores minus Full",
+      "unit": "dimensionless"
+    },
+    {
+      "tracer": "fdg",
+      "metric": "full_vs_no_scores_voxel_mae",
+      "n": 1597,
+      "mean": 0.0010192718404186897,
+      "ci_low": 0.0010057241931206535,
+      "ci_high": 0.0010331848486297792,
+      "meaning": "Full versus No-Scores voxel MAE",
+      "unit": "normalized uptake"
+    },
+    {
+      "tracer": "av45",
+      "metric": "roi_mae",
+      "n": 1364,
+      "mean": 7.876482590889589e-05,
+      "ci_low": 4.5638790274192354e-06,
+      "ci_high": 0.0001524016029228143,
+      "meaning": "No-Scores minus Full",
+      "unit": "normalized uptake",
+      "p_permutation": 0.039996000399960006,
+      "p_holm_within_endpoint_two_tracers": 0.039996000399960006
+    },
+    {
+      "tracer": "av45",
+      "metric": "brain_mae",
+      "n": 1364,
+      "mean": 0.00014449953339991536,
+      "ci_low": 9.578425991308941e-05,
+      "ci_high": 0.0001934576015014508,
+      "meaning": "No-Scores minus Full",
+      "unit": "normalized uptake",
+      "p_permutation": 0.00019998000199980003,
+      "p_holm_within_endpoint_two_tracers": 0.00039996000399960006
+    },
+    {
+      "tracer": "av45",
+      "metric": "psnr",
+      "n": 1364,
+      "mean": -0.02019032009582623,
+      "ci_low": -0.024727888428001367,
+      "ci_high": -0.015722684454547747,
+      "meaning": "No-Scores minus Full",
+      "unit": "dB"
+    },
+    {
+      "tracer": "av45",
+      "metric": "ssim7",
+      "n": 1364,
+      "mean": 0.0006849177596855563,
+      "ci_low": 0.0006197448153474661,
+      "ci_high": 0.0007502267339274865,
+      "meaning": "No-Scores minus Full",
+      "unit": "dimensionless"
+    },
+    {
+      "tracer": "av45",
+      "metric": "ssim11",
+      "n": 1364,
+      "mean": 0.0005548045782049917,
+      "ci_low": 0.0004912361939631457,
+      "ci_high": 0.0006195478851406988,
+      "meaning": "No-Scores minus Full",
+      "unit": "dimensionless"
+    },
+    {
+      "tracer": "av45",
+      "metric": "full_vs_no_scores_voxel_mae",
+      "n": 1364,
+      "mean": 0.0011046924974281395,
+      "ci_low": 0.0010867951959307102,
+      "ci_high": 0.001123212923021882,
+      "meaning": "Full versus No-Scores voxel MAE",
+      "unit": "normalized uptake"
+    }
+  ],
+  "bootstrap": "10000 subject draws stratified within outer folds; seed 20261017",
+  "multiplicity": "Holm within each primary endpoint across FDG and AV45",
+  "interpretation": "fixed Full weights, alternative inference-time patient token; normalized uptake only"
+}

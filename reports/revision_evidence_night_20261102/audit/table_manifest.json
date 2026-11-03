@@ -1,0 +1,209 @@
+[
+  {
+    "id": "S-N01",
+    "title": "Whole volume generation metrics",
+    "rows": 12,
+    "csv": "tables/S-N01_whole_volume_generation_metrics.csv",
+    "latex": "tables/S-N01_whole_volume_generation_metrics.tex",
+    "source": "G3/distribution_summary.csv",
+    "note": "Mean plus/minus sample SD. Whole-volume frozen OOF; FDG1598, AV451365. Full165, ClinicalUNet165, Swin200 MRI-only, Single165, TabularMLP165, TracerOnly165. SSIM unitless; PSNR dB; MSE squared and MAE unsquared normalized-intensity arbitrary units. Independent training realizations; reconstructed runs, not historical Figure2."
+  },
+  {
+    "id": "S-N02",
+    "title": "Generation distributions",
+    "rows": 48,
+    "csv": "tables/S-N02_generation_distributions.csv",
+    "latex": "tables/S-N02_generation_distributions.tex",
+    "source": "G3/distribution_summary.csv",
+    "note": "Percentiles across frozen OOF subjects, not confidence limits. All intensities normalized, not SUV/SUVR."
+  },
+  {
+    "id": "S-N03",
+    "title": "Paired generation comparisons",
+    "rows": 40,
+    "csv": "tables/S-N03_paired_generation_comparisons.csv",
+    "latex": "tables/S-N03_paired_generation_comparisons.tex",
+    "source": "G3/paired_comparisons.csv",
+    "note": "Delta=Full minus comparator; positive favors Full for SSIM/PSNR and negative for MSE/MAE. Cohen dz signed.10000 paired resamples within frozen folds, seed42; percentile95% CIs unadjusted. Two-sided paired t; separate Holm8-test family per comparator (2tracers x4metrics). ClinicalUNet statistics reused; TracerOnly t/dz reused and missing bootstrap supplemented. CIs do not estimate training/seed variability. MRI-only Swin inputs and endpoint differ."
+  },
+  {
+    "id": "S-N04",
+    "title": "Brain-mask metrics unchanged",
+    "rows": 24,
+    "csv": "brain_mask/summary_metrics.csv",
+    "latex": "tables/S-N04_brain_mask_reused.tex",
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102",
+    "note": "Exact copy. No masked recalculation. FDG1597/AV451364; SynthSeg union includes CSF; canonical target arrays identical across models; two Holm8 families."
+  },
+  {
+    "id": "S-N05",
+    "title": "Brain-mask paired comparisons unchanged",
+    "rows": 16,
+    "csv": "brain_mask/paired_comparisons.csv",
+    "latex": "tables/S-N05_brain_mask_reused.tex",
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102",
+    "note": "Exact copy. No masked recalculation. FDG1597/AV451364; SynthSeg union includes CSF; canonical target arrays identical across models; two Holm8 families."
+  },
+  {
+    "id": "S-N06",
+    "title": "Historical98 ROI agreement",
+    "rows": 196,
+    "csv": "tables/S-N06_historical98_roi_agreement.csv",
+    "latex": "tables/S-N06_historical98_roi_agreement.tex",
+    "source": "G4/historical_all98_overall.csv",
+    "note": "Author-selected shuijin historical ROI CSVs only. Normalized uptake arbitrary units; not W1 Full OOF. Exact figure plotting identity not fully recovered."
+  },
+  {
+    "id": "S-N07",
+    "title": "Historical98 ROI paired inference by group",
+    "rows": 1176,
+    "csv": "tables/S-N07_historical98_roi_paired_inference_by_group.csv",
+    "latex": "tables/S-N07_historical98_roi_paired_inference_by_group.tex",
+    "source": "G4/historical_all98_allgroups.csv",
+    "note": "Student t95% paired-mean CI; Real/Syn matched subjects. BH98 within each tracer x original diagnostic group. MCI is the exact historical CSV label, not pooled EMCI/LMCI or automatically MCI-U. Non-significant q does not establish equivalence."
+  },
+  {
+    "id": "S-N08",
+    "title": "Historical98 ROI Bland Altman",
+    "rows": 196,
+    "csv": "tables/S-N08_historical98_roi_bland_altman.csv",
+    "latex": "tables/S-N08_historical98_roi_bland_altman.tex",
+    "source": "G4/historical_all98_overall.csv",
+    "note": "Bias=Syn-Real; limits=mean difference +/-1.96 sample SD, descriptive normal approximation, not CI. All normalized uptake arbitrary units."
+  },
+  {
+    "id": "S-N09",
+    "title": "Historical16 ROI Pearson OLS",
+    "rows": 16,
+    "csv": "tables/S-N09_historical16_roi_pearson_ols.csv",
+    "latex": "tables/S-N09_historical16_roi_pearson_ols.tex",
+    "source": "G4/historical_OLS16.csv",
+    "note": "Overall only, Syn=intercept+slope xReal. Unadjusted marginal95% OLS intervals; asymmetric descriptive regression. No clinical SUV/SUVR calibration. No invented OLS values for other ROIs or diagnostic groups."
+  },
+  {
+    "id": "S-N10",
+    "title": "Historical Figure4 disease effect sizes",
+    "rows": 20,
+    "csv": "tables/S-N10_historical_figure4_disease_effect_sizes.csv",
+    "latex": "tables/S-N10_historical_figure4_disease_effect_sizes.tex",
+    "source": "G4/historical_figure4_effect_sizes.csv",
+    "note": "AD-CN Cohen d uses pooled sample SD; distinct from paired Cohen dz. Original AD/CN labels. Figure4E first2 ROIs are Left/Right-VentralDC28/60. Existing disease-test BH98 per tracer xReal/Syn; no tests rerun. High agreement or non-significance does not prove equivalence or precise preservation."
+  },
+  {
+    "id": "S-N11",
+    "title": "Full OT OOF98 ROI agreement",
+    "rows": 392,
+    "csv": "tables/S-N11_full_ot_oof98_roi_agreement.csv",
+    "latex": "tables/S-N11_full_ot_oof98_roi_agreement.tex",
+    "source": "G4/authorFull_OT_complete_overall.csv",
+    "note": "W1 Full/TracerOnly165 checkpoints; frozen E1 masks and Real regional arrays, not E1 generator. Physical hemisphere names follow frozen E1 mask correction. Saved MAE/CCC/ICC/Pearson/OLS reused. Invalid ROIs removed jointly, not zero-filled. Intensity is normalized uptake arbitrary units."
+  },
+  {
+    "id": "S-N12",
+    "title": "Full OT OOF98 ROI bias inference",
+    "rows": 392,
+    "csv": "tables/S-N12_full_ot_oof98_roi_bias_inference.csv",
+    "latex": "tables/S-N12_full_ot_oof98_roi_bias_inference.tex",
+    "source": "G4/authorFull_OT_complete_overall.csv",
+    "note": "New missing mean-bias inference from saved regional means, without reading or recalculating image metrics. Delta=prediction-Real. Student t95% mean CI, paired two-sided t, BH98 separately per tracer xmodel (4families). LoA are reused descriptive1.96SD limits. q here tests Real-Syn bias, not the existing Full-vs-OT MAE comparison."
+  },
+  {
+    "id": "S-N13",
+    "title": "Classification27 conditions five metrics",
+    "rows": 135,
+    "csv": "tables/S-N13_classification27_conditions_five_metrics.csv",
+    "latex": "tables/S-N13_classification27_conditions_five_metrics.tex",
+    "source": "G5/existing_imaging_bootstrap_metrics.csv;G5/clinical_summary.csv",
+    "note": "81completed fits:3tasks x9conditions x3folds. Metrics are equal-weight fold means and sample SD, not pooled AUC.5000 fold xclass paired bootstrap95% CIs, seed20261102, fixed models/splits. Positive classes AD, EMCI+LMCI, LMCI; MCI-U excluded. Degenerate100% empirical intervals do not prove zero population error. Clinical variables include diagnosis-related scales; independent clinical value not established."
+  },
+  {
+    "id": "S-N14",
+    "title": "Existing imaging paired classification",
+    "rows": 30,
+    "csv": "tables/S-N14_existing_imaging_paired_classification.csv",
+    "latex": "tables/S-N14_existing_imaging_paired_classification.tex",
+    "source": "G5/existing_imaging_paired_comparisons.csv",
+    "note": "Original6 prespecified comparisons reused; Syn dual PET minus MRI orReal dual PET. Marginal95%5000 fold/class bootstrap CI, uncorrected for multiplicity. No overall DeLong claim and no equivalence inference."
+  },
+  {
+    "id": "S-N15",
+    "title": "New clinical paired classification",
+    "rows": 60,
+    "csv": "tables/S-N15_new_clinical_paired_classification.csv",
+    "latex": "tables/S-N15_new_clinical_paired_classification.tex",
+    "source": "G5/clinical_paired_comparisons.csv",
+    "note": "12prespecified comparisons x5metrics. Delta target-reference; equal-weight3fold means.5000 paired fold/class bootstrap95% CI, seed20261102. Marginal intervals without simultaneous coverage. Does not estimate repeated-training variation."
+  },
+  {
+    "id": "S-N16",
+    "title": "Classification paired DeLong by fold",
+    "rows": 54,
+    "csv": "tables/S-N16_classification_paired_delong_by_fold.csv",
+    "latex": "tables/S-N16_classification_paired_delong_by_fold.tex",
+    "source": "G5/existing_imaging_delong_holm.csv;G5/clinical_delong_by_fold.csv",
+    "note": "Two-sided paired DeLong only within each outer test fold. Holm separately for original18 and new36 test families. No pooled/combined/mean p-value or three-fold overall significance is asserted. Undefined variance would remain NA and count conservatively in family size."
+  },
+  {
+    "id": "S-N17",
+    "title": "E1 fixed weight score removal",
+    "rows": 12,
+    "csv": "tables/S-N17_e1_fixed_weight_score_removal.csv",
+    "latex": "tables/S-N17_e1_fixed_weight_score_removal.tex",
+    "source": "G1_E1/paired_summary/contrasts.csv",
+    "note": "Separate E1 Full checkpoints f9455190/fc69fa4e,165epochs; not W1 Full. Delta=No-Scores-Full, except output voxel MAE is nonnegative Full-vs-No-Scores difference. Primary ROI/brain MAE normalized units; PSNR dB; SSIM unitless.10000 within-fold bootstrap;10000 paired sign permutations for primary endpoints; Holm2 across tracers within endpoint. Fixed-weight inference sensitivity, not retrained ablation."
+  },
+  {
+    "id": "S-N18",
+    "title": "E1 score removal by fold",
+    "rows": 24,
+    "csv": "tables/S-N18_e1_score_removal_by_fold.csv",
+    "latex": "tables/S-N18_e1_score_removal_by_fold.tex",
+    "source": "G1_E1/fold_differences.csv",
+    "note": "Fold-wise descriptive differences and sample SD. No additional fold p-values or CIs invented; the formal overall CI is S-N17. Same metric directions and units as S-N17."
+  },
+  {
+    "id": "S-N19",
+    "title": "Adapter sensitivity existing results",
+    "rows": 10,
+    "csv": "tables/S-N19_adapter_sensitivity_existing_results.csv",
+    "latex": "tables/S-N19_adapter_sensitivity_existing_results.tex",
+    "source": "experiments/r2_15_tau_adapter_ablation/results.csv",
+    "note": "All10 existing adapter fits reused; no new optimization. Representation-layer measurements only; not generator quality or downstream clinical benefit. Tau is a squared soft target, not hard constraint or performance-optimized threshold. T000 removes cross-tracer penalty."
+  },
+  {
+    "id": "S-N20",
+    "title": "Historical Figure2 absolute summaries",
+    "rows": 21,
+    "csv": "tables/S-N20_historical_figure2_absolute_summaries.csv",
+    "latex": "tables/S-N20_historical_figure2_absolute_summaries.tex",
+    "source": "reports/baseline_metrics_provenance_20261020/paper_figure2_values.csv",
+    "note": "21method/cohort rows x4metrics =84historical values. SSIM/MSE/MAE retain source percent scales, PSNR dB. OASIS is AV45 only. No recovered common per-subject final inputs: SD, CI and paired p unavailable. These are not the fixed W1 OOF experiment and are not paired with it. Original radar figure unchanged."
+  },
+  {
+    "id": "S-N21",
+    "title": "Full measured inference efficiency",
+    "rows": 2,
+    "csv": "tables/S-N21_full_measured_inference_efficiency.csv",
+    "latex": "tables/S-N21_full_measured_inference_efficiency.tex",
+    "source": "G6/summary.csv;G6/receipt.json",
+    "note": "Full fold1 epoch165, real resident3D MRI[1,1,160,192,160], cached condition tokens, FP32, RTX409024GB.10warmup then50synchronized forward samples per tracer. One tracer per forward; excludes text encoding, preprocessing, I/O and transfers. Generator parameters only. Peak PyTorch allocated/reserved is not whole-card occupancy. FLOPs unavailable."
+  },
+  {
+    "id": "S-N22",
+    "title": "Classification split identity",
+    "rows": 9,
+    "csv": "tables/S-N22_classification_split_identity.csv",
+    "latex": "tables/S-N22_classification_split_identity.tex",
+    "source": "G2/classification_outer_test_identity.csv",
+    "note": "Fixed subject-level outer-test and internal validation roles; disjoint within task/fold. Actual source paths point to historical classification input assets. This table does not establish linkage to W1 Full checkpoint identities or longitudinal visit matching."
+  },
+  {
+    "id": "S-N23",
+    "title": "Generator OOF split coverage",
+    "rows": 2,
+    "csv": "tables/S-N23_generator_oof_split_coverage.csv",
+    "latex": "tables/S-N23_generator_oof_split_coverage.tex",
+    "source": "G2/generator_oof_coverage.csv",
+    "note": "Frozen1857-subject two-fold manifest929/928; valid targets1598FDG/1365AV45. Subjectwise held-out identity verified. Unseeded training policy is separate from split seed42."
+  }
+]

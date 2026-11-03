@@ -1,0 +1,13 @@
+{
+  "task": "fdg_fold1",
+  "config_sha256": "8b82c135cc2bfb7f4ab62c85b9f56b3d8919aadf22c28bf2eb07ac2de53e7623",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "conditions_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba",
+  "runner_sha256": "5d30eb01ac8a37f93be8548d10cb078e4b178675f158f2f06952f29739d7539d",
+  "model_sha256": "d1395a1c0a1be6b526b334dac4aceef59d67567b92b894cf913c9cbde365f46b",
+  "epochs": 200,
+  "epoch": 165,
+  "checkpoint_sha256": "00f92f34f273532d69fb8eb508b7a774b8ecaff32b3629b37c81e3a7a396276c",
+  "model_state_sha256": "0007e307a1592bd4e567d15b7261aace675b383a69c0edb5610730bc8f1ff5ac"
+}

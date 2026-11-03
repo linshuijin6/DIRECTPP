@@ -1,0 +1,10 @@
+task,fold,train,validation,test,train_test_overlap,val_test_overlap,n_outer_test_generator_cohort
+ad_cn,1,266,47,157,0,0,157
+ad_cn,2,266,47,157,0,0,157
+ad_cn,3,266,48,156,0,0,156
+emci_lmci,1,246,44,146,0,0,146
+emci_lmci,2,247,44,145,0,0,145
+emci_lmci,3,247,44,145,0,0,145
+mci_cn,1,419,75,247,0,0,247
+mci_cn,2,419,75,247,0,0,247
+mci_cn,3,419,75,247,0,0,247

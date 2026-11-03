@@ -1,0 +1,27 @@
+[
+  {
+    "model": "Full",
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv",
+    "sha256": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b"
+  },
+  {
+    "model": "ClinicalUNet",
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/per_subject_metrics.csv",
+    "sha256": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f"
+  },
+  {
+    "model": "SwinUNETR",
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/per_subject_metrics.csv",
+    "sha256": "6d4a85c0fab28be793bdea45800a0a22e7109053943dd2dec2810c831aa14b5a"
+  },
+  {
+    "model": "TabularMLP",
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tabular_mlp_20261028_v3/oof_summary/per_subject_metrics.csv",
+    "sha256": "cf563c0eb741af5eaffa98560b982bf78e65e863b058206b8d070b312f9bff62"
+  },
+  {
+    "model": "TracerOnly",
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/tracer_only_control_20261027/oof_summary/per_subject_metrics.csv",
+    "sha256": "1318430325132b424c0342d8adb1c3b4d05a61ec26bd092bbfa9d68b7a585007"
+  }
+]

@@ -1,0 +1,19 @@
+task,comparison,target,reference,fold,n_test,n_positive,n_negative,target_AUC_pct,reference_AUC_pct,delta_AUC_pp,delta_AUC_SE_pp,z,p_value_unadjusted_twosided,scope,p_holm_family18
+ad_cn,A,mri_syn_both,mri,1,157,55,102,95.36541889,87.3083779,8.057040998,2.937619577,2.742710819,0.006093432131,paired within outer test fold; no combined p-value,0.109681778358
+ad_cn,B,mri_syn_both,mri_real_both,1,157,55,102,95.36541889,94.63458111,0.7308377897,0.9920527437,0.7366924736,0.4613093849,paired within outer test fold; no combined p-value,1.0
+ad_cn,A,mri_syn_both,mri,2,157,55,102,95.9714795,92.31729055,3.654188948,2.309638946,1.582147268,0.1136159551,paired within outer test fold; no combined p-value,1.0
+ad_cn,B,mri_syn_both,mri_real_both,2,157,55,102,95.9714795,95.11586453,0.8556149733,1.020628694,0.8383214954,0.4018501666,paired within outer test fold; no combined p-value,1.0
+ad_cn,A,mri_syn_both,mri,3,156,55,101,90.1350135,81.44014401,8.694869487,3.746142146,2.321019638,0.020285784,paired within outer test fold; no combined p-value,0.34485832800000005
+ad_cn,B,mri_syn_both,mri_real_both,3,156,55,101,90.1350135,93.37533753,-3.240324032,1.781314488,-1.819063425,0.06890175434,paired within outer test fold; no combined p-value,1.0
+mci_cn,A,mri_syn_both,mri,1,247,145,102,68.43137255,73.43137255,-5.0,3.948747538,-1.266224278,0.2054327979,paired within outer test fold; no combined p-value,1.0
+mci_cn,B,mri_syn_both,mri_real_both,1,247,145,102,68.43137255,71.663286,-3.231913455,3.11718356,-1.036805627,0.2998264527,paired within outer test fold; no combined p-value,1.0
+mci_cn,A,mri_syn_both,mri,2,247,145,102,68.97903989,71.50777552,-2.528735632,3.169841083,-0.7977483936,0.4250165144,paired within outer test fold; no combined p-value,1.0
+mci_cn,B,mri_syn_both,mri_real_both,2,247,145,102,68.97903989,68.94523327,0.0338066261,2.874725901,0.01175994765,0.9906171356,paired within outer test fold; no combined p-value,1.0
+mci_cn,A,mri_syn_both,mri,3,247,146,101,70.96839821,69.8291062,1.139292011,3.85677502,0.2954001738,0.7676882005,paired within outer test fold; no combined p-value,1.0
+mci_cn,B,mri_syn_both,mri_real_both,3,247,146,101,70.96839821,66.84524617,4.123152041,3.242464077,1.271610708,0.2035114702,paired within outer test fold; no combined p-value,1.0
+emci_lmci,A,mri_syn_both,mri,1,146,50,96,66.9375,64.9375,2.0,5.987785777,0.3340132854,0.7383695335,paired within outer test fold; no combined p-value,1.0
+emci_lmci,B,mri_syn_both,mri_real_both,1,146,50,96,66.9375,62.125,4.8125,5.003658238,0.9617963039,0.336151935,paired within outer test fold; no combined p-value,1.0
+emci_lmci,A,mri_syn_both,mri,2,145,49,96,66.15646259,60.05527211,6.101190476,4.183886445,1.458259099,0.1447691395,paired within outer test fold; no combined p-value,1.0
+emci_lmci,B,mri_syn_both,mri_real_both,2,145,49,96,66.15646259,64.45578231,1.700680272,5.046891445,0.336975798,0.7361351446,paired within outer test fold; no combined p-value,1.0
+emci_lmci,A,mri_syn_both,mri,3,145,50,95,65.89473684,63.43157895,2.463157895,5.168625906,0.4765595227,0.6336758125,paired within outer test fold; no combined p-value,1.0
+emci_lmci,B,mri_syn_both,mri_real_both,3,145,50,95,65.89473684,62.52631579,3.368421053,3.865528282,0.8713999244,0.3835358271,paired within outer test fold; no combined p-value,1.0

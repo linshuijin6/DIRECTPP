@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rows": 392,
+  "raw_sha256": "efc721a7e19ae71b1ca355a135a0312f5a198c40a5dfdaf92c4d5d9892e70907",
+  "families": {
+    "av45_Full_bias_98": 28,
+    "av45_OT_bias_98": 28,
+    "fdg_Full_bias_98": 35,
+    "fdg_OT_bias_98": 73
+  },
+  "source_precision": "saved regional CSV decimal precision; no voxel re-read",
+  "method": "Student t95% mean-bias CI; two-sided paired t; BH98 separately per model/tracer; no equivalence"
+}

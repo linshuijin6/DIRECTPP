@@ -1,0 +1,51 @@
+{
+  "fields": [
+    "Age",
+    "Sex",
+    "Weight",
+    "MMSE Total Score",
+    "GDSCALE Total Score",
+    "Global CDR",
+    "FAQ Total Score",
+    "NPI-Q Total Score"
+  ],
+  "medians": {
+    "Age": 72.9,
+    "Sex": 1.0,
+    "Weight": 77.44999999999999,
+    "MMSE Total Score": 28.0,
+    "GDSCALE Total Score": 1.0,
+    "Global CDR": 0.0,
+    "FAQ Total Score": 1.0,
+    "NPI-Q Total Score": 1.0
+  },
+  "means": {
+    "Age": 72.67708830548925,
+    "Sex": 0.522673031026253,
+    "Weight": 78.89415274463008,
+    "MMSE Total Score": 27.694510739856803,
+    "GDSCALE Total Score": 1.097852028639618,
+    "Global CDR": 0.16348448687350836,
+    "FAQ Total Score": 3.18854415274463,
+    "NPI-Q Total Score": 1.4295942720763724
+  },
+  "std": {
+    "Age": 7.033893405398099,
+    "Sex": 0.4994856691278365,
+    "Weight": 15.874188245212714,
+    "MMSE Total Score": 1.9127117629352346,
+    "GDSCALE Total Score": 1.0956499654723493,
+    "Global CDR": 0.23455290658710637,
+    "FAQ Total Score": 3.5323614755730466,
+    "NPI-Q Total Score": 2.168703973273056
+  },
+  "invalid_weight_values": [
+    0,
+    2.3
+  ],
+  "fit_split": "train",
+  "sex_encoding": {
+    "M": 1,
+    "F": 0
+  }
+}

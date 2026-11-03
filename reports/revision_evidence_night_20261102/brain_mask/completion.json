@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_R3_11_BRAIN_MASK_METRICS",
+  "completed_utc": "2026-11-02T15:03:49.213590+00:00",
+  "models": [
+    "Full e165",
+    "Clinical Regression 3D U-Net e165",
+    "MRI-only SwinUNETR e200"
+  ],
+  "n": {
+    "FDG": 1597,
+    "AV45": 1364
+  },
+  "metric_rows": 8883,
+  "paired_tests": 16,
+  "separate_holm_families": {
+    "A": 8,
+    "B": 8
+  },
+  "all_requested_checks": "PASS",
+  "no_new_training_or_prediction_generation": true,
+  "manuscript_unchanged": true,
+  "original_inputs_unchanged": true,
+  "remaining_required_analysis": [],
+  "input_manifest_sha256": "1f648e0d66abe09aad4a6d8d9e7d240ebeaa829086080c1aa22295bfbcaf4316"
+}

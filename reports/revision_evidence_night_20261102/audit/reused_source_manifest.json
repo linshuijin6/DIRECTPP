@@ -1,0 +1,127 @@
+[
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/supplementary_summary.tex",
+    "output": "brain_mask/supplementary_summary.tex",
+    "sha256": "d21b52b97118fb8ecbefdcd74ef805d99c69feea8bb284f8857fa760f07cf913"
+  },
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/supplementary_paired.tex",
+    "output": "brain_mask/supplementary_paired.tex",
+    "sha256": "da049eb47e6e6ed5bf7762a6520cb231d514667cc168051d8c5fd450723b7ee6"
+  },
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/summary_metrics.csv",
+    "output": "brain_mask/summary_metrics.csv",
+    "sha256": "87aa0b4f491bd449de53ba63d41e21c6c53079cad44e33d0e3f4d3abbe98ef3d"
+  },
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/paired_comparisons.csv",
+    "output": "brain_mask/paired_comparisons.csv",
+    "sha256": "9115d8f05a81287416e630da8216d313be9715f9243a207ce41ce4b8ee0ac254"
+  },
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/completion.json",
+    "output": "brain_mask/completion.json",
+    "sha256": "0bdf7d24aae8f9e956b7e93541533b1be5584eed10907556d2632a6667fdb50f"
+  },
+  {
+    "source": "reports/r3_11_brain_mask_metrics/run_20261102/completion_receipt_audit.json",
+    "output": "brain_mask/completion_receipt_audit.json",
+    "sha256": "0cc56aa0b118994d45dfc3dec5a9f97690031db2515c2a724172c9d693c450d3"
+  },
+  {
+    "source": "reports/r2_8_original_roi_stats/supplementary_tables/full_regional_statistics.csv",
+    "output": "G4/historical_all98_allgroups.csv",
+    "sha256": "86a66cf5689aeb519b66b98f5f214b91aea5393ad1805c4b2d193d38f07f6a9d"
+  },
+  {
+    "source": "reports/r2_8_original_roi_stats/supplementary_tables/overall_regional_statistics.csv",
+    "output": "G4/historical_all98_overall.csv",
+    "sha256": "5c0d422c7c89bc2b8abcb5204251074745046cc876264ebf6323461fd7f9650e"
+  },
+  {
+    "source": "reports/r3_5_effect_size/figure4_effect_sizes.csv",
+    "output": "G4/historical_figure4_effect_sizes.csv",
+    "sha256": "b4ee7243eea2d4b960cfab4b7a0f9e98f23b8fa40f5889d3f86cd878ab002374"
+  },
+  {
+    "source": "reports/r2_10_normalized_calibration/calibration_results.csv",
+    "output": "G4/historical_OLS16.csv",
+    "sha256": "78463d74571d8631f632286d52cca7bd342f633d5b4f3f810e829994da971178"
+  },
+  {
+    "source": "reports/full_ot_medical_evidence/03a_per_roi_comparison.csv",
+    "output": "G4/authorFull_OT_with_E1mask_roi_comparison.csv",
+    "sha256": "5315ccbaa0fd0d23cd4d5e9e28df373584cfcdcde609a0e3438311cf71e99151"
+  },
+  {
+    "source": "reports/full_ot_medical_evidence/03b_regional_agreement.csv",
+    "output": "G4/authorFull_OT_with_E1mask_agreement.csv",
+    "sha256": "c3509a6fb028f6dc71f08c04ec60efb816a592145509be2eb7429e3a33ef20f0"
+  },
+  {
+    "source": "reports/full_ot_medical_evidence/03b_disease_contrast.csv",
+    "output": "G4/authorFull_OT_with_E1mask_disease_contrast.csv",
+    "sha256": "b7627c3a95f19faee2f8562fdd8dd9b5f9e3b894cf38f6a0754741cf7a06fec1"
+  },
+  {
+    "source": "reports/full_ot_medical_evidence/03a_primary_paired_comparison.csv",
+    "output": "G1/authorFull_OT_with_E1mask_primary_roi.csv",
+    "sha256": "dd1d3b27b067b9591b9519551362d7274bb99f3a8c34f4e592fd723789544a79"
+  },
+  {
+    "source": "experiments/r2_15_tau_adapter_ablation/results.csv",
+    "output": "G1/tau_results.csv",
+    "sha256": "fbf6c17b37a1bd928834be1bf1921b1fbab5445dcbf4fe8152612bbcf28a7cc8"
+  },
+  {
+    "source": "experiments/r2_15_tau_adapter_ablation/summary.csv",
+    "output": "G1/tau_summary.csv",
+    "sha256": "0bcab88f7036ffb091ce327f7674cb33f49e7e854865019d38423582bfe533b6"
+  },
+  {
+    "source": "experiments/r2_15_tau_adapter_ablation/tau_sensitivity.png",
+    "output": "figures/G1_tau_sensitivity_reused.png",
+    "sha256": "1e5f6a40b1c83c0ce4ad51a35baec8fbd0a9005fe19e42bd2937e13960305d84"
+  },
+  {
+    "source": "reports/full_tracer_conditioning_audit/audit_alignment_results.json",
+    "output": "G1/audit_alignment_results.json",
+    "sha256": "da468edd67569aa2ec664e201c8dd45e35c71f0f39985609a61f2cb64d6287e2"
+  },
+  {
+    "source": "reports/full_tracer_conditioning_audit/audit_context_results.json",
+    "output": "G1/audit_context_results.json",
+    "sha256": "ae13e46a5dd7795dcf93624732db7e792165a5df14e1c6cb5025646a63cef84c"
+  },
+  {
+    "source": "reports/full_tracer_conditioning_audit/audit_infer_ablation_results.json",
+    "output": "G1/audit_infer_ablation_results.json",
+    "sha256": "3070948acefc364186fcba31b810b767614914895228ff94c5c14dad87e0b952"
+  },
+  {
+    "source": "reports/r2_11_classification_3fold/statistical_comparison/bootstrap_metrics.csv",
+    "output": "G5/existing_imaging_bootstrap_metrics.csv",
+    "sha256": "4623fcdc9a856547c9cecbd632d7a8e7708f45195c58fa842942717781bee8ad"
+  },
+  {
+    "source": "reports/r2_11_classification_3fold/statistical_comparison/paired_comparisons.csv",
+    "output": "G5/existing_imaging_paired_comparisons.csv",
+    "sha256": "89ded5bc03af0400af4735525825799c18b5816676facffcfd73aa50af76049b"
+  },
+  {
+    "source": "reports/r2_11_classification_3fold/statistical_comparison/delong_by_fold.csv",
+    "output": "G5/existing_imaging_delong_by_fold.csv",
+    "sha256": "e818d5ebc10c4756d18261ecd1cc0b90caee8dd556ef29431e6260ae6b43d365"
+  },
+  {
+    "source": "reports/r2_11_classification_3fold/final_summary/summary_metrics.csv",
+    "output": "G5/existing_imaging_mean_sd.csv",
+    "sha256": "cadd5408b240c0f022af6ad4377db394565b410871f2223a7aa0b1e3939b3aac"
+  },
+  {
+    "source": "reports/baseline_metrics_provenance_20261020/paper_figure2_values.csv",
+    "output": "G7/historical84_values.csv",
+    "sha256": "36e55efc85f1aaed962d155b2d5af73bdf981073351c6175147191ff73c30f43"
+  }
+]

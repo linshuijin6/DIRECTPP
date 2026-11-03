@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_FOLD_OOF",
+  "task": "av45_fold1",
+  "epoch": 165,
+  "metric_rows": 690,
+  "metrics_sha256": "70486d4c12a012f45df397a30b9da5dbcb2da75080145b8a18bb5d086b19cff9",
+  "checkpoint_sha256": "f257977839d9f4de76f4d5036ce05a380091bf1abdf6bae622bdf838c767ff09",
+  "config_sha256": "95558db4489e097ec55b6b0fa7627aae562048baa180cf626133a90c2e5841f8",
+  "seconds": 734.351380109787,
+  "protocol": "native command_infer; float32; clamp[0,1]; single tracer forward; outputs isolated",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "peak_allocated": 8966544384,
+  "peak_reserved": 14724104192
+}

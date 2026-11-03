@@ -1,0 +1,82 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G5/clinical_paired_comparisons.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllll}
+\caption{New clinical paired classification}\label{tab:s-n15}\\
+\toprule
+task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
+\midrule
+\endfirsthead
+\toprule
+task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ad\_cn & mri\_syn\_both & clinical & ACC & -11.9168 & -14.907 & -9.14853 \\
+ad\_cn & mri\_syn\_both & clinical & AUC & -6.17603 & -8.82061 & -3.9256 \\
+ad\_cn & mri\_syn\_both & clinical & SEN & -13.9394 & -19.3939 & -9.09091 \\
+ad\_cn & mri\_syn\_both & clinical & SPE & -10.8167 & -14.4309 & -7.53899 \\
+ad\_cn & mri\_syn\_both & clinical & balanced\_ACC & -12.378 & -15.7128 & -9.32558 \\
+ad\_cn & mri\_syn\_both & mri\_clinical & ACC & -6.81175 & -10.2129 & -3.62159 \\
+ad\_cn & mri\_syn\_both & mri\_clinical & AUC & -5.34224 & -7.87614 & -3.17673 \\
+ad\_cn & mri\_syn\_both & mri\_clinical & SEN & -6.06061 & -11.5152 & -0.606061 \\
+ad\_cn & mri\_syn\_both & mri\_clinical & SPE & -7.20896 & -11.1467 & -3.59469 \\
+ad\_cn & mri\_syn\_both & mri\_clinical & balanced\_ACC & -6.63478 & -10.198 & -3.20788 \\
+ad\_cn & mri\_clinical & mri & ACC & 15.3302 & 12.1373 & 18.9395 \\
+ad\_cn & mri\_clinical & mri & AUC & 12.1443 & 9.19898 & 15.4179 \\
+ad\_cn & mri\_clinical & mri & SEN & 16.9697 & 10.9091 & 23.0303 \\
+ad\_cn & mri\_clinical & mri & SPE & 14.4276 & 10.4995 & 18.6825 \\
+ad\_cn & mri\_clinical & mri & balanced\_ACC & 15.6987 & 12.1825 & 19.4301 \\
+ad\_cn & clinical & mri & ACC & 20.4352 & 17.0314 & 24.046 \\
+ad\_cn & clinical & mri & AUC & 12.9781 & 9.84708 & 16.491 \\
+ad\_cn & clinical & mri & SEN & 24.8485 & 18.7879 & 31.5152 \\
+ad\_cn & clinical & mri & SPE & 18.0353 & 14.0911 & 22.3031 \\
+ad\_cn & clinical & mri & balanced\_ACC & 21.4419 & 17.7596 & 25.3654 \\
+mci\_cn & mri\_syn\_both & clinical & ACC & -29.4197 & -32.7935 & -26.0459 \\
+mci\_cn & mri\_syn\_both & clinical & AUC & -29.4749 & -33.432 & -25.6737 \\
+mci\_cn & mri\_syn\_both & clinical & SEN & -14.2592 & -18.3908 & -10.1259 \\
+mci\_cn & mri\_syn\_both & clinical & SPE & -51.1907 & -57.1087 & -45.2433 \\
+mci\_cn & mri\_syn\_both & clinical & balanced\_ACC & -32.7249 & -36.388 & -29.1387 \\
+mci\_cn & mri\_syn\_both & mri\_clinical & ACC & -19.7031 & -23.2119 & -16.3293 \\
+mci\_cn & mri\_syn\_both & mri\_clinical & AUC & -23.6109 & -27.4845 & -19.805 \\
+mci\_cn & mri\_syn\_both & mri\_clinical & SEN & -9.17651 & -13.0977 & -5.26531 \\
+mci\_cn & mri\_syn\_both & mri\_clinical & SPE & -34.8185 & -41.3675 & -28.6029 \\
+mci\_cn & mri\_syn\_both & mri\_clinical & balanced\_ACC & -21.9975 & -25.6565 & -18.3658 \\
+mci\_cn & mri\_clinical & mri & ACC & 17.6788 & 14.4399 & 20.9177 \\
+mci\_cn & mri\_clinical & mri & AUC & 21.4811 & 18.0947 & 24.9968 \\
+mci\_cn & mri\_clinical & mri & SEN & 8.93718 & 5.25744 & 12.6059 \\
+mci\_cn & mri\_clinical & mri & SPE & 30.2239 & 24.0114 & 36.1681 \\
+mci\_cn & mri\_clinical & mri & balanced\_ACC & 19.5805 & 15.9627 & 23.0734 \\
+mci\_cn & clinical & mri & ACC & 27.3954 & 24.0216 & 30.7692 \\
+mci\_cn & clinical & mri & AUC & 27.3451 & 23.6158 & 31.1969 \\
+mci\_cn & clinical & mri & SEN & 14.0198 & 9.88663 & 18.3782 \\
+mci\_cn & clinical & mri & SPE & 46.5961 & 40.3837 & 52.5011 \\
+mci\_cn & clinical & mri & balanced\_ACC & 30.308 & 26.6813 & 33.8772 \\
+emci\_lmci & mri\_syn\_both & clinical & ACC & -33.2593 & -37.3973 & -28.8994 \\
+emci\_lmci & mri\_syn\_both & clinical & AUC & -33.6068 & -38.8337 & -28.1938 \\
+emci\_lmci & mri\_syn\_both & clinical & SEN & -55.6327 & -63.701 & -46.9656 \\
+emci\_lmci & mri\_syn\_both & clinical & SPE & -21.5936 & -26.7982 & -17.0577 \\
+emci\_lmci & mri\_syn\_both & clinical & balanced\_ACC & -38.6131 & -43.3044 & -33.6618 \\
+emci\_lmci & mri\_syn\_both & mri\_clinical & ACC & -19.4993 & -24.0844 & -14.9047 \\
+emci\_lmci & mri\_syn\_both & mri\_clinical & AUC & -23.2724 & -28.5706 & -17.9808 \\
+emci\_lmci & mri\_syn\_both & mri\_clinical & SEN & -42.8707 & -51.0061 & -34.2177 \\
+emci\_lmci & mri\_syn\_both & mri\_clinical & SPE & -7.35746 & -12.6171 & -2.13816 \\
+emci\_lmci & mri\_syn\_both & mri\_clinical & balanced\_ACC & -25.1141 & -30.0744 & -20.0502 \\
+emci\_lmci & mri\_clinical & mri & ACC & 20.4188 & 16.517 & 24.5458 \\
+emci\_lmci & mri\_clinical & mri & AUC & 26.7938 & 21.7408 & 31.6749 \\
+emci\_lmci & mri\_clinical & mri & SEN & 68.5034 & 60.4762 & 75.8912 \\
+emci\_lmci & mri\_clinical & mri & SPE & -4.45906 & -8.98026 & 0.0840643 \\
+emci\_lmci & mri\_clinical & mri & balanced\_ACC & 32.0222 & 27.4872 & 36.569 \\
+emci\_lmci & clinical & mri & ACC & 34.1789 & 31.1872 & 37.1706 \\
+emci\_lmci & clinical & mri & AUC & 37.1282 & 31.5136 & 42.5461 \\
+emci\_lmci & clinical & mri & SEN & 81.2653 & 75.2245 & 86.6395 \\
+emci\_lmci & clinical & mri & SPE & 9.77705 & 6.28655 & 13.6111 \\
+emci\_lmci & clinical & mri & balanced\_ACC & 45.5212 & 41.9676 & 48.8719 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize 12prespecified comparisons x5metrics. Delta target-reference; equal-weight3fold means.5000 paired fold/class bootstrap95\% CI, seed20261102. Marginal intervals without simultaneous coverage. Does not estimate repeated-training variation.}
+\endgroup
+\end{landscape}

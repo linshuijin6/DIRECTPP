@@ -1,0 +1,52 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G5/existing_imaging_paired_comparisons.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllll}
+\caption{Existing imaging paired classification}\label{tab:s-n14}\\
+\toprule
+task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
+\midrule
+\endfirsthead
+\toprule
+task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ad\_cn & mri\_syn\_both & mri & ACC & 8.51843 & 4.47901 & 12.5606 \\
+ad\_cn & mri\_syn\_both & mri & AUC & 6.80203 & 3.38872 & 10.2184 \\
+ad\_cn & mri\_syn\_both & mri & SEN & 10.9091 & 3.63636 & 18.7879 \\
+ad\_cn & mri\_syn\_both & mri & SPE & 7.21866 & 2.31023 & 12.1369 \\
+ad\_cn & mri\_syn\_both & mri & balanced\_ACC & 9.06388 & 4.68182 & 13.457 \\
+ad\_cn & mri\_syn\_both & mri\_real\_both & ACC & -2.55185 & -5.31194 & -0.00272198 \\
+ad\_cn & mri\_syn\_both & mri\_real\_both & AUC & -0.55129 & -2.11379 & 0.976434 \\
+ad\_cn & mri\_syn\_both & mri\_real\_both & SEN & 1.81818 & -3.0303 & 6.66667 \\
+ad\_cn & mri\_syn\_both & mri\_real\_both & SPE & -4.90843 & -8.18935 & -1.95431 \\
+ad\_cn & mri\_syn\_both & mri\_real\_both & balanced\_ACC & -1.54513 & -4.34698 & 1.11062 \\
+mci\_cn & mri\_syn\_both & mri & ACC & -2.02429 & -5.66802 & 1.61943 \\
+mci\_cn & mri\_syn\_both & mri & AUC & -2.12981 & -6.29816 & 2.09665 \\
+mci\_cn & mri\_syn\_both & mri & SEN & -0.239332 & -4.60404 & 4.1301 \\
+mci\_cn & mri\_syn\_both & mri & SPE & -4.59458 & -11.1499 & 1.93174 \\
+mci\_cn & mri\_syn\_both & mri & balanced\_ACC & -2.41695 & -6.28258 & 1.42342 \\
+mci\_cn & mri\_syn\_both & mri\_real\_both & ACC & 1.75439 & -1.88934 & 5.39811 \\
+mci\_cn & mri\_syn\_both & mri\_real\_both & AUC & 0.308348 & -3.14901 & 3.81391 \\
+mci\_cn & mri\_syn\_both & mri\_real\_both & SEN & 13.727 & 9.14344 & 18.3059 \\
+mci\_cn & mri\_syn\_both & mri\_real\_both & SPE & -15.4436 & -21.3454 & -9.55154 \\
+mci\_cn & mri\_syn\_both & mri\_real\_both & balanced\_ACC & -0.858316 & -4.5701 & 3.0065 \\
+emci\_lmci & mri\_syn\_both & mri & ACC & 0.91954 & -3.44355 & 5.50626 \\
+emci\_lmci & mri\_syn\_both & mri & AUC & 3.52145 & -2.42365 & 9.50467 \\
+emci\_lmci & mri\_syn\_both & mri & SEN & 25.6327 & 16.9248 & 33.7415 \\
+emci\_lmci & mri\_syn\_both & mri & SPE & -11.8165 & -17.0651 & -6.5826 \\
+emci\_lmci & mri\_syn\_both & mri & balanced\_ACC & 6.90807 & 2.01983 & 11.9828 \\
+emci\_lmci & mri\_syn\_both & mri\_real\_both & ACC & 0.91954 & -3.66714 & 5.50937 \\
+emci\_lmci & mri\_syn\_both & mri\_real\_both & AUC & 3.29387 & -2.11555 & 8.53926 \\
+emci\_lmci & mri\_syn\_both & mri\_real\_both & SEN & 1.98639 & -6.13639 & 10.0548 \\
+emci\_lmci & mri\_syn\_both & mri\_real\_both & SPE & 0.398392 & -4.83187 & 5.965 \\
+emci\_lmci & mri\_syn\_both & mri\_real\_both & balanced\_ACC & 1.19239 & -3.73404 & 6.05574 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Original6 prespecified comparisons reused; Syn dual PET minus MRI orReal dual PET. Marginal95\%5000 fold/class bootstrap CI, uncorrected for multiplicity. No overall DeLong claim and no equivalence inference.}
+\endgroup
+\end{landscape}

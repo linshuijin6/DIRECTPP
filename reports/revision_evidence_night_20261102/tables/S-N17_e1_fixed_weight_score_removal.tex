@@ -1,0 +1,34 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G1_E1/paired_summary/contrasts.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllll}
+\caption{E1 fixed weight score removal}\label{tab:s-n17}\\
+\toprule
+tracer & metric & n & mean & ci\_low & ci\_high & p\_permutation & p\_holm\_within\_endpoint\_two\_tracers \\
+\midrule
+\endfirsthead
+\toprule
+tracer & metric & n & mean & ci\_low & ci\_high & p\_permutation & p\_holm\_within\_endpoint\_two\_tracers \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+fdg & roi\_mae & 1597 & 3.63611e-05 & 1.18272e-05 & 6.01943e-05 & 0.00179982 & 0.00359964 \\
+fdg & brain\_mae & 1597 & -1.39166e-05 & -3.50725e-05 & 7.21746e-06 & 0.220378 & 0.220378 \\
+fdg & psnr & 1597 & -0.00417362 & -0.00673816 & -0.00160625 & NA & NA \\
+fdg & ssim7 & 1597 & 0.000220733 & 0.000182378 & 0.000260921 & NA & NA \\
+fdg & ssim11 & 1597 & 0.000215856 & 0.000178967 & 0.000253801 & NA & NA \\
+fdg & full\_vs\_no\_scores\_voxel\_mae & 1597 & 0.00101927 & 0.00100572 & 0.00103318 & NA & NA \\
+av45 & roi\_mae & 1364 & 7.87648e-05 & 4.56388e-06 & 0.000152402 & 0.039996 & 0.039996 \\
+av45 & brain\_mae & 1364 & 0.0001445 & 9.57843e-05 & 0.000193458 & 0.00019998 & 0.00039996 \\
+av45 & psnr & 1364 & -0.0201903 & -0.0247279 & -0.0157227 & NA & NA \\
+av45 & ssim7 & 1364 & 0.000684918 & 0.000619745 & 0.000750227 & NA & NA \\
+av45 & ssim11 & 1364 & 0.000554805 & 0.000491236 & 0.000619548 & NA & NA \\
+av45 & full\_vs\_no\_scores\_voxel\_mae & 1364 & 0.00110469 & 0.0010868 & 0.00112321 & NA & NA \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Separate E1 Full checkpoints f9455190/fc69fa4e,165epochs; not W1 Full. Delta=No-Scores-Full, except output voxel MAE is nonnegative Full-vs-No-Scores difference. Primary ROI/brain MAE normalized units; PSNR dB; SSIM unitless.10000 within-fold bootstrap;10000 paired sign permutations for primary endpoints; Holm2 across tracers within endpoint. Fixed-weight inference sensitivity, not retrained ablation.}
+\endgroup
+\end{landscape}

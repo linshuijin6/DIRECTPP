@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED",
+  "config_sha256": "5b0d8645d43612304984b13d2c47e8b5421b5fe3646cf57d087e781adb6d7648",
+  "cache": {
+    "path": "/root/autodl-tmp/directpp_cache/v1_3f362cdb3ebe8a94_bbcd413100d8ece3",
+    "exists": true,
+    "expected_files": 1857,
+    "actual_files": 1857,
+    "missing_files": 0,
+    "extra_files": 0,
+    "name_set_sha256": "4284fd52b2c5b4b556fa3c32fbbeaa83fb88aaa324b21ddcfd6e991a0a517e5a",
+    "bytes": 109553770710,
+    "valid": true
+  },
+  "train_subjects": 690,
+  "heldout_metric_rows": 675
+}

@@ -1,0 +1,149 @@
+{
+  "full_conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+  "tracer_only_conditions_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+  "expected_full_conditions_sha256": "bbcd413100d8ece3e878acffc1969723d091f64c49c57c76b486bd474f84384a",
+  "expected_tracer_only_conditions_sha256": "e1dfd6399d59168c3a7105bd941c4e834b547b3170bdaed3133b300792dc71ec",
+  "patient_shape": [
+    1857,
+    512
+  ],
+  "tracer_shape": [
+    2,
+    512
+  ],
+  "empty_patient_shape": [
+    1,
+    512
+  ],
+  "tracer_fdg_full_vs_control_equal": true,
+  "tracer_av45_full_vs_control_equal": true,
+  "tracer_fdg_vs_av45_equal": false,
+  "unique_patient_token_hashes": 1845,
+  "patient_token_pairwise_cosine_sample": {
+    "adjacent_mean": 0.9978906726009045,
+    "adjacent_min": 0.9934344301006023,
+    "adjacent_max": 0.9995630042883825,
+    "cross_fold_mean": 0.9967384065994825,
+    "cross_fold_min": 0.9935372914464699
+  },
+  "empty_patient_hash": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d",
+  "empty_equals_any_full_patient_token": false,
+  "patient_vs_empty_cosine": {
+    "mean": 0.3011689529345704,
+    "min": 0.2842002003155532,
+    "max": 0.3162220652864265
+  },
+  "patient_token_l2norm_mean": 3.689309597015381,
+  "empty_token_l2norm": 7.005476951599121,
+  "per_ptid_forward_entry_context": [
+    {
+      "ptid": "002_S_0295",
+      "fold": 2,
+      "cache_file": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/cdcaf108beeb94d5e2c23ee3f986c18e.pt",
+      "cache_keys": [
+        "av45",
+        "av45_index",
+        "description",
+        "fdg",
+        "fdg_index",
+        "foreground_end_coord",
+        "foreground_start_coord",
+        "mri",
+        "name",
+        "test_fold"
+      ],
+      "cached_fdg_index_equals_conditions": true,
+      "cached_av45_index_equals_conditions": true,
+      "full_patient_token_hash": "5d398d9cf6b7ff9cb190ad8a7af28401fa1a3b437c6157643b8c00cec9544860",
+      "empty_patient_token_hash": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d",
+      "patient_vs_empty_max_abs_diff": 2.4006755352020264,
+      "patient_vs_empty_cosine": 0.30576068100453285,
+      "tracer_fdg_token_hash": "a12d5f900e64e3843282437057671dc1fc3bdb689230706022355e94ec970fc4",
+      "tracer_av45_token_hash": "bd9803cfec8a736cbf8632444adeab145f31a40262fc7f1d1c9b8a618d91e24e",
+      "control_context_fdg_hash": "268a8fced2fdc9b7751411532d5fcb65bb1760891c6fb9ae8c562d04fc6d6da0",
+      "control_context_av45_hash": "72a964182f42ef6e713add12019349effdef2b8070748aa102a7bcb4e5666f7b"
+    },
+    {
+      "ptid": "002_S_0413",
+      "fold": 2,
+      "cache_file": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/ebc268cba1eaf7ee9deb1b5791574d90.pt",
+      "cache_keys": [
+        "av45",
+        "av45_index",
+        "description",
+        "fdg",
+        "fdg_index",
+        "foreground_end_coord",
+        "foreground_start_coord",
+        "mri",
+        "name",
+        "test_fold"
+      ],
+      "cached_fdg_index_equals_conditions": true,
+      "cached_av45_index_equals_conditions": true,
+      "full_patient_token_hash": "4d9638f8a60b3e879e5817c4a27ab7ee0744f7f3fb947ffd58cadc1dabd18410",
+      "empty_patient_token_hash": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d",
+      "patient_vs_empty_max_abs_diff": 2.4239628314971924,
+      "patient_vs_empty_cosine": 0.2943831133961865,
+      "tracer_fdg_token_hash": "a12d5f900e64e3843282437057671dc1fc3bdb689230706022355e94ec970fc4",
+      "tracer_av45_token_hash": "bd9803cfec8a736cbf8632444adeab145f31a40262fc7f1d1c9b8a618d91e24e",
+      "control_context_fdg_hash": "268a8fced2fdc9b7751411532d5fcb65bb1760891c6fb9ae8c562d04fc6d6da0",
+      "control_context_av45_hash": "72a964182f42ef6e713add12019349effdef2b8070748aa102a7bcb4e5666f7b"
+    },
+    {
+      "ptid": "002_S_1261",
+      "fold": 1,
+      "cache_file": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/93bca22a1b2d6fc799d129ff942fb018.pt",
+      "cache_keys": [
+        "av45",
+        "av45_index",
+        "description",
+        "fdg",
+        "fdg_index",
+        "foreground_end_coord",
+        "foreground_start_coord",
+        "mri",
+        "name",
+        "test_fold"
+      ],
+      "cached_fdg_index_equals_conditions": true,
+      "cached_av45_index_equals_conditions": true,
+      "full_patient_token_hash": "6bacd840caae68105a4a19581c0e5754ce9cbbd2720d7602f5e8052c0b3413f1",
+      "empty_patient_token_hash": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d",
+      "patient_vs_empty_max_abs_diff": 2.410548210144043,
+      "patient_vs_empty_cosine": 0.29843600288071465,
+      "tracer_fdg_token_hash": "a12d5f900e64e3843282437057671dc1fc3bdb689230706022355e94ec970fc4",
+      "tracer_av45_token_hash": "bd9803cfec8a736cbf8632444adeab145f31a40262fc7f1d1c9b8a618d91e24e",
+      "control_context_fdg_hash": "268a8fced2fdc9b7751411532d5fcb65bb1760891c6fb9ae8c562d04fc6d6da0",
+      "control_context_av45_hash": "72a964182f42ef6e713add12019349effdef2b8070748aa102a7bcb4e5666f7b"
+    },
+    {
+      "ptid": "941_S_6854",
+      "fold": 2,
+      "cache_file": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup/dc501c0b4b4f209b3c08f65602d4f63b.pt",
+      "cache_keys": [
+        "av45",
+        "av45_index",
+        "description",
+        "fdg",
+        "fdg_index",
+        "foreground_end_coord",
+        "foreground_start_coord",
+        "mri",
+        "name",
+        "test_fold"
+      ],
+      "cached_fdg_index_equals_conditions": true,
+      "cached_av45_index_equals_conditions": true,
+      "full_patient_token_hash": "4d463949cf2ac0ac22d074791165238b25ec43ecd225ca446b16b8a8d04254ef",
+      "empty_patient_token_hash": "691e8c92170fd7e2479a2ff6f2d6f9c40104b78dfa5fddad48bc3fcd994b9d7d",
+      "patient_vs_empty_max_abs_diff": 2.3790693283081055,
+      "patient_vs_empty_cosine": 0.3079237518095757,
+      "tracer_fdg_token_hash": "a12d5f900e64e3843282437057671dc1fc3bdb689230706022355e94ec970fc4",
+      "tracer_av45_token_hash": "bd9803cfec8a736cbf8632444adeab145f31a40262fc7f1d1c9b8a618d91e24e",
+      "control_context_fdg_hash": "268a8fced2fdc9b7751411532d5fcb65bb1760891c6fb9ae8c562d04fc6d6da0",
+      "control_context_av45_hash": "72a964182f42ef6e713add12019349effdef2b8070748aa102a7bcb4e5666f7b"
+    }
+  ],
+  "all_cached_contexts_match_conditions": true
+}

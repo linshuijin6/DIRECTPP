@@ -1,0 +1,76 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G5/existing_imaging_delong_holm.csv;G5/clinical_delong_by_fold.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllll}
+\caption{Classification paired DeLong by fold}\label{tab:s-n16}\\
+\toprule
+task & fold & target & reference & delta\_AUC\_pp & p\_raw & p\_Holm & family \\
+\midrule
+\endfirsthead
+\toprule
+task & fold & target & reference & delta\_AUC\_pp & p\_raw & p\_Holm & family \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ad\_cn & 1 & mri\_syn\_both & mri & 8.05704 & 0.00609343 & 0.109682 & existing18 \\
+ad\_cn & 1 & mri\_syn\_both & mri\_real\_both & 0.730838 & 0.461309 & 1 & existing18 \\
+ad\_cn & 2 & mri\_syn\_both & mri & 3.65419 & 0.113616 & 1 & existing18 \\
+ad\_cn & 2 & mri\_syn\_both & mri\_real\_both & 0.855615 & 0.40185 & 1 & existing18 \\
+ad\_cn & 3 & mri\_syn\_both & mri & 8.69487 & 0.0202858 & 0.344858 & existing18 \\
+ad\_cn & 3 & mri\_syn\_both & mri\_real\_both & -3.24032 & 0.0689018 & 1 & existing18 \\
+mci\_cn & 1 & mri\_syn\_both & mri & -5 & 0.205433 & 1 & existing18 \\
+mci\_cn & 1 & mri\_syn\_both & mri\_real\_both & -3.23191 & 0.299826 & 1 & existing18 \\
+mci\_cn & 2 & mri\_syn\_both & mri & -2.52874 & 0.425017 & 1 & existing18 \\
+mci\_cn & 2 & mri\_syn\_both & mri\_real\_both & 0.0338066 & 0.990617 & 1 & existing18 \\
+mci\_cn & 3 & mri\_syn\_both & mri & 1.13929 & 0.767688 & 1 & existing18 \\
+mci\_cn & 3 & mri\_syn\_both & mri\_real\_both & 4.12315 & 0.203511 & 1 & existing18 \\
+emci\_lmci & 1 & mri\_syn\_both & mri & 2 & 0.73837 & 1 & existing18 \\
+emci\_lmci & 1 & mri\_syn\_both & mri\_real\_both & 4.8125 & 0.336152 & 1 & existing18 \\
+emci\_lmci & 2 & mri\_syn\_both & mri & 6.10119 & 0.144769 & 1 & existing18 \\
+emci\_lmci & 2 & mri\_syn\_both & mri\_real\_both & 1.70068 & 0.736135 & 1 & existing18 \\
+emci\_lmci & 3 & mri\_syn\_both & mri & 2.46316 & 0.633676 & 1 & existing18 \\
+emci\_lmci & 3 & mri\_syn\_both & mri\_real\_both & 3.36842 & 0.383536 & 1 & existing18 \\
+ad\_cn & 1 & mri\_syn\_both & clinical & -4.63458 & 0.00165732 & 0.00864088 & new36 \\
+ad\_cn & 1 & mri\_syn\_both & mri\_clinical & -2.7451 & 0.037946 & 0.112295 & new36 \\
+ad\_cn & 1 & mri\_clinical & mri & 10.8021 & 3.40179e-05 & 0.000408215 & new36 \\
+ad\_cn & 1 & clinical & mri & 12.6916 & 3.45292e-05 & 0.000408215 & new36 \\
+ad\_cn & 2 & mri\_syn\_both & clinical & -4.02852 & 0.037572 & 0.112295 & new36 \\
+ad\_cn & 2 & mri\_syn\_both & mri\_clinical & -4.0107 & 0.0374316 & 0.112295 & new36 \\
+ad\_cn & 2 & mri\_clinical & mri & 7.66488 & 0.00123441 & 0.00864088 & new36 \\
+ad\_cn & 2 & clinical & mri & 7.68271 & 0.00126115 & 0.00864088 & new36 \\
+ad\_cn & 3 & mri\_syn\_both & clinical & -9.86499 & 0.000460643 & 0.00414579 & new36 \\
+ad\_cn & 3 & mri\_syn\_both & mri\_clinical & -9.27093 & 0.000566367 & 0.00453094 & new36 \\
+ad\_cn & 3 & mri\_clinical & mri & 17.9658 & 5.14555e-08 & 8.74744e-07 & new36 \\
+ad\_cn & 3 & clinical & mri & 18.5599 & 1.01156e-07 & 1.61849e-06 & new36 \\
+mci\_cn & 1 & mri\_syn\_both & clinical & -30.4801 & 6.99058e-18 & 2.4467e-16 & new36 \\
+mci\_cn & 1 & mri\_syn\_both & mri\_clinical & -18.1136 & 1.54431e-07 & 2.31646e-06 & new36 \\
+mci\_cn & 1 & mri\_clinical & mri & 13.1136 & 1.69917e-07 & 2.37884e-06 & new36 \\
+mci\_cn & 1 & clinical & mri & 25.4801 & 3.22727e-15 & 9.68181e-14 & new36 \\
+mci\_cn & 2 & mri\_syn\_both & clinical & -30.6694 & 4.38095e-19 & 1.57714e-17 & new36 \\
+mci\_cn & 2 & mri\_syn\_both & mri\_clinical & -25.0575 & 2.29151e-14 & 6.18707e-13 & new36 \\
+mci\_cn & 2 & mri\_clinical & mri & 22.5287 & 5.89174e-13 & 1.41402e-11 & new36 \\
+mci\_cn & 2 & clinical & mri & 28.1406 & 1.51617e-16 & 4.85174e-15 & new36 \\
+mci\_cn & 3 & mri\_syn\_both & clinical & -27.2752 & 2.00445e-14 & 5.61247e-13 & new36 \\
+mci\_cn & 3 & mri\_syn\_both & mri\_clinical & -27.6617 & 3.99106e-15 & 1.15741e-13 & new36 \\
+mci\_cn & 3 & mri\_clinical & mri & 28.801 & 1.27578e-16 & 4.33764e-15 & new36 \\
+mci\_cn & 3 & clinical & mri & 28.4145 & 1.7613e-15 & 5.46004e-14 & new36 \\
+emci\_lmci & 1 & mri\_syn\_both & clinical & -33.0625 & 1.99145e-12 & 3.78376e-11 & new36 \\
+emci\_lmci & 1 & mri\_syn\_both & mri\_clinical & -15.7917 & 0.00198083 & 0.00864088 & new36 \\
+emci\_lmci & 1 & mri\_clinical & mri & 17.7917 & 0.000226449 & 0.00226449 & new36 \\
+emci\_lmci & 1 & clinical & mri & 35.0625 & 1.37494e-12 & 3.02487e-11 & new36 \\
+emci\_lmci & 2 & mri\_syn\_both & clinical & -33.6947 & 8.53209e-13 & 1.96238e-11 & new36 \\
+emci\_lmci & 2 & mri\_syn\_both & mri\_clinical & -20.0255 & 4.42156e-07 & 5.74803e-06 & new36 \\
+emci\_lmci & 2 & mri\_clinical & mri & 26.1267 & 3.80927e-12 & 6.85669e-11 & new36 \\
+emci\_lmci & 2 & clinical & mri & 39.7959 & 1.36072e-16 & 4.49038e-15 & new36 \\
+emci\_lmci & 3 & mri\_syn\_both & clinical & -34.0632 & 1.42116e-12 & 3.02487e-11 & new36 \\
+emci\_lmci & 3 & mri\_syn\_both & mri\_clinical & -34 & 1.62294e-12 & 3.24588e-11 & new36 \\
+emci\_lmci & 3 & mri\_clinical & mri & 36.4632 & 4.30757e-14 & 1.11997e-12 & new36 \\
+emci\_lmci & 3 & clinical & mri & 36.5263 & 4.98084e-14 & 1.24521e-12 & new36 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Two-sided paired DeLong only within each outer test fold. Holm separately for original18 and new36 test families. No pooled/combined/mean p-value or three-fold overall significance is asserted. Undefined variance would remain NA and count conservatively in family size.}
+\endgroup
+\end{landscape}

@@ -1,0 +1,38 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G4/historical_OLS16.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllllllll}
+\caption{Historical16 ROI Pearson OLS}\label{tab:s-n09}\\
+\toprule
+Tracer & ROI ID & N & Pearson r & R-squared & OLS slope & Slope 95\% CI lower & Slope 95\% CI upper & OLS intercept & Intercept 95\% CI lower & Intercept 95\% CI upper \\
+\midrule
+\endfirsthead
+\toprule
+Tracer & ROI ID & N & Pearson r & R-squared & OLS slope & Slope 95\% CI lower & Slope 95\% CI upper & OLS intercept & Intercept 95\% CI lower & Intercept 95\% CI upper \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+AV45 & 1025 & 1365 & 0.986647 & 0.973472 & 1.01266 & 1.00378 & 1.02154 & -0.00643244 & -0.0114238 & -0.00144107 \\
+AV45 & 2025 & 1365 & 0.988801 & 0.977728 & 1.0008 & 0.992772 & 1.00882 & -0.000229798 & -0.00472828 & 0.00426869 \\
+AV45 & 1032 & 1365 & 0.981028 & 0.962416 & 1.00374 & 0.993205 & 1.01428 & -0.00116638 & -0.00550822 & 0.00317546 \\
+AV45 & 2032 & 1364 & 0.981699 & 0.963734 & 1.00069 & 0.99037 & 1.01101 & 0.000109975 & -0.00424619 & 0.00446614 \\
+AV45 & 1033 & 1365 & 0.959299 & 0.920255 & 0.979354 & 0.964035 & 0.994673 & 0.00779804 & 0.00185043 & 0.0137457 \\
+AV45 & 2033 & 1365 & 0.965295 & 0.931794 & 1.00875 & 0.994246 & 1.02325 & -0.00323058 & -0.00920185 & 0.00274068 \\
+AV45 & 1028 & 1365 & 0.980841 & 0.962048 & 1.00019 & 0.989634 & 1.01075 & -0.000460795 & -0.00579721 & 0.00487561 \\
+AV45 & 2028 & 1365 & 0.98235 & 0.965011 & 0.997034 & 0.986946 & 1.00712 & 0.00211599 & -0.0030315 & 0.00726348 \\
+FDG & 1025 & 1598 & 0.957684 & 0.91716 & 0.984445 & 0.969918 & 0.998971 & 0.0107713 & 0.000634161 & 0.0209084 \\
+FDG & 2025 & 1598 & 0.960538 & 0.922633 & 0.998304 & 0.984111 & 1.0125 & 0.00126712 & -0.00857684 & 0.0111111 \\
+FDG & 1032 & 1598 & 0.95959 & 0.920813 & 1.00394 & 0.98949 & 1.0184 & -0.00193437 & -0.0099723 & 0.00610355 \\
+FDG & 2032 & 1597 & 0.964176 & 0.929636 & 1.00414 & 0.990571 & 1.01771 & -0.0026357 & -0.010278 & 0.00500665 \\
+FDG & 1033 & 1598 & 0.944222 & 0.891555 & 0.993443 & 0.976431 & 1.01045 & 0.00225633 & -0.00455498 & 0.00906764 \\
+FDG & 2033 & 1598 & 0.945938 & 0.894799 & 0.99023 & 0.97356 & 1.0069 & 0.00470331 & -0.00223214 & 0.0116388 \\
+FDG & 1028 & 1598 & 0.945923 & 0.894771 & 1.01013 & 0.993126 & 1.02714 & -0.00521975 & -0.0155808 & 0.00514134 \\
+FDG & 2028 & 1598 & 0.948012 & 0.898727 & 1.00197 & 0.985461 & 1.01849 & -0.000388245 & -0.0104199 & 0.00964344 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Overall only, Syn=intercept+slope xReal. Unadjusted marginal95\% OLS intervals; asymmetric descriptive regression. No clinical SUV/SUVR calibration. No invented OLS values for other ROIs or diagnostic groups.}
+\endgroup
+\end{landscape}

@@ -1,0 +1,62 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G3/paired_comparisons.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllllllll}
+\caption{Paired generation comparisons}\label{tab:s-n03}\\
+\toprule
+model & tracer & metric & n & mean\_delta & ci\_low & ci\_high & cohen\_dz & Full better pct & p\_raw & p\_holm \\
+\midrule
+\endfirsthead
+\toprule
+model & tracer & metric & n & mean\_delta & ci\_low & ci\_high & cohen\_dz & Full better pct & p\_raw & p\_holm \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ClinicalUNet & fdg & ssim & 1598 & 0.0208181 & 0.0197791 & 0.0218175 & 0.990561 & 89.8623 & 1.7603e-239 & 1.40824e-238 \\
+ClinicalUNet & fdg & psnr & 1598 & 0.611381 & 0.5664 & 0.656514 & 0.648354 & 76.5957 & 6.43853e-124 & 3.86312e-123 \\
+ClinicalUNet & fdg & mse & 1598 & -0.0002273 & -0.000275411 & -0.000158772 & -0.189496 & 76.5957 & 6.04086e-14 & 1.31586e-13 \\
+ClinicalUNet & fdg & mae & 1598 & -0.00172122 & -0.0019156 & -0.00151429 & -0.417989 & 75.4068 & 6.9045e-58 & 3.45225e-57 \\
+ClinicalUNet & av45 & ssim & 1365 & 0.0239956 & 0.0227111 & 0.025253 & 0.978795 & 87.1062 & 2.29545e-201 & 1.60681e-200 \\
+ClinicalUNet & av45 & psnr & 1365 & 0.329409 & 0.249281 & 0.40985 & 0.220001 & 62.0513 & 9.68848e-16 & 3.87539e-15 \\
+ClinicalUNet & av45 & mse & 1365 & -0.000154787 & -0.000257116 & -3.72771e-05 & -0.0752304 & 62.0513 & 0.00551979 & 0.00551979 \\
+ClinicalUNet & av45 & mae & 1365 & -0.00147312 & -0.00185782 & -0.00109689 & -0.206517 & 63.7363 & 4.3862e-14 & 1.31586e-13 \\
+SwinUNETR & fdg & ssim & 1598 & 0.00281191 & 0.00204043 & 0.00354844 & 0.175086 & 69.2741 & 3.77993e-12 & 1.88996e-11 \\
+SwinUNETR & fdg & psnr & 1598 & 0.378929 & 0.334097 & 0.423834 & 0.40333 & 69.0238 & 2.67057e-54 & 1.8694e-53 \\
+SwinUNETR & fdg & mse & 1598 & -9.75975e-05 & -0.000146119 & -3.08259e-05 & -0.0822636 & 69.0238 & 0.00102917 & 0.00205835 \\
+SwinUNETR & fdg & mae & 1598 & -6.70702e-05 & -0.000253042 & 0.000134417 & -0.0166045 & 55.8198 & 0.506936 & 0.506936 \\
+SwinUNETR & av45 & ssim & 1365 & 0.0103163 & 0.00965209 & 0.0109524 & 0.822615 & 83.4432 & 2.31981e-155 & 1.85585e-154 \\
+SwinUNETR & av45 & psnr & 1365 & 0.459673 & 0.393978 & 0.526625 & 0.375353 & 66.8132 & 5.23792e-41 & 3.14275e-40 \\
+SwinUNETR & av45 & mse & 1365 & -0.000305079 & -0.000395415 & -0.000193256 & -0.160805 & 66.8132 & 3.58919e-09 & 1.07676e-08 \\
+SwinUNETR & av45 & mae & 1365 & -0.00110762 & -0.0014185 & -0.000784845 & -0.18539 & 61.4652 & 1.11886e-11 & 4.47543e-11 \\
+TabularMLP & fdg & ssim & 1598 & 0.00886656 & 0.00812186 & 0.00959853 & 0.578166 & 75.8448 & 3.44323e-102 & 2.75458e-101 \\
+TabularMLP & fdg & psnr & 1598 & -0.0689397 & -0.108799 & -0.029079 & -0.083771 & 47.3091 & 0.000830676 & 0.00425048 \\
+TabularMLP & fdg & mse & 1598 & 3.68949e-05 & 1.37346e-05 & 5.99572e-05 & 0.0775476 & 47.3091 & 0.00196924 & 0.00787697 \\
+TabularMLP & fdg & mae & 1598 & -6.81443e-05 & -0.000213963 & 8.04426e-05 & -0.0227372 & 53.3166 & 0.363529 & 0.727058 \\
+TabularMLP & av45 & ssim & 1365 & 0.00955263 & 0.00863504 & 0.0104854 & 0.54034 & 74.2125 & 5.41378e-78 & 3.78964e-77 \\
+TabularMLP & av45 & psnr & 1365 & -0.134409 & -0.210528 & -0.0561215 & -0.0918656 & 46.8132 & 0.000708413 & 0.00425048 \\
+TabularMLP & av45 & mse & 1365 & 9.69028e-05 & 1.94112e-05 & 0.000173411 & 0.0677817 & 46.8132 & 0.0123868 & 0.0371605 \\
+TabularMLP & av45 & mae & 1365 & 0.000108651 & -0.000232867 & 0.000435387 & 0.0173217 & 51.1355 & 0.522301 & 0.727058 \\
+TracerOnly & fdg & ssim & 1598 & -0.00537535 & -0.00590994 & -0.00484902 & -0.47433 & 26.9086 & 1.79244e-72 & 1.43395e-71 \\
+TracerOnly & fdg & psnr & 1598 & -0.0514788 & -0.084006 & -0.0198543 & -0.0783114 & 48.8736 & 0.0017767 & 0.00888351 \\
+TracerOnly & fdg & mse & 1598 & 2.5016e-05 & 5.74477e-06 & 4.40603e-05 & 0.0629846 & 48.8736 & 0.0119058 & 0.0476234 \\
+TracerOnly & fdg & mae & 1598 & 0.000476913 & 0.000360989 & 0.000595372 & 0.197824 & 42.3029 & 4.84122e-15 & 3.38885e-14 \\
+TracerOnly & av45 & ssim & 1365 & -0.0013401 & -0.00186153 & -0.000811475 & -0.132833 & 44.1026 & 1.03289e-06 & 6.19734e-06 \\
+TracerOnly & av45 & psnr & 1365 & -0.00307791 & -0.0547682 & 0.0476535 & -0.0032182 & 47.9853 & 0.905373 & 1 \\
+TracerOnly & av45 & mse & 1365 & -8.18237e-06 & -5.70224e-05 & 4.02036e-05 & -0.00891382 & 47.9853 & 0.741957 & 1 \\
+TracerOnly & av45 & mae & 1365 & 0.000100047 & -0.000115014 & 0.000313809 & 0.024782 & 46.8132 & 0.360042 & 1 \\
+Single & fdg & ssim & 1598 & -0.00580378 & -0.00642246 & -0.00517901 & -0.434763 & 34.2303 & 4.22015e-62 & 2.95411e-61 \\
+Single & fdg & psnr & 1598 & 0.200636 & 0.159293 & 0.242418 & 0.237103 & 60.5131 & 8.98722e-21 & 5.39233e-20 \\
+Single & fdg & mse & 1598 & -9.92098e-05 & -0.000126504 & -7.21876e-05 & -0.177651 & 60.5131 & 1.84961e-12 & 9.24804e-12 \\
+Single & fdg & mae & 1598 & 0.000187601 & 3.76336e-05 & 0.00034206 & 0.0596374 & 47.3717 & 0.0172416 & 0.0527503 \\
+Single & av45 & ssim & 1365 & 0.0106401 & 0.00985376 & 0.0114433 & 0.707251 & 78.1685 & 2.31929e-122 & 1.85543e-121 \\
+Single & av45 & psnr & 1365 & -0.0183712 & -0.0770958 & 0.0388809 & -0.0169039 & 49.8168 & 0.532384 & 0.532384 \\
+Single & av45 & mse & 1365 & 3.87787e-05 & -1.71053e-05 & 9.51783e-05 & 0.0366412 & 49.8168 & 0.176043 & 0.352086 \\
+Single & av45 & mae & 1365 & -0.000313478 & -0.000560844 & -6.84978e-05 & -0.0671769 & 54.8718 & 0.0131876 & 0.0527503 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Delta=Full minus comparator; positive favors Full for SSIM/PSNR and negative for MSE/MAE. Cohen dz signed.10000 paired resamples within frozen folds, seed42; percentile95\% CIs unadjusted. Two-sided paired t; separate Holm8-test family per comparator (2tracers x4metrics). ClinicalUNet statistics reused; TracerOnly t/dz reused and missing bootstrap supplemented. CIs do not estimate training/seed variability. MRI-only Swin inputs and endpoint differ.}
+\endgroup
+\end{landscape}

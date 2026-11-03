@@ -1,0 +1,21 @@
+autodl-container-58a0ln8rhl-a7b5e942
+GPU-1aa1851f-d56a-2168-f42d-517dd6da300c, 0 MiB, 48509 MiB
+bash: line 1: rg: command not found
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_131644/ad_cn/clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_134958/mci_cn/clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_131926/ad_cn/clinical/fold2/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_132206/ad_cn/clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_135245/mci_cn/clinical/fold2/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_135532/mci_cn/clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_48506/emci_lmci/clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_48780/emci_lmci/clinical/fold2/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_49131/emci_lmci/clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_134291/ad_cn/mri_clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_132488/mci_cn/mri_clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_135817/mci_cn/mri_clinical/fold2/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_49405/mci_cn/mri_clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_135973/emci_lmci/mri_clinical/fold2/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_135162/emci_lmci/mri_clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_138635/ad_cn/mri_clinical/fold1/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_137812/emci_lmci/mri_clinical/fold3/summary.json
+/autodl-fs/data/DIRECTPP_classification_3fold/20261102_clinical/20261102_50014/ad_cn/mri_clinical/fold2/summary.json

@@ -1,0 +1,68 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G3/distribution_summary.csv
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllll}
+\caption{Generation distributions}\label{tab:s-n02}\\
+\toprule
+model & tracer & metric & n & median & p05 & p95 \\
+\midrule
+\endfirsthead
+\toprule
+model & tracer & metric & n & median & p05 & p95 \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Full & av45 & ssim & 1365 & 0.892339 & 0.817463 & 0.925376 \\
+Full & av45 & psnr & 1365 & 25.1598 & 20.9539 & 28.3136 \\
+Full & av45 & mse & 1365 & 0.00304804 & 0.00147449 & 0.0080281 \\
+Full & av45 & mae & 1365 & 0.0287154 & 0.019114 & 0.049236 \\
+Full & fdg & ssim & 1598 & 0.933095 & 0.846305 & 0.951404 \\
+Full & fdg & psnr & 1598 & 27.6195 & 23.4428 & 29.9624 \\
+Full & fdg & mse & 1598 & 0.00173 & 0.0010087 & 0.00452604 \\
+Full & fdg & mae & 1598 & 0.0216081 & 0.0157112 & 0.0398067 \\
+ClinicalUNet & av45 & ssim & 1365 & 0.866836 & 0.795105 & 0.906244 \\
+ClinicalUNet & av45 & psnr & 1365 & 24.8331 & 20.9496 & 27.5894 \\
+ClinicalUNet & av45 & mse & 1365 & 0.00328613 & 0.00174206 & 0.00803608 \\
+ClinicalUNet & av45 & mae & 1365 & 0.0302029 & 0.0214942 & 0.0504439 \\
+ClinicalUNet & fdg & ssim & 1598 & 0.909238 & 0.840144 & 0.935257 \\
+ClinicalUNet & fdg & psnr & 1598 & 26.9718 & 22.9364 & 28.9486 \\
+ClinicalUNet & fdg & mse & 1598 & 0.00200827 & 0.0012739 & 0.0050858 \\
+ClinicalUNet & fdg & mae & 1598 & 0.0234521 & 0.0181684 & 0.0408307 \\
+SwinUNETR & av45 & ssim & 1365 & 0.881789 & 0.80883 & 0.911754 \\
+SwinUNETR & av45 & psnr & 1365 & 24.6863 & 20.6514 & 27.6077 \\
+SwinUNETR & av45 & mse & 1365 & 0.00339913 & 0.00173471 & 0.00860719 \\
+SwinUNETR & av45 & mae & 1365 & 0.0297755 & 0.0207026 & 0.0510886 \\
+SwinUNETR & fdg & ssim & 1598 & 0.928978 & 0.834684 & 0.944482 \\
+SwinUNETR & fdg & psnr & 1598 & 27.1987 & 23.3813 & 29.2963 \\
+SwinUNETR & fdg & mse & 1598 & 0.00190603 & 0.00117589 & 0.00459062 \\
+SwinUNETR & fdg & mae & 1598 & 0.021858 & 0.0166955 & 0.0386356 \\
+TabularMLP & av45 & ssim & 1365 & 0.882858 & 0.809703 & 0.915386 \\
+TabularMLP & av45 & psnr & 1365 & 25.3381 & 21.0207 & 28.417 \\
+TabularMLP & av45 & mse & 1365 & 0.00292546 & 0.0014398 & 0.00790548 \\
+TabularMLP & av45 & mae & 1365 & 0.028435 & 0.0192958 & 0.0509184 \\
+TabularMLP & fdg & ssim & 1598 & 0.9235 & 0.843509 & 0.944183 \\
+TabularMLP & fdg & psnr & 1598 & 27.6788 & 23.5739 & 30.0088 \\
+TabularMLP & fdg & mse & 1598 & 0.00170654 & 0.00099797 & 0.00439145 \\
+TabularMLP & fdg & mae & 1598 & 0.0216979 & 0.0160313 & 0.0390105 \\
+TracerOnly & av45 & ssim & 1365 & 0.894086 & 0.821716 & 0.926029 \\
+TracerOnly & av45 & psnr & 1365 & 25.1634 & 20.9327 & 28.3795 \\
+TracerOnly & av45 & mse & 1365 & 0.00304548 & 0.00145229 & 0.00806761 \\
+TracerOnly & av45 & mae & 1365 & 0.0287202 & 0.0188212 & 0.050121 \\
+TracerOnly & fdg & ssim & 1598 & 0.938457 & 0.849445 & 0.953733 \\
+TracerOnly & fdg & psnr & 1598 & 27.6446 & 23.4131 & 29.9459 \\
+TracerOnly & fdg & mse & 1598 & 0.00172006 & 0.00101253 & 0.00455714 \\
+TracerOnly & fdg & mae & 1598 & 0.0211878 & 0.0155287 & 0.0388728 \\
+Single & av45 & ssim & 1365 & 0.880461 & 0.809803 & 0.916522 \\
+Single & av45 & psnr & 1365 & 25.1241 & 21.2505 & 28.3747 \\
+Single & av45 & mse & 1365 & 0.00307319 & 0.00145389 & 0.00749808 \\
+Single & av45 & mae & 1365 & 0.0293213 & 0.0196058 & 0.0488016 \\
+Single & fdg & ssim & 1598 & 0.938092 & 0.843887 & 0.952806 \\
+Single & fdg & psnr & 1598 & 27.4458 & 23.1376 & 29.6489 \\
+Single & fdg & mse & 1598 & 0.00180062 & 0.0010842 & 0.00485553 \\
+Single & fdg & mae & 1598 & 0.0212459 & 0.0155809 & 0.0398216 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Percentiles across frozen OOF subjects, not confidence limits. All intensities normalized, not SUV/SUVR.}
+\endgroup

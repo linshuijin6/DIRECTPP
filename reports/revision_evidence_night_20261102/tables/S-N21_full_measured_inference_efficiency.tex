@@ -1,0 +1,24 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G6/summary.csv;G6/receipt.json
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllllll}
+\caption{Full measured inference efficiency}\label{tab:s-n21}\\
+\toprule
+tracer & n & parameters & mean\_s & sample\_sd\_s & median\_s & p05\_s & p95\_s & allocated\_GiB & reserved\_GiB \\
+\midrule
+\endfirsthead
+\toprule
+tracer & n & parameters & mean\_s & sample\_sd\_s & median\_s & p05\_s & p95\_s & allocated\_GiB & reserved\_GiB \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+av45 & 50 & 9925921 & 0.251411 & 0.000256362 & 0.251549 & 0.250971 & 0.251628 & 8.29015 & 13.2676 \\
+fdg & 50 & 9925921 & 0.251015 & 0.000187214 & 0.251022 & 0.250758 & 0.251377 & 8.29015 & 13.2676 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Full fold1 epoch165, real resident3D MRI[1,1,160,192,160], cached condition tokens, FP32, RTX409024GB.10warmup then50synchronized forward samples per tracer. One tracer per forward; excludes text encoding, preprocessing, I/O and transfers. Generator parameters only. Peak PyTorch allocated/reserved is not whole-card occupancy. FLOPs unavailable.}
+\endgroup
+\end{landscape}

@@ -1,0 +1,13 @@
+{
+  "task": "av45_fold1",
+  "config_sha256": "95558db4489e097ec55b6b0fa7627aae562048baa180cf626133a90c2e5841f8",
+  "cohort_sha256": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+  "split_manifest_sha256": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+  "conditions_sha256": "eb0ccf53b26c3a7ba3d06d6dc9ab71c0596fc695befca73fc4c931835fed64ba",
+  "runner_sha256": "5d30eb01ac8a37f93be8548d10cb078e4b178675f158f2f06952f29739d7539d",
+  "model_sha256": "d1395a1c0a1be6b526b334dac4aceef59d67567b92b894cf913c9cbde365f46b",
+  "epochs": 200,
+  "epoch": 165,
+  "checkpoint_sha256": "f257977839d9f4de76f4d5036ce05a380091bf1abdf6bae622bdf838c767ff09",
+  "model_state_sha256": "7ddfd7906bf26949287b1ce1a83dba0aa7056229e2f20414fd867ebe8396f273"
+}

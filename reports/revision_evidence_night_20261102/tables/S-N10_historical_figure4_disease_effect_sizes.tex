@@ -1,0 +1,42 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G4/historical_figure4_effect_sizes.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllllllllll}
+\caption{Historical Figure4 disease effect sizes}\label{tab:s-n10}\\
+\toprule
+panel & panel\_order & tracer & roi\_id & roi\_name & N\_AD & N\_CN & d\_real & d\_syn & delta\_d & r2\_9\_real\_p & r2\_9\_real\_q & r2\_9\_syn\_p & r2\_9\_syn\_q \\
+\midrule
+\endfirsthead
+\toprule
+panel & panel\_order & tracer & roi\_id & roi\_name & N\_AD & N\_CN & d\_real & d\_syn & delta\_d & r2\_9\_real\_p & r2\_9\_real\_q & r2\_9\_syn\_p & r2\_9\_syn\_q \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+C & 1 & AV45 & 1025 & ctx-lh-precuneus & 179 & 511 & 1.6783 & 1.64368 & -0.0346209 & 8.67373e-67 & 7.72751e-66 & 1.27531e-64 & 1.2498e-63 \\
+C & 2 & AV45 & 1009 & ctx-lh-inferiortemporal & 179 & 511 & 1.68315 & 1.63373 & -0.0494229 & 4.29897e-67 & 4.68111e-66 & 5.32041e-64 & 4.74e-63 \\
+C & 3 & AV45 & 1015 & ctx-lh-middletemporal & 179 & 511 & 1.64818 & 1.62358 & -0.0245978 & 6.67224e-65 & 4.67057e-64 & 2.2752e-63 & 1.71515e-62 \\
+C & 4 & AV45 & 1030 & ctx-lh-superiortemporal & 179 & 511 & 1.57804 & 1.54339 & -0.034651 & 1.49574e-60 & 5.63781e-60 & 1.99664e-58 & 8.5074e-58 \\
+C & 5 & AV45 & 1034 & ctx-lh-transversetemporal & 179 & 511 & 1.51326 & 1.52882 & 0.0155655 & 1.36358e-56 & 2.84321e-56 & 1.54475e-57 & 5.60688e-57 \\
+D & 1 & FDG & 1010 & ctx-lh-isthmuscingulate & 303 & 371 & -1.25307 & -1.17743 & 0.0756402 & 5.49863e-50 & 2.69433e-48 & 4.27919e-45 & 2.0968e-43 \\
+D & 2 & FDG & 2010 & ctx-rh-isthmuscingulate & 303 & 371 & -1.39718 & -1.3201 & 0.0770824 & 1.19996e-59 & 1.17596e-57 & 1.98393e-54 & 1.94426e-52 \\
+D & 3 & FDG & 1031 & ctx-lh-supramarginal & 303 & 371 & -0.484757 & -0.430784 & 0.0539734 & 6.84562e-10 & 2.14419e-09 & 3.82345e-08 & 1.10205e-07 \\
+D & 4 & FDG & 17 & Left-Hippocampus & 302 & 371 & -0.640079 & -0.604157 & 0.0359223 & 7.83466e-16 & 4.26554e-15 & 2.45652e-14 & 1.26705e-13 \\
+D & 5 & FDG & 53 & Right-Hippocampus & 303 & 371 & -0.75177 & -0.718925 & 0.0328448 & 6.08639e-21 & 4.5882e-20 & 2.20507e-19 & 1.54355e-18 \\
+E & 1 & AV45 & 28 & Left-VentralDC & 179 & 511 & -0.104985 & -0.0933391 & 0.0116458 & 0.227171 & 0.236838 & 0.282898 & 0.285815 \\
+E & 2 & AV45 & 60 & Right-VentralDC & 179 & 511 & -0.121141 & -0.098638 & 0.0225029 & 0.163535 & 0.172883 & 0.256485 & 0.261829 \\
+E & 3 & AV45 & 53 & Right-Hippocampus & 179 & 511 & -0.00683161 & 0.000551834 & 0.00738345 & 0.937329 & 0.937329 & 0.994932 & 0.994932 \\
+E & 4 & AV45 & 7 & Left-Cerebellum-White-Matter & 179 & 511 & -0.074484 & -0.101022 & -0.0265385 & 0.391422 & 0.399577 & 0.245178 & 0.25292 \\
+E & 5 & AV45 & 17 & Left-Hippocampus & 179 & 511 & 0.0701135 & 0.12319 & 0.053076 & 0.419795 & 0.424123 & 0.156539 & 0.166748 \\
+F & 1 & FDG & 10 & Left-Thalamus & 303 & 371 & -0.00966003 & 0.0582161 & 0.0678761 & 0.900755 & 0.900755 & 0.452415 & 0.466702 \\
+F & 2 & FDG & 49 & Right-Thalamus & 303 & 371 & -0.0668458 & -0.0529859 & 0.01386 & 0.38829 & 0.39638 & 0.49403 & 0.499123 \\
+F & 3 & FDG & 1019 & ctx-lh-parsorbitalis & 303 & 371 & -0.129435 & -0.0912716 & 0.0381638 & 0.0950694 & 0.10352 & 0.238923 & 0.250633 \\
+F & 4 & FDG & 1011 & ctx-lh-lateraloccipital & 303 & 371 & -0.123928 & -0.0978044 & 0.0261235 & 0.109964 & 0.117136 & 0.206992 & 0.222915 \\
+F & 5 & FDG & 2013 & ctx-rh-lingual & 303 & 371 & -0.0492564 & -0.0435012 & 0.00575522 & 0.524913 & 0.530324 & 0.574442 & 0.574442 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize AD-CN Cohen d uses pooled sample SD; distinct from paired Cohen dz. Original AD/CN labels. Figure4E first2 ROIs are Left/Right-VentralDC28/60. Existing disease-test BH98 per tracer xReal/Syn; no tests rerun. High agreement or non-significance does not prove equivalence or precise preservation.}
+\endgroup
+\end{landscape}

@@ -1,0 +1,44 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G1_E1/fold_differences.csv
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllll}
+\caption{E1 score removal by fold}\label{tab:s-n18}\\
+\toprule
+tracer & fold & metric & n & mean\_delta & sample\_sd\_delta \\
+\midrule
+\endfirsthead
+\toprule
+tracer & fold & metric & n & mean\_delta & sample\_sd\_delta \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+av45 & 1 & roi\_mae & 677 & 9.24754e-05 & 0.00157008 \\
+av45 & 1 & brain\_mae & 677 & 0.000143284 & 0.00101085 \\
+av45 & 1 & psnr & 677 & -0.0222439 & 0.0912224 \\
+av45 & 1 & ssim7 & 677 & 0.00155472 & 0.00138199 \\
+av45 & 1 & ssim11 & 677 & 0.00131384 & 0.00129589 \\
+av45 & 1 & full\_vs\_no\_scores\_voxel\_mae & 677 & 0.00130347 & 0.000448983 \\
+av45 & 2 & roi\_mae & 687 & 6.52538e-05 & 0.00120412 \\
+av45 & 2 & brain\_mae & 687 & 0.000145697 & 0.000826714 \\
+av45 & 2 & psnr & 687 & -0.0181667 & 0.0788634 \\
+av45 & 2 & ssim7 & 687 & -0.000172222 & 0.00105049 \\
+av45 & 2 & ssim11 & 687 & -0.000193183 & 0.00111073 \\
+av45 & 2 & full\_vs\_no\_scores\_voxel\_mae & 687 & 0.000908809 & 0.000181874 \\
+fdg & 1 & roi\_mae & 802 & -1.73269e-05 & 0.000535013 \\
+fdg & 1 & brain\_mae & 802 & -9.0608e-05 & 0.000520892 \\
+fdg & 1 & psnr & 802 & 0.000348052 & 0.0624559 \\
+fdg & 1 & ssim7 & 802 & 0.000409675 & 0.00106715 \\
+fdg & 1 & ssim11 & 802 & 0.000436562 & 0.00102741 \\
+fdg & 1 & full\_vs\_no\_scores\_voxel\_mae & 802 & 0.00137703 & 0.000300189 \\
+fdg & 2 & roi\_mae & 795 & 9.05218e-05 & 0.000450361 \\
+fdg & 2 & brain\_mae & 795 & 6.34501e-05 & 0.000335939 \\
+fdg & 2 & psnr & 795 & -0.00873511 & 0.0409428 \\
+fdg & 2 & ssim7 & 795 & 3.01279e-05 & 0.0004798 \\
+fdg & 2 & ssim11 & 795 & -6.79388e-06 & 0.000420314 \\
+fdg & 2 & full\_vs\_no\_scores\_voxel\_mae & 795 & 0.000658368 & 0.000263346 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Fold-wise descriptive differences and sample SD. No additional fold p-values or CIs invented; the formal overall CI is S-N17. Same metric directions and units as S-N17.}
+\endgroup

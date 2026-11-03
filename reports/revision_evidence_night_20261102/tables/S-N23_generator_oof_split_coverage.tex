@@ -1,0 +1,22 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G2/generator_oof_coverage.csv
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllll}
+\caption{Generator OOF split coverage}\label{tab:s-n23}\\
+\toprule
+generator & fold & n\_train & n\_heldout & train\_test\_overlap & oof\_subjects & fdg\_rows & av45\_rows \\
+\midrule
+\endfirsthead
+\toprule
+generator & fold & n\_train & n\_heldout & train\_test\_overlap & oof\_subjects & fdg\_rows & av45\_rows \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+W1 author-code Full & 1 & 928 & 929 & 0 & 929 & 792 & 690 \\
+W1 author-code Full & 2 & 929 & 928 & 0 & 928 & 806 & 675 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Frozen1857-subject two-fold manifest929/928; valid targets1598FDG/1365AV45. Subjectwise held-out identity verified. Unseeded training policy is separate from split seed42.}
+\endgroup

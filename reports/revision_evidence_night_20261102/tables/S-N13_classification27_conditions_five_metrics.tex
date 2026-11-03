@@ -1,0 +1,157 @@
+% Draft only. Requires longtable, booktabs; wide tables also pdflscape.
+% Source: G5/existing_imaging_bootstrap_metrics.csv;G5/clinical_summary.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllllll}
+\caption{Classification27 conditions five metrics}\label{tab:s-n13}\\
+\toprule
+task & condition & N & metric & mean\_pct & sample\_sd\_pp & ci\_low\_pct & ci\_high\_pct \\
+\midrule
+\endfirsthead
+\toprule
+task & condition & N & metric & mean\_pct & sample\_sd\_pp & ci\_low\_pct & ci\_high\_pct \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ad\_cn & mri & 470 & ACC & 79.5648 & 6.2 & 75.954 & 82.9686 \\
+ad\_cn & mri & 470 & AUC & 87.0219 & 5.44 & 83.509 & 90.1529 \\
+ad\_cn & mri & 470 & SEN & 75.1515 & 10.01 & 68.4848 & 81.2121 \\
+ad\_cn & mri & 470 & SPE & 81.9647 & 6.9 & 77.6969 & 85.9089 \\
+ad\_cn & mri & 470 & balanced\_ACC & 78.5581 & 6.59 & 74.6346 & 82.2404 \\
+ad\_cn & mri\_real\_fdg & 470 & ACC & 89.3625 & 0.72 & 86.3887 & 91.9212 \\
+ad\_cn & mri\_real\_fdg & 470 & AUC & 94.2786 & 0.55 & 91.7744 & 96.5132 \\
+ad\_cn & mri\_real\_fdg & 470 & SEN & 81.2121 & 6.39 & 75.1515 & 87.2727 \\
+ad\_cn & mri\_real\_fdg & 470 & SPE & 93.7844 & 4.41 & 90.8464 & 96.402 \\
+ad\_cn & mri\_real\_fdg & 470 & balanced\_ACC & 87.4982 & 1.06 & 84.0694 & 90.6936 \\
+ad\_cn & mri\_syn\_fdg & 470 & ACC & 88.7174 & 3.31 & 85.9348 & 91.4816 \\
+ad\_cn & mri\_syn\_fdg & 470 & AUC & 94.405 & 0.89 & 91.9577 & 96.5808 \\
+ad\_cn & mri\_syn\_fdg & 470 & SEN & 80 & 12.73 & 73.9394 & 86.0606 \\
+ad\_cn & mri\_syn\_fdg & 470 & SPE & 93.4543 & 3.95 & 90.5067 & 96.072 \\
+ad\_cn & mri\_syn\_fdg & 470 & balanced\_ACC & 86.7272 & 5.21 & 83.3462 & 89.9668 \\
+ad\_cn & mri\_real\_av45 & 470 & ACC & 85.53 & 2.67 & 82.3384 & 88.5133 \\
+ad\_cn & mri\_real\_av45 & 470 & AUC & 92.5383 & 2.53 & 89.9142 & 94.9206 \\
+ad\_cn & mri\_real\_av45 & 470 & SEN & 74.5455 & 1.82 & 67.8788 & 81.2121 \\
+ad\_cn & mri\_real\_av45 & 470 & SPE & 91.4677 & 4.86 & 88.1932 & 94.4218 \\
+ad\_cn & mri\_real\_av45 & 470 & balanced\_ACC & 83.0066 & 1.77 & 79.2652 & 86.5811 \\
+ad\_cn & mri\_syn\_av45 & 470 & ACC & 84.0397 & 2.8 & 80.8441 & 87.4327 \\
+ad\_cn & mri\_syn\_av45 & 470 & AUC & 91.805 & 3.54 & 89.016 & 94.2319 \\
+ad\_cn & mri\_syn\_av45 & 470 & SEN & 81.2121 & 2.1 & 75.1515 & 86.6818 \\
+ad\_cn & mri\_syn\_av45 & 470 & SPE & 85.5627 & 4.9 & 81.6249 & 89.494 \\
+ad\_cn & mri\_syn\_av45 & 470 & balanced\_ACC & 83.3874 & 2 & 79.8658 & 86.9128 \\
+ad\_cn & mri\_real\_both & 470 & ACC & 90.635 & 2.59 & 87.8708 & 93.1842 \\
+ad\_cn & mri\_real\_both & 470 & AUC & 94.3753 & 0.9 & 91.839 & 96.6116 \\
+ad\_cn & mri\_real\_both & 470 & SEN & 84.2424 & 2.78 & 78.1818 & 89.697 \\
+ad\_cn & mri\_real\_both & 470 & SPE & 94.0918 & 2.62 & 91.4347 & 96.3988 \\
+ad\_cn & mri\_real\_both & 470 & balanced\_ACC & 89.1671 & 2.6 & 85.9189 & 92.1374 \\
+ad\_cn & mri\_syn\_both & 470 & ACC & 88.0832 & 2.06 & 85.093 & 90.8515 \\
+ad\_cn & mri\_syn\_both & 470 & AUC & 93.824 & 3.21 & 91.1794 & 96.0744 \\
+ad\_cn & mri\_syn\_both & 470 & SEN & 86.0606 & 5.84 & 80.6061 & 90.9091 \\
+ad\_cn & mri\_syn\_both & 470 & SPE & 89.1833 & 0.93 & 85.5691 & 92.461 \\
+ad\_cn & mri\_syn\_both & 470 & balanced\_ACC & 87.622 & 2.9 & 84.2872 & 90.6744 \\
+mci\_cn & mri & 741 & ACC & 67.4764 & 0.23 & 64.3725 & 70.5803 \\
+mci\_cn & mri & 741 & AUC & 71.5894 & 1.8 & 67.8261 & 75.2462 \\
+mci\_cn & mri & 741 & SEN & 79.5686 & 11.66 & 75.8936 & 83.2279 \\
+mci\_cn & mri & 741 & SPE & 50.123 & 17.1 & 44.5641 & 55.3809 \\
+mci\_cn & mri & 741 & balanced\_ACC & 64.8458 & 2.73 & 61.5688 & 68.1154 \\
+mci\_cn & mri\_real\_fdg & 741 & ACC & 61.2686 & 2.7 & 57.7598 & 64.7773 \\
+mci\_cn & mri\_real\_fdg & 741 & AUC & 64.8206 & 2.79 & 60.7379 & 68.7728 \\
+mci\_cn & mri\_real\_fdg & 741 & SEN & 63.305 & 3.89 & 58.6946 & 67.6872 \\
+mci\_cn & mri\_real\_fdg & 741 & SPE & 58.3544 & 1.73 & 52.7923 & 63.9036 \\
+mci\_cn & mri\_real\_fdg & 741 & balanced\_ACC & 60.8297 & 2.48 & 57.1358 & 64.4906 \\
+mci\_cn & mri\_syn\_fdg & 741 & ACC & 62.4831 & 3.25 & 59.1093 & 65.857 \\
+mci\_cn & mri\_syn\_fdg & 741 & AUC & 65.7741 & 5.56 & 61.808 & 69.8145 \\
+mci\_cn & mri\_syn\_fdg & 741 & SEN & 67.0005 & 12.26 & 62.6374 & 71.1337 \\
+mci\_cn & mri\_syn\_fdg & 741 & SPE & 56.0959 & 14.64 & 50.818 & 61.3539 \\
+mci\_cn & mri\_syn\_fdg & 741 & balanced\_ACC & 61.5482 & 3.28 & 58.0485 & 65.1126 \\
+mci\_cn & mri\_real\_av45 & 741 & ACC & 66.8016 & 2.1 & 63.5628 & 69.9089 \\
+mci\_cn & mri\_real\_av45 & 741 & AUC & 71.9977 & 0.79 & 68.2319 & 75.746 \\
+mci\_cn & mri\_real\_av45 & 741 & SEN & 75.4495 & 8.66 & 71.5383 & 79.345 \\
+mci\_cn & mri\_real\_av45 & 741 & SPE & 54.4263 & 11.27 & 48.8675 & 59.6907 \\
+mci\_cn & mri\_real\_av45 & 741 & balanced\_ACC & 64.9379 & 2.42 & 61.5366 & 68.2839 \\
+mci\_cn & mri\_syn\_av45 & 741 & ACC & 65.9919 & 1.21 & 62.7497 & 69.2308 \\
+mci\_cn & mri\_syn\_av45 & 741 & AUC & 71.5163 & 1.85 & 67.7322 & 75.1001 \\
+mci\_cn & mri\_syn\_av45 & 741 & SEN & 73.1743 & 6.51 & 69.0379 & 77.2996 \\
+mci\_cn & mri\_syn\_av45 & 741 & SPE & 55.7562 & 11.84 & 50.4853 & 61.3183 \\
+mci\_cn & mri\_syn\_av45 & 741 & balanced\_ACC & 64.4652 & 2.73 & 61.0458 & 67.8983 \\
+mci\_cn & mri\_real\_both & 741 & ACC & 63.6977 & 3.54 & 60.1889 & 67.2065 \\
+mci\_cn & mri\_real\_both & 741 & AUC & 69.1513 & 2.42 & 65.1317 & 72.9002 \\
+mci\_cn & mri\_real\_both & 741 & SEN & 65.6023 & 9.91 & 61.2423 & 69.9622 \\
+mci\_cn & mri\_real\_both & 741 & SPE & 60.972 & 8.42 & 55.4132 & 66.2137 \\
+mci\_cn & mri\_real\_both & 741 & balanced\_ACC & 63.2871 & 2.81 & 59.7553 & 66.793 \\
+mci\_cn & mri\_syn\_both & 741 & ACC & 65.4521 & 1.64 & 62.4831 & 68.556 \\
+mci\_cn & mri\_syn\_both & 741 & AUC & 69.4596 & 1.34 & 65.5972 & 73.183 \\
+mci\_cn & mri\_syn\_both & 741 & SEN & 79.3292 & 12.8 & 75.6527 & 83.0043 \\
+mci\_cn & mri\_syn\_both & 741 & SPE & 45.5284 & 14.6 & 39.9534 & 51.084 \\
+mci\_cn & mri\_syn\_both & 741 & balanced\_ACC & 62.4288 & 0.94 & 59.1422 & 65.7106 \\
+emci\_lmci & mri & 436 & ACC & 64.9032 & 3.09 & 61.9162 & 67.8885 \\
+emci\_lmci & mri & 436 & AUC & 62.8081 & 2.5 & 57.3896 & 68.3766 \\
+emci\_lmci & mri & 436 & SEN & 17.4014 & 12.64 & 12.0272 & 23.4286 \\
+emci\_lmci & mri & 436 & SPE & 89.5285 & 6.57 & 85.7018 & 93.0117 \\
+emci\_lmci & mri & 436 & balanced\_ACC & 53.4649 & 4.63 & 50.1177 & 56.9634 \\
+emci\_lmci & mri\_real\_fdg & 436 & ACC & 64.2088 & 4.93 & 60.3038 & 68.1105 \\
+emci\_lmci & mri\_real\_fdg & 436 & AUC & 61.66 & 3.35 & 56.042 & 67.0935 \\
+emci\_lmci & mri\_real\_fdg & 436 & SEN & 36.8571 & 16.63 & 29.483 & 44.2585 \\
+emci\_lmci & mri\_real\_fdg & 436 & SPE & 78.337 & 15.69 & 73.7975 & 82.8656 \\
+emci\_lmci & mri\_real\_fdg & 436 & balanced\_ACC & 57.5971 & 1.88 & 53.2308 & 61.8703 \\
+emci\_lmci & mri\_syn\_fdg & 436 & ACC & 65.3629 & 3.46 & 61.4675 & 69.2647 \\
+emci\_lmci & mri\_syn\_fdg & 436 & AUC & 63.0153 & 1.14 & 57.4876 & 68.72 \\
+emci\_lmci & mri\_syn\_fdg & 436 & SEN & 32.8435 & 5.47 & 25.4558 & 40.8847 \\
+emci\_lmci & mri\_syn\_fdg & 436 & SPE & 82.2039 & 6.97 & 77.6717 & 86.3925 \\
+emci\_lmci & mri\_syn\_fdg & 436 & balanced\_ACC & 57.5237 & 2.15 & 53.1467 & 62.0754 \\
+emci\_lmci & mri\_real\_av45 & 436 & ACC & 65.8164 & 3.65 & 62.1382 & 69.4883 \\
+emci\_lmci & mri\_real\_av45 & 436 & AUC & 60.6249 & 2.37 & 55.0341 & 66.2785 \\
+emci\_lmci & mri\_real\_av45 & 436 & SEN & 29.4966 & 9.1 & 22.1633 & 36.8711 \\
+emci\_lmci & mri\_real\_av45 & 436 & SPE & 84.6637 & 1.3 & 80.1498 & 88.8341 \\
+emci\_lmci & mri\_real\_av45 & 436 & balanced\_ACC & 57.0802 & 4.92 & 52.8439 & 61.2766 \\
+emci\_lmci & mri\_syn\_av45 & 436 & ACC & 65.3724 & 5.56 & 61.4738 & 69.2726 \\
+emci\_lmci & mri\_syn\_av45 & 436 & AUC & 62.1233 & 6.88 & 56.5884 & 67.6958 \\
+emci\_lmci & mri\_syn\_av45 & 436 & SEN & 36.1905 & 6.89 & 28.7619 & 43.6054 \\
+emci\_lmci & mri\_syn\_av45 & 436 & SPE & 80.4569 & 11.73 & 75.9174 & 84.9744 \\
+emci\_lmci & mri\_syn\_av45 & 436 & balanced\_ACC & 58.3237 & 2.46 & 53.9153 & 62.826 \\
+emci\_lmci & mri\_real\_both & 436 & ACC & 64.9032 & 4.88 & 60.7762 & 68.8113 \\
+emci\_lmci & mri\_real\_both & 436 & AUC & 63.0357 & 1.25 & 57.578 & 68.5582 \\
+emci\_lmci & mri\_real\_both & 436 & SEN & 41.0476 & 19.06 & 33.6599 & 48.4762 \\
+emci\_lmci & mri\_real\_both & 436 & SPE & 77.3136 & 13 & 72.4196 & 81.8458 \\
+emci\_lmci & mri\_real\_both & 436 & balanced\_ACC & 59.1806 & 5.52 & 54.8926 & 63.5868 \\
+emci\_lmci & mri\_syn\_both & 436 & ACC & 65.8227 & 2.06 & 61.6926 & 70.1732 \\
+emci\_lmci & mri\_syn\_both & 436 & AUC & 66.3296 & 0.54 & 61.1351 & 71.7622 \\
+emci\_lmci & mri\_syn\_both & 436 & SEN & 43.034 & 10.87 & 34.9932 & 51.102 \\
+emci\_lmci & mri\_syn\_both & 436 & SPE & 77.712 & 8.82 & 72.8326 & 82.2478 \\
+emci\_lmci & mri\_syn\_both & 436 & balanced\_ACC & 60.373 & 1.12 & 55.8677 & 65.1899 \\
+ad\_cn & clinical & 470 & ACC & 100 & 0 & 100 & 100 \\
+ad\_cn & clinical & 470 & AUC & 100 & 0 & 100 & 100 \\
+ad\_cn & clinical & 470 & SEN & 100 & 0 & 100 & 100 \\
+ad\_cn & clinical & 470 & SPE & 100 & 0 & 100 & 100 \\
+ad\_cn & clinical & 470 & balanced\_ACC & 100 & 0 & 100 & 100 \\
+ad\_cn & mri\_clinical & 470 & ACC & 94.8949 & 3.54382 & 92.7691 & 96.8071 \\
+ad\_cn & mri\_clinical & 470 & AUC & 99.1662 & 0.958581 & 98.4997 & 99.6552 \\
+ad\_cn & mri\_clinical & 470 & SEN & 92.1212 & 4.19891 & 87.8788 & 95.7576 \\
+ad\_cn & mri\_clinical & 470 & SPE & 96.3923 & 3.44494 & 94.0982 & 98.3595 \\
+ad\_cn & mri\_clinical & 470 & balanced\_ACC & 94.2567 & 3.64594 & 91.8958 & 96.4271 \\
+mci\_cn & clinical & 741 & ACC & 94.8718 & 2.60287 & 93.2524 & 96.3563 \\
+mci\_cn & clinical & 741 & AUC & 98.9345 & 0.702693 & 98.1372 & 99.5602 \\
+mci\_cn & clinical & 741 & SEN & 93.5884 & 4.17266 & 91.2911 & 95.8747 \\
+mci\_cn & clinical & 741 & SPE & 96.7191 & 1.14343 & 94.4347 & 98.6831 \\
+mci\_cn & clinical & 741 & balanced\_ACC & 95.1537 & 2.27204 & 93.619 & 96.5949 \\
+mci\_cn & mri\_clinical & 741 & ACC & 85.1552 & 8.58198 & 82.726 & 87.4494 \\
+mci\_cn & mri\_clinical & 741 & AUC & 93.0705 & 6.10022 & 91.137 & 94.7657 \\
+mci\_cn & mri\_clinical & 741 & SEN & 88.5057 & 12.1099 & 85.5172 & 91.2644 \\
+mci\_cn & mri\_clinical & 741 & SPE & 80.3469 & 18.346 & 76.0822 & 84.2846 \\
+mci\_cn & mri\_clinical & 741 & balanced\_ACC & 84.4263 & 9.21518 & 81.817 & 86.8354 \\
+emci\_lmci & clinical & 436 & ACC & 99.082 & 0.399543 & 98.1625 & 99.7717 \\
+emci\_lmci & clinical & 436 & AUC & 99.9364 & 0.0767061 & 99.7874 & 100 \\
+emci\_lmci & clinical & 436 & SEN & 98.6667 & 2.3094 & 96.6667 & 100 \\
+emci\_lmci & clinical & 436 & SPE & 99.3056 & 0.601407 & 98.2639 & 100 \\
+emci\_lmci & clinical & 436 & balanced\_ACC & 98.9861 & 0.853997 & 97.8125 & 99.8264 \\
+emci\_lmci & mri\_clinical & 436 & ACC & 85.322 & 13.7972 & 82.335 & 88.5294 \\
+emci\_lmci & mri\_clinical & 436 & AUC & 89.602 & 9.07945 & 86.1119 & 93.0183 \\
+emci\_lmci & mri\_clinical & 436 & SEN & 85.9048 & 12.0011 & 80.5034 & 91.2789 \\
+emci\_lmci & mri\_clinical & 436 & SPE & 85.0694 & 18.3503 & 81.25 & 88.8889 \\
+emci\_lmci & mri\_clinical & 436 & balanced\_ACC & 85.4871 & 12.2384 & 82.1606 & 88.8898 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize 81completed fits:3tasks x9conditions x3folds. Metrics are equal-weight fold means and sample SD, not pooled AUC.5000 fold xclass paired bootstrap95\% CIs, seed20261102, fixed models/splits. Positive classes AD, EMCI+LMCI, LMCI; MCI-U excluded. Degenerate100\% empirical intervals do not prove zero population error. Clinical variables include diagnosis-related scales; independent clinical value not established.}
+\endgroup
+\end{landscape}
