@@ -1,0 +1,323 @@
+{
+  "inspected_at_utc": "2026-11-03T09:24:45.650558+00:00",
+  "archive_path": "source_archive/1103_IDA_Metadata.zip",
+  "archive_sha256": "c85b05235a5333192ef8e508b6b5452a448172266e5695dc2a63cc246f4a9413",
+  "selected_source_records_sha256": "997babf8f10156733946f2917fc580e440464a45d1285b8c5098c279c19c32af",
+  "script_sha256": "877d229b700bc51326b7191ff7f66d034029796fb094c9e41038265a74b343c9",
+  "requested_images": 1857,
+  "archive_xml_members": 3592,
+  "roots": {
+    "metadata": 1843,
+    "idaxs": 1749
+  },
+  "detailed_images": 1749,
+  "detailed_subjects": 1749,
+  "detailed_modalities": {
+    "MRI": 1147,
+    "PET": 602
+  },
+  "acquisition_date_range": [
+    "2005-09-01",
+    "2023-03-23"
+  ],
+  "usable_mri_pet_pairs": 0,
+  "interval_days": null,
+  "unobserved_requested_images_ignored": true,
+  "coverage_status": {
+    "detailed_XML": 1749,
+    "not_in_ZIP_skipped": 14,
+    "ID_pointer_only_skipped": 94
+  },
+  "per_modality": {
+    "MRI": {
+      "images": 1147,
+      "sites": 61,
+      "processed_labels": {
+        "MPR-R; GradWarp; B1 Correction; Mask": 153,
+        "MPR; GradWarp; B1 Correction; Mask": 139,
+        "MPR; GradWarp; N3; Scaled": 2,
+        "MPR-R; GradWarp; Mask": 35,
+        "MPR; GradWarp; Mask": 45,
+        "MPR; GradWarp; B1 Correction; N3": 9,
+        "MPR-R; GradWarp": 6,
+        "MPR; GradWarp": 13,
+        "MPR-R; GradWarp; B1 Correction; N3": 1,
+        "MPR-R; GradWarp; B1 Correction": 1,
+        "MPR-R; ; Mask": 2,
+        "MPR; ; Mask": 8,
+        "MPR-R; GradWarp; N3": 1,
+        "MPR; GradWarp; B1 Correction; N3; Scaled_2": 16,
+        "MPR; GradWarp; N3; Scaled_2": 4,
+        "MPR-R; GradWarp; N3; Scaled_2": 1,
+        "MT1; GradWarp; N3m": 475,
+        "MT1; N3m": 164,
+        "Spatially Normalized, Masked and N3 corrected T1 image": 58,
+        "HHP 6 DOF AC-PC registered MPRAGE": 7,
+        "EPI current corrected image": 1,
+        "HarP 135 final release 2015": 6
+      },
+      "image_types": {
+        "mask": 382,
+        "image volume": 765
+      },
+      "registrations": {
+        "native": 1075,
+        "Colin27": 59,
+        "MNI152": 7,
+        "AC-PC": 6
+      },
+      "processing_institutions": {
+        "": 1075,
+        "UCLA": 59,
+        "LENITEM, IRCCS Fatebenefratelli - Brescia (ITALY)": 13
+      },
+      "pipeline_sequences": {
+        "GradWarp -> B1 Correction -> Mask": 292,
+        "GradWarp -> ADNI Pipeline -> Scaled": 7,
+        "GradWarp -> Mask": 80,
+        "GradWarp -> B1 Correction -> ADNI Pipeline": 10,
+        "GradWarp": 19,
+        "GradWarp -> B1 Correction": 1,
+        "Mask": 10,
+        "GradWarp -> ADNI Pipeline": 1,
+        "GradWarp -> B1 Correction -> ADNI Pipeline -> Scaled": 16,
+        "Gradient Unwarping -> N3m": 475,
+        "N3m": 164,
+        "Mask -> File Format Conversion -> Intensity Normalization -> File Format Conversion -> Reorient -> Spatial Normalization": 58,
+        "Calculate Coregistration -> Apply Coregistration -> File Format Conversion": 12,
+        "Calculate Coregistration -> Apply Coregistration": 1,
+        "Mask -> Spatial Normalization -> Fit Diffusion Tensor Model -> Calculate Coregistration -> Apply Coregistration": 1
+      },
+      "uniform_6mm_labels": 0,
+      "variable_smooth_steps": 0,
+      "cerebellar_gray_normalizations": 0,
+      "generic_intensity_normalizations": 58,
+      "av45_early_labels": 0,
+      "acquisition_date_range": [
+        "2005-09-01",
+        "2017-07-20"
+      ],
+      "Manufacturer": {
+        "SIEMENS": 584,
+        "GE MEDICAL SYSTEMS": 417,
+        "Philips Medical Systems": 145,
+        "Philips Healthcare": 1
+      },
+      "Mfg Model": {
+        "Symphony": 89,
+        "SIGNA EXCITE": 168,
+        "Sonata": 57,
+        "Avanto": 45,
+        "SIGNA HDx": 26,
+        "SonataVision": 2,
+        "GENESIS_SIGNA": 52,
+        "Gyroscan Intera": 5,
+        "Intera": 29,
+        "TrioTim": 234,
+        "Achieva": 86,
+        "Verio": 103,
+        "DISCOVERY MR750": 76,
+        "Signa HDxt": 86,
+        "Ingenia": 15,
+        "Skyra": 50,
+        "GEMINI": 9,
+        "DISCOVERY MR750w": 9,
+        "Ingenuity": 1,
+        "Intera Achieva": 1,
+        "Prisma_fit": 3,
+        "Prisma": 1
+      },
+      "Field Strength": {
+        "1.494": 152,
+        "1.5": 292,
+        "3.0": 703
+      },
+      "Radiopharmaceutical": {
+        "": 1147
+      },
+      "Reconstruction": {
+        "": 1147
+      },
+      "Convolution Kernel": {
+        "": 1147
+      },
+      "Frames": {
+        "": 1147
+      }
+    },
+    "PET": {
+      "images": 602,
+      "sites": 63,
+      "processed_labels": {
+        "Coreg, Avg, Standardized Image and Voxel Size": 160,
+        "Co-registered Dynamic": 4,
+        "AV45 Coreg, Avg, Standardized Image and Voxel Size": 99,
+        "Co-registered, Averaged": 1,
+        "AV45-Early Coreg, Avg, Standardized Image and Voxel Size": 3,
+        "AV45 Co-registered Dynamic": 1,
+        "FBB Coreg, Avg, Standardized Image and Voxel Size": 1,
+        "AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res": 140,
+        "Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res": 192,
+        "AV45-Early Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res": 1
+      },
+      "image_types": {
+        "image volume": 602
+      },
+      "registrations": {
+        "AC-PC": 596,
+        "native": 6
+      },
+      "processing_institutions": {
+        "University of Michigan": 602
+      },
+      "pipeline_sequences": {
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Average Frames -> AC-PC Orient Baseline -> Standardize to Baseline -> Average Frames -> Intensity Normalization": 146,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration": 5,
+        "AC-PC Orient Baseline -> Standardize to Baseline -> Intensity Normalization": 14,
+        "AC-PC Orient Baseline FDG -> Standardize to Baseline FDG -> Intensity Normalization to Cerebellar Gray Matter": 1,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Average Frames -> AC-PC Orient Baseline FDG -> Standardize to Baseline FDG -> Average Frames -> Intensity Normalization to Cerebellar Gray Matter": 99,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Average Frames": 1,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Standardize to Baseline FDG -> Average Frames 4 - 11 (45sec-6min) -> Intensity Normalization": 3,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Average Frames -> AC-PC Orient Baseline FDG -> Standardize to Baseline FDG -> Average Frames -> Intensity Normalization to Cerebellar Gray Matter -> Variable Smooth": 140,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Average Frames -> AC-PC Orient Baseline -> Standardize to Baseline -> Average Frames -> Intensity Normalization -> Variable Smooth": 192,
+        "Smooth -> Calculate Coregistration -> Apply Coregistration -> Standardize to Baseline FDG -> Average Frames 4 - 11 (45sec-6min) -> Intensity Normalization -> Variable Smooth": 1
+      },
+      "uniform_6mm_labels": 333,
+      "variable_smooth_steps": 333,
+      "cerebellar_gray_normalizations": 240,
+      "generic_intensity_normalizations": 356,
+      "av45_early_labels": 4,
+      "acquisition_date_range": [
+        "2006-01-06",
+        "2023-03-23"
+      ],
+      "Manufacturer": {
+        "GE MEDICAL SYSTEMS": 210,
+        "GEMS": 15,
+        "Siemens ECAT": 44,
+        "CPS": 36,
+        "Siemens/CTI": 48,
+        "Philips Medical Systems": 38,
+        "SIEMENS": 179,
+        "MiE": 1,
+        "Philips": 31
+      },
+      "Mfg Model": {
+        "Discovery LS": 15,
+        "Advance": 15,
+        "HRRT": 44,
+        "LSO PET/CT (Pico electronics)": 12,
+        "HR+": 39,
+        "Discovery ST": 20,
+        "LSO PET/CT HI-REZ": 35,
+        "GEMINI TF TOF 16": 14,
+        "Discovery STE": 92,
+        "Discovery RX": 3,
+        "1094": 8,
+        "GEMINI TF TOF 64": 10,
+        "": 4,
+        "Allegro Body(C)": 5,
+        "ACCEL": 9,
+        "Guardian Body(C)": 2,
+        "Biograph64": 3,
+        "Discovery 710": 31,
+        "Biograph64_mCT": 13,
+        "Biograph 64_mCT": 7,
+        "Biograph128_mCT": 7,
+        "SCIN": 1,
+        "Biograph64_TruePoint": 46,
+        "Biograph20_mCT": 8,
+        "Biograph6_TruePoint": 28,
+        "Biograph40_TruePoint": 23,
+        "Ingenuity CT": 10,
+        "Discovery MI": 13,
+        "Biograph 40_mCT": 2,
+        "Discovery 600": 13,
+        "Biograph40_mCT": 9,
+        "GEMINI TF Big Bore": 3,
+        "Vereos PET/CT": 14,
+        "Discovery MI DR": 11,
+        "Ingenuity TF PET/CT": 7,
+        "Discovery 690": 11,
+        "Biograph64_Vision 600": 7,
+        "1093": 1,
+        "Biograph 20_mCT": 2,
+        "Biograph128_Vision 600 Edge": 1,
+        "Discovery IQ": 1,
+        "Biograph20_mCT 4R": 1,
+        "Biograph128Edge_Vision 600": 2
+      },
+      "Field Strength": {
+        "": 602
+      },
+      "Radiopharmaceutical": {
+        "18F-FDG": 357,
+        "18F-AV45": 245
+      },
+      "Reconstruction": {
+        "3D Kinahan - Rogers": 17,
+        "": 8,
+        "CPSCC-OSEM3D-OP; 6; 16": 7,
+        "OSEM 6i16s": 12,
+        "CPU terative": 48,
+        "OSEM2D 4i14s": 12,
+        "inki-2006-may-OSEM3D-OP; 6; 16": 36,
+        "LOR-RAMLA": 33,
+        "3D IR": 110,
+        "OSEM2D 4i16s": 35,
+        "3D FORE IR": 10,
+        "RAMLA_3D": 4,
+        "3D-RAMLA": 1,
+        "OSEM3D 4i12s": 3,
+        "VPHD": 78,
+        "OSEM3D 4i24s": 64,
+        "FORE+2D OSEM i4/s16 Gaussian 0.0 mm": 1,
+        "OSEM3D 4i21s": 66,
+        "BLOB-OS-TF": 17,
+        "OSEM2D 4i21s": 12,
+        "OSEM:i4s21": 14,
+        "OSEM3D+TOF 8i5s": 10,
+        "OSEM3D 4i16s": 1,
+        "VPFX": 2,
+        "inki-2006-may-OSEM3D-OP; 5; 16": 1
+      },
+      "Convolution Kernel": {
+        "Rad: rectangle 4.000000 mm  Ax: rectangle 8.500000 mm": 16,
+        "": 345,
+        "ramp": 48,
+        "Rad: rectangle 6.300000 mm Ax: rectangle 6.500000 mm": 1,
+        "All-pass": 191,
+        "Gaussian": 1
+      },
+      "Frames": {
+        "6.0": 316,
+        "1.0": 49,
+        "0.0": 2,
+        "33.0": 7,
+        "4.0": 222,
+        "16.0": 4,
+        "12.0": 1,
+        "30.0": 1
+      }
+    }
+  },
+  "metadata_flags": {
+    "source record is a mask": 382,
+    "EPI/diffusion processing source record": 1,
+    "AV45-Early acquisition product": 4,
+    "FBB product label versus AV45 original protocol": 1
+  },
+  "all_main_ID_subject_modality_matches_verified": true,
+  "all_pointer_ID_subject_series_date_matches_verified": true,
+  "original_protocol_rows": 1753,
+  "processing_step_rows": 7726,
+  "no_missing_metadata_download_or_imputation": true,
+  "limitations": [
+    "Main image IDs identify clinical-source rows, not verified current NIfTI inputs.",
+    "One requested main image per subject prevents within-subject MRI-PET pairing.",
+    "Source-original protocol geometry and scanner are not the processed output geometry.",
+    "Processing timestamps/creationDate are not acquisition dates.",
+    "FBB-labelled source with AV45 protocol remains unresolved.",
+    "No inference that multi-scanner effects have been eliminated."
+  ]
+}

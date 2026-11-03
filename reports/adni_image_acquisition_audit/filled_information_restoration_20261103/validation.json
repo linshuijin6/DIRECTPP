@@ -1,0 +1,21 @@
+{
+  "original_filled_values_preserved": true,
+  "original_source_columns_preserved": true,
+  "source_record_references_checked": 9864,
+  "output_subject_count_checked": 1857,
+  "all_subjects_have_compatible_candidates": true,
+  "source_hashes_unchanged": true,
+  "output_sha256": {
+    "anchor_source_candidates.csv": "6bad7a4fdfe628acd98a721d858c4c0a91648eeb745b2bd28124d68a1187dbcf",
+    "clinical_field_evidence.csv": "5fd39b5b9a632e39b1d227c74da8e600d0835581417264ce35020a39891b84f4",
+    "filled_restored.csv": "e25c0be42cc60ca1061f8e4ec24aa99a294fcd9e2c0c99533a625b8f01d60cf9",
+    "observed_score_conflicts.csv": "d2e7233ad5cb7076066ac862c9576600dd68ce7963932d731c07900a4e3cfc0e",
+    "score_compatible_source_candidates.csv": "498ed9601f8dc8468b8ed4f2a7d8b81bec8ee77c441582831e113f828c18a61b",
+    "unique_source_record_restorations.csv": "9e1a3c4642905693972eb96f1b2c47dff4253a2dc658e6598849d24b35ede267"
+  },
+  "independent_numeric_score_comparison_checked": true,
+  "independent_compatible_subset_exact": true,
+  "independent_conflict_cells_checked": 167,
+  "independent_per_subject_candidate_lists_checked": 1857,
+  "report_links_resolve": true
+}

@@ -1,0 +1,165 @@
+{
+  "created_at_utc": "2026-11-03T08:40:41.300883+00:00",
+  "source_paths_and_sha256": {
+    "source_archive/vscode-3003/home/data/liutuo/code/liutuo_data/ADNI MRI and FDG and AV45 csv.csv": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852",
+    "source_archive/vscode-3003/home/data/liutuo/code/liutuo_data/filtered_subjects_filled.csv": "9ae0d2d51d747d8d612ffc70241bd135d2caa3561a468f7d68c52b88563065ea"
+  },
+  "script_sha256": "395a7ccb63d3bff5ce21be60412a17a8e1ff532e6a99ae679272dc473901cb9c",
+  "anchor_columns": [
+    "Subject ID",
+    "Sex",
+    "Weight",
+    "Research Group",
+    "Age"
+  ],
+  "score_columns": [
+    "MMSE Total Score",
+    "GDSCALE Total Score",
+    "Global CDR",
+    "FAQ Total Score",
+    "NPI-Q Total Score"
+  ],
+  "comparison": "exact Decimal equality for numeric fields; trimmed text equality; no tolerance",
+  "missing_score_rule": "blank source scores remain unknown, never equal to a filled observation",
+  "source_rows": 63812,
+  "source_subjects": 1882,
+  "filled_rows": 1857,
+  "matched_subjects": 1857,
+  "anchor_source_candidates": 9864,
+  "score_compatible_source_candidates": 9749,
+  "compatible_subjects": 1857,
+  "unique_source_record_subjects": 9,
+  "unique_source_record_after_score_comparison_subjects": 9,
+  "fully_observed_ten_field_equal_rows": 29,
+  "fully_observed_ten_field_equal_subjects": 6,
+  "candidate_score_status_counts": {
+    "observed_scores_equal_source_has_missing_scores": 5403,
+    "demographics_only_all_source_scores_missing": 4317,
+    "observed_score_conflict": 115,
+    "all_ten_retained_fields_equal": 29
+  },
+  "observed_score_conflict_candidate_rows": 115,
+  "observed_score_conflict_cells": 167,
+  "observed_score_conflict_subjects": 25,
+  "clinical_field_evidence_counts": {
+    "MMSE Total Score": {
+      "source_observation_equals_filled": 464,
+      "not_observed_at_anchor": 1393
+    },
+    "GDSCALE Total Score": {
+      "source_observation_equals_filled": 462,
+      "not_observed_at_anchor": 1395
+    },
+    "Global CDR": {
+      "source_observation_equals_filled": 464,
+      "not_observed_at_anchor": 1393
+    },
+    "FAQ Total Score": {
+      "not_observed_at_anchor": 1646,
+      "source_observation_equals_filled": 188,
+      "source_observation_differs_from_filled": 23
+    },
+    "NPI-Q Total Score": {
+      "not_observed_at_anchor": 1658,
+      "source_observation_equals_filled": 184,
+      "source_observation_differs_from_filled": 15
+    }
+  },
+  "lost_field_restoration_status_counts": {
+    "Phase": {
+      "unanimous_at_demographic_anchor": 1857
+    },
+    "Modality": {
+      "unanimous_at_demographic_anchor": 1830,
+      "ambiguous_multiple_source_values": 27
+    },
+    "Description": {
+      "ambiguous_multiple_source_values": 1847,
+      "unanimous_at_demographic_anchor": 10
+    },
+    "Imaging Protocol": {
+      "unavailable_in_source": 1857
+    },
+    "Image ID": {
+      "ambiguous_multiple_source_values": 1848,
+      "unanimous_at_demographic_anchor": 9
+    }
+  },
+  "score_compatible_field_restoration_status_counts": {
+    "Phase": {
+      "unanimous_at_demographic_anchor": 1857
+    },
+    "Modality": {
+      "unanimous_at_demographic_anchor": 1853,
+      "ambiguous_multiple_source_values": 4
+    },
+    "Description": {
+      "ambiguous_multiple_source_values": 1847,
+      "unanimous_at_demographic_anchor": 10
+    },
+    "Imaging Protocol": {
+      "unavailable_in_source": 1857
+    },
+    "Image ID": {
+      "ambiguous_multiple_source_values": 1848,
+      "unanimous_at_demographic_anchor": 9
+    }
+  },
+  "phase_counts": {
+    "ADNI 1": 502,
+    "ADNI GO": 130,
+    "ADNI 2": 696,
+    "ADNI 3": 439,
+    "ADNI 4": 90
+  },
+  "anchor_candidate_count_distribution": {
+    "1": 9,
+    "2": 511,
+    "3": 172,
+    "4": 152,
+    "5": 411,
+    "6": 4,
+    "7": 64,
+    "8": 56,
+    "9": 227,
+    "10": 181,
+    "11": 25,
+    "12": 20,
+    "13": 7,
+    "14": 4,
+    "15": 9,
+    "16": 2,
+    "17": 2,
+    "18": 1
+  },
+  "candidate_tracer_description_counts": {
+    "MRI": {
+      "rows": 5747,
+      "subjects": 1161
+    },
+    "PET_AV45": {
+      "rows": 2067,
+      "subjects": 431
+    },
+    "PET_FDG": {
+      "rows": 1866,
+      "subjects": 384
+    },
+    "PET_MULTIPLE_TOKENS": {
+      "rows": 8,
+      "subjects": 2
+    },
+    "PET_TRACER_UNSPECIFIED": {
+      "rows": 176,
+      "subjects": 49
+    }
+  },
+  "limitations": [
+    "Image/Series ID of actual NIfTI still needs file-level linkage.",
+    "Source CSV has no acquisition dates or Series ID.",
+    "Imaging Protocol is empty in the supplied source.",
+    "Same clinical anchor is not a verified acquisition visit.",
+    "Generic PET descriptions do not establish tracer identity.",
+    "Missing original observations are not reconstructed or reimputed."
+  ]
+}

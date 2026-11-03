@@ -1,0 +1,163 @@
+{
+  "history_evidence_sha256": "eb3ae17dedeff3c9537d85bbba3bdd51148cf45f29fdcb9c011859ceb301518b",
+  "history_source": "/home/data/liutuo/.ipython/profile_default/history.sqlite",
+  "history_database_sha256": "ed3b8a2582984ed63dc619765b6cd3139a4b13b79177d1874d7a2c96ca5951c0",
+  "history_session373_metadata": {
+    "session": 373,
+    "session_metadata": [
+      373,
+      "2025-03-29 12:01:24.503055",
+      null,
+      null,
+      ""
+    ],
+    "caveat": "Session start is not a timestamp for every individual input"
+  },
+  "original_source_sha256": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852",
+  "original_filled_sha256": "9ae0d2d51d747d8d612ffc70241bd135d2caa3561a468f7d68c52b88563065ea",
+  "reconstruction_script_sha256": "99a963f4d274124172d302fdaa8b74b7c72463924e14f4bdfb985acbc24d4bb5",
+  "current_directory_subjects": 1857,
+  "filled_subjects": 1857,
+  "current_directory_subject_set_equals_filled": true,
+  "current_directory_order_equals_filled": true,
+  "first_record_demographic_matches": 1857,
+  "selected_source_records": 1857,
+  "selected_source_record_modalities": {
+    "MRI": 1160,
+    "PET": 697
+  },
+  "selected_source_record_phases": {
+    "ADNI 1": 502,
+    "ADNI GO": 130,
+    "ADNI 2": 696,
+    "ADNI 3": 439,
+    "ADNI 4": 90
+  },
+  "observed_score_values_preserved": 1751,
+  "source_missing_score_values": 7534,
+  "source_missing_values_within_group_rule": 7534,
+  "per_score": {
+    "MMSE Total Score": {
+      "source_observed": 464,
+      "source_missing": 1393
+    },
+    "GDSCALE Total Score": {
+      "source_observed": 462,
+      "source_missing": 1395
+    },
+    "Global CDR": {
+      "source_observed": 464,
+      "source_missing": 1393
+    },
+    "FAQ Total Score": {
+      "source_observed": 183,
+      "source_missing": 1674
+    },
+    "NPI-Q Total Score": {
+      "source_observed": 178,
+      "source_missing": 1679
+    }
+  },
+  "source_first_record_mmse_refill_input21_additional_values": 0,
+  "no_historical_code_executed": true,
+  "random_draws_generated": 0,
+  "extracted_history_inputs": [
+    {
+      "file": "history_session287_input019.py",
+      "session": 287,
+      "input_line": 19,
+      "source_sha256": "c18bb9c657fea5a1ea5ea4f9283ca1b420d7d8b3fbb9c4787bf513463753081b"
+    },
+    {
+      "file": "history_session373_input016.py",
+      "session": 373,
+      "input_line": 16,
+      "source_sha256": "11201be2d8050902347aea93de694268fec097d55685ca31396f7b6efb695245"
+    },
+    {
+      "file": "history_session373_input017.py",
+      "session": 373,
+      "input_line": 17,
+      "source_sha256": "c4b9310f536222eecb0e8be2a6b2621454fb2fa72127d8f8fca31cb23c46ce75"
+    },
+    {
+      "file": "history_session373_input018.py",
+      "session": 373,
+      "input_line": 18,
+      "source_sha256": "8bf575b976d924e099d6962df32a343af548db70954b0c21686fbb5ff7c2110a"
+    },
+    {
+      "file": "history_session373_input019.py",
+      "session": 373,
+      "input_line": 19,
+      "source_sha256": "7644d3e9fa29498fd07d49b54f51ea87520588ca1b70d76e9f56ef261b4d6626"
+    },
+    {
+      "file": "history_session373_input020.py",
+      "session": 373,
+      "input_line": 20,
+      "source_sha256": "3d39c5b947069f0d42a79e1f6fcb60b9f0d993dc9b50b953a98fc89b96007c37"
+    },
+    {
+      "file": "history_session373_input021.py",
+      "session": 373,
+      "input_line": 21,
+      "source_sha256": "ba6d128d3cc39965d961e30210e8903ff6367ba529d7be9748bb07e97c132f9a"
+    },
+    {
+      "file": "history_session373_input022.py",
+      "session": 373,
+      "input_line": 22,
+      "source_sha256": "fff122c7a0dcfb1d3f7496d001ad70e21d5360f4763704091bb16496ac7286fe"
+    },
+    {
+      "file": "history_session373_input023.py",
+      "session": 373,
+      "input_line": 23,
+      "source_sha256": "ef3b756fd5397a3f934daf4634c6d7d44517b1b3a671b18dcebcf7de7aa64902"
+    },
+    {
+      "file": "history_session373_input024.py",
+      "session": 373,
+      "input_line": 24,
+      "source_sha256": "4e5a3ec63b0de92559cfabb43b43995594ab4a7176b4fc59710d38a6489a7a49"
+    },
+    {
+      "file": "history_session373_input025.py",
+      "session": 373,
+      "input_line": 25,
+      "source_sha256": "97c4bf5b7b14470cde93ba8904b9af37e78506ad02809b6a6f8b526ba77403d4"
+    },
+    {
+      "file": "history_session373_input026.py",
+      "session": 373,
+      "input_line": 26,
+      "source_sha256": "2a29ab5a0ff9aaea89b4475be06d7673afde43b8a9e06c6425ea41a6649d6f2e"
+    },
+    {
+      "file": "history_session373_input027.py",
+      "session": 373,
+      "input_line": 27,
+      "source_sha256": "f88234b1ae460333cdb1fc4097bd351a078538447cf9bee4caa078d62b682ccd"
+    },
+    {
+      "file": "history_session373_input028.py",
+      "session": 373,
+      "input_line": 28,
+      "source_sha256": "d35d36921717338c9748908c7768545a102eda95cc4a1e5e24c07f573873f9b5"
+    },
+    {
+      "file": "history_session373_input029.py",
+      "session": 373,
+      "input_line": 29,
+      "source_sha256": "ac88e30391a3a348a0a7d172b274f1acf40ed0908737d25607404dde5258ddc6"
+    }
+  ],
+  "unavailable_evidence": [
+    "Removal of the five metadata columns: exact code not found.",
+    "Original choice of acquired MRI/PET before mri_strip: not established here.",
+    "Full per-input timestamps and completion outputs: not established.",
+    "Actual NIfTI acquisition identity remains unverified.",
+    "Original random draws/state were not recovered."
+  ]
+}

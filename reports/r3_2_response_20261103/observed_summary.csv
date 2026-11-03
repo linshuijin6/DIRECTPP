@@ -1,0 +1,9 @@
+variable,CN,EMCI,LMCI,MCI,AD
+Age,72.55 ± 6.65; n=577,71.62 ± 7.51; n=291,72.44 ± 7.69; n=152,73.20 ± 7.51; n=520,74.90 ± 7.99; n=317
+Sex,M/F=252/325; n=577,M/F=165/126; n=291,M/F=80/72; n=152,M/F=310/210; n=520,M/F=186/131; n=317
+Weight,77.35 ± 17.13; n=546,80.77 ± 16.67; n=291,77.15 ± 16.64; n=152,76.90 ± 14.78; n=493,74.86 ± 15.20; n=310
+MMSE Total Score,29.11 ± 1.02; n=150,Unavailable; n=0,Unavailable; n=0,27.22 ± 1.69; n=231,23.30 ± 2.16; n=83
+GDSCALE Total Score,0.93 ± 1.21; n=148,Unavailable; n=0,Unavailable; n=0,1.57 ± 1.46; n=231,1.71 ± 1.44; n=83
+Global CDR,0.00 ± 0.04; n=150,Unavailable; n=0,Unavailable; n=0,0.50 ± 0.03; n=231,0.81 ± 0.24; n=83
+FAQ Total Score,0.42 ± 1.10; n=26,1.91 ± 3.22; n=128,0.00; SD unavailable; n=1,3.17 ± 3.72; n=41,14.80 ± 6.38; n=15
+NPI-Q Total Score,0.67 ± 1.24; n=21,2.30 ± 3.18; n=124,Unavailable; n=0,1.85 ± 2.28; n=39,4.07 ± 3.41; n=15

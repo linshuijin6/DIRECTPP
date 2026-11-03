@@ -1,0 +1,21 @@
+{
+  "detailed_XML_records_independently_checked": 1749,
+  "radiopharmaceuticals_checked_in_primary_parent_context": 602,
+  "paired_interval_values_not_invented": true,
+  "processing_counts_reconciled": true,
+  "figure_counts_reconciled": true,
+  "figure_visually_inspected": true,
+  "report_links_resolve": true,
+  "input_ZIP_unchanged": true,
+  "missing_metadata_not_chased": true,
+  "output_sha256": {
+    "image_metadata.csv": "0d1ff3d06c39ead97ec1ccc26ba592459a5b9f5f2f73165f71b89e00f987fdef",
+    "image_relations.csv": "fde4c87ffe9ac47ff2e659bd1a49ccd3b1b66a1f93ee59359f7668cefa564f66",
+    "metadata_coverage.csv": "983a07848900bfd21b719fe991ff85b982d100df0b14e054d1a9e474027340ea",
+    "metadata_findings.csv": "1159a73b287524ee2af6a87b3c908fd6baba8537fca33953e4b4ffc29bbcf485",
+    "mri_pet_pairing_check.csv": "8897766bf5f4a21eb8482783e4bbafbc17df153d81173a68497e9b8968205c61",
+    "original_protocols.csv": "c0643de9ec0a017a33b5c818d77d259aade83108bb32d5247e82945ecc407239",
+    "pet_product_figure_data.csv": "fbcf555db388101602a2d51c59681b602d0ff9adef2fb0101ce208b90a07a185",
+    "processing_steps.csv": "4484534105a8ea7c49bede075a6a5d423b50438845df07630574c47a5c406a3f"
+  }
+}

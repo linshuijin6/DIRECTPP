@@ -1,0 +1,168 @@
+﻿filled_csv_record_1based,source_csv_record_1based,ptid,image_id,modality,description,variable,filled_value,source_observed_value,resolution
+55,32390,041_S_1418,67296,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG  4i/16s",FAQ Total Score,6,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32390,041_S_1418,67296,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG  4i/16s",NPI-Q Total Score,3,5.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32391,041_S_1418,67297,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG  4i/16s",FAQ Total Score,6,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32391,041_S_1418,67297,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG  4i/16s",NPI-Q Total Score,3,5.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32392,041_S_1418,67298,PET,"Co-registered, Averaged <- 30 min 3D FDG  4i/16s",FAQ Total Score,6,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32392,041_S_1418,67298,PET,"Co-registered, Averaged <- 30 min 3D FDG  4i/16s",NPI-Q Total Score,3,5.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32393,041_S_1418,67299,PET,Co-registered Dynamic <- 30 min 3D FDG  4i/16s,FAQ Total Score,6,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32393,041_S_1418,67299,PET,Co-registered Dynamic <- 30 min 3D FDG  4i/16s,NPI-Q Total Score,3,5.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32394,041_S_1418,1598534,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG  4i/16s",FAQ Total Score,6,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+55,32394,041_S_1418,1598534,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG  4i/16s",NPI-Q Total Score,3,5.0,retained_as_conflicting_anchor_candidate; not overwritten
+66,6807,009_S_0842,27125,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+66,6808,009_S_0842,27126,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+66,6809,009_S_0842,27127,PET,"Co-registered, Averaged <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+66,6810,009_S_0842,27128,PET,Co-registered Dynamic <- 30min 3D FDG 6i/16s,NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16278,022_S_1351,49846,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI Brain PET: Raw",FAQ Total Score,7,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16278,022_S_1351,49846,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI Brain PET: Raw",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16279,022_S_1351,49847,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw",FAQ Total Score,7,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16279,022_S_1351,49847,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16280,022_S_1351,49848,PET,"Co-registered, Averaged <- ADNI Brain PET: Raw",FAQ Total Score,7,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16280,022_S_1351,49848,PET,"Co-registered, Averaged <- ADNI Brain PET: Raw",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16281,022_S_1351,49849,PET,Co-registered Dynamic <- ADNI Brain PET: Raw,FAQ Total Score,7,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+226,16281,022_S_1351,49849,PET,Co-registered Dynamic <- ADNI Brain PET: Raw,NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10080,013_S_0860,30147,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI STATIC BRAIN (6x5) 28CM",FAQ Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10080,013_S_0860,30147,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI STATIC BRAIN (6x5) 28CM",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10081,013_S_0860,30148,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI STATIC BRAIN (6x5) 28CM",FAQ Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10081,013_S_0860,30148,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI STATIC BRAIN (6x5) 28CM",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10082,013_S_0860,30149,PET,"Co-registered, Averaged <- ADNI STATIC BRAIN (6x5) 28CM",FAQ Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10082,013_S_0860,30149,PET,"Co-registered, Averaged <- ADNI STATIC BRAIN (6x5) 28CM",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10083,013_S_0860,30150,PET,Co-registered Dynamic <- ADNI STATIC BRAIN (6x5) 28CM,FAQ Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+237,10083,013_S_0860,30150,PET,Co-registered Dynamic <- ADNI STATIC BRAIN (6x5) 28CM,NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+331,43976,099_S_1034,33214,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB",FAQ Total Score,6,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+331,43977,099_S_1034,33215,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB",FAQ Total Score,6,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+374,11316,014_S_4328,271462,PET,"AV45 Coreg, Avg, Standardized Image and Voxel Size <- ADNI Brain PET: Raw AV45",FAQ Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+374,11317,014_S_4328,271463,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw AV45",FAQ Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+374,11318,014_S_4328,271464,PET,"AV45 Co-registered, Averaged <- ADNI Brain PET: Raw AV45",FAQ Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+374,11319,014_S_4328,271465,PET,AV45 Co-registered Dynamic <- ADNI Brain PET: Raw AV45,FAQ Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+374,11320,014_S_4328,1594948,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- ADNI Brain PET: Raw AV45",FAQ Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36504,062_S_0730,27861,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",FAQ Total Score,24,20.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36504,062_S_0730,27861,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",NPI-Q Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36505,062_S_0730,27862,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",FAQ Total Score,24,20.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36505,062_S_0730,27862,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",NPI-Q Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36506,062_S_0730,1598788,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",FAQ Total Score,24,20.0,retained_as_conflicting_anchor_candidate; not overwritten
+421,36506,062_S_0730,1598788,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",NPI-Q Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59581,137_S_0800,28771,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI Static Brain (6x5)",FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59581,137_S_0800,28771,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI Static Brain (6x5)",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59582,137_S_0800,28772,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Static Brain (6x5)",FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59582,137_S_0800,28772,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Static Brain (6x5)",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59583,137_S_0800,28773,PET,"Co-registered, Averaged <- ADNI Static Brain (6x5)",FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59583,137_S_0800,28773,PET,"Co-registered, Averaged <- ADNI Static Brain (6x5)",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59584,137_S_0800,28774,PET,Co-registered Dynamic <- ADNI Static Brain (6x5),FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+449,59584,137_S_0800,28774,PET,Co-registered Dynamic <- ADNI Static Brain (6x5),NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+690,56314,130_S_1200,71066,PET,"Coreg, Avg, Standardized Image and Voxel Size <- pet4adni",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+690,56315,130_S_1200,71067,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- pet4adni",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+690,56316,130_S_1200,1601894,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- pet4adni",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8651,011_S_1282,44538,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG 4i/16s",FAQ Total Score,4,7.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8651,011_S_1282,44538,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG 4i/16s",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8652,011_S_1282,44539,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG 4i/16s",FAQ Total Score,4,7.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8652,011_S_1282,44539,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG 4i/16s",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8653,011_S_1282,44540,PET,"Co-registered, Averaged <- 30 min 3D FDG 4i/16s",FAQ Total Score,4,7.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8653,011_S_1282,44540,PET,"Co-registered, Averaged <- 30 min 3D FDG 4i/16s",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8654,011_S_1282,44541,PET,Co-registered Dynamic <- 30 min 3D FDG 4i/16s,FAQ Total Score,4,7.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8654,011_S_1282,44541,PET,Co-registered Dynamic <- 30 min 3D FDG 4i/16s,NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8655,011_S_1282,1594696,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG 4i/16s",FAQ Total Score,4,7.0,retained_as_conflicting_anchor_candidate; not overwritten
+741,8655,011_S_1282,1594696,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG 4i/16s",NPI-Q Total Score,3,2.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8884,011_S_4222,259646,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI2 FDG (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8885,011_S_4222,259647,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI2 FDG (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8886,011_S_4222,259648,PET,"Co-registered, Averaged <- ADNI2 FDG (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8887,011_S_4222,259652,PET,Co-registered Dynamic <- ADNI2 FDG (AC),FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8888,011_S_4222,1594601,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- ADNI2 FDG (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8889,011_S_4222,1594594,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- ADNI2 AV45 (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8890,011_S_4222,260802,PET,"AV45 Coreg, Avg, Standardized Image and Voxel Size <- ADNI2 AV45 (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8891,011_S_4222,260803,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI2 AV45 (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8892,011_S_4222,260804,PET,"AV45 Co-registered, Averaged <- ADNI2 AV45 (AC)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+849,8893,011_S_4222,260805,PET,AV45 Co-registered Dynamic <- ADNI2 AV45 (AC),FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+860,43963,099_S_0958,30085,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB",FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+860,43963,099_S_0958,30085,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB",NPI-Q Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+860,43964,099_S_0958,30086,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB",FAQ Total Score,4,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+860,43964,099_S_0958,30086,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB",NPI-Q Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7036,009_S_1354,47365,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG 6i/16s",FAQ Total Score,24,22.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7036,009_S_1354,47365,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG 6i/16s",NPI-Q Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7037,009_S_1354,47366,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG 6i/16s",FAQ Total Score,24,22.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7037,009_S_1354,47366,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG 6i/16s",NPI-Q Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7038,009_S_1354,47367,PET,"Co-registered, Averaged <- 30 min 3D FDG 6i/16s",FAQ Total Score,24,22.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7038,009_S_1354,47367,PET,"Co-registered, Averaged <- 30 min 3D FDG 6i/16s",NPI-Q Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7039,009_S_1354,47368,PET,Co-registered Dynamic <- 30 min 3D FDG 6i/16s,FAQ Total Score,24,22.0,retained_as_conflicting_anchor_candidate; not overwritten
+894,7039,009_S_1354,47368,PET,Co-registered Dynamic <- 30 min 3D FDG 6i/16s,NPI-Q Total Score,5,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1071,3929,005_S_1224,40888,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG - Iter(Brain Mode",FAQ Total Score,7,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1071,3930,005_S_1224,40889,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG - Iter(Brain Mode",FAQ Total Score,7,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1071,3931,005_S_1224,40890,PET,"Co-registered, Averaged <- 30 min 3D FDG - Iter(Brain Mode",FAQ Total Score,7,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1071,3932,005_S_1224,40891,PET,Co-registered Dynamic <- 30 min 3D FDG - Iter(Brain Mode,FAQ Total Score,7,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1071,3933,005_S_1224,1593885,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG - Iter(Brain Mode",FAQ Total Score,7,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1162,44324,099_S_4205,266572,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1162,44325,099_S_4205,266573,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36456,062_S_0690,27859,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",FAQ Total Score,21,15.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36456,062_S_0690,27859,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",NPI-Q Total Score,5,6.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36457,062_S_0690,27860,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",FAQ Total Score,21,15.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36457,062_S_0690,27860,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",NPI-Q Total Score,5,6.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36458,062_S_0690,1598797,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",FAQ Total Score,21,15.0,retained_as_conflicting_anchor_candidate; not overwritten
+1380,36458,062_S_0690,1598797,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",NPI-Q Total Score,5,6.0,retained_as_conflicting_anchor_candidate; not overwritten
+1381,19079,024_S_1063,30498,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30 min 3D FDG Seg- Iter(Brain M",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1381,19080,024_S_1063,30499,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30 min 3D FDG Seg- Iter(Brain M",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1381,19081,024_S_1063,30500,PET,"Co-registered, Averaged <- 30 min 3D FDG Seg- Iter(Brain M",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1381,19082,024_S_1063,30501,PET,Co-registered Dynamic <- 30 min 3D FDG Seg- Iter(Brain M,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1381,19083,024_S_1063,1596379,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- 30 min 3D FDG Seg- Iter(Brain M",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1539,43702,099_S_0470,27948,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB",FAQ Total Score,21,15.0,retained_as_conflicting_anchor_candidate; not overwritten
+1539,43702,099_S_0470,27948,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB",NPI-Q Total Score,5,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1539,43703,099_S_0470,27949,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB",FAQ Total Score,21,15.0,retained_as_conflicting_anchor_candidate; not overwritten
+1539,43703,099_S_0470,27949,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB",NPI-Q Total Score,5,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1550,49975,127_S_0259,28287,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI STATIC BRAIN (6X5)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1550,49976,127_S_0259,28288,PET,"Co-registered, Averaged <- ADNI STATIC BRAIN (6X5)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1550,49977,127_S_0259,28289,PET,Co-registered Dynamic <- ADNI STATIC BRAIN (6X5),FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1550,49978,127_S_0259,28298,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI STATIC BRAIN (6X5)",FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36657,062_S_1299,44581,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",FAQ Total Score,7,13.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36657,062_S_1299,44581,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET BRAIN",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36658,062_S_1299,44582,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",FAQ Total Score,7,13.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36658,062_S_1299,44582,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET BRAIN",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36659,062_S_1299,1598778,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",FAQ Total Score,7,13.0,retained_as_conflicting_anchor_candidate; not overwritten
+1567,36659,062_S_1299,1598778,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- PET BRAIN",NPI-Q Total Score,3,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35229,053_S_4813,332330,PET,"AV45 Coreg, Avg, Standardized Image and Voxel Size <- ADNI Brain PET: Raw AV45",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35230,053_S_4813,332331,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw AV45",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35231,053_S_4813,332332,PET,"AV45 Co-registered, Averaged <- ADNI Brain PET: Raw AV45",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35232,053_S_4813,332337,PET,AV45 Co-registered Dynamic <- ADNI Brain PET: Raw AV45,FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35233,053_S_4813,1598639,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- ADNI Brain PET: Raw AV45",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35234,053_S_4813,1598651,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res <- ADNI Brain PET: Raw FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35235,053_S_4813,332328,PET,"Coreg, Avg, Standardized Image and Voxel Size <- ADNI Brain PET: Raw FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35236,053_S_4813,332329,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- ADNI Brain PET: Raw FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35237,053_S_4813,332338,PET,"Co-registered, Averaged <- ADNI Brain PET: Raw FDG",FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1670,35238,053_S_4813,332339,PET,Co-registered Dynamic <- ADNI Brain PET: Raw FDG,FAQ Total Score,5,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3626,005_S_0602,32798,MRI,MPR-R; GradWarp; B1 Correction; Mask <- MP-RAGE-REPEAT,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3626,005_S_0602,32798,MRI,MPR-R; GradWarp; B1 Correction; Mask <- MP-RAGE-REPEAT,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3627,005_S_0602,32800,MRI,MPR-R; GradWarp; B1 Correction; N3 <- MP-RAGE-REPEAT,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3627,005_S_0602,32800,MRI,MPR-R; GradWarp; B1 Correction; N3 <- MP-RAGE-REPEAT,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3628,005_S_0602,32811,MRI,MPR-R; GradWarp; B1 Correction <- MP-RAGE-REPEAT,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3628,005_S_0602,32811,MRI,MPR-R; GradWarp; B1 Correction <- MP-RAGE-REPEAT,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3629,005_S_0602,32813,MRI,MPR-R; GradWarp <- MP-RAGE-REPEAT,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3629,005_S_0602,32813,MRI,MPR-R; GradWarp <- MP-RAGE-REPEAT,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3630,005_S_0602,32760,MRI,MPR; GradWarp; B1 Correction; Mask <- MP-RAGE,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3630,005_S_0602,32760,MRI,MPR; GradWarp; B1 Correction; Mask <- MP-RAGE,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3631,005_S_0602,32762,MRI,MPR; GradWarp; B1 Correction; N3; Scaled <- MP-RAGE,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3631,005_S_0602,32762,MRI,MPR; GradWarp; B1 Correction; N3; Scaled <- MP-RAGE,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3632,005_S_0602,32763,MRI,MPR; GradWarp; B1 Correction; N3 <- MP-RAGE,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3632,005_S_0602,32763,MRI,MPR; GradWarp; B1 Correction; N3 <- MP-RAGE,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3633,005_S_0602,32765,MRI,MPR; GradWarp; B1 Correction <- MP-RAGE,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3633,005_S_0602,32765,MRI,MPR; GradWarp; B1 Correction <- MP-RAGE,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3634,005_S_0602,32770,MRI,MPR; GradWarp <- MP-RAGE,FAQ Total Score,1,0.0,retained_as_conflicting_anchor_candidate; not overwritten
+1738,3634,005_S_0602,32770,MRI,MPR; GradWarp <- MP-RAGE,NPI-Q Total Score,0,4.0,retained_as_conflicting_anchor_candidate; not overwritten
+1744,44296,099_S_4157,257978,PET,"Coreg, Avg, Standardized Image and Voxel Size <- PET WB FDG",FAQ Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1744,44297,099_S_4157,257979,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB FDG",FAQ Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1744,44298,099_S_4157,257980,PET,"AV45 Coreg, Avg, Standardized Image and Voxel Size <- PET WB AV45",FAQ Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1744,44299,099_S_4157,257981,PET,"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- PET WB AV45",FAQ Total Score,3,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23446,031_S_0830,138786,MRI,MPR; GradWarp; B1 Correction; Mask <- MPRAGE,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23447,031_S_0830,138787,MRI,MPR; GradWarp; B1 Correction; N3 <- MPRAGE,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23448,031_S_0830,138788,MRI,MPR; GradWarp; B1 Correction <- MPRAGE,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23449,031_S_0830,138789,MRI,MPR; GradWarp <- MPRAGE,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23450,031_S_0830,138790,MRI,MPR-R; GradWarp; B1 Correction; Mask <- MPRAGE Repeat,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23451,031_S_0830,138791,MRI,MPR-R; GradWarp; B1 Correction; N3 <- MPRAGE Repeat,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23452,031_S_0830,138792,MRI,MPR-R; GradWarp; B1 Correction; N3; Scaled <- MPRAGE Repeat,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23453,031_S_0830,138793,MRI,MPR-R; GradWarp; B1 Correction <- MPRAGE Repeat,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1813,23454,031_S_0830,138794,MRI,MPR-R; GradWarp <- MPRAGE Repeat,NPI-Q Total Score,3,12.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6885,009_S_0862,27129,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30min 3D FDG 6i/16s",FAQ Total Score,1,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6885,009_S_0862,27129,PET,"Coreg, Avg, Standardized Image and Voxel Size <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6886,009_S_0862,27130,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30min 3D FDG 6i/16s",FAQ Total Score,1,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6886,009_S_0862,27130,PET,"Coreg, Avg, Std Img and Vox Siz, Uniform Resolution <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6887,009_S_0862,27131,PET,"Co-registered, Averaged <- 30min 3D FDG 6i/16s",FAQ Total Score,1,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6887,009_S_0862,27131,PET,"Co-registered, Averaged <- 30min 3D FDG 6i/16s",NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6888,009_S_0862,27132,PET,Co-registered Dynamic <- 30min 3D FDG 6i/16s,FAQ Total Score,1,3.0,retained_as_conflicting_anchor_candidate; not overwritten
+1835,6888,009_S_0862,27132,PET,Co-registered Dynamic <- 30min 3D FDG 6i/16s,NPI-Q Total Score,0,1.0,retained_as_conflicting_anchor_candidate; not overwritten

@@ -1,0 +1,84 @@
+{
+  "inspected_at_utc": "2026-11-03T08:09:57.478574+00:00",
+  "sources": [
+    {
+      "path": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/filtered_subjects_with_description.csv",
+      "bytes": 1452705,
+      "mtime_ns": 1743527168098950932,
+      "sha256": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445"
+    },
+    {
+      "path": "/home/data/liutuo/code/liutuo_data/ADNI1234_mri_fdg_av45/ADNI MRI and FDG and AV45 csv.csv",
+      "bytes": 9231952,
+      "mtime_ns": 1743523482719996503,
+      "sha256": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852"
+    },
+    {
+      "path": "/home/data/liutuo/code/processed_files.txt",
+      "bytes": 58723047,
+      "mtime_ns": 1735533177371986670,
+      "sha256": "82bf8d043136c939c70bf4093db98a355a7ce54845855f8b1d723ba26ed1b0f5"
+    }
+  ],
+  "inspection_script_sha256": "0a0a78cf0a50f6601509e9f2bc417daec7dacfd60d26a12d93890d6036025c20",
+  "snapshot_sha256": "ba202440cdaf18d40480d196ae5a7a2ef8f21754302b48ab1fcfbb988cd0d834",
+  "frozen_cohort_comparison": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/cohort.csv",
+    "bytes": 1309715,
+    "mtime_ns": 1792234927167505891,
+    "sha256": "cd37df1ea9ebefda8f0a35698821191e962a163309baa8fb262b24e654cd3838",
+    "subjects": 1857,
+    "remote_only": [],
+    "frozen_only": []
+  },
+  "current_subjects": 1857,
+  "nifti_files": 4820,
+  "files_by_modality": {
+    "mri": 1857,
+    "av45": 1365,
+    "fdg": 1598
+  },
+  "header_error_count": 0,
+  "headers_with_identity_tokens": 0,
+  "export_columns": [
+    "Subject ID",
+    "Phase",
+    "Sex",
+    "Weight",
+    "Research Group",
+    "Age",
+    "MMSE Total Score",
+    "GDSCALE Total Score",
+    "Global CDR",
+    "FAQ Total Score",
+    "NPI-Q Total Score",
+    "Modality",
+    "Description",
+    "Imaging Protocol",
+    "Image ID"
+  ],
+  "export_total_rows": 63812,
+  "export_total_subjects": 1882,
+  "export_current_rows": 63463,
+  "export_current_subjects": 1857,
+  "export_caveat": "Subject search candidates, multiple visits/tracers/processing stages; no direct NIfTI identity",
+  "log_total_lines": 300414,
+  "log_unparsed_lines": 0,
+  "log_records_all": 1048,
+  "log_records_current": 1047,
+  "log_current_subjects": 580,
+  "log_current_distinct_images": 1047,
+  "log_current_distinct_series": 1047,
+  "log_existing_source_path_count": 0,
+  "log_image_id_disagreement_count": 0,
+  "clock_status_counts": {
+    "no_second_precision_clock_match": 410,
+    "no_historical_log_candidate": 785,
+    "unique_second_precision_clock_candidate_NOT_confirmed": 170
+  },
+  "conclusions": [
+    "Current file identities remain unverified.",
+    "Second-precision clock matching is candidate evidence only.",
+    "Native-space/unstripped NIfTI does not establish raw acquisition or ADNI processing level."
+  ]
+}

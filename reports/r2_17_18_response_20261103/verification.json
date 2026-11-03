@@ -1,0 +1,68 @@
+{
+  "time_utc": "2026-11-03T07:42:46.900487+00:00",
+  "status": "passed within documented scope",
+  "clinical_full_subject_pairing": 2963,
+  "single_full_subject_pairing": 2963,
+  "single_configs_checked": 4,
+  "swin_executed_configs_checked": 4,
+  "latency_samples_recomputed": 100,
+  "mean_sd_median_quantiles_match": true,
+  "benchmark_checkpoint_matches_training_receipt": true,
+  "clinical_ssim_recomputed": {
+    "av45": {
+      "n": 1365,
+      "full_ssim": 0.8844075814708249,
+      "clinical_ssim": 0.8604119559129079,
+      "delta_ssim": 0.02399562555791694
+    },
+    "fdg": {
+      "n": 1598,
+      "full_ssim": 0.921128978344317,
+      "clinical_ssim": 0.900310921225142,
+      "delta_ssim": 0.020818057119174952
+    }
+  },
+  "local_links_checked": 2,
+  "new_training_inference_or_benchmark": false,
+  "remaining_gaps": [
+    "historical baseline final-run adaptation and tuning budgets",
+    "validated full-network FLOPs",
+    "same-protocol diffusion/flow runtime comparisons",
+    "historical 138 GPU-hour accounting"
+  ],
+  "source_sha256": {
+    "reports/original_author_reproduction_20261020/config.json": "7f6753b63ba879f37b569d9adee5e7df83c3267d009fc5992ed3ce6c5730036a",
+    "reports/original_author_reproduction_20261020/cohort.json": "91ee8eeec5ea853c4517df868e85fccd2857164a8e4171ba81e45121e5dc9311",
+    "reports/original_author_reproduction_20261020/split_manifest.csv": "007e49835ed44c73dea69a94e390dded33c495c21033089f83d05b429519977c",
+    "reports/original_author_reproduction_20261020/oof_summary/completion.json": "7dff000647b4fbf798a45906bc980af23d9806baab19f33a3cb18d0ba5bed525",
+    "reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+    "reports/original_author_reproduction_20261020/training_summary.csv": "1d8a1d219e7e6da2c549005b5ef6dc86fd5884cbabfae522000adf28267f6ccf",
+    "reports/clinical_regression_unet_task_a_20261027_instance1/config.json": "9257a3ba28d3015dae5c47b6b6187d2bb3ae22eaa5850548f28f676f65632ddc",
+    "reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/completion.json": "95384d94eb185d6655863d4c8a22970da4362f2b852d0545b1db66f25fc4b31a",
+    "reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/per_subject_metrics.csv": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f",
+    "reports/revision_evidence_night_20261102/G6/receipt.json": "7c7fddb029e04183a87c51ebb1956fbf273987a337b3a73f09b3e442659b7997",
+    "reports/revision_evidence_night_20261102/G6/latency_samples.csv": "3078c10a5da1827dc742edf04709291df323ce86ce79b06644803eb0930de243",
+    "reports/revision_evidence_night_20261102/G6/summary.csv": "03069288d3f6844ba9f2e28420def90d2ee6bfe63a8772d2ee49716cbcd1f429",
+    "reports/revision_evidence_night_20261102/code/efficiency.py": "69b0e6e09a5938865547369e480e3c4e44a36f0413569529f2a0d89487351fd1",
+    "reports/direct_single_2fold_20261030/fdg_fold1/config.json": "b1baa53e046075e0883d1c4c2f62201e63dfbdafe19ca87fea9ffa855dc8c12a",
+    "reports/revision_evidence_night_20261102/remote/single_results/fdg_fold1/metrics.csv": "9a604cacf1bd7de6f6bef075565aaf3a91299d2809bbf88e75e373b2b332568b",
+    "reports/direct_single_2fold_20261030/fdg_fold2/config.json": "612597efee6cb2221e91a0c678fd886feb1e56fcff751ba322087d2168e02f9d",
+    "reports/revision_evidence_night_20261102/remote/single_results/fdg_fold2/metrics.csv": "5875f7885808680ed9fbf1edee097a48144d1987356967e1c0705c89a5f8abe6",
+    "reports/direct_single_2fold_20261030/av45_fold1/config.json": "6f3ff31c7a67037afb1d784a30ee05854639f170be9b2bef055d260e2d907846",
+    "reports/revision_evidence_night_20261102/remote/single_results/av45_fold1/metrics.csv": "70486d4c12a012f45df397a30b9da5dbcb2da75080145b8a18bb5d086b19cff9",
+    "reports/direct_single_2fold_20261030/av45_fold2/config.json": "82fd4d333576110202f610eee1f769a4e46b8632fbb7bd8aa97bed03e5b05e89",
+    "reports/revision_evidence_night_20261102/remote/single_results/av45_fold2/metrics.csv": "e63b1aeb4963f78c1a21243d31f7249c84a2ffc491a9f3969d531a5df62aac45",
+    "reports/swinunetr_2fold_20261029/instance3_fdg_fold1_200/config.json": "b436973edfec58a83b876ef8cd4550204eed991fd4d7fcaad75e3d3a61c6977c",
+    "reports/swinunetr_2fold_20261029/instance4_fdg_fold2/config.json": "8ad2d2f417f24a90ce3700ab95cd429813001ecdbd89ffee033d047b8fb95602",
+    "reports/swinunetr_2fold_20261029/instance5_av45_fold1/config.json": "6fb02471974c7c28196232f8dc423b1ec8afd9280aa67bc83dbb1f00e57e4cd3",
+    "reports/swinunetr_2fold_20261029/instance6_av45_fold2/config.json": "70ac4371fc9ff1f9658d12b5bf289946e6e7c6cc7861fef42d8508d3dbdc4d2b",
+    "reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/per_subject_metrics.csv": "6d4a85c0fab28be793bdea45800a0a22e7109053943dd2dec2810c831aa14b5a",
+    "reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/completion.json": "b6352626303475927c41a7b7ae81b6940449d45198f17839b670e9e105853adc"
+  },
+  "text_sha256": {
+    "R2_17_RESPONSE_DRAFT.md": "13789d0e0ebba46352f8f7f9fbbc23cb54ef95d45b8aff033890c9c323d03095",
+    "R2_18_RESPONSE_DRAFT.md": "63ccc49ea3d9f094a87ee49e4308ad595bf2f0f9b455c156f3e3e106abcb0c91",
+    "EVIDENCE_NOTES.md": "b49406596ddedb53a4b47536040b0ddd073d2d4ab63829b431c26da80209d790"
+  },
+  "swin_full_subject_pairing": 2963
+}

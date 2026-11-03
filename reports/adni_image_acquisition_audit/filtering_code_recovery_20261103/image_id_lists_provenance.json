@@ -1,0 +1,23 @@
+{
+  "format": "I-prefixed IDs, ASCII commas, one code block per group",
+  "selection_scope": "Primary list: first source row per participant according to recovered history session 373 input 20; actual NIfTI identity unverified.",
+  "primary_counts": {
+    "MRI": 1160,
+    "PET": 697
+  },
+  "extended_counts": {
+    "MRI": 30801,
+    "PET": 32662,
+    "AV45 historical original-image candidates": 1047
+  },
+  "input_sha256": {
+    "reports/adni_image_acquisition_audit/filtering_code_recovery_20261103/selected_source_rows.csv": "997babf8f10156733946f2917fc580e440464a45d1285b8c5098c279c19c32af",
+    "source_archive/vscode-3003/home/data/liutuo/code/liutuo_data/ADNI MRI and FDG and AV45 csv.csv": "ac8477380ffd44614ee461fc184a5eaeede3b70c9988327e99fa98402b792852",
+    "reports/adni_image_acquisition_audit/av45_historical_image_series_candidates.csv": "5bfcf825fd08059e25c65a650e5964341d396ce089ff986f3c9f8e367e6ee58b"
+  },
+  "output_sha256": {
+    "image_ids_for_adni_metadata.md": "a483e2f857195c9a30ad736a5cc4b5622c26ea7235a042d35da1d7154fbc8e48",
+    "image_ids_all_known_candidates.md": "c12b367a8f2579f1189c44cfc0349a9411e292c5fc56b0ae5f7010048e40a5ff"
+  },
+  "saved_list_counts_uniqueness_format_verified": true
+}

@@ -1,0 +1,11 @@
+﻿original_product_label,image_count,figure_label
+"Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res",192,FDG: uniform 6 mm
+"Coreg, Avg, Standardized Image and Voxel Size",160,FDG: standardized image / voxel size
+"AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res",140,AV45: uniform 6 mm
+"AV45 Coreg, Avg, Standardized Image and Voxel Size",99,AV45: standardized image / voxel size
+Co-registered Dynamic,4,FDG: co-registered dynamic
+"AV45-Early Coreg, Avg, Standardized Image and Voxel Size",3,AV45-Early: standardized image / voxel size
+AV45 Co-registered Dynamic,1,AV45: co-registered dynamic
+"Co-registered, Averaged",1,FDG: co-registered and averaged
+"FBB Coreg, Avg, Standardized Image and Voxel Size",1,FBB label / AV45 protocol: tracer unresolved
+"AV45-Early Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res",1,AV45-Early: uniform 6 mm
