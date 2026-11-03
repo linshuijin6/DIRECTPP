@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-11-03T07:10:18.713374+00:00",
+  "elapsed_seconds": 22.604770682984963,
+  "output_sha256": {
+    "analysis_plan.json": "563490b26dada6b0ef571cd87cd3a1ea731e214b4ec60f799bd94df9d076e5b4",
+    "input_manifest.csv": "db2ed3955ef811029f40625191365a42d16f5bf4b176c4299a43b4a56107aa90",
+    "test_demographics.csv": "eec8385c534f8bdf917f7c66583fce138b00830f1e2fe2447987bac688502afd",
+    "subgroup_counts.csv": "62bff3bdaf0a52cb796ecf9113c20394c57e1643eedcafe69a985e506b3f0cb4",
+    "fold_metrics.csv": "30c7852fc5170f143ca41b2e625270d226d9438c497d0deb058e7b1bbb3bb3fb",
+    "summary_metrics.csv": "6cbd5c1405b15690513fb8a3971213964ef1a5cdebfb301a624217b8e8512ffd",
+    "paired_comparisons.csv": "7907eade88cc6cefedb3a9377c80e589fc63844a7612125eaf6d27dd002ae4b1",
+    "primary_subgroup_metrics.csv": "c682a7441cc3c6e8cf4fd18c968db9048a4326683bc6af32353db05edf0c4e14",
+    "subgroup_performance.png": "063da9c28aaa61783acafcc483899ce1753553aa2b68d7ba38a36e496aa534b5",
+    "subgroup_performance.pdf": "3decda500b045792c63c954005654f5fda006f2a00e8d817d8010ea1f7768acb",
+    "subgroup_performance.svg": "f5fd3fc21e9e733b2b3175daec4d68a6e4381b942dc6e78bf08fbdca8f49397b",
+    "REPORT.md": "e9b48b3e2b6ce399ec65300ceddaf1b1379cb51810b3d0708d034b3441ca3f8b",
+    "validation.json": "bc446b0eaaaf3fff1252f86e52e3b8f779587398de396ee0dffb3a436fdba4c9"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "seed": 20261103,
+  "repeats": 5000,
+  "age_cutoff_years": 75,
+  "age_bands": [
+    "<75",
+    ">=75"
+  ],
+  "sex_values": [
+    "F",
+    "M"
+  ],
+  "tasks": {
+    "ad_cn": "AD vs CN",
+    "mci_cn": "EMCI+LMCI vs CN",
+    "emci_lmci": "EMCI vs LMCI"
+  },
+  "expected_subjects": {
+    "ad_cn": 470,
+    "mci_cn": 741,
+    "emci_lmci": 436
+  },
+  "conditions": [
+    "mri",
+    "mri_real_fdg",
+    "mri_syn_fdg",
+    "mri_real_av45",
+    "mri_syn_av45",
+    "mri_real_both",
+    "mri_syn_both"
+  ],
+  "primary_conditions": [
+    "mri",
+    "mri_syn_both",
+    "mri_real_both"
+  ],
+  "groups": [
+    [
+      "overall",
+      "All"
+    ],
+    [
+      "age",
+      "Age <75"
+    ],
+    [
+      "age",
+      "Age >=75"
+    ],
+    [
+      "sex",
+      "Female"
+    ],
+    [
+      "sex",
+      "Male"
+    ]
+  ],
+  "comparisons": {
+    "A": "mri",
+    "B": "mri_real_both"
+  },
+  "positive_classes": {
+    "ad_cn": "AD",
+    "mci_cn": "EMCI+LMCI",
+    "emci_lmci": "LMCI"
+  },
+  "prediction_threshold": 0.5,
+  "imputation": "none",
+  "pooled_auc": false,
+  "point_estimate": "equal mean of the three within-fold subgroup metrics",
+  "bootstrap": "paired by PTID across conditions, within task/fold/subgroup/label",
+  "rng": "NumPy default_rng PCG64; task/group/fold/label order in script",
+  "interval": "marginal 95% percentile, NumPy linear method; no multiplicity correction",
+  "scope": "conditional on fixed models/splits and observed subgroup class counts",
+  "visit_alignment": "unverified: recovered export lacks EXAMDATE/VISCODE",
+  "started_utc": "2026-11-03T07:09:56.163395+00:00",
+  "input_sha256": {
+    "predictions": "6e41fb777d8e2c4c944956cf8973422624a18be9e24758f00c7a083fd0633236",
+    "splits": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+    "subjects": "1314f5ba2b60a368befb1db59055d1389dec1b80a4d0a04853f83ac247643504",
+    "observed": "4b5be3aab0e53fe084a789ce2763fd58de1339a213159df0307e81f6c0bd1b4c",
+    "metadata": "ab18b0439512c0460aa034b6d57be7df72f692209e6ff60eb0e7c064aced8445",
+    "clinical_receipt": "4caa5dcfc7b742e0974513fa7951d078426f42da11c80bed1650d2104c1b7717",
+    "original_fold_metrics": "bbaf4a499647f0f7470ecc5a75622ccdb8ba7ef63f953af65f77a6f0554616f3",
+    "original_summary": "cadd5408b240c0f022af6ad4377db394565b410871f2223a7aa0b1e3939b3aac",
+    "bootstrap_helper": "465eb2615ba13ae0d49d525c4dd2161bf4d6c86e2b2d7306fd04901f264d2c44",
+    "analysis_script": "f69fe706177df041e3982d7114f84f39c7305953ea0960a39cb8d1dc633dc5ee"
+  }
+}

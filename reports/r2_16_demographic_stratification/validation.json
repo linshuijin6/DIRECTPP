@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "original_prediction_rows": 11529,
+  "unique_test_subjects": 906,
+  "task_subject_rows": 1647,
+  "unmatched_demographics": 0,
+  "missing_age": 0,
+  "missing_sex": 0,
+  "original_predictions_unchanged": true,
+  "all_input_hashes_unchanged": true,
+  "original_63_fold_metrics_reproduced": true,
+  "original_21_mean_sd_reproduced": true,
+  "point_checks_against_sklearn": 315,
+  "bootstrap_resample_checks_against_sklearn": 630,
+  "min_fold_subgroup_class_n": 18,
+  "rows": {
+    "counts": 60,
+    "folds": 315,
+    "summaries": 105,
+    "comparisons": 30
+  },
+  "versions": {
+    "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.7.2"
+  },
+  "elapsed_seconds": 22.604770682984963
+}
