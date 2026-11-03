@@ -88,6 +88,7 @@ events.out.tfevents.*
 *.blg
 *.fdb_latexmk
 *.fls
+*.out
 *.run.xml
 *.synctex.gz
 *.toc
