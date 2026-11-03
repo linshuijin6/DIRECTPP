@@ -1,0 +1,37 @@
+%% ============================================================
+%%  Section 0: General Response & Summary of Revisions
+%% ============================================================
+\reviewersec{General Response \& Summary of Major Revisions}
+
+Dear Editor-in-Chief, Associate Editor, and Reviewers,
+
+We express our sincere gratitude to the Editorial Office and the Reviewers for their meticulous, constructive, and insightful evaluations of our manuscript (\textbf{BMEF-D-26-00169}). The feedback has highlighted crucial areas for methodological rigor, statistical discipline, and clinical precision. 
+
+In strict adherence to the reviewers' comments, we have performed comprehensive additional experiments, conducted extensive ablations, rigorously re-evaluated our statistical framework, and substantially revised the manuscript. 
+
+Below is an executive summary of the major revisions implemented:
+
+\begin{enumerate}[leftmargin=1.5em, itemsep=4pt]
+  \item \textbf{Circularity Elimination \& Prompt Conditioning Verification (R3-1, R2-5, R2-16):}
+  We have fully disclosed the exact prompt template and all clinical features (MMSE, CDR, FAQ, GDS, NPI-Q, age, sex, weight). To definitively eliminate concerns regarding label circularity, we trained and benchmarked two dedicated clinical classification baselines (\emph{Clinical-only MLP} and \emph{MRI + Clinical MLP}), conducted complete prompt-shuffling/mismatch experiments, and performed tracer-only synthesis without clinical conditioning. The results confirm that DIReCT++ synthesizes true anatomy-grounded PET pathology rather than encoding diagnostic metadata.
+
+  \item \textbf{Data Imputation Transparency \& Table S1 Corrections (R3-2):}
+  We thoroughly re-examined Table~S1, reported exact per-variable missingness across all diagnostic cohorts, documented the median-imputation protocol within training folds, and clarified the demographic distributions to ensure total transparency.
+
+  \item \textbf{Prognosis vs. Cross-Sectional Stratification Reframing (R3-3, R2-4, R2-20):}
+  Acknowledging the cross-sectional nature of the primary ADNI dataset and the absence of longitudinal time-to-conversion endpoints, we have conscientiously removed overreaching claims of ``prognostic prediction'' and ``prognostic stratification'' across the Title, Abstract, Introduction, and Discussion, focusing precisely on cross-sectional severity differentiation (EMCI vs.\ LMCI).
+
+  \item \textbf{Subject-Level Equivalence \& Amyloid Status Agreement (R3-4, R2-8, R2-10):}
+  We have abandoned ungrounded assertions of ``high fidelity inferred from $p > 0.05$''. In their place, we provide rigorous subject-level concordance statistics: Lin's Concordance Correlation Coefficient (CCC), Intraclass Correlation Coefficient (ICC), Bland--Altman limits of agreement, and critical amyloid-positivity ($A\beta+$ vs.\ $A\beta-$) classification metrics (Sensitivity, Specificity, Cohen's $\kappa$).
+
+  \item \textbf{Standardized Quantitative Terminology: SUVR vs. SUV (R3-5, R2-9):}
+  We standardized all regional uptake terminology to Standardized Uptake Value Ratio (\textbf{SUVR}), clarified reference region normalization (whole cerebellum for AV45, pons/cerebellar gray for FDG), documented the FDR family definitions ($q$-values), and reported Cohen's $d$ effect sizes for all regional comparisons.
+
+  \item \textbf{Strict Subject-Level Isolation \& 2-Fold OOF / 3-Fold Architecture (R3-6, R2-3, R2-6, R2-19):}
+  We clarified the two-stage protocol: the generative synthesis model is evaluated via 2-fold Out-Of-Fold (OOF) cross-validation, and downstream classification is evaluated on 3-fold cross-validation with absolute subject-level separation (zero visit leakage). Synthetic PET images evaluated by downstream classifiers were generated exclusively by models that never saw those subjects during training.
+
+  \item \textbf{Systematic Multi-Baseline Comparison \& Ablations (R3-7, R3-9, R3-10, R3-12, R2-17):}
+  We added multi-model baselines including tabular MLP, direct regression U-Net, and SwinUNETR baselines under strictly identical splits and preprocessing. All classification metrics are reported with fold-wise mean $\pm$ SD and 95\% confidence intervals.
+\end{enumerate}
+
+All modifications are highlighted in \textcolor{red}{red text} in the revised manuscript. Below, we provide our detailed point-by-point responses to each comment raised by the Editor, Reviewer~2, and Reviewer~3.
