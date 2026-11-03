@@ -1,0 +1,1260 @@
+{
+  "status": "ALL_36_COMPLETE_AND_OUTPUTS_VERIFIED",
+  "checked_utc": "2026-11-03T05:38:28.379344+00:00",
+  "no_training_or_inference": true,
+  "local_splits_sha256": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+  "instances": [
+    {
+      "instance": 3,
+      "checked_utc": "2026-11-03T05:38:28.231532+00:00",
+      "queue_state": {
+        "status": "QUEUE_COMPLETE",
+        "instance": 3,
+        "monitor_pid": 135054,
+        "host": "autodl-container-9b594ca734-b8eefc9f",
+        "checked_utc": "2026-11-02T13:37:35.662821+00:00",
+        "prior_pid": 131635,
+        "jobs_total": 10
+      },
+      "splits_sha256": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+      "records": [
+        {
+          "task": "mci_cn",
+          "condition": "real_fdg",
+          "fold": 1,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/mci_cn/real_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "8f33c06f8d7da8e5edc6e05ddbb79217ba3e1ceeaad9aa6e76ad80113a924dca",
+            "test_metrics.json": "dfba34e219a978a1ce2b8d9d0bf711ac0708c13e467a1aa5f4b7ee5c210cddd4",
+            "test_predictions.csv": "c3d40af9a41454ed83bdd36e5ca89d0e916925d426b5a88f8c04df112b98917b",
+            "history.csv": "bea07a1c154629dce75cdf4f8948397c7df929e1640653f78007fbb5c4b14593"
+          },
+          "test_metrics": {
+            "ACC": 0.6032388663967612,
+            "AUC": 0.647396889790399,
+            "SEN": 0.6551724137931034,
+            "SPE": 0.5294117647058824,
+            "balanced_ACC": 0.592292089249493
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_136595/mci_cn/real_fdg/fold1"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "syn_fdg",
+          "fold": 2,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/mci_cn/syn_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "18662936eddee9a1b2298a4f772429bc5247bea280e8177e87ae6f11439c3675",
+            "test_metrics.json": "caf30239980b6351e151358391a150b8d91b04ef4be1a86e5269cf0ddc81c1e6",
+            "test_predictions.csv": "604dfa9de0b61ff655031143648dea7a7513da66604f3fc9dcc68d43ad8ae9a9",
+            "history.csv": "fcfabbef0467194cd604dd58dd39ab639f8240acfa1e323d98ecbc10208b43b6"
+          },
+          "test_metrics": {
+            "ACC": 0.5951417004048583,
+            "AUC": 0.6431372549019607,
+            "SEN": 0.5448275862068965,
+            "SPE": 0.6666666666666666,
+            "balanced_ACC": 0.6057471264367815
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_138763/mci_cn/syn_fdg/fold2"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "real_av45",
+          "fold": 3,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/mci_cn/real_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "62e036d5acce503067c9b7af1975456fdc4029c7579651b1f62ebf40eb29bf1c",
+            "test_metrics.json": "58c74d26616963c2078887813791502a9549530ea68cd4228c07673a222ff249",
+            "test_predictions.csv": "956022e52d5543da1479937ce51905e50db4066e532bb5e9ad122abaf8dd3684",
+            "history.csv": "5a02ca811334e7645ac508344fede24d7d35a5530797c24c9eadb08a76094b3d"
+          },
+          "test_metrics": {
+            "ACC": 0.5910931174089069,
+            "AUC": 0.6191509561915094,
+            "SEN": 0.6643835616438356,
+            "SPE": 0.48514851485148514,
+            "balanced_ACC": 0.5747660382476604
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_140922/mci_cn/real_av45/fold3"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_fdg",
+          "fold": 1,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/ad_cn/real_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "6ff6012d616bd81725caef651004227aa8ad1ddf02e2e4e94f3baa8d45f2d9dd",
+            "test_metrics.json": "47f972fbbef545568fc979ab43d08f35bf48b9c1bf7a9df05b8c948716065d14",
+            "test_predictions.csv": "f2b68d09c5b0e05ec11ddee20c582003d55c11467ba654e5c5ee46d4fb729a77",
+            "history.csv": "904dae2a27ae2d45f4c8227c65410fa7a8823be20be387dc0944c2477764d3e8"
+          },
+          "test_metrics": {
+            "ACC": 0.8662420382165605,
+            "AUC": 0.9534759358288769,
+            "SEN": 0.7818181818181819,
+            "SPE": 0.9117647058823529,
+            "balanced_ACC": 0.8467914438502674
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_143081/ad_cn/real_fdg/fold1"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_fdg",
+          "fold": 2,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/ad_cn/syn_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "1d0379fdbf10f6bf1f105f9487cb869cdfdf95c6219cabb6adf406ec22897c51",
+            "test_metrics.json": "e35ab39eb6502338fb4026d9672cd887e7d34319377a4d266a0fa136b1301e2f",
+            "test_predictions.csv": "7e20acc2d507575068734f92a909254107bc99cd88394f267bf1664e35ad1f06",
+            "history.csv": "d075c99cd2718d78787722ed72282e6e067a56eacba928602af6cbb76f475b90"
+          },
+          "test_metrics": {
+            "ACC": 0.8789808917197452,
+            "AUC": 0.9623885918003565,
+            "SEN": 0.9272727272727272,
+            "SPE": 0.8529411764705882,
+            "balanced_ACC": 0.8901069518716578
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_144549/ad_cn/syn_fdg/fold2"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_av45",
+          "fold": 3,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 156,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/ad_cn/real_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "abbf4d8bd49c28245295ce9ff1049e2cf77a488617969d89745aa4e1b6715cc5",
+            "test_metrics.json": "c1f1d424e2965579e88d4276770723b92cfbe7de5e067da68ed2967d89ac2715",
+            "test_predictions.csv": "a15b7f8033ad88f3775e4bf0b9732a4c81862e6e9dbc245404fb7eec6ca78910",
+            "history.csv": "5be6cdb9c37dc46389afca0b0953266b758deb85b6ec580db21db9d7499a5af1"
+          },
+          "test_metrics": {
+            "ACC": 0.8269230769230769,
+            "AUC": 0.8862286228622862,
+            "SEN": 0.6909090909090909,
+            "SPE": 0.900990099009901,
+            "balanced_ACC": 0.7959495949594959
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_146174/ad_cn/real_av45/fold3"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_fdg",
+          "fold": 1,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 146,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/emci_lmci/real_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "0a083d3549fff582d62bd3f87d196fe1f12742fdd54eab521a41edafa7de6910",
+            "test_metrics.json": "948278462aa876e968741d09814d71897bc395878006ec8e7bbb4494a5e2e276",
+            "test_predictions.csv": "3b4aaa426133fdf02c625438da72d89cc50db8a5bcb76ddd56d6658297bd1135",
+            "history.csv": "7c612657cfa89043bc817c3c57ff050ec87c6ac90bf5df28960e81bfe7d2511f"
+          },
+          "test_metrics": {
+            "ACC": 0.6506849315068494,
+            "AUC": 0.6374999999999998,
+            "SEN": 0.46,
+            "SPE": 0.75,
+            "balanced_ACC": 0.605
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_147646/emci_lmci/real_fdg/fold1"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_fdg",
+          "fold": 3,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/emci_lmci/real_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "576aee834ba6f6aedbafe15fac28c083a55a93cdf3ff5b84dbdb5b7eb9489813",
+            "test_metrics.json": "8fb9140f023c47f78d77c207b96b2ca47ba6164c47e404894f0d46a1644f6567",
+            "test_predictions.csv": "eca1a4b0caed46633bfff2747344db41ed8ec51a16e94055023c0763377670ab",
+            "history.csv": "699b9280caf0b8e9edd4e42ba2594dbbe28e5db1e871e0133f45cf40a4db05a6"
+          },
+          "test_metrics": {
+            "ACC": 0.6137931034482759,
+            "AUC": 0.5671578947368421,
+            "SEN": 0.2,
+            "SPE": 0.8315789473684211,
+            "balanced_ACC": 0.5157894736842106
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_149036/emci_lmci/real_fdg/fold3"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_av45",
+          "fold": 1,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 146,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/emci_lmci/real_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "b2e3a631470076181b182ce7efac01a3609cf88d1c4863310d4454b0087e0ecf",
+            "test_metrics.json": "19a63c53c3abeeb2b4a38921a9ff0ee30930691f0268d3b614d6285f9c05d18c",
+            "test_predictions.csv": "d4267266cde0d9c7a9b02b858dd3b882572e801324bd94203f35f4924002cd96",
+            "history.csv": "8ba591b3a60349618ecbd8f948e275935870f6d51233db33b0f492b0d8102cce"
+          },
+          "test_metrics": {
+            "ACC": 0.6986301369863014,
+            "AUC": 0.6191666666666666,
+            "SEN": 0.44,
+            "SPE": 0.8333333333333334,
+            "balanced_ACC": 0.6366666666666667
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_150419/emci_lmci/real_av45/fold1"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_av45",
+          "fold": 2,
+          "instance": 3,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance3/emci_lmci/syn_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "7877754eca9bf5ed1290343b317d7a225a99f392a8cae0338f580b2d1c6ddc07",
+            "test_metrics.json": "4f3a1185b7df51fdcf65326fb331db24c16c4718433e90864a01c2a0c8d8f2dc",
+            "test_predictions.csv": "1375b18210fc1a8d81f00d0fa089d5bdab531bb8b2254f72c61324a7898e91dd",
+            "history.csv": "65e5bd924083890a311b9d3608ba91b48da0abb4d058b9d61ef052beeacebf73"
+          },
+          "test_metrics": {
+            "ACC": 0.696551724137931,
+            "AUC": 0.6171343537414966,
+            "SEN": 0.20408163265306123,
+            "SPE": 0.9479166666666666,
+            "balanced_ACC": 0.575999149659864
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_152984/emci_lmci/syn_av45/fold2"
+          ]
+        }
+      ]
+    },
+    {
+      "instance": 4,
+      "checked_utc": "2026-11-03T05:38:26.591759+00:00",
+      "queue_state": {
+        "status": "QUEUE_COMPLETE",
+        "instance": 4,
+        "monitor_pid": 138337,
+        "host": "autodl-container-58a0ln8rhl-a7b5e942",
+        "checked_utc": "2026-11-02T12:43:45.866515+00:00",
+        "prior_pid": 134949,
+        "jobs_total": 8
+      },
+      "splits_sha256": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+      "records": [
+        {
+          "task": "mci_cn",
+          "condition": "real_fdg",
+          "fold": 3,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/mci_cn/real_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "4ddf2ea22837e8356f97231bbbb93cf60b11193aaa82595cfaed86b6a800818f",
+            "test_metrics.json": "03ac52a900a2cc11d8b7fcb6031287e00366b50fed2867709dac561f66bdb19e",
+            "test_predictions.csv": "4c401039cc63d7d82ea9dcf47335f60523b1201c1b597d6e55269941c52b769d",
+            "history.csv": "4dda8b7115a60a91e4b75d4e3c4732d56f97db7f4e19549a853994e7e2ac6405"
+          },
+          "test_metrics": {
+            "ACC": 0.6234817813765182,
+            "AUC": 0.5726298657262987,
+            "SEN": 0.8287671232876712,
+            "SPE": 0.32673267326732675,
+            "balanced_ACC": 0.577749898277499
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_140259/mci_cn/real_fdg/fold3"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "real_av45",
+          "fold": 1,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/mci_cn/real_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "51598ade01893a040a8441e3f53499c0e74f078af7b952e7fe36a8f2f3ac78d4",
+            "test_metrics.json": "1d0eaf0ced7548c4c10c1d20dce758ba93ee4839c539581c83f93398433588f1",
+            "test_predictions.csv": "7de410c5292d8ca5181552d730c923065311e643bdf065330144d218430172fa",
+            "history.csv": "a30d2ce63523a8eb4c2e37dff8d5ebe3ff9df81e98ca9ca3c6cbc84d36b1f650"
+          },
+          "test_metrics": {
+            "ACC": 0.6153846153846154,
+            "AUC": 0.6576064908722109,
+            "SEN": 0.7448275862068966,
+            "SPE": 0.43137254901960786,
+            "balanced_ACC": 0.5881000676132522
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_142516/mci_cn/real_av45/fold1"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "syn_av45",
+          "fold": 2,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/mci_cn/syn_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "47b49c6b824b59fd802f8672019090afd433b6ce326fc6fa9f54f7878002dcc5",
+            "test_metrics.json": "9b005bf1e9b16c57b40242a162c9fbda8357fb82b3d3eabf7b839165176175dd",
+            "test_predictions.csv": "e60609ed6b444770fb9de2f5ec90c26f3056345ba2e8ae6b6072b6745d6b4673",
+            "history.csv": "a3c37675b2c04e01c2e033f43718bf98b3d0b5a83a985575ab54bfe71bafd0d8"
+          },
+          "test_metrics": {
+            "ACC": 0.6558704453441295,
+            "AUC": 0.7104800540906018,
+            "SEN": 0.6413793103448275,
+            "SPE": 0.6764705882352942,
+            "balanced_ACC": 0.6589249492900608
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_144769/mci_cn/syn_av45/fold2"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_fdg",
+          "fold": 3,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 156,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/ad_cn/real_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "81ec7a690d9aeb1e259c2dfa12e7c1e345b083c995d47f0c2465cc26a1457219",
+            "test_metrics.json": "265cc16f92ce1d53aead233005069557758399fd2e9beec56efaac4ab79bf4b5",
+            "test_predictions.csv": "90118dce90a9ce921c71a9239d8ed2c430ae9fc021b1f29c5f3331bf7885ffe1",
+            "history.csv": "18f9786c11ab5a23cf9fb02a9179e0afa2ef7e39b8096c102146f12bbdabaf41"
+          },
+          "test_metrics": {
+            "ACC": 0.9102564102564102,
+            "AUC": 0.9364536453645365,
+            "SEN": 0.8909090909090909,
+            "SPE": 0.9207920792079208,
+            "balanced_ACC": 0.9058505850585059
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_147019/ad_cn/real_fdg/fold3"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_av45",
+          "fold": 2,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/ad_cn/real_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "07903c359a56ae10512a54e93ccc4d20754afbff69f5ae729e9f59075963b54a",
+            "test_metrics.json": "5ce24931b78eca43411eedcd29b8d002419dbf550ebe4e7cb944ccd5953f1725",
+            "test_predictions.csv": "e9e89e8f2c14443110a3d51ea4078428c63f55bedc785fa5492abc127d92d48a",
+            "history.csv": "1578714fe1b22f6e438607bffcd5288fae7bef8c23b6f44496c470d03a6219d1"
+          },
+          "test_metrics": {
+            "ACC": 0.8343949044585988,
+            "AUC": 0.8960784313725491,
+            "SEN": 0.6727272727272727,
+            "SPE": 0.9215686274509803,
+            "balanced_ACC": 0.7971479500891265
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_148657/ad_cn/real_av45/fold2"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_av45",
+          "fold": 3,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 156,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/ad_cn/syn_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "b7c2a19fbc8876e517642b28e149f4f6f11223e5d992207eeb4e44c5646c26fa",
+            "test_metrics.json": "980500109f79778e42c20efeb7617f9f8e55822214abe1431de0a11a67d4c3e9",
+            "test_predictions.csv": "d5df9b1351a5d0907d09badf70977e308723b624e4c76ffbbf35387a8b44072b",
+            "history.csv": "fec1b2d6a87fbc87c27446b11acc22fb8287863abf007524179302736141ef21"
+          },
+          "test_metrics": {
+            "ACC": 0.8782051282051282,
+            "AUC": 0.9378937893789379,
+            "SEN": 0.8909090909090909,
+            "SPE": 0.8712871287128713,
+            "balanced_ACC": 0.8810981098109811
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_150188/ad_cn/syn_av45/fold3"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_fdg",
+          "fold": 2,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/emci_lmci/syn_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "9f688aa9c4f97f06f1e3290cc3ff8fa15ce03cd9ec614a087f1eecc7b0fa7e8e",
+            "test_metrics.json": "b4fe611b737a5c1fe62b89a7251582738a3651de2b7243e36c1feb408b4ebace",
+            "test_predictions.csv": "673f6e9ae530c894bfd079a13c49bab2fcd4fcdc40fe35eb1beb4ccc87233137",
+            "history.csv": "d59590bda3c8e612f2cdf35623a1672a16d1bad983887b9703cd1dc6cd392868"
+          },
+          "test_metrics": {
+            "ACC": 0.6689655172413793,
+            "AUC": 0.577593537414966,
+            "SEN": 0.20408163265306123,
+            "SPE": 0.90625,
+            "balanced_ACC": 0.5551658163265306
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_151716/emci_lmci/syn_fdg/fold2"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_av45",
+          "fold": 3,
+          "instance": 4,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance4/emci_lmci/real_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "7be6539e124b8918634caf24ecb99bade4d7a28a620acbf5d3498bc904f910d4",
+            "test_metrics.json": "80f06aa4768a1abb2b54b9180390719eb7f435d4024e14fd7b394b77e1b672eb",
+            "test_predictions.csv": "d6e116d61780f77ad62b5bbce5c9693038a8910f40380949bca9c9093ae284bb",
+            "history.csv": "b8affb6b2b52fd5373551691c39dac77952d0a93da9372e5ae7517fc4032f128"
+          },
+          "test_metrics": {
+            "ACC": 0.6068965517241379,
+            "AUC": 0.5452631578947369,
+            "SEN": 0.4,
+            "SPE": 0.7157894736842105,
+            "balanced_ACC": 0.5578947368421052
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_153152/emci_lmci/real_av45/fold3"
+          ]
+        }
+      ]
+    },
+    {
+      "instance": 5,
+      "checked_utc": "2026-11-03T05:38:26.280294+00:00",
+      "queue_state": {
+        "status": "QUEUE_COMPLETE",
+        "instance": 5,
+        "monitor_pid": 49971,
+        "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+        "checked_utc": "2026-11-02T14:14:07.349475+00:00",
+        "prior_pid": 48497,
+        "jobs_total": 9
+      },
+      "splits_sha256": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+      "records": [
+        {
+          "task": "mci_cn",
+          "condition": "real_fdg",
+          "fold": 2,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/mci_cn/real_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "acca2112bc2ba467cf50580b137400d7de34acb1892b5077dab4b36c885f61f1",
+            "test_metrics.json": "edeb3cfe2283fd4a6e0a63e4c5108029952c91d2c670af05c61cc8a6029edd43",
+            "test_predictions.csv": "85df13ebd37051628079f72f3f702afb8b5d7744b126310e314bc9ada4b8a81f",
+            "history.csv": "d5006b010b34b8327f43dcbde1fa678b18be671e8fb9e758e012aacffe1ea21d"
+          },
+          "test_metrics": {
+            "ACC": 0.5465587044534413,
+            "AUC": 0.6050709939148073,
+            "SEN": 0.6206896551724138,
+            "SPE": 0.4411764705882353,
+            "balanced_ACC": 0.5309330628803246
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_50299/mci_cn/real_fdg/fold2"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "syn_fdg",
+          "fold": 3,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/mci_cn/syn_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "3e31ad173951cb16e229a8d238e5128a24555ab7a8841c9f92c3d929d80e1e74",
+            "test_metrics.json": "de873d8be595fef5bd086aa144ba23cbc2819125363a1224fa4b2e5cdc17bb19",
+            "test_predictions.csv": "e01d69770534a3badc280dc41df64ab747c9a6ef2e73b6762a3c770473305833",
+            "history.csv": "3c84c8be595c55c90ab990fd4e1f19abdf9605eee98f052bb15c613e071e8450"
+          },
+          "test_metrics": {
+            "ACC": 0.582995951417004,
+            "AUC": 0.6084361860843619,
+            "SEN": 0.684931506849315,
+            "SPE": 0.43564356435643564,
+            "balanced_ACC": 0.5602875356028754
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_50580/mci_cn/syn_fdg/fold3"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "syn_av45",
+          "fold": 1,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/mci_cn/syn_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "cda5b7110dfaf092506392b8efacf83cb40d85595f55c76f630b1471e9878cf2",
+            "test_metrics.json": "9d7c4d1906c0ad20c2ea2d2580bcc15b7cc13f669e27c93d43754dcdc4d2ddbd",
+            "test_predictions.csv": "f8f6d59a499208256e3c25872acc4b01806ab8d3977e787865b15916e1271d47",
+            "history.csv": "a90991203a4ea9571639ed86279cd0892bae339dff256613defbc7dcd1475f5d"
+          },
+          "test_metrics": {
+            "ACC": 0.6396761133603239,
+            "AUC": 0.6757268424611222,
+            "SEN": 0.6758620689655173,
+            "SPE": 0.5882352941176471,
+            "balanced_ACC": 0.6320486815415822
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_50857/mci_cn/syn_av45/fold1"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_fdg",
+          "fold": 2,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/ad_cn/real_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "d1aa38f1743fde95206dbeca6a370b69951d474403bd2ed36d62767b8643c65f",
+            "test_metrics.json": "8a07996a2e41d26e344e28d5e18e387189873e1a9c919802d4974f556a0189c7",
+            "test_predictions.csv": "dc894df9369259b5fba279235bbfb6c852d6202fe2478e732201d12fc7b88a19",
+            "history.csv": "ac1976189a971330a06d081b7281cb575ed92a79d91e485848724fdd8bb12323"
+          },
+          "test_metrics": {
+            "ACC": 0.8853503184713376,
+            "AUC": 0.9490196078431371,
+            "SEN": 0.8727272727272727,
+            "SPE": 0.8921568627450981,
+            "balanced_ACC": 0.8824420677361854
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_51134/ad_cn/real_fdg/fold2"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_fdg",
+          "fold": 3,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 156,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/ad_cn/syn_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "a4463bbb329ea8396fd154e89362e71d0feacd13a7298867458ee3ef97aa4116",
+            "test_metrics.json": "7debae38618fb3fa26a9332c11f3e8669509810c72ca3e346384793697debc82",
+            "test_predictions.csv": "7166b7d48938fc207e9148ca0044c51ececcd045de3d45ece2bd1976def89f31",
+            "history.csv": "f6bb4fdac1935b435ecbcf5b17430b09fc3b24c4819a9ddf95b9c1cf9b6c2edd"
+          },
+          "test_metrics": {
+            "ACC": 0.8974358974358975,
+            "AUC": 0.9238523852385239,
+            "SEN": 0.7818181818181819,
+            "SPE": 0.9603960396039604,
+            "balanced_ACC": 0.871107110711071
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_51525/ad_cn/syn_fdg/fold3"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_av45",
+          "fold": 1,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/ad_cn/syn_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "9f0e41a7a5308c99a3d41382dd9643b6e7db0ee6fff7a76b8394672104a0b1f0",
+            "test_metrics.json": "4a888fbfa24609c48bf8b1f6b3da3d6afe010002e74cf4d12e475932227f058e",
+            "test_predictions.csv": "aa604a87a85cd573537635064493dc9c87b0ca7b36107119fdd9bc9499d5455c",
+            "history.csv": "9d3ddebf57375f4d12a58cb6c504aea6e502b63049a5099f4a919625b45aeaf4"
+          },
+          "test_metrics": {
+            "ACC": 0.821656050955414,
+            "AUC": 0.8768270944741533,
+            "SEN": 0.6181818181818182,
+            "SPE": 0.9313725490196079,
+            "balanced_ACC": 0.774777183600713
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_51803/ad_cn/syn_av45/fold1"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_fdg",
+          "fold": 2,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/emci_lmci/real_fdg/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "5bd238fe9dab85ab89d43e9d3c3d52b1cf4bcca2ebb0d5c435a3905257a6f785",
+            "test_metrics.json": "16db830768db859a099f205e913cd0b5b958e2ba8daef616745f4b54fa22b505",
+            "test_predictions.csv": "3c4926870036ed4f6b945fd8c809e59879c448de6e8d7a4e7eb1e20065b3e4ac",
+            "history.csv": "645cb30e7548c21605c67adbcf78346a551205d0896e25b1c4b40fc3ecdac30f"
+          },
+          "test_metrics": {
+            "ACC": 0.7103448275862069,
+            "AUC": 0.6834608843537415,
+            "SEN": 0.42857142857142855,
+            "SPE": 0.8541666666666666,
+            "balanced_ACC": 0.6413690476190476
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_52080/emci_lmci/real_fdg/fold2"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_fdg",
+          "fold": 3,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/emci_lmci/syn_fdg/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "ef956aa8788c30e5dcf0b143a283e162645e15dcd601f7652481d72f60de7bee",
+            "test_metrics.json": "3d410d32871b289128a15de14d66eb4b5bc6f0a8afdde59d70b14f0c14370b74",
+            "test_predictions.csv": "865e284ef6b12d5b589059af38f83d6d4f67abdec86a28e982cdc4e41e09c8b9",
+            "history.csv": "62d9562fd95aaa4fe45af58fb4c21e76b71abbcc08f6bfdd1943681235cdfcc1"
+          },
+          "test_metrics": {
+            "ACC": 0.6206896551724138,
+            "AUC": 0.6145263157894737,
+            "SEN": 0.48,
+            "SPE": 0.6947368421052632,
+            "balanced_ACC": 0.5873684210526315
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_53078/emci_lmci/syn_fdg/fold3"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_av45",
+          "fold": 1,
+          "instance": 5,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 146,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance5/emci_lmci/syn_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "73475407cf7fc37c251bda5f6527470760f679928ad94c27d61c051247b96731",
+            "test_metrics.json": "7025ef1cd530f85770ff568e9efbb9899c7a6991b38462af2e30d8a1806ffcb2",
+            "test_predictions.csv": "77b55bde4e93abe54fad2b0ca6d42e433c8cbb9c65fe72bdae88c2ba925ebc8f",
+            "history.csv": "7c1f5ff0f5a71438688e53d0ede1ac64c0c903c8cba143e1c7d7cfce6a3b1981"
+          },
+          "test_metrics": {
+            "ACC": 0.589041095890411,
+            "AUC": 0.5933333333333334,
+            "SEN": 0.38,
+            "SPE": 0.6979166666666666,
+            "balanced_ACC": 0.5389583333333333
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_53612/emci_lmci/syn_av45/fold1"
+          ]
+        }
+      ]
+    },
+    {
+      "instance": 6,
+      "checked_utc": "2026-11-03T05:38:26.118034+00:00",
+      "queue_state": {
+        "status": "QUEUE_COMPLETE",
+        "instance": 6,
+        "monitor_pid": 137129,
+        "host": "autodl-container-5h9rm8rk3z-3396b382",
+        "checked_utc": "2026-11-02T13:32:18.467697+00:00",
+        "prior_pid": 134282,
+        "jobs_total": 9
+      },
+      "splits_sha256": "a32c282d129ccc888a5918aa70b90409096c4cd9b9a36519e02d1d4674442ca4",
+      "records": [
+        {
+          "task": "mci_cn",
+          "condition": "syn_fdg",
+          "fold": 1,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/mci_cn/syn_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "d567ed37e259e623d6bf6ce4378c24f04ea786a6e36b58ecabe84a4eb8448f2e",
+            "test_metrics.json": "2fe0218c460adc7fab0ee91b261031edb0e7c55bdc1891b67181135b357ec34e",
+            "test_predictions.csv": "178c81a02a9c9ad1988522df83854d74d2f5d28506cedfe268af4ee883eeb06a",
+            "history.csv": "ec428364ed5fba5ed16c0fc8f3e74d4d23f9d9dee1c63d301a77b096f5127e3d"
+          },
+          "test_metrics": {
+            "ACC": 0.611336032388664,
+            "AUC": 0.6636916835699798,
+            "SEN": 0.8413793103448276,
+            "SPE": 0.28431372549019607,
+            "balanced_ACC": 0.5628465179175118
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_139319/mci_cn/syn_fdg/fold1"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "real_av45",
+          "fold": 2,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/mci_cn/real_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "b93a3f9472ae19eeca89f295ff611625713e23d134fdb7764d231e5967c625d8",
+            "test_metrics.json": "0f23d116fb6b3d26a4d39f47c0664abdf2e11c3001f72f55a4e8447b219916ca",
+            "test_predictions.csv": "d027a542a1bfde13e08ef3795828f88a79cd7f37f0e47d4094998cc4a66a000a",
+            "history.csv": "e5311e9e6ac4f15f928946a1a37ea5af11dc7139e106f32190b716ab042c4308"
+          },
+          "test_metrics": {
+            "ACC": 0.5870445344129555,
+            "AUC": 0.6232589587559161,
+            "SEN": 0.7862068965517242,
+            "SPE": 0.30392156862745096,
+            "balanced_ACC": 0.5450642325895876
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_141533/mci_cn/real_av45/fold2"
+          ]
+        },
+        {
+          "task": "mci_cn",
+          "condition": "syn_av45",
+          "fold": 3,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 247,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/mci_cn/syn_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "89a1db707d68f0c8f68182c51d810cfbe28efb71026eb13d367d162b90244e66",
+            "test_metrics.json": "a705e2f316eb938f2df435c480a625affd46a41c48acf38f6b43b10763dfc58b",
+            "test_predictions.csv": "a4a8ed1457a9a46b48439c82d214bdff0e7e33da0e46420ab6143a31246304a8",
+            "history.csv": "570a0e25336d882e94e28a0d980239d2f4fdcccdda93577619b6983f59416ff6"
+          },
+          "test_metrics": {
+            "ACC": 0.611336032388664,
+            "AUC": 0.6323748813237489,
+            "SEN": 0.6575342465753424,
+            "SPE": 0.5445544554455446,
+            "balanced_ACC": 0.6010443510104435
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_143736/mci_cn/syn_av45/fold3"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_fdg",
+          "fold": 1,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/ad_cn/syn_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "876099001e00bb4a3f842b6400ff0cdd7271d2dcdb29bc60b71879280dc668e7",
+            "test_metrics.json": "fd36dd2103fd6e32a30ff433936074f39b963c8f716faf6895b638edd20be0e7",
+            "test_predictions.csv": "5bbafce89cba341694774df418927dc3ebf8d7bd1464d213698639687a0a896d",
+            "history.csv": "90f44e3799d5d0466ac6310bc2771832ecc43a765ebf2fc93807bace64fa3ba6"
+          },
+          "test_metrics": {
+            "ACC": 0.8662420382165605,
+            "AUC": 0.9484848484848485,
+            "SEN": 0.7454545454545455,
+            "SPE": 0.9313725490196079,
+            "balanced_ACC": 0.8384135472370766
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_145952/ad_cn/syn_fdg/fold1"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "real_av45",
+          "fold": 1,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/ad_cn/real_av45/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "76120d0e33407b593543f1ea524f31781cb07ec3957295f4e0077137878aa869",
+            "test_metrics.json": "3a3a8d897bdc82e3add08f1bee3d8b3532b2cb89a3e3048d861de785cf658415",
+            "test_predictions.csv": "e7491dce11d488251332381b94bd45b8de32742b7b5bd7a86d2a6bbfc26a17d0",
+            "history.csv": "3ebc1299946d366779a4eb655ca4ab712a2895a9e93d967dde449bdc0e4000fd"
+          },
+          "test_metrics": {
+            "ACC": 0.802547770700637,
+            "AUC": 0.8713012477718359,
+            "SEN": 0.8,
+            "SPE": 0.803921568627451,
+            "balanced_ACC": 0.8019607843137255
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_147564/ad_cn/real_av45/fold1"
+          ]
+        },
+        {
+          "task": "ad_cn",
+          "condition": "syn_av45",
+          "fold": 2,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 157,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/ad_cn/syn_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "5228e9fe9129ce65622955959c0c8b21abb8a63d008f2537fdf24abcaa6c17bc",
+            "test_metrics.json": "68b944499190ac26b2cfd070604dfeb874b5392a0535d38b59b60749911d6ba5",
+            "test_predictions.csv": "50b78c8023be93b34ee71b78474cfbef73de4a729252acd2b3d377f47da7149d",
+            "history.csv": "d6109e9e89fc95e275c789d0e8777c487b6a9332c11eeae11934778140f97353"
+          },
+          "test_metrics": {
+            "ACC": 0.802547770700637,
+            "AUC": 0.8730837789661319,
+            "SEN": 0.6727272727272727,
+            "SPE": 0.8725490196078431,
+            "balanced_ACC": 0.772638146167558
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_149069/ad_cn/syn_av45/fold2"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_fdg",
+          "fold": 1,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 146,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/emci_lmci/syn_fdg/fold1",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "4c0eb8b67964c74215b4139a29c42cc295c90c1ec10ac718a5549ab319cd76b8",
+            "test_metrics.json": "b711d158b2f49e3fce4fc1459ff1f84efa11e4cda9478d2969b035cf75545380",
+            "test_predictions.csv": "b9e4ba9452f2ac67b5a39627ab717789f26e24c54350a03334d2153032771d2c",
+            "history.csv": "4b02a938972feb8927e8de90f13ab5406ff4500558c2a54edfef7bf105544181"
+          },
+          "test_metrics": {
+            "ACC": 0.6575342465753424,
+            "AUC": 0.6302083333333333,
+            "SEN": 0.38,
+            "SPE": 0.8020833333333334,
+            "balanced_ACC": 0.5910416666666667
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_150572/emci_lmci/syn_fdg/fold1"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "real_av45",
+          "fold": 2,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/emci_lmci/real_av45/fold2",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "8054d826673cda3cd53f44393c781a800495447e84450018a496716ee9f87207",
+            "test_metrics.json": "3eb8d87ae81f86367690d95c33b3bf36ebd01819f2380cc22664644b179bca85",
+            "test_predictions.csv": "74282575e16753c9700a3f929cb6aff1c793e32fe2a7d397978907f291fb9e73",
+            "history.csv": "9119fe787631cfe1e5a3807672d78d48e7754d9d9333daa67d04f9600efa038e"
+          },
+          "test_metrics": {
+            "ACC": 0.6344827586206897,
+            "AUC": 0.5950255102040817,
+            "SEN": 0.14285714285714285,
+            "SPE": 0.8854166666666666,
+            "balanced_ACC": 0.5141369047619048
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_151977/emci_lmci/real_av45/fold2"
+          ]
+        },
+        {
+          "task": "emci_lmci",
+          "condition": "syn_av45",
+          "fold": 3,
+          "instance": 6,
+          "status": "complete",
+          "epochs": 200,
+          "history_epochs": 200,
+          "test_evaluations": 1,
+          "pilot_only": false,
+          "prediction_rows": 145,
+          "test_ids_and_labels_match": true,
+          "source": "/root/autodl-tmp/DIRECTPP_classification_3fold/20261102_pet_only_instance6/emci_lmci/syn_av45/fold3",
+          "checkpoint_exists": true,
+          "checkpoint_bytes": 45597269,
+          "checkpoint_rehashed": false,
+          "source_hashes": {
+            "summary.json": "822c8961e77c0db46bf631242f7040eaa785a6a60a2c1e7c97edb4c861e765de",
+            "test_metrics.json": "f79c5a5395700c6a92635b1e3f34721c2a63b375f3b2b71a1490dc2c1971671a",
+            "test_predictions.csv": "4c0dedd9420019e34c8b43233bc4ba3704d556dcd706b9c823ecac877bb7bbdc",
+            "history.csv": "46cfa23716425cb531f2e0179a295665e7f64cf825d25ac92b1c2fffc2e3f808"
+          },
+          "test_metrics": {
+            "ACC": 0.6344827586206897,
+            "AUC": 0.6370526315789474,
+            "SEN": 0.38,
+            "SPE": 0.7684210526315789,
+            "balanced_ACC": 0.5742105263157895
+          },
+          "persistent_identical_copies": [
+            "/autodl-fs/data/DIRECTPP_classification_3fold/20261102_pet_only/20261102_154090/emci_lmci/syn_av45/fold3"
+          ]
+        }
+      ]
+    }
+  ]
+}
