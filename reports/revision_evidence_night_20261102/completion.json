@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_FEASIBLE_AUTHORIZED_SCOPE_WITH_DOCUMENTED_LIMITATIONS",
+  "completed_utc": "2026-11-03T01:52:11.348235+00:00",
+  "validation_checks": 220,
+  "new_inference": {
+    "model": "DIReCT Single",
+    "epoch": 165,
+    "folds": 4,
+    "fdg": 1598,
+    "av45": 1365,
+    "total": 2963
+  },
+  "existing_inference_reused": [
+    "Full",
+    "Clinical Regression U-Net",
+    "SwinUNETR",
+    "TabularMLP",
+    "TracerOnly",
+    "E1 score removal",
+    "81 classification fits"
+  ],
+  "generation_paired_endpoints": 40,
+  "clinical_fits": 18,
+  "imaging_fits": 63,
+  "supplementary_table_groups": 23,
+  "png_figures": 11,
+  "brain_mask_recomputed": false,
+  "training_started_or_resumed": false,
+  "manuscript_modified": false,
+  "git_commit_or_push_executed": false,
+  "notion_accessed": false,
+  "G8": "OUT_OF_SCOPE",
+  "limitations": "UNRESOLVED.md",
+  "reviewer_mapping": "G1_G8_EVIDENCE_MATRIX.md"
+}

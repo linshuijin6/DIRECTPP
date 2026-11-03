@@ -18,11 +18,16 @@ for r in inv:
             cfg=json.loads((ROOT/'reports'/r['experiment']/'config.json').read_text());r['checkpoint']=str(Path(cfg['assets'])/f'formal/fold{r["fold"]}/first_part_165.pth')
         elif r['model']=='TracerOnly':r['checkpoint']=f'/mnt/datas230/users/linshuijin/DIRECTPP_tracer_only_assets/20261022/formal/fold{r["fold"]}/first_part_165.pth'
         elif r['model']=='ClinicalUNet':r['checkpoint']=f'/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/formal/fold{r["fold"]}/checkpoint_epoch165.pt (see actual OOF receipt hash)'
-        else:r['checkpoint']='remote Swin prespecified epoch200; path and SHA in source fold receipts/config'
+        else:
+            launches=json.loads((ROOT/'reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/launch.json').read_text())
+            launch=next(x for x in launches if x['tracer'].lower()==r['tracer'].lower() and x['fold']==r['fold'])
+            r['checkpoint']=f'/root/autodl-tmp/DIRECTPP_swinunetr/{launch["asset"]}/formal/{launch["tracer"]}/fold{r["fold"]}/checkpoint_epoch200.pt'
     if r['model']=='Single':
         task=r['tracer']+'_fold'+str(r['fold']);p=OUT/f'remote/single_results/{task}/completion.json';d=json.loads(p.read_text())
         r.update(status='COMPLETE_AND_VERIFIED',training_status='COMPLETE_AND_VERIFIED',inference_status='COMPLETE_AND_VERIFIED',metrics_status='COMPLETE_AND_VERIFIED',prediction_count=d['metric_rows'],missing_artifacts='none at approved165 endpoint; FDG200 intentionally not resumed',checkpoint=f'/root/autodl-tmp/DIRECTPP_direct_single/20261030/{task}/formal/checkpoint_epoch165.pt',source=str(p.relative_to(ROOT)))
-    if r['model']=='E1_FullWeights_NoScores':r.update(status='COMPLETE_AND_VERIFIED',metrics_status='COMPLETE_AND_VERIFIED',missing_artifacts='none within fixed-weight inference sensitivity scope',checkpoint='E1 frozen Full checkpoint; see run_identity.json',task='score-removal')
+    if r['model']=='E1_FullWeights_NoScores':
+        identity=json.loads((ROOT/f'reports/r2_5_inference_score_removal_20261030/full/fold{r["fold"]}/run_identity.json').read_text())
+        r.update(status='COMPLETE_AND_VERIFIED',metrics_status='COMPLETE_AND_VERIFIED',missing_artifacts='none within fixed-weight inference sensitivity scope',checkpoint=identity['checkpoint'],task='score-removal')
 meta=[]
 for p in sorted((OUT/'remote').glob('*_classification63_metadata.json')):meta+=json.loads(p.read_text())
 meta+=json.loads((OUT/'remote/clinical18_metadata.json').read_text())

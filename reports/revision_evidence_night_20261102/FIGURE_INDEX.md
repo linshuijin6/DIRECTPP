@@ -1,0 +1,19 @@
+# 图片草稿索引
+
+11张PNG均位于新报告目录；未覆盖原Figure2/3/4/5。病例为normalized intensity，非SUV/SUVR。
+
+| figure                        | path                                         | source                                                                         | note                                                                       |
+|:------------------------------|:---------------------------------------------|:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
+| G1_tau_sensitivity_reused.png | [PNG](figures/G1_tau_sensitivity_reused.png) | experiments/r2_15_tau_adapter_ablation/results.csv                             | 已有τ/Adapter表示层图原样复用，不是生成器性能评价。                        |
+| G3_case_av45_median.png       | [PNG](figures/G3_case_av45_median.png)       | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_case_av45_p10.png          | [PNG](figures/G3_case_av45_p10.png)          | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_case_av45_worst.png        | [PNG](figures/G3_case_av45_worst.png)        | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_case_fdg_median.png        | [PNG](figures/G3_case_fdg_median.png)        | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_case_fdg_p10.png           | [PNG](figures/G3_case_fdg_p10.png)           | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_case_fdg_worst.png         | [PNG](figures/G3_case_fdg_worst.png)         | G3_cases/selection_manifest_internal.csv;G3_cases/render_manifest_internal.csv | 固定分位SSIM选例；MRI/Real/Syn/绝对误差三正交切片；worst为既定QC失败病例。 |
+| G3_paired_forest.png          | [PNG](figures/G3_paired_forest.png)          | G3/paired_comparisons.csv                                                      | 40个配对差值与10000次fold bootstrap边际95%CI；填充点表示Holm8族p<.05。     |
+| G5_ROC_ad_cn.png              | [PNG](figures/G5_ROC_ad_cn.png)              | G5/roc_curves_and_bands.csv                                                    | 五条件、3fold平均ROC；2000次fold/class逐点95% bootstrap带。                |
+| G5_ROC_emci_lmci.png          | [PNG](figures/G5_ROC_emci_lmci.png)          | G5/roc_curves_and_bands.csv                                                    | 五条件、3fold平均ROC；2000次fold/class逐点95% bootstrap带。                |
+| G5_ROC_mci_cn.png             | [PNG](figures/G5_ROC_mci_cn.png)             | G5/roc_curves_and_bands.csv                                                    | 五条件、3fold平均ROC；2000次fold/class逐点95% bootstrap带。                |
+
+整体预览见audit/visual_contact_sheet.png；目视核验范围见VALIDATION.md。

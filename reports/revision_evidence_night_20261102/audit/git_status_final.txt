@@ -1,0 +1,12 @@
+ M reports/revision_evidence_night_20261102/INVENTORY.md
+ M reports/revision_evidence_night_20261102/TASK_STATUS.md
+ M reports/revision_evidence_night_20261102/code/finalize.py
+ M reports/revision_evidence_night_20261102/code/generation_plot.py
+ M reports/revision_evidence_night_20261102/figures/G3_paired_forest.png
+ M reports/revision_evidence_night_20261102/inventory.csv
+?? reports/revision_evidence_night_20261102/FIGURE_INDEX.csv
+?? reports/revision_evidence_night_20261102/FIGURE_INDEX.md
+?? reports/revision_evidence_night_20261102/G3/REPORT.md
+?? reports/revision_evidence_night_20261102/audit/git_status_final.txt
+?? reports/revision_evidence_night_20261102/audit/visual_contact_sheet.png
+?? reports/revision_evidence_night_20261102/code/validate.py

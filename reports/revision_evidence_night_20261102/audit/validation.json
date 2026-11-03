@@ -1,0 +1,889 @@
+{
+  "status": "PASS",
+  "checks": 220,
+  "check_results": [
+    {
+      "check": "required:INVENTORY.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:inventory.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "required:TASK_STATUS.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:EXECUTION_REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:G1_G8_EVIDENCE_MATRIX.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:SUPPLEMENTARY_TABLE_INDEX.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:FIGURE_INDEX.md",
+      "status": "PASS"
+    },
+    {
+      "check": "required:UNRESOLVED.md",
+      "status": "PASS"
+    },
+    {
+      "check": "evaluation code syntax",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/supplementary_summary.tex",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/supplementary_paired.tex",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/summary_metrics.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/paired_comparisons.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/completion.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:brain_mask/completion_receipt_audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/historical_all98_allgroups.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/historical_all98_overall.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/historical_figure4_effect_sizes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/historical_OLS16.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/authorFull_OT_with_E1mask_roi_comparison.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/authorFull_OT_with_E1mask_agreement.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G4/authorFull_OT_with_E1mask_disease_contrast.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/authorFull_OT_with_E1mask_primary_roi.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/tau_results.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/tau_summary.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:figures/G1_tau_sensitivity_reused.png",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/audit_alignment_results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/audit_context_results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G1/audit_infer_ablation_results.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G5/existing_imaging_bootstrap_metrics.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G5/existing_imaging_paired_comparisons.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G5/existing_imaging_delong_by_fold.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G5/existing_imaging_mean_sd.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "reused source:G7/historical84_values.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "generation frozen metrics:Full",
+      "status": "PASS"
+    },
+    {
+      "check": "generation frozen metrics:ClinicalUNet",
+      "status": "PASS"
+    },
+    {
+      "check": "generation frozen metrics:SwinUNETR",
+      "status": "PASS"
+    },
+    {
+      "check": "generation frozen metrics:TabularMLP",
+      "status": "PASS"
+    },
+    {
+      "check": "generation frozen metrics:TracerOnly",
+      "status": "PASS"
+    },
+    {
+      "check": "Single receipt:av45_fold1",
+      "status": "PASS"
+    },
+    {
+      "check": "Single finite metrics:av45_fold1",
+      "status": "PASS"
+    },
+    {
+      "check": "Single receipt:av45_fold2",
+      "status": "PASS"
+    },
+    {
+      "check": "Single finite metrics:av45_fold2",
+      "status": "PASS"
+    },
+    {
+      "check": "Single receipt:fdg_fold1",
+      "status": "PASS"
+    },
+    {
+      "check": "Single finite metrics:fdg_fold1",
+      "status": "PASS"
+    },
+    {
+      "check": "Single receipt:fdg_fold2",
+      "status": "PASS"
+    },
+    {
+      "check": "Single finite metrics:fdg_fold2",
+      "status": "PASS"
+    },
+    {
+      "check": "Single exact full OOF key coverage",
+      "status": "PASS"
+    },
+    {
+      "check": "40 paired endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "signed dz/t consistency",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm never smaller than raw p",
+      "status": "PASS"
+    },
+    {
+      "check": "paired benefit proportions valid",
+      "status": "PASS"
+    },
+    {
+      "check": "ROI392 unique keys",
+      "status": "PASS"
+    },
+    {
+      "check": "ROI CI contains own mean",
+      "status": "PASS"
+    },
+    {
+      "check": "ROI q valid",
+      "status": "PASS"
+    },
+    {
+      "check": "clinical new60 CI endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "clinical metadata source18",
+      "status": "PASS"
+    },
+    {
+      "check": "clinical36 withinfold DeLong",
+      "status": "PASS"
+    },
+    {
+      "check": "original18 withinfold DeLong reused",
+      "status": "PASS"
+    },
+    {
+      "check": "ROC3x5x201 rows",
+      "status": "PASS"
+    },
+    {
+      "check": "ROC probability limits",
+      "status": "PASS"
+    },
+    {
+      "check": "ROC ordered bands",
+      "status": "PASS"
+    },
+    {
+      "check": "23 table drafts",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N01",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N01",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N01:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N01:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N01",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N01",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N02",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N02",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N02:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N02",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N02",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N03",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N03",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N03:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N03:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N03",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N03",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N04",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N04",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N04:tabular",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N04:minipage",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N04:table*",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N04",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N04",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N05",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N05",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N05:tabular",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N05:minipage",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N05:table*",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N05",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N05",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N06",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N06",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N06:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N06:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N06",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N06",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N07",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N07",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N07:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N07:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N07",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N07",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N08",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N08",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N08:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N08",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N08",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N09",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N09",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N09:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N09:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N09",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N09",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N10",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N10",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N10:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N10:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N10",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N10",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N11",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N11",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N11:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N11:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N11",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N11",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N12",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N12",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N12:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N12:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N12",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N12",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N13",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N13",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N13:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N13:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N13",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N13",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N14",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N14",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N14:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N14:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N14",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N14",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N15",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N15",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N15:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N15:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N15",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N15",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N16",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N16",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N16:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N16:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N16",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N16",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N17",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N17",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N17:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N17:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N17",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N17",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N18",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N18",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N18:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N18",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N18",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N19",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N19",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N19:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N19:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N19",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N19",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N20",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N20",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N20:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N20",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N20",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N21",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N21",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N21:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N21:landscape",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N21",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N21",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N22",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N22",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N22:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N22",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N22",
+      "status": "PASS"
+    },
+    {
+      "check": "table file:S-N23",
+      "status": "PASS"
+    },
+    {
+      "check": "table row count:S-N23",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX environment:S-N23:longtable",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced environments:S-N23",
+      "status": "PASS"
+    },
+    {
+      "check": "LaTeX balanced braces:S-N23",
+      "status": "PASS"
+    },
+    {
+      "check": "11 scientific PNGs",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G1_tau_sensitivity_reused.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_av45_median.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_av45_p10.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_av45_worst.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_fdg_median.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_fdg_p10.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_case_fdg_worst.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G3_paired_forest.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G5_ROC_ad_cn.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G5_ROC_emci_lmci.png",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG nonempty:G5_ROC_mci_cn.png",
+      "status": "PASS"
+    },
+    {
+      "check": "case selection frozen",
+      "status": "PASS"
+    },
+    {
+      "check": "six cases no reselection",
+      "status": "PASS"
+    },
+    {
+      "check": "official manuscript matches existing source receipt",
+      "status": "PASS"
+    },
+    {
+      "check": "tracked changes scoped to report or initial remote documents",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/original_author_reproduction_20261020/split_manifest.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/original_author_reproduction_20261020/cohort.json",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/original_author_reproduction_20261020/config.json",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/original_author_reproduction_20261020/input_hashes.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/r2_11_classification_3fold/splits.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:reports/r2_11_classification_subjects.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "preserved source hash:experiments/classification_3fold/run.py",
+      "status": "PASS"
+    }
+  ],
+  "scope": "file identity, coverage, statistical algebra, source preservation, LaTeX structure and PNG integrity; no paper compile or scientific metric recomputation",
+  "rendered_review": "all11 at contact-sheet scale; native-scale ROC AD/CN and EMCI/LMCI, forest, representative case; layout repairs verified",
+  "limitations": "LaTeX layout not compiled; source limitations remain in UNRESOLVED.md"
+}

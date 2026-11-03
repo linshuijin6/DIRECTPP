@@ -142,3 +142,5 @@ G1–G8逐comment映射见G1_G8_EVIDENCE_MATRIX.md/CSV，直接采用用户分�
 ## 执行与验证记录
 
 未启动/恢复训练，未重选epoch/seed/split，未终止既有进程，未修改原权重/预测/缓存。没有访问Notion、写外部消息、改正式稿件/BibTeX/图、编译论文或提交/推送。首次whole-volume配对因Swin tracer字段大小写差异停止，规范内存键后继续且未重复ClinicalUNet统计；首次效率结果打包有keyword错误，失败样本完整保留后仅修复该失败检查并重测；表格首次语法错误日志保留。以上工程失败不隐匿、不作为科学结果。
+
+最终交付核验：220项有界检查PASS；详见VALIDATION.md与audit/validation.json。LaTeX仅结构检查，未编译；科学限制不因工程PASS而消除。
