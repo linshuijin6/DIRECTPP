@@ -1,0 +1,22 @@
+{
+  "observed_utc": "2026-11-02T12:05:52.531643+00:00",
+  "scope": "Read-only remote status check; checkpoint existence checked, checkpoint payload hash not recomputed; no training or inference launched.",
+  "instances": [
+    {
+      "instance": 3,
+      "error": "bash: line 1: python3: command not found"
+    },
+    {
+      "instance": 4,
+      "error": "bash: line 1: python3: command not found"
+    },
+    {
+      "instance": 5,
+      "error": "bash: line 1: python3: command not found"
+    },
+    {
+      "instance": 6,
+      "error": "bash: line 1: python3: command not found"
+    }
+  ]
+}

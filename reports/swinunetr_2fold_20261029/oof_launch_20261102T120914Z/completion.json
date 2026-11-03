@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_SWINUNETR_TWO_FOLD_OOF",
+  "completed_utc": "2026-11-02T12:28:19.555774+00:00",
+  "epoch": 200,
+  "metric_rows": 2963,
+  "identity_reference": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv",
+  "identity_reference_epoch": 165,
+  "one_to_one_reference_identity_match": true,
+  "metrics_sha256": "6d4a85c0fab28be793bdea45800a0a22e7109053943dd2dec2810c831aa14b5a",
+  "summary_sha256": "2a266a97f859f4fdbd586f837238149d0a1edaebebb6e6f5cf64107118ab8a21",
+  "prediction_images": "Retained on original remote instances; existence and nonzero size checked; image hashes not rechecked by collector",
+  "summary_policy": "Subject-weighted means; sample standard deviations; raw metric scale"
+}

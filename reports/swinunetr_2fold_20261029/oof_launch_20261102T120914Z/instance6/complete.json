@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_FOLD_OOF",
+  "fold": 2,
+  "tracer": "AV45",
+  "epoch": 200,
+  "metric_rows": 675,
+  "metrics_sha256": "ca41244bf8aa4848b298c6ac0a8a1440d28f7cab3c0e3d554076c04b54f6e223",
+  "checkpoint_sha256": "1220ad9011b4cc6cdde8a34ff77754c600ddcebf9d6eabc95803d93fc312140f",
+  "prediction_policy": "held-out fold once; no metric-driven model selection"
+}

@@ -1,0 +1,50 @@
+{
+  "instance": 5,
+  "tracer": "AV45",
+  "fold": 1,
+  "expected_subjects": 690,
+  "observed_time": 1793622496.2034552,
+  "start": {
+    "started_utc": "2026-11-02T12:09:17.234615+00:00",
+    "pid": 52438,
+    "supervisor_pid": 52437,
+    "command": [
+      "/root/miniconda3/bin/python",
+      "-u",
+      "experiments/baselines/swinunetr/run.py",
+      "infer",
+      "--config",
+      "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance5_av45_fold1/config.json",
+      "--tracer",
+      "AV45",
+      "--fold",
+      "1",
+      "--epoch",
+      "200"
+    ],
+    "output": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1",
+    "gpu_binding": "CUDA_VISIBLE_DEVICES=0",
+    "existing_gpu_tasks": "User explicitly authorized concurrent inference; existing tasks untouched"
+  },
+  "exit": {
+    "started_utc": "2026-11-02T12:09:17.234615+00:00",
+    "finished_utc": "2026-11-02T12:27:49.223959+00:00",
+    "returncode": 0,
+    "oof_receipt_exists": true
+  },
+  "completed_subjects": 690,
+  "prediction_files": 690,
+  "seconds_per_subject": 1.5231501284462274,
+  "error_tail": [],
+  "receipt": {
+    "status": "COMPLETE_FOLD_OOF",
+    "fold": 1,
+    "tracer": "AV45",
+    "epoch": 200,
+    "metric_rows": 690,
+    "metrics_sha256": "43d9009f939d10fba277e88bef87926b0d4ce8cf721144fe1bb4c9b40ffdbbb1",
+    "checkpoint_sha256": "32205419bd045a44ecb6a7a2b98d586a2868d35ec20d8a2633afbbd2603a3549",
+    "prediction_policy": "held-out fold once; no metric-driven model selection"
+  },
+  "predictions_exist": true
+}

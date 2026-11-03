@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_FOLD_OOF",
+  "fold": 1,
+  "tracer": "FDG",
+  "epoch": 200,
+  "metric_rows": 792,
+  "metrics_sha256": "6eeee9dcf4e386e48824f3ce1a0fa0b619d6316b329b9bb5bf058912b57b71b0",
+  "checkpoint_sha256": "4be94899dc8375851f936478a7dc6ba8acfa51d48351f0f6a8daa11d70d0edbd",
+  "prediction_policy": "held-out fold once; no metric-driven model selection"
+}

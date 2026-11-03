@@ -1,0 +1,134 @@
+[
+  {
+    "instance": 3,
+    "port": 44919,
+    "asset": "20261029_instance3_v5",
+    "report": "instance3_fdg_fold1_200",
+    "tracer": "FDG",
+    "fold": 1,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/instance3",
+    "launch_returncode": 0,
+    "supervisor_pid": 150999,
+    "start": {
+      "started_utc": "2026-11-02T12:09:15.363924+00:00",
+      "pid": 151000,
+      "supervisor_pid": 150999,
+      "command": [
+        "/root/miniconda3/bin/python",
+        "-u",
+        "experiments/baselines/swinunetr/run.py",
+        "infer",
+        "--config",
+        "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance3_fdg_fold1_200/config.json",
+        "--tracer",
+        "FDG",
+        "--fold",
+        "1",
+        "--epoch",
+        "200"
+      ],
+      "output": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1",
+      "gpu_binding": "CUDA_VISIBLE_DEVICES=0",
+      "existing_gpu_tasks": "User explicitly authorized concurrent inference; existing tasks untouched"
+    }
+  },
+  {
+    "instance": 4,
+    "port": 22299,
+    "asset": "20261029_instance4",
+    "report": "instance4_fdg_fold2",
+    "tracer": "FDG",
+    "fold": 2,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/instance4",
+    "launch_returncode": 0,
+    "supervisor_pid": 153931,
+    "start": {
+      "started_utc": "2026-11-02T12:09:16.407728+00:00",
+      "pid": 153932,
+      "supervisor_pid": 153931,
+      "command": [
+        "/root/miniconda3/bin/python",
+        "-u",
+        "experiments/baselines/swinunetr/run.py",
+        "infer",
+        "--config",
+        "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance4_fdg_fold2/config.json",
+        "--tracer",
+        "FDG",
+        "--fold",
+        "2",
+        "--epoch",
+        "200"
+      ],
+      "output": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2",
+      "gpu_binding": "CUDA_VISIBLE_DEVICES=0",
+      "existing_gpu_tasks": "User explicitly authorized concurrent inference; existing tasks untouched"
+    }
+  },
+  {
+    "instance": 5,
+    "port": 15055,
+    "asset": "20261029_instance5",
+    "report": "instance5_av45_fold1",
+    "tracer": "AV45",
+    "fold": 1,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/instance5",
+    "launch_returncode": 0,
+    "supervisor_pid": 52437,
+    "start": {
+      "started_utc": "2026-11-02T12:09:17.234615+00:00",
+      "pid": 52438,
+      "supervisor_pid": 52437,
+      "command": [
+        "/root/miniconda3/bin/python",
+        "-u",
+        "experiments/baselines/swinunetr/run.py",
+        "infer",
+        "--config",
+        "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance5_av45_fold1/config.json",
+        "--tracer",
+        "AV45",
+        "--fold",
+        "1",
+        "--epoch",
+        "200"
+      ],
+      "output": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1",
+      "gpu_binding": "CUDA_VISIBLE_DEVICES=0",
+      "existing_gpu_tasks": "User explicitly authorized concurrent inference; existing tasks untouched"
+    }
+  },
+  {
+    "instance": 6,
+    "port": 51712,
+    "asset": "20261029_instance6",
+    "report": "instance6_av45_fold2",
+    "tracer": "AV45",
+    "fold": 2,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/instance6",
+    "launch_returncode": 0,
+    "supervisor_pid": 152721,
+    "start": {
+      "started_utc": "2026-11-02T12:09:18.025814+00:00",
+      "pid": 152722,
+      "supervisor_pid": 152721,
+      "command": [
+        "/root/miniconda3/bin/python",
+        "-u",
+        "experiments/baselines/swinunetr/run.py",
+        "infer",
+        "--config",
+        "/root/autodl-tmp/DIRECTPP/reports/swinunetr_2fold_20261029/instance6_av45_fold2/config.json",
+        "--tracer",
+        "AV45",
+        "--fold",
+        "2",
+        "--epoch",
+        "200"
+      ],
+      "output": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2",
+      "gpu_binding": "CUDA_VISIBLE_DEVICES=0",
+      "existing_gpu_tasks": "User explicitly authorized concurrent inference; existing tasks untouched"
+    }
+  }
+]
