@@ -1,0 +1,170 @@
+{
+  "checked_utc": "2026-11-02T13:30:23.104883+00:00",
+  "local_full": [
+    {
+      "shard": 0,
+      "pid": 1449936,
+      "alive": true,
+      "metric_rows": 693,
+      "exit": null
+    },
+    {
+      "shard": 1,
+      "pid": 1449937,
+      "alive": true,
+      "metric_rows": 677,
+      "exit": null
+    },
+    {
+      "shard": 2,
+      "pid": 1449946,
+      "alive": true,
+      "metric_rows": 685,
+      "exit": null
+    },
+    {
+      "shard": 3,
+      "pid": 1449947,
+      "alive": true,
+      "metric_rows": 668,
+      "exit": null
+    }
+  ],
+  "remote_baselines": [
+    {
+      "task": "fdg_fold1",
+      "pid": 153691,
+      "alive": false,
+      "exit": {
+        "returncode": 0,
+        "finished_epoch": 1793625378.5922985
+      },
+      "completion": {
+        "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+        "tracer": "fdg",
+        "fold": 1,
+        "metric_rows": 1582,
+        "metrics_sha256": "f8ce5d2f013e132a50063e9cb140f7d7724a7902107b1f6859feaa6d2f78e78a",
+        "asset_checks_sha256": "84d965d0887c5dcad80fb8e96ce53f853418ab424b79d3830d35526e10caa664",
+        "host": "autodl-container-9b594ca734-b8eefc9f",
+        "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+        "torch": "2.5.1+cu124",
+        "evaluator_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+        "shared_metrics_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+        "ssim_source_sha256": 1582,
+        "input_index_sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+        "elapsed_seconds": 966.984014749527,
+        "pilot": false,
+        "source_files_unchanged": true
+      },
+      "log_tail": [
+        "{\"metric_rows\": 1520, \"expected_rows\": 1582, \"elapsed_seconds\": 929.2840445041656}",
+        "{\"metric_rows\": 1560, \"expected_rows\": 1582, \"elapsed_seconds\": 953.6027505397797}"
+      ]
+    },
+    {
+      "task": "fdg_fold2",
+      "pid": 155935,
+      "alive": false,
+      "exit": {
+        "returncode": 0,
+        "finished_epoch": 1793625390.8428955
+      },
+      "completion": {
+        "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+        "tracer": "fdg",
+        "fold": 2,
+        "metric_rows": 1612,
+        "metrics_sha256": "a123186f4002befa40ee5a43e584252a0d7c3576f3cb3e006c221eed3ca43314",
+        "asset_checks_sha256": "4434c1e395613eb31c98a42c14fe42ed36f88987fbe773c6747ca8c91d362a05",
+        "host": "autodl-container-58a0ln8rhl-a7b5e942",
+        "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+        "torch": "2.5.1+cu124",
+        "evaluator_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+        "shared_metrics_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+        "ssim_source_sha256": 1612,
+        "input_index_sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+        "elapsed_seconds": 977.1088607311249,
+        "pilot": false,
+        "source_files_unchanged": true
+      },
+      "log_tail": [
+        "{\"metric_rows\": 1560, \"expected_rows\": 1612, \"elapsed_seconds\": 936.944215297699}",
+        "{\"metric_rows\": 1600, \"expected_rows\": 1612, \"elapsed_seconds\": 963.7574970722198}"
+      ]
+    },
+    {
+      "task": "av45_fold1",
+      "pid": 53503,
+      "alive": false,
+      "exit": {
+        "returncode": 0,
+        "finished_epoch": 1793625358.5299625
+      },
+      "completion": {
+        "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+        "tracer": "av45",
+        "fold": 1,
+        "metric_rows": 1378,
+        "metrics_sha256": "056d23f9c326755e65b7650afaec1d2cc04724d82c49bf8a7af335935bf134dd",
+        "asset_checks_sha256": "c827aba1a2d0ad1da3bba38421650eee92ada6b41a8826f4019e126a9f0feed7",
+        "host": "autodl-container-4bd4u9zpqz-e2f0447f",
+        "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+        "torch": "2.5.1+cu124",
+        "evaluator_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+        "shared_metrics_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+        "ssim_source_sha256": 1378,
+        "input_index_sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+        "elapsed_seconds": 944.3697092533112,
+        "pilot": false,
+        "source_files_unchanged": true
+      },
+      "log_tail": [
+        "{\"metric_rows\": 1320, \"expected_rows\": 1378, \"elapsed_seconds\": 882.60129570961}",
+        "{\"metric_rows\": 1360, \"expected_rows\": 1378, \"elapsed_seconds\": 931.1772198677063}"
+      ]
+    },
+    {
+      "task": "av45_fold2",
+      "pid": 154895,
+      "alive": false,
+      "exit": {
+        "returncode": 0,
+        "finished_epoch": 1793625261.0090284
+      },
+      "completion": {
+        "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+        "tracer": "av45",
+        "fold": 2,
+        "metric_rows": 1350,
+        "metrics_sha256": "8f9f77e96b5888aa8341b7126181940ba54c573e2e30a8b1158428c70fa6e860",
+        "asset_checks_sha256": "77c8d6b7cb9a68814c6bce4be5a8553ccfa0699e33357c1934020e39d404527c",
+        "host": "autodl-container-5h9rm8rk3z-3396b382",
+        "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+        "torch": "2.5.1+cu124",
+        "evaluator_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+        "shared_metrics_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+        "ssim_source_sha256": 1350,
+        "input_index_sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+        "elapsed_seconds": 846.2739117145538,
+        "pilot": false,
+        "source_files_unchanged": true
+      },
+      "log_tail": [
+        "{\"metric_rows\": 1280, \"expected_rows\": 1350, \"elapsed_seconds\": 808.071765422821}",
+        "{\"metric_rows\": 1320, \"expected_rows\": 1350, \"elapsed_seconds\": 828.4602558612823}"
+      ]
+    }
+  ],
+  "collection_errors": {},
+  "collector_tail": [
+    "{\"full_rows\": 2621, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2654, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2692, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2732, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2773, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2807, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2848, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}",
+    "{\"full_rows\": 2885, \"baseline_rows\": 5922, \"remote_complete_tasks\": 4}"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "task": "fdg_fold1",
+    "port": 44919,
+    "folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold1_recheck",
+    "supervisor_pid": 157703
+  },
+  {
+    "task": "fdg_fold2",
+    "port": 22299,
+    "folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold2_recheck",
+    "supervisor_pid": 159091
+  },
+  {
+    "task": "av45_fold1",
+    "port": 15055,
+    "folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold1_recheck",
+    "supervisor_pid": 54732
+  },
+  {
+    "task": "av45_fold2",
+    "port": 51712,
+    "folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold2_recheck",
+    "supervisor_pid": 158114
+  }
+]

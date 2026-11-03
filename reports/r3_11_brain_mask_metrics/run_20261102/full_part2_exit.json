@@ -1,0 +1,23 @@
+{
+  "shard": 2,
+  "pid": 1449946,
+  "command": [
+    "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/bin/python",
+    "-u",
+    "reports/r3_11_brain_mask_metrics/analysis.py",
+    "calculate",
+    "--model",
+    "Full",
+    "--device",
+    "cuda:5",
+    "--shard",
+    "2",
+    "--shards",
+    "4",
+    "--skip-metrics",
+    "reports/r3_11_brain_mask_metrics/run_20261102/metrics_Full_seed.csv"
+  ],
+  "started_epoch": 1793623735.6004736,
+  "returncode": 0,
+  "finished_epoch": 1793626257.9564862
+}

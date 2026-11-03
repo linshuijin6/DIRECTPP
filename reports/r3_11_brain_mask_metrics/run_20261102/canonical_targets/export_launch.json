@@ -1,0 +1,34 @@
+[
+  {
+    "task": "fdg_fold1",
+    "port": 44919,
+    "tracer": "fdg",
+    "fold": 1,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold1",
+    "supervisor_pid": 155865
+  },
+  {
+    "task": "fdg_fold2",
+    "port": 22299,
+    "tracer": "fdg",
+    "fold": 2,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold2",
+    "supervisor_pid": 157328
+  },
+  {
+    "task": "av45_fold1",
+    "port": 15055,
+    "tracer": "av45",
+    "fold": 1,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold1",
+    "supervisor_pid": 54023
+  },
+  {
+    "task": "av45_fold2",
+    "port": 51712,
+    "tracer": "av45",
+    "fold": 2,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold2",
+    "supervisor_pid": 156333
+  }
+]

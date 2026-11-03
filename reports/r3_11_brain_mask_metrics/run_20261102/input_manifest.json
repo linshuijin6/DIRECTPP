@@ -1,0 +1,328 @@
+{
+  "prepared_utc": "2026-11-02T12:29:09.165086+00:00",
+  "models": {
+    "Full": {
+      "epoch": 165,
+      "metrics_path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/original_author_reproduction_20261020/oof_summary/per_subject_metrics.csv",
+      "metrics_sha256": "814bf7d13a1dae5591d3eb3964392e7419f00ff4fd6a18b9bc3c16c436f6091b",
+      "before_mask_intersection": 2963
+    },
+    "ClinicalUNet": {
+      "epoch": 165,
+      "metrics_path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/clinical_regression_unet_task_a_20261027_instance1/oof_summary/per_subject_metrics.csv",
+      "metrics_sha256": "1671862dc4ceaca6c877991087e1f84b928e7ebc6adc2304f1ee8efb48057a4f",
+      "before_mask_intersection": 2963
+    },
+    "SwinUNETR": {
+      "epoch": 200,
+      "metrics_path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/swinunetr_2fold_20261029/oof_launch_20261102T120914Z/per_subject_metrics.csv",
+      "metrics_sha256": "6d4a85c0fab28be793bdea45800a0a22e7109053943dd2dec2810c831aa14b5a",
+      "before_mask_intersection": 2963
+    }
+  },
+  "coverage_after_frozen_mask_intersection": {
+    "Full": {
+      "fdg": 1597,
+      "av45": 1364
+    },
+    "ClinicalUNet": {
+      "fdg": 1597,
+      "av45": 1364
+    },
+    "SwinUNETR": {
+      "av45": 1364,
+      "fdg": 1597
+    }
+  },
+  "excluded": [
+    {
+      "ptid": "016_S_4952",
+      "diagnosis": "CN",
+      "test_fold": 1,
+      "has_fdg": true,
+      "has_av45": true,
+      "saved_mri_replay_maxabs": 0.9999993443489075,
+      "reason": "MRI replay does not bind historical MRI/mask grid; eight axis-flip probes also failed",
+      "evidence": [
+        "preprocessing_errors.json",
+        "016_S_4952_mri_only_orientation_probe.json",
+        "geometry_qc_final.json"
+      ]
+    }
+  ],
+  "additional_exclusions": [],
+  "unavailable_models": [],
+  "mask": "Frozen SynthSeg nonzero-label union (mask > 0), including ventricles and CSF; not pure brain parenchyma",
+  "mask_qc_subjects": 1856,
+  "raw_input_identity_matches": 5571,
+  "target": "Canonical frozen Full persistent-cache PET array, identical target array used for all models; no renormalization",
+  "space": "Direct array-index binding under existing MRI-anchored Full/E1 spatial gate; no affine edits, flips, registration or resampling",
+  "input_index": {
+    "path": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/input_index.csv",
+    "sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a"
+  },
+  "frozen_e1_metadata": {
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/cohort.json": "9294ed274cf7a84de9923c844c0587554685c95c87622e084fe3da8283096df0",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/input_hashes_final.csv": "4ce44b3bf7a0dfd48ad67388964b1cde863bc9f67f5aa36e2c5857c2dbf63023",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/qc_exclusions.json": "1be70ddf6f6a58543914f40a8764c4a25f89e1fc496970081e4bbd9aac276820",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/e1_stage01_20261017/roi_labels.csv": "6dae68a41bafc35429f816f6873cc5308d894c25c42acfd9fdbd5de224a7d8ca"
+  },
+  "source_evidence": {
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/02_spatial_compatibility_report.md": "04c593d9cfcb7060fef93da5b446fc712ea5c93875af1375144a74593da82fff",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/02_spatial_subject_checks.csv": "f21ebb54c0b1b906c17834111fe76c5d1b1939ca6cd9b889580a16e08e957e4f",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/full_ot_medical_evidence/02_spatial_validation_results.json": "25499795f14e0521acc1cd5b29a290d8edc12862dd982828fac01babab7f644c",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/experiments/e1_clinical_conditioning/evaluate.py": "0bbdb4691d561c0e08526cb76c62fd8d30647805061e3bde5a66e914852e4ddb",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/source_archive/vscode-3002/home/ssddata/liutuo/generative/metrics/ssim.py": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/clinical_regression_unet_e165_paired_analysis_20261028/analysis.py": "85cf793708d4be96a224e535d7337461748f30acfabfbdc7f55813007df157bd",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/analysis.py": "990981b8184529c89333960762cd14fd446c170a944db61cf405d5a5ff60ef55"
+  },
+  "bootstrap": {
+    "iterations": 10000,
+    "seed": 42,
+    "strata": "held-out fold, original fold sizes retained"
+  },
+  "holm": "Separate 8-test family for each Full-versus-comparator contrast (2 tracers x 4 metrics)",
+  "privacy": "PTIDs confined to internal analysis/index/pilot files; supplementary tables contain aggregates only",
+  "execution": {
+    "status": "COMPLETE",
+    "metric_rows": 8883,
+    "models": [
+      "Full",
+      "ClinicalUNet",
+      "SwinUNETR"
+    ],
+    "new_exclusions": 0,
+    "max_e1_vs_canonical_target_difference": {
+      "fdg": 2.384185791015625e-07,
+      "av45": 2.384185791015625e-07
+    },
+    "actual_mask_labels": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      26,
+      28,
+      41,
+      43,
+      44,
+      46,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      58,
+      60,
+      1001,
+      1002,
+      1003,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      2001,
+      2002,
+      2003,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035
+    ],
+    "individual_actual_hashes": "per_subject_metrics.csv and subject_asset_checks.jsonl"
+  },
+  "canonical_target_alignment": {
+    "initial_disagreeing_targets": 1401,
+    "recomputed_baseline_metric_rows": 2802,
+    "all_final_model_target_and_mask_hashes_identical_within_pairs": true,
+    "lossless_transport_receipt": {
+      "status": "PASS_EXACT_LOSSLESS_TARGET_TRANSPORT",
+      "targets": 1401,
+      "tasks": {
+        "fdg_fold1": {
+          "sha256": "526aae83b38a19cdd65b368cc85b8a9b9381cd095f048137df9250b1291bb3bb",
+          "bytes": 350729697,
+          "targets": 404
+        },
+        "fdg_fold2": {
+          "sha256": "4eead76c8e5cff0e6042440747b4e1097cd91ba0c5f678f3db7bedb9cc76fa48",
+          "bytes": 339349862,
+          "targets": 391
+        },
+        "av45_fold1": {
+          "sha256": "da6ae3d7e2735c5dc1b2c9501a5ec104544c2cab5129318032c44908f41163ad",
+          "bytes": 335169700,
+          "targets": 312
+        },
+        "av45_fold2": {
+          "sha256": "1872994e16a6a4a76950ba887826d5320b2a8e03a51315d400cecdc4190b88f5",
+          "bytes": 325821662,
+          "targets": 294
+        }
+      },
+      "max_abs_difference": 2.384185791015625e-07,
+      "max_ulp_difference": 860457505,
+      "acceptance": "Every full reference and canonical array matches SHA-256; CRC used only for transport block selection",
+      "source_arrays_unchanged": true
+    },
+    "initial_outputs_preserved": true,
+    "difference_audit": "canonical_targets/exact_target_difference_audit.csv",
+    "replaced_metrics_audit": "canonical_targets/replaced_metrics_audit.csv"
+  },
+  "eligibility_counts": {
+    "fdg": {
+      "no_valid_target_in_frozen_OOF": 259,
+      "frozen_mask_QC_exclusion": 1,
+      "included": 1597
+    },
+    "av45": {
+      "no_valid_target_in_frozen_OOF": 492,
+      "frozen_mask_QC_exclusion": 1,
+      "included": 1364
+    }
+  },
+  "eligibility_details": "eligibility_and_exclusions_internal.csv",
+  "output_sha256": {
+    "supplementary_paired.tex": "da049eb47e6e6ed5bf7762a6520cb231d514667cc168051d8c5fd450723b7ee6",
+    "prior_matched_input_audit.json": "01490b988b7200e207f7d70337b00bed74520c9f3dd88df5d5c43979d452f95d",
+    "input_index.csv": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+    "pilot_metrics.csv": "45a8b6798bc2902ad310b2a7a3a52660fd77d077e76f35b10007ce29bf712271",
+    "pilot_validation.json": "d65e255ed7c8042c27051cfd9c5adc527e248b66d17802fb9d9b949251a5ee44",
+    "supplementary_summary.tex": "d21b52b97118fb8ecbefdcd74ef805d99c69feea8bb284f8857fa760f07cf913",
+    "full_io_resume_receipt.json": "a59a224946a7a2784f11fe5929f1c05dad2133918f0b3f7d6cf46230fe1877c4",
+    "metrics_Full_before_resume_20261102T124601Z.csv": "3b27bb6e956f25ef7036bbce85cc2f4b06dbf6e82a6e48917ed93c1013460369",
+    "metrics_Full.csv": "67b84874a79213625c23d78d4660f6ab03810f580ffc82761b3ca4f1877a1210",
+    "metrics_Full_seed.csv": "67b84874a79213625c23d78d4660f6ab03810f580ffc82761b3ca4f1877a1210",
+    "full_parallelization_receipt.json": "5358f385240794abef6d68ef22d178a8b837496a80abf220e3d526a93ec6d3d7",
+    "full_part0_start.json": "6ca638554df1a17699681312dff5da1b174fd2ad54509860258113d7503ff86a",
+    "full_part1_start.json": "78ece5b7372b9a1f73c1dd0c791324094c75bbef3eecf8e90a4c5b4b3a3d7715",
+    "full_part2_start.json": "380011d623ac5f414719d4fa18582d589fa8bbf3588ce1aa7733084c9e68cfae",
+    "full_part3_start.json": "39270c206af08309003147e9e7271a6704719d42cc805b400a237e009c072112",
+    "metrics_Full_part1.csv": "5924d383cc52ec33c22f9df51196f8074eba5f3ebd28c6b2e7096a98913218a6",
+    "metrics_Full_part3.csv": "d956e0705ff2fef07e99d028730cf4cd8cd296c5928c619f8a367b69b2976521",
+    "metrics_Full_part2.csv": "60b5114f7a918a470abc4652f80964051345cdb98d0b3008752bc0d95e6c80ea",
+    "metrics_Full_part0.csv": "d3acfae4a3ab4744ba488aa2a135a461308078727e377c17bf56390b61c8fd4d",
+    "mask_transfer_manifest.json": "f3d46402dd7c766ae5649fa205458f505c300687a364223da58a706409237fe2",
+    "remote_pilot_launch.json": "ceae8b99bd843a5b9fbfe9fdb5fa33efad87b15f6d3d1a69509d310c0d7e4853",
+    "remote_pilot_attempt2_launch.json": "9f917d71b2752da665da7c6ee76f561a4a7d2c34a132da6bd21a899fb09c1a2d",
+    "remote_pilot_results.json": "c45abb6864ff816bec306b1998850590a425e0e0bde1024d709b1ff5e95b3eb4",
+    "remote_pilot_validation.json": "c45bf94de160ea3b59ae970e429e1ce6377369b666df4b7aa727bc785f59be86",
+    "mask_bundle_receipt.json": "ce3ac7dce80da8b48a74c27cd9dc23400460b445cdf84264a66ce25eaf6233c0",
+    "remote_full_launch.json": "57a6fb5f44ebad3aa7c821be7cc85e9969674c6306df2b02ed0da413bfc050d6",
+    "progress.json": "c217494c6529fab274906372e6a8a01d1303219c602730fcabbc8c77bb35e293",
+    "completion_receipt_audit.json": "0cc56aa0b118994d45dfc3dec5a9f97690031db2515c2a724172c9d693c450d3",
+    "health_check_2112.json": "f66a84ee1f8d62fbc69b7d238477c2c63305b4f099b0b5cce8c520b30d309352",
+    "health_check_2130.json": "5a89dda4636edfb5bdac28456777ab740ff5799be39779c8f21b0b5f0f1a1f6e",
+    "full_part2_exit.json": "ae280fedee9c378fb4d87ae838f84b799f142b86084a6189a907a260ce76e3f2",
+    "full_part0_exit.json": "8b9823fec39b72f315236cfcffe8374592ce2503dda096d3c6bcd8476fb7b99e",
+    "full_part1_exit.json": "419812ae8403766f4aadb5f8e9086875221965d806061cc97d34b4bf8471e464",
+    "full_part3_exit.json": "05e5d401b358af6467ac404fc8acc98ae234827e03617014ee2416b82255d631",
+    "target_identity_mismatch_initial.csv": "d998859c983fbab88e118e9bc2ed950cfcb44211d09fb169677c78acca390e6c",
+    "target_resolution_status.json": "85952c135e47f4ffdeac6b9e6280b3302130f0980b9ef5e016ca94328c64d6a8",
+    "ssim_source_audit.json": "9eefbc54229ed762c62a71e79c3b44df1df1945640fee5edacdf47163aaa7a9a",
+    "RUN_LOG.md": "891062f52896160e2fac9d1328ef50d4f299df8b810a76743924cbf82efd45b9",
+    "per_subject_metrics.csv": "001098925e1732b87ce2a5841b69321f21b6f430dc0f4784d9dceec22c6666ed",
+    "evaluation_input_manifest.csv": "3c538d48322513bd89dfa0041e2beb8d1f17b496c3aec09b72ccb68865da3f5b",
+    "summary_metrics.csv": "87aa0b4f491bd449de53ba63d41e21c6c53079cad44e33d0e3f4d3abbe98ef3d",
+    "paired_comparisons.csv": "9115d8f05a81287416e630da8216d313be9715f9243a207ce41ce4b8ee0ac254",
+    "whole_volume_direction_comparison.csv": "79cf60cda560cca035d8cad4db0eb116b00a9d3658ed80e68cf5186b269ff019",
+    "statistical_validation.json": "9336c9bc5e0778576d50c967c5bfd155ee2356789bdf9b90b680b43150525709",
+    "eligibility_and_exclusions_internal.csv": "3faebe4937b8ee9c3ef0659f1c6fd28a52a416147a9152b0149880cd61544237",
+    "supplementary_summary.md": "51b1041471c418cf00880e22902256bf0f06a18a5cedbaf1846a0c6f881ed88d",
+    "supplementary_paired.md": "69b16dc3f4fcff3e60965f62fbdbaa9e3bd8159b8f7230838447cc6f1e3e9b5e",
+    "table_cells_internal.csv": "686f12c65205a38a455883947418345034ad21db4e77b5b7cf3faafb18130f76",
+    "mask_label_coverage.csv": "c394990e012ab8d69562765f6f2b9a06cc4e9eebb507abc11c0195644b7a8163",
+    "REPORT.md": "f18e492b7e00713f4b48c0a2f7e99c89873b25082edca9bdbcb94e29f5baaec3",
+    "validation.json": "cb882a943d0dc2b21ff5551d618f02b979e15c5d89a517003c7b4ad427cc5a81",
+    "latex_validation.json": "77de7a5a2f984f8124449837dd7230060eadbf9fb5dd77db53d0dfd4944ded34",
+    "corrected_validation_cases_internal.json": "ace816f508f2793356465a643d3d9a70a4ff482da9d1d89fd87c50b0f9e80561",
+    "corrected_case_independent_validation.json": "5b68072137cb1b350d36ff8297106fc24256119349936af72881c80ee6c145bd",
+    "target_resolution_initial.json": "05297c94e3b5c9e368622b5959a96699e50001dff6f9d444634d7d953ad56707",
+    "analysis_code_manifest.json": "1c210a51dc11598bace6e2ee657ba74f032686250d8d4faf8f7e83acd305c7d2"
+  },
+  "final_code_sha256": {
+    "analysis.py": "a9a3d852c753f9476c9adeb84279ae11f5e27b873f3bf80e9806a59903ecc21e",
+    "deliver.py": "923ebac1cb75e2c0c504655a90faa0ddbfaf4a1b30db691790818594219a9fbc",
+    "masked_metrics.py": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+    "remote_evaluate.py": "b9db50f1687589f0cb48c5b94e96dde0f165d5dbbc3e13a270ac3e3c0b145c4d",
+    "export_target_lowbits.py": "dc274c0cec720e5000e2fc6c7252793b324ac5455ddb5a4acc0adf2757428faf",
+    "canonical_recheck.py": "3e781f8ecc1256a77a74b37e516b6a1aea3c77197dddc6a2bf9e73809a34e099",
+    "export_target_blocks.py": "808a003f76d7d18198047a4a6df58faa2d2a13b42f3b3b2bbb88c9f22a45e313"
+  },
+  "final_verification": {
+    "status": "PASS",
+    "latex_validation": "latex_validation.json",
+    "corrected_case_validation": "corrected_case_independent_validation.json",
+    "kernel_source_audit": "ssim_source_audit.json",
+    "eligibility_details": "eligibility_and_exclusions_internal.csv",
+    "code_manifest": "analysis_code_manifest.json",
+    "remaining_required_analysis": []
+  }
+}

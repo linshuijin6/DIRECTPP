@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "checks": [
+    {
+      "model": "ClinicalUNet",
+      "tracer": "fdg",
+      "fold": "1",
+      "absolute_errors": {
+        "mse": 9.6710833785707e-17,
+        "mae": 3.469446951953614e-17,
+        "psnr": 2.1316282072803006e-14,
+        "ssim": 0.0
+      },
+      "same_actual_target_and_mask_hashes": true,
+      "independent_erosion_equal": true
+    },
+    {
+      "model": "SwinUNETR",
+      "tracer": "fdg",
+      "fold": "2",
+      "absolute_errors": {
+        "mse": 4.640385298237959e-17,
+        "mae": 2.7755575615628914e-17,
+        "psnr": 3.552713678800501e-15,
+        "ssim": 0.0
+      },
+      "same_actual_target_and_mask_hashes": true,
+      "independent_erosion_equal": true
+    },
+    {
+      "model": "ClinicalUNet",
+      "tracer": "av45",
+      "fold": "1",
+      "absolute_errors": {
+        "mse": 1.8214596497756474e-17,
+        "mae": 1.3877787807814457e-17,
+        "psnr": 1.7763568394002505e-14,
+        "ssim": 1.1102230246251565e-16
+      },
+      "same_actual_target_and_mask_hashes": true,
+      "independent_erosion_equal": true
+    },
+    {
+      "model": "SwinUNETR",
+      "tracer": "av45",
+      "fold": "2",
+      "absolute_errors": {
+        "mse": 1.1449174941446927e-16,
+        "mae": 1.3877787807814457e-17,
+        "psnr": 7.105427357601002e-15,
+        "ssim": 0.0
+      },
+      "same_actual_target_and_mask_hashes": true,
+      "independent_erosion_equal": true
+    }
+  ]
+}

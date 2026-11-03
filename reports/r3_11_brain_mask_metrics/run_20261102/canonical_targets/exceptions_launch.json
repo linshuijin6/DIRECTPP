@@ -1,0 +1,26 @@
+[
+  {
+    "task": "fdg_fold1",
+    "port": 44919,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold1_exceptions",
+    "supervisor_pid": 157014
+  },
+  {
+    "task": "fdg_fold2",
+    "port": 22299,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/fdg_fold2_exceptions",
+    "supervisor_pid": 158403
+  },
+  {
+    "task": "av45_fold1",
+    "port": 15055,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold1_exceptions",
+    "supervisor_pid": 54496
+  },
+  {
+    "task": "av45_fold2",
+    "port": 51712,
+    "remote_folder": "/root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold2_exceptions",
+    "supervisor_pid": 157415
+  }
+]

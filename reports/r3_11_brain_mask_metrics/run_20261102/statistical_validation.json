@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "comparison": "Full_vs_ClinicalUNet",
+      "n": 2961,
+      "bootstrap_independent_replay": "PASS",
+      "ttest_and_dz_independent_check": "PASS",
+      "holm_family_8": "PASS",
+      "identical_target_and_mask_arrays": "PASS"
+    },
+    {
+      "comparison": "Full_vs_SwinUNETR",
+      "n": 2961,
+      "bootstrap_independent_replay": "PASS",
+      "ttest_and_dz_independent_check": "PASS",
+      "holm_family_8": "PASS",
+      "identical_target_and_mask_arrays": "PASS"
+    }
+  ]
+}

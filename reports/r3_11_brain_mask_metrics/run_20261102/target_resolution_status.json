@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_EXACT_TARGET_ALIGNMENT",
+  "initial_target_mismatches": 1401,
+  "recomputed_baseline_rows": 2802,
+  "final_metric_rows": 8883,
+  "all_model_pairs_have_identical_target_and_mask_arrays": true,
+  "max_original_cache_absolute_difference": 2.384185791015625e-07,
+  "original_failures_preserved": true
+}

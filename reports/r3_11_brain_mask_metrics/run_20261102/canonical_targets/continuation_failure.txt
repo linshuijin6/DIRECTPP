@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/canonical_targets/continue_pipeline.py", line 91, in <module>
+    try:run()
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/canonical_targets/continue_pipeline.py", line 81, in run
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(fetch,records))
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/canonical_targets/continue_pipeline.py", line 68, in fetch
+    try:result=json.loads(ssh(r['port'],'cat '+r['folder']+'/exit.json'))
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/canonical_targets/continue_pipeline.py", line 19, in ssh
+    r=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=12','-p',str(port),'root@connect.westb.seetacloud.com',code],capture_output=True,text=True,timeout=30)
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/subprocess.py", line 505, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/subprocess.py", line 1154, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/subprocess.py", line 2022, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/mnt/ssd/linshuijin/miniconda3/envs/xiaochou/lib/python3.10/subprocess.py", line 1198, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=12', '-p', '15055', 'root@connect.westb.seetacloud.com', 'cat /root/autodl-tmp/DIRECTPP_r3_11_canonical/av45_fold1_recheck/exit.json']' timed out after 30 seconds

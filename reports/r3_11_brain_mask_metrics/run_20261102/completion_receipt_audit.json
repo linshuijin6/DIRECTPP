@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "model": "Full",
+      "fold": 1,
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold1/complete.json",
+      "receipt_sha256": "2949f5c499f50b6a10ace3deb3761623ab381f40cc5ae8548517783e608e43cc",
+      "receipt": {
+        "fold": 1,
+        "epoch": 165,
+        "subjects": 929,
+        "metric_rows": 1482,
+        "counts": {
+          "fdg": 792,
+          "av45": 690
+        },
+        "input_source": "verified_persistent_cache",
+        "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+        "metrics_sha256": "d91d445c72bb6d9ea05b37dea6e74fc373c3f5b332dbcd257f6c217ee48d72fa",
+        "checkpoint_sha256": "550ac2c4b1ef27b0dbb5624445dace2a04f58a84354e4900810509401cc4ea77"
+      },
+      "actual_metrics_sha256": "d91d445c72bb6d9ea05b37dea6e74fc373c3f5b332dbcd257f6c217ee48d72fa"
+    },
+    {
+      "model": "Full",
+      "fold": 2,
+      "receipt_path": "/mnt/datas230/users/linshuijin/DIRECTPP_original_author_repro/20261020/oof/epoch165/fold2/complete.json",
+      "receipt_sha256": "8c2dbca838eb2df7c4a84fb0e839bb32965c87d0713f80fdbd6cb48508b49cba",
+      "receipt": {
+        "fold": 2,
+        "epoch": 165,
+        "subjects": 928,
+        "metric_rows": 1481,
+        "counts": {
+          "fdg": 806,
+          "av45": 675
+        },
+        "input_source": "verified_persistent_cache",
+        "persistent_cache": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/results/cache/original_author_reproduction/v1_3f362cdb3ebe8a94_bbcd413100d8ece3_nfs_backup",
+        "metrics_sha256": "2fb5ccc1b426234b62ec1a1e73cac766399561827f8c09cc6ffabd258ef5385a",
+        "checkpoint_sha256": "f67e4a788eff3d958edd1d0da8cc739691affc59de84bdf3a1ae1f2821ce4315"
+      },
+      "actual_metrics_sha256": "2fb5ccc1b426234b62ec1a1e73cac766399561827f8c09cc6ffabd258ef5385a"
+    },
+    {
+      "model": "ClinicalUNet",
+      "fold": 1,
+      "path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/complete.json",
+      "receipt": {
+        "fold": 1,
+        "epoch": 165,
+        "held_out_subjects": 929,
+        "metric_rows": 1482,
+        "counts": {
+          "fdg": 792,
+          "av45": 690
+        },
+        "metrics_sha256": "9246b311231dffe49435a1fa2d2542462e9f8a97abc772192bdb1765cbcf6ff3",
+        "checkpoint_sha256": "a1258990474f4292fa965a0a6148be417cd30ac16045da56ec5d027c9bfca49b",
+        "postprocessing": "clamp [0,1] only; no target-derived calibration"
+      },
+      "sha256": "d4e9cb0a4bf7c5a8364aa734dc409333968bad5cc99ecaa094b3413c2c040367",
+      "metrics_sha256": "9246b311231dffe49435a1fa2d2542462e9f8a97abc772192bdb1765cbcf6ff3"
+    },
+    {
+      "model": "ClinicalUNet",
+      "fold": 2,
+      "path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold2/complete.json",
+      "receipt": {
+        "fold": 2,
+        "epoch": 165,
+        "held_out_subjects": 928,
+        "metric_rows": 1481,
+        "counts": {
+          "fdg": 806,
+          "av45": 675
+        },
+        "metrics_sha256": "3e642b563337e47f1405a2bdf8748a8fb767afdb1be6fc8d6e781c4c57947d74",
+        "checkpoint_sha256": "948e7e5943f8537411e8df38128a77ea6bf5e0c799e3c2fe5561d996fa82923f",
+        "postprocessing": "clamp [0,1] only; no target-derived calibration"
+      },
+      "sha256": "cadddc46914a172290b224d82c89c2075aba94141b3d918d21d161ec39bf37f9",
+      "metrics_sha256": "3e642b563337e47f1405a2bdf8748a8fb767afdb1be6fc8d6e781c4c57947d74"
+    },
+    {
+      "model": "SwinUNETR",
+      "instance": 3,
+      "receipt": {
+        "status": "COMPLETE_FOLD_OOF",
+        "fold": 1,
+        "tracer": "FDG",
+        "epoch": 200,
+        "metric_rows": 792,
+        "metrics_sha256": "6eeee9dcf4e386e48824f3ce1a0fa0b619d6316b329b9bb5bf058912b57b71b0",
+        "checkpoint_sha256": "4be94899dc8375851f936478a7dc6ba8acfa51d48351f0f6a8daa11d70d0edbd",
+        "prediction_policy": "held-out fold once; no metric-driven model selection"
+      },
+      "receipt_sha256": "48bfc1778d267dccdeee43a06e1ef50cf81c619063a9b1b208de9b42181224fb",
+      "metrics_actual_sha256": "6eeee9dcf4e386e48824f3ce1a0fa0b619d6316b329b9bb5bf058912b57b71b0",
+      "original_remote_prediction_dir": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1"
+    },
+    {
+      "model": "SwinUNETR",
+      "instance": 4,
+      "receipt": {
+        "status": "COMPLETE_FOLD_OOF",
+        "fold": 2,
+        "tracer": "FDG",
+        "epoch": 200,
+        "metric_rows": 806,
+        "metrics_sha256": "f57002f45e2cdcc3943d864034400abb038fba3e765af05e05ec08ae850fedd0",
+        "checkpoint_sha256": "cfa1a7062f0d10fc76c2f27e5cbd9350f9c2cbfc305a222a0e448a169108212b",
+        "prediction_policy": "held-out fold once; no metric-driven model selection"
+      },
+      "receipt_sha256": "a5ca5b53e4994f6df28d6793b44ceafd55e137ca5de24dfe43a2f8dcb9990a5a",
+      "metrics_actual_sha256": "f57002f45e2cdcc3943d864034400abb038fba3e765af05e05ec08ae850fedd0",
+      "original_remote_prediction_dir": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2"
+    },
+    {
+      "model": "SwinUNETR",
+      "instance": 5,
+      "receipt": {
+        "status": "COMPLETE_FOLD_OOF",
+        "fold": 1,
+        "tracer": "AV45",
+        "epoch": 200,
+        "metric_rows": 690,
+        "metrics_sha256": "43d9009f939d10fba277e88bef87926b0d4ce8cf721144fe1bb4c9b40ffdbbb1",
+        "checkpoint_sha256": "32205419bd045a44ecb6a7a2b98d586a2868d35ec20d8a2633afbbd2603a3549",
+        "prediction_policy": "held-out fold once; no metric-driven model selection"
+      },
+      "receipt_sha256": "01b6c8a20a5bb4e3f8d97e2cd29ffecb6e30f15e181b742990793145a61380b7",
+      "metrics_actual_sha256": "43d9009f939d10fba277e88bef87926b0d4ce8cf721144fe1bb4c9b40ffdbbb1",
+      "original_remote_prediction_dir": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1"
+    },
+    {
+      "model": "SwinUNETR",
+      "instance": 6,
+      "receipt": {
+        "status": "COMPLETE_FOLD_OOF",
+        "fold": 2,
+        "tracer": "AV45",
+        "epoch": 200,
+        "metric_rows": 675,
+        "metrics_sha256": "ca41244bf8aa4848b298c6ac0a8a1440d28f7cab3c0e3d554076c04b54f6e223",
+        "checkpoint_sha256": "1220ad9011b4cc6cdde8a34ff77754c600ddcebf9d6eabc95803d93fc312140f",
+        "prediction_policy": "held-out fold once; no metric-driven model selection"
+      },
+      "receipt_sha256": "13c55a0b7aa56c6d6dc6667e7f09906346467e010c8f10d051d9117e9b9206ad",
+      "metrics_actual_sha256": "ca41244bf8aa4848b298c6ac0a8a1440d28f7cab3c0e3d554076c04b54f6e223",
+      "original_remote_prediction_dir": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2"
+    }
+  ]
+}

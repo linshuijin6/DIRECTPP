@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "task": "av45_fold1",
+      "model": "ClinicalUNet",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "av45_fold1",
+      "model": "SwinUNETR",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "av45_fold2",
+      "model": "ClinicalUNet",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "av45_fold2",
+      "model": "SwinUNETR",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "fdg_fold1",
+      "model": "ClinicalUNet",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "fdg_fold1",
+      "model": "SwinUNETR",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "fdg_fold2",
+      "model": "ClinicalUNet",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    },
+    {
+      "task": "fdg_fold2",
+      "model": "SwinUNETR",
+      "differences": {
+        "ssim": 0.0,
+        "psnr": 0.0,
+        "mse": 0.0,
+        "mae": 0.0
+      },
+      "same_target_and_mask": true
+    }
+  ]
+}

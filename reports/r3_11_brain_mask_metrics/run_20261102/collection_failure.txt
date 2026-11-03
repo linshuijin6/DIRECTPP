@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/collect_and_analyze.py", line 130, in <module>
+    try:main()
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/collect_and_analyze.py", line 121, in main
+    assemble()
+  File "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/collect_and_analyze.py", line 77, in assemble
+    assert len(g)==3 and g.target_array_sha256.nunique()==1 and g.brain_mask_array_sha256.nunique()==1
+AssertionError

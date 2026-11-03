@@ -1,0 +1,645 @@
+{
+  "all_successful": false,
+  "shards": [
+    {
+      "name": "unet_0",
+      "pid": 1411417,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 186,
+      "started_epoch": 1793622578.4710119,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_0.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.916594
+    },
+    {
+      "name": "unet_1",
+      "pid": 1411427,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.509916,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_1.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.9612372
+    },
+    {
+      "name": "unet_2",
+      "pid": 1411410,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.4589813,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_2.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.6831977
+    },
+    {
+      "name": "unet_3",
+      "pid": 1411411,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.4593167,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_3.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.781606
+    },
+    {
+      "name": "unet_4",
+      "pid": 1411442,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.510915,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_4.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.295895
+    },
+    {
+      "name": "unet_5",
+      "pid": 1411423,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.459666,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_5.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.8551497
+    },
+    {
+      "name": "unet_6",
+      "pid": 1411429,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5100427,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_6.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.7301006
+    },
+    {
+      "name": "unet_7",
+      "pid": 1411421,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.460748,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_7.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.888802
+    },
+    {
+      "name": "unet_8",
+      "pid": 1411433,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.4713964,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_8.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.1634495
+    },
+    {
+      "name": "unet_9",
+      "pid": 1411436,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.471172,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_9.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.1139662
+    },
+    {
+      "name": "unet_10",
+      "pid": 1411425,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.4718287,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_10.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623223.803203
+    },
+    {
+      "name": "unet_11",
+      "pid": 1411450,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5110118,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_11.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.4128776
+    },
+    {
+      "name": "unet_12",
+      "pid": 1411452,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5355823,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_12.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.3821578
+    },
+    {
+      "name": "unet_13",
+      "pid": 1411438,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5188394,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_13.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.2509744
+    },
+    {
+      "name": "unet_14",
+      "pid": 1411444,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5345297,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_14.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.3532903
+    },
+    {
+      "name": "unet_15",
+      "pid": 1411454,
+      "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+      "files": 185,
+      "started_epoch": 1793622578.5419953,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_15.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.428439
+    },
+    {
+      "name": "swin_0_0",
+      "pid": 1411471,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1",
+      "files": 198,
+      "started_epoch": 1793622578.5735798,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_0_0.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.7292373
+    },
+    {
+      "name": "swin_0_1",
+      "pid": 1411467,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1",
+      "files": 198,
+      "started_epoch": 1793622578.5689983,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_0_1.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.6447036
+    },
+    {
+      "name": "swin_0_2",
+      "pid": 1411473,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1",
+      "files": 198,
+      "started_epoch": 1793622578.5693731,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_0_2.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.7701519
+    },
+    {
+      "name": "swin_0_3",
+      "pid": 1411468,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1",
+      "files": 197,
+      "started_epoch": 1793622578.5692499,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_0_3.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 44919 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.448177
+    },
+    {
+      "name": "swin_1_0",
+      "pid": 1411478,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2",
+      "files": 202,
+      "started_epoch": 1793622578.620642,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_1_0.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.8443992
+    },
+    {
+      "name": "swin_1_1",
+      "pid": 1411485,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2",
+      "files": 202,
+      "started_epoch": 1793622578.6209707,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_1_1.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.0451906
+    },
+    {
+      "name": "swin_1_2",
+      "pid": 1411483,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2",
+      "files": 201,
+      "started_epoch": 1793622578.6213217,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_1_2.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.1992142
+    },
+    {
+      "name": "swin_1_3",
+      "pid": 1411481,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2",
+      "files": 201,
+      "started_epoch": 1793622578.621626,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_1_3.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 22299 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/fdg_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.0768504
+    },
+    {
+      "name": "swin_2_0",
+      "pid": 1411479,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1",
+      "files": 173,
+      "started_epoch": 1793622578.622009,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_2_0.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623224.8778737
+    },
+    {
+      "name": "swin_2_1",
+      "pid": 1411487,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1",
+      "files": 172,
+      "started_epoch": 1793622578.6289597,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_2_1.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.2884321
+    },
+    {
+      "name": "swin_2_2",
+      "pid": 1411489,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1",
+      "files": 172,
+      "started_epoch": 1793622578.6223195,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_2_2.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.0558465
+    },
+    {
+      "name": "swin_2_3",
+      "pid": 1411493,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1",
+      "files": 172,
+      "started_epoch": 1793622578.6500473,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_2_3.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 15055 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold1/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.2399156
+    },
+    {
+      "name": "swin_3_0",
+      "pid": 1411503,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2",
+      "files": 169,
+      "started_epoch": 1793622578.69644,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_3_0.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.51312
+    },
+    {
+      "name": "swin_3_1",
+      "pid": 1411498,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2",
+      "files": 169,
+      "started_epoch": 1793622578.6856804,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_3_1.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.2942393
+    },
+    {
+      "name": "swin_3_2",
+      "pid": 1411499,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2",
+      "files": 169,
+      "started_epoch": 1793622578.6860864,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_3_2.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.3340282
+    },
+    {
+      "name": "swin_3_3",
+      "pid": 1411502,
+      "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+      "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2",
+      "files": 168,
+      "started_epoch": 1793622578.6924503,
+      "command": [
+        "rsync",
+        "-a",
+        "--ignore-existing",
+        "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_3_3.files.txt",
+        "-e",
+        "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+        "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+        "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2/"
+      ],
+      "returncode": 20,
+      "finished_epoch": 1793623225.4309456
+    }
+  ]
+}

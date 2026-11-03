@@ -1,0 +1,18 @@
+{
+  "name": "swin_3_1",
+  "pid": 1411498,
+  "source": "/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+  "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2",
+  "files": 169,
+  "started_epoch": 1793622578.6856804,
+  "command": [
+    "rsync",
+    "-a",
+    "--ignore-existing",
+    "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/swin_3_1.files.txt",
+    "-e",
+    "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+    "root@connect.westb.seetacloud.com:/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/swinunetr_epoch200/av45_fold2/"
+  ]
+}

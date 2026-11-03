@@ -1,0 +1,11 @@
+{
+  "Full_status": "COMPLETE",
+  "Full_metric_rows": 2961,
+  "Full_last_finished_epoch": 1793626273.4454646,
+  "assembly_status": "STOPPED_BY_EXACT_TARGET_IDENTITY_GATE",
+  "mismatched_subject_tracer_targets": 1401,
+  "mask_array_mismatches": 0,
+  "resolution": "Keep Full canonical PET fixed; losslessly transmit exact canonical arrays and recompute only affected baseline metrics; preserve all initial outputs.",
+  "source_images_modified": false,
+  "new_inference_or_training_launched": false
+}

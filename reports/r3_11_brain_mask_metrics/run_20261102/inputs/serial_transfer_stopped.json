@@ -1,0 +1,4 @@
+{
+  "pid": 1393587,
+  "reason": "Replace only this analysis-owned serial copy with disjoint parallel file-copy shards; preserve all copied files and partial transfer records."
+}

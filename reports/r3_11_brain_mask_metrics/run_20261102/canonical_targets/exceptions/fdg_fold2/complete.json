@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_EXACT_REFERENCE_TRANSPORT",
+  "targets": 391,
+  "payload": "exceptions.zip",
+  "sha256": "51c742558c560d13cdd353fe151718cfd596bc8da49746be4bac4e7ae5a7dc1a",
+  "bytes": 231048331,
+  "block_float32_values": 64,
+  "final_acceptance": "Full-array SHA-256, never block CRC alone",
+  "source_arrays_modified": false
+}

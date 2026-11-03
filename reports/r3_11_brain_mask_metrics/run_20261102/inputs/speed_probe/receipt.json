@@ -1,0 +1,46 @@
+[
+  {
+    "i": 0,
+    "port": 44919,
+    "seconds": 10.603572130203247,
+    "bytes": 16074853,
+    "rc": 0,
+    "stderr": "",
+    "original_path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_fdg_016_S_1263.nii.gz",
+    "local_copy": "reports/r3_11_brain_mask_metrics/run_20261102/inputs/speed_probe/probe0.nii.gz",
+    "expected_sha256": "4b515ea28b0ea937ca881de5ba6fdd89e579c9c6fc4346abeeb502d7ef0a153f"
+  },
+  {
+    "i": 1,
+    "port": 22299,
+    "seconds": 15.77892518043518,
+    "bytes": 16218218,
+    "rc": 0,
+    "stderr": "",
+    "original_path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_fdg_016_S_1326.nii.gz",
+    "local_copy": "reports/r3_11_brain_mask_metrics/run_20261102/inputs/speed_probe/probe1.nii.gz",
+    "expected_sha256": "7bb2f35ecfbf52624692d1bdc56372f2d4e0defde5d7d518944f5cff6198f2ea"
+  },
+  {
+    "i": 2,
+    "port": 15055,
+    "seconds": 11.855210781097412,
+    "bytes": 15900658,
+    "rc": 0,
+    "stderr": "",
+    "original_path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_av45_016_S_1326.nii.gz",
+    "local_copy": "reports/r3_11_brain_mask_metrics/run_20261102/inputs/speed_probe/probe2.nii.gz",
+    "expected_sha256": "04ae22db5207654d394f3ef38028d63ed9789575dd668ad05d9cce213c4d2755"
+  },
+  {
+    "i": 3,
+    "port": 51712,
+    "seconds": 8.848300457000732,
+    "bytes": 15956752,
+    "rc": 0,
+    "stderr": "",
+    "original_path": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_fdg_016_S_2007.nii.gz",
+    "local_copy": "reports/r3_11_brain_mask_metrics/run_20261102/inputs/speed_probe/probe3.nii.gz",
+    "expected_sha256": "ae20160a650882ec2f132f4d72c733b35291724f044d1e3639d1bf8313af40f5"
+  }
+]

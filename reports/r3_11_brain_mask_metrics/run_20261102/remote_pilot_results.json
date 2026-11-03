@@ -1,0 +1,78 @@
+[
+  {
+    "task": "av45_fold1",
+    "receipt": {
+      "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+      "tracer": "av45",
+      "fold": 1,
+      "metric_rows": 2,
+      "metrics_sha256": "89576d383e0ae2830d5bf81760e2854bfa06ea336fdc6841f4526e43f4f2d7d2",
+      "asset_checks_sha256": "47157e7960a5579594349965f386dc5e81fe8c040fd0ce51459c2ed9f811563a",
+      "elapsed_seconds": 1.8073391914367676,
+      "pilot": true,
+      "source_files_unchanged": true
+    },
+    "metrics_csv": "model,ptid,tracer,fold,epoch,ssim,psnr,mse,mae,mask_voxels,valid_ssim_centers,prediction,prediction_sha256,checkpoint_sha256,target_array_sha256,brain_mask_array_sha256\r\nClinicalUNet,002_S_0729,av45,1,165,0.8931719660758972,23.200735892366282,0.0047854899748802455,0.05314375564600582,1791324,1430920,/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_av45_002_S_0729.nii.gz,4bc93427856b180c53e3ab5b12e6801393c01f6f96f286f037668eb8353a15fe,a1258990474f4292fa965a0a6148be417cd30ac16045da56ec5d027c9bfca49b,216ab9f68dc743dca907c28be34cf1ad3d8e3f639bcaac07fe62667b5117b929,b4071ae511ad5529bebccd837ac05fe0f267200dfe0521f89b4f87042249a949\r\nSwinUNETR,002_S_0729,av45,1,200,0.8804449439048767,24.094009464678958,0.003895821531519095,0.04775519570150183,1791324,1430920,/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance5/oof/epoch200/AV45/fold1/generated_AV45_002_S_0729.nii.gz,25e9bfa3c1ac751f41864b7941c041a83fa7ded14079fa987c73113e11843c0e,32205419bd045a44ecb6a7a2b98d586a2868d35ec20d8a2633afbbd2603a3549,216ab9f68dc743dca907c28be34cf1ad3d8e3f639bcaac07fe62667b5117b929,b4071ae511ad5529bebccd837ac05fe0f267200dfe0521f89b4f87042249a949\r\n",
+    "exit": {
+      "returncode": 0,
+      "finished_epoch": 1793624013.19807
+    }
+  },
+  {
+    "task": "av45_fold2",
+    "receipt": {
+      "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+      "tracer": "av45",
+      "fold": 2,
+      "metric_rows": 2,
+      "metrics_sha256": "a39aa05f2a922539eada02b11dd6221c5d7d9811dd98d884822ab789bb643e4a",
+      "asset_checks_sha256": "8026623451407de785b8b9e832743b439a69b8fcff37f55d3575e60a561dedcc",
+      "elapsed_seconds": 1.7948086261749268,
+      "pilot": true,
+      "source_files_unchanged": true
+    },
+    "metrics_csv": "model,ptid,tracer,fold,epoch,ssim,psnr,mse,mae,mask_voxels,valid_ssim_centers,prediction,prediction_sha256,checkpoint_sha256,target_array_sha256,brain_mask_array_sha256\r\nClinicalUNet,002_S_0295,av45,2,165,0.8752984404563904,21.999025323985858,0.006310989645167087,0.0627341428828394,1843103,1480204,/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold2/generated_av45_002_S_0295.nii.gz,e395b831718cdaa035bb48436512482bff7508348d17e2da65affe9120ac43ce,948e7e5943f8537411e8df38128a77ea6bf5e0c799e3c2fe5561d996fa82923f,a8132f83f968ea178630ac1364fbf011a2c657967a78e6b1cc0e9a880d4c0e36,bf3815f82540c99506de59d2bb241cc2bbb43e8da56968e8d90894d787e26ee0\r\nSwinUNETR,002_S_0295,av45,2,200,0.8550077676773071,22.671109183984207,0.005406162324396587,0.05824053821504591,1843103,1480204,/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance6/oof/epoch200/AV45/fold2/generated_AV45_002_S_0295.nii.gz,bc60c7b441f362315253b5d8141ccf14e8ffc653a1d0c1f499a882ee24fa7c43,1220ad9011b4cc6cdde8a34ff77754c600ddcebf9d6eabc95803d93fc312140f,a8132f83f968ea178630ac1364fbf011a2c657967a78e6b1cc0e9a880d4c0e36,bf3815f82540c99506de59d2bb241cc2bbb43e8da56968e8d90894d787e26ee0\r\n",
+    "exit": {
+      "returncode": 0,
+      "finished_epoch": 1793624014.0524724
+    }
+  },
+  {
+    "task": "fdg_fold1",
+    "receipt": {
+      "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+      "tracer": "fdg",
+      "fold": 1,
+      "metric_rows": 2,
+      "metrics_sha256": "85db5adaec2a4d462e435b169b94e0cd0e509501b5525d0f11b21055f5ee3d83",
+      "asset_checks_sha256": "d879cbbad2f8305d6c5a01fbffa519cac68b908969cded9a288e59438b083ee5",
+      "elapsed_seconds": 1.0188305377960205,
+      "pilot": true,
+      "source_files_unchanged": true
+    },
+    "metrics_csv": "model,ptid,tracer,fold,epoch,ssim,psnr,mse,mae,mask_voxels,valid_ssim_centers,prediction,prediction_sha256,checkpoint_sha256,target_array_sha256,brain_mask_array_sha256\r\nClinicalUNet,002_S_0729,fdg,1,165,0.9159454107284546,23.041829752202368,0.004963831432207918,0.05598857912824585,1791324,1430920,/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold1/generated_fdg_002_S_0729.nii.gz,1674af9806f571bdb597ba85e200fb30b6c7e806998d9ee530cc15cd1757811b,a1258990474f4292fa965a0a6148be417cd30ac16045da56ec5d027c9bfca49b,4aff51a72dd30c008087f67559dd72a7d0c0ce4f34e50810ab6d251396dbbb35,b4071ae511ad5529bebccd837ac05fe0f267200dfe0521f89b4f87042249a949\r\nSwinUNETR,002_S_0729,fdg,1,200,0.9208094477653503,24.379086305402815,0.003648306941063825,0.04814456360033784,1791324,1430920,/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance3_v5/oof/epoch200/FDG/fold1/generated_FDG_002_S_0729.nii.gz,7bc4b5269cb82b10a122b4bb5023c6d31debcd685e44ec9bc065ea704ce312b9,4be94899dc8375851f936478a7dc6ba8acfa51d48351f0f6a8daa11d70d0edbd,4aff51a72dd30c008087f67559dd72a7d0c0ce4f34e50810ab6d251396dbbb35,b4071ae511ad5529bebccd837ac05fe0f267200dfe0521f89b4f87042249a949\r\n",
+    "exit": {
+      "returncode": 0,
+      "finished_epoch": 1793624009.8198783
+    }
+  },
+  {
+    "task": "fdg_fold2",
+    "receipt": {
+      "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+      "tracer": "fdg",
+      "fold": 2,
+      "metric_rows": 2,
+      "metrics_sha256": "d228e7f2b0242e1f212a1460253214cb79b02c9c927e3620430a965860953598",
+      "asset_checks_sha256": "a907d51e00fab8daf0baf4245110aeba1653241292e0a6a11466e1b9b2becead",
+      "elapsed_seconds": 1.6239042282104492,
+      "pilot": true,
+      "source_files_unchanged": true
+    },
+    "metrics_csv": "model,ptid,tracer,fold,epoch,ssim,psnr,mse,mae,mask_voxels,valid_ssim_centers,prediction,prediction_sha256,checkpoint_sha256,target_array_sha256,brain_mask_array_sha256\r\nClinicalUNet,002_S_0295,fdg,2,165,0.9094280004501343,24.726446875712554,0.0033678699462802207,0.04281374540956049,1843103,1480204,/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/fold2/generated_fdg_002_S_0295.nii.gz,a54bdbcbe2b7d99739ee8f01a59637d17cb9ca336f6acaec6fca8bd0334826d1,948e7e5943f8537411e8df38128a77ea6bf5e0c799e3c2fe5561d996fa82923f,0bbeede7c2ba9e2042353036fc192f371beed25e1cfdbe68799ca74f4489ed87,bf3815f82540c99506de59d2bb241cc2bbb43e8da56968e8d90894d787e26ee0\r\nSwinUNETR,002_S_0295,fdg,2,200,0.898408830165863,24.551845915319607,0.00350602822857772,0.043974179735017695,1843103,1480204,/root/autodl-tmp/DIRECTPP_swinunetr/20261029_instance4/oof/epoch200/FDG/fold2/generated_FDG_002_S_0295.nii.gz,58a6078b25fdd602b63c8a54b1fe286dfdd344db74e6c242da132823de29691f,cfa1a7062f0d10fc76c2f27e5cbd9350f9c2cbfc305a222a0e448a169108212b,0bbeede7c2ba9e2042353036fc192f371beed25e1cfdbe68799ca74f4489ed87,bf3815f82540c99506de59d2bb241cc2bbb43e8da56968e8d90894d787e26ee0\r\n",
+    "exit": {
+      "returncode": 0,
+      "finished_epoch": 1793624012.4132943
+    }
+  }
+]

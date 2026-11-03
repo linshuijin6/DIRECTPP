@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "metric_rows": 8883,
+  "subject_tracer_keys": 2961,
+  "summary_groups": 24,
+  "paired_tests": 16,
+  "max_summary_reaggregation_absolute_error": 3.552713678800501e-15,
+  "pair_identity_counts_targets_masks": "PASS",
+  "independent_summary_quantiles_sd": "PASS",
+  "independent_paired_ttest_dz_benefit_holm": "PASS",
+  "tables_match_csv_formatted_values": "PASS",
+  "supplementary_tables_have_no_PTIDs": "PASS",
+  "full_volume_direction_matches": 16,
+  "full_volume_direction_total": 16,
+  "latex_compile": "PASS: two pdflatex passes; two pages visually inspected; no warnings or overfull boxes",
+  "limitations": "Numerical engineering checks do not establish clinical validity or retraining robustness",
+  "independent_saved_latex_numeric_parse": "PASS: all 24 summary mean/SD cells match numeric CSV after declared rounding",
+  "corrected_case_direct_numpy_and_e1_cpu_ssim": "PASS: four additional corrected cases covering both tracers, folds and baseline types",
+  "exact_canonical_target_and_reference_transport": "PASS: full-array SHA-256 accepted for all 1401 targets",
+  "remaining_required_analysis": "None"
+}

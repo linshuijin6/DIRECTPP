@@ -1,0 +1,20 @@
+{
+  "name": "unet_11",
+  "pid": 1411450,
+  "source": "/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+  "destination": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165",
+  "files": 185,
+  "started_epoch": 1793622578.5110118,
+  "command": [
+    "rsync",
+    "-a",
+    "--ignore-existing",
+    "--files-from=/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/transfer/unet_11.files.txt",
+    "-e",
+    "ssh -o BatchMode=yes -o ConnectTimeout=12 -p 51712 -o \"ProxyCommand=ssh -o BatchMode=yes 3002 -W %h:%p\"",
+    "root@connect.westb.seetacloud.com:/autodl-fs/data/DIRECTPP_clinical_regression_unet/task_a_20261027/oof/epoch165/",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/inputs/clinical_unet_epoch165/"
+  ],
+  "returncode": 20,
+  "finished_epoch": 1793623224.4128776
+}

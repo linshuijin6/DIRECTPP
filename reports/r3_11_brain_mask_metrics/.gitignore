@@ -1,0 +1,7 @@
+# Large, lossless input-transfer copies; identities remain in the manifests.
+run_*/inputs/**/*.nii.gz
+run_*/inputs/**/*.npz
+run_*/inputs/**/*.zip
+run_*/canonical_targets/**/*.zip
+run_*/canonical_targets/**/*.npz
+__pycache__/

@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_REFERENCE_ENCODING",
+  "targets": 391,
+  "low_bits": 4,
+  "array_dtype": "float32",
+  "sha256": "61c9fced43a760546e713a896cab6b241545cbaeae18a98fedbd749a825c89c0",
+  "bytes": 495000680,
+  "elapsed_seconds": 52.962289571762085,
+  "source_files_modified": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "remote_sources": [
+    {
+      "port": 44919,
+      "actual_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "expected_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "pass": true
+    },
+    {
+      "port": 22299,
+      "actual_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "expected_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "pass": true
+    },
+    {
+      "port": 15055,
+      "actual_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "expected_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "pass": true
+    },
+    {
+      "port": 51712,
+      "actual_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "expected_ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+      "pass": true
+    }
+  ],
+  "original_evaluator_snapshot_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+  "original_source_startup_hash_gate": "Verified in preserved evaluator source; it asserts the source hash before evaluating any array",
+  "preserved_initial_receipt_metadata_issue": "ssim_source_sha256 incorrectly contains metric_rows because of a shadowed variable; original receipts retained. Numerical SSIM source checked at startup and independently here. Current evaluator uses distinct variable names; canonical recheck receipts carry the correct source hash.",
+  "numerical_metric_implementation_changed": false
+}

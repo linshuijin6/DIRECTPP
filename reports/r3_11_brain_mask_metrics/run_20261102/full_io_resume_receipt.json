@@ -1,0 +1,4 @@
+{
+  "stopped_analysis_pid": 1435426,
+  "reason": "Read each large frozen input once while verifying its hash; retain completed subjects and all pre-resume files. No training/inference process changed."
+}

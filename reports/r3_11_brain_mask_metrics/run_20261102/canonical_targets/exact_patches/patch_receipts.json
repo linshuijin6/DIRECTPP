@@ -1,0 +1,30 @@
+{
+  "status": "PASS_EXACT_LOSSLESS_TARGET_TRANSPORT",
+  "targets": 1401,
+  "tasks": {
+    "fdg_fold1": {
+      "sha256": "526aae83b38a19cdd65b368cc85b8a9b9381cd095f048137df9250b1291bb3bb",
+      "bytes": 350729697,
+      "targets": 404
+    },
+    "fdg_fold2": {
+      "sha256": "4eead76c8e5cff0e6042440747b4e1097cd91ba0c5f678f3db7bedb9cc76fa48",
+      "bytes": 339349862,
+      "targets": 391
+    },
+    "av45_fold1": {
+      "sha256": "da6ae3d7e2735c5dc1b2c9501a5ec104544c2cab5129318032c44908f41163ad",
+      "bytes": 335169700,
+      "targets": 312
+    },
+    "av45_fold2": {
+      "sha256": "1872994e16a6a4a76950ba887826d5320b2a8e03a51315d400cecdc4190b88f5",
+      "bytes": 325821662,
+      "targets": 294
+    }
+  },
+  "max_abs_difference": 2.384185791015625e-07,
+  "max_ulp_difference": 860457505,
+  "acceptance": "Every full reference and canonical array matches SHA-256; CRC used only for transport block selection",
+  "source_arrays_unchanged": true
+}

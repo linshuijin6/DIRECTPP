@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "compiler": "pdflatex",
+  "temporary_validation_directory": "/tmp/r3_11_latex_6khaz4o1",
+  "input_tables": [
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/supplementary_summary.tex",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/reports/r3_11_brain_mask_metrics/run_20261102/supplementary_paired.tex"
+  ],
+  "preview_files": [
+    "/tmp/r3_11_latex_6khaz4o1/preview-1.png",
+    "/tmp/r3_11_latex_6khaz4o1/preview-2.png"
+  ],
+  "warnings": [],
+  "passes": 2,
+  "rendered_review": "PASS: both compiled pages inspected; rows and notes readable with no clipping"
+}

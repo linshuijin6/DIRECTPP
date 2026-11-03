@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_FROZEN_MASKED_EVALUATION",
+  "tracer": "av45",
+  "fold": 2,
+  "metric_rows": 1350,
+  "metrics_sha256": "8f9f77e96b5888aa8341b7126181940ba54c573e2e30a8b1158428c70fa6e860",
+  "asset_checks_sha256": "77c8d6b7cb9a68814c6bce4be5a8553ccfa0699e33357c1934020e39d404527c",
+  "host": "autodl-container-5h9rm8rk3z-3396b382",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "torch": "2.5.1+cu124",
+  "evaluator_sha256": "d7123c5e806722b02a4cc38f82bbe9d933f2520ee5b0eaad574c8622a7532d92",
+  "shared_metrics_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+  "ssim_source_sha256": 1350,
+  "input_index_sha256": "7b0613d3afefcb83cb79d8725994cb3d160d91f320c5956c8e7a833ad53fb18a",
+  "elapsed_seconds": 846.2739117145538,
+  "pilot": false,
+  "source_files_unchanged": true
+}

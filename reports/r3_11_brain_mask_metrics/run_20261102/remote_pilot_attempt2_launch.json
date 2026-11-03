@@ -1,0 +1,30 @@
+[
+  {
+    "port": 44919,
+    "tracer": "fdg",
+    "fold": 1,
+    "control": "/root/autodl-fs/DIRECTPP_r3_11_brain_mask_metrics/run_20261102/pilot_attempt2/fdg_fold1",
+    "supervisor_pid": 153398
+  },
+  {
+    "port": 22299,
+    "tracer": "fdg",
+    "fold": 2,
+    "control": "/root/autodl-fs/DIRECTPP_r3_11_brain_mask_metrics/run_20261102/pilot_attempt2/fdg_fold2",
+    "supervisor_pid": 155692
+  },
+  {
+    "port": 15055,
+    "tracer": "av45",
+    "fold": 1,
+    "control": "/root/autodl-fs/DIRECTPP_r3_11_brain_mask_metrics/run_20261102/pilot_attempt2/av45_fold1",
+    "supervisor_pid": 53419
+  },
+  {
+    "port": 51712,
+    "tracer": "av45",
+    "fold": 2,
+    "control": "/root/autodl-fs/DIRECTPP_r3_11_brain_mask_metrics/run_20261102/pilot_attempt2/av45_fold2",
+    "supervisor_pid": 154652
+  }
+]

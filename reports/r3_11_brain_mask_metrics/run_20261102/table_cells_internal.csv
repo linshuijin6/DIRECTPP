@@ -1,0 +1,137 @@
+table,model_or_comparison,tracer,metric,display
+summary,Full,fdg,ssim,0.91844 ± 0.04026
+summary,Full,fdg,psnr,23.954 ± 2.271
+summary,Full,fdg,mse,0.004763 ± 0.004028
+summary,Full,fdg,mae,0.05257 ± 0.01921
+summary,Full,av45,ssim,0.86999 ± 0.06048
+summary,Full,av45,psnr,21.803 ± 2.602
+summary,Full,av45,mse,0.007959 ± 0.005469
+summary,Full,av45,mae,0.06845 ± 0.02394
+summary,ClinicalUNet,fdg,ssim,0.90208 ± 0.04256
+summary,ClinicalUNet,fdg,psnr,23.373 ± 2.019
+summary,ClinicalUNet,fdg,mse,0.005262 ± 0.003889
+summary,ClinicalUNet,fdg,mae,0.05509 ± 0.01795
+summary,ClinicalUNet,av45,ssim,0.86098 ± 0.05868
+summary,ClinicalUNet,av45,psnr,21.529 ± 2.363
+summary,ClinicalUNet,av45,mse,0.008237 ± 0.005320
+summary,ClinicalUNet,av45,mae,0.06976 ± 0.02276
+summary,SwinUNETR,fdg,ssim,0.89237 ± 0.03938
+summary,SwinUNETR,fdg,psnr,23.565 ± 2.013
+summary,SwinUNETR,fdg,mse,0.004997 ± 0.003300
+summary,SwinUNETR,fdg,mae,0.05404 ± 0.01672
+summary,SwinUNETR,av45,ssim,0.83615 ± 0.05878
+summary,SwinUNETR,av45,psnr,21.273 ± 2.429
+summary,SwinUNETR,av45,mse,0.008791 ± 0.005652
+summary,SwinUNETR,av45,mae,0.07228 ± 0.02363
+paired_Mean Δ,Full_vs_ClinicalUNet,fdg,ssim,0.01636
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,fdg,ssim,"[0.01577, 0.01699]"
+paired_t,Full_vs_ClinicalUNet,fdg,ssim,51.477
+paired_Cohen dz,Full_vs_ClinicalUNet,fdg,ssim,1.288
+paired_Full better (%),Full_vs_ClinicalUNet,fdg,ssim,95.7
+paired_Raw p,Full_vs_ClinicalUNet,fdg,ssim,<1e-300
+paired_Holm p,Full_vs_ClinicalUNet,fdg,ssim,<1e-300
+paired_Mean Δ,Full_vs_ClinicalUNet,fdg,psnr,0.581
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,fdg,psnr,"[0.529, 0.634]"
+paired_t,Full_vs_ClinicalUNet,fdg,psnr,21.474
+paired_Cohen dz,Full_vs_ClinicalUNet,fdg,psnr,0.537
+paired_Full better (%),Full_vs_ClinicalUNet,fdg,psnr,72.3
+paired_Raw p,Full_vs_ClinicalUNet,fdg,psnr,4.55e-90
+paired_Holm p,Full_vs_ClinicalUNet,fdg,psnr,3.18e-89
+paired_Mean Δ,Full_vs_ClinicalUNet,fdg,mse,-0.000499
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,fdg,mse,"[-0.000572, -0.000425]"
+paired_t,Full_vs_ClinicalUNet,fdg,mse,-13.116
+paired_Cohen dz,Full_vs_ClinicalUNet,fdg,mse,-0.328
+paired_Full better (%),Full_vs_ClinicalUNet,fdg,mse,72.3
+paired_Raw p,Full_vs_ClinicalUNet,fdg,mse,2.13e-37
+paired_Holm p,Full_vs_ClinicalUNet,fdg,mse,1.28e-36
+paired_Mean Δ,Full_vs_ClinicalUNet,fdg,mae,-0.00253
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,fdg,mae,"[-0.00295, -0.00210]"
+paired_t,Full_vs_ClinicalUNet,fdg,mae,-11.670
+paired_Cohen dz,Full_vs_ClinicalUNet,fdg,mae,-0.292
+paired_Full better (%),Full_vs_ClinicalUNet,fdg,mae,66.9
+paired_Raw p,Full_vs_ClinicalUNet,fdg,mae,2.96e-30
+paired_Holm p,Full_vs_ClinicalUNet,fdg,mae,1.18e-29
+paired_Mean Δ,Full_vs_ClinicalUNet,av45,ssim,0.00901
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,av45,ssim,"[0.00754, 0.01051]"
+paired_t,Full_vs_ClinicalUNet,av45,ssim,11.881
+paired_Cohen dz,Full_vs_ClinicalUNet,av45,ssim,0.322
+paired_Full better (%),Full_vs_ClinicalUNet,av45,ssim,69.0
+paired_Raw p,Full_vs_ClinicalUNet,av45,ssim,4.79e-31
+paired_Holm p,Full_vs_ClinicalUNet,av45,ssim,2.39e-30
+paired_Mean Δ,Full_vs_ClinicalUNet,av45,psnr,0.273
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,av45,psnr,"[0.178, 0.370]"
+paired_t,Full_vs_ClinicalUNet,av45,psnr,5.585
+paired_Cohen dz,Full_vs_ClinicalUNet,av45,psnr,0.151
+paired_Full better (%),Full_vs_ClinicalUNet,av45,psnr,57.8
+paired_Raw p,Full_vs_ClinicalUNet,av45,psnr,2.82e-08
+paired_Holm p,Full_vs_ClinicalUNet,av45,psnr,8.45e-08
+paired_Mean Δ,Full_vs_ClinicalUNet,av45,mse,-0.000278
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,av45,mse,"[-0.000488, -0.000066]"
+paired_t,Full_vs_ClinicalUNet,av45,mse,-2.609
+paired_Cohen dz,Full_vs_ClinicalUNet,av45,mse,-0.071
+paired_Full better (%),Full_vs_ClinicalUNet,av45,mse,57.8
+paired_Raw p,Full_vs_ClinicalUNet,av45,mse,0.00917
+paired_Holm p,Full_vs_ClinicalUNet,av45,mse,0.00962
+paired_Mean Δ,Full_vs_ClinicalUNet,av45,mae,-0.00131
+paired_95% bootstrap CI,Full_vs_ClinicalUNet,av45,mae,"[-0.00223, -0.00040]"
+paired_t,Full_vs_ClinicalUNet,av45,mae,-2.824
+paired_Cohen dz,Full_vs_ClinicalUNet,av45,mae,-0.076
+paired_Full better (%),Full_vs_ClinicalUNet,av45,mae,56.4
+paired_Raw p,Full_vs_ClinicalUNet,av45,mae,0.00481
+paired_Holm p,Full_vs_ClinicalUNet,av45,mae,0.00962
+paired_Mean Δ,Full_vs_SwinUNETR,fdg,ssim,0.02607
+paired_95% bootstrap CI,Full_vs_SwinUNETR,fdg,ssim,"[0.02553, 0.02663]"
+paired_t,Full_vs_SwinUNETR,fdg,ssim,92.200
+paired_Cohen dz,Full_vs_SwinUNETR,fdg,ssim,2.307
+paired_Full better (%),Full_vs_SwinUNETR,fdg,ssim,99.0
+paired_Raw p,Full_vs_SwinUNETR,fdg,ssim,<1e-300
+paired_Holm p,Full_vs_SwinUNETR,fdg,ssim,<1e-300
+paired_Mean Δ,Full_vs_SwinUNETR,fdg,psnr,0.389
+paired_95% bootstrap CI,Full_vs_SwinUNETR,fdg,psnr,"[0.337, 0.443]"
+paired_t,Full_vs_SwinUNETR,fdg,psnr,14.239
+paired_Cohen dz,Full_vs_SwinUNETR,fdg,psnr,0.356
+paired_Full better (%),Full_vs_SwinUNETR,fdg,psnr,66.8
+paired_Raw p,Full_vs_SwinUNETR,fdg,psnr,2.11e-43
+paired_Holm p,Full_vs_SwinUNETR,fdg,psnr,1.26e-42
+paired_Mean Δ,Full_vs_SwinUNETR,fdg,mse,-0.000233
+paired_95% bootstrap CI,Full_vs_SwinUNETR,fdg,mse,"[-0.000311, -0.000151]"
+paired_t,Full_vs_SwinUNETR,fdg,mse,-5.733
+paired_Cohen dz,Full_vs_SwinUNETR,fdg,mse,-0.143
+paired_Full better (%),Full_vs_SwinUNETR,fdg,mse,66.8
+paired_Raw p,Full_vs_SwinUNETR,fdg,mse,1.18e-08
+paired_Holm p,Full_vs_SwinUNETR,fdg,mse,1.18e-08
+paired_Mean Δ,Full_vs_SwinUNETR,fdg,mae,-0.00148
+paired_95% bootstrap CI,Full_vs_SwinUNETR,fdg,mae,"[-0.00191, -0.00105]"
+paired_t,Full_vs_SwinUNETR,fdg,mae,-6.681
+paired_Cohen dz,Full_vs_SwinUNETR,fdg,mae,-0.167
+paired_Full better (%),Full_vs_SwinUNETR,fdg,mae,63.3
+paired_Raw p,Full_vs_SwinUNETR,fdg,mae,3.26e-11
+paired_Holm p,Full_vs_SwinUNETR,fdg,mae,6.52e-11
+paired_Mean Δ,Full_vs_SwinUNETR,av45,ssim,0.03383
+paired_95% bootstrap CI,Full_vs_SwinUNETR,av45,ssim,"[0.03274, 0.03493]"
+paired_t,Full_vs_SwinUNETR,av45,ssim,59.128
+paired_Cohen dz,Full_vs_SwinUNETR,av45,ssim,1.601
+paired_Full better (%),Full_vs_SwinUNETR,av45,ssim,95.2
+paired_Raw p,Full_vs_SwinUNETR,av45,ssim,<1e-300
+paired_Holm p,Full_vs_SwinUNETR,av45,ssim,<1e-300
+paired_Mean Δ,Full_vs_SwinUNETR,av45,psnr,0.530
+paired_95% bootstrap CI,Full_vs_SwinUNETR,av45,psnr,"[0.451, 0.609]"
+paired_t,Full_vs_SwinUNETR,av45,psnr,13.216
+paired_Cohen dz,Full_vs_SwinUNETR,av45,psnr,0.358
+paired_Full better (%),Full_vs_SwinUNETR,av45,psnr,65.1
+paired_Raw p,Full_vs_SwinUNETR,av45,psnr,1.3e-37
+paired_Holm p,Full_vs_SwinUNETR,av45,psnr,6.52e-37
+paired_Mean Δ,Full_vs_SwinUNETR,av45,mse,-0.000832
+paired_95% bootstrap CI,Full_vs_SwinUNETR,av45,mse,"[-0.001003, -0.000658]"
+paired_t,Full_vs_SwinUNETR,av45,mse,-9.563
+paired_Cohen dz,Full_vs_SwinUNETR,av45,mse,-0.259
+paired_Full better (%),Full_vs_SwinUNETR,av45,mse,65.1
+paired_Raw p,Full_vs_SwinUNETR,av45,mse,5.15e-21
+paired_Holm p,Full_vs_SwinUNETR,av45,mse,1.55e-20
+paired_Mean Δ,Full_vs_SwinUNETR,av45,mae,-0.00383
+paired_95% bootstrap CI,Full_vs_SwinUNETR,av45,mae,"[-0.00459, -0.00309]"
+paired_t,Full_vs_SwinUNETR,av45,mae,-10.003
+paired_Cohen dz,Full_vs_SwinUNETR,av45,mae,-0.271
+paired_Full better (%),Full_vs_SwinUNETR,av45,mae,64.1
+paired_Raw p,Full_vs_SwinUNETR,av45,mae,8.81e-23
+paired_Holm p,Full_vs_SwinUNETR,av45,mae,3.52e-22

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_EXACT_CANONICAL_TARGET_RECHECK",
+  "metric_rows": 782,
+  "targets": 391,
+  "metrics_sha256": "67d026f571d6fa3b31c1c28b4a7682b12edb9264f9437af2923fb36797788ba9",
+  "asset_checks_sha256": "d43c268cf82b64f7192c4f799d21876931f800bbe74a4120d1620ca61324d4c2",
+  "evaluator_sha256": "3e781f8ecc1256a77a74b37e516b6a1aea3c77197dddc6a2bf9e73809a34e099",
+  "metrics_helper_sha256": "31fcd8a8cb29ab72f1c1a6175d2910845b76af46b6006b083f24db2d7808524e",
+  "ssim_source_sha256": "33ed60cd35f9cc58fcca968c23c6fa979150cfa1fa8eb589b8be095f0e31d2c9",
+  "host": "autodl-container-58a0ln8rhl-a7b5e942",
+  "torch": "2.5.1+cu124",
+  "elapsed_seconds": 545.1853227615356,
+  "source_arrays_modified": false,
+  "new_predictions_generated": false
+}

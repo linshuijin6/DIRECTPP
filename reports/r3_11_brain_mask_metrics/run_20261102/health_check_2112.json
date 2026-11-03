@@ -1,0 +1,55 @@
+{
+  "checked_epoch": 1793625121.5426059,
+  "local_full": [
+    {
+      "shard": 0,
+      "pid": 1449936,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "shard": 1,
+      "pid": 1449937,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "shard": 2,
+      "pid": 1449946,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "shard": 3,
+      "pid": 1449947,
+      "alive": true,
+      "exit": null
+    }
+  ],
+  "remote_baselines": [
+    {
+      "task": "fdg_fold1",
+      "pid": 153691,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "task": "fdg_fold2",
+      "pid": 155935,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "task": "av45_fold1",
+      "pid": 53503,
+      "alive": true,
+      "exit": null
+    },
+    {
+      "task": "av45_fold2",
+      "pid": 154895,
+      "alive": true,
+      "exit": null
+    }
+  ]
+}

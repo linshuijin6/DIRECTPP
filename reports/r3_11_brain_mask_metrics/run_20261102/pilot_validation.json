@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "Full",
+      "ptid": "002_S_0729",
+      "tracer": "fdg",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.9389627575874329,
+      "gpu_masked_ssim": 0.9389627575874329,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 8.673617379884035e-18,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9436302185058594,
+      "whole_ssim_frozen": "0.9436797499656676",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "Full",
+      "ptid": "002_S_0729",
+      "tracer": "av45",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.8578085899353027,
+      "gpu_masked_ssim": 0.8578085899353027,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 2.949029909160572e-17,
+      "direct_numpy_mae_error": 2.7755575615628914e-17,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.8855535387992859,
+      "whole_ssim_frozen": "0.8856057524681091",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "ClinicalUNet",
+      "ptid": "002_S_0729",
+      "tracer": "fdg",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.9159454107284546,
+      "gpu_masked_ssim": 0.9159454107284546,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 1.734723475976807e-18,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9218570590019226,
+      "whole_ssim_frozen": "0.9218571782112122",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "ClinicalUNet",
+      "ptid": "002_S_0729",
+      "tracer": "av45",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.8931719660758972,
+      "gpu_masked_ssim": 0.8931719660758972,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 1.734723475976807e-18,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.8745290637016296,
+      "whole_ssim_frozen": "0.8745287656784058",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "SwinUNETR",
+      "ptid": "002_S_0729",
+      "tracer": "av45",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.8804449439048767,
+      "gpu_masked_ssim": 0.8804449439048767,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 2.688821387764051e-17,
+      "direct_numpy_mae_error": 1.3877787807814457e-17,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.8938194513320923,
+      "whole_ssim_frozen": "0.8938190340995789",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "SwinUNETR",
+      "ptid": "002_S_0729",
+      "tracer": "fdg",
+      "fold": "1",
+      "e1_cpu_masked_ssim": 0.9208094477653503,
+      "gpu_masked_ssim": 0.9208094477653503,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 9.974659986866641e-18,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9360877275466919,
+      "whole_ssim_frozen": "0.9360879063606262",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "Full",
+      "ptid": "002_S_0295",
+      "tracer": "fdg",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.9195106029510498,
+      "gpu_masked_ssim": 0.9195106029510498,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 8.239936510889834e-18,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9268710613250732,
+      "whole_ssim_frozen": "0.926905870437622",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "Full",
+      "ptid": "002_S_0295",
+      "tracer": "av45",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.9070256352424622,
+      "gpu_masked_ssim": 0.9070256352424622,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 6.938893903907228e-18,
+      "direct_numpy_mae_error": 1.3877787807814457e-17,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9147823452949524,
+      "whole_ssim_frozen": "0.9148077964782716",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "ClinicalUNet",
+      "ptid": "002_S_0295",
+      "tracer": "fdg",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.9094280004501343,
+      "gpu_masked_ssim": 0.9094280004501343,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 2.0816681711721685e-17,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9100668430328369,
+      "whole_ssim_frozen": "0.9100669026374817",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "ClinicalUNet",
+      "ptid": "002_S_0295",
+      "tracer": "av45",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.8752984404563904,
+      "gpu_masked_ssim": 0.8752984404563904,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 1.3010426069826053e-17,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.8584908246994019,
+      "whole_ssim_frozen": "0.8584908843040466",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "SwinUNETR",
+      "ptid": "002_S_0295",
+      "tracer": "av45",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.8550077676773071,
+      "gpu_masked_ssim": 0.8550077676773071,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 3.2959746043559335e-17,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9034836888313293,
+      "whole_ssim_frozen": "0.9034838080406189",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "model": "SwinUNETR",
+      "ptid": "002_S_0295",
+      "tracer": "fdg",
+      "fold": "2",
+      "e1_cpu_masked_ssim": 0.898408830165863,
+      "gpu_masked_ssim": 0.898408830165863,
+      "ssim_absolute_error": 0.0,
+      "direct_numpy_mse_error": 1.0408340855860843e-17,
+      "direct_numpy_mae_error": 0.0,
+      "valid_centers_independent_erosion_equal": true,
+      "whole_ssim_recomputed": 0.9319775104522705,
+      "whole_ssim_frozen": "0.931976854801178",
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "device": "cuda:2",
+  "ssim_tolerance": 2e-06,
+  "purpose_of_tolerance": "Numerical CPU/GPU SSIM agreement; not a scientific effect or equivalence margin",
+  "ssim_protocol": "E1 Gaussian float32 SSIM field, kernel 7, sigma 1.5, range 1; unchanged image arrays; mean over complete-mask windows only"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_EXACT_REFERENCE_TRANSPORT",
+  "targets": 391,
+  "payload": "block_crc.zip",
+  "sha256": "05b99d925005c7f3a0c4ad4f3f8d45aaad81384017e2e6e92b9f2bb8996d88a9",
+  "bytes": 79069143,
+  "block_float32_values": 64,
+  "final_acceptance": "Full-array SHA-256, never block CRC alone",
+  "source_arrays_modified": false
+}

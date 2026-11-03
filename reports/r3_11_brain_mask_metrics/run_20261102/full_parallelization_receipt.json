@@ -1,0 +1,6 @@
+{
+  "stopped_own_evaluation_pid": 1443315,
+  "complete_subjects_preserved": 120,
+  "metric_rows_preserved": 184,
+  "reason": "Disjoint subject shards; preserve prior partial files; no training or inference processes modified."
+}
