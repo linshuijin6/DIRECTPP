@@ -1,0 +1,22 @@
+{
+  "prepared_local_materials": [
+    "56-point source-traceable response PDF and LaTeX",
+    "one-page revision cover letter",
+    "clean manuscript, highlighted combined revision, standalone Supplementary Materials",
+    "separate figure PDFs and high-resolution exports, native SVG and historical editable-source candidates",
+    "plain-text submission abstract",
+    "delivery manifest with SHA-256"
+  ],
+  "unverified_author_materials": [
+    "all-author signed License to Publish",
+    "all-author signed Conflict of Interest",
+    "applicable reused-material permissions",
+    "authorship change documentation if applicable",
+    "decision-letter extra attachments"
+  ],
+  "online_submission_performed": false,
+  "signatures_created_or_asserted": false,
+  "presentation_requires_author_review": [
+    "Horizontal Figure4 and atlas-ID regrouping/order of S1–S4 differ from the historical raster layout."
+  ]
+}

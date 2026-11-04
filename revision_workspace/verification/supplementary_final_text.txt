@@ -1,0 +1,1431 @@
+                                   Supplementary Materials
+                                         BMEF-D-26-00169
+
+
+
+Supplementary Results
+
+Table S1: Demographic characteristics and prepared clinical inputs of ADNI. Data are
+mean ± sample s.d., except counts. Demographic P values use one-way ANOVA (age, weight) or a
+chi-square test (sex). Clinical summaries combine observed and diagnostic-group-conditioned filled
+scores; their group-comparison P values are omitted because the distributions are not independent
+clinical evidence. Source missingness is reported in Table S4. CDR: Clinical Dementia Rating;
+MMSE: Mini-Mental State Examination.
+
+                        CN             EMCI             LMCI              MCI               AD                P
+ n                      577              291               152             520              317
+ Age (years)         72.55 ±          71.62 ±           72.44 ±         73.20 ±          74.90 ±           <0.001
+                       6.65              7.51              7.69            7.51             7.99
+ Weight (kg)         73.20 ±          80.77 ±           77.15 ±         72.90 ±          73.21 ±           0.0023
+                       24.13            16.67             16.64           22.33            18.64
+ Sex (M/F)           252/325          165/126            80/72          310/210          186/131           <0.001
+ MMSE                29.40 ±          27.50 ±           24.47 ±         26.83 ±          20.84 ±             –
+                       0.70              0.50              0.50            1.24             1.97
+ GDSCALE              0.24 ±           1.00 ±            3.00 ±          1.81 ±           4.14 ±               –
+                       0.73              0.00              0.00            0.99             1.62
+ Global CDR           0.00 ±           0.15 ±            0.50 ±          0.42 ±           0.95 ±               –
+                       0.02              0.23              0.00            0.19             0.15
+ FAQ                  0.52 ±           3.11 ±            8.83 ±          5.33 ±          20.20 ±               –
+                       0.53              2.42              1.54            1.51             2.92
+ NPI-Q                0.01 ±           1.55 ±            4.00 ±          2.92 ±           4.98 ±               –
+                       0.19              2.17              0.00            0.50             0.65
+Note: CN = Cognitively Normal; EMCI = Early MCI; LMCI = Late MCI; MCI = the remaining MCI participants
+not assigned to EMCI or LMCI (MCI-U in the text); AD = Alzheimer’s dementia. Zero standard deviations reflect
+ constant prepared scores, including diagnosis-conditioned fills; they do not establish absence of clinical variability.
+  The original CN weight entries span 0–227 kg and are retained without exclusions or replacements; their clinical
+                             validity and the meaning of zero entries remain unresolved.
+
+
+   The historical OASIS-3 external cohort comprised 419 PUP-processed AV45 participants (334
+CN, 85 AD); the 117 FDG participants without the corresponding processing were not included.
+The age distributions differed between diagnostic groups (Table S2). Reported clinical summaries
+do not establish which complete prompt fields were used in every external run or how unavailable
+
+
+                                                           1
+                              AV45: remaining regional real–synthetic uptake (part 1/2)
+
+
+
+
+      L cerebral WM                                                                  R Caudate
+
+  L Lateral Ventricle                                                               R Putamen
+
+       L Inf Lat Vent                                                                R Pallidum
+
+   L cerebellum WM                                                             R Hippocampus
+
+ L cerebellum cortex
+                                                                                   R Amygdala
+
+         L Thalamus
+                                                                            R Accumbens area
+
+          L Caudate
+                                                                                   R ventral DC
+
+         L Putamen
+                                                                                    L bankssts
+          L Pallidum
+                                                                        L caudal ant. cingulate
+       3rd Ventricle
+                                                                        L caudal middle frontal
+       4th Ventricle
+                                                                                      L cuneus
+         Brain Stem
+                                                                                   L entorhinal
+     L Hippocampus
+                                                                                     L fusiform
+        L Amygdala
+                                                                             L inferior parietal
+                 CSF
+                                                                            L inferior temporal
+  L Accumbens area
+
+                                                                           L isthmus cingulate
+        L ventral DC
+
+                                                                             L lateral occipital
+      R cerebral WM
+
+                                                                         L lateral orbitofrontal
+  R Lateral Ventricle
+
+       R Inf Lat Vent                                                                 L lingual
+
+
+   R cerebellum WM                                                       L medial orbitofrontal
+
+
+R cerebellum cortex                                                         L middle temporal
+
+
+        R Thalamus                                                         L parahippocampal
+
+
+
+
+                        0.0              0.5              1.0                                      0.0             0.5              1.0
+                               Normalized uptake (a.u.)                                                  Normalized uptake (a.u.)
+                                                            Real       Synthetic
+
+
+
+Figure S1: Comparison of real and synthetic AV45 uptake across the remaining brain
+regions (Part 1 of 2). Values represent mean regional intensities from per-image min–max-
+normalized PET images (arbitrary units), rather than SUVR.
+
+
+
+
+                                                                   2
+                                  AV45: remaining regional real–synthetic uptake (part 2/2)
+
+
+
+
+           L paracentral                                                       R isthmus cingulate
+
+      L pars opercularis                                                         R lateral occipital
+
+         L pars orbitalis                                                    R lateral orbitofrontal
+
+     L pars triangularis                                                                    R lingual
+
+         L pericalcarine
+                                                                             R medial orbitofrontal
+
+           L postcentral
+                                                                                R middle temporal
+
+   L posterior cingulate
+                                                                               R parahippocampal
+
+            L precentral
+                                                                                       R paracentral
+ L rostral ant. cingulate
+                                                                                 R pars opercularis
+ L rostral middle frontal
+                                                                                      R pars orbitalis
+     L superior parietal
+                                                                                R pars triangularis
+    L superior temporal
+                                                                                      R pericalcarine
+       L supramarginal
+                                                                                       R postcentral
+ L transverse temporal
+                                                                              R posterior cingulate
+                L insula
+                                                                                        R precentral
+             R bankssts
+
+                                                                            R rostral ant. cingulate
+R caudal ant. cingulate
+
+                                                                            R rostral middle frontal
+R caudal middle frontal
+
+                                                                                R superior parietal
+               R cuneus
+
+            R entorhinal                                                       R superior temporal
+
+
+              R fusiform                                                          R supramarginal
+
+
+      R inferior parietal                                                    R transverse temporal
+
+
+     R inferior temporal                                                                     R insula
+
+
+
+
+                            0.0              0.5              1.0                                        0.0             0.5              1.0
+                                   Normalized uptake (a.u.)                                                    Normalized uptake (a.u.)
+                                                               Real       Synthetic
+
+
+
+Figure S2: Comparison of real and synthetic AV45 uptake across the remaining brain
+regions (Part 2 of 2). Values represent mean regional intensities from per-image min–max-
+normalized PET images (arbitrary units), rather than SUVR.
+
+
+
+
+                                                                      3
+                              FDG: remaining regional real–synthetic uptake (part 1/2)
+
+
+
+
+      L cerebral WM                                                                 R Caudate
+
+  L Lateral Ventricle                                                              R Putamen
+
+       L Inf Lat Vent                                                               R Pallidum
+
+   L cerebellum WM                                                            R Hippocampus
+
+ L cerebellum cortex
+                                                                                  R Amygdala
+
+         L Thalamus
+                                                                           R Accumbens area
+
+          L Caudate
+                                                                                  R ventral DC
+
+         L Putamen
+                                                                                   L bankssts
+          L Pallidum
+                                                                       L caudal ant. cingulate
+       3rd Ventricle
+                                                                       L caudal middle frontal
+       4th Ventricle
+                                                                                     L cuneus
+         Brain Stem
+                                                                                  L entorhinal
+     L Hippocampus
+                                                                                    L fusiform
+        L Amygdala
+                                                                            L inferior parietal
+                 CSF
+                                                                           L inferior temporal
+  L Accumbens area
+
+                                                                          L isthmus cingulate
+        L ventral DC
+
+                                                                            L lateral occipital
+      R cerebral WM
+
+                                                                        L lateral orbitofrontal
+  R Lateral Ventricle
+
+       R Inf Lat Vent                                                                L lingual
+
+
+   R cerebellum WM                                                      L medial orbitofrontal
+
+
+R cerebellum cortex                                                        L middle temporal
+
+
+        R Thalamus                                                        L parahippocampal
+
+
+
+
+                        0.0             0.5              1.0                                      0.0             0.5              1.0
+                              Normalized uptake (a.u.)                                                  Normalized uptake (a.u.)
+                                                           Real       Synthetic
+
+
+
+Figure S3: Comparison of real and synthetic FDG uptake across the remaining brain
+regions (Part 1 of 2). Values represent mean regional intensities from per-image min–max-
+normalized PET images (arbitrary units), rather than SUVR.
+
+
+
+
+                                                                  4
+                                  FDG: remaining regional real–synthetic uptake (part 2/2)
+
+
+
+
+           L paracentral                                                      R isthmus cingulate
+
+      L pars opercularis                                                        R lateral occipital
+
+         L pars orbitalis                                                   R lateral orbitofrontal
+
+     L pars triangularis                                                                   R lingual
+
+         L pericalcarine
+                                                                            R medial orbitofrontal
+
+           L postcentral
+                                                                               R middle temporal
+
+   L posterior cingulate
+                                                                              R parahippocampal
+
+            L precentral
+                                                                                      R paracentral
+ L rostral ant. cingulate
+                                                                                R pars opercularis
+ L rostral middle frontal
+                                                                                     R pars orbitalis
+     L superior parietal
+                                                                               R pars triangularis
+    L superior temporal
+                                                                                     R pericalcarine
+       L supramarginal
+                                                                                      R postcentral
+ L transverse temporal
+                                                                             R posterior cingulate
+                L insula
+                                                                                       R precentral
+             R bankssts
+
+                                                                           R rostral ant. cingulate
+R caudal ant. cingulate
+
+                                                                           R rostral middle frontal
+R caudal middle frontal
+
+                                                                               R superior parietal
+               R cuneus
+
+            R entorhinal                                                      R superior temporal
+
+
+              R fusiform                                                         R supramarginal
+
+
+      R inferior parietal                                                   R transverse temporal
+
+
+     R inferior temporal                                                                    R insula
+
+
+
+
+                            0.0             0.5              1.0                                        0.0             0.5              1.0
+                                  Normalized uptake (a.u.)                                                    Normalized uptake (a.u.)
+                                                              Real       Synthetic
+
+
+
+Figure S4: Comparison of real and synthetic FDG uptake across the remaining brain
+regions (Part 2 of 2). Values represent mean regional intensities from per-image min–max-
+normalized PET images (arbitrary units), rather than SUVR.
+
+
+
+
+                                                                     5
+                                 AV45 AD–CN complementary atlas regions
+                           1.2
+                                             ****                    ****                           ****                      ****                      ****
+                                             ****                    ****                           ****                      ****                      ****
+                           1.0
+Normalized uptake (a.u.)
+
+
+
+
+                           0.8
+
+
+                           0.6
+
+
+                           0.4
+
+
+                           0.2
+
+
+                           0.0
+                                            us
+
+
+
+
+                                                                    l
+
+
+
+
+                                                                                                                             l
+                                                                                                    l
+
+
+
+
+                                                                                                                                                     l
+                                                                    ra
+
+
+
+
+                                                                                                                             ra
+                                                                                                ra
+
+
+
+
+                                                                                                                                                     ra
+                                       ne
+
+
+
+
+                                                                  po
+
+
+
+
+                                                                                                                         po
+                                                                                            po
+
+
+
+
+                                                                                                                                                   po
+                                        u
+
+
+
+
+                                                              em
+
+
+
+
+                                                                                                                        em
+                                                                                            m
+
+
+
+
+                                                                                                                                                 m
+                                     ec
+
+
+
+
+                                                                                          te
+
+
+
+
+                                                                                                                                               te
+                                                             rt
+
+
+
+
+                                                                                                                   rt
+                                   pr
+
+
+
+
+                                                                                      e
+
+
+
+
+                                                                                                                                              e
+                                                        rio
+
+
+
+
+                                                                                                                  rio
+                                                                                     dl
+
+
+
+
+                                                                                                                                              rs
+                                  R
+
+
+
+
+                                                                                     id
+
+
+
+
+                                                                                                                                            ve
+                                                        fe
+
+
+
+
+                                                                                                                pe
+                                                                                 m
+                                                    in
+
+
+
+
+                                                                                                                                         ns
+                                                                                                              su
+                                                                                 R
+                                                    R
+
+
+
+
+                                                                                                                                        a
+                                                                                                            R
+
+
+
+
+                                                                                                                                     tr
+                                                                                                                                     R
+
+
+
+
+                                                                            CN            AD               Synthetic half
+
+
+Figure S5: Validation of disease-related AV45 uptake patterns across the remaining brain
+regions. Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s
+disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each
+region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half
+(dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities.
+Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate
+significance for synthetic PET. Uptake values were derived from per-image min–max-normalized
+PET images without reference-region normalization.
+
+
+
+
+                                                                                                6
+                                               FDG AD–CN complementary atlas regions
+                                         1.2
+                                                                         ****
+                                                                         ****
+                                         1.0
+              Normalized uptake (a.u.)
+
+
+
+
+                                         0.8
+
+
+                                         0.6
+
+
+                                         0.4
+
+
+                                         0.2
+
+
+                                         0.0
+                                                                        l
+                                                                     na
+                                                                  gi
+                                                                ar
+                                                              m
+                                                            ra
+                                                            p
+                                                         su
+                                                        R
+
+
+
+
+                                                   CN           AD              Synthetic half
+
+Figure S6: Validation of disease-related FDG uptake patterns across the remaining brain
+regions. Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s
+disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each
+region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half
+(dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities.
+Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate
+significance for synthetic PET. Uptake values were derived from per-image min–max-normalized
+PET images without reference-region normalization.
+
+
+
+
+                                                                     7
+fields were handled. The external results are restricted to AV45 synthesis in CN/AD and do not
+provide FDG or MCI external evidence.
+
+                     Table S2: Demographic characteristics of OASIS-3.
+
+                            CN                             AD                            P
+ n                          334                             85
+ Age (years)           66.33 ± 8.38                    72.76 ± 6.96                   <0.001
+ Sex (M/F)                143/191                         37/48                       >0.05
+ MMSE score            29.24 ± 0.90                    23.21 ± 3.51                   <0.001
+ Global CDR             0.01 ± 0.08                    0.73 ± 0.59                    <0.001
+                       Note: CN = Cognitively Normal; AD = Alzheimer’s dementia.
+
+
+
+Table S3: Historical core software dependencies and reported versions for DIReCT++.
+This retained environment list describes the historical configuration; reconstructed training and the
+timing run used separately recorded environments. In particular, the RTX 4090 timing run used
+PyTorch 2.5.1+cu121, as stated in Methods. The table is not a single environment specification for
+every experiment.
+
+ Package        Version                           Package             Version
+ Python         3.10                              PyTorch             2.6.0+cu118
+ torchvision    0.21.0+cu118                      torchaudio          2.6.0+cu118
+ CUDA           11.8                              cuDNN               9.1.0
+ einops         0.8.1                             transformers        4.40.2
+ tokenizers     0.19.1                            safetensors         0.5.3
+ xformers       0.0.29.post3                      faiss               1.9.0
+ monai          1.5.1                             numpy               2.2.4
+ scipy          1.15.2                            pandas              2.2.3
+ scikit-learn   1.6.1                             matplotlib          3.10.1
+ seaborn        0.13.2                            opencv-python       4.12.0.88
+ nibabel        5.3.2                             tensorboard         2.19.0
+ fsspec         2024.6.1                          huggingface-hub     0.30.1
+ protobuf       6.30.2                            triton              3.2.0
+
+
+
+Supplementary Methods: conditioning prompts and adapter analysis
+The following is the historical clinical prompt template, with bracketed field placeholders instead of
+participant identifiers or invented measurements. Values use the historical formatting (rounded age
+and scores, one decimal for weight and CDR). Its use does not validate the filled values as clinical
+observations.
+
+     Subject is a [age]-year-old [sex] with a weight of [weight] kg. The global Clinical Dementia
+     Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia),
+     is [global_cdr]. The Mini-Mental State Examination (MMSE) score, assessing cognitive func-
+     tion (0: severe impairment to 30: normal), is [mmse_score]. The Geriatric Depression Scale
+     (GDS) score, screening depression (0: no depression to 15: severe depression), is [gds_score].
+
+
+                                                   8
+Table S4: Missing clinical scores in the source records before historical filling. Each cell
+gives missing count / group size (percentage); missingness is defined relative to the first source CSV
+record selected for each participant, not all ADNI visits.
+
+ Score                    CN                EMCI                 LMCI                MCI-U                 AD
+ MMSE                  427/577              291/291             152/152             289/520              234/317
+                       (74.0%)             (100.0%)            (100.0%)             (55.6%)              (73.8%)
+ GDSCALE               429/577              291/291             152/152             289/520              234/317
+                       (74.4%)             (100.0%)            (100.0%)             (55.6%)              (73.8%)
+ Global CDR            427/577              291/291             152/152             289/520              234/317
+                       (74.0%)             (100.0%)            (100.0%)             (55.6%)              (73.8%)
+ FAQ                   561/577              167/291             151/152             489/520              306/317
+                       (97.2%)              (57.4%)             (99.3%)             (94.0%)              (96.5%)
+ NPI-Q                 563/577              167/291             152/152             491/520              306/317
+                       (97.6%)              (57.4%)            (100.0%)             (94.4%)              (96.5%)
+  Source records contain 1,751 observed and 7,534 missing score cells across 1,857 participants and five scores. All
+    available scores were retained. Historical filling used diagnostic-group rules: MMSE values were drawn from
+    group-specific integer sets; GDSCALE and NPI-Q used group-specific fixed values; FAQ used fixed values or
+group-specific integer sets/ranges; and CDR used fixed values or a group-specific Bernoulli choice for EMCI/MCI-U.
+       These are simulated inputs, not clinical observations or group-mean imputation. Their use can encode
+diagnostic-group information. The original random states were not recovered, and no re-imputation was performed.
+Age, sex and weight have no blank entries in the prepared table, which does not establish the clinical validity of every
+  entry. The clinical source row’s Image ID does not identify the actual MRI/PET acquisition used by the model.
+
+
+
+
+            Table S5: Reproducibility settings and scope of the revised analyses.
+
+ Component                        Recorded settings and limitations
+ Reconstructed generation         1,857 subjects; fixed two-fold partitions of 929/928, split seed 42. Full,
+                                  TracerOnly, TabularMLP and Single did not use a fixed training seed; de-
+                                  terministic repeated-training behavior is not claimed. Epoch 165 is the
+                                  principal comparison endpoint; MRI-only Swin-UNETR uses its prespeci-
+                                  fied epoch 200.
+ Classification                   Task-specific subject-level stratified three-fold splits (seed 42); 15% strati-
+                                  fied internal validation within each outer training fold. Fit seed 42 + 100 ×
+                                  task index+fold, with task index AD/CN=0, MCI/CN=1, EMCI/LMCI=2
+                                  and folds 1–3. Training lasts 200 epochs with validation every two epochs;
+                                  checkpoint selected by validation ACC; outer test evaluated once after
+                                  reloading.
+ Classification cohorts           AD/CN: 470 (165 AD, 305 CN); MCI/CN: 741 (436 EMCI+LMCI, 305
+                                  CN); EMCI/LMCI: 436 (287 EMCI, 149 LMCI). MCI-U excluded. The
+                                  task-specific partitions are shared across input conditions.
+ Source identity                  The historical classification Syn-PET inputs are distinct from the recon-
+                                  structed generation comparisons; a direct checkpoint binding between these
+                                  image families was not established. Existing classification inputs were not
+                                  regenerated.
+ Clinical source                  Clinical rows selected by first CSV record per participant; five score fields
+                                  contain diagnosis-conditioned fills. Original filling random states and com-
+                                  plete actual acquisition mappings were not recovered.
+
+
+
+
+                                                           9
+     The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0:
+     no impairment to 30: severe impairment), is [faq_score]. The Neuropsychiatric Inventory Ques-
+     tionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to
+     higher scores indicating greater burden), is [npi_q_score].
+
+FDG tracer prompt.
+
+     FDG PET is a functional brain imaging technique that visualizes the dynamic changes in glucose
+     metabolism, directly linked to neuronal energy demands and synaptic activity. It serves as a
+     tool to assess functional connectivity and energy utilization across brain regions. Areas with
+     decreased metabolic activity, such as those affected by neurodegenerative diseases, should exhibit
+     reduced signal intensity. High-intensity metabolic hotspots in gray matter (e.g., the cerebral
+     cortex and basal ganglia) are key markers of neuronal activity.
+
+AV45 tracer prompt.
+
+     AV45 PET is a molecular imaging technique that highlights the static distribution of amyloid-
+     beta plaques, a critical pathological marker of Alzheimer’s disease. This imaging modality
+     provides a spatial map of amyloid deposition in cortical regions (e.g., the temporal, parietal, and
+     frontal lobes) and can distinguish amyloid-positive areas from amyloid-negative white matter
+     regions. The primary focus is on identifying amyloid deposition patterns to assess disease
+     progression and pathological burden.
+
+The tracer texts are fixed model inputs; their statements about pathology or progression are not
+evidence that synthetic PET establishes a biological diagnosis or predicts progression.
+
+Table S6: Adapter-level sensitivity analysis of the cross-tracer soft target. Descriptive
+means across two folds, using 1,856 QC-filtered participants. Only training-fold PET features were
+used for fitting; held-out features were evaluated after optimization. No cross-term means removal
+of the penalty (λcross = 0), not a target of zero. No generator was retrained or evaluated in this
+analysis.
+
+                Setting          Training alignment        Held-out alignment   Cross-tracer
+                                 FDG         AV45          FDG         AV45      similarity
+                τ = 0.70         0.9437      0.9410        0.9436    0.9410        0.7032
+                τ = 0.82         0.9687      0.9661        0.9687    0.9661        0.8214
+                τ = 0.90         0.9838      0.9813        0.9838    0.9812        0.9018
+                τ = 0.98         0.9948      0.9923        0.9948    0.9923        0.9807
+                No cross-term    0.9952      0.9927        0.9952    0.9926        0.9897
+
+
+
+
+                                                      10
+     Table S7: Regional normalized uptake agreement and descriptive regression for the 16 representative tracer–ROI combina-
+     tions in Figure 4A,B. Overall cohorts from the author-designated historical ROI CSVs; N can vary by ROI.
+
+     Tracer ROI (ID)                      N Mean diff. [95% CI] MAE        CCC ICC(A,1) BA bias [95% LoA]            p      q     OLS slope [95% CI] Intercept [95% CI]
+                                                    0.00052                                         0.0005                               1.0127                -0.0064
+     AV45    L precuneus (1025)        1365   [-0.00056, 0.00159]   0.0163 0.9863   0.9863    [-0.0391, 0.0401]   0.3445 0.9786     [1.0038, 1.0215]    [-0.0114, -0.0014]
+                                                    0.00021                                         0.0002                               1.0008                -0.0002
+     AV45    R precuneus (2025)        1365   [-0.00079, 0.00120]   0.0150 0.9887   0.9887    [-0.0366, 0.0370]   0.6846 0.9786     [0.9928, 1.0088]     [-0.0047, 0.0043]
+                                                    0.00033                                         0.0003                               1.0037                -0.0012
+     AV45    L frontalpole (1032)      1365   [-0.00072, 0.00138]   0.0157 0.9808   0.9808    [-0.0385, 0.0392]   0.5384 0.9786     [0.9932, 1.0143]     [-0.0055, 0.0032]
+                                                    0.00039                                         0.0004                               1.0007                0.0001
+     AV45    R frontalpole (2032)      1364   [-0.00068, 0.00147]   0.0160 0.9815   0.9815    [-0.0392, 0.0400]   0.4746 0.9786     [0.9904, 1.0110]     [-0.0042, 0.0045]
+                                                    -0.00009                                       -0.0001                               0.9794                0.0078
+     AV45    L temporalpole (1033)     1365   [-0.00117, 0.00099]   0.0162 0.9591   0.9591    [-0.0399, 0.0398]   0.8769 0.9786     [0.9640, 0.9947]      [0.0019, 0.0137]
+                                                    0.00031                                         0.0003                               1.0087                -0.0032
+     AV45    R temporalpole (2033)     1365   [-0.00076, 0.00138]   0.0163 0.9644   0.9644    [-0.0392, 0.0399]   0.5667 0.9786     [0.9942, 1.0232]     [-0.0092, 0.0027]
+                                                    -0.00037                                       -0.0004                               1.0002                -0.0005
+     AV45    L superiorfrontal (1028) 1365    [-0.00146, 0.00073]   0.0165 0.9806   0.9807    [-0.0407, 0.0400]   0.5102 0.9786     [0.9896, 1.0107]     [-0.0058, 0.0049]
+                                                    0.00063                                         0.0006                               0.9970                0.0021
+     AV45    R superiorfrontal (2028) 1365    [-0.00041, 0.00168]   0.0157 0.9822   0.9822    [-0.0380, 0.0393]   0.2354 0.9786     [0.9869, 1.0071]     [-0.0030, 0.0073]
+11
+
+
+
+
+                                                    -0.00003                                       -0.0000                               0.9844                0.0108
+     FDG     L precuneus (1025)        1598   [-0.00100, 0.00093]   0.0156 0.9573   0.9573    [-0.0386, 0.0385]   0.9433 0.9774     [0.9699, 0.9990]      [0.0006, 0.0209]
+                                                    0.00010                                         0.0001                               0.9983                0.0013
+     FDG     R precuneus (2025)        1598   [-0.00086, 0.00105]   0.0156 0.9598   0.9598    [-0.0380, 0.0382]   0.8428 0.9774     [0.9841, 1.0125]     [-0.0086, 0.0111]
+                                                    0.00024                                         0.0002                               1.0039                -0.0019
+     FDG     L frontalpole (1032)      1598   [-0.00074, 0.00122]   0.0160 0.9586   0.9586    [-0.0389, 0.0394]   0.6273 0.9410     [0.9895, 1.0184]     [-0.0100, 0.0061]
+                                                    -0.00032                                       -0.0003                               1.0041                -0.0026
+     FDG     R frontalpole (2032)      1597   [-0.00130, 0.00065]   0.0159 0.9634   0.9634    [-0.0394, 0.0387]   0.5160 0.9410     [0.9906, 1.0177]     [-0.0103, 0.0050]
+                                                    -0.00034                                       -0.0003                               0.9934                0.0023
+     FDG     L temporalpole (1033)     1598   [-0.00132, 0.00063]   0.0159 0.9430   0.9430    [-0.0392, 0.0385]   0.4901 0.9410     [0.9764, 1.0105]     [-0.0046, 0.0091]
+                                                    0.00068                                         0.0007                               0.9902                0.0047
+     FDG     R temporalpole (2033)     1598   [-0.00030, 0.00166]   0.0161 0.9449   0.9449    [-0.0386, 0.0400]   0.1754 0.9410     [0.9736, 1.0069]     [-0.0022, 0.0116]
+                                                    0.00093                                         0.0009                               1.0101                -0.0052
+     FDG     L superiorfrontal (1028) 1598    [-0.00006, 0.00191]   0.0159 0.9438   0.9438    [-0.0385, 0.0403]   0.0657 0.9410     [0.9931, 1.0271]     [-0.0156, 0.0051]
+                                                    0.00081                                         0.0008                               1.0020                -0.0004
+     FDG     R superiorfrontal (2028) 1598    [-0.00017, 0.00178]   0.0158 0.9465   0.9465    [-0.0382, 0.0398]   0.1055 0.9410     [0.9855, 1.0185]     [-0.0104, 0.0096]
+
+        Differences and Bland–Altman (BA) bias are synthetic minus real uptake (arbitrary units after per-image min–max normalization). Mean-difference confidence
+       intervals and individual BA limits of agreement are distinct. CCC is Lin’s concordance correlation and ICC(A,1) is a two-way absolute-agreement single-measure
+     coefficient. Paired two-sided t-test p values are raw; BH-FDR q values use all 98 ROIs within each tracer’s overall cohort. OLS regresses synthetic on real uptake and
+            gives unadjusted descriptive 95% CIs. Non-significant differences and slopes close to one do not establish equivalence, clinical SUV/SUVR calibration or
+                                                                    interchangeable biological measurements.
+Table S8: AD–CN regional effect sizes and BH-FDR-adjusted comparisons for Fig-
+ure 4C–F. Cohen’s d is AD minus CN divided by the pooled within-group sample s.d.
+
+Panel Tracer ROI (ID)                                       NAD NCN     Real d     Syn d          Real q           Syn q
+C     AV45   L precuneus (1025)                             179   511    1.6783    1.6437   7.73 × 10−66    1.25 × 10−63
+C     AV45   L inferiortemporal (1009)                      179   511    1.6831    1.6337   4.68 × 10−66    4.74 × 10−63
+C     AV45   L middletemporal (1015)                        179   511    1.6482    1.6236   4.67 × 10−64    1.72 × 10−62
+C     AV45   L superiortemporal (1030)                      179   511    1.5780    1.5434   5.64 × 10−60    8.51 × 10−58
+C     AV45   L transversetemporal (1034)                    179   511    1.5133    1.5288   2.84 × 10−56    5.61 × 10−57
+D     FDG    L isthmuscingulate (1010)                      303   371   -1.2531   -1.1774   2.69 × 10−48    2.10 × 10−43
+D     FDG    R isthmuscingulate (2010)                      303   371   -1.3972   -1.3201   1.18 × 10−57    1.94 × 10−52
+D     FDG    L supramarginal (1031)                         303   371   -0.4848   -0.4308    2.14 × 10−9     1.10 × 10−7
+D     FDG    Left Hippocampus (17)                          302   371   -0.6401   -0.6042   4.27 × 10−15    1.27 × 10−13
+D     FDG    Right Hippocampus (53)                         303   371   -0.7518   -0.7189   4.59 × 10−20    1.54 × 10−18
+E     AV45   Left VentralDC (28)                            179   511   -0.1050   -0.0933          0.2368          0.2858
+E     AV45   Right VentralDC (60)                           179   511   -0.1211   -0.0986          0.1729          0.2618
+E     AV45   Right Hippocampus (53)                         179   511   -0.0068    0.0006          0.9373          0.9949
+E     AV45   Left Cerebellum White Matter (7)               179   511   -0.0745   -0.1010          0.3996          0.2529
+E     AV45   Left Hippocampus (17)                          179   511    0.0701    0.1232          0.4241          0.1667
+F     FDG    Left Thalamus (10)                             303   371   -0.0097    0.0582          0.9008          0.4667
+F     FDG    Right Thalamus (49)                            303   371   -0.0668   -0.0530          0.3964          0.4991
+F     FDG    L parsorbitalis (1019)                         303   371   -0.1294   -0.0913          0.1035          0.2506
+F     FDG    L lateraloccipital (1011)                      303   371   -0.1239   -0.0978          0.1171          0.2229
+F     FDG    R lingual (2013)                               303   371   -0.0493   -0.0435          0.5303          0.5744
+
+Separate two-sided Student’s t-tests compare AD and CN for each tracer and PET type. BH-FDR correction uses
+  all 98 ROIs within each of four tracer-by-PET-type families, rather than just the displayed regions. Positive d
+      indicates higher uptake in AD. All values are derived from min–max-normalized regional intensities, not
+           SUV/SUVR. Preserved significance or similar effect sizes do not establish clinical equivalence.
+
+
+
+
+                                                       12
+                                           Table S9: Whole-volume OOF generation metrics (mean ± sample s.d.)
+
+                       Model         Tracer   N      SSIM                       PSNR                MSE                           MAE
+
+                       Full         AV45      1365   0.884408   ±   0.0405641   24.9664 ± 2.26749   0.00372914   ±   0.00332507   0.0309555 ± 0.0110338
+                       Full         FDG       1598   0.921129   ±   0.0416829   27.223 ± 2.14503    0.00224384   ±   0.00268009   0.024129 ± 0.00961375
+                       ClinicalUNet AV45      1365   0.860412   ±   0.0374027   24.637 ± 2.02806    0.00388392   ±   0.00241146   0.0324286 ± 0.00954057
+                       ClinicalUNet FDG       1598   0.900311   ±   0.0356273   26.6116 ± 1.89074   0.00247114   ±   0.00196941   0.0258502 ± 0.00818077
+                       SwinUNETR AV45         1365   0.874091   ±   0.0369388   24.5068 ± 2.11433   0.00403421   ±   0.00249859   0.0320631 ± 0.00986262
+                       SwinUNETR FDG          1598   0.918317   ±   0.0360297   26.8441 ± 1.9234    0.00234143   ±   0.00181013   0.0241961 ± 0.00799078
+                       TabularMLP AV45        1365   0.874855   ±   0.0407899   25.1009 ± 2.28897   0.00363223   ±   0.00321331   0.0308469 ± 0.0110175
+                       TabularMLP FDG         1598   0.912262   ±   0.0417162   27.2919 ± 2.12402   0.00220694   ±   0.0026887    0.0241971 ± 0.00947495
+                       TracerOnly   AV45      1365   0.885748   ±   0.0408475   24.9695 ± 2.27491   0.00373732   ±   0.00335201   0.0308555 ± 0.0111714
+                       TracerOnly   FDG       1598   0.926504   ±   0.0407948   27.2745 ± 2.14158   0.00221882   ±   0.00270009   0.0236521 ± 0.00949478
+                       Single       AV45      1365   0.873767   ±   0.041007    24.9848 ± 2.21914   0.00369036   ±   0.00320827   0.031269 ± 0.0107387
+                       Single       FDG       1598   0.926933   ±   0.0400237   27.0223 ± 2.11834   0.00234305   ±   0.00287526   0.0239414 ± 0.00968223
+
+
+     Mean plus/minus sample SD. Whole-volume frozen OOF; FDG1598, AV451365. Full165, ClinicalUNet165, Swin200 MRI-only, Single165, TabularMLP165,
+13
+
+
+
+
+     TracerOnly165. SSIM unitless; PSNR dB; MSE squared and MAE unsquared normalized-intensity arbitrary units. Independent training realizations; reconstructed
+     runs, not historical Figure2.
+                                             Table S10: Paired whole-volume generation comparisons
+
+     model          tracer   metric   n      mean_delta     ci_low         ci_high        cohen_dz      Full better pct   p_raw          p_holm
+
+     ClinicalUNet   fdg      ssim     1598   0.0208181      0.0197791      0.0218175      0.990561      89.8623           1.7603e-239    1.40824e-238
+     ClinicalUNet   fdg      psnr     1598   0.611381       0.5664         0.656514       0.648354      76.5957           6.43853e-124   3.86312e-123
+     ClinicalUNet   fdg      mse      1598   -0.0002273     -0.000275411   -0.000158772   -0.189496     76.5957           6.04086e-14    1.31586e-13
+     ClinicalUNet   fdg      mae      1598   -0.00172122    -0.0019156     -0.00151429    -0.417989     75.4068           6.9045e-58     3.45225e-57
+     ClinicalUNet   av45     ssim     1365   0.0239956      0.0227111      0.025253       0.978795      87.1062           2.29545e-201   1.60681e-200
+     ClinicalUNet   av45     psnr     1365   0.329409       0.249281       0.40985        0.220001      62.0513           9.68848e-16    3.87539e-15
+     ClinicalUNet   av45     mse      1365   -0.000154787   -0.000257116   -3.72771e-05   -0.0752304    62.0513           0.00551979     0.00551979
+     ClinicalUNet   av45     mae      1365   -0.00147312    -0.00185782    -0.00109689    -0.206517     63.7363           4.3862e-14     1.31586e-13
+     SwinUNETR      fdg      ssim     1598   0.00281191     0.00204043     0.00354844     0.175086      69.2741           3.77993e-12    1.88996e-11
+     SwinUNETR      fdg      psnr     1598   0.378929       0.334097       0.423834       0.40333       69.0238           2.67057e-54    1.8694e-53
+     SwinUNETR      fdg      mse      1598   -9.75975e-05   -0.000146119   -3.08259e-05   -0.0822636    69.0238           0.00102917     0.00205835
+     SwinUNETR      fdg      mae      1598   -6.70702e-05   -0.000253042   0.000134417    -0.0166045    55.8198           0.506936       0.506936
+     SwinUNETR      av45     ssim     1365   0.0103163      0.00965209     0.0109524      0.822615      83.4432           2.31981e-155   1.85585e-154
+     SwinUNETR      av45     psnr     1365   0.459673       0.393978       0.526625       0.375353      66.8132           5.23792e-41    3.14275e-40
+     SwinUNETR      av45     mse      1365   -0.000305079   -0.000395415   -0.000193256   -0.160805     66.8132           3.58919e-09    1.07676e-08
+14
+
+
+
+
+     SwinUNETR      av45     mae      1365   -0.00110762    -0.0014185     -0.000784845   -0.18539      61.4652           1.11886e-11    4.47543e-11
+     TabularMLP     fdg      ssim     1598   0.00886656     0.00812186     0.00959853     0.578166      75.8448           3.44323e-102   2.75458e-101
+     TabularMLP     fdg      psnr     1598   -0.0689397     -0.108799      -0.029079      -0.083771     47.3091           0.000830676    0.00425048
+     TabularMLP     fdg      mse      1598   3.68949e-05    1.37346e-05    5.99572e-05    0.0775476     47.3091           0.00196924     0.00787697
+     TabularMLP     fdg      mae      1598   -6.81443e-05   -0.000213963   8.04426e-05    -0.0227372    53.3166           0.363529       0.727058
+     TabularMLP     av45     ssim     1365   0.00955263     0.00863504     0.0104854      0.54034       74.2125           5.41378e-78    3.78964e-77
+     TabularMLP     av45     psnr     1365   -0.134409      -0.210528      -0.0561215     -0.0918656    46.8132           0.000708413    0.00425048
+     TabularMLP     av45     mse      1365   9.69028e-05    1.94112e-05    0.000173411    0.0677817     46.8132           0.0123868      0.0371605
+     TabularMLP     av45     mae      1365   0.000108651    -0.000232867   0.000435387    0.0173217     51.1355           0.522301       0.727058
+     TracerOnly     fdg      ssim     1598   -0.00537535    -0.00590994    -0.00484902    -0.47433      26.9086           1.79244e-72    1.43395e-71
+     TracerOnly     fdg      psnr     1598   -0.0514788     -0.084006      -0.0198543     -0.0783114    48.8736           0.0017767      0.00888351
+     TracerOnly     fdg      mse      1598   2.5016e-05     5.74477e-06    4.40603e-05    0.0629846     48.8736           0.0119058      0.0476234
+     TracerOnly     fdg      mae      1598   0.000476913    0.000360989    0.000595372    0.197824      42.3029           4.84122e-15    3.38885e-14
+     TracerOnly     av45     ssim     1365   -0.0013401     -0.00186153    -0.000811475   -0.132833     44.1026           1.03289e-06    6.19734e-06
+     TracerOnly     av45     psnr     1365   -0.00307791    -0.0547682     0.0476535      -0.0032182    47.9853           0.905373       1
+     TracerOnly     av45     mse      1365   -8.18237e-06   -5.70224e-05   4.02036e-05    -0.00891382   47.9853           0.741957       1
+     TracerOnly     av45     mae      1365   0.000100047    -0.000115014   0.000313809    0.024782      46.8132           0.360042       1
+                model          tracer   metric   n      mean_delta     ci_low         ci_high        cohen_dz     Full better pct   p_raw        p_holm
+
+                Single         fdg      ssim     1598   -0.00580378    -0.00642246    -0.00517901    -0.434763    34.2303           4.22015e-62  2.95411e-61
+                Single         fdg      psnr     1598   0.200636       0.159293       0.242418       0.237103     60.5131           8.98722e-21  5.39233e-20
+                Single         fdg      mse      1598   -9.92098e-05   -0.000126504   -7.21876e-05   -0.177651    60.5131           1.84961e-12  9.24804e-12
+                Single         fdg      mae      1598   0.000187601    3.76336e-05    0.00034206     0.0596374    47.3717           0.0172416    0.0527503
+                Single         av45     ssim     1365   0.0106401      0.00985376     0.0114433      0.707251     78.1685           2.31929e-122 1.85543e-121
+                Single         av45     psnr     1365   -0.0183712     -0.0770958     0.0388809      -0.0169039   49.8168           0.532384     0.532384
+                Single         av45     mse      1365   3.87787e-05    -1.71053e-05   9.51783e-05    0.0366412    49.8168           0.176043     0.352086
+                Single         av45     mae      1365   -0.000313478   -0.000560844   -6.84978e-05   -0.0671769   54.8718           0.0131876    0.0527503
+
+
+     Delta=Full minus comparator; positive favors Full for SSIM/PSNR and negative for MSE/MAE. Cohen dz signed.10000 paired resamples within frozen folds, seed42;
+     percentile95% CIs unadjusted. Two-sided paired t; separate Holm8-test family per comparator (2tracers x4metrics). ClinicalUNet statistics reused; TracerOnly t/dz
+     reused and missing bootstrap supplemented. CIs do not estimate training/seed variability. MRI-only Swin inputs and endpoint differ.
+15
+                Table S11: Mask-restricted quality of frozen two-fold OOF PET predictions.
+ Model                                        Tracer   N                    SSIM ↑       PSNR (dB) ↑                        MSE ↓                    MAE ↓
+ DIReCT++ Full (e165)                         FDG      1597   0.91844   ±   0.04026     23.954 ± 2.271     0.004763   ±   0.004028    0.05257    ±   0.01921
+ DIReCT++ Full (e165)                         AV45     1364   0.86999   ±   0.06048     21.803 ± 2.602     0.007959   ±   0.005469    0.06845    ±   0.02394
+ Clinical Regression 3D U-Net (e165)          FDG      1597   0.90208   ±   0.04256     23.373 ± 2.019     0.005262   ±   0.003889    0.05509    ±   0.01795
+ Clinical Regression 3D U-Net (e165)          AV45     1364   0.86098   ±   0.05868     21.529 ± 2.363     0.008237   ±   0.005320    0.06976    ±   0.02276
+ Swin-UNETR (e200; MRI only)                  FDG      1597   0.89237   ±   0.03938     23.565 ± 2.013     0.004997   ±   0.003300    0.05404    ±   0.01672
+ Swin-UNETR (e200; MRI only)                  AV45     1364   0.83615   ±   0.05878     21.273 ± 2.429     0.008791   ±   0.005652    0.07228    ±   0.02363
+Values are mean ± sample SD across subjects. SSIM is unitless; PSNR is in dB; MSE and MAE use squared and
+unsquared [0,1] normalized-uptake units, respectively. All models use byte-identical frozen target PET arrays and
+identical subject-specific masks. The mask is the frozen SynthSeg nonzero-label union, including cortex, white matter,
+subcortical structures, cerebellum, brainstem, ventricles and CSF; it is not a pure parenchymal mask. SSIM uses the
+existing E1 3D Gaussian implementation (kernel 7, sigma 1.5, data range 1) and only centers whose entire 7×7×7
+window lies inside the mask. The frozen mask QC exclusion removes one subject from each tracer; no new exclusions
+or spatial/intensity transformations were applied. Full and Clinical U-Net use epoch 165; MRI-only Swin-UNETR
+uses the prespecified final epoch 200. All predictions are frozen two-fold OOF outputs.
+
+
+
+
+                       Table S12: Paired mask-restricted PET image-quality comparisons.
+ Comparison                 Tracer   Metric       N     Mean ∆          95% bootstrap CI            t   Cohen dz   Full better (%)      Raw p         Holm p
+ A: Full − Clinical U-Net   FDG      SSIM       1597     0.01636        [0.01577, 0.01699]     51.477      1.288              95.7    < 10−300       < 10−300
+ A: Full − Clinical U-Net   FDG      PSNR       1597       0.581             [0.529, 0.634]    21.474      0.537              72.3    4.55e-90       3.18e-89
+ A: Full − Clinical U-Net   FDG      MSE        1597   -0.000499   [-0.000572, -0.000425]     -13.116     -0.328              72.3    2.13e-37       1.28e-36
+ A: Full − Clinical U-Net   FDG      MAE        1597    -0.00253      [-0.00295, -0.00210]    -11.670     -0.292              66.9    2.96e-30       1.18e-29
+ A: Full − Clinical U-Net   AV45     SSIM       1364     0.00901        [0.00754, 0.01051]     11.881      0.322               69.0   4.79e-31       2.39e-30
+ A: Full − Clinical U-Net   AV45     PSNR       1364       0.273             [0.178, 0.370]     5.585      0.151              57.8    2.82e-08       8.45e-08
+ A: Full − Clinical U-Net   AV45     MSE        1364   -0.000278   [-0.000488, -0.000066]      -2.609     -0.071              57.8     0.00917        0.00962
+ A: Full − Clinical U-Net   AV45     MAE        1364    -0.00131      [-0.00223, -0.00040]     -2.824     -0.076              56.4     0.00481        0.00962
+ B: Full − Swin-UNETR       FDG      SSIM       1597     0.02607        [0.02553, 0.02663]     92.200      2.307              99.0    < 10−300       < 10−300
+ B: Full − Swin-UNETR       FDG      PSNR       1597       0.389             [0.337, 0.443]    14.239      0.356              66.8    2.11e-43       1.26e-42
+ B: Full − Swin-UNETR       FDG      MSE        1597   -0.000233   [-0.000311, -0.000151]      -5.733     -0.143              66.8    1.18e-08       1.18e-08
+ B: Full − Swin-UNETR       FDG      MAE        1597    -0.00148      [-0.00191, -0.00105]     -6.681     -0.167              63.3    3.26e-11       6.52e-11
+ B: Full − Swin-UNETR       AV45     SSIM       1364     0.03383        [0.03274, 0.03493]     59.128      1.601              95.2    < 10−300       < 10−300
+ B: Full − Swin-UNETR       AV45     PSNR       1364       0.530             [0.451, 0.609]    13.216      0.358              65.1     1.3e-37       6.52e-37
+ B: Full − Swin-UNETR       AV45     MSE        1364   -0.000832   [-0.001003, -0.000658]      -9.563     -0.259              65.1    5.15e-21       1.55e-20
+ B: Full − Swin-UNETR       AV45     MAE        1364    -0.00383      [-0.00459, -0.00309]    -10.003     -0.271              64.1    8.81e-23       3.52e-22
+∆ = DIReCT++ Full minus comparator on exactly matched subject, tracer and held-out fold. Positive differences
+favor Full for SSIM/PSNR; negative differences favor Full for MSE/MAE. Cohen’s dz uses this signed difference
+divided by its sample SD. Full-better proportions use strict metric-specific improvement. Two-sided paired t-tests;
+95% percentile bootstrap CIs use 10,000 paired resamples, seed 42, stratified by held-out fold with original fold sizes
+retained. Holm correction is applied separately to comparison A and comparison B, with eight tests (2 tracers ×
+4 metrics) in each family; CIs are unadjusted. Uncertainty concerns the frozen OOF subjects, not retraining/seed
+variability. Statistical significance is not clinical equivalence. The two comparisons differ in information and endpoint:
+A uses matched MRI/clinical/tracer information at e165; B compares Full e165 with MRI-only Swin-UNETR e200.
+A displayed p < 10−300 denotes numerical underflow of the computed p value, not an exactly zero probability.
+
+
+
+
+                                                                            16
+                                                        FDG | DIReCT++ Full
+                                                                 Frozen two-fold OOF predictions · Epoch 165
+
+                                     A MRI                       B Real PET                      C Synthetic PET                     D Absolute error
+
+
+
+
+   Median
+   SSIM = 0.9331
+
+
+
+
+   10th percentile
+   SSIM = 0.8747
+
+
+
+
+   Worst
+   QC-passed
+   SSIM = 0.5672
+
+
+
+
+                     0.0           0.5            1.0   0.0                    0.5                  1.0             0.0                  0.5            1.0
+                           MRI intensity (a.u.)                 PET normalized uptake (a.u.)                                    Absolute error (a.u.)
+
+                                                         Central slice: grid axis 2, index 80. Fixed scales 0–1; no clipping.
+
+
+
+Figure S7: FDG synthesis in median, 10th-percentile and worst QC-passed cases. Rows
+follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and
+absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales.
+Selection is within the existing QC-passed set, without new exclusions or visual replacement; rank-
+ings use whole-volume SSIM rather than masked SSIM.
+
+
+
+
+                                                                          17
+                                                        AV45 | DIReCT++ Full
+                                                                 Frozen two-fold OOF predictions · Epoch 165
+
+                                     A MRI                       B Real PET                      C Synthetic PET                     D Absolute error
+
+
+
+
+   Median
+   SSIM = 0.8924
+
+
+
+
+   10th percentile
+   SSIM = 0.8467
+
+
+
+
+   Worst
+   QC-passed
+   SSIM = 0.5808
+
+
+
+
+                     0.0           0.5            1.0    0.0                   0.5                  1.0             0.0                  0.5            1.0
+                           MRI intensity (a.u.)                 PET normalized uptake (a.u.)                                    Absolute error (a.u.)
+
+                                                         Central slice: grid axis 2, index 80. Fixed scales 0–1; no clipping.
+
+
+
+Figure S8: AV45 synthesis in median, 10th-percentile and worst QC-passed cases. Rows
+follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and
+absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales.
+Selection is within the existing QC-passed set, without new exclusions or visual replacement; rank-
+ings use whole-volume SSIM rather than masked SSIM.
+
+
+
+
+                                                                          18
+             Table S13: Three-fold classification results: mean ± sample s.d.; [conditional 95% CI].
+
+     Input                    ACC                AUC                SEN                SPE           Balanced ACC
+
+     AD/CN
+                           79.56 ± 6.20       87.02 ± 5.44      75.15 ± 10.01       81.96 ± 6.90       78.56 ± 6.59
+     MRI                  [75.95, 82.97]     [83.51, 90.15]     [68.48, 81.21]     [77.70, 85.91]     [74.63, 82.24]
+                           89.36 ± 0.72       94.28 ± 0.55       81.21 ± 6.39       93.78 ± 4.41       87.50 ± 1.06
+     MRI+Real FDG         [86.39, 91.92]     [91.77, 96.51]     [75.15, 87.27]     [90.85, 96.40]     [84.07, 90.69]
+                           88.72 ± 3.31       94.40 ± 0.89      80.00 ± 12.73       93.45 ± 3.95       86.73 ± 5.21
+     MRI+Syn FDG          [85.93, 91.48]     [91.96, 96.58]     [73.94, 86.06]     [90.51, 96.07]     [83.35, 89.97]
+                           85.53 ± 2.67       92.54 ± 2.53       74.55 ± 1.82       91.47 ± 4.86       83.01 ± 1.77
+     MRI+Real AV45        [82.34, 88.51]     [89.91, 94.92]     [67.88, 81.21]     [88.19, 94.42]     [79.27, 86.58]
+                           84.04 ± 2.80       91.81 ± 3.54       81.21 ± 2.10       85.56 ± 4.90       83.39 ± 2.00
+     MRI+Syn AV45         [80.84, 87.43]     [89.02, 94.23]     [75.15, 86.68]     [81.62, 89.49]     [79.87, 86.91]
+                           90.64 ± 2.59       94.38 ± 0.90       84.24 ± 2.78       94.09 ± 2.62       89.17 ± 2.60
+     MRI+Real both        [87.87, 93.18]     [91.84, 96.61]     [78.18, 89.70]     [91.43, 96.40]     [85.92, 92.14]
+                           88.08 ± 2.06       93.82 ± 3.21       86.06 ± 5.84       89.18 ± 0.93       87.62 ± 2.90
+     MRI+Syn both         [85.09, 90.85]     [91.18, 96.07]     [80.61, 90.91]     [85.57, 92.46]     [84.29, 90.67]
+                          100.00 ± 0.00      100.00 ± 0.00      100.00 ± 0.00      100.00 ± 0.00      100.00 ± 0.00
+19
+
+
+
+
+     Clinical-only       [100.00, 100.00]   [100.00, 100.00]   [100.00, 100.00]   [100.00, 100.00]   [100.00, 100.00]
+                           94.89 ± 3.54       99.17 ± 0.96       92.12 ± 4.20       96.39 ± 3.44       94.26 ± 3.65
+     MRI+Clinical         [92.77, 96.81]     [98.50, 99.66]     [87.88, 95.76]     [94.10, 98.36]     [91.90, 96.43]
+
+     EMCI+LMCI/CN
+                   67.48 ± 0.23              71.59 ± 1.80      79.57 ± 11.66      50.12 ± 17.10       64.85 ± 2.73
+     MRI           [64.37, 70.58]            [67.83, 75.25]    [75.89, 83.23]     [44.56, 55.38]      [61.57, 68.12]
+                   61.27 ± 2.70              64.82 ± 2.79       63.30 ± 3.89       58.35 ± 1.73       60.83 ± 2.48
+     MRI+Real FDG  [57.76, 64.78]            [60.74, 68.77]    [58.69, 67.69]     [52.79, 63.90]      [57.14, 64.49]
+                   62.48 ± 3.25              65.77 ± 5.56      67.00 ± 12.26      56.10 ± 14.64       61.55 ± 3.28
+     MRI+Syn FDG   [59.11, 65.86]            [61.81, 69.81]    [62.64, 71.13]     [50.82, 61.35]      [58.05, 65.11]
+                   66.80 ± 2.10              72.00 ± 0.79       75.45 ± 8.66      54.43 ± 11.27       64.94 ± 2.42
+     MRI+Real AV45 [63.56, 69.91]            [68.23, 75.75]    [71.54, 79.35]     [48.87, 59.69]      [61.54, 68.28]
+                   65.99 ± 1.21              71.52 ± 1.85       73.17 ± 6.51      55.76 ± 11.84       64.47 ± 2.73
+     MRI+Syn AV45  [62.75, 69.23]            [67.73, 75.10]    [69.04, 77.30]     [50.49, 61.32]      [61.05, 67.90]
+                   63.70 ± 3.54              69.15 ± 2.42       65.60 ± 9.91       60.97 ± 8.42       63.29 ± 2.81
+     MRI+Real both [60.19, 67.21]            [65.13, 72.90]    [61.24, 69.96]     [55.41, 66.21]      [59.76, 66.79]
+                   65.45 ± 1.64              69.46 ± 1.34      79.33 ± 12.80      45.53 ± 14.60       62.43 ± 0.94
+     MRI+Syn both  [62.48, 68.56]            [65.60, 73.18]    [75.65, 83.00]     [39.95, 51.08]      [59.14, 65.71]
+                   94.87 ± 2.60              98.93 ± 0.70       93.59 ± 4.17       96.72 ± 1.14       95.15 ± 2.27
+     Clinical-only [93.25, 96.36]            [98.14, 99.56]    [91.29, 95.87]     [94.43, 98.68]      [93.62, 96.59]
+                              Input                      ACC                AUC                 SEN                 SPE           Balanced ACC
+                                                    85.16 ± 8.58        93.07 ± 6.10       88.51 ± 12.11       80.35 ± 18.35       84.43 ± 9.22
+                              MRI+Clinical          [82.73, 87.45]      [91.14, 94.77]     [85.52, 91.26]      [76.08, 84.28]      [81.82, 86.84]
+
+                              EMCI/LMCI
+                                                    64.90 ± 3.09        62.81 ± 2.50       17.40 ± 12.64        89.53 ± 6.57       53.46 ± 4.63
+                              MRI                   [61.92, 67.89]      [57.39, 68.38]      [12.03, 23.43]      [85.70, 93.01]    [50.12, 56.96]
+                                                    64.21 ± 4.93        61.66 ± 3.35       36.86 ± 16.63       78.34 ± 15.69       57.60 ± 1.88
+                              MRI+Real FDG          [60.30, 68.11]      [56.04, 67.09]      [29.48, 44.26]      [73.80, 82.87]    [53.23, 61.87]
+                                                    65.36 ± 3.46        63.02 ± 1.14        32.84 ± 5.47        82.20 ± 6.97       57.52 ± 2.15
+                              MRI+Syn FDG           [61.47, 69.26]      [57.49, 68.72]      [25.46, 40.88]      [77.67, 86.39]    [53.15, 62.08]
+                                                    65.82 ± 3.65        60.62 ± 2.37        29.50 ± 9.10        84.66 ± 1.30       57.08 ± 4.92
+                              MRI+Real AV45         [62.14, 69.49]      [55.03, 66.28]      [22.16, 36.87]      [80.15, 88.83]    [52.84, 61.28]
+                                                    65.37 ± 5.56        62.12 ± 6.88        36.19 ± 6.89       80.46 ± 11.73       58.32 ± 2.46
+                              MRI+Syn AV45          [61.47, 69.27]      [56.59, 67.70]      [28.76, 43.61]      [75.92, 84.97]    [53.92, 62.83]
+                                                    64.90 ± 4.88        63.04 ± 1.25       41.05 ± 19.06       77.31 ± 13.00       59.18 ± 5.52
+                              MRI+Real both         [60.78, 68.81]      [57.58, 68.56]      [33.66, 48.48]      [72.42, 81.85]    [54.89, 63.59]
+                                                    65.82 ± 2.06        66.33 ± 0.54       43.03 ± 10.87        77.71 ± 8.82       60.37 ± 1.12
+                              MRI+Syn both          [61.69, 70.17]      [61.14, 71.76]      [34.99, 51.10]      [72.83, 82.25]    [55.87, 65.19]
+                                                    99.08 ± 0.40        99.94 ± 0.08        98.67 ± 2.31        99.31 ± 0.60       98.99 ± 0.85
+20
+
+
+
+
+                              Clinical-only         [98.16, 99.77]     [99.79, 100.00]     [96.67, 100.00]     [98.26, 100.00]    [97.81, 99.83]
+                                                    85.32 ± 13.80       89.60 ± 9.08       85.90 ± 12.00       85.07 ± 18.35      85.49 ± 12.24
+                              MRI+Clinical          [82.34, 88.53]      [86.11, 93.02]      [80.50, 91.28]      [81.25, 88.89]    [82.16, 88.89]
+
+
+
+     All metrics are percentages; s.d. is in percentage points. CIs use 5,000 paired fold-by-class bootstrap resamples of frozen predictions and three-fold equal weighting.
+     Intervals are marginal, unadjusted and conditional on the fixed models and splits. Clinical-only AD/CN’s zero empirical errors yield a degenerate [100,100] bootstrap
+     interval, not a population guarantee. Clinical inputs include diagnosis-conditioned fills. Sample sizes are AD/CN=470, EMCI+LMCI/CN=741 and EMCI/LMCI=436;
+     MCI-U is excluded.
+                                                        Table S14: Paired imaging classification differences
+
+                                   task        target          reference       metric           delta_pp    ci_low_pp   ci_high_pp
+
+                                   ad_cn       mri_syn_both    mri             ACC              8.51843     4.47901     12.5606
+                                   ad_cn       mri_syn_both    mri             AUC              6.80203     3.38872     10.2184
+                                   ad_cn       mri_syn_both    mri             SEN              10.9091     3.63636     18.7879
+                                   ad_cn       mri_syn_both    mri             SPE              7.21866     2.31023     12.1369
+                                   ad_cn       mri_syn_both    mri             balanced_ACC     9.06388     4.68182     13.457
+                                   ad_cn       mri_syn_both    mri_real_both   ACC              -2.55185    -5.31194    -0.00272198
+                                   ad_cn       mri_syn_both    mri_real_both   AUC              -0.55129    -2.11379    0.976434
+                                   ad_cn       mri_syn_both    mri_real_both   SEN              1.81818     -3.0303     6.66667
+                                   ad_cn       mri_syn_both    mri_real_both   SPE              -4.90843    -8.18935    -1.95431
+                                   ad_cn       mri_syn_both    mri_real_both   balanced_ACC     -1.54513    -4.34698    1.11062
+                                   mci_cn      mri_syn_both    mri             ACC              -2.02429    -5.66802    1.61943
+                                   mci_cn      mri_syn_both    mri             AUC              -2.12981    -6.29816    2.09665
+                                   mci_cn      mri_syn_both    mri             SEN              -0.239332   -4.60404    4.1301
+                                   mci_cn      mri_syn_both    mri             SPE              -4.59458    -11.1499    1.93174
+                                   mci_cn      mri_syn_both    mri             balanced_ACC     -2.41695    -6.28258    1.42342
+21
+
+
+
+
+                                   mci_cn      mri_syn_both    mri_real_both   ACC              1.75439     -1.88934    5.39811
+                                   mci_cn      mri_syn_both    mri_real_both   AUC              0.308348    -3.14901    3.81391
+                                   mci_cn      mri_syn_both    mri_real_both   SEN              13.727      9.14344     18.3059
+                                   mci_cn      mri_syn_both    mri_real_both   SPE              -15.4436    -21.3454    -9.55154
+                                   mci_cn      mri_syn_both    mri_real_both   balanced_ACC     -0.858316   -4.5701     3.0065
+                                   emci_lmci   mri_syn_both    mri             ACC              0.91954     -3.44355    5.50626
+                                   emci_lmci   mri_syn_both    mri             AUC              3.52145     -2.42365    9.50467
+                                   emci_lmci   mri_syn_both    mri             SEN              25.6327     16.9248     33.7415
+                                   emci_lmci   mri_syn_both    mri             SPE              -11.8165    -17.0651    -6.5826
+                                   emci_lmci   mri_syn_both    mri             balanced_ACC     6.90807     2.01983     11.9828
+                                   emci_lmci   mri_syn_both    mri_real_both   ACC              0.91954     -3.66714    5.50937
+                                   emci_lmci   mri_syn_both    mri_real_both   AUC              3.29387     -2.11555    8.53926
+                                   emci_lmci   mri_syn_both    mri_real_both   SEN              1.98639     -6.13639    10.0548
+                                   emci_lmci   mri_syn_both    mri_real_both   SPE              0.398392    -4.83187    5.965
+                                   emci_lmci   mri_syn_both    mri_real_both   balanced_ACC     1.19239     -3.73404    6.05574
+
+
+     Original6 prespecified comparisons reused; Syn dual PET minus MRI orReal dual PET. Marginal95%5000 fold/class bootstrap CI, uncorrected for multiplicity. No
+     overall DeLong claim and no equivalence inference.
+                  Table S15: Paired comparisons with clinical baselines
+
+     task     target         reference      metric         delta_pp   ci_low_pp   ci_high_pp
+
+     ad_cn    mri_syn_both   clinical       ACC            -11.9168   -14.907     -9.14853
+     ad_cn    mri_syn_both   clinical       AUC            -6.17603   -8.82061    -3.9256
+     ad_cn    mri_syn_both   clinical       SEN            -13.9394   -19.3939    -9.09091
+     ad_cn    mri_syn_both   clinical       SPE            -10.8167   -14.4309    -7.53899
+     ad_cn    mri_syn_both   clinical       balanced_ACC   -12.378    -15.7128    -9.32558
+     ad_cn    mri_syn_both   mri_clinical   ACC            -6.81175   -10.2129    -3.62159
+     ad_cn    mri_syn_both   mri_clinical   AUC            -5.34224   -7.87614    -3.17673
+     ad_cn    mri_syn_both   mri_clinical   SEN            -6.06061   -11.5152    -0.606061
+     ad_cn    mri_syn_both   mri_clinical   SPE            -7.20896   -11.1467    -3.59469
+     ad_cn    mri_syn_both   mri_clinical   balanced_ACC   -6.63478   -10.198     -3.20788
+     ad_cn    mri_clinical   mri            ACC            15.3302    12.1373     18.9395
+     ad_cn    mri_clinical   mri            AUC            12.1443    9.19898     15.4179
+     ad_cn    mri_clinical   mri            SEN            16.9697    10.9091     23.0303
+     ad_cn    mri_clinical   mri            SPE            14.4276    10.4995     18.6825
+     ad_cn    mri_clinical   mri            balanced_ACC   15.6987    12.1825     19.4301
+22
+
+
+
+
+     ad_cn    clinical       mri            ACC            20.4352    17.0314     24.046
+     ad_cn    clinical       mri            AUC            12.9781    9.84708     16.491
+     ad_cn    clinical       mri            SEN            24.8485    18.7879     31.5152
+     ad_cn    clinical       mri            SPE            18.0353    14.0911     22.3031
+     ad_cn    clinical       mri            balanced_ACC   21.4419    17.7596     25.3654
+     mci_cn   mri_syn_both   clinical       ACC            -29.4197   -32.7935    -26.0459
+     mci_cn   mri_syn_both   clinical       AUC            -29.4749   -33.432     -25.6737
+     mci_cn   mri_syn_both   clinical       SEN            -14.2592   -18.3908    -10.1259
+     mci_cn   mri_syn_both   clinical       SPE            -51.1907   -57.1087    -45.2433
+     mci_cn   mri_syn_both   clinical       balanced_ACC   -32.7249   -36.388     -29.1387
+     mci_cn   mri_syn_both   mri_clinical   ACC            -19.7031   -23.2119    -16.3293
+     mci_cn   mri_syn_both   mri_clinical   AUC            -23.6109   -27.4845    -19.805
+     mci_cn   mri_syn_both   mri_clinical   SEN            -9.17651   -13.0977    -5.26531
+     mci_cn   mri_syn_both   mri_clinical   SPE            -34.8185   -41.3675    -28.6029
+     mci_cn   mri_syn_both   mri_clinical   balanced_ACC   -21.9975   -25.6565    -18.3658
+     mci_cn   mri_clinical   mri            ACC            17.6788    14.4399     20.9177
+     mci_cn   mri_clinical   mri            AUC            21.4811    18.0947     24.9968
+                                     task        target          reference      metric         delta_pp   ci_low_pp    ci_high_pp
+
+                                     mci_cn      mri_clinical    mri            SEN            8.93718    5.25744      12.6059
+                                     mci_cn      mri_clinical    mri            SPE            30.2239    24.0114      36.1681
+                                     mci_cn      mri_clinical    mri            balanced_ACC   19.5805    15.9627      23.0734
+                                     mci_cn      clinical        mri            ACC            27.3954    24.0216      30.7692
+                                     mci_cn      clinical        mri            AUC            27.3451    23.6158      31.1969
+                                     mci_cn      clinical        mri            SEN            14.0198    9.88663      18.3782
+                                     mci_cn      clinical        mri            SPE            46.5961    40.3837      52.5011
+                                     mci_cn      clinical        mri            balanced_ACC   30.308     26.6813      33.8772
+                                     emci_lmci   mri_syn_both    clinical       ACC            -33.2593   -37.3973     -28.8994
+                                     emci_lmci   mri_syn_both    clinical       AUC            -33.6068   -38.8337     -28.1938
+                                     emci_lmci   mri_syn_both    clinical       SEN            -55.6327   -63.701      -46.9656
+                                     emci_lmci   mri_syn_both    clinical       SPE            -21.5936   -26.7982     -17.0577
+                                     emci_lmci   mri_syn_both    clinical       balanced_ACC   -38.6131   -43.3044     -33.6618
+                                     emci_lmci   mri_syn_both    mri_clinical   ACC            -19.4993   -24.0844     -14.9047
+                                     emci_lmci   mri_syn_both    mri_clinical   AUC            -23.2724   -28.5706     -17.9808
+                                     emci_lmci   mri_syn_both    mri_clinical   SEN            -42.8707   -51.0061     -34.2177
+23
+
+
+
+
+                                     emci_lmci   mri_syn_both    mri_clinical   SPE            -7.35746   -12.6171     -2.13816
+                                     emci_lmci   mri_syn_both    mri_clinical   balanced_ACC   -25.1141   -30.0744     -20.0502
+                                     emci_lmci   mri_clinical    mri            ACC            20.4188    16.517       24.5458
+                                     emci_lmci   mri_clinical    mri            AUC            26.7938    21.7408      31.6749
+                                     emci_lmci   mri_clinical    mri            SEN            68.5034    60.4762      75.8912
+                                     emci_lmci   mri_clinical    mri            SPE            -4.45906   -8.98026     0.0840643
+                                     emci_lmci   mri_clinical    mri            balanced_ACC   32.0222    27.4872      36.569
+                                     emci_lmci   clinical        mri            ACC            34.1789    31.1872      37.1706
+                                     emci_lmci   clinical        mri            AUC            37.1282    31.5136      42.5461
+                                     emci_lmci   clinical        mri            SEN            81.2653    75.2245      86.6395
+                                     emci_lmci   clinical        mri            SPE            9.77705    6.28655      13.6111
+                                     emci_lmci   clinical        mri            balanced_ACC   45.5212    41.9676      48.8719
+
+
+     12prespecified comparisons x5metrics. Delta target-reference; equal-weight3fold means.5000 paired fold/class bootstrap95% CI, seed20261102. Marginal intervals
+     without simultaneous coverage. Does not estimate repeated-training variation.
+                            Table S16: Paired DeLong comparisons by outer fold
+
+     task        fold   target         reference       delta_AUC_pp   p_raw         p_Holm        family
+
+     ad_cn       1      mri_syn_both   mri             8.05704        0.00609343    0.109682      existing18
+     ad_cn       1      mri_syn_both   mri_real_both   0.730838       0.461309      1             existing18
+     ad_cn       2      mri_syn_both   mri             3.65419        0.113616      1             existing18
+     ad_cn       2      mri_syn_both   mri_real_both   0.855615       0.40185       1             existing18
+     ad_cn       3      mri_syn_both   mri             8.69487        0.0202858     0.344858      existing18
+     ad_cn       3      mri_syn_both   mri_real_both   -3.24032       0.0689018     1             existing18
+     mci_cn      1      mri_syn_both   mri             -5             0.205433      1             existing18
+     mci_cn      1      mri_syn_both   mri_real_both   -3.23191       0.299826      1             existing18
+     mci_cn      2      mri_syn_both   mri             -2.52874       0.425017      1             existing18
+     mci_cn      2      mri_syn_both   mri_real_both   0.0338066      0.990617      1             existing18
+     mci_cn      3      mri_syn_both   mri             1.13929        0.767688      1             existing18
+     mci_cn      3      mri_syn_both   mri_real_both   4.12315        0.203511      1             existing18
+     emci_lmci   1      mri_syn_both   mri             2              0.73837       1             existing18
+     emci_lmci   1      mri_syn_both   mri_real_both   4.8125         0.336152      1             existing18
+     emci_lmci   2      mri_syn_both   mri             6.10119        0.144769      1             existing18
+24
+
+
+
+
+     emci_lmci   2      mri_syn_both   mri_real_both   1.70068        0.736135      1             existing18
+     emci_lmci   3      mri_syn_both   mri             2.46316        0.633676      1             existing18
+     emci_lmci   3      mri_syn_both   mri_real_both   3.36842        0.383536      1             existing18
+     ad_cn       1      mri_syn_both   clinical        -4.63458       0.00165732    0.00864088    new36
+     ad_cn       1      mri_syn_both   mri_clinical    -2.7451        0.037946      0.112295      new36
+     ad_cn       1      mri_clinical   mri             10.8021        3.40179e-05   0.000408215   new36
+     ad_cn       1      clinical       mri             12.6916        3.45292e-05   0.000408215   new36
+     ad_cn       2      mri_syn_both   clinical        -4.02852       0.037572      0.112295      new36
+     ad_cn       2      mri_syn_both   mri_clinical    -4.0107        0.0374316     0.112295      new36
+     ad_cn       2      mri_clinical   mri             7.66488        0.00123441    0.00864088    new36
+     ad_cn       2      clinical       mri             7.68271        0.00126115    0.00864088    new36
+     ad_cn       3      mri_syn_both   clinical        -9.86499       0.000460643   0.00414579    new36
+     ad_cn       3      mri_syn_both   mri_clinical    -9.27093       0.000566367   0.00453094    new36
+     ad_cn       3      mri_clinical   mri             17.9658        5.14555e-08   8.74744e-07   new36
+     ad_cn       3      clinical       mri             18.5599        1.01156e-07   1.61849e-06   new36
+     mci_cn      1      mri_syn_both   clinical        -30.4801       6.99058e-18   2.4467e-16    new36
+     mci_cn      1      mri_syn_both   mri_clinical    -18.1136       1.54431e-07   2.31646e-06   new36
+                               task         fold   target         reference       delta_AUC_pp      p_raw        p_Holm        family
+
+                               mci_cn       1      mri_clinical   mri             13.1136           1.69917e-07 2.37884e-06    new36
+                               mci_cn       1      clinical       mri             25.4801           3.22727e-15 9.68181e-14    new36
+                               mci_cn       2      mri_syn_both   clinical        -30.6694          4.38095e-19 1.57714e-17    new36
+                               mci_cn       2      mri_syn_both   mri_clinical    -25.0575          2.29151e-14 6.18707e-13    new36
+                               mci_cn       2      mri_clinical   mri             22.5287           5.89174e-13 1.41402e-11    new36
+                               mci_cn       2      clinical       mri             28.1406           1.51617e-16 4.85174e-15    new36
+                               mci_cn       3      mri_syn_both   clinical        -27.2752          2.00445e-14 5.61247e-13    new36
+                               mci_cn       3      mri_syn_both   mri_clinical    -27.6617          3.99106e-15 1.15741e-13    new36
+                               mci_cn       3      mri_clinical   mri             28.801            1.27578e-16 4.33764e-15    new36
+                               mci_cn       3      clinical       mri             28.4145           1.7613e-15  5.46004e-14    new36
+                               emci_lmci    1      mri_syn_both   clinical        -33.0625          1.99145e-12 3.78376e-11    new36
+                               emci_lmci    1      mri_syn_both   mri_clinical    -15.7917          0.00198083  0.00864088     new36
+                               emci_lmci    1      mri_clinical   mri             17.7917           0.000226449 0.00226449     new36
+                               emci_lmci    1      clinical       mri             35.0625           1.37494e-12 3.02487e-11    new36
+                               emci_lmci    2      mri_syn_both   clinical        -33.6947          8.53209e-13 1.96238e-11    new36
+                               emci_lmci    2      mri_syn_both   mri_clinical    -20.0255          4.42156e-07 5.74803e-06    new36
+25
+
+
+
+
+                               emci_lmci    2      mri_clinical   mri             26.1267           3.80927e-12 6.85669e-11    new36
+                               emci_lmci    2      clinical       mri             39.7959           1.36072e-16 4.49038e-15    new36
+                               emci_lmci    3      mri_syn_both   clinical        -34.0632          1.42116e-12 3.02487e-11    new36
+                               emci_lmci    3      mri_syn_both   mri_clinical    -34               1.62294e-12 3.24588e-11    new36
+                               emci_lmci    3      mri_clinical   mri             36.4632           4.30757e-14 1.11997e-12    new36
+                               emci_lmci    3      clinical       mri             36.5263           4.98084e-14 1.24521e-12    new36
+
+
+     Two-sided paired DeLong only within each outer test fold. Holm separately for original18 and new36 test families. No pooled/combined/mean p-value or three-fold
+     overall significance is asserted. Undefined variance would remain NA and count conservatively in family size.
+Figure S9: Cross-sectional classification ROC curves for AD/CN, EMCI+LMCI/CN
+and EMCI/LMCI (left to right). Curves average three fold-specific TPRs at a fixed FPR
+grid; shaded regions are pointwise conditional 95% bootstrap bands, not simultaneous confidence
+bands. Legend AUC values are equally weighted empirical fold AUC means. Comparisons include
+MRI, MRI+Real both, MRI+Syn both, Clinical-only and MRI+Clinical. The clinical fields include
+diagnosis-related scores and historical group-conditioned fills; high clinical AUC is not evidence of
+independent synthetic-PET benefit.
+
+
+
+
+Table S17: E1 fixed-weight score-removal sensitivity. Differences are No-Scores minus Full,
+except the nonnegative output difference between predictions. This is a distinct E1 Full checkpoint
+family, not the reconstructed Full used in the generator-comparison tables.
+
+ Tracer    Metric                    N    Mean ∆                           CI lower        CI upper         Holm p
+ FDG       ROI MAE                1597    3.63611e-05                  1.18272e-05     6.01943e-05       0.0035996
+ FDG       Masked MAE             1597    -1.39166e-05                -3.50725e-05     7.21746e-06         0.22038
+ FDG       PSNR                   1597    -0.00417362                  -0.00673816     -0.00160625               –
+ FDG       SSIM (7)               1597    0.000220733                 0.000182378      0.000260921               –
+ FDG       SSIM (11)              1597    0.000215856                 0.000178967      0.000253801               –
+ FDG       Output difference      1597    0.00101927                    0.00100572      0.00103318               –
+ AV45      ROI MAE                1364    7.87648e-05                  4.56388e-06     0.000152402        0.039996
+ AV45      Masked MAE             1364    0.0001445                    9.57843e-05     0.000193458      0.00039996
+ AV45      PSNR                   1364    -0.0201903                    -0.0247279       -0.0157227              –
+ AV45      SSIM (7)               1364    0.000684918                 0.000619745      0.000750227               –
+ AV45      SSIM (11)              1364    0.000554805                 0.000491236      0.000619548               –
+ AV45      Output difference      1364    0.00110469                     0.0010868      0.00112321               –
+    The MRI, tracer context and model weights are fixed; the eight-field patient token is replaced with a frozen
+ Age+Sex+Weight token, not an empty token. No model is retrained. ROI/masked MAE use normalized-intensity
+ units, PSNR is dB, and SSIM is unitless. CIs use 10,000 within-fold paired bootstrap resamples (seed 20261017).
+ROI and masked MAE are the primary endpoints: paired sign-permutation tests use 10,000 permutations and Holm
+correction across the two tracers separately within each endpoint. Other intervals are descriptive. The full-reference
+ measurements were reused; whole-cohort Full predictions were not replayed anew. Nonzero output sensitivity and
+                             small error changes do not prove independent clinical value.
+
+
+
+
+                                                         26
+                Table S18: Age- and sex-stratified classification performance: AD vs CN.
+ Subgroup     Input                     N     Negative     Positive   AUC     (%) [95% CI]     Balanced ACC (%) [95% CI]
+ Age < 75     MRI                      256        177            79   88.17   [83.22, 92.56]       80.27 [74.84, 85.42]
+              MRI+Syn dual PET         256        177            79   93.02   [88.60, 96.90]       87.71 [83.01, 91.96]
+              MRI+Real dual PET        256        177            79   93.69   [88.98, 97.46]       90.10 [85.63, 93.98]
+ Age ≥ 75     MRI                      214        128            86   84.99   [79.58, 89.90]       76.42 [70.59, 82.07]
+              MRI+Syn dual PET         214        128            86   93.83   [90.34, 96.73]       86.33 [81.41, 90.75]
+              MRI+Real dual PET        214        128            86   94.55   [91.36, 97.17]       87.74 [83.01, 92.14]
+ Female       MRI                      226        155            71   84.85   [78.40, 90.29]       77.05 [70.86, 82.84]
+              MRI+Syn dual PET         226        155            71   94.55   [90.43, 97.73]       88.02 [83.17, 92.52]
+              MRI+Real dual PET        226        155            71   94.70   [90.12, 97.88]       88.45 [83.25, 93.04]
+ Male         MRI                      244        150            94   87.54   [82.46, 91.80]       78.59 [73.01, 83.57]
+              MRI+Syn dual PET         244        150            94   93.07   [89.24, 96.32]       86.89 [82.16, 91.03]
+              MRI+Real dual PET        244        150            94   93.15   [89.20, 96.41]       88.74 [84.24, 92.83]
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95% percentile intervals from 5,000
+paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was
+applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective
+tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+
+
+
+
+          Table S19: Age- and sex-stratified classification performance: EMCI+LMCI vs CN.
+ Subgroup     Input                     N     Negative     Positive   AUC     (%) [95% CI]     Balanced ACC (%) [95% CI]
+ Age < 75     MRI                      456        177          279    71.56   [66.47, 76.49]       66.28 [62.07, 70.67]
+              MRI+Syn dual PET         456        177          279    67.96   [62.99, 72.82]       60.84 [56.65, 65.07]
+              MRI+Real dual PET        456        177          279    69.28   [64.47, 74.07]       63.35 [58.88, 67.95]
+ Age ≥ 75     MRI                      285        128          157    71.44   [65.36, 77.37]       62.91 [57.85, 68.12]
+              MRI+Syn dual PET         285        128          157    71.86   [65.66, 77.68]       64.94 [60.10, 69.99]
+              MRI+Real dual PET        285        128          157    70.82   [64.85, 76.86]       64.11 [58.89, 69.50]
+ Female       MRI                      351        155          196    72.83   [67.25, 78.06]       64.58 [59.83, 69.35]
+              MRI+Syn dual PET         351        155          196    68.19   [62.27, 73.84]       62.11 [57.49, 66.79]
+              MRI+Real dual PET        351        155          196    69.47   [63.90, 74.92]       61.80 [56.79, 66.74]
+ Male         MRI                      390        150          240    70.45   [65.00, 75.74]       65.26 [60.83, 69.83]
+              MRI+Syn dual PET         390        150          240    70.79   [65.50, 75.90]       62.89 [58.40, 67.35]
+              MRI+Real dual PET        390        150          240    68.85   [63.24, 74.17]       64.64 [59.72, 69.43]
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95% percentile intervals from 5,000
+paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was
+applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective
+tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+
+
+
+
+            Table S20: Age- and sex-stratified classification performance: EMCI vs LMCI.
+ Subgroup     Input                     N     Negative     Positive   AUC     (%) [95% CI]     Balanced ACC (%) [95% CI]
+ Age < 75     MRI                      279        192            87   63.05   [56.22, 70.16]       54.83 [50.58, 59.32]
+              MRI+Syn dual PET         279        192            87   67.22   [60.31, 73.81]       59.69 [54.02, 65.38]
+              MRI+Real dual PET        279        192            87   60.90   [53.61, 67.96]       58.22 [53.01, 63.18]
+ Age ≥ 75     MRI                      157          95           62   60.34   [50.90, 69.53]       50.57 [44.73, 56.32]
+              MRI+Syn dual PET         157          95           62   63.68   [54.37, 72.48]       60.21 [52.28, 67.63]
+              MRI+Real dual PET        157          95           62   63.13   [54.27, 71.58]       59.35 [51.65, 67.06]
+ Female       MRI                      196        124            72   62.55   [54.22, 70.81]       55.06 [49.87, 60.73]
+              MRI+Syn dual PET         196        124            72   67.23   [59.36, 74.89]       61.64 [54.97, 68.46]
+              MRI+Real dual PET        196        124            72   63.21   [55.17, 71.01]       60.65 [54.32, 67.15]
+ Male         MRI                      240        163            77   64.67   [56.97, 72.05]       52.86 [48.50, 57.37]
+              MRI+Syn dual PET         240        163            77   65.84   [58.33, 73.24]       58.65 [52.77, 64.92]
+              MRI+Real dual PET        240        163            77   63.29   [55.47, 71.07]       57.54 [51.54, 63.57]
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95% percentile intervals from 5,000
+paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was
+applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective
+tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+
+
+
+
+                                                            27
+

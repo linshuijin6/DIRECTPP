@@ -1,0 +1,17 @@
+\subsection{Precise Prognostic Stratification of Mild Cognitive Impairment}
+To evaluate the clinical utility of the synthetic images for personalized diagnosis and prognostic stratification, we conducted classification tasks on the ADNI cohort using a 3-fold cross-validation scheme. We trained models with a DenseNet backbone~\cite{huang2017densely} to differentiate between key diagnostic pairs: (1) AD vs. CN, (2) MCI vs. CN, and (3) early MCI (EMCI) vs. late MCI (LMCI). For each task, models were trained and evaluated using various input modalities, including mono-modal (real PET, synthetic PET, or MRI alone) and multi-modal (MRI + real PET; MRI + synthetic PET) configurations. Performance was quantified by accuracy (ACC), sensitivity (SEN), specificity (SPE), and the area under the receiver operating characteristic curve (AUC).
+
+The synthesized PET images from DIReCT$++$ yielded substantial performance gains that are close to real images across all tasks (Fig.~\ref{fig:5}). In the fundamental task of AD recognition (Fig.~\ref{fig:5}A), the combination of MRI with synthetic $^{18}$F-AV-45 and $^{18}$F-FDG PET achieved high performance (ACC: $93.47\%$, AUC: $95.65\%$), significantly outperforming MRI alone (ACC: $87.69\%$, AUC: $91.88\%$) and performing comparably to the combination of MRI with real multi-tracer PET (ACC: $94.27\%$, AUC: $96.10\%$).
+
+The value of synthetic PET was even more pronounced in the challenging task of MCI diagnosis (Fig.~\ref{fig:5}B). While overall performance decreased, the improvements afforded by synthetic multi-tracer PET were more significant (e.g., SEN: $78.17\%$ for MRI+synthetic PET vs. $71.43\%$ for MRI alone), underscoring their utility for early disease detection.
+
+Crucially, the combination of baseline MRI and synthetic multi-tracer PET also enabled accurate prognostic stratification, achieving $81.96\%$ accuracy in differentiating EMCI from LMCI, compared to $77.65\%$ using MRI alone (Fig.~\ref{fig:5}C). This result highlights the potential of DIReCT$++$ to stratify patients at the prodromal stage based on their risk of progression.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figure_5}
+    \caption{\textbf{Diagnostic classification performance using MRI-synthetic PET images across different clinical tasks.} (A–C) Bar plots illustrate the classification performance—accuracy (ACC), sensitivity (SEN), specificity (SPE), and area under the ROC curve (AUC)—of eleven input-modality combinations evaluated for three diagnostic tasks: (A) Alzheimer’s disease (AD) vs. cognitively normal (CN), (B) mild cognitive impairment (MCI) vs. CN and (C) early MCI (EMCI) vs. late MCI (LMCI). The input modalities include: MRI only, real FDG-PET, synthetic FDG-PET, real AV45-PET, synthetic AV45-PET, MRI + real FDG-PET, MRI + synthetic FDG-PET, MRI + real AV45-PET, MRI + synthetic AV45-PET, MRI + real FDG + real AV45, and MRI + synthetic FDG + synthetic AV45. For visual clarity, bars corresponding to synthetic PET inputs are shown with the same colour scheme as their real PET counterparts but with dashed (hatched) fills. The results demonstrate that MRI-synthetic PET images achieve comparable diagnostic accuracy to real PET scans, highlighting their clinical utility for downstream classification tasks.}
+    \label{fig:5}
+\end{figure}
+
+Taken together, these findings confirm the translational potential of DIReCT$++$, as its synthetic outputs serve as effective proxies for real PET biomarkers in critical downstream diagnostic and prognostic tasks.

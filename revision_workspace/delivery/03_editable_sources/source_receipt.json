@@ -1,0 +1,21 @@
+{
+  "historical_originals": [
+    {
+      "source": "manuscript/raw_pic/1103.drawio",
+      "sha256": "e9f1709717f40449b2fc803432935738f2ccde79706a34e1356c1d03e8654cae"
+    },
+    {
+      "source": "manuscript/raw_pic/图表2.pptx",
+      "sha256": "d5720e801a9ccbc1b38576bbff890a79394ee30bd0084b8cf5586fb6e05dfc19"
+    },
+    {
+      "source": "manuscript/raw_pic/图表.rectified.pptx",
+      "sha256": "e082a01b05f44116fe7dc171211a0b8aa3da89d0bb6000a70b39bf323919e9f1"
+    }
+  ],
+  "derived_drawio_pages": [
+    "FIG2",
+    "FIG3"
+  ],
+  "warning": "Historical composite raster panels remain raster assets; the supplied originals do not certify full vector editability of every panel. High-DPI PNG export does not recover absent raster detail. Recreated ROI figure sources are the author-designated shuijin family, not exact historical drawing files."
+}

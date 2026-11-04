@@ -1,0 +1,1 @@
+To accommodate subjects for whom only one PET tracer is available, we define a unified training objective $\mathcal{L}(\theta)$ that conditionally supervises the model based on the presence of ground-truth PET data. Specifically, the total loss combines modality-specific reconstruction terms, each gated by a binary availability indicator:

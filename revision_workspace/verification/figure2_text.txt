@@ -1,0 +1,145 @@
+FDG-PET Reconstruction on ADNI
+
+AV45-PET Reconstruction on ADNI
+
+Generalization on OASIS Dataset
+
+SSIM
+
+0.8
+
+0.8
+
+0.6
+
+0.6
+
+0.6
+
+0.4
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.2
+
+MAE
+
+0.8
+
+MAE
+
+1.0
+
+CycleGAN
+Swin-UNet
+3D DDIM
+
+PSNR
+
+SSIM
+
+1.0
+
+PSNR
+
+SSIM
+
+1.0
+
+PSNR
+
+MAE
+
+A
+
+SegGuidedDif
+
+3D RF
+Ours (single)
+MSE
+
+MSE
+MRI
+
+002_S_5018 (AD)
+
+037_S_0552 (MCI)
+
+002_S_0295 (CN)
+
+B
+
+CycleGAN Swin-UNet
+
+Ours
+
+MSE
+
+3D DDIM SegGuidedDif
+
+3D RF Ours (Single)
+
+Ours
+
+GT
+1.0
+
+0.8
+
+Up: FDG
+Down: AV45
+
+0.6
+
+Up: FDG
+Down: AV45
+0.4
+
+0.2
+
+Up: FDG
+Down: AV45
+
+0.0
+
+C
+
+MRI
+
+CycleGAN
+
+Swin-UNet
+
+3D DDIM
+
+SegGuidedDif
+
+3D RF
+
+Ours
+
+GT
+
+OAS30057 (AD)
+
+OAS30052 (CN)
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+

@@ -1,0 +1,9 @@
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figure_2}
+    \caption{\textbf{Comparison of PET reconstruction quality across methods and datasets.}
+(A) Radar plots show normalized quantitative results (SSIM, MSE, MAE, PSNR) for FDG-PET and AV45-PET reconstruction on ADNI, and cross-dataset generalization on OASIS. Notably, each metric is normalized by the best value among all methods. 
+(B) Representative PET synthesis results for cognitively normal (CN, top), mild cognitive impairment (MCI, middle), and Alzheimer’s disease (AD, bottom) subjects. Columns: MRI input, competing methods, DIReCT (i.e., ours single), ours (DIReCT$++$), and real PET. Each sub-row depicts FDG (Up) and AV45 (Down) reconstruction. 
+(C) Generalization to OASIS using models trained on ADNI. Rows: CN and AD subjects. Our method yields consistently higher quantitative scores and superior visual fidelity across datasets.}
+    \label{fig:2}
+\end{figure}

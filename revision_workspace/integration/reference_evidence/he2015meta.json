@@ -1,0 +1,944 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1007%2Fs12013-014-0138-7",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T13:03:59Z",
+      "timestamp": 1792674239451,
+      "version": "4.5.0"
+    },
+    "reference-count": 55,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2014-11-05T00:00:00Z",
+          "timestamp": 1415145600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2014-11-05T00:00:00Z",
+          "timestamp": 1415145600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Cell Biochem Biophys"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1007/s12013-014-0138-7",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2014-11-04T16:25:31Z",
+      "timestamp": 1415118331000
+    },
+    "page": "17-26",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 47,
+    "title": [
+      "Meta-analytic Comparison Between PIB-PET and FDG-PET Results in Alzheimer’s Disease and MCI"
+    ],
+    "prefix": "10.1007",
+    "volume": "71",
+    "author": [
+      {
+        "given": "Wei",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dinghua",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joaquim",
+        "family": "Radua",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "GuoQing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bojun",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhigang",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "1",
+        "key": "138_CR1",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.3233/JAD-2010-1224",
+        "volume": "19",
+        "author": "JO Rinne",
+        "year": "2010",
+        "unstructured": "Rinne, J. O., & Nagren, K. (2010). Positron emission tomography in at risk patients and in the progression of mild cognitive impairment to Alzheimer’s disease. Journal of Alzheimer’s Disease,\n                  19(1), 291–300.",
+        "journal-title": "Journal of Alzheimer’s Disease"
+      },
+      {
+        "issue": "1–3",
+        "key": "138_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "131",
+        "DOI": "10.1159/000289222",
+        "volume": "7",
+        "author": "V Berti",
+        "year": "2010",
+        "unstructured": "Berti, V., Osorio, R. S., Mosconi, L., Li, Y., De Santi, S., & de Leon, M. J. (2010). Early detection of Alzheimer’s disease with PET imaging. Neurodegenerative Disease,\n                  7(1–3), 131–135.",
+        "journal-title": "Neurodegenerative Disease"
+      },
+      {
+        "issue": "6 Pt 1",
+        "key": "138_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "805",
+        "DOI": "10.1006/nimg.2000.0582",
+        "volume": "11",
+        "author": "J Ashburner",
+        "year": "2000",
+        "unstructured": "Ashburner, J., & Friston, K. J. (2000). Voxel-based morphometry—The methods. Neuroimage,\n                  11(6 Pt 1), 805–821.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "6",
+        "key": "138_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1238",
+        "DOI": "10.1006/nimg.2001.0961",
+        "volume": "14",
+        "author": "J Ashburner",
+        "year": "2001",
+        "unstructured": "Ashburner, J., & Friston, K. J. (2001). Why voxel-based morphometry should be used. Neuroimage,\n                  14(6), 1238–1243.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "969",
+        "DOI": "10.1016/j.neuroimage.2004.10.017",
+        "volume": "24",
+        "author": "C Svarer",
+        "year": "2005",
+        "unstructured": "Svarer, C., Madsen, K., Hasselbalch, S. G., Pinborg, L. H., Haugbol, S., Frokjaer, V. G., et al. (2005). MR-based automatic delineation of volumes of interest in human brain PET images using probability maps. Neuroimage,\n                  24(4), 969–979.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "5",
+        "key": "138_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "393",
+        "DOI": "10.1192/bjp.bp.108.055046",
+        "volume": "195",
+        "author": "J Radua",
+        "year": "2009",
+        "unstructured": "Radua, J., & Mataix-Cols, D. (2009). Voxel-wise meta-analysis of grey matter changes in obsessive-compulsive disorder. British Journal of Psychiatry,\n                  195(5), 393–402.",
+        "journal-title": "British Journal of Psychiatry"
+      },
+      {
+        "issue": "8",
+        "key": "138_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "605",
+        "DOI": "10.1016/j.eurpsy.2011.04.001",
+        "volume": "27",
+        "author": "J Radua",
+        "year": "2011",
+        "unstructured": "Radua, J., Mataix-Cols, D., Phillips, M. L., El-Hage, W., Kronhaus, D. M., Cardoner, N., et al. (2011). A new meta-analytic method for neuroimaging studies that combines reported peak coordinates and statistical parametric maps. European Psychiatry,\n                  27(8), 605–611.",
+        "journal-title": "European Psychiatry"
+      },
+      {
+        "issue": "3 Pt 1",
+        "key": "138_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "765",
+        "DOI": "10.1006/nimg.2002.1131",
+        "volume": "16",
+        "author": "PE Turkeltaub",
+        "year": "2002",
+        "unstructured": "Turkeltaub, P. E., Eden, G. F., Jones, K. M., & Zeffiro, T. A. (2002). Meta-analysis of the functional neuroanatomy of single-word reading: Method and validation. Neuroimage,\n                  16(3 Pt 1), 765–780.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "150",
+        "DOI": "10.1093/scan/nsm015",
+        "volume": "2",
+        "author": "TD Wager",
+        "year": "2007",
+        "unstructured": "Wager, T. D., Lindquist, M., & Kaplan, L. (2007). Meta-analysis of functional neuroimaging data: Current and future directions. Social Cognitive and Affective Neuroscience,\n                  2(2), 150–158.",
+        "journal-title": "Social Cognitive and Affective Neuroscience"
+      },
+      {
+        "issue": "7",
+        "key": "138_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "939",
+        "DOI": "10.1212/WNL.34.7.939",
+        "volume": "34",
+        "author": "G McKhann",
+        "year": "1984",
+        "unstructured": "McKhann, G., Drachman, D., Folstein, M., Katzman, R., Price, D., & Stadlan, E. M. (1984). Clinical diagnosis of Alzheimer’s disease: Report of the NINCDS-ADRDA Work Group under the auspices of Department of Health and Human Services Task Force on Alzheimer’s Disease. Neurology,\n                  34(7), 939–944.",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "12",
+        "key": "138_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1985",
+        "DOI": "10.1001/archneur.58.12.1985",
+        "volume": "58",
+        "author": "RC Petersen",
+        "year": "2001",
+        "unstructured": "Petersen, R. C., Doody, R., Kurz, A., Mohs, R. C., Morris, J. C., Rabins, P. V., et al. (2001). Current concepts in mild cognitive impairment. Archives of Neurology,\n                  58(12), 1985–1992.",
+        "journal-title": "Archives of Neurology"
+      },
+      {
+        "issue": "5",
+        "key": "138_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.1001/archneur.63.5.665",
+        "volume": "63",
+        "author": "RC Petersen",
+        "year": "2006",
+        "unstructured": "Petersen, R. C., Parisi, J. E., Dickson, D. W., Johnson, K. A., Knopman, D. S., Boeve, B. F., et al. (2006). Neuropathologic features of amnestic mild cognitive impairment. Archives of Neurology,\n                  63(5), 665–672.",
+        "journal-title": "Archives of Neurology"
+      },
+      {
+        "issue": "11",
+        "key": "138_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1194",
+        "DOI": "10.1002/hbm.20345",
+        "volume": "28",
+        "author": "JL Lancaster",
+        "year": "2007",
+        "unstructured": "Lancaster, J. L., Tordesillas-Gutierrez, D., Martinez, M., Salinas, F., Evans, A., Zilles, K., et al. (2007). Bias between MNI and Talairach coordinates analyzed using the ICBM-152 brain template. Human Brain Mapping,\n                  28(11), 1194–1205.",
+        "journal-title": "Human Brain Mapping"
+      },
+      {
+        "issue": "10",
+        "key": "138_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "754",
+        "DOI": "10.1212/WNL.0b013e3181b23564",
+        "volume": "73",
+        "author": "A Okello",
+        "year": "2009",
+        "unstructured": "Okello, A., Koivunen, J., Edison, P., Archer, H. A., Turkheimer, F. E., Nagren, K., et al. (2009). Conversion of amyloid positive and negative MCI to AD over 3 years: An 11C-PIB PET study. Neurology,\n                  73(10), 754–760.",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "8",
+        "key": "138_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1262",
+        "DOI": "10.2967/jnumed.107.049932",
+        "volume": "49",
+        "author": "A Mikhno",
+        "year": "2008",
+        "unstructured": "Mikhno, A., Devanand, D., Pelton, G., Cuasay, K., Gunn, R., Upton, N., et al. (2008). Voxel-based analysis of 11C-PIB scans for diagnosing Alzheimer’s disease. Journal of Nuclear Medicine,\n                  49(8), 1262–1269.",
+        "journal-title": "Journal of Nuclear Medicine"
+      },
+      {
+        "issue": "17",
+        "key": "138_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1504",
+        "DOI": "10.1212/WNL.0b013e3181a2e896",
+        "volume": "72",
+        "author": "GB Frisoni",
+        "year": "2009",
+        "unstructured": "Frisoni, G. B., Lorenzi, M., Caroli, A., Kemppainen, N., Nagren, K., & Rinne, J. O. (2009). In vivo mapping of amyloid toxicity in Alzheimer disease. Neurology,\n                  72(17), 1504–1511.",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "8",
+        "key": "138_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1140",
+        "DOI": "10.1001/archneur.64.8.1140",
+        "volume": "64",
+        "author": "SY Ng",
+        "year": "2007",
+        "unstructured": "Ng, S. Y., Villemagne, V. L., Masters, C. L., & Rowe, C. C. (2007). Evaluating atypical dementia syndromes using positron emission tomography with carbon 11 labeled Pittsburgh Compound B. Archives of Neurology,\n                  64(8), 1140–1144.",
+        "journal-title": "Archives of Neurology"
+      },
+      {
+        "issue": "Pt 8",
+        "key": "138_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "2055",
+        "DOI": "10.1093/brain/awm133",
+        "volume": "130",
+        "author": "N Nelissen",
+        "year": "2007",
+        "unstructured": "Nelissen, N., Vandenbulcke, M., Fannes, K., Verbruggen, A., Peeters, R., Dupont, P., et al. (2007). Abeta amyloid deposition in the language system and how the brain responds. Brain,\n                  130(Pt 8), 2055–2069.",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "17",
+        "key": "138_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1487",
+        "DOI": "10.1212/WNL.0b013e3181a2e8d0",
+        "volume": "72",
+        "author": "A Drzezga",
+        "year": "2009",
+        "unstructured": "Drzezga, A., Grimmer, T., Henriksen, G., Muhlau, M., Perneczky, R., Miederer, I., et al. (2009). Effect of APOE genotype on amyloid plaque load and gray matter volume in Alzheimer disease. Neurology,\n                  72(17), 1487–1494.",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "619",
+        "DOI": "10.1016/j.neuroimage.2007.09.020",
+        "volume": "39",
+        "author": "A Drzezga",
+        "year": "2008",
+        "unstructured": "Drzezga, A., Grimmer, T., Henriksen, G., Stangier, I., Perneczky, R., Diehl-Schmid, J., et al. (2008). Imaging of amyloid plaques and cerebral glucose metabolism in semantic dementia and Alzheimer’s disease. Neuroimage,\n                  39(2), 619–633.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "1",
+        "key": "138_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "94",
+        "DOI": "10.1016/j.neuroimage.2006.05.063",
+        "volume": "33",
+        "author": "SK Ziolko",
+        "year": "2006",
+        "unstructured": "Ziolko, S. K., Weissfeld, L. A., Klunk, W. E., Mathis, C. A., Hoge, J. A., Lopresti, B. J., et al. (2006). Evaluation of voxel-based methods for the statistical analysis of PIB PET amyloid imaging studies in Alzheimer’s disease. Neuroimage,\n                  33(1), 94–102.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "Pt 3",
+        "key": "138_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "798",
+        "DOI": "10.1093/brain/awq383",
+        "volume": "134",
+        "author": "G Chetelat",
+        "year": "2011",
+        "unstructured": "Chetelat, G., Villemagne, V. L., Pike, K. E., Ellis, K. A., Bourgeat, P., Jones, G., et al. (2011). Independent contribution of temporal beta-amyloid deposition to memory decline in the pre-dementia phase of Alzheimer’s disease. Brain,\n                  134(Pt 3), 798–807.",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "488",
+        "DOI": "10.1016/j.neuroimage.2010.04.013",
+        "volume": "52",
+        "author": "J Shin",
+        "year": "2010",
+        "unstructured": "Shin, J., Lee, S. Y., Kim, S. J., Kim, S. H., Cho, S. J., & Kim, Y. B. (2010). Voxel-based analysis of Alzheimer’s disease PET imaging using a triplet of radiotracers: PIB, FDDNP, and FDG. Neuroimage,\n                  52(2), 488–496.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "19",
+        "key": "138_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1603",
+        "DOI": "10.1212/01.wnl.0000260969.94695.56",
+        "volume": "68",
+        "author": "NM Kemppainen",
+        "year": "2007",
+        "unstructured": "Kemppainen, N. M., Aalto, S., Wilson, I. A., Nagren, K., Helin, S., Bruck, A., et al. (2007). PET amyloid ligand [11C]PIB uptake is increased in mild cognitive impairment. Neurology,\n                  68(19), 1603–1606.",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "7",
+        "key": "138_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1357",
+        "DOI": "10.1007/s00259-008-0773-6",
+        "volume": "35",
+        "author": "A Del Sole",
+        "year": "2008",
+        "unstructured": "Del Sole, A., Clerici, F., Chiti, A., Lecchi, M., Mariani, C., Maggiore, L., et al. (2008). Individual cerebral metabolic deficits in Alzheimer’s disease and amnestic mild cognitive impairment: An FDG PET study. European Journal of Nuclear Medicine and Molecular Imaging,\n                  35(7), 1357–1366.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "Pt 2",
+        "key": "138_CR26",
+        "doi-asserted-by": "crossref",
+        "first-page": "392",
+        "DOI": "10.1093/brain/awn326",
+        "volume": "132",
+        "author": "GS Smith",
+        "year": "2009",
+        "unstructured": "Smith, G. S., Kramer, E., Ma, Y., Hermann, C. R., Dhawan, V., Chaly, T., et al. (2009). Cholinergic modulation of the cerebral metabolic response to citalopram in Alzheimer’s disease. Brain,\n                  132(Pt 2), 392–401.",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1016/j.pscychresns.2007.11.004",
+        "volume": "164",
+        "author": "I Yakushev",
+        "year": "2008",
+        "unstructured": "Yakushev, I., Landvogt, C., Buchholz, H. G., Fellgiebel, A., Hammers, A., Scheurich, A., et al. (2008). Choice of reference area in studies of Alzheimer’s disease using positron emission tomography with fluorodeoxyglucose-F18. Psychiatry Research,\n                  164(2), 143–153.",
+        "journal-title": "Psychiatry Research"
+      },
+      {
+        "issue": "Pt 1",
+        "key": "138_CR28",
+        "first-page": "60",
+        "volume": "131",
+        "author": "G Chetelat",
+        "year": "2008",
+        "unstructured": "Chetelat, G., Desgranges, B., Landeau, B., Mezenge, F., Poline, J. B., de la Sayette, V., et al. (2008). Direct voxel-based comparison between grey matter hypometabolism and atrophy in Alzheimer’s disease. Brain,\n                  131(Pt 1), 60–71.",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1503",
+        "DOI": "10.1016/j.neuroimage.2008.01.056",
+        "volume": "40",
+        "author": "C Habeck",
+        "year": "2008",
+        "unstructured": "Habeck, C., Foster, N. L., Perneczky, R., Kurz, A., Alexopoulos, P., Koeppe, R. A., et al. (2008). Multivariate and univariate neuroimaging biomarkers of Alzheimer’s disease. Neuroimage,\n                  40(4), 1503–1515.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1016/j.pscychresns.2006.12.003",
+        "volume": "155",
+        "author": "A Hunt",
+        "year": "2007",
+        "unstructured": "Hunt, A., Schonknecht, P., Henze, M., Seidl, U., Haberkorn, U., & Schroder, J. (2007). Reduced cerebral glucose metabolism in patients at risk for Alzheimer’s disease. Psychiatry Research,\n                  155(2), 147–154.",
+        "journal-title": "Psychiatry Research"
+      },
+      {
+        "issue": "3",
+        "key": "138_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1159/000278422",
+        "volume": "29",
+        "author": "SH Kim",
+        "year": "2010",
+        "unstructured": "Kim, S. H., Seo, S. W., Yoon, D. S., Chin, J., Lee, B. H., Cheong, H. K., et al. (2010). Comparison of neuropsychological and FDG-PET findings between early- versus late-onset mild cognitive impairment: A five-year longitudinal study. Dementia and Geriatric Cognitive Disorders,\n                  29(3), 213–223.",
+        "journal-title": "Dementia and Geriatric Cognitive Disorders"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1159/000161055",
+        "volume": "26",
+        "author": "DY Lee",
+        "year": "2008",
+        "unstructured": "Lee, D. Y., Seo, E. H., Choo, I. H., Kim, S. G., Lee, J. S., Lee, D. S., et al. (2008). Neural correlates of the Clock Drawing Test performance in Alzheimer’s disease: A FDG-PET study. Dementia and Geriatric Cognitive Disorders,\n                  26(4), 306–313.",
+        "journal-title": "Dementia and Geriatric Cognitive Disorders"
+      },
+      {
+        "issue": "12",
+        "key": "138_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1961",
+        "DOI": "10.2967/jnumed.107.042820",
+        "volume": "48",
+        "author": "I Matsunari",
+        "year": "2007",
+        "unstructured": "Matsunari, I., Samuraki, M., Chen, W. P., Yanase, D., Takeda, N., Ono, K., et al. (2007). Comparison of 18F-FDG PET and optimized voxel-based morphometry for detection of Alzheimer’s disease: Aging effect on diagnostic performance. Journal of Nuclear Medicine,\n                  48(12), 1961–1970.",
+        "journal-title": "Journal of Nuclear Medicine"
+      },
+      {
+        "issue": "1",
+        "key": "138_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1136/jnnp.2003.030882",
+        "volume": "76",
+        "author": "L Mosconi",
+        "year": "2005",
+        "unstructured": "Mosconi, L., Herholz, K., Prohovnik, I., Nacmias, B., De Cristofaro, M. T., Fayyaz, M., et al. (2005). Metabolic interaction between ApoE genotype and onset age in Alzheimer’s disease: Implications for brain reserve. Journal of Neurology, Neurosurgery and Psychiatry,\n                  76(1), 15–23.",
+        "journal-title": "Journal of Neurology, Neurosurgery and Psychiatry"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "277",
+        "DOI": "10.1016/j.jneumeth.2010.07.030",
+        "volume": "192",
+        "author": "X Wu",
+        "year": "2010",
+        "unstructured": "Wu, X., Chen, K., Yao, L., Ayutyanont, N., Langbaum, J. B., Fleisher, A., et al. (2010). Assessing the reliability to detect cerebral hypometabolism in probable Alzheimer’s disease and amnestic mild cognitive impairment. Journal of Neuroscience Methods,\n                  192(2), 277–285.",
+        "journal-title": "Journal of Neuroscience Methods"
+      },
+      {
+        "issue": "12",
+        "key": "138_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "802",
+        "DOI": "10.1097/WNR.0b013e32833ccaf4",
+        "volume": "21",
+        "author": "C Xu",
+        "year": "2010",
+        "unstructured": "Xu, C., Wang, Z., Fan, M., Liu, B., Song, M., Zhen, X., et al. (2010). Effects of BDNF Val66Met polymorphism on brain metabolism in Alzheimer’s disease. NeuroReport,\n                  21(12), 802–807.",
+        "journal-title": "NeuroReport"
+      },
+      {
+        "issue": "2",
+        "key": "138_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1097/WAD.0b013e3180687418",
+        "volume": "21",
+        "author": "IH Choo",
+        "year": "2007",
+        "unstructured": "Choo, I. H., Lee, D. Y., Youn, J. C., Jhoo, J. H., Kim, K. W., Lee, D. S., et al. (2007). Topographic patterns of brain functional impairment progression according to clinical severity staging in 116 Alzheimer disease patients: FDG-PET study. Alzheimer Disease and Associated Disorders,\n                  21(2), 77–84.",
+        "journal-title": "Alzheimer Disease and Associated Disorders"
+      },
+      {
+        "issue": "8",
+        "key": "138_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "959",
+        "DOI": "10.1007/s00259-004-1740-5",
+        "volume": "32",
+        "author": "K Ishii",
+        "year": "2005",
+        "unstructured": "Ishii, K., Sasaki, H., Kono, A. K., Miyamoto, N., Fukuda, T., & Mori, E. (2005). Comparison of gray matter and metabolic reduction in mild Alzheimer’s disease using FDG-PET and voxel-based morphometric MR studies. European Journal of Nuclear Medicine and Molecular Imaging,\n                  32(8), 959–963.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "12",
+        "key": "138_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2227",
+        "DOI": "10.1007/s00259-008-0871-5",
+        "volume": "35",
+        "author": "T Kanda",
+        "year": "2008",
+        "unstructured": "Kanda, T., Ishii, K., Uemura, T., Miyamoto, N., Yoshikawa, T., Kono, A. K., et al. (2008). Comparison of grey matter and metabolic reductions in frontotemporal dementia using FDG-PET and voxel-based morphometric MR studies. European Journal of Nuclear Medicine and Molecular Imaging,\n                  35(12), 2227–2234.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "138_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "801",
+        "DOI": "10.1007/s00259-005-0050-x",
+        "volume": "33",
+        "author": "T Kawachi",
+        "year": "2006",
+        "unstructured": "Kawachi, T., Ishii, K., Sakamoto, S., Sasaki, M., Mori, T., Yamashita, F., et al. (2006). Comparison of the diagnostic performance of FDG-PET and VBM-MRI in very mild Alzheimer’s disease. European Journal of Nuclear Medicine and Molecular Imaging,\n                  33(7), 801–809.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "Pt 8",
+        "key": "138_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "1790",
+        "DOI": "10.1093/brain/awh539",
+        "volume": "128",
+        "author": "EJ Kim",
+        "year": "2005",
+        "unstructured": "Kim, E. J., Cho, S. S., Jeong, Y., Park, K. C., Kang, S. J., Kang, E., et al. (2005). Glucose metabolism in early onset versus late onset Alzheimer’s disease: An SPM analysis of 120 patients. Brain,\n                  128(Pt 8), 1790–1801.",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1107",
+        "DOI": "10.1016/j.neuroimage.2008.12.072",
+        "volume": "45",
+        "author": "JB Langbaum",
+        "year": "2009",
+        "unstructured": "Langbaum, J. B., Chen, K., Lee, W., Reschke, C., Bandy, D., Fleisher, A. S., et al. (2009). Categorical and correlational analyses of baseline fluorodeoxyglucose positron emission tomography images from the Alzheimer’s Disease Neuroimaging Initiative (ADNI). Neuroimage,\n                  45(4), 1107–1116.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR43",
+        "first-page": "843",
+        "volume": "26",
+        "author": "S Sakamoto",
+        "year": "2005",
+        "unstructured": "Sakamoto, S., Ishii, K., Hosaka, K., Mori, T., Sasaki, M., & Mori, E. (2005). Detectability of hypometabolic regions in mild Alzheimer disease: Function of time after the injection of 2-[fluorine 18]-fluoro-2-deoxy-d-glucose. AJNR. American Journal of Neuroradiology,\n                  26(4), 843–847.",
+        "journal-title": "AJNR. American Journal of Neuroradiology"
+      },
+      {
+        "issue": "10",
+        "key": "138_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1658",
+        "DOI": "10.1007/s00259-007-0454-x",
+        "volume": "34",
+        "author": "M Samuraki",
+        "year": "2007",
+        "unstructured": "Samuraki, M., Matsunari, I., Chen, W. P., Yajima, K., Yanase, D., Fujikawa, A., et al. (2007). Partial volume effect-corrected FDG PET and grey matter volume loss in patients with mild Alzheimer’s disease. European Journal of Nuclear Medicine and Molecular Imaging,\n                  34(10), 1658–1669.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "3",
+        "key": "138_CR45",
+        "doi-asserted-by": "crossref",
+        "first-page": "927",
+        "DOI": "10.3233/JAD-2010-1287",
+        "volume": "19",
+        "author": "X Yuan",
+        "year": "2010",
+        "unstructured": "Yuan, X., Shan, B., Ma, Y., Tian, J., Jiang, K., Cao, Q., et al. (2010). Multi-center study on Alzheimer’s disease using FDG PET: Group and individual analyses. Journal of Alzheimer’s Disease,\n                  19(3), 927–935.",
+        "journal-title": "Journal of Alzheimer’s Disease"
+      },
+      {
+        "issue": "1",
+        "key": "138_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.1017/S1041610208008132",
+        "volume": "21",
+        "author": "H Ishii",
+        "year": "2009",
+        "unstructured": "Ishii, H., Ishikawa, H., Meguro, K., Tashiro, M., & Yamaguchi, S. (2009). Decreased cortical glucose metabolism in converters from CDR 0.5 to Alzheimer’s disease in a community: The Osaki-Tajiri Project. International Psychogeriatrics,\n                  21(1), 148–156.",
+        "journal-title": "International Psychogeriatrics"
+      },
+      {
+        "issue": "1",
+        "key": "138_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "36",
+        "DOI": "10.1007/s00259-009-1218-6",
+        "volume": "37",
+        "author": "S Morbelli",
+        "year": "2010",
+        "unstructured": "Morbelli, S., Piccardo, A., Villavecchia, G., Dessi, B., Brugnolo, A., Piccini, A., et al. (2010). Mapping brain morphological and functional conversion patterns in amnestic MCI: A voxel-based MRI and FDG-PET study. European Journal of Nuclear Medicine and Molecular Imaging,\n                  37(1), 36–45.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "1196",
+        "DOI": "10.1016/j.neuroimage.2009.05.037",
+        "volume": "47",
+        "author": "ML Schroeter",
+        "year": "2009",
+        "unstructured": "Schroeter, M. L., Stein, T., Maslowski, N., & Neumann, J. (2009). Neural correlates of Alzheimer’s disease and mild cognitive impairment: A systematic and quantitative meta-analysis involving 1351 patients. Neuroimage,\n                  47(4), 1196–1206.",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "7",
+        "key": "138_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "501",
+        "DOI": "10.1212/01.wnl.0000244749.20056.d4",
+        "volume": "68",
+        "author": "P Edison",
+        "year": "2007",
+        "unstructured": "Edison, P., Archer, H. A., Hinz, R., Hammers, A., Pavese, N., Tai, Y. F., et al. (2007). Amyloid, hypometabolism, and cognition in Alzheimer disease: An [11C]PIB and [18F]FDG PET study. Neurology,\n                  68(7), 501–508.",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "138_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "S160",
+        "DOI": "10.1259/bjr/97295129",
+        "volume": "80 Spec No. 2",
+        "author": "K Herholz",
+        "year": "2007",
+        "unstructured": "Herholz, K., Carter, S. F., & Jones, M. (2007). Positron emission tomography imaging in dementia. The British Journal of Radiology,\n                  80 Spec No. 2, S160–S167.",
+        "journal-title": "The British Journal of Radiology"
+      },
+      {
+        "issue": "3",
+        "key": "138_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "575",
+        "DOI": "10.1007/s00259-009-1293-8",
+        "volume": "37",
+        "author": "KP Wong",
+        "year": "2010",
+        "unstructured": "Wong, K. P., Wardak, M., Shao, W., Dahlbom, M., Kepe, V., Liu, J., et al. (2010). Quantitative analysis of [18F]FDDNP PET using subcortical white matter as reference region. European Journal of Nuclear Medicine and Molecular Imaging,\n                  37(3), 575–588.",
+        "journal-title": "European Journal of Nuclear Medicine and Molecular Imaging"
+      },
+      {
+        "issue": "4",
+        "key": "138_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.1007/BF00308809",
+        "volume": "82",
+        "author": "H Braak",
+        "year": "1991",
+        "unstructured": "Braak, H., & Braak, E. (1991). Neuropathological staging of Alzheimer-related changes. Acta Neuropathologica,\n                  82(4), 239–259.",
+        "journal-title": "Acta Neuropathologica"
+      },
+      {
+        "issue": "3",
+        "key": "138_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1097/00004728-197906000-00001",
+        "volume": "3",
+        "author": "EJ Hoffman",
+        "year": "1979",
+        "unstructured": "Hoffman, E. J., Huang, S. C., & Phelps, M. E. (1979). Quantitation in positron emission computed tomography: 1. Effect of object size. Journal of Computer Assisted Tomography,\n                  3(3), 299–308.",
+        "journal-title": "Journal of Computer Assisted Tomography"
+      },
+      {
+        "issue": "Supplement 2",
+        "key": "138_CR54",
+        "first-page": "428",
+        "volume": "50",
+        "author": "S Tohru",
+        "year": "2009",
+        "unstructured": "Tohru, S., Isabelle, M., Ken, H., Gjermund, H., Christine, P., Markus, S., et al. (2009). The effect of partial volume effect correction on PIB and FDG PET data in MCI and AD patients. Journal of Nuclear Medicine,\n                  50(Supplement 2), 428.",
+        "journal-title": "Journal of Nuclear Medicine"
+      },
+      {
+        "issue": "3",
+        "key": "138_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "810",
+        "DOI": "10.1016/j.neuroimage.2008.12.039",
+        "volume": "45",
+        "author": "G Salimi-Khorshidi",
+        "year": "2009",
+        "unstructured": "Salimi-Khorshidi, G., Smith, S. M., Keltner, J. R., Wager, T. D., & Nichols, T. E. (2009). Meta-analysis of neuroimaging data: A comparison of image-based and coordinate-based pooling of studies. Neuroimage,\n                  45(3), 810–823.",
+        "journal-title": "Neuroimage"
+      }
+    ],
+    "container-title": [
+      "Cell Biochemistry and Biophysics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12013-014-0138-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s12013-014-0138-7/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12013-014-0138-7",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12013-014-0138-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2020-10-09T18:18:45Z",
+      "timestamp": 1602267525000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s12013-014-0138-7"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          5
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "138"
+    ],
+    "URL": "https://doi.org/10.1007/s12013-014-0138-7",
+    "relation": {},
+    "ISSN": [
+      "1085-9195",
+      "1559-0283"
+    ],
+    "issn-type": [
+      {
+        "value": "1085-9195",
+        "type": "print"
+      },
+      {
+        "value": "1559-0283",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 November 2014",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      }
+    ]
+  }
+}

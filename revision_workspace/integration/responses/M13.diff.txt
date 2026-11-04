@@ -1,0 +1,7 @@
+--- source
++++ final
+@@ -1,3 +1,3 @@
+ We thank the reviewer for pointing out the inappropriate citation for AD-vulnerable regions in FDG-PET. We acknowledge that the original reference primarily describes the Alzheimer's Disease Neuroimaging Initiative (ADNI) and does not directly support the regional metabolic alterations discussed in our study.
+ 
+-To address this issue, we will replace the original citation with more relevant FDG-PET studies, including Mosconi et al. on hippocampal hypometabolism, He et al. on AD-related regional metabolic abnormalities, and Strom et al. on metabolic alterations involving the isthmus cingulate region. These references provide a more appropriate scientific basis for the selected disease-related regions.
++To address this issue, we now replace the original citation with more relevant FDG-PET studies, including Mosconi et al. on hippocampal hypometabolism, He et al. on AD-related regional metabolic abnormalities, and Strom et al. on metabolic alterations involving the isthmus cingulate region. These references provide a more appropriate scientific basis for the selected disease-related regions.

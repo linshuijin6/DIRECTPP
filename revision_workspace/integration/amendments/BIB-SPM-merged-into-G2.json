@@ -1,0 +1,13 @@
+{
+  "position_id": "BIB-SPM-METHOD-CITATION",
+  "target_file": "manuscript/BMEF_main.tex",
+  "section_or_label": "Materials and Data Preprocessing / SPM",
+  "original_anchor_sha256": "99520da8251e09411a2e1574ca2635e74ed96dd3c7b42068af8eef89cd2242d5",
+  "source_candidates": "",
+  "related_comments": "M12",
+  "groups": "BIB;G2",
+  "final_text_path": "revision_workspace/integration/final_text/BIB-SPM-METHOD-CITATION.tex",
+  "evidence_paths": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md;rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md;revision_workspace/integration/reference_evidence/mosconi2005reduced.json;revision_workspace/integration/reference_evidence/synthseg.json;revision_workspace/integration/reference_evidence/friston1995spatial.json;revision_workspace/integration/reference_evidence/strom2022cortical.json;revision_workspace/integration/reference_evidence/he2015meta.json;revision_workspace/integration/reference_evidence/jack2024revised.json",
+  "decision_basis": "Cite SPM reference book and actual spatial-registration method at the use site",
+  "status": "implemented_pending_full_build_and_review"
+}

@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -6,4 +6,4 @@
+ 
+ We acknowledge that differences remain in network architectures, conditioning inputs, and training configurations. Therefore, these comparisons primarily assess the overall performance of different methods rather than constituting strictly controlled ablations in which all experimental variables are held constant.
+ 
+-In the revised manuscript, we will provide clearer descriptions of the task adaptations and experimental settings of the principal baselines and further clarify the scope of the comparisons, thereby improving the transparency, objectivity, and reproducibility of our experimental evaluation.
++In the revised manuscript, we now provide clearer descriptions of the task adaptations and experimental settings of the principal baselines and further clarify the scope of the comparisons, thereby improving the transparency, objectivity, and reproducibility of our experimental evaluation.

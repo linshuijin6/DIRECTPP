@@ -1,0 +1,6 @@
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{supplementary_figure_4}
+    \caption{\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 2 of 2).}}
+    \label{fig:supp_fdg_2}
+\end{figure}

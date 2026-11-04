@@ -1,0 +1,227 @@
+[
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/BMEF_main.pdf",
+    "export_relative": "BMEF审稿回复/BMEF_main.pdf",
+    "bytes": 14535460,
+    "sha256": "050f0b2747d12922792d2e487a262ee541f15adfa1380d083493a2fda9678489",
+    "lines": null,
+    "type": "PDF",
+    "integrity": "PDF header OK"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "export_relative": "BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "bytes": 51871,
+    "sha256": "da9b7a506561db7634068dbb2aefbbee64ca038acc2080fe195adea441b7ffc1",
+    "lines": 638,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "export_relative": "BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "bytes": 5617,
+    "sha256": "4a84922199309d5a09b3bb593328a3be37b814d93a515060acf29da4aeb429fe",
+    "lines": 70,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "export_relative": "BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "bytes": 6705,
+    "sha256": "9120adf12742250231ea415601ba4392b46ae8147c287f30fec2900fd2972e77",
+    "lines": 86,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+    "export_relative": "BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+    "bytes": 3705,
+    "sha256": "bb080d998f6355172e81b6d97b6d6a155ceb8ca06452594d48067f0c4580cdc9",
+    "lines": 37,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+    "export_relative": "BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+    "bytes": 2174,
+    "sha256": "4a93d6d153ea28745ae5737d8e3484ece46b78f203de620379f8bebde77120bb",
+    "lines": 33,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "export_relative": "BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "bytes": 14795,
+    "sha256": "b53c227228813ca78abf1f0e8948ca480edcf7b558c14cfcdaa8d9a8ad07a39a",
+    "lines": 93,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+    "export_relative": "BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+    "bytes": 592,
+    "sha256": "d5ca32dd598e56639a5b20babc1802fec52f78ad1735f7cd0ea043755c597d74",
+    "lines": 27,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "export_relative": "BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "bytes": 12877,
+    "sha256": "d09cd0b7510e1dbae3200bd72434eb0e80f7bb411d03885a71e82e962205305e",
+    "lines": 148,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "export_relative": "BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "bytes": 5216,
+    "sha256": "b70df02b97104d1dc71b09225f404139807f38d8a6ae1fe57dc23de3c3efbffe",
+    "lines": 126,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "export_relative": "BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "bytes": 7302,
+    "sha256": "1816da9235c3ceb5cb21f3d1fa568c0aabe4656bf677a53e74ec4a6dfdb82dd1",
+    "lines": 184,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "export_relative": "BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "bytes": 2934,
+    "sha256": "1084274e5b473e7d8985a6a283c30e9bfdbe713c75007160728e632bfd890caf",
+    "lines": 85,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "export_relative": "BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "bytes": 23454,
+    "sha256": "6963f29cba74f4bb296f8dd0b6e47b50c458a863dff6ee3f5e031d936202c967",
+    "lines": 178,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "export_relative": "BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "bytes": 11776,
+    "sha256": "b146b576d898bda27c1e5a6774015966b17c78cad1a9a1bb9e242f0fbaa11057",
+    "lines": 102,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+    "export_relative": "BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+    "bytes": 6787,
+    "sha256": "0d89779c06cc7c647b45acf2ca5bf9897c31e5bb8fa7eb873fea59ccd48bf99a",
+    "lines": 52,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+    "export_relative": "BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+    "bytes": 6955,
+    "sha256": "7a72aeda9d05ae2b88f616849a0eec9d87758dfd90b2fdf9be75ab330a287144",
+    "lines": 49,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "export_relative": "BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "bytes": 9323,
+    "sha256": "68b2105497c6b56cd4d7246f56f33c44551dc154519352346aac83fcba990f9a",
+    "lines": 98,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "export_relative": "BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "bytes": 9933,
+    "sha256": "458a7b15e0f0757bf4b3d53bae543481f488d9a4c6a0223e04140ceec694261e",
+    "lines": 110,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "export_relative": "BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "bytes": 3699,
+    "sha256": "28c294102ad6f255cc780cd2f6a6fa8b1b7c83b7ffc0186152536368437d6acb",
+    "lines": 83,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md",
+    "export_relative": "BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md",
+    "bytes": 3050,
+    "sha256": "051396a674d7d1df669b28abcba76a3d0354dd3aea66057bce1e3777d30d2af1",
+    "lines": 11,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "export_relative": "BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "bytes": 11588,
+    "sha256": "6d40672bd4da7e9a4e9fff422d2b9013193e7f1bb1f40c6b2c50c74a8c10bfe8",
+    "lines": 99,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见/Reviewer2的审稿意见 0af95d43b2dd82f0a0ee0138193e2174.md",
+    "export_relative": "BMEF审稿回复/原始审稿意见/Reviewer2的审稿意见 0af95d43b2dd82f0a0ee0138193e2174.md",
+    "bytes": 6179,
+    "sha256": "2161033ec227fc16b6821c7012319cfe9de89aff5d9480a13bd6fc6a7f8a28f8",
+    "lines": 69,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "export_relative": "BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "bytes": 20333,
+    "sha256": "102d6ca9466bc88ffc583c51e13acb36684cf00be491ed0f0a2cfe39a074fac5",
+    "lines": 119,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md",
+    "export_relative": "BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md",
+    "bytes": 3802,
+    "sha256": "bde018e36fad610e8daf3bf5abe18f02931040d207cad39a3d6ba6eb27748c2e",
+    "lines": 17,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  },
+  {
+    "path": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "export_relative": "BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "bytes": 216141,
+    "sha256": "25d15252f42eaaf249054e301987066b909c9c10468201dcc68af8ec80eafca2",
+    "lines": 2449,
+    "type": "Markdown",
+    "integrity": "UTF-8 decoded"
+  }
+]

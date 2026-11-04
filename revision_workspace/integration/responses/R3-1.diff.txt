@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -5,3 +5,5 @@
+ Furthermore, we performed an inference-time cognitive-score removal experiment while keeping the generator weights fixed. Removing cognitive scores resulted in only minor changes in regional errors for both FDG and AV45 PET, with the overall synthesis quality remaining relatively stable. This finding suggests that DIReCT++ can maintain comparable PET synthesis quality even without cognitive-score conditioning. One possible explanation is that the rectified flow framework jointly leverages anatomical information from MRI and adapted tracer-specific guidance, potentially reducing its dependence on cognitive-score conditioning.
+ 
+ We would also like to clarify that the primary objective of DIReCT++ is to synthesize multi-tracer PET by integrating MRI with clinically available complementary information. Cognitive scores provide relevant context regarding patients’ cognitive status, which is particularly meaningful when studying fine-grained MCI stages such as EMCI and LMCI. We appreciate the reviewer’s important observation and will further clarify the role of clinical conditioning in the revised manuscript, while providing a more cautious interpretation of the downstream classification findings and the potential clinical value of synthetic PET.
++
++The fixed-weight score-removal experiment used the separate E1 Full checkpoint family. It cannot remove information already learned from diagnosis-conditioned filled inputs during training. In the completed classification analysis, Clinical-only and MRI+Clinical AUC exceeded MRI+synthetic dual PET in all three tasks; we do not claim independent incremental diagnostic value of the synthetic PET over those clinical fields.

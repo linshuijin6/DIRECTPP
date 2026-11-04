@@ -1,0 +1,21 @@
+{
+  "workspace_link_scope_excludes": [
+    "integration/toolchain/root (third-party package documentation)"
+  ],
+  "check_count": 204,
+  "export_hashes_verified": 25,
+  "comments": 56,
+  "response_pointer_hashes_verified": 56,
+  "revision_pointers_verified": 123,
+  "workspace_markdown_file_links_checked": 489,
+  "broken_workspace_links": [],
+  "source_fence_findings": [],
+  "pdf_pages": 30,
+  "source_content_findings": [
+    "R3-9: 子页L23：历史英文定稿虽已确认，但未能逐字恢复；本段不冒充历史逐字稿。"
+  ],
+  "duplicate_response_groups": [],
+  "english_coverage": true,
+  "r3_14_revision_count": 4,
+  "scientific_results_recomputed": false
+}

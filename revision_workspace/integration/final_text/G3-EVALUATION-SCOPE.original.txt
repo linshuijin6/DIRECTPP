@@ -1,0 +1,1 @@
+Models were trained on the ADNI dataset and evaluated under two settings: internally via 3-fold cross-validation on ADNI, and externally on the independent OASIS cohort (for which only $^{18}$F-AV-45 was available).

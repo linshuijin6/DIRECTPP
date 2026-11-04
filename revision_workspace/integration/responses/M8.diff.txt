@@ -1,0 +1,5 @@
+--- source
++++ final
+@@ -1 +1 @@
+-We thank the reviewer for identifying the duplicate reference. We have confirmed that References 27 and 33 refer to the same FreeSurfer publication. We will merge the duplicate entries and standardize the corresponding citations in the revised manuscript to ensure accuracy and consistency.
++We thank the reviewer for identifying the duplicate reference. We have confirmed that References 27 and 33 refer to the same FreeSurfer publication. We now merge the duplicate entries and standardize the corresponding citations in the revised manuscript to ensure accuracy and consistency.

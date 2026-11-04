@@ -1,0 +1,10 @@
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figure_4}
+    \caption{
+\textbf{Regional comparison of mean uptake between real and MRI-synthetic PET images.}
+(A,B) Violin plots show regional mean uptake across cortical and subcortical regions for real and synthetic PET, comparing AV45 (A) and FDG (B). Statistical significance was assessed for each region. (C–F) Disease-related patterns. Violin plots display mean uptake in AD (red) and CN (green) subjects for selected regions. Each region uses paired half-violins: left (solid) = real PET, right (dashed) = synthetic PET; colors match across modalities. Solid lines indicate real PET significance, dashed lines indicate synthetic PET significance. (C,D) show representative disease-related regions for AV45 and FDG, (E,F) show non–disease-related regions. Cblm-WM denotes Cerebellum-White-Matter. Additional analyses are in the Supplementary Materials.
+}
+
+    \label{fig:4}
+\end{figure}

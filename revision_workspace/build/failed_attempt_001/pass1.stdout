@@ -1,0 +1,614 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./BMEF_main.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+No file BMEF_main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
+(/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolch
+ain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+No file BMEF_main.bbl.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation 'scheltens2021alzheimer' on page 2 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Citation 'haller2023neuroimaging' on page 2 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Citation 'ossenkoppele2022amyloid' on page 2 undefined on input 
+line 77.
+
+
+LaTeX Warning: Citation 'yan2021sex' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'haller2023neuroimaging' on page 2 undefined on input l
+ine 77.
+
+
+LaTeX Warning: Citation 'nordberg2010use' on page 2 undefined on input line 77.
+
+
+
+LaTeX Warning: Citation 'dayarathna2024deep' on page 2 undefined on input line 
+79.
+
+
+LaTeX Warning: Citation 'lee2024synthesizing' on page 2 undefined on input line
+ 79.
+
+
+LaTeX Warning: Citation 'pan2018synthesizing' on page 2 undefined on input line
+ 79.
+
+
+LaTeX Warning: Citation 'pan2020spatially' on page 2 undefined on input line 79
+.
+
+
+LaTeX Warning: Citation 'apostolopoulos2022applications' on page 2 undefined on
+ input line 79.
+
+
+LaTeX Warning: Citation 'xie2024synthesizing' on page 2 undefined on input line
+ 79.
+
+
+LaTeX Warning: Citation 'chen2025multi' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'theodorou2025mri2pet' on page 2 undefined on input lin
+e 79.
+
+
+LaTeX Warning: Citation 'wang2025unisyn' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'liu2025direct' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'ossenkoppele2022amyloid' on page 2 undefined on input 
+line 79.
+
+
+LaTeX Warning: Citation 'jagust2018imaging' on page 2 undefined on input line 7
+9.
+
+
+Overfull \hbox (33.80225pt too wide) in paragraph at lines 79--80
+\T1/cmr/m/n/10 syn-the-siz-ing PET biomark-ers from rou-tinely ac-quired MRI [[
+], []].
+
+Overfull \hbox (76.91643pt too wide) in paragraph at lines 79--80
+[]\T1/cmr/m/n/10 , []] and, more re-cently, dif-fu-sion mod-els [[],
+
+Overfull \hbox (20.53436pt too wide) in paragraph at lines 79--80
+\T1/cmr/m/n/10 knowl-edge, for in-stance, through guid-ance from large vision-l
+anguage mod-els (VLMs) [[],
+
+LaTeX Warning: Citation 'liu2025direct' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'zhang2025multimodal' on page 2 undefined on input line
+ 81.
+
+[2]
+
+LaTeX Warning: Citation 'weiner2010alzheimer' on page 3 undefined on input line
+ 83.
+
+
+LaTeX Warning: Citation 'lamontagne2019oasis' on page 3 undefined on input line
+ 83.
+
+
+LaTeX Warning: Citation 'huang2017densely' on page 3 undefined on input line 83
+.
+
+
+Overfull \hbox (2.12573pt too wide) in paragraph at lines 83--84
+\T1/cmr/m/n/10 agree-ment and AD--CN ef-fect pat-terns. Sep-a-rate DenseNet-bas
+ed clas-si-fi-ca-tion [[]]
+
+LaTeX Warning: Reference `fig:1' on page 3 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fig:1' on page 3 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fig:1' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Reference `tab:supp_tau_adapter' on page 3 undefined on input li
+ne 90.
+
+
+LaTeX Warning: Reference `fig:1' on page 3 undefined on input line 92.
+
+
+LaTeX Warning: Reference `fig:1' on page 3 undefined on input line 92.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/figure_1.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+[3] [4 <./figures/figure_1.pdf>]
+
+LaTeX Warning: Reference `fig:2' on page 5 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'zhu2017unpaired' on page 5 undefined on input line 103
+.
+
+
+LaTeX Warning: Citation 'Cao2021swin' on page 5 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'konz2024anatomically' on page 5 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation 'song2021ddim' on page 5 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'pinaya2023generative' on page 5 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Citation 'Xing2022' on page 5 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'liu2025direct' on page 5 undefined on input line 103.
+
+
+LaTeX Warning: Reference `tab:historical_generation' on page 5 undefined on inp
+ut line 103.
+
+
+LaTeX Warning: Reference `fig:2' on page 5 undefined on input line 104.
+
+
+LaTeX Warning: Reference `tab:whole_volume_generation' on page 5 undefined on i
+nput line 106.
+
+
+LaTeX Warning: Reference `tab:paired_generation' on page 5 undefined on input l
+ine 106.
+
+
+LaTeX Warning: Reference `tab:r3_11_masked_summary' on page 5 undefined on inpu
+t line 108.
+
+
+LaTeX Warning: Reference `tab:r3_11_masked_paired' on page 5 undefined on input
+ line 108.
+
+
+LaTeX Warning: Reference `fig:cases_fdg' on page 5 undefined on input line 110.
+
+
+
+LaTeX Warning: Reference `fig:cases_av45' on page 5 undefined on input line 110
+.
+
+
+Overfull \hbox (2.02727pt too wide) in paragraph at lines 110--111
+[]\T1/cmr/m/n/10 Separate whole-volume and masked sum-maries are re-tained be-c
+ause back-ground ex-clu-sion changes
+
+LaTeX Warning: Reference `fig:2' on page 5 undefined on input line 112.
+
+
+LaTeX Warning: Reference `tab:historical_generation' on page 5 undefined on inp
+ut line 112.
+
+
+LaTeX Warning: Reference `fig:2' on page 5 undefined on input line 112.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/figure_2.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+
+LaTeX Warning: Reference `tab:historical_generation' on page 5 undefined on inp
+ut line 117.
+
+
+LaTeX Warning: Reference `tab:historical_generation' on page 5 undefined on inp
+ut line 117.
+
+
+LaTeX Warning: Float too large for page by 52.67941pt on input line 119.
+
+
+LaTeX Warning: Citation 'synthseg' on page 5 undefined on input line 122.
+
+
+LaTeX Warning: Reference `fig:3' on page 5 undefined on input line 122.
+
+[5] [6 <./figures/figure_2.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/figure_3.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+
+LaTeX Warning: Reference `fig:4' on page 7 undefined on input line 137.
+
+
+LaTeX Warning: Reference `fig:4' on page 7 undefined on input line 139.
+
+
+LaTeX Warning: Reference `fig:4' on page 7 undefined on input line 139.
+
+
+LaTeX Warning: Reference `tab:regional_agreement' on page 7 undefined on input 
+line 139.
+
+[7 <./figures/figure_3.pdf>]
+
+LaTeX Warning: Reference `fig:4' on page 8 undefined on input line 141.
+
+
+LaTeX Warning: Reference `fig:supp_disease_av45' on page 8 undefined on input l
+ine 141.
+
+
+LaTeX Warning: Reference `fig:supp_disease_fdg' on page 8 undefined on input li
+ne 141.
+
+
+LaTeX Warning: Reference `fig:4' on page 8 undefined on input line 141.
+
+
+LaTeX Warning: Reference `fig:4' on page 8 undefined on input line 141.
+
+
+LaTeX Warning: Reference `fig:4' on page 8 undefined on input line 141.
+
+
+LaTeX Warning: Reference `fig:4' on page 8 undefined on input line 141.
+
+
+LaTeX Warning: Reference `tab:regional_effect_sizes' on page 8 undefined on inp
+ut line 141.
+
+
+LaTeX Warning: Reference `fig:5' on page 8 undefined on input line 141.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/figure_4.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+
+LaTeX Warning: Reference `tab:classification_summary' on page 8 undefined on in
+put line 155.
+
+
+LaTeX Warning: Reference `fig:5' on page 8 undefined on input line 157.
+
+
+LaTeX Warning: Reference `fig:5' on page 8 undefined on input line 157.
+
+
+LaTeX Warning: Reference `fig:5' on page 8 undefined on input line 159.
+
+
+LaTeX Warning: Reference `tab:classification_comparisons' on page 8 undefined o
+n input line 159.
+
+[8] [9 <./figures/figure_4.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/figure_5.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+
+LaTeX Warning: Reference `tab:classification_summary' on page 10 undefined on i
+nput line 166.
+
+
+LaTeX Warning: Reference `tab:classification_summary' on page 10 undefined on i
+nput line 166.
+
+
+LaTeX Warning: Reference `fig:classification_roc' on page 10 undefined on input
+ line 170.
+
+
+LaTeX Warning: Reference `tab:classification_delong' on page 10 undefined on in
+put line 170.
+
+[10] [11 <./figures/figure_5.pdf>]
+
+LaTeX Warning: Citation 'sorby2024portable' on page 12 undefined on input line 
+191.
+
+
+LaTeX Warning: Citation 'hansson2023blood' on page 12 undefined on input line 1
+91.
+
+
+LaTeX Warning: Citation 'jack2024revised' on page 12 undefined on input line 19
+1.
+
+[12]
+
+LaTeX Warning: Reference `fig:1' on page 13 undefined on input line 225.
+
+[13]
+
+LaTeX Warning: Reference `eq:align_opt' on page 14 undefined on input line 243.
+
+
+[14]
+
+LaTeX Warning: Reference `eq:rf_regression' on page 15 undefined on input line 
+267.
+
+
+LaTeX Warning: Citation 'liu2025direct' on page 15 undefined on input line 274.
+
+
+[15]
+
+LaTeX Warning: Reference `eq:composite_conditioning' on page 16 undefined on in
+put line 285.
+
+[16]
+
+LaTeX Warning: Reference `tab:supp_adni' on page 17 undefined on input line 291
+.
+
+
+LaTeX Warning: Reference `tab:clinical_missingness' on page 17 undefined on inp
+ut line 291.
+
+
+LaTeX Warning: Reference `tab:supp_oasis' on page 17 undefined on input line 29
+3.
+
+
+LaTeX Warning: Citation 'Freesurfer' on page 17 undefined on input line 295.
+
+
+LaTeX Warning: Citation 'spm' on page 17 undefined on input line 295.
+
+
+LaTeX Warning: Citation 'friston1995spatial' on page 17 undefined on input line
+ 295.
+
+
+LaTeX Warning: Citation 'synthseg' on page 17 undefined on input line 295.
+
+
+LaTeX Warning: Reference `tab:reproducibility' on page 17 undefined on input li
+ne 297.
+
+[17]
+
+LaTeX Warning: Citation 'zhu2017unpaired' on page 18 undefined on input line 30
+4.
+
+
+LaTeX Warning: Citation 'Cao2021swin' on page 18 undefined on input line 306.
+
+
+LaTeX Warning: Citation 'konz2024anatomically' on page 18 undefined on input li
+ne 308.
+
+
+LaTeX Warning: Citation 'song2021ddim' on page 18 undefined on input line 310.
+
+
+LaTeX Warning: Citation 'pinaya2023generative' on page 18 undefined on input li
+ne 310.
+
+
+LaTeX Warning: Citation 'Xing2022' on page 18 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'liu2025direct' on page 18 undefined on input line 314.
+
+
+[18]
+
+LaTeX Warning: Reference `fig:4' on page 19 undefined on input line 326.
+
+
+LaTeX Warning: Citation 'mosconi2005reduced' on page 19 undefined on input line
+ 326.
+
+
+LaTeX Warning: Citation 'he2015meta' on page 19 undefined on input line 326.
+
+
+LaTeX Warning: Citation 'strom2022cortical' on page 19 undefined on input line 
+326.
+
+
+LaTeX Warning: Citation 'wong2010in' on page 19 undefined on input line 326.
+
+
+Overfull \hbox (145.60799pt too wide) in paragraph at lines 326--327
+\T1/cmtt/m/n/10 Right-Hippocampus\T1/cmr/m/n/10 , and the \T1/cmtt/m/n/10 ctx-l
+h-\T1/cmr/m/n/10 /\T1/cmtt/m/n/10 ctx-rh- \T1/cmr/m/n/10 la-bels with suf-fixes
+ \T1/cmtt/m/n/10 isthmuscingulate \T1/cmr/m/n/10 and \T1/cmtt/m/n/10 supramargi
+nal\T1/cmr/m/n/10 ) [[],
+
+LaTeX Warning: Reference `fig:4' on page 19 undefined on input line 331.
+
+[19]
+
+LaTeX Warning: Citation 'benjamini1995controlling' on page 20 undefined on inpu
+t line 336.
+
+
+LaTeX Warning: Citation 'huang2017densely' on page 20 undefined on input line 3
+39.
+
+
+Overfull \hbox (12.10448pt too wide) in paragraph at lines 339--340
+\T1/cmr/m/n/10 sectional tasks: AD/CN; EMCI+LMCI/CN; and EMCI/LMCI. Pos-i-tive 
+classes were AD, EMCI+LMCI
+[20]
+
+LaTeX Warning: Reference `tab:reproducibility' on page 21 undefined on input li
+ne 348.
+
+[21]
+Overfull \hbox (18.46404pt too wide) in paragraph at lines 378--379
+\T1/cmr/m/n/10 The au-thors ac-knowl-edge the fund-ing of the Na-tional Nat-u-r
+al Sci-ence Foun-da-tion of China (No. T2522028
+[22] (./supplementary/supplementary.tex
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_1.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_2.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_3.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_4.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_5.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/supplementary_figure_6.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+
+LaTeX Warning: Reference `tab:clinical_missingness' on page 23 undefined on inp
+ut line 46.
+
+
+LaTeX Warning: Reference `tab:clinical_missingness' on page 23 undefined on inp
+ut line 46.
+
+
+LaTeX Warning: Reference `tab:supp_oasis' on page 23 undefined on input line 70
+.
+
+[23] [24 <./figures/supplementary_figure_1.pdf>] [25 <./figures/supplementary_f
+igure_2.pdf>] [26 <./figures/supplementary_figure_3.pdf>] [27 <./figures/supple
+mentary_figure_4.pdf>] [28 <./figures/supplementary_figure_5.pdf>] [29 <./figur
+es/supplementary_figure_6.pdf>]
+(./supplementary/tables/clinical_missingness.tex)
+(./supplementary/tables/reproducibility.tex)
+(./supplementary/tables/conditioning.tex [30] [31])
+(./supplementary/tables/regional_agreement.tex [32]
+
+LaTeX Warning: Reference `fig:4' on page 33 undefined on input line 3.
+
+
+LaTeX Warning: Reference `fig:4' on page 33 undefined on input line 3.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ,
+l.27 \end{tabular}}
+                   
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspa
+ce/build/manuscript/BMEF_main.log.

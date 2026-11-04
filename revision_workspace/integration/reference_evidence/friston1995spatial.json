@@ -1,0 +1,356 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1002%2Fhbm.460030303",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T23:38:12Z",
+      "timestamp": 1793057892489,
+      "version": "4.5.0"
+    },
+    "reference-count": 17,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2004,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2004-10-13T00:00:00Z",
+          "timestamp": 1097625600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 3573,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Human Brain Mapping"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1995,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>This paper concerns the spatial and intensity transformations that map one image onto another. We present a general technique that facilitates nonlinear spatial (stereotactic) normalization and image realignment. This technique minimizes the sum of squares between two images following nonlinear spatial deformations and transformations of the voxel (intensity) values. The spatial and intensity transformations are obtained simultaneously, and explicitly, using a least squares solution and a series of linearising devices. The approach is completely noninteractive (automatic), nonlinear, and noniterative. It can be applied in any number of dimensions.</jats:p><jats:p>Various applications are considered, including the realignment of functional magnetic resonance imaging (MRI) time‐series, the linear (affine) and nonlinear spatial normalization of positron emission tomography (PET) and structural MRI images, the coregistration of PET to structural MRI, and, implicitly, the conjoining of PET and MRI to obtain high resolution functional images. © 1995 Wiley‐Liss, Inc.</jats:p>",
+    "DOI": "10.1002/hbm.460030303",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          5,
+          31
+        ]
+      ],
+      "date-time": "2005-05-31T11:37:24Z",
+      "timestamp": 1117539444000
+    },
+    "page": "165-189",
+    "source": "Crossref",
+    "is-referenced-by-count": 3014,
+    "title": [
+      "Spatial registration and normalization of images"
+    ],
+    "prefix": "10.1002",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Karl. J.",
+        "family": "Friston",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Ashburner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. D.",
+        "family": "Frith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.‐B.",
+        "family": "Poline",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. D.",
+        "family": "Heather",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. S. J.",
+        "family": "Frackowiak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          10,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_2_1",
+        "first-page": "1717",
+        "article-title": "The principal axis transformation—a method for image registration",
+        "volume": "31",
+        "author": "Alpert NM",
+        "year": "1990",
+        "journal-title": "J Nucl Med"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1080/01621459.1991.10475053",
+        "article-title": "Structural image restoration through deformable templates",
+        "volume": "86",
+        "author": "Amit Y",
+        "year": "1991",
+        "journal-title": "J Am Stat Assoc"
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.24792"
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199403000-00005"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/jcbfm.1988.111"
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "first-page": "141",
+        "article-title": "Non‐invasive functional brain mapping by change distribution analysis of averaged PET images of H15O2 tissue activity",
+        "volume": "30",
+        "author": "Fox PT",
+        "year": "1989",
+        "journal-title": "J Nucl Med"
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/jcbfm.1991.122"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199107000-00020"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "first-page": "69",
+        "article-title": "Analysis of functional MRI time‐series",
+        "volume": "2",
+        "author": "Friston KJ",
+        "year": "1994",
+        "journal-title": "Hum Brain Mapping"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199305000-00023"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/096228029400300103"
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "first-page": "105",
+        "volume-title": "Numerical Analysis. Lecture Notes in Mathematics 630",
+        "author": "More JJ",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-198901000-00004"
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0031-9155/37/8/002"
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0028-3932(91)90030-C"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "volume-title": "Co‐Planar Stereotaxic Atlas of the Human Brain",
+        "author": "Talairach J",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199207000-00024"
+      }
+    ],
+    "container-title": [
+      "Human Brain Mapping"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhbm.460030303",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.460030303",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2023-10-26T13:38:37Z",
+      "timestamp": 1698327517000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.460030303"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          1
+        ]
+      ]
+    },
+    "references-count": 17,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hbm.460030303"
+    ],
+    "URL": "https://doi.org/10.1002/hbm.460030303",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1065-9471",
+      "1097-0193"
+    ],
+    "issn-type": [
+      {
+        "value": "1065-9471",
+        "type": "print"
+      },
+      {
+        "value": "1097-0193",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          1
+        ]
+      ]
+    }
+  }
+}

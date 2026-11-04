@@ -1,0 +1,12 @@
+--- source
++++ final
+@@ -1,7 +1,7 @@
+ We thank the reviewer for the constructive comments regarding the scope of external validation and the clinical data used in OASIS-3.
+ 
+-We agree that our external validation on OASIS-3 was limited to AV45-PET synthesis in cognitively normal (CN) and Alzheimer’s disease (AD) participants. These results therefore do not establish cross-dataset generalizability for FDG-PET synthesis or MCI-related tasks. As also addressed in our response to Reviewer 2, Comment 7, we will clarify these limitations and appropriately qualify the corresponding generalizability claims in the revised manuscript.
++We agree that our external validation on OASIS-3 was limited to AV45-PET synthesis in cognitively normal (CN) and Alzheimer’s disease (AD) participants. These results therefore do not establish cross-dataset generalizability for FDG-PET synthesis or MCI-related tasks. As also addressed in our response to Reviewer 2, Comment 7, we now clarify these limitations and appropriately qualify the corresponding generalizability claims in the revised manuscript.
+ 
+-Regarding clinical conditioning, we will clarify the available clinical variables, participant selection criteria, and handling of missing information in the OASIS-3 cohort. We also acknowledge the age difference between the CN and AD groups, which should be considered when interpreting the external validation results.
++Regarding clinical conditioning, we now clarify the available clinical variables, participant selection criteria, and handling of missing information in the OASIS-3 cohort. We also acknowledge the age difference between the CN and AD groups, which should be considered when interpreting the external validation results.
+ 
+ We appreciate the reviewer’s suggestion and will ensure that our conclusions accurately reflect the scope and limitations of the available external validation evidence.

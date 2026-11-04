@@ -1,0 +1,9 @@
+A key advantage of rectified flow is its ability to support exact one-step sampling. In DIReCT$++$, the target PET image is generated directly from the input MRI in a single forward pass, bypassing iterative refinement. 
+%This is made possible by the near-straight optimal transport trajectories learned by the underlying ordinary differential equation (ODE), which closely approximate the minimal-path coupling between MRI and PET domains and eliminate the need for temporal discretization. As a result, computational overhead is substantially reduced while preserving high-fidelity synthesis.
+
+To further enhance the accuracy of one-step generation, we incorporate a distillation step following the initial ODE-based training phase. This procedure trains the velocity network to directly predict the end-point mapping from $\mathbf{x}_0$ to $\mathbf{x}_1$, effectively collapsing the continuous flow into a single, refined inference step. The resulting one-step sampler is both faster and more precise, making it suitable for time-sensitive clinical applications. Mathematically, the generation process is expressed as:
+\begin{equation}
+\mathbf{x}_1 = \mathbf{x}_0 + \tilde{V}_\theta(\mathbf{x}_0, \mathbf{c}, 0),
+\label{eq:onestep_generation}
+\end{equation}
+where $\mathbf{x}_0 $ denotes the subject-specific MRI input, $\mathbf{x}_1 $ the corresponding synthesized PET images, $\mathbf{c}$ the structured conditioning context encoding both anatomical priors and clinical metadata (defined in Eq.~\eqref{eq:composite_conditioning}), and $\tilde{V}_\theta$ the distilled velocity field implemented by the velocity U-Net.

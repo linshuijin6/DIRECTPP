@@ -1,0 +1,31 @@
+\begin{landscape}
+\begin{table}[p]
+\caption{\textbf{Regional normalized uptake agreement and descriptive regression for the 16 representative tracer--ROI combinations in Figure~\ref{fig:4}A,B.} Overall cohorts from the author-designated historical ROI CSVs; N can vary by ROI.}
+\label{tab:regional_agreement}
+\centering\scriptsize\setlength{\tabcolsep}{2pt}
+\resizebox{\linewidth}{!}{\begin{tabular}{llrccccccccc}
+\toprule
+Tracer & ROI (ID) & N & Mean diff. [95\% CI] & MAE & CCC & ICC(A,1) & BA bias [95\% LoA] & $p$ & $q$ & OLS slope [95\% CI] & Intercept [95\% CI] \\
+\midrule
+AV45 & L precuneus (1025) & 1365 & \shortstack{0.00052\\{}[-0.00056, 0.00159]} & 0.0163 & 0.9863 & 0.9863 & \shortstack{0.0005\\{}[-0.0391, 0.0401]} & 0.3445 & 0.9786 & \shortstack{1.0127\\{}[1.0038, 1.0215]} & \shortstack{-0.0064\\{}[-0.0114, -0.0014]} \\
+AV45 & R precuneus (2025) & 1365 & \shortstack{0.00021\\{}[-0.00079, 0.00120]} & 0.0150 & 0.9887 & 0.9887 & \shortstack{0.0002\\{}[-0.0366, 0.0370]} & 0.6846 & 0.9786 & \shortstack{1.0008\\{}[0.9928, 1.0088]} & \shortstack{-0.0002\\{}[-0.0047, 0.0043]} \\
+AV45 & L frontalpole (1032) & 1365 & \shortstack{0.00033\\{}[-0.00072, 0.00138]} & 0.0157 & 0.9808 & 0.9808 & \shortstack{0.0003\\{}[-0.0385, 0.0392]} & 0.5384 & 0.9786 & \shortstack{1.0037\\{}[0.9932, 1.0143]} & \shortstack{-0.0012\\{}[-0.0055, 0.0032]} \\
+AV45 & R frontalpole (2032) & 1364 & \shortstack{0.00039\\{}[-0.00068, 0.00147]} & 0.0160 & 0.9815 & 0.9815 & \shortstack{0.0004\\{}[-0.0392, 0.0400]} & 0.4746 & 0.9786 & \shortstack{1.0007\\{}[0.9904, 1.0110]} & \shortstack{0.0001\\{}[-0.0042, 0.0045]} \\
+AV45 & L temporalpole (1033) & 1365 & \shortstack{-0.00009\\{}[-0.00117, 0.00099]} & 0.0162 & 0.9591 & 0.9591 & \shortstack{-0.0001\\{}[-0.0399, 0.0398]} & 0.8769 & 0.9786 & \shortstack{0.9794\\{}[0.9640, 0.9947]} & \shortstack{0.0078\\{}[0.0019, 0.0137]} \\
+AV45 & R temporalpole (2033) & 1365 & \shortstack{0.00031\\{}[-0.00076, 0.00138]} & 0.0163 & 0.9644 & 0.9644 & \shortstack{0.0003\\{}[-0.0392, 0.0399]} & 0.5667 & 0.9786 & \shortstack{1.0087\\{}[0.9942, 1.0232]} & \shortstack{-0.0032\\{}[-0.0092, 0.0027]} \\
+AV45 & L superiorfrontal (1028) & 1365 & \shortstack{-0.00037\\{}[-0.00146, 0.00073]} & 0.0165 & 0.9806 & 0.9807 & \shortstack{-0.0004\\{}[-0.0407, 0.0400]} & 0.5102 & 0.9786 & \shortstack{1.0002\\{}[0.9896, 1.0107]} & \shortstack{-0.0005\\{}[-0.0058, 0.0049]} \\
+AV45 & R superiorfrontal (2028) & 1365 & \shortstack{0.00063\\{}[-0.00041, 0.00168]} & 0.0157 & 0.9822 & 0.9822 & \shortstack{0.0006\\{}[-0.0380, 0.0393]} & 0.2354 & 0.9786 & \shortstack{0.9970\\{}[0.9869, 1.0071]} & \shortstack{0.0021\\{}[-0.0030, 0.0073]} \\
+FDG & L precuneus (1025) & 1598 & \shortstack{-0.00003\\{}[-0.00100, 0.00093]} & 0.0156 & 0.9573 & 0.9573 & \shortstack{-0.0000\\{}[-0.0386, 0.0385]} & 0.9433 & 0.9774 & \shortstack{0.9844\\{}[0.9699, 0.9990]} & \shortstack{0.0108\\{}[0.0006, 0.0209]} \\
+FDG & R precuneus (2025) & 1598 & \shortstack{0.00010\\{}[-0.00086, 0.00105]} & 0.0156 & 0.9598 & 0.9598 & \shortstack{0.0001\\{}[-0.0380, 0.0382]} & 0.8428 & 0.9774 & \shortstack{0.9983\\{}[0.9841, 1.0125]} & \shortstack{0.0013\\{}[-0.0086, 0.0111]} \\
+FDG & L frontalpole (1032) & 1598 & \shortstack{0.00024\\{}[-0.00074, 0.00122]} & 0.0160 & 0.9586 & 0.9586 & \shortstack{0.0002\\{}[-0.0389, 0.0394]} & 0.6273 & 0.9410 & \shortstack{1.0039\\{}[0.9895, 1.0184]} & \shortstack{-0.0019\\{}[-0.0100, 0.0061]} \\
+FDG & R frontalpole (2032) & 1597 & \shortstack{-0.00032\\{}[-0.00130, 0.00065]} & 0.0159 & 0.9634 & 0.9634 & \shortstack{-0.0003\\{}[-0.0394, 0.0387]} & 0.5160 & 0.9410 & \shortstack{1.0041\\{}[0.9906, 1.0177]} & \shortstack{-0.0026\\{}[-0.0103, 0.0050]} \\
+FDG & L temporalpole (1033) & 1598 & \shortstack{-0.00034\\{}[-0.00132, 0.00063]} & 0.0159 & 0.9430 & 0.9430 & \shortstack{-0.0003\\{}[-0.0392, 0.0385]} & 0.4901 & 0.9410 & \shortstack{0.9934\\{}[0.9764, 1.0105]} & \shortstack{0.0023\\{}[-0.0046, 0.0091]} \\
+FDG & R temporalpole (2033) & 1598 & \shortstack{0.00068\\{}[-0.00030, 0.00166]} & 0.0161 & 0.9449 & 0.9449 & \shortstack{0.0007\\{}[-0.0386, 0.0400]} & 0.1754 & 0.9410 & \shortstack{0.9902\\{}[0.9736, 1.0069]} & \shortstack{0.0047\\{}[-0.0022, 0.0116]} \\
+FDG & L superiorfrontal (1028) & 1598 & \shortstack{0.00093\\{}[-0.00006, 0.00191]} & 0.0159 & 0.9438 & 0.9438 & \shortstack{0.0009\\{}[-0.0385, 0.0403]} & 0.0657 & 0.9410 & \shortstack{1.0101\\{}[0.9931, 1.0271]} & \shortstack{-0.0052\\{}[-0.0156, 0.0051]} \\
+FDG & R superiorfrontal (2028) & 1598 & \shortstack{0.00081\\{}[-0.00017, 0.00178]} & 0.0158 & 0.9465 & 0.9465 & \shortstack{0.0008\\{}[-0.0382, 0.0398]} & 0.1055 & 0.9410 & \shortstack{1.0020\\{}[0.9855, 1.0185]} & \shortstack{-0.0004\\{}[-0.0104, 0.0096]} \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\footnotesize
+Differences and Bland--Altman (BA) bias are synthetic minus real uptake (arbitrary units after per-image min--max normalization). Mean-difference confidence intervals and individual BA limits of agreement are distinct. CCC is Lin's concordance correlation and ICC(A,1) is a two-way absolute-agreement single-measure coefficient. Paired two-sided $t$-test $p$ values are raw; BH-FDR $q$ values use all 98 ROIs within each tracer's overall cohort. OLS regresses synthetic on real uptake and gives unadjusted descriptive 95\% CIs. Non-significant differences and slopes close to one do not establish equivalence, clinical SUV/SUVR calibration or interchangeable biological measurements.
+\end{table}
+\end{landscape}

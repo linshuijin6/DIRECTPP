@@ -1,0 +1,35 @@
+135_S_4676 (AD)
+GT FDG
+
+011_S_0021 (CN)
+
+Syn FDG
+
+GT FDG
+
+Syn FDG
+
+135_S_4676 (AD)
+GT AV45
+
+011_S_0021 (CN)
+
+Syn AV45
+
+GT AV45
+
+Left-Hippocampus
+
+ctx-lh-precuneus
+
+ctx-lh-isthmuscingulate
+
+ctx-lh-rostralmiddlefrontal
+
+ctx-lh-superiortemporal
+
+ctx-lh-middletemporal
+
+Syn AV45
+
+

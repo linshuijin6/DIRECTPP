@@ -1,0 +1,156 @@
+%% ============================================================
+%%  Response to Reviewers — BME Frontiers (SPJ)
+%%  Manuscript ID: BMEF-D-26-00169
+%%  Title: Precision Synthesis of Multi-Tracer PET via VLM-Modulated
+%%         Rectified Flow for MCI Stage Stratification
+%% ============================================================
+\documentclass[11pt]{article}
+
+%% ── Packages ────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}       % paragraph spacing instead of indent
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{cite}
+\usepackage{url}
+
+%% ── Colors ──────────────────────────────────────────────────
+\definecolor{RevColor}{RGB}{0,80,160}      % reviewer quote (deep blue)
+\definecolor{RespColor}{RGB}{20,110,50}    % author response (forest green)
+\definecolor{ActColor}{RGB}{150,90,0}      % action taken in manuscript (amber/brown)
+\definecolor{ChgColor}{RGB}{170,25,25}     % revised text snippet (dark crimson)
+\definecolor{HeaderColor}{RGB}{30,50,100}  % section header
+
+%% ── Custom Review Commands ──────────────────────────────────
+% Major comment box: \revcomment{ID}{Quote}
+\newcommand{\revcomment}[2]{%
+  \vspace{8pt}
+  \noindent\textbf{\textcolor{RevColor}{Comment~#1:}}\\[3pt]
+  {\color{RevColor}\itshape #2}
+  \vspace{4pt}
+}
+
+% Author response body
+\newcommand{\response}[1]{%
+  \vspace{3pt}
+  \noindent\textbf{\textcolor{RespColor}{Response:}}\\[2pt]
+  #1
+  \vspace{4pt}
+}
+
+% Action taken in manuscript
+\newcommand{\actiontaken}[1]{%
+  \vspace{3pt}
+  \noindent\textbf{\textcolor{ActColor}{Action in Manuscript:}}\\[2pt]
+  #1
+  \vspace{4pt}
+}
+
+% Revised text snippet with location
+\newcommand{\changedtext}[2]{%
+  \vspace{4pt}
+  \noindent\textcolor{ChgColor}{\textbf{Revised Text in Manuscript (#1):}}\\[2pt]
+  {\color{ChgColor}\itshape ``#2''\par}
+  \vspace{6pt}
+}
+
+% Reviewer section header
+\newcommand{\reviewersec}[1]{%
+  \vspace{16pt}
+  \noindent\rule{\linewidth}{1.0pt}\\[3pt]
+  {\Large\bfseries\textcolor{HeaderColor}{#1}}\\[-2pt]
+  \rule{\linewidth}{0.5pt}
+  \vspace{6pt}
+}
+
+% Minor comment compact format: \minorcomment{ID}{Topic}{Quote}{Action}
+\newcommand{\minorcomment}[4]{%
+  \vspace{6pt}
+  \noindent\textbf{\textcolor{RevColor}{[#1] #2:}}\\[2pt]
+  {\color{RevColor}\itshape #3}\\[3pt]
+  \noindent\textbf{\textcolor{RespColor}{Response \& Action:}}~#4\par
+  \vspace{4pt}
+}
+
+%% ── Header / Footer ─────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\textit{Response to Reviewers — BMEF-D-26-00169}}
+\rhead{\small\textit{DIReCT++}}
+\cfoot{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%% ── Title styling ───────────────────────────────────────────
+\titleformat{\section}[block]
+  {\large\bfseries\color{HeaderColor}}
+  {}
+  {0em}
+  {}
+
+%% ============================================================
+\begin{document}
+
+%% ── Cover Page ──────────────────────────────────────────────
+\thispagestyle{empty}
+
+\vspace*{0.8cm}
+{\LARGE\bfseries\color{HeaderColor}
+  Point-by-Point Response to Reviewers\\[6pt]
+  \large\normalfont\color{black}
+  Manuscript ID: \textbf{BMEF-D-26-00169}
+}
+
+\vspace{0.6cm}
+\noindent\textbf{Journal:} BME Frontiers (\textit{A Science Partner Journal / AAAS})
+
+\noindent\textbf{Title:} Precision Synthesis of Multi-Tracer PET via VLM-Modulated Rectified Flow for MCI Stage Stratification
+
+\noindent\textbf{Authors:} Shuijin Lin$^{1,4,\dagger}$, Shaozhen Yan$^{2,\dagger}$, Tuo Liu$^{3,4,\dagger}$, Haifeng Wang$^{3,4}$, Chunfeng Lian$^{3,4}$, Jie Lu$^{2,*}$, Jianhua Ma$^{1,4,*}$, Lin Xie$^{1,4,*}$
+
+\noindent\textbf{Affiliations:}\\
+{\small
+$^1$School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China.\\
+$^2$Department of Radiology and Nuclear Medicine, Xuanwu Hospital, Capital Medical University, Beijing, China.\\
+$^3$School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, China.\\
+$^4$Research Center for Intelligent Medical Equipment and Devices (IMED), Xi'an Jiaotong University, Xi'an, China.\\
+$^*$Corresponding authors: \href{mailto:linxie@xjtu.edu.cn}{linxie@xjtu.edu.cn}; \href{mailto:jhma@xjtu.edu.cn}{jhma@xjtu.edu.cn}; \href{mailto:imaginglu@hotmail.com}{imaginglu@hotmail.com}.\\
+$^\dagger$These authors contributed equally to this work.
+}
+
+\noindent\textbf{Date:} 4 November 2026
+
+\vspace{0.8cm}
+\noindent\rule{\linewidth}{1.2pt}
+
+%% ── Modular Sections ────────────────────────────────────────
+\input{sections/00_general_response.tex}
+
+\clearpage
+\input{sections/01_editor.tex}
+
+\clearpage
+\input{sections/02_reviewer2.tex}
+
+\clearpage
+\input{sections/03_reviewer3_major.tex}
+
+\clearpage
+\input{sections/04_reviewer3_minor.tex}
+
+%% ── References ──────────────────────────────────────────────
+\clearpage
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

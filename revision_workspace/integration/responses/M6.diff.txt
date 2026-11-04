@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -2,4 +2,4 @@
+ 
+ To clarify this issue, we re-examined the original ROI statistical analysis and Figure 4 plotting code and confirmed the specific regions used. For FDG-PET, the selected regions included the bilateral hippocampus (Left/Right-Hippocampus), isthmus cingulate cortex (ctx-lh/rh-isthmuscingulate), and supramarginal gyrus (ctx-lh/rh-supramarginal). For AV45-PET, the selected regions included the bilateral precuneus (ctx-lh/rh-precuneus) and the inferior, middle, superior, and transverse temporal gyri (ctx-lh/rh-inferiortemporal, middletemporal, superiortemporal, and transversetemporal).
+ 
+-Accordingly, we will replace the imprecise or overly broad anatomical descriptions with the corresponding atlas labels and clearly distinguish the full ROI-based statistical analysis from the representative disease-related regions presented in Figure 4. These revisions will ensure that the Methods section accurately reflects the regions used in the analysis and the corresponding figures.
++Accordingly, we now replace the imprecise or overly broad anatomical descriptions with the corresponding atlas labels and clearly distinguish the full ROI-based statistical analysis from the representative disease-related regions presented in Figure 4. These revisions will ensure that the Methods section accurately reflects the regions used in the analysis and the corresponding figures.

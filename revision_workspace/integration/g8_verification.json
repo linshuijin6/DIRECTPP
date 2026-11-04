@@ -1,0 +1,42 @@
+{
+  "source": "reports/adni_image_acquisition_audit/filtering_code_recovery_20261103/filled_restored_by_historical_selection.csv",
+  "source_sha256": "9bdead9d016626ff049b11ff4e0e402775caead1e9fcf74922087c0b6976317c",
+  "subjects": 1857,
+  "unit": "one participant per prepared row; five source-score cells per participant",
+  "unique_subjects": true,
+  "observed_score_cells": 1751,
+  "source_missing_score_cells": 7534,
+  "corrected_summary_cells": [
+    {
+      "group": "EMCI",
+      "field": "GDSCALE Total Score",
+      "old": "1.01 $\\pm$ 0.14",
+      "new": "1.00 $\\pm$ 0.00"
+    },
+    {
+      "group": "LMCI",
+      "field": "GDSCALE Total Score",
+      "old": "3.02 $\\pm$ 0.28",
+      "new": "3.00 $\\pm$ 0.00"
+    },
+    {
+      "group": "LMCI",
+      "field": "Global CDR",
+      "old": "0.50 $\\pm$ 0.01",
+      "new": "0.50 $\\pm$ 0.00"
+    },
+    {
+      "group": "LMCI",
+      "field": "NPI-Q Total Score",
+      "old": "4.00 $\\pm$ 0.03",
+      "new": "4.00 $\\pm$ 0.00"
+    }
+  ],
+  "cn_weight_range": [
+    0.0,
+    227.0
+  ],
+  "no_subject_exclusions": true,
+  "no_imputation": true,
+  "scientific_limit": "Diagnosis-conditioned fills can encode group membership; source weight validity unresolved; no proof of independent diagnostic value."
+}

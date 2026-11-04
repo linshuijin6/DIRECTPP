@@ -1,0 +1,1 @@
+All statistical tests were two-tailed, and $p$-values were adjusted for multiple ROI comparisons using the false discovery rate (FDR) procedure~\cite{benjamini1995controlling}. This dual-validation framework ensures that Syn-PET not only approximates real PET quantitatively but also retains its discriminative power for early diagnostic stratification.

@@ -1,0 +1,16 @@
+{
+  "merged_into": "G4-FIGURE4-CAPTION",
+  "record": {
+    "position_id": "FIGURE-4-PAGE-FIT",
+    "target_file": "manuscript/BMEF_main.tex",
+    "section_or_label": "fig:4",
+    "original_anchor_sha256": "d856c246c3409a807fc82f3689c6a70cd99c2ac92cd947d04ebb8675dcffd61d",
+    "source_candidates": "",
+    "related_comments": "M19",
+    "groups": "G4",
+    "final_text_path": "revision_workspace/integration/final_text/FIGURE-4-PAGE-FIT.tex",
+    "evidence_paths": "revision_workspace/verification/figure_previews/",
+    "decision_basis": "Bound figure and caption to printable page; full-resolution exports provided separately.",
+    "status": "implemented_pending_full_build_and_review"
+  }
+}

@@ -1,0 +1,8 @@
+\caption{
+\textbf{Detailed regional visualization of synthetic and real PET images.}
+The figure displays magnified regional views of FDG-PET (left two columns) and AV45-PET (right two columns) for representative AD and CN subjects. 
+For each modality and group, the first sub-column shows real PET, and the second sub-column shows synthetic PET. 
+Key anatomical regions are highlighted in the bottom-right corner of each sub-column, with their names labeled at the top-center. 
+Each row corresponds to a distinct brain region, demonstrating strong regional consistency between synthetic and real PET, and clear differences between diagnostic groups.
+}
+    \label{fig:3}

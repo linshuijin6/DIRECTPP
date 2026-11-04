@@ -1,0 +1,52 @@
+--- source
++++ final
+@@ -8,9 +8,9 @@
+ 
+ Compared with learning tracer embeddings directly from random initialization, the principal distinction of this design lies in the origin of the conditioning representations. The tracer features are constructed from text descriptions with explicit biomedical meanings, rather than being determined solely by trainable parameters optimized for the current generation task. Furthermore, the lightweight affine adaptation mechanism is designed to adjust these tracer-text representations using corresponding PET image features, while a cross-tracer similarity constraint regulates the representational relationship between the two tracers.
+ 
+-Therefore, we consider the primary role of BiomedCLIP in this framework to be the provision of biomedical semantic representations for tracer conditioning and a unified text-based conditioning mechanism for multi-tracer PET synthesis. In the revised manuscript, we will describe this mechanism more precisely, emphasizing the construction and adaptation of pre-trained semantic features rather than suggesting continuous end-to-end updating of the vision-language model during PET generation.
++Therefore, we consider the primary role of BiomedCLIP in this framework to be the provision of biomedical semantic representations for tracer conditioning and a unified text-based conditioning mechanism for multi-tracer PET synthesis. In the revised manuscript, we now describe this mechanism more precisely, emphasizing the construction and adaptation of pre-trained semantic features rather than suggesting continuous end-to-end updating of the vision-language model during PET generation.
+ 
+-1. Numerical clinical encoding and comparison with TabularMLP
++2. Numerical clinical encoding and comparison with TabularMLP
+ 
+ We understand the reviewer’s concern regarding the ability of CLIP-based text encoders to represent numerical clinical variables. However, we would like to clarify that the purpose of clinical text conditioning in our study is not merely to transform numerical values such as age, MMSE, and CDR into high-dimensional vectors. Instead, our approach incorporates both the numerical measurements and their corresponding medical interpretations into the conditioning representation.
+ 
+@@ -30,7 +30,7 @@
+ 
+ Furthermore, conventional image-quality metrics, including SSIM, PSNR, MSE, and MAE, primarily assess overall image similarity and reconstruction errors. In contrast, clinical information related to disease status and cognitive function may be more closely associated with regional metabolic distributions and disease-related tracer uptake patterns. Therefore, the value of different encoding strategies should also be evaluated in relation to their effects on clinically relevant imaging characteristics. In future work, we plan to incorporate regional SUV/SUVR-based quantitative analyses and more detailed clinical evaluations to investigate the potential contribution of biomedical semantic conditioning to functional image reconstruction.
+ 
+-1. Three-dimensional PET feature extraction and cross-tracer similarity constraint
++3. Three-dimensional PET feature extraction and cross-tracer similarity constraint
+ 
+ Regarding the application of the 2D BiomedCLIP model to 3D PET images, we clarify that, in the affine-adapter feature-extraction procedure, each preprocessed PET volume is represented by 160 two-dimensional slices. Each slice undergoes intensity normalization, resizing, and conversion to a three-channel image before being processed by the frozen BiomedCLIP image encoder to obtain a 512-dimensional feature vector. The slice-level features are subsequently aggregated through average pooling to form a subject-level PET representation. The revised implementation applies the same feature-extraction procedure to both FDG and AV45.
+ 
+@@ -38,15 +38,15 @@
+ 
+ Specifically, τ = 0.82 corresponds to the two-decimal approximation of the cosine similarity between the original FDG and AV45 BiomedCLIP text embeddings before adaptation (0.8205). We further conducted representation-level analyses using different τ settings and a configuration in which the cross-tracer similarity penalty was removed. The results demonstrate that this constraint regulates the similarity between tracer representations and produces an observable trade-off between text-image feature alignment and inter-tracer representational separation.
+ 
+-Thus, the purpose of this mechanism is to regulate the relative relationship between the adapted representations, rather than simply maximizing their similarity. We will clarify the implemented optimization objective in the revised manuscript and accurately describe the representation-level characteristics demonstrated by the corresponding experiments.
++Thus, the purpose of this mechanism is to regulate the relative relationship between the adapted representations, rather than simply maximizing their similarity. We now clarify the implemented optimization objective in the revised manuscript and accurately describe the representation-level characteristics demonstrated by the corresponding experiments.
+ 
+-1. Consistency of notation between Figure 1 and Equation (1)
++4. Consistency of notation between Figure 1 and Equation (1)
+ 
+-We thank the reviewer for identifying the inconsistency in the notation of affine transformation parameters between Figure 1B and Equation (1). We will unify the corresponding symbols in the revised manuscript, explicitly distinguishing the scalar scaling parameters and vector bias parameters of the FDG and AV45 adapters to ensure consistency between the schematic illustration and mathematical formulation.
++We thank the reviewer for identifying the inconsistency in the notation of affine transformation parameters between Figure 1B and Equation (1). We now unify the corresponding symbols in the revised manuscript, explicitly distinguishing the scalar scaling parameters and vector bias parameters of the FDG and AV45 adapters to ensure consistency between the schematic illustration and mathematical formulation.
+ 
+-We will also clarify the distinction between the frozen BiomedCLIP encoders and the independently optimized lightweight affine adapters, avoiding terminology that could incorrectly imply end-to-end fine-tuning of the entire BiomedCLIP backbone.
++We now also clarify the distinction between the frozen BiomedCLIP encoders and the independently optimized lightweight affine adapters, avoiding terminology that could incorrectly imply end-to-end fine-tuning of the entire BiomedCLIP backbone.
+ 
+-1. Overall clarification
++5. Overall clarification
+ 
+ Taken together, we consider the central role of the vision-language model in DIReCT++ to be the provision of biomedical semantic representations for tracer knowledge and patient-specific clinical information, supporting multi-tracer PET synthesis through a shared conditioning mechanism.
+ 
+@@ -54,4 +54,6 @@
+ 
+ Our additional analyses demonstrate that patient-specific conditioning influences the generated outputs, that BiomedCLIP-based and TabularMLP-based encoding strategies exhibit trade-offs across different image-quality metrics, and that the tracer adaptation mechanism regulates the relative relationship between tracer representations at the feature level. These findings provide further insight into the roles of different conditioning representations within the PET synthesis framework.
+ 
+-We sincerely appreciate the reviewer’s constructive suggestions. In the revised manuscript, we will further clarify the BiomedCLIP feature-encoding procedure, clinical prompt construction, tracer adaptation mechanism, and mathematical notation. Together with the additional experiments, these revisions will provide a more precise description of the methodological motivation and practical role of biomedical semantic conditioning in DIReCT++.
++We sincerely appreciate the reviewer’s constructive suggestions. In the revised manuscript, we now further clarify the BiomedCLIP feature-encoding procedure, clinical prompt construction, tracer adaptation mechanism, and mathematical notation. Together with the additional experiments, these revisions will provide a more precise description of the methodological motivation and practical role of biomedical semantic conditioning in DIReCT++.
++
++For clarity, the revised manuscript distinguishes the affine-adapter formulation and representation-level analyses from the reconstructed Full generator, which used original fixed tracer-text vectors. The BiomedCLIP backbone is frozen in both cases. We do not attribute the reconstructed Full generator performance to affine adaptation or claim a controlled generator-level frozen-versus-adapted gain.

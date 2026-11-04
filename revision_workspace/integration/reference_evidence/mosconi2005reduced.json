@@ -1,0 +1,574 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1212%2F01.WNL.0000163856.13524.08",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2026-10-10T05:18:26Z",
+      "timestamp": 1791609506955,
+      "version": "4.3.4"
+    },
+    "reference-count": 50,
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "issue": "11",
+    "content-domain": {
+      "domain": [
+        "neurology.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Neurology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          6,
+          14
+        ]
+      ]
+    },
+    "DOI": "10.1212/01.wnl.0000163856.13524.08",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2006-07-12T18:20:05Z",
+      "timestamp": 1152728405000
+    },
+    "page": "1860-1867",
+    "update-policy": "https://doi.org/10.1212/crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 287,
+    "title": [
+      "Reduced hippocampal metabolism in MCI and AD"
+    ],
+    "prefix": "10.1212",
+    "volume": "64",
+    "author": [
+      {
+        "given": "L.",
+        "family": "Mosconi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W. -H.",
+        "family": "Tsui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "De Santi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Rusinek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Convit",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Madhu",
+        "family": "Boppana",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. J.",
+        "family": "de Leon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Departments of Psychiatry (Drs. Mosconi, Tsui, De Santi, J. Li, Convit, Y. Li, Boppana, and de Leon) and Radiology (Dr. Rusinek), New York University School of Medicine, New York; Nathan Kline Institute (Drs. Tsui, Convit, and de Leon), Orangeburg, NY; and Department of Clinical Pathophysiology (Dr. Mosconi), Nuclear Medicine Unit, University of Florence, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "276",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "first-page": "276",
+        "year": "1983",
+        "unstructured": "de Leon MJ, Ferris SH, George A, et al. Computed tomography and positron emission transaxial tomography evaluations of normal aging and Alzheimer's disease. J Cereb Blood Flow Metab 1983;3:276–394.",
+        "journal-title": "J Cereb Blood Flow Metab"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.410160605"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "first-page": "228",
+        "volume": "26",
+        "year": "1985",
+        "unstructured": "Friedland RP, Brun A, Budinger TF. Pathological and positron emission tomographic correlations in Alzheimer's disease. Lancet 1985;26:228.",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1176/ajp.142.5.638"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.410420114"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.51.1.136"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "first-page": "3251",
+        "volume": "82",
+        "year": "1997",
+        "unstructured": "de Leon MJ, McRae T, Rusinek H, et al. Cortisol reduces hippocampal glucose metabolism in normal elderly but not in Alzheimer's disease. J Clin Endocrinol Metab 1997;82:3251–3259.",
+        "journal-title": "J Clin Endocrinol Metab"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.191044198"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0197-4580(01)00230-5"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.10669"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/jcbfm.1991.122"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hbm.460030303"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "first-page": "1238",
+        "volume": "36",
+        "year": "1995",
+        "unstructured": "Minoshima S, Frey KA, Koeppe RA, Foster NL, Kuhl DE. A diagnostic approach in Alzheimer's disease using three-dimensional stereotactic surface projections of Fluorine-18-FDG PET. J Nucl Med 1995;36:1238–1248.",
+        "journal-title": "J Nucl Med"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "unstructured": "Folstein M. The Mini-Mental State Examination. In: Crook T Ferris SH Bartus R eds. Assessment in geriatric psychopharmacology. New Canaan: Mark Powley Associates 1983;47–51."
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1176/ajp.139.9.1136"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.34.7.939"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "unstructured": "American Psychiatric Association. Diagnostic and statistical manual of mental disorders (fourth edition). Washington DC: American Psychiatric Association 1994."
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1725",
+        "DOI": "10.1117/12.431059",
+        "volume": "4322",
+        "year": "2001",
+        "unstructured": "Tsui WH, Rusinek H, Van Gelder P, Lebedev S. Analyzing multi-modality tomographic images and associated regions of interest with MIDAS. Proc SPIE Med Imaging: Image Processing 2001;4322:1725–1734.",
+        "journal-title": "Proc SPIE Med Imaging: Image Processing"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1471-4159.1977.tb10649.x"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "first-page": "179",
+        "year": "1985",
+        "unstructured": "Reivich M, Alavi A, Wolf A, et al. Glucose metabolic rate kinetic model parameter determination in humans: the lumped constants and rate constants for [18F]fluorodeoxyglucose and [11C]deoxyglucose. J Cereb Blood Flow Metab 1985;5:179–192.",
+        "journal-title": "J Cereb Blood Flow Metab"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199307000-00004"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/nimg.2002.1202"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "unstructured": "Talairach J Tournoux P. Co-planar stereotaxic atlas of the human brain. Stuttgart: Thieme 1988."
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Efron B Tibshirani RJ. An introduction to the bootstrap. New York: Chapman & Hall 1993.",
+        "DOI": "10.1007/978-1-4899-4541-9"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "unstructured": "Agresti A. An introduction to categorical data analysis. New York: Wiley 1996."
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004728-199005000-00019"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "first-page": "1585",
+        "volume": "50",
+        "year": "1999",
+        "unstructured": "Ibanez V, Pietrini P, Alexander GE, et al. Regional glucose metabolic abnormalities are not the result of atrophy in Alzheimer's disease. Neurology 1999;50:1585–1593.",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "first-page": "541",
+        "year": "1995",
+        "unstructured": "Minoshima S, Frey KA, Foster NL, Kuhl DE. Preserved pontine glucose metabolism in Alzheimer's disease: a reference region for functional brain image (PET) analysis. J Comput Assist Tomogr 1995;19:541–547.",
+        "journal-title": "J Comput Assist Tomogr"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hbm.460020402"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/01.WNL.0000055847.17752.E6"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00259-003-1194-1"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/01.WNL.0000147469.18313.3B"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "unstructured": "de Leon MJ Smith G Convit A et al. The early detection of brain pathology in Alzheimer's disease. In: Christen Y Churchland P eds. Neurophysiology in Alzheimer's disease. New York: Springer-Verlag 1992;131–143."
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.16-14-04491.1996"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.52.6.1158"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "first-page": "94",
+        "volume": "348",
+        "year": "2004",
+        "unstructured": "Fox NC, Schott JM. Imaging cerebral atrophy: normal ageing to Alzheimer's disease. Lancet 2004;348:94–97.",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0006-8993(93)91320-R"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "first-page": "23",
+        "volume": "26",
+        "year": "1999",
+        "unstructured": "McKelvey R, Bergman H, Stern J, Rush C, Zahirney G, Chertkow H. Lack of prognostic significance of SPECT abnormalities in non-demented elderly subjects with memory loss. Can J Neurol Sci 1999;26:23–28.",
+        "journal-title": "Can J Neurol Sci"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "first-page": "317",
+        "year": "1998",
+        "unstructured": "Ishii K, Sasaki M, Yamaji S, Sakamoto S, Kitagaki H, Mori E. Relatively preserved hippocampal glucose metabolism in mild Alzheimer's disease. Dement Geriatr Cogn Dis 1998;9:317–322.",
+        "journal-title": "Dement Geriatr Cogn Dis"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awg196"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.39.11.1537"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.42.4.765"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S1041610294001596"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "first-page": "5",
+        "volume": "55",
+        "year": "1994",
+        "unstructured": "Jagust WJ. Functional imaging in dementia: an overview. J Clin Psychiatry 1994;55 suppl:5–11.",
+        "journal-title": "J Clin Psychiatry"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000116476"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronj/46.6.P362"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-3956(98)90048-6"
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archneur.58.12.1985"
+      },
+      {
+        "key": "e_1_3_2_50_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.286.17.2120"
+      },
+      {
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1096-7192(03)00139-2"
+      }
+    ],
+    "container-title": [
+      "Neurology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.neurology.org/doi/pdfdirect/10.1212/01.WNL.0000163856.13524.08",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          28
+        ]
+      ],
+      "date-time": "2024-03-28T13:08:18Z",
+      "timestamp": 1711631298000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.neurology.org/doi/10.1212/01.WNL.0000163856.13524.08"
+      }
+    },
+    "subtitle": [
+      "Automated FDG-PET image analysis"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          6,
+          14
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2005,
+            6,
+            14
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1212/01.WNL.0000163856.13524.08"
+    ],
+    "URL": "https://doi.org/10.1212/01.wnl.0000163856.13524.08",
+    "relation": {},
+    "ISSN": [
+      "0028-3878",
+      "1526-632X"
+    ],
+    "issn-type": [
+      {
+        "value": "0028-3878",
+        "type": "print"
+      },
+      {
+        "value": "1526-632X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          6,
+          14
+        ]
+      ]
+    }
+  }
+}

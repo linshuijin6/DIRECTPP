@@ -1,0 +1,34 @@
+[
+  {
+    "figure": "figure_5",
+    "pdf": "manuscript/figures/figure_5.pdf",
+    "svg": "manuscript/figures/editable_sources/figure_5.svg",
+    "source_files": [
+      {
+        "path": "reports/revision_evidence_night_20261102/G5/existing_imaging_bootstrap_metrics.csv",
+        "sha256": "4623fcdc9a856547c9cecbd632d7a8e7708f45195c58fa842942717781bee8ad"
+      },
+      {
+        "path": "reports/revision_evidence_night_20261102/G5/clinical_summary.csv",
+        "sha256": "2fe3093772f50358fcfb5adc60e977d2ec08056bcfc152c4fecb61d28cbe5731"
+      }
+    ],
+    "note": "9 input conditions × 3 tasks × 5 metrics; points and fold sample SD, not confidence intervals. No PET-only configurations invented."
+  },
+  {
+    "figure": "figure_1",
+    "pdf": "manuscript/figures/figure_1.pdf",
+    "svg": "manuscript/figures/editable_sources/figure_1.svg",
+    "source_files": [
+      {
+        "path": "experiments/original_author_reproduction/run.py",
+        "sha256": "1811340c23d498b5aad1da4f64d68f3a8dd51691f60ff71cfb011e2fa15c3eec"
+      },
+      {
+        "path": "reports/revision_evidence_night_20261102/G1/REPORT.md",
+        "sha256": "3c39cb3c5bcf0ac9e424f39acc6b84ca5b06589074c41449bccbce6f3b4d810e"
+      }
+    ],
+    "note": "New schematic; separate affine-adapter analysis and reconstructed raw-tracer Full. No historical classification numbers embedded."
+  }
+]

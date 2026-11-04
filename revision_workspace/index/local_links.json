@@ -1,0 +1,354 @@
+[
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "line": 230,
+    "label": "R2-10 已确认的完整 16 行表",
+    "raw": "R2-10%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd808ea664c3927e7dca4d.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "line": 265,
+    "label": "完整 Cohen's d CSV",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r3_5_effect_size/figure4_effect_sizes.csv?utm_source=chatgpt.com",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r3_5_effect_size/figure4_effect_sizes.csv?utm_source=chatgpt.com",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "line": 19,
+    "label": "R2-10 原始归一化区域校准审计",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_10_normalized_calibration/REPORT.md",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_10_normalized_calibration/REPORT.md",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "line": 19,
+    "label": "16 项 OLS 原始结果",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_10_normalized_calibration/calibration_results.csv",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_10_normalized_calibration/calibration_results.csv",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "line": 21,
+    "label": "R2-8回复及正文修改",
+    "raw": "R2-8%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd80679aafc18e5c0416df.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "line": 21,
+    "label": "R2-9回复及正文修改",
+    "raw": "R2-9%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "line": 19,
+    "label": "R2-8 原始区域摄取配对复算报告",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/REPORT.md",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/REPORT.md",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "line": 19,
+    "label": "1176 行全量统计结果",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/regional_paired_statistics.csv",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/regional_paired_statistics.csv",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "line": 170,
+    "label": "overall 统计表",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/supplementary_tables/overall_regional_statistics.csv",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/supplementary_tables/overall_regional_statistics.csv",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "line": 170,
+    "label": "提取核验说明",
+    "raw": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/supplementary_tables/EXTRACTION_NOTES.md",
+    "target": "https://github.com/linshuijin6/DIRECTPP/blob/main/reports/r2_8_original_roi_stats/supplementary_tables/EXTRACTION_NOTES.md",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 16,
+    "label": "https://www.editorialmanager.com/bmef/account/BMEF_LicensetoPublish.pdf",
+    "raw": "https://www.editorialmanager.com/bmef/account/BMEF_LicensetoPublish.pdf",
+    "target": "https://www.editorialmanager.com/bmef/account/BMEF_LicensetoPublish.pdf",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 16,
+    "label": "https://www.editorialmanager.com/bmef/account/BMEF_ConflictofInterest.pdf",
+    "raw": "https://www.editorialmanager.com/bmef/account/BMEF_ConflictofInterest.pdf",
+    "target": "https://www.editorialmanager.com/bmef/account/BMEF_ConflictofInterest.pdf",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 16,
+    "label": "https://www.editorialmanager.com/BMEF/account/Auth_Change_Form.pdf",
+    "raw": "https://www.editorialmanager.com/BMEF/account/Auth_Change_Form.pdf",
+    "target": "https://www.editorialmanager.com/BMEF/account/Auth_Change_Form.pdf",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 22,
+    "label": "https://www.editorialmanager.com/bmef/",
+    "raw": "https://www.editorialmanager.com/bmef/",
+    "target": "https://www.editorialmanager.com/bmef/",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 38,
+    "label": "Reviewer2的审稿意见",
+    "raw": "%E5%8E%9F%E5%A7%8B%E5%AE%A1%E7%A8%BF%E6%84%8F%E8%A7%81/Reviewer2%E7%9A%84%E5%AE%A1%E7%A8%BF%E6%84%8F%E8%A7%81%200af95d43b2dd82f0a0ee0138193e2174.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见/Reviewer2的审稿意见 0af95d43b2dd82f0a0ee0138193e2174.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "line": 119,
+    "label": "https://www.editorialmanager.com/bmef/login.asp?a=r",
+    "raw": "https://www.editorialmanager.com/bmef/login.asp?a=r",
+    "target": "https://www.editorialmanager.com/bmef/login.asp?a=r",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 3,
+    "label": "原始审稿意见",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/%E5%8E%9F%E5%A7%8B%E5%AE%A1%E7%A8%BF%E6%84%8F%E8%A7%81%20ac395d43b2dd83f3a31601eee187dd6e.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 5,
+    "label": "BMEF_main.pdf",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/BMEF_main.pdf",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/BMEF_main.pdf",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 7,
+    "label": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/BMEF_main.pdf",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/BMEF_main.pdf",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/BMEF_main.pdf",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 54,
+    "label": "G4修改正文",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/G4%E4%BF%AE%E6%94%B9%E6%AD%A3%E6%96%87%2040c95d43b2dd8081b5b3ea02e06e0964.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 56,
+    "label": "G5修改正文",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/G5%E4%BF%AE%E6%94%B9%E6%AD%A3%E6%96%87%2040d95d43b2dd8050b224d3f96fa506f8.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 294,
+    "label": "https://doi.org/10.1016/j.jalz.2015.05.005",
+    "raw": "https://doi.org/10.1016/j.jalz.2015.05.005",
+    "target": "https://doi.org/10.1016/j.jalz.2015.05.005",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 295,
+    "label": "https://doi.org/10.3389/fneur.2022.685636",
+    "raw": "https://doi.org/10.3389/fneur.2022.685636",
+    "target": "https://doi.org/10.3389/fneur.2022.685636",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 296,
+    "label": "https://doi.org/10.1212/WNL.0000000000012588",
+    "raw": "https://doi.org/10.1212/WNL.0000000000012588",
+    "target": "https://doi.org/10.1212/WNL.0000000000012588",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 298,
+    "label": "**R2-4 Changes in the Revised Manuscript**",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-4%20Changes%20in%20the%20Revised%20Manuscript%20af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 380,
+    "label": "R2-7 正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-7%20%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2056895d43b2dd82f4b08f017a857a96b6.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 396,
+    "label": "R2-8回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-8%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd80679aafc18e5c0416df.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 412,
+    "label": "R2-9回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-9%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 428,
+    "label": "R2-10回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-10%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040a95d43b2dd808ea664c3927e7dca4d.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 496,
+    "label": "R2-13正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-13%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%200fc95d43b2dd8370b0ac81535a429e1a.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 609,
+    "label": "R2-15回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-15%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 800,
+    "label": "R2-20正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R2-20%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%200c495d43b2dd82848aad018dc525c2d2.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 872,
+    "label": "R3-2正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-2%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040d95d43b2dd80a88607c5d70bce9180.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 903,
+    "label": "R3-3正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-3%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2051895d43b2dd838dbc088101b7eab8e2.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 971,
+    "label": "R3-5回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-5%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040c95d43b2dd800d980bf49cf04cd89f.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1329,
+    "label": "R3-9回复全文及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-9%E5%9B%9E%E5%A4%8D%E5%85%A8%E6%96%87%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040995d43b2dd809589a3f13eedd1d684.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1351,
+    "label": "详细R3-10回复细节",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/%E8%AF%A6%E7%BB%86R3-10%E5%9B%9E%E5%A4%8D%E7%BB%86%E8%8A%82%2034395d43b2dd83edb571814bbaf270bd.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1468,
+    "label": "R3-12回复及正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-12%E5%9B%9E%E5%A4%8D%E5%8F%8A%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040d95d43b2dd804aa6bbfb33c7589738.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1497,
+    "label": "R3-13正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-13%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040d95d43b2dd80d48434d6591b4e6c4e.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1528,
+    "label": "R3-14正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/R3-14%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%20d9795d43b2dd8393a4fd01048b566331.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1794,
+    "label": "M7正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/M7%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040795d43b2dd8025b837db224bcb3515.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 1884,
+    "label": "https://doi.org/10.1016/j.media.2023.102789",
+    "raw": "https://doi.org/10.1016/j.media.2023.102789?utm_source=chatgpt.com",
+    "target": "https://doi.org/10.1016/j.media.2023.102789?utm_source=chatgpt.com",
+    "status": "external_not_fetched"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 2181,
+    "label": "M16正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/M16%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040895d43b2dd807fb42cc33f85b765a6.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "status": "local_ok"
+  },
+  {
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "line": 2224,
+    "label": "M18正文修改",
+    "raw": "BMEF%E5%AE%A1%E7%A8%BF%E5%9B%9E%E5%A4%8D/M18%E6%AD%A3%E6%96%87%E4%BF%AE%E6%94%B9%2040895d43b2dd80e0806fc69c8f338f19.md",
+    "target": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+    "status": "local_ok"
+  }
+]

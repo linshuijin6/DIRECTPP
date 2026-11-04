@@ -1,0 +1,1284 @@
+{
+  "created_at": "2026-11-03T17:06:43.137746+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "Notion export hashes",
+      "passed": true,
+      "detail": "25 files"
+    },
+    {
+      "check": "preserved baseline hashes",
+      "passed": true,
+      "detail": "27 files"
+    },
+    {
+      "check": "unique final position IDs",
+      "passed": true,
+      "detail": "82"
+    },
+    {
+      "check": "final fragment G8-TABLE-S1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G8-MISSINGNESS-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G8-CLINICAL-METHODS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-COHORT-SELECTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-MCI-DEFINITIONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-OASIS-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-PREPROCESSING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-OOF-PROTOCOL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-DATA-AVAILABILITY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-SUPP-OASIS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G2-REPRODUCIBILITY-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-RESULTS-CONDITIONING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-G6-RESULTS-INFERENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-G6-FIGURE1-CAPTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-METHODS-OVERVIEW",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-FEATURE-EXTRACTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-ADAPTER-OBJECTIVE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-VELOCITY-NOTATION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-CONTEXT-AND-PROMPT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-CROSS-ATTENTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G1-SUPPLEMENTARY-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-CORE-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-ROI-NAMES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-FIGURE4-CAPTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-FIGURE3-CAPTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-SUPP-FIGURE-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G4-REGIONAL-TABLE-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-RESULTS-INTRO",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-EVALUATION-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-RESULTS-COMPARISONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-EXTERNAL-RESULTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-FIGURE2-CAPTION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-BASELINE-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-SEGGUIDED-2D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-RF-BASELINE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-SINGLE-BASELINE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-DDIM-REFERENCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-IMAGE-QUALITY-METHODS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-SUPPLEMENTARY-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G5-RESULTS-AND-FIGURE5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G5-CLASSIFICATION-METHODS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G5-SUPPLEMENTARY-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G6-SHARED-TRAINING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G6-LOSS-WEIGHTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G6-ONE-STEP-IMPLEMENTATION",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G6-IMPLEMENTATION-AND-EFFICIENCY",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-DISCUSSION-MERGED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-ABSTRACT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-INTRODUCTION-GRAMMAR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-INTRODUCTION-CONTRIBUTIONS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-INTRODUCTION-EVIDENCE-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-FRAMEWORK-OPENING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-TITLE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-PDF-TITLE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment BIB-MANUSCRIPT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment BIB-REBUTTAL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment BUILD-PACKAGES",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment BUILD-SUPP-FIGURE-ANCHORS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment BUILD-SUPP-TABLE-ANCHORS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment EVIDENCE-SENSITIVITY-TABLE-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-02_reviewer2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-03_reviewer3_major.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-04_reviewer3_minor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-00_general_response.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-01_editor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment REBUTTAL-TITLE-DATE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G3-RESULTS-HEADING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment TYPESETTING-LINE-FIT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment PDF-TEXT-ENCODING",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-INTRODUCTION-BIOMARKER-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final fragment G7-INTRODUCTION-ACCESS-SCOPE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_disposition.csv",
+      "passed": true,
+      "detail": "123"
+    },
+    {
+      "check": "addition_disposition.csv",
+      "passed": true,
+      "detail": "17"
+    },
+    {
+      "check": "bidirectional 56-comment coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "56 preserved source responses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source response M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final response M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02_reviewer2.tex coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02_reviewer2.tex English body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03_reviewer3_major.tex coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03_reviewer3_major.tex English body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04_reviewer3_minor.tex coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04_reviewer3_minor.tex English body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final combined-PDF identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no missing printed locations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean/combined main-label pagination agrees",
+      "passed": true,
+      "detail": "13 main labels"
+    },
+    {
+      "check": "clean build BMEF_main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input BMEF_main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean build main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean build cover_letter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input cover_letter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean build manuscript_clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input manuscript_clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean build supplementary_standalone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input supplementary_standalone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean build manuscript_highlighted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "built from current input manuscript_highlighted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G8-TABLE-S1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G8-MISSINGNESS-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G2-SUPP-OASIS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G2-REPRODUCIBILITY-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G1-SUPPLEMENTARY-INPUT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-SUPP-FIGURE-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G4-REGIONAL-TABLE-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G3-SUPPLEMENTARY-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page G5-SUPPLEMENTARY-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standalone page EVIDENCE-SENSITIVITY-TABLE-INPUTS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plain-text abstract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "196 designated ROI CSV hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text figure_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text figure_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text figure_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editable text supplementary_figure_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no hypothetical extra fits",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failed_checks": [],
+  "pdfs": {
+    "BMEF_main": {
+      "pages": 54,
+      "sha256": "e5ba41f169b7c1f4c187517e12e47d2466a6b147f9d2e00ecb16e166b2e40d00"
+    },
+    "main": {
+      "pages": 68,
+      "sha256": "c37def886ca549a78bef8c0124c20029ec4231eab3440f0524c5f68a5fe7a3f3"
+    },
+    "cover_letter": {
+      "pages": 1,
+      "sha256": "b53e406f016539830995d9992e5b9b10cceb89bb399d4a4c81fbd105de9cb1ef"
+    },
+    "manuscript_clean": {
+      "pages": 26,
+      "sha256": "45ed94216f36b8093eb43683e7d631068792b3d620b9ef83ef65a52e24d479bb"
+    },
+    "supplementary_standalone": {
+      "pages": 27,
+      "sha256": "b2d41bc12ddd2fc9c218998e1c96dc08f7a58809280f508a189a631f57fa0c2f"
+    },
+    "manuscript_highlighted": {
+      "pages": 59,
+      "sha256": "232e8da6ba44375136d8972d301052105fa667875e390bd767be8b684d28847b"
+    }
+  },
+  "scope": "Engineering/source traceability only; no new training, inference, data imputation or new inferential statistics. Scientific and author-form limitations remain explicit.",
+  "presentation_deviations": [
+    "Figure4 retains six panels and designated primary/disease ROI choices, but uses horizontal violins for legibility.",
+    "S1–S4 are reproducible atlas-ID-ordered partitions of the 90 ROIs outside Figure4A/B; the historical raster ordering and grouping were not retained.",
+    "Recreated palette and hatching distinguish conditions; the exact historical drawing layout is not claimed."
+  ]
+}

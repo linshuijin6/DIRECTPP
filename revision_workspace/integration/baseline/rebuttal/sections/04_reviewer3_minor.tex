@@ -1,0 +1,272 @@
+\reviewersec{Part 4: Response to Reviewer 3 — Minor Comments}
+
+We thank Reviewer~3 for the meticulous proofreading and valuable minor corrections. We have addressed every item in full:
+
+
+
+
+
+
+
+\minorcomment{R3-minor-01}{Grammar correction: 'This challenge stems'}{> Line 57: ``This challenges stems'' $\rightarrow$ ``This challenge stems.''}{%
+We thank the reviewer for pointing out this grammatical error. We have corrected ``This challenges stems'' to ``This challenge stems'' in the revised manuscript.%
+}
+% [Audit Note: 第 77 行与 Minor-2 为同一句，须采用合并后的唯一版本。]
+\changedtext{Introduction, Line 77}{%
+This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET\~\\cite.%
+}
+
+\minorcomment{R3-minor-02}{Spelling correction: 'neurodegeneration'}{> Lines 58-59: ``neurodegenration'' $\rightarrow$ ``neurodegeneration.''}{%
+We thank the reviewer for identifying this typographical error. We have corrected ``neurodegenration'' to ``neurodegeneration'' in the revised manuscript.%
+}
+% [Audit Note: 第 77 行与 Minor-1 为同一句；此处 Original 已包含 Minor-1 修改，并非最初原稿。]
+\changedtext{Introduction, Line 77}{%
+This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET\~\\cite.%
+}
+% [Revision Note: （已包含 Minor-1 确认的修改）]
+
+\minorcomment{R3-minor-03}{Standardization of SUV/SUVR terminology and plural forms}{> Line 137: ``standardized uptake value (SUV) were'' $\rightarrow$ ``values (SUVRs) were.''}{%
+Thank you for pointing out this grammatical and terminology issue. We agree that the original wording was imprecise. Upon reviewing the regional uptake analysis, we confirmed that the reported measurements represent mean regional intensities extracted from min--max-normalized PET images, rather than standardized uptake values (SUVs) or reference-region--normalized uptake ratios (SUVRs).
+
+Therefore, directly replacing ``SUV'' with ``SUVR'' would not accurately reflect the measurements performed in this study. We will correct the grammatical error and use the more appropriate term ``normalized regional uptake'' in the revised manuscript, while ensuring consistent terminology and units in the corresponding figures.%
+}
+% [Audit Note: 第 119 行与 G4 及 Minor-7 重叠；分别保留现有方案，待统一合并。]
+\changedtext{Results: Recapitulation of Disease-Specific Biomarker Patterns, Line 119}{%
+Regional normalized uptake values were computed by extracting the mean voxel intensity within each ROI from min--max-normalized PET images.%
+}
+% [Revision Note: 纠正单复数语法；将不符合实际计算方法的 SUV/SUVR 术语改为 normalized regional uptake；删除未经实际分析证实的小脑灰质和脑桥参考区归一化表述。前后句不变，其他 SUV/SUVR 术语和 Figure 4 纵坐标分别在 R3-5、Minor-19 中处理。]
+
+\minorcomment{R3-minor-04}{Explicit definitions of velocity field $v_\theta$, parameters $\theta$, and condition $c$}{> Line 301: ``a learnable velocity field V$\theta$ denotes the network parameters'' is garbled; $\theta$ and c should be defined separately.}{%
+We thank the reviewer for identifying the unclear notation. We will clarify that \\(V\_\\theta\\) denotes the learnable velocity field and \\(\\theta\\) its network parameters. We will also use \\(\\mathbf\{c\}\\) consistently for the conditioning context, retaining its component-wise definition in the subsequent formulation.%
+}
+% [Audit Note: 来源中数学符号存在破损，按原样保留，需对照论文源文件核查，不能直接用于 LaTeX。]
+\changedtext{Methods: Rectified Flow Formulation, Line 245}{%
+Specifically, given two heterogeneous medical distributions---\$\\mathbf0 \\sim \\mathcal\}\$ and \$\\mathbf1 \\sim \\mathcal\}\$ (multi-tracer)---we model the transformation between them via a learnable velocity field \$V\_\\theta\$, where \$\\theta\$ denotes the network parameters.%
+}
+
+\minorcomment{R3-minor-05}{Consistency of diagnostic cohort naming between Methods and Results}{Section 4.5.1 describes paired tests for ``AD and CN,'' but Results report CN, MCI, and AD (lines 145-147). Please reconcile.}{%
+We thank the reviewer for pointing this out. We have carefully revised this item in the manuscript.
+}
+
+
+
+
+
+
+
+\minorcomment{R3-minor-06}{Anatomical specification of the temporoparietal junction ROI}{> Line 427: ``Temporoparietal junction'' is not a SynthSeg/Desikan-Killiany label. Please specify the ROIs actually used.}{%
+We thank the reviewer for pointing out the inconsistency between the anatomical terminology and the atlas labels used in our analysis. In the original manuscript, we used the general anatomical term ``temporoparietal junction,'' which does not correspond to a distinct ROI label in the adopted atlas and may have caused ambiguity regarding the regions actually analyzed.
+
+To clarify this issue, we re-examined the original ROI statistical analysis and Figure 4 plotting code and confirmed the specific regions used. For FDG-PET, the selected regions included the bilateral hippocampus (Left/Right-Hippocampus), isthmus cingulate cortex (ctx-lh/rh-isthmuscingulate), and supramarginal gyrus (ctx-lh/rh-supramarginal). For AV45-PET, the selected regions included the bilateral precuneus (ctx-lh/rh-precuneus) and the inferior, middle, superior, and transverse temporal gyri (ctx-lh/rh-inferiortemporal, middletemporal, superiortemporal, and transversetemporal).
+
+Accordingly, we will replace the imprecise or overly broad anatomical descriptions with the corresponding atlas labels and clearly distinguish the full ROI-based statistical analysis from the representative disease-related regions presented in Figure 4. These revisions will ensure that the Methods section accurately reflects the regions used in the analysis and the corresponding figures.%
+}
+% [Audit Note: 第 326 行与 Minor-13 重叠，以合并方案为基础审核，勿重复覆盖。]
+
+\minorcomment{R3-minor-07}{Harmonization of FreeSurfer / SynthSeg citations and versions}{> Line 133 vs. line 390: ``mri\_synthseg (FreeSurfer v7.4.1)'' and ``SynthSeg \[35\]'' cite different references for the same tool. Please use one version and one citation.}{%
+We thank the reviewer for pointing out the inconsistent nomenclature and citations for the brain parcellation method across the manuscript. We acknowledge that the use of ``mri\_synthseg (FreeSurfer v7.4.1)'' and ``SynthSeg'' in different sections, together with inconsistent references, may have caused confusion.
+
+To address this issue, we will consistently refer to the ROI parcellation method as SynthSeg and standardize its citation throughout the manuscript. We will also clearly distinguish the FreeSurfer-based skull-stripping step from SynthSeg-based brain parcellation and clarify that the ROI masks derived from T1-weighted MRI were used for regional PET analysis. These revisions will ensure a consistent and accurate description of the preprocessing and ROI analysis procedures.%
+}
+% [Audit Note: Results 第 119 行与 G4 区域摄取定义修改重叠，且关于 SynthSeg 分割对象的表述不同；须合并为唯一版本。]
+\changedtext{Results Section 2.3: Regional Uptake Analysis, Line 119}{%
+To assess the clinical validity of the synthesized PET images, we parcellated the corresponding T1-weighted MRI scans using SynthSeg`~\cite{synthseg}`, a deep learning-based segmentation tool that provides high-resolution cortical and subcortical labeling consistent with the Desikan--Killiany and `\textit{aseg}` atlases, and applied the resulting ROI masks to both synthetic and real PET images.%
+}
+% [Revision Note: 统一使用 SynthSeg 名称及单一引用，并明确实际流程是对 T1 MRI 进行脑区分割，再将 ROI 掩码应用于真实和合成 PET，而非分别对 PET 执行 SynthSeg 分割。]
+\changedtext{Methods: Materials and Data Preprocessing, Line 301}{%
+For quantitative regional analysis, T1-weighted MRI scans were parcellated into 98 anatomical regions using SynthSeg`~\cite{synthseg}`, and the resulting ROI masks were applied to the spatially aligned PET images.%
+}
+% [Revision Note: 将分割对象明确为 T1-weighted MRI，并补充 ROI 掩码在 PET 区域分析中的实际用途，与 Results 的修改保持一致。]
+
+\minorcomment{R3-minor-08}{Removal of duplicate reference entries (Refs. 27 and 33)}{> Refs. 27 and 33 are duplicates (Fischl, FreeSurfer).}{%
+We thank the reviewer for identifying the duplicate reference. We have confirmed that References 27 and 33 refer to the same FreeSurfer publication. We will merge the duplicate entries and standardize the corresponding citations in the revised manuscript to ensure accuracy and consistency.%
+}
+% [Audit Note: 第 119 行与 Minor-7 和 G4 重叠；待整合。]
+\changedtext{Results Section 2.3: Regional Uptake Analysis, Line 119}{%
+To assess the clinical validity of the synthesized PET images, we parcellated the corresponding T1-weighted MRI scans using SynthSeg`~\cite{synthseg}`, a deep learning-based segmentation tool that provides high-resolution cortical and subcortical labeling consistent with the Desikan--Killiany and `\textit{aseg}` atlases, and applied the resulting ROI masks to both synthetic and real PET images.%
+}
+% [Revision Note: （沿用 M7 已讨论的方案）]
+
+\minorcomment{R3-minor-09}{Author initial correction for Billot et al. (Ref. 35)}{> Ref. 35: ``Billot C'' should be ``Billot B.''}{%
+We thank the reviewer for identifying the incorrect author name in Reference 35. We have verified that the first author is Benjamin Billot and will correct ``Billot C'' to ``Billot B'' in the revised manuscript.%
+}
+\changedtext{References}{%
+35\. Billot B, Greve DN, Puonti O, et al. SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining. Med. Image Anal. 2023;86:102789.%
+}
+
+\minorcomment{R3-minor-10}{Correction of author listing and title for Ref. 28}{> Ref. 28: author list and title should be verified.}{%
+We thank the reviewer for identifying the inaccuracies in Reference 28. Upon verification, we found that its author list, title, and publication details were inconsistent with the official SynthSeg publication. We will remove the incorrect entry and consistently cite the correct SynthSeg paper by Billot et al., published in Medical Image Analysis in 2023, to ensure the accuracy and consistency of the references.%
+}
+\changedtext{References}{%
+Billot B, Greve DN, Puonti O, et al. SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining. Medical Image Analysis. 2023;86:102789. \href{https://doi.org/10.1016/j.media.2023.102789?utm_source=chatgpt.com}{\url{https://doi.org/10.1016/j.media.2023.102789}}.%
+}
+% [Revision Note: > Billot C, Greve DN, Puonti O, et al. SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining. Med. Image Anal. 2023;86:102789.]
+% [Revision Note: 删除原第 28 条，将原第 35 条更正并保留为唯一的 SynthSeg 方法文献：]
+
+\minorcomment{R3-minor-11}{Harmonization of author name formatting in Ref. 26}{> Ref. 26: author formatting is garbled (``Xingchao Liu Chengyue Gong QL'').}{%
+We thank the reviewer for identifying the author formatting error in Reference 26. We have verified that the correct authors are Xingchao Liu, Chengyue Gong, and Qiang Liu. We will correct the author list and update the reference to the officially published ICLR 2023 version to ensure accuracy and consistency.%
+}
+\changedtext{References}{%
+Liu X, Gong C, Liu Q. Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow. International Conference on Learning Representations (ICLR). 2023.%
+}
+
+\minorcomment{R3-minor-12}{Correction of SPM citation details in Ref. 34}{> Ref. 34 (a gray-matter asymmetry protocol) is not an appropriate citation for SPM spatial normalization.}{%
+We thank the reviewer for pointing out the inappropriate citation for SPM. The original reference primarily describes voxel-wise gray matter asymmetry analysis rather than the SPM software used for spatial normalization, and it's our mistake. We will replace it with an authoritative reference for SPM and its associated methods to ensure that the citation accurately reflects the neuroimaging preprocessing tool used in our study.%
+}
+\changedtext{Methods: Materials and Data Preprocessing, Line 301}{%
+`Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\cite{spm}, with identical transformation matrices applied to preserve cross-modality alignment~\cite{friston1995spatial}.`%
+}
+% [Revision Note: 参考文献修改：`reference.bib.txt` 第 325–333 行]
+\changedtext{References (references.bib)}{%
+@book{spm,
+  title = {Statistical Parametric Mapping: The Analysis of Functional Brain Images},
+  editor = {Friston, Karl J. and Ashburner, John and Kiebel, Stefan J. and Nichols, Thomas E. and Penny, William D.},
+  publisher = {Academic Press},
+  year = {2007},
+  isbn = {9780123725608}
+}
+
+@article{friston1995spatial,
+  title   = {Spatial Registration and Normalization of Images},
+  author  = {Friston, Karl J. and Ashburner, John and
+             Frith, Christopher D. and Poline, Jean-Baptiste and
+             Heather, John D. and Frackowiak, Richard S. J.},
+  journal = {Human Brain Mapping},
+  volume  = {3},
+  number  = {3},
+  pages   = {165--189},
+  year    = {1995},
+  doi     = {10.1002/hbm.460030303}
+}%
+}
+
+\minorcomment{R3-minor-13}{Correction of citation for the FDG reference region in Ref. 36}{> Ref. 36 (an ADNI overview) is not an appropriate source for FDG AD-vulnerable regions.}{%
+We thank the reviewer for pointing out the inappropriate citation for AD-vulnerable regions in FDG-PET. We acknowledge that the original reference primarily describes the Alzheimer's Disease Neuroimaging Initiative (ADNI) and does not directly support the regional metabolic alterations discussed in our study.
+
+To address this issue, we will replace the original citation with more relevant FDG-PET studies, including Mosconi et al. on hippocampal hypometabolism, He et al. on AD-related regional metabolic abnormalities, and Strom et al. on metabolic alterations involving the isthmus cingulate region. These references provide a more appropriate scientific basis for the selected disease-related regions.%
+}
+% [Audit Note: 第 326 行与 Minor-6 重叠；此处记载为合并方案。]
+\changedtext{Methods: Statistical Analysis (Regional Group-Wise Comparison), Line 326}{%
+Among the 98 anatomical ROIs, we selected representative disease-related regions for the comparisons shown in Fig.~\ref{fig:4}C,D.
+
+For $^{18}\text{F}$-FDG PET, these included the bilateral hippocampus (\texttt{Left-Hippocampus} and \texttt{Right-Hippocampus}), isthmus cingulate cortex (\texttt{ctx-lh-isthmuscingulate} and \texttt{ctx-rh-isthmuscingulate}), and supramarginal gyrus (\texttt{ctx-lh-supramarginal} and \texttt{ctx-rh-supramarginal})~\cite{mosconi2005reduced,he2015meta,strom2022cortical}.
+
+For $^{18}\text{F}$-AV45 PET, these included the bilateral precuneus (\texttt{ctx-lh-precuneus} and \texttt{ctx-rh-precuneus}) and the bilateral inferior, middle, superior, and transverse temporal gyri (corresponding to the \texttt{ctx-lh-} and \texttt{ctx-rh-} labels with the suffixes \texttt{inferiortemporal}, \texttt{middletemporal}, \texttt{superiortemporal}, and \texttt{transversetemporal})~\cite{wong2010in}.%
+}
+% [Revision Note: （整合 M6 与 M13）]
+
+\minorcomment{R3-minor-14}{Verification and correction of DDIM source citation in Ref. 25}{> Ref. 25 (MRI-to-CT for spinal segmentation) should be checked as the source for the 3D DDIM baseline.}{%
+We thank the reviewer for pointing out the inappropriate reference for the 3D DDIM baseline. We re-examined the original experimental code and confirmed that our baseline was not based on the implementation by Graf et al. Instead, it was implemented using the 3D DiffusionModelUNet provided by MONAI GenerativeModels, with DDIMScheduler employed for accelerated sampling. We will remove the inappropriate citation to Graf et al. and replace it with the original DDIM paper by Song et al. and an appropriate reference for MONAI GenerativeModels. We will also clarify the implementation framework and sampling procedure of the 3D conditional diffusion baseline to ensure that the methodological description and references accurately reflect the experimental implementation.%
+}
+\changedtext{Results: Superior Fidelity and Generalizability of Synthesized PET, Line 101}{%
+We rigorously evaluated the multi-tracer PET synthesis performance of DIReCT$++$ against a comprehensive suite of representative methods, including generative adversarial networks (CycleGAN~\cite{zhu2017unpaired}), transformer-based architectures (Swin-UNet~\cite{Cao2021swin}), and diffusion/flow-based models (SegGuidedDif ~\cite{konz2024anatomically}, 3D DDIM~\cite{song2021ddim}, 3D RF ~\cite{Xing2022}), alongside our baseline model, DIReCT~\cite{liu2025direct}, which performs mono-tracer generation without prompt adaptation.%
+}
+% [Revision Note: 此处只替换引用键，不修改实验叙述。]
+\changedtext{Methods: Baseline Implementations and Competing Methods, Line 316}{%
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+\item \textbf{3D DDIM}: A 3D conditional diffusion baseline implemented using the \texttt{DiffusionModelUNet} and \texttt{DiffusionInferer} components of MONAI GenerativeModels (v0.2.3)~\cite{pinaya2023generative}, with \texttt{DDIMScheduler}~\cite{song2021ddim} employed for accelerated sampling. This baseline was included to assess DIReCT$++$'s computational efficiency and sampling quality relative to accelerated diffusion approaches.
+\end{itemize}%
+}
+% [Revision Note: 这段修改明确交代了模型架构、软件实现来源和采样方法，并保留该基线原有的比较目的，没有暗示使用了 Graf 的代码。]
+
+\minorcomment{R3-minor-15}{Data Availability disclosure of subject/image IDs and FDG accession}{> Data Availability mentions only ``structural MRI and AV-45 PET''; FDG-PET should be added. Please also release the list of ADNI/OASIS subject and image IDs used, to allow exact replication.}{%
+We thank the reviewer for identifying the omission in the Data Availability statement and for emphasizing the importance of data traceability and reproducibility.
+
+We acknowledge that FDG-PET was inadvertently omitted from the original statement. We will correct this omission and clarify the imaging modalities used in each dataset, distinguishing the multi-tracer PET data from ADNI and the AV45-PET data used for external validation on OASIS-3.
+
+Regarding subject and image identifiers, we agree that detailed data selection and splitting information is important for reproducibility. We will organize the data selection criteria, fixed data splits, random seeds, and relevant reproducibility materials for the revised experiments and make them available to the extent permitted by the applicable ADNI and OASIS-3 data use agreements. Any sharing of subject- or image-level identifiers will comply with the corresponding data access and redistribution requirements.
+
+We will also review and correct the data access and licensing information in the Data Availability statement to ensure consistency with the requirements of the respective data providers.%
+}
+\changedtext{Data Availability, Line 380----381}{%
+The data used in this study were obtained from two research datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Open Access Series of Imaging Studies (OASIS-3). ADNI data are available to approved researchers through the LONI Image and Data Archive (IDA) at \url{https://ida.loni.usc.edu}, subject to the ADNI Data Use Agreement. OASIS-3 data are available through the official OASIS data access process at \url{https://sites.wustl.edu/oasisbrains/request-access/}, subject to the corresponding Data Use Terms. The ADNI data used in this study included structural T1-weighted MRI, $^{18}$F-FDG PET, and $^{18}$F-AV45 PET, along with associated demographic and cognitive assessments. The OASIS-3 external validation used structural MRI and $^{18}$F-AV45 PET.
+
+To facilitate reproducibility, the data selection criteria, fixed data splits, random seeds, and relevant implementation details for the revised experiments will be documented and made available to the extent permitted by the applicable data use agreements. Any sharing of subject- and image-level identifiers will comply with the corresponding data access and redistribution requirements.%
+}
+
+\minorcomment{R3-minor-16}{Comprehensive disclosure of network hyperparameters and architecture dimensions}{> Missing hyperparameters: $\tau$, $\lambda$\_F, $\lambda$\_A, batch size, U-Net depth and channel widths, cross-attention placement, and parameter count.}{%
+We thank the reviewer for highlighting the insufficient reporting of model architecture details and training hyperparameters. We agree that providing these specifications is essential for methodological transparency and reproducibility.
+
+We have further examined the original experimental notebooks and the configuration used for the revised experiments. The verified loss weights are $\lambda$\_F = 1.0 and $\lambda$\_A = 1.0, with a batch size of 1. The generator U-Net consists of four resolution levels with channel widths of (32, 64, 64, 128) and one residual block per level. Cross-attention is configured only at the deepest resolution level, with a conditioning dimension of 512. By instantiating the corresponding U-Net architecture, we verified that it contains 9,925,921 parameters, all of which are trainable. This count refers specifically to the generator U-Net and excludes the VLM and separate adaptation modules.
+
+Regarding the similarity threshold $\tau$, we verified that the revised E1 Full configuration uses $\tau$ = 0.82 as a target in a soft penalty rather than as a strictly enforced constraint. We will therefore clarify the distinction between this implementation and the hard-constraint formulation presented in the original manuscript, and revise the mathematical description to accurately reflect the implemented optimization procedure.
+
+In the revised manuscript, we will provide the verified architectural specifications and hyperparameters, clarify the placement of cross-attention, and explicitly define the scope of the reported parameter count. We will also distinguish settings confirmed from the original experimental records from those verified in the reconstructed experiments, ensuring that the reported implementation details are accurate and reproducible.%
+}
+% [Audit Note: 勾选状态与 τ 待确认提示并存；Methods 第 229–241 行与 R2-15 方案重叠，需按来源证据统一。]
+\changedtext{Methods: Rectified Flow Formulation, Line 263}{%
+This two-token context representation is injected into the velocity U-Net through cross-attention at its deepest resolution level, which is 512, allowing the corresponding features to attend to both the target imaging modality and the subject-specific clinical information. Critically, no additional trainable parameters are introduced for clinical metadata encoding---the clinical text embeddings are obtained from the frozen BiomedCLIP model.%
+}
+% [Revision Note: 实际配置为 `attention_levels=(False, False, False, True)`，不能继续写作 at multiple resolutions。保留了原句关于临床信息无需另行训练编码器的含义，但避免推导未经实验验证的泛化性能结论。]
+\changedtext{Methods: Multi-Task Learning and One-Step Generation, Line 282}{%
+where $\mathbf{x}_{\text{MRI}}$ denotes the input magnetic resonance image, $\mathbf{y}_f$ and $\mathbf{y}_a$ are the corresponding ground-truth FDG and AV45 PET images (when available), and $\delta_F, \delta_A \in \{0,1\}$ indicate the presence ($1$) or absence ($0$) of each PET modality for a given subject. The loss weights were set to $\lambda_F = 1.0$ and $\lambda_A = 1.0$, assigning equal weights to the two tracer-specific objectives. This formulation ensures that supervision is applied solely to available modalities, enabling training in heterogeneous clinical cohorts with incomplete multi-tracer imaging.%
+}
+% [Revision Note: 明确报告原始训练 notebook 中的 `alpha=1.0` 和 `beta=1.0`。同时将 enabling robust training 改成更中性的表述，避免将训练机制直接等同于已经验证的鲁棒性。]
+\changedtext{Methods: Implementation Details and Hardware, Line 347}{%
+All models were implemented in PyTorch (v2.6.0) and trained on NVIDIA RTX A6000 GPUs (48 GB memory per card). The Adam optimizer was used with an initial learning rate of \\(2.5\\times10\^\{-5\}\\). Training was conducted for 165 epochs, with knowledge distillation applied from epoch 140 onward. Automatic Mixed Precision (AMP) was employed to accelerate training and reduce memory consumption. Each model required approximately 138 GPU hours for full convergence. A complete list of software dependencies and their versions is provided in Table S\[software\] for full reproducibility.
+Specifically, the generator employed a four-level 3D U-Net with channel widths of $(32, 64, 64, 128)$ and one residual block per level. Cross-attention was enabled only at the deepest resolution level, with a conditioning dimension of 512. The batch size was set to 1. The instantiated generator U-Net contained 9,925,921 parameters, all of which were trainable.%
+}
+\changedtext{Methods  >  Domain-Adapted VLM, Line 229----241}{%
+The adaptation parameters were optimized using a modality-specific alignment objective together with a soft penalty encouraging cross-tracer semantic consistency. In the revised E1 Full configuration, the similarity target was set to $\tau = 0.82$. Unlike a hard constraint, this penalty encourages the adapted tracer representations to maintain a specified level of semantic similarity without guaranteeing that the target is satisfied at every optimization step.%
+}
+% [Revision Note: （目前已确定的文字部分）]
+
+\minorcomment{R3-minor-17}{Legend clarification for Fig. 1 ('Just Add It' mechanism)}{> Fig. 1 legend: ``Just Add It'' should be replaced with a clear description (e.g., ``element-wise addition'').}{%
+We thank the reviewer for pointing out the unclear terminology in the legend of Figure 1. We agree that the phrase ``Just Add It'' is informal and does not adequately describe the underlying mathematical operation.
+
+After reviewing the correspondence between the schematic and the one-step generation formulation, we confirmed that this operation represents element-wise addition of the input MRI and the predicted velocity field to obtain the synthesized PET image.
+
+Accordingly, we will replace ``Just Add It'' with ``Element-wise Addition'' in the revised Figure 1 to provide a more precise and technically appropriate description of the operation.%
+}
+\changedtext{Figure 1 Caption and Schematic}{%
+We have updated Figure 1 (revised-1029-fig1.pdf) by replacing the informal label ``Just Add It'' with ``Element-wise Addition'' to accurately depict the underlying mathematical operation.%
+}
+% [Revision Note: 替换为 revised-1029-fig1.pdf]
+
+\minorcomment{R3-minor-18}{Fig. 4 C--F: Explicit clarification of MCI cohort comparisons}{> Fig. 4 C-F show only AD vs. CN. Please add MCI comparisons, given the paper's focus on MCI.}{%
+We thank the reviewer for the suggestion to include MCI comparisons in Figure 4C--F. We appreciate the importance of evaluating synthetic PET images in individuals with mild cognitive impairment.
+
+The primary purpose of Figure 4C--F is to investigate whether synthetic PET images preserve representative AD-related regional differences observed in real PET images. We therefore selected AD and CN as contrasting groups to provide a clearer comparison of regional uptake patterns across distinct disease states. Given the clinical and pathological heterogeneity of MCI, whose imaging characteristics may overlap with those of both CN and AD, these panels were not intended to provide an exhaustive comparison across all diagnostic stages.
+
+Instead, our evaluation of MCI focuses on the potential utility of synthetic PET for distinguishing cognitive impairment stages. Specifically, Figure 5 includes dedicated downstream classification tasks for MCI versus CN and EMCI versus LMCI, assessing the contribution of synthetic PET to MCI identification and the differentiation of early- and late-stage MCI. These analyses complement the AD-related regional comparisons presented in Figure 4C--F.
+
+We acknowledge that the original manuscript did not sufficiently clarify this rationale. We will revise the relevant descriptions to explain the purpose of the AD/CN comparisons and the complementary role of the MCI-related classification experiments. We will also clarify that the overall regional analyses in Figure 4A--B included CN, MCI, and AD subjects without separate diagnostic-group stratification.%
+}
+% [Audit Note: 第 134、138 行与 G4 合并方案重叠。此处旧方案仍含 precisely preserved，需在归组时整合，不能直接覆盖 G4。]
+\changedtext{Results Section 2.3: Regional Statistical Analysis, Line 134}{%
+For a comprehensive quantitative evaluation, we performed two complementary regional analyses on the ADNI cohort. First, we compared synthetic and real PET images to assess their regional correspondence. Second, we compared the AD and CN groups using both real and synthetic PET images to examine whether representative AD-related regional differences observed in real PET were reflected in the synthesized images.%
+}
+% [Revision Note: 明确 Figure 4 的两项分析任务，并删除原稿中容易使人误以为 C–F 包含三组比较的描述。]
+\changedtext{Results Section 2.3: Regional Statistical Analysis, Line 138}{%
+Critically, independent-sample $t$-tests demonstrated that the significant differences between diagnostic groups observed in real PET data were precisely preserved in the synthetic images (Fig.~\ref{fig:4}C, D; figs.~\ref{fig:supp_disease_av45} and \ref{fig:supp_disease_fdg}). For instance, DIReCT$++$ recapitulated the statistically significant differences ($p<0.001$) between AD and CN groups in the precuneus for $^{18}$F-AV-45 (Fig.~\ref{fig:4}C) and in the hippocampus for $^{18}$F-FDG (Fig.~\ref{fig:4}D). Similarly, regional differences that were non-significant in real PET data were also consistently non-significant in the synthetic images ($p>0.05$, Fig.~\ref{fig:4}E, F). These findings confirm that DIReCT$++$ reliably preserves the essential biomarker information necessary for clinical differentiation. The AD--CN comparison was intentionally selected to illustrate representative AD-related regional differences between two distinct diagnostic states, rather than to provide an exhaustive comparison across all diagnostic groups. Given the heterogeneity of MCI, its diagnostic differentiation was evaluated separately through the downstream MCI-versus-CN and EMCI-versus-LMCI classification tasks (Fig.~\ref{fig:5}B, C).%
+}
+% [Revision Note: 保留原有统计结果描述，新增两句话，直接解释为什么 Figure 4C–F 采用 AD/CN，以及为什么 MCI 的重点安排在 Figure 5 中。]
+% [Revision Note: 需要注明：本段原有的显著性、统计检验及 precisely preserved 等表述仍需结合 R3-4、R3-5 最终核验，本次 M18 暂不重新判定这些结论]
+
+\minorcomment{R3-minor-19}{Standardization of axis units and reference regions in figures}{Axis labels ``Mean AV45/FDG Uptake'' should read ``SUVR,'' with the reference region stated.}{%
+We thank the reviewer for pointing this out. We have carefully revised this item in the manuscript.
+}
+
+
+
+
+
+
+
+\minorcomment{R3-minor-20}{Clean formatting of raw LaTeX symbols in submission system abstract}{> Abstract: The abstract in the submission system contains raw LaTeX commands (`\noindent`, `\textbf`, `$^{18}$F`), which should be cleaned.}{%
+We thank the reviewer for pointing out the incorrectly displayed LaTeX commands in the abstract within the submission system. We will correct this error when submitting the revised manuscript.%
+}
+
+\minorcomment{R3-minor-21}{Harmonization of sex vs. gender terminology across the text}{> Terminology: Please use ``sex'' consistently rather than alternating with ``gender.''}{%
+We thank the reviewer for pointing out the inconsistent terminology. We will replace ``gender'' with ``sex'' in the relevant passage to ensure consistent terminology throughout the manuscript.%
+}
+% [Audit Note: Results 第 88 行与 R2-15 的新增内容涉及同一段落，需归组整合。]
+\changedtext{Results: Overview of the DIReCT++ Framework, Line 88}{%
+To achieve subject-wise precision, text guidance incorporating both common knowledge (e.g., general descriptions of PET tracers) and personal patient information (e.g., age, sex, clinical scores) is encoded by a pre-trained VLM and integrated into the RF model via cross-attention.%
+}
+% [Revision Note: 位置： Supplementary Materials，Table S2 对应的数据集人口统计学描述。]
+\changedtext{Supplementary Materials}{%
+The demographic characteristics of this selected cohort, including age and sex distribution, are detailed in Table S2.%
+}
+% [Revision Note: 仅将 `gender` 替换为 `sex`，与 Methods 中已有的 `sex` 术语保持一致，其他内容完全保留。]
+% [Revision Note: FIG1中的gender也改为Sex]

@@ -1,0 +1,22 @@
+{
+  "repository": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
+  "derived_source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/manuscript_highlighted.tex",
+  "purpose": "temporary local build avoids NFS metadata stalls; no manuscript science changed",
+  "loaded_style_files": [
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def",
+    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty"
+  ],
+  "derived_sha256": "0cd8c2e6bfc2600ebc21be9f0e64f448c18f7c00d52be854b0f9fbb042afa525",
+  "local_tex_sha256": "2947818dade95d68a228e4ab0e79581e056f72a3b250feaa93a40dfdd283216f",
+  "difference": "Only bibliography path made local; identical manuscript content and 0.97 case-figure width."
+}

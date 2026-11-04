@@ -1,0 +1,1 @@
+\item \textbf{3D Rectified Flow (3D RF)}~\cite{Xing2022}: A flow-based generative model that shares DIReCT$++$’s underlying ODE framework but lacks domain-informed conditioning. This ablation model isolates the contribution of our BiomedCLIP-enhanced guidance module.

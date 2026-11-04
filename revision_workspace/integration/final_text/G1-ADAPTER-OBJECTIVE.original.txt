@@ -1,0 +1,13 @@
+where $\alpha_1, \beta_1 $ are learnable scalar weights and $\alpha_2, \beta_2 $ are learnable bias vectors. We choose scalar scaling rather than full linear projection to minimize trainable parameters and avoid overfitting, given the limited size of medical imaging datasets. The optimal parameters are obtained by solving a constrained optimization problem:
+\begin{equation}
+\begin{aligned}
+& \underset{Adapt_f,\, Adapt_a}{\arg \min} \quad 
+   \mathcal{L}_{\text{align}} = \big(1 - \operatorname{sim}(Adapt_f(c_f), \mathbb{E}[f_f])\big) + \big(1 - \operatorname{sim}(Adapt_a(c_a), \mathbb{E}[f_a])\big) \\
+& \text{subject to} \quad 
+   \operatorname{sim}\big(Adapt_f(c_f), Adapt_a(c_a)\big) \geq \tau,
+\end{aligned}
+\label{eq:align_opt}
+\end{equation}
+where $\operatorname{sim}(\cdot, \cdot)$ denotes cosine similarity, and $\tau \in [0,1]$ is a predefined threshold. The constraint ensures the cross-modality guidance vectors maintain a certain level of semantic consistency.
+
+By solving~\eqref{eq:align_opt}, we obtain the modality-specific guidance vectors $Adapt_f(c_f)$ and $Adapt_a(c_a)$, which are subsequently used to steer the rectified flow translation process in a domain-informed manner.

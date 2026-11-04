@@ -1,0 +1,954 @@
+{
+  "G8-TABLE-S1": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 45,
+    "source_line_end": 68,
+    "location_basis": "unique 8-word PDF match",
+    "page": 31,
+    "matched_text": "demographic characteristics and prepared clinical inputs of adni",
+    "supplementary_page": 1
+  },
+  "G8-MISSINGNESS-INPUT": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 93,
+    "source_line_end": 118,
+    "location_basis": "unique 8-word PDF match",
+    "page": 32,
+    "matched_text": "historical core software dependencies and reported versions for",
+    "supplementary_page": 8
+  },
+  "G8-CLINICAL-METHODS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 301,
+    "source_line_end": 301,
+    "location_basis": "unique 8-word PDF match",
+    "page": 18,
+    "matched_text": "in the prepared clinical inputs mean mini mental",
+    "line_start": 422,
+    "line_end": 422,
+    "line_scope": "matched phrase only"
+  },
+  "G2-COHORT-SELECTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 297,
+    "source_line_end": 297,
+    "location_basis": "unique 8-word PDF match",
+    "page": 17,
+    "matched_text": "this study leveraged neuroimaging data from 1 857",
+    "line_start": 403,
+    "line_end": 403,
+    "line_scope": "matched phrase only"
+  },
+  "G2-MCI-DEFINITIONS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 299,
+    "source_line_end": 299,
+    "location_basis": "unique 8-word PDF match",
+    "page": 17,
+    "matched_text": "participants were stratified into five clinically defined diagnostic",
+    "line_start": 413,
+    "line_end": 413,
+    "line_scope": "matched phrase only"
+  },
+  "G2-OASIS-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 303,
+    "source_line_end": 303,
+    "location_basis": "unique 8-word PDF match",
+    "page": 18,
+    "matched_text": "external evaluation used the open access series of",
+    "line_start": 433,
+    "line_end": 433,
+    "line_scope": "matched phrase only"
+  },
+  "G2-PREPROCESSING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 305,
+    "source_line_end": 305,
+    "location_basis": "unique 8-word PDF match",
+    "page": 18,
+    "matched_text": "to ensure precise spatial correspondence between mri and",
+    "line_start": 444,
+    "line_end": 444,
+    "line_scope": "matched phrase only"
+  },
+  "G2-OOF-PROTOCOL": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 307,
+    "source_line_end": 307,
+    "location_basis": "unique 8-word PDF match",
+    "page": 18,
+    "matched_text": "pet synthesis used subject level two fold cross",
+    "line_start": 457,
+    "line_end": 457,
+    "line_scope": "matched phrase only"
+  },
+  "G2-DATA-AVAILABILITY": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 396,
+    "source_line_end": 396,
+    "location_basis": "unique 8-word PDF match",
+    "page": 24,
+    "matched_text": "the data used in this study were obtained",
+    "line_start": 641,
+    "line_end": 641,
+    "line_scope": "matched phrase only"
+  },
+  "G2-SUPP-OASIS": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 70,
+    "source_line_end": 70,
+    "location_basis": "unique 8-word PDF match",
+    "page": 24,
+    "matched_text": "the historical oasis 3 external cohort comprised 419",
+    "line_start": 657,
+    "line_end": 657,
+    "line_scope": "matched phrase only",
+    "supplementary_page": 1
+  },
+  "G2-REPRODUCIBILITY-INPUT": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 118,
+    "source_line_end": 119,
+    "location_basis": "final LaTeX aux label",
+    "page": 33,
+    "label_locations": [
+      {
+        "label": "tab:reproducibility",
+        "number": "S5",
+        "page": 33
+      },
+      {
+        "label": "tab:clinical_missingness",
+        "number": "S4",
+        "page": 32
+      }
+    ],
+    "supplementary_page": 9
+  },
+  "G1-RESULTS-CONDITIONING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 94,
+    "source_line_end": 96,
+    "location_basis": "unique 8-word PDF match",
+    "page": 3,
+    "matched_text": "text guidance incorporates tracer descriptions and patient information",
+    "line_start": 89,
+    "line_end": 89,
+    "line_scope": "matched phrase only"
+  },
+  "G1-G6-RESULTS-INFERENCE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 98,
+    "source_line_end": 98,
+    "location_basis": "unique 8-word PDF match",
+    "page": 3,
+    "matched_text": "at inference the shared network predicts a velocity",
+    "line_start": 106,
+    "line_end": 106,
+    "line_scope": "matched phrase only"
+  },
+  "G1-G6-FIGURE1-CAPTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 103,
+    "source_line_end": 105,
+    "location_basis": "unique 8-word PDF match",
+    "page": 4,
+    "matched_text": "overview of the direct framework for multimodal pet"
+  },
+  "G1-METHODS-OVERVIEW": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 235,
+    "source_line_end": 235,
+    "location_basis": "unique 8-word PDF match",
+    "page": 14,
+    "matched_text": "direct combines a frozen biomedclip text encoder with",
+    "line_start": 318,
+    "line_end": 318,
+    "line_scope": "matched phrase only"
+  },
+  "G1-FEATURE-EXTRACTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 238,
+    "source_line_end": 238,
+    "location_basis": "unique 8-word PDF match",
+    "page": 14,
+    "matched_text": "to incorporate domain specific knowledge into the generation",
+    "line_start": 326,
+    "line_end": 326,
+    "line_scope": "matched phrase only"
+  },
+  "G1-ADAPTER-OBJECTIVE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 244,
+    "source_line_end": 253,
+    "location_basis": "unique 8-word PDF match",
+    "page": 15,
+    "matched_text": "where 1 1 are scalar scales and 2",
+    "line_start": 338,
+    "line_end": 338,
+    "line_scope": "matched phrase only"
+  },
+  "G1-VELOCITY-NOTATION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 257,
+    "source_line_end": 257,
+    "location_basis": "unique 8-word PDF match",
+    "page": 15,
+    "matched_text": "the core of direct is a continuous generative",
+    "line_start": 350,
+    "line_end": 350,
+    "line_scope": "matched phrase only"
+  },
+  "G1-CONTEXT-AND-PROMPT": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 263,
+    "source_line_end": 268,
+    "location_basis": "unique 8-word PDF match",
+    "page": 16,
+    "matched_text": "for each participant the conditioning context stacks the",
+    "line_start": 359,
+    "line_end": 359,
+    "line_scope": "matched phrase only"
+  },
+  "G1-CROSS-ATTENTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 270,
+    "source_line_end": 270,
+    "location_basis": "unique 8-word PDF match",
+    "page": 16,
+    "matched_text": "the two token context is injected by cross",
+    "line_start": 370,
+    "line_end": 370,
+    "line_scope": "matched phrase only"
+  },
+  "G1-SUPPLEMENTARY-INPUT": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 119,
+    "source_line_end": 120,
+    "location_basis": "final LaTeX aux label",
+    "page": 34,
+    "label_locations": [
+      {
+        "label": "tab:supp_tau_adapter",
+        "number": "S6",
+        "page": 34
+      },
+      {
+        "label": "tab:reproducibility",
+        "number": "S5",
+        "page": 33
+      }
+    ],
+    "supplementary_page": 10
+  },
+  "G4-CORE-1": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 130,
+    "source_line_end": 130,
+    "location_basis": "unique 8-word PDF match",
+    "page": 6,
+    "matched_text": "to assess regional uptake patterns the corresponding t1",
+    "line_start": 149,
+    "line_end": 149,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-2": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 145,
+    "source_line_end": 145,
+    "location_basis": "unique 8-word PDF match",
+    "page": 6,
+    "matched_text": "for a comprehensive quantitative evaluation we performed two",
+    "line_start": 157,
+    "line_end": 157,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-3": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 147,
+    "source_line_end": 147,
+    "location_basis": "unique 8-word PDF match",
+    "page": 6,
+    "matched_text": "paired sample t tests between synthetic and real",
+    "line_start": 163,
+    "line_end": 163,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-4": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 149,
+    "source_line_end": 149,
+    "location_basis": "unique 8-word PDF match",
+    "page": 9,
+    "matched_text": "critically independent sample t tests demonstrated that the",
+    "line_start": 179,
+    "line_end": 179,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-5": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 341,
+    "source_line_end": 341,
+    "location_basis": "unique 8-word PDF match",
+    "page": 20,
+    "matched_text": "intra group consistency we performed paired two sided",
+    "line_start": 529,
+    "line_end": 529,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-6": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 343,
+    "source_line_end": 343,
+    "location_basis": "unique 8-word PDF match",
+    "page": 21,
+    "matched_text": "inter group discriminability to assess whether syn pet",
+    "line_start": 540,
+    "line_end": 540,
+    "line_scope": "matched phrase only"
+  },
+  "G4-CORE-7": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 346,
+    "source_line_end": 346,
+    "location_basis": "unique 8-word PDF match",
+    "page": 21,
+    "matched_text": "all t tests were two tailed and p",
+    "line_start": 547,
+    "line_end": 547,
+    "line_scope": "matched phrase only"
+  },
+  "G4-ROI-NAMES": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 336,
+    "source_line_end": 336,
+    "location_basis": "unique 8-word PDF match",
+    "page": 20,
+    "matched_text": "regional analysis used 98 synthseg rois defined on",
+    "line_start": 521,
+    "line_end": 521,
+    "line_scope": "matched phrase only"
+  },
+  "G4-FIGURE4-CAPTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 151,
+    "source_line_end": 160,
+    "location_basis": "unique 8-word PDF match",
+    "page": 10,
+    "matched_text": "regional comparison of mean normalized uptake between real"
+  },
+  "G4-FIGURE3-CAPTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 135,
+    "source_line_end": 142,
+    "location_basis": "unique 8-word PDF match",
+    "page": 8,
+    "matched_text": "detailed regional visualization of synthetic and real pet"
+  },
+  "G4-SUPP-FIGURE-1": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 3,
+    "source_line_end": 8,
+    "location_basis": "final LaTeX aux label",
+    "page": 25,
+    "label_locations": [
+      {
+        "label": "fig:supp_av45_1",
+        "number": "S1",
+        "page": 25
+      }
+    ],
+    "supplementary_page": 2
+  },
+  "G4-SUPP-FIGURE-2": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 10,
+    "source_line_end": 15,
+    "location_basis": "final LaTeX aux label",
+    "page": 26,
+    "label_locations": [
+      {
+        "label": "fig:supp_av45_2",
+        "number": "S2",
+        "page": 26
+      }
+    ],
+    "supplementary_page": 3
+  },
+  "G4-SUPP-FIGURE-3": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 17,
+    "source_line_end": 22,
+    "location_basis": "final LaTeX aux label",
+    "page": 27,
+    "label_locations": [
+      {
+        "label": "fig:supp_fdg_1",
+        "number": "S3",
+        "page": 27
+      }
+    ],
+    "supplementary_page": 4
+  },
+  "G4-SUPP-FIGURE-4": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 24,
+    "source_line_end": 29,
+    "location_basis": "final LaTeX aux label",
+    "page": 28,
+    "label_locations": [
+      {
+        "label": "fig:supp_fdg_2",
+        "number": "S4",
+        "page": 28
+      }
+    ],
+    "supplementary_page": 5
+  },
+  "G4-SUPP-FIGURE-5": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 31,
+    "source_line_end": 36,
+    "location_basis": "unique 8-word PDF match",
+    "page": 29,
+    "matched_text": "validation of disease related av45 uptake patterns across",
+    "supplementary_page": 6
+  },
+  "G4-SUPP-FIGURE-6": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 38,
+    "source_line_end": 43,
+    "location_basis": "unique 8-word PDF match",
+    "page": 30,
+    "matched_text": "validation of disease related fdg uptake patterns across",
+    "supplementary_page": 7
+  },
+  "G4-REGIONAL-TABLE-INPUTS": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 120,
+    "source_line_end": 122,
+    "location_basis": "final LaTeX aux label",
+    "page": 35,
+    "label_locations": [
+      {
+        "label": "tab:regional_agreement",
+        "number": "S7",
+        "page": 35
+      },
+      {
+        "label": "tab:regional_effect_sizes",
+        "number": "S8",
+        "page": 36
+      },
+      {
+        "label": "tab:supp_tau_adapter",
+        "number": "S6",
+        "page": 34
+      }
+    ],
+    "supplementary_page": 11
+  },
+  "G3-RESULTS-INTRO": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 109,
+    "source_line_end": 109,
+    "location_basis": "unique 8-word PDF match",
+    "page": 4,
+    "matched_text": "pet synthesis was evaluated using structural similarity ssim",
+    "line_start": 112,
+    "line_end": 112,
+    "line_scope": "matched phrase only"
+  },
+  "G3-EVALUATION-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 110,
+    "source_line_end": 110,
+    "location_basis": "unique 8-word PDF match",
+    "page": 5,
+    "matched_text": "external evaluation used oasis 3 av45 only the",
+    "line_start": 118,
+    "line_end": 118,
+    "line_scope": "matched phrase only"
+  },
+  "G3-RESULTS-COMPARISONS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 112,
+    "source_line_end": 116,
+    "location_basis": "unique 8-word PDF match",
+    "page": 5,
+    "matched_text": "the reconstructed oof evaluation does not support a",
+    "line_start": 120,
+    "line_end": 120,
+    "line_scope": "matched phrase only"
+  },
+  "G3-EXTERNAL-RESULTS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 118,
+    "source_line_end": 118,
+    "location_basis": "unique 8-word PDF match",
+    "page": 5,
+    "matched_text": "the historical oasis 3 evaluation reports av45 psnr",
+    "line_start": 141,
+    "line_end": 141,
+    "line_scope": "matched phrase only"
+  },
+  "G3-FIGURE2-CAPTION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 120,
+    "source_line_end": 127,
+    "location_basis": "unique 8-word PDF match",
+    "page": 7,
+    "matched_text": "historical pet synthesis comparisons and illustrative examples a"
+  },
+  "G3-BASELINE-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 311,
+    "source_line_end": 311,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "to benchmark direct six historical baseline methods were",
+    "line_start": 470,
+    "line_end": 470,
+    "line_scope": "matched phrase only"
+  },
+  "G3-SEGGUIDED-2D": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 318,
+    "source_line_end": 318,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "a segmentation guided diffusion model adapted for 2d",
+    "line_start": 481,
+    "line_end": 481,
+    "line_scope": "matched phrase only"
+  },
+  "G3-RF-BASELINE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 322,
+    "source_line_end": 322,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "a flow based generative model that shares direct",
+    "line_start": 486,
+    "line_end": 486,
+    "line_scope": "matched phrase only"
+  },
+  "G3-SINGLE-BASELINE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 324,
+    "source_line_end": 324,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "separate tracer specific models synthesize one pet tracer",
+    "line_start": 488,
+    "line_end": 489,
+    "line_scope": "matched phrase only"
+  },
+  "G3-DDIM-REFERENCE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 320,
+    "source_line_end": 320,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "a deterministic fast sampling variant of 3d diffusion",
+    "line_start": 483,
+    "line_end": 483,
+    "line_scope": "matched phrase only"
+  },
+  "G3-IMAGE-QUALITY-METHODS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 325,
+    "source_line_end": 333,
+    "location_basis": "unique 8-word PDF match",
+    "page": 19,
+    "matched_text": "the 3d swin unetr was adapted to pet",
+    "line_start": 492,
+    "line_end": 492,
+    "line_scope": "matched phrase only"
+  },
+  "G3-SUPPLEMENTARY-INPUTS": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 122,
+    "source_line_end": 127,
+    "location_basis": "final LaTeX aux label",
+    "page": 36,
+    "label_locations": [
+      {
+        "label": "tab:regional_effect_sizes",
+        "number": "S8",
+        "page": 36
+      },
+      {
+        "label": "tab:whole_volume_generation",
+        "number": "S9",
+        "page": 37
+      },
+      {
+        "label": "tab:paired_generation",
+        "number": "S10",
+        "page": 38
+      },
+      {
+        "label": "tab:r3_11_masked_summary",
+        "number": "S11",
+        "page": 40
+      },
+      {
+        "label": "tab:r3_11_masked_paired",
+        "number": "S12",
+        "page": 40
+      },
+      {
+        "label": "fig:cases_fdg",
+        "number": "S7",
+        "page": 41
+      },
+      {
+        "label": "fig:cases_av45",
+        "number": "S8",
+        "page": 42
+      }
+    ],
+    "supplementary_page": 12
+  },
+  "G5-RESULTS-AND-FIGURE5": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 162,
+    "source_line_end": 180,
+    "location_basis": "unique 8-word PDF match",
+    "page": 9,
+    "matched_text": "classification used independent subject level three fold evaluation",
+    "line_start": 196,
+    "line_end": 196,
+    "line_scope": "matched phrase only"
+  },
+  "G5-CLASSIFICATION-METHODS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 348,
+    "source_line_end": 357,
+    "location_basis": "unique 8-word PDF match",
+    "page": 21,
+    "matched_text": "to evaluate three cross sectional tasks ad cn",
+    "line_start": 555,
+    "line_end": 556,
+    "line_scope": "matched phrase only"
+  },
+  "G5-SUPPLEMENTARY-INPUTS": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 127,
+    "source_line_end": 132,
+    "location_basis": "final LaTeX aux label",
+    "page": 41,
+    "label_locations": [
+      {
+        "label": "fig:cases_fdg",
+        "number": "S7",
+        "page": 41
+      },
+      {
+        "label": "fig:cases_av45",
+        "number": "S8",
+        "page": 42
+      },
+      {
+        "label": "tab:classification_summary",
+        "number": "S13",
+        "page": 43
+      },
+      {
+        "label": "tab:classification_comparisons",
+        "number": "S14",
+        "page": 45
+      },
+      {
+        "label": "tab:classification_clinical_comparisons",
+        "number": "S15",
+        "page": 46
+      },
+      {
+        "label": "tab:classification_delong",
+        "number": "S16",
+        "page": 48
+      },
+      {
+        "label": "fig:classification_roc",
+        "number": "S9",
+        "page": 50
+      }
+    ],
+    "supplementary_page": 17
+  },
+  "G6-SHARED-TRAINING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 284,
+    "source_line_end": 284,
+    "location_basis": "unique 8-word PDF match",
+    "page": 16,
+    "matched_text": "direct uses a shared generator conditioned on the",
+    "line_start": 382,
+    "line_end": 382,
+    "line_scope": "matched phrase only"
+  },
+  "G6-LOSS-WEIGHTS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 289,
+    "source_line_end": 289,
+    "location_basis": "unique 8-word PDF match",
+    "page": 17,
+    "matched_text": "where x mri denotes the input magnetic resonance",
+    "line_start": 387,
+    "line_end": 387,
+    "line_scope": "matched phrase only"
+  },
+  "G6-ONE-STEP-IMPLEMENTATION": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 290,
+    "source_line_end": 295,
+    "location_basis": "unique 8-word PDF match",
+    "page": 17,
+    "matched_text": "rectified flow supports a learned one step approximation",
+    "line_start": 391,
+    "line_end": 392,
+    "line_scope": "matched phrase only"
+  },
+  "G6-IMPLEMENTATION-AND-EFFICIENCY": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 360,
+    "source_line_end": 362,
+    "location_basis": "unique 8-word PDF match",
+    "page": 22,
+    "matched_text": "the reconstructed generator is a four level 3d",
+    "line_start": 595,
+    "line_end": 595,
+    "line_scope": "matched phrase only"
+  },
+  "G7-DISCUSSION-MERGED": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 184,
+    "source_line_end": 203,
+    "location_basis": "unique 8-word PDF match",
+    "page": 11,
+    "matched_text": "discussion direct combines shared tracer conditioned 3d rectified",
+    "line_start": 230,
+    "line_end": 231,
+    "line_scope": "matched phrase only"
+  },
+  "G7-ABSTRACT": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 63,
+    "source_line_end": 75,
+    "location_basis": "unique 8-word PDF match",
+    "page": 1,
+    "matched_text": "objective to evaluate direct a domain informed rectified",
+    "line_start": 18,
+    "line_end": 18,
+    "line_scope": "matched phrase only"
+  },
+  "G7-INTRODUCTION-GRAMMAR": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 83,
+    "source_line_end": 83,
+    "location_basis": "unique 8-word PDF match",
+    "page": 2,
+    "matched_text": "generative artificial intelligence ai offers a transformative pathway",
+    "line_start": 54,
+    "line_end": 54,
+    "line_scope": "matched phrase only"
+  },
+  "G7-INTRODUCTION-CONTRIBUTIONS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 85,
+    "source_line_end": 85,
+    "location_basis": "unique 8-word PDF match",
+    "page": 2,
+    "matched_text": "3d rectified flow to a shared network conditioned",
+    "line_start": 69,
+    "line_end": 69,
+    "line_scope": "matched phrase only"
+  },
+  "G7-INTRODUCTION-EVIDENCE-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 87,
+    "source_line_end": 87,
+    "location_basis": "unique 8-word PDF match",
+    "page": 3,
+    "matched_text": "and retain historical av45 external results from oasis",
+    "line_start": 76,
+    "line_end": 77,
+    "line_scope": "matched phrase only"
+  },
+  "G7-FRAMEWORK-OPENING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 92,
+    "source_line_end": 92,
+    "location_basis": "unique 8-word PDF match",
+    "page": 3,
+    "matched_text": "direct is a vlm modulated rectified flow framework",
+    "line_start": 84,
+    "line_end": 84,
+    "line_scope": "matched phrase only"
+  },
+  "G7-TITLE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 35,
+    "source_line_end": 35,
+    "location_basis": "unique 8-word PDF match",
+    "page": 1,
+    "matched_text": "precision synthesis of multi tracer pet via vlm"
+  },
+  "G7-PDF-TITLE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 29,
+    "source_line_end": 29,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "BIB-MANUSCRIPT": {
+    "target_file": "manuscript/references.bib",
+    "source_line_start": 1,
+    "source_line_end": 525,
+    "location_basis": "unique 8-word PDF match",
+    "page": 52,
+    "matched_text": "applications of generative adversarial networks gans in positron",
+    "line_start": 725,
+    "line_end": 726,
+    "line_scope": "matched phrase only"
+  },
+  "BIB-REBUTTAL": {
+    "target_file": "rebuttal/references.bib",
+    "source_line_start": 1,
+    "source_line_end": 528,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "BUILD-PACKAGES": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 12,
+    "source_line_end": 14,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "BUILD-SUPP-FIGURE-ANCHORS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 404,
+    "source_line_end": 405,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "BUILD-SUPP-TABLE-ANCHORS": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 407,
+    "source_line_end": 408,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "EVIDENCE-SENSITIVITY-TABLE-INPUTS": {
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "source_line_start": 132,
+    "source_line_end": 134,
+    "location_basis": "final LaTeX aux label",
+    "page": 50,
+    "label_locations": [
+      {
+        "label": "fig:classification_roc",
+        "number": "S9",
+        "page": 50
+      },
+      {
+        "label": "tab:e1_score_removal",
+        "number": "S17",
+        "page": 50
+      },
+      {
+        "label": "tab:r2-16-ad-cn",
+        "number": "S18",
+        "page": 51
+      },
+      {
+        "label": "tab:r2-16-mci-cn",
+        "number": "S19",
+        "page": 51
+      },
+      {
+        "label": "tab:r2-16-emci-lmci",
+        "number": "S20",
+        "page": 51
+      }
+    ],
+    "supplementary_page": 26
+  },
+  "REBUTTAL-02_reviewer2.tex": {
+    "target_file": "rebuttal/sections/02_reviewer2.tex",
+    "source_line_start": 1,
+    "source_line_end": 433,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "REBUTTAL-03_reviewer3_major.tex": {
+    "target_file": "rebuttal/sections/03_reviewer3_major.tex",
+    "source_line_start": 1,
+    "source_line_end": 584,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "REBUTTAL-04_reviewer3_minor.tex": {
+    "target_file": "rebuttal/sections/04_reviewer3_minor.tex",
+    "source_line_start": 1,
+    "source_line_end": 326,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "REBUTTAL-00_general_response.tex": {
+    "target_file": "rebuttal/sections/00_general_response.tex",
+    "source_line_start": 1,
+    "source_line_end": 6,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "REBUTTAL-01_editor.tex": {
+    "target_file": "rebuttal/sections/01_editor.tex",
+    "source_line_start": 1,
+    "source_line_end": 41,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "REBUTTAL-TITLE-DATE": {
+    "target_file": "rebuttal/main.tex",
+    "source_line_start": 1,
+    "source_line_end": 160,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "G3-RESULTS-HEADING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 108,
+    "source_line_end": 108,
+    "location_basis": "unique short heading PDF match",
+    "page": 4,
+    "matched_text": "pet synthesis quality and external evaluation"
+  },
+  "TYPESETTING-LINE-FIT": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 55,
+    "source_line_end": 56,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "PDF-TEXT-ENCODING": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 14,
+    "source_line_end": 17,
+    "location_basis": "not a printed manuscript paragraph"
+  },
+  "G7-INTRODUCTION-BIOMARKER-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 81,
+    "source_line_end": 81,
+    "location_basis": "unique 8-word PDF match",
+    "page": 2,
+    "matched_text": "ad evaluation uses complementary molecular functional and structural",
+    "line_start": 47,
+    "line_end": 48,
+    "line_scope": "matched phrase only"
+  },
+  "G7-INTRODUCTION-ACCESS-SCOPE": {
+    "target_file": "manuscript/BMEF_main.tex",
+    "source_line_start": 81,
+    "source_line_end": 81,
+    "location_basis": "unique 8-word PDF match",
+    "page": 2,
+    "matched_text": "limiting access to complementary imaging in research and",
+    "line_start": 52,
+    "line_end": 53,
+    "line_scope": "matched phrase only"
+  }
+}

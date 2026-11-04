@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "files": 131,
+  "size_bytes": 118329488,
+  "hash_mismatches": [],
+  "submission_pdfs": [
+    "01_submission/Manuscript_clean.pdf",
+    "01_submission/Manuscript_highlighted.pdf",
+    "01_submission/Supplementary_Materials.pdf",
+    "01_submission/Response_to_Reviewers.pdf",
+    "01_submission/Cover_Letter.pdf"
+  ]
+}

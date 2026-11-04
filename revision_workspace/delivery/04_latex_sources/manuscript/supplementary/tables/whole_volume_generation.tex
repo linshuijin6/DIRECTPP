@@ -1,0 +1,34 @@
+% Source-backed publication fragment; source records retained independently.
+% Source: G3/distribution_summary.csv
+\begin{landscape}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllll}
+\caption{Whole-volume OOF generation metrics (mean $\pm$ sample s.d.)}\label{tab:whole_volume_generation}\\
+\toprule
+Model & Tracer & N & SSIM & PSNR & MSE & MAE \\
+\midrule
+\endfirsthead
+\toprule
+Model & Tracer & N & SSIM & PSNR & MSE & MAE \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Full & AV45 & 1365 & 0.884408 \(\pm\) 0.0405641 & 24.9664 \(\pm\) 2.26749 & 0.00372914 \(\pm\) 0.00332507 & 0.0309555 \(\pm\) 0.0110338 \\
+Full & FDG & 1598 & 0.921129 \(\pm\) 0.0416829 & 27.223 \(\pm\) 2.14503 & 0.00224384 \(\pm\) 0.00268009 & 0.024129 \(\pm\) 0.00961375 \\
+ClinicalUNet & AV45 & 1365 & 0.860412 \(\pm\) 0.0374027 & 24.637 \(\pm\) 2.02806 & 0.00388392 \(\pm\) 0.00241146 & 0.0324286 \(\pm\) 0.00954057 \\
+ClinicalUNet & FDG & 1598 & 0.900311 \(\pm\) 0.0356273 & 26.6116 \(\pm\) 1.89074 & 0.00247114 \(\pm\) 0.00196941 & 0.0258502 \(\pm\) 0.00818077 \\
+SwinUNETR & AV45 & 1365 & 0.874091 \(\pm\) 0.0369388 & 24.5068 \(\pm\) 2.11433 & 0.00403421 \(\pm\) 0.00249859 & 0.0320631 \(\pm\) 0.00986262 \\
+SwinUNETR & FDG & 1598 & 0.918317 \(\pm\) 0.0360297 & 26.8441 \(\pm\) 1.9234 & 0.00234143 \(\pm\) 0.00181013 & 0.0241961 \(\pm\) 0.00799078 \\
+TabularMLP & AV45 & 1365 & 0.874855 \(\pm\) 0.0407899 & 25.1009 \(\pm\) 2.28897 & 0.00363223 \(\pm\) 0.00321331 & 0.0308469 \(\pm\) 0.0110175 \\
+TabularMLP & FDG & 1598 & 0.912262 \(\pm\) 0.0417162 & 27.2919 \(\pm\) 2.12402 & 0.00220694 \(\pm\) 0.0026887 & 0.0241971 \(\pm\) 0.00947495 \\
+TracerOnly & AV45 & 1365 & 0.885748 \(\pm\) 0.0408475 & 24.9695 \(\pm\) 2.27491 & 0.00373732 \(\pm\) 0.00335201 & 0.0308555 \(\pm\) 0.0111714 \\
+TracerOnly & FDG & 1598 & 0.926504 \(\pm\) 0.0407948 & 27.2745 \(\pm\) 2.14158 & 0.00221882 \(\pm\) 0.00270009 & 0.0236521 \(\pm\) 0.00949478 \\
+Single & AV45 & 1365 & 0.873767 \(\pm\) 0.041007 & 24.9848 \(\pm\) 2.21914 & 0.00369036 \(\pm\) 0.00320827 & 0.031269 \(\pm\) 0.0107387 \\
+Single & FDG & 1598 & 0.926933 \(\pm\) 0.0400237 & 27.0223 \(\pm\) 2.11834 & 0.00234305 \(\pm\) 0.00287526 & 0.0239414 \(\pm\) 0.00968223 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize Mean plus/minus sample SD. Whole-volume frozen OOF; FDG1598, AV451365. Full165, ClinicalUNet165, Swin200 MRI-only, Single165, TabularMLP165, TracerOnly165. SSIM unitless; PSNR dB; MSE squared and MAE unsquared normalized-intensity arbitrary units. Independent training realizations; reconstructed runs, not historical Figure2.}
+\endgroup
+\end{landscape}

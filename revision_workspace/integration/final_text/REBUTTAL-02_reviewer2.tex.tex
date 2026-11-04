@@ -1,0 +1,434 @@
+\reviewersec{Response to Reviewer 2}
+
+\subsection*{R2-1}
+\revcomment{R2-1}{1. High scientific novelty: The integration of 3D rectified flow, a domain-adapted BiomedCLIP/VLM, and multi-tracer PET synthesis is a clear methodological contribution beyond conventional MRI-to-PET translation.}
+
+\response{We sincerely thank the reviewer for the positive assessment of the methodological contribution of our work. We appreciate the recognition of the value of integrating 3D rectified flow, domain-adapted BiomedCLIP/VLM, and multi-tracer PET synthesis.}
+
+\actiontaken{We thank the reviewer for this positive assessment. No separate manuscript change was required for this comment.}
+
+\subsection*{R2-2}
+\revcomment{R2-2}{2. Strong clinical motivation: Synthesizing AV45-PET and FDG-PET from routine MRI addresses important limitations related to PET cost, radiation exposure, and accessibility.}
+
+\response{We thank the reviewer for highlighting the clinical relevance of our study. Addressing the challenges of PET acquisition costs, radiation exposure, and limited accessibility through MRI-based synthesis of AV45-PET and FDG-PET is a central motivation for our work.}
+
+\actiontaken{We thank the reviewer for this positive assessment. No separate manuscript change was required for this comment.}
+
+\subsection*{R2-3}
+\revcomment{R2-3}{3. Cross-validation inconsistency: The Results section reports 3-fold cross-validation, whereas the preprocessing/methodology section reports a two-fold scheme. The exact protocol must be reconciled and stated consistently for each experiment.}
+
+\response{We thank the reviewer for pointing out the insufficient clarification of the cross-validation protocols in the original manuscript.
+
+We confirm that the two-fold and three-fold cross-validation schemes were employed for different experimental stages. Specifically, two-fold cross-validation was used for PET image synthesis, where the training and held-out subsets were exchanged between folds to generate out-of-fold (OOF) synthetic PET images for the study subjects. Subsequently, a separate three-fold cross-validation scheme was applied to the downstream diagnostic classification tasks using the generated synthetic PET images to evaluate the contribution of different imaging inputs to classification performance.
+
+Therefore, the two cross-validation schemes are not contradictory but correspond to distinct evaluation stages: PET image synthesis and downstream diagnostic classification. We now clarify their respective purposes and consistently distinguish these protocols in the Results and Methods sections of the revised manuscript to avoid ambiguity.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
+\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33).
+\item Results / generation evaluation scope (p. 5, lines 118--118).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / evaluation split}{PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).}
+
+\subsection*{R2-4}
+\revcomment{R2-4}{4. Overstatement of prognostic stratification: EMCI-versus-LMCI classification is a stage-discrimination task and does not by itself establish longitudinal prognosis or future conversion to AD. The terminology should be moderated unless longitudinal conversion outcomes are analyzed.}
+
+\response{We thank the reviewer for highlighting the important distinction between MCI stage discrimination and longitudinal prognostic prediction.
+
+Our original motivation for relating EMCI/LMCI classification to disease progression was based on previous longitudinal studies showing that patients with LMCI generally exhibit more severe cognitive impairment and have a higher subsequent risk of conversion to dementia than those with EMCI (Aisen et al., 2015; Lin et al., 2022; Petersen, 2021). This clinical evidence motivated us to include EMCI-versus-LMCI classification as a downstream task to evaluate the performance of synthetic PET in distinguishing clinically relevant MCI stages.
+
+Nevertheless, we agree that such population-level associations do not establish individual-level prognostic prediction. Our study evaluated cross-sectional classification performance without analyzing longitudinal conversion outcomes. Therefore, the EMCI-versus-LMCI classification results cannot, by themselves, demonstrate the ability to predict future conversion to AD or disease progression.
+
+To address this concern, we will explicitly describe this task as \textbf{MCI stage discrimination} and revise the relevant terminology and conclusions throughout the manuscript. In particular, we now remove unsupported claims regarding prognostic prediction and future disease progression, ensuring that our conclusions accurately reflect the scope of the analyses performed.
+
+1. Aisen, P. S., et al. (2015). Alzheimer's Disease Neuroimaging Initiative 2 Clinical Core: Progress and plans. *Alzheimer's \& Dementia*, 11(7), 734–739. \href{https://doi.org/10.1016/j.jalz.2015.05.005}{https://doi.org/10.1016/j.jalz.2015.05.005}
+2. Lin, S.-Y., et al. (2022). The Clinical Course of Early and Late Mild Cognitive Impairment. *Frontiers in Neurology*, 13, 685636. \href{https://doi.org/10.3389/fneur.2022.685636}{https://doi.org/10.3389/fneur.2022.685636}
+3. Petersen, R. C. (2021). MCI Criteria in ADNI: Meeting Biological Expectations. *Neurology*, 97(12), 597–599. \href{https://doi.org/10.1212/WNL.0000000000012588}{https://doi.org/10.1212/WNL.0000000000012588}}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / diagnostic groups (p. 17, lines 413--413).
+\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Abstract (p. 1, lines 18--18).
+\item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
+\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Title (p. 1).
+\item PDF metadata.
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / diagnostic groups}{Participants were stratified into five clinically defined diagnostic categories to reflect the full continuum of Alzheimer’s disease pathology: Cognitively Normal (CN; $n = 577$), Alzheimer’s disease dementia (AD; $n = 317$), and three subtypes of Mild Cognitive Impairment (MCI).}
+
+\subsection*{R2-5}
+\revcomment{R2-5}{5. Potential clinical-information leakage: Age, sex, weight, and cognitive scores are embedded in the text conditioning. Because these variables are strongly associated with diagnosis, ablation experiments excluding cognitive scores are necessary to demonstrate that Syn-PET is not simply re-encoding diagnostic metadata.}
+
+\response{We thank the reviewer for highlighting the potential overlap between cognitive scores and diagnostic labels. We acknowledge that this is a valid concern and therefore further investigated the influence of cognitive scores on the quality of synthetic PET images.
+
+Specifically, we conducted an inference-time sensitivity analysis in which cognitive scores were removed while keeping the MRI input, tracer conditioning, and generator weights unchanged. Age, sex, and weight information were retained. This experiment included 1,856 subjects and 2,961 synthetic PET images. Compared with the full clinical conditioning, removing cognitive scores resulted in only minor increases in regional mean absolute error (ROI MAE) of approximately 0.000036 for FDG and 0.000079 for AV45, measured in normalized uptake units. The mean absolute voxel-wise differences between the synthetic images generated under the two conditions were approximately 0.001 for both tracers. Although some differences were statistically detectable, their absolute magnitudes were small, and the synthetic images maintained relatively stable reconstruction quality. These findings suggest that PET synthesis in DIReCT++ does not depend entirely on cognitive-score conditioning.
+
+Our motivation for incorporating cognitive scores was to utilize clinically available complementary information to guide PET synthesis according to patients’ cognitive characteristics, particularly considering the differences in cognitive impairment between finer MCI stages such as EMCI and LMCI. Nevertheless, we agree with the reviewer that the association between cognitive scores and diagnostic group membership warrants careful consideration when interpreting downstream classification results. Accordingly, we now further clarify the role of clinical conditioning in the revised manuscript and provide a more cautious discussion of the potential value of synthetic PET for disease diagnosis and MCI stage discrimination.
+
+The fixed-weight score-removal experiment used the separate E1 Full checkpoint family. It cannot remove information already learned from diagnosis-conditioned filled inputs during training. In the completed classification analysis, Clinical-only and MRI+Clinical AUC exceeded MRI+synthetic dual PET in all three tasks; we do not claim independent incremental diagnostic value of the synthetic PET over those clinical fields.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item tab:clinical\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
+\item Results / framework conditioning (p. 3, lines 89--89).
+\item eq:composite\_conditioning (p. 16, lines 359--359).
+\item Results / classification and fig:5 (p. 9, lines 196--196).
+\item Methods / classification (p. 21, lines 555--556).
+\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+
+\subsection*{R2-6}
+\revcomment{R2-6}{6. Subject-level splitting must be explicit: Because ADNI contains longitudinal scans, the authors should confirm that all visits from a given participant remain within a single fold to avoid subject leakage between training and testing.}
+
+\response{We thank the reviewer for highlighting the importance of subject-level data splitting and the potential risk of data leakage arising from longitudinal visits.
+
+Although the original ADNI database contains longitudinal imaging data, the subset used in our study was selected such that only one imaging record was retained per subject. Consequently, no scans from different visits of the same subject could be assigned to different cross-validation folds, thereby preventing subject-level data leakage arising from repeated visits.
+
+We now clarify this data selection criterion in the revised manuscript to avoid ambiguity.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / cohort (p. 17, lines 403--403).
+\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / cohort}{This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.}
+
+\subsection*{R2-7}
+\revcomment{R2-7}{7. External validation is incomplete for multi-tracer claims: OASIS-3 external evaluation includes AV45-PET but excludes FDG-PET. Therefore, external generalizability is demonstrated only partially and the multi-tracer generalization claim should be qualified.}
+
+\response{We thank the reviewer for highlighting the need to clarify the scope of our external validation.
+
+In this study, both AV45-PET and FDG-PET synthesis were evaluated internally on the ADNI dataset, whereas external validation on the independent OASIS-3 dataset was conducted only for AV45-PET. As described in the original manuscript (Section 4.3), FDG-PET scans in OASIS-3 were not included in the external evaluation due to the lack of a standardized PUP processing pipeline.
+
+We agree that the current OASIS-3 results provide evidence of cross-dataset generalizability for AV45-PET synthesis only and cannot be directly extended to FDG-PET synthesis. Accordingly, we now clarify the scope of external validation and refine the relevant statements regarding multi-tracer generalizability in the revised manuscript to ensure that our conclusions accurately reflect the evaluations performed.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / OASIS (p. 18, lines 433--433).
+\item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24).
+\item Results / generation evaluation scope (p. 5, lines 118--118).
+\item Results / external AV45 synthesis (p. 5, lines 141--141).
+\item fig:2 caption (p. 7).
+\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Abstract (p. 1, lines 18--18).
+\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Results: PET synthesis (p. 4).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / OASIS}{External evaluation used the Open Access Series of Imaging Studies (OASIS-3), a longitudinal neuroimaging and clinical cohort focused on normal aging and Alzheimer's disease (\url{https://www.oasis-brains.org}).}
+
+\subsection*{R2-8}
+\revcomment{R2-8}{8. Non-significance does not prove equivalence: Using p \textgreater{} 0.05 between real and synthetic PET as evidence of high fidelity is statistically insufficient. Equivalence testing (e.g., TOST) with clinically meaningful equivalence margins is more appropriate.}
+
+\response{We thank the reviewer for pointing out that the absence of a statistically significant difference does not constitute evidence of equivalence. We agree that relying solely on paired comparisons with p \textgreater{} 0.05 between real and synthetic PET images is statistically insufficient to support claims of high fidelity.
+
+To provide a more comprehensive evaluation of regional uptake agreement, we performed additional statistical analyses using the originally preserved subject-level paired data. In addition to paired t-tests and multiple-comparison correction, \textbf{we calculated the mean paired differences and their 95\% confidence intervals, mean absolute error (MAE), Lin’s concordance correlation coefficient (CCC), intraclass correlation coefficient (ICC), and Bland–Altman bias and limits of agreement}. Together, these metrics provide a more comprehensive assessment of mean bias, regional errors, and subject-level agreement.
+
+The additional analyses showed that, across the 98 brain regions evaluated for each tracer, the median regional CCC values were 0.9745 and 0.9450 for AV45 and FDG, respectively, while the corresponding median regional MAE values were 0.0160 and 0.0159. Under the predefined multiple-comparison correction procedure, no statistically significant mean paired differences were detected in the vast majority of regions and diagnostic groups.
+
+Regarding the suggested two one-sided tests (TOST), we acknowledge the value of formal equivalence testing. However, the regional uptake values in our study were derived from per-image min–max intensity normalization rather than clinically standardized quantitative measurements such as SUV or SUVR. \textbf{Currently, a well-established equivalence margin with a clear clinical interpretation is lacking for measurements on this normalized intensity scale}. Defining an arbitrary equivalence margin without sufficient justification could lead to conclusions that lack clinical interpretability. Therefore, we did not perform TOST to claim clinical equivalence.
+
+Accordingly, we now revise the statistical interpretation in the manuscript to clearly distinguish the absence of statistically significant mean differences, regional uptake agreement, and formal equivalence. We will also moderate the original statements that inferred high fidelity from p \textgreater{} 0.05. Furthermore, we will explicitly acknowledge in the Limitations section that our current analyses support agreement in normalized regional uptake values but do not establish clinical quantitative equivalence. Future work will explore PET quantitative evaluation scales with clear biological and clinical interpretations, the definition of appropriate equivalence margins, and corresponding formal equivalence testing methods.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 6, lines 149--149).
+\item Results: regional uptake analysis (p. 6, lines 157--157).
+\item Results: regional uptake analysis (p. 6, lines 163--163).
+\item Methods: regional statistical analysis (p. 20, lines 529--529).
+\item Methods: regional statistical analysis (p. 21, lines 547--547).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
+\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
+
+\subsection*{R2-9}
+\revcomment{R2-9}{9. Multiple-comparison reporting should be clearer: FDR correction is appropriate, but the statistical family, number of tests, and adjusted p/q-values should be reported explicitly.}
+
+\response{We thank the reviewer for the valuable suggestion regarding the transparency of multiple-comparison correction reporting. We agree that, although the original manuscript stated that false discovery rate (FDR) correction was applied, the statistical families, number of tests, and adjusted p/q-values were not sufficiently specified.
+
+To address this concern, we have confirmed the original regional statistical data and performed a systematic re-evaluation of the regional comparisons between real and synthetic PET images.
+
+For the paired regional uptake agreement analysis between real and synthetic PET, we performed two-sided paired t-tests across all 98 regions of interest (ROIs) for each tracer, both in the overall cohorts and within individual diagnostic subgroups. Benjamini–Hochberg FDR correction was applied separately within each statistical family, comprising 12 families and 1,176 regional comparisons in total. The corresponding results for representative brain regions in the overall cohorts, including raw p-values and FDR-adjusted q-values, have been compiled in a new supplementary table.
+
+For the AD versus CN comparisons shown in Figure 4C–F, we additionally performed two-sided independent-samples t-tests separately for AV45 Real, AV45 Syn, FDG Real, and FDG Syn PET. Benjamini–Hochberg FDR correction was applied across all 98 ROIs within each of these four statistical families, comprising 392 comparisons in total.
+
+The re-evaluation showed that all 20 significant annotations in Figure 4C/D remained statistically significant after FDR correction, while all 20 non-significant annotations in Figure 4E/F remained non-significant. Sensitivity analyses using Welch’s t-test did not change the significance classifications of these regions. Thus, the existing significant and non-significant classifications in Figure 4C–F are supported by the FDR-adjusted results and do not require changes.
+
+In the revised manuscript, we will explicitly report the statistical families and corresponding numbers of tests, clarify the FDR correction procedure and significance thresholds in the Statistical Analysis section and the relevant descriptions of Figure 4, and provide adjusted q-values for representative brain regions to improve the transparency and reproducibility of the statistical analysis.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 9, lines 179--179).
+\item Methods: regional statistical analysis (p. 21, lines 540--540).
+\item Methods: regional statistical analysis (p. 21, lines 547--547).
+\item fig:4 caption (p. 10).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{Critically, independent-sample $t$-tests demonstrated that the significant differences between diagnostic groups observed in real PET data were also observed in the synthetic images (Fig.~4C, D; figs.~S5 and S6).}
+
+\subsection*{R2-10}
+\revcomment{R2-10}{10. PET agreement metrics should be strengthened: SSIM, PSNR, MSE, and MAE are useful image-similarity metrics but are insufficient for biomarker agreement. ICC/CCC, Bland-Altman analysis, regional SUV bias, and calibration analyses would improve clinical validation.}
+
+\response{We thank the reviewer for the valuable suggestion to strengthen the evaluation of PET biomarker agreement. We agree that image-similarity metrics such as SSIM, PSNR, MSE, and MAE alone are insufficient to characterize subject-level regional uptake agreement and systematic differences between synthetic and real PET images.
+
+To address this concern, we performed additional analyses using the original subject-level paired data across all 98 regions of interest (ROIs) for each tracer. Specifically, we calculated Lin’s concordance correlation coefficient (CCC), the intraclass correlation coefficient (ICC(A,1)), mean paired differences with 95\% confidence intervals, and Bland–Altman bias and 95\% limits of agreement. These complementary metrics provide a more comprehensive assessment of regional errors, subject-level agreement, and systematic differences. Across the 98 ROIs, the median regional CCC values were 0.9745 for AV45 and 0.9450 for FDG.
+
+Furthermore, to examine the relationship between synthetic and real regional uptake values, we conducted subject-level ordinary least-squares regression analyses for the 16 representative tracer–ROI combinations shown in Figure 4A/B. Real PET regional uptake was used as the independent variable and synthetic PET regional uptake as the dependent variable. Regression slopes, intercepts, and their corresponding 95\% confidence intervals were calculated.
+
+The regression slopes ranged from 0.9794 to 1.0127 (median: 1.0007) for AV45 and from 0.9844 to 1.0101 (median: 1.0001) for FDG. These representative regions did not exhibit a consistent pattern of linear compression or expansion, although modest deviations from a unit slope were observed in some regions. The regression results provide additional information on how synthetic regional uptake varies with real uptake levels and complement the CCC, ICC, and Bland–Altman analyses.
+
+Importantly, the regional uptake measurements in this study were derived from per-image min–max normalized PET intensities rather than clinically standardized quantitative SUV or SUVR measurements. Therefore, the reported agreement and regression results characterize normalized regional uptake only and should not be interpreted as evidence of clinical SUV/SUVR agreement, absolute quantitative accuracy, or clinically validated calibration. We will explicitly clarify this distinction and its implications in the revised manuscript. Future work will investigate PET synthesis and validation approaches that preserve clinically meaningful quantitative uptake measurements.
+
+In the revised manuscript, we will expand the regional agreement supplementary table to include regression slopes, intercepts, and their 95\% confidence intervals for the 16 representative tracer–ROI combinations, alongside the existing agreement and bias metrics. We now also clarify the corresponding statistical methods and limitations.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 6, lines 163--163).
+\item Methods: regional statistical analysis (p. 20, lines 529--529).
+\item fig:3 caption (p. 8).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
+\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{Paired-sample $t$-tests between synthetic and real images revealed no statistically significant differences in normalized regional uptake across the principal brain regions shown in Fig.~4A, B for the overall cohorts of both tracers ($p>0.05$).}
+
+\subsection*{R2-11}
+\revcomment{R2-11}{11. Classification uncertainty is underreported: ACC, AUC, sensitivity, and specificity should be accompanied by fold-wise mean \ensuremath{\pm} SD or 95\% confidence intervals rather than isolated point estimates.}
+
+\response{We thank the reviewer for highlighting the insufficient reporting of uncertainty in the classification results. We agree that isolated performance estimates do not adequately characterize variability across cross-validation folds and that measures of dispersion and confidence intervals are necessary for a more comprehensive evaluation.
+
+For the three classification tasks—AD versus CN, MCI versus CN, and EMCI versus LMCI—we evaluated classification performance using subject-level three-fold cross-validation and summarized the predictions from the held-out test sets. For each input configuration, we report the mean and standard deviation across folds for accuracy (ACC), area under the receiver operating characteristic curve (AUC), sensitivity (SEN), specificity (SPE), and balanced accuracy. We additionally provide 95\% bootstrap confidence intervals based on subject-level resampling.
+
+Furthermore, we provide ROC curves with 95\% bootstrap confidence bands to illustrate classification performance and its uncertainty across the three tasks. The corresponding quantitative results and visualizations are presented in the main manuscript and Supplementary Materials.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / classification and fig:5 (p. 9, lines 196--196).
+\item Methods / classification (p. 21, lines 555--556).
+\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\end{itemize}}
+
+\subsection*{R2-12}
+\revcomment{R2-12}{12. Claims of statistical superiority require direct tests: Statements such as “significantly outperforming” should be supported by formal paired comparisons, such as DeLong testing for AUC or paired bootstrap/McNemar tests where appropriate.}
+
+\response{We thank the reviewer for emphasizing the importance of direct statistical comparisons when evaluating classification performance. We agree that differences in point estimates alone are insufficient to fully characterize performance differences between methods. Accordingly, we conducted paired analyses using predictions from the same held-out subjects. Stratified paired bootstrap resampling was used to estimate performance differences and their 95\% confidence intervals (CIs), and fold-wise paired DeLong tests were performed for AUC comparisons, with Holm correction for multiple comparisons.
+
+Specifically, for AD versus CN classification, combining MRI with synthetic dual-tracer PET improved AUC by 6.80 percentage points (95\% CI: 3.39–10.22) and balanced accuracy by 9.06 percentage points (95\% CI: 4.68–13.46) compared with MRI alone. For MCI versus CN classification, the AUC difference was \ensuremath{-}2.13 percentage points (95\% CI: \ensuremath{-}6.30 to 2.10), without a clear improvement. For the more fine-grained EMCI versus LMCI classification task, AUC increased by 3.52 percentage points (95\% CI: \ensuremath{-}2.12 to 9.50), while balanced accuracy improved by 6.91 percentage points (95\% CI: 2.02–11.98). The fold-wise DeLong comparisons did not reach statistical significance after Holm correction.
+
+The differences across classification tasks may be related to the underlying disease stages and their imaging characteristics. AD and CN represent relatively distinct clinical states, often accompanied by more pronounced group-level differences in cerebral metabolism and amyloid deposition, making their discrimination comparatively straightforward. In contrast, MCI is clinically and pathologically heterogeneous, with imaging characteristics that may overlap with those of cognitively normal individuals and patients with AD. Distinguishing EMCI from LMCI is particularly challenging because the differences in disease-related imaging features between these stages may be relatively subtle.
+
+Notably, even in the challenging EMCI versus LMCI task, incorporating synthetic PET yielded higher balanced accuracy, suggesting that the synthesized images may provide useful information for fine-grained MCI stage discrimination. In the revised manuscript, we will present these findings alongside the corresponding confidence intervals and statistical comparisons, and refine the original statements regarding statistical superiority to provide a more accurate interpretation of the contribution of synthetic PET to downstream classification.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / classification and fig:5 (p. 9, lines 196--196).
+\item Methods / classification (p. 21, lines 555--556).
+\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\end{itemize}}
+
+\subsection*{R2-13}
+\revcomment{R2-13}{13. One-step sampling terminology requires correction: The phrase “exact one-step sampling” is too strong for a distilled end-point predictor. The manuscript should distinguish exact ODE integration from learned one-step approximation.}
+
+\response{We thank the reviewer for pointing out the imprecision in our description of one-step sampling. We agree that the continuous ODE process underlying rectified flow should be distinguished from the learned one-step approximation employed in DIReCT++.
+
+Specifically, DIReCT++ generates the target PET image directly from the input MRI in a single forward pass, which does not imply exact integration of the underlying ODE. Accordingly, we now revise the expression "exact one-step sampling" to more accurately describe the learned one-step generation process.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / framework inference (p. 3, lines 106--106).
+\item fig:1 caption (p. 4).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
+\item Results / framework opening (p. 3, lines 84--84).
+\end{itemize}}
+
+\changedtext{Results / framework inference}{At inference, the shared network predicts a velocity field for the selected tracer from MRI and the corresponding two-token text context.}
+
+\subsection*{R2-14}
+\revcomment{R2-14}{14. Domain-adapted VLM details are insufficient: The manuscript should report embedding dimensionality, PET image-feature extraction, prompt construction, affine-adapter training, threshold \ensuremath{\tau} selection, and optimization details to ensure reproducibility.}
+
+\response{We thank the reviewer for pointing out the need for a more detailed description of the domain-adapted vision-language model. We agree that explicitly reporting the feature dimensionality, 3D PET feature extraction procedure, text conditioning construction, and adapter optimization process is important for improving the transparency and reproducibility of DIReCT++. We provide the following clarifications regarding these implementation details.
+
+First, our study employs a pre-trained BiomedCLIP model to extract text and PET image features. Both the text and image encoders remain frozen, and their projected feature representations are 512-dimensional. We construct the conditioning information using separate tracer-specific text descriptions and patient-specific clinical descriptions. The clinical prompt includes age, sex, weight, and five clinical assessments: CDR, MMSE, GDS, FAQ, and NPI-Q. After BiomedCLIP encoding, each patient is represented by a 512-dimensional clinical feature vector. During generation, this vector is combined with the corresponding 512-dimensional target tracer feature vector to form two conditioning tokens, which are incorporated into the 3D generative network through cross-attention.
+
+Regarding PET image feature extraction, we clarify that the 2D BiomedCLIP encoder is not applied directly to an entire 3D PET volume. In the adapter feature-extraction procedure, 160 two-dimensional slices are first extracted from each preprocessed PET volume along a specified array dimension. Each slice undergoes individual intensity normalization, resizing, and conversion to a three-channel image before being processed by the frozen BiomedCLIP image encoder, producing a 512-dimensional feature vector. The resulting slice-level features are then aggregated through average pooling to obtain a subject-level PET representation, which is used for adapting the tracer-specific text features. The revised implementation applies the same feature-extraction procedure to both FDG and AV45.
+
+Regarding the affine-adapter architecture, each tracer is associated with a lightweight affine transformation consisting of one learnable scalar scaling parameter and one 512-dimensional bias vector. Accordingly, each adapter contains 513 trainable parameters, resulting in 1,026 trainable parameters across the two adapters. Throughout this adaptation procedure, the BiomedCLIP encoders and their projection layers remain frozen, and only the parameters of the two adapters are optimized, rather than performing end-to-end fine-tuning of the BiomedCLIP backbone.
+
+During optimization, the tracer text embeddings and PET image features are first normalized. Cosine similarity is then used to measure the alignment between the adapted tracer embeddings and their corresponding PET features. The alignment terms are calculated by averaging the feature similarities across the training subjects for FDG and AV45, respectively. In addition, a cross-tracer similarity penalty is introduced to regulate the relative distance between the two tracer representations. The implemented objective employs a two-sided squared soft penalty rather than the one-sided hard constraint expressed in the original manuscript. The two adapters are jointly optimized using the Adam optimizer with a learning rate of 0.001 for 5,000 parameter updates.
+
+For the similarity parameter \ensuremath{\tau}, we use 0.82 as the target cross-tracer cosine similarity. This value corresponds to the two-decimal approximation of the cosine similarity between the original FDG and AV45 text embeddings before adaptation (0.8205). In this revision, we further provide a representation-level sensitivity analysis of \ensuremath{\tau}, comparing different target values and a configuration without the cross-tracer similarity penalty.
+
+We thank the reviewer again for this constructive suggestion. In the revised manuscript, we will supplement the descriptions of feature dimensionality, PET slice-based encoding, clinical prompt composition, adapter parameters, and optimization settings to improve the reproducibility of the model implementation and the different experimental configurations.
+
+For clarity, the revised manuscript distinguishes the affine-adapter formulation and representation-level analyses from the reconstructed Full generator, which used original fixed tracer-text vectors. The BiomedCLIP backbone is frozen in both cases. We do not attribute the reconstructed Full generator performance to affine adaptation or claim a controlled generator-level frozen-versus-adapted gain.
+
+Relevant references: \cite{zhang2025multimodal}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / framework conditioning (p. 3, lines 89--89).
+\item Methods / DIReCT++ overview (p. 14, lines 318--318).
+\item Domain-Adapted VLM / feature extraction (p. 14, lines 326--326).
+\item eq:align\_opt (p. 15, lines 338--338).
+\item eq:composite\_conditioning (p. 16, lines 359--359).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
+\end{itemize}}
+
+\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
+
+\subsection*{R2-15}
+\revcomment{R2-15}{15. Equation (1) needs stronger justification: The semantic-similarity constraint between FDG and AV45 embeddings may conflict with the stated goal of preserving inter-tracer differences. A sensitivity analysis for \ensuremath{\tau} and an explicit ablation are recommended.}
+
+\response{We thank the reviewer for the valuable comments regarding the rationale and parameter sensitivity of the cross-tracer semantic similarity constraint. We agree that its design motivation and its role in balancing text–PET feature alignment and tracer-specific representations warrant further clarification.
+
+In DIReCT++, we employ a pre-trained BiomedCLIP model to encode the textual descriptions of FDG and AV45, followed by two independent affine adapters that align the corresponding textual embeddings with their respective PET image features. However, optimizing only the individual text–PET alignment objectives may cause the two adapted guidance vectors to become highly similar\textbf{,} potentially diminishing the inter-tracer distinctions present in the original textual representations. We therefore introduce a cross-tracer similarity constraint, \textbf{not to maximize the similarity between the two representations, but to regulate their relative similarity during feature alignment}.
+
+Regarding the selection of \ensuremath{\tau}=0.82, we would like to clarify its specific basis. Before affine adaptation, the cosine similarity between the original FDG and AV45 textual embeddings produced by the pre-trained BiomedCLIP model was 0.8205374, which rounds to 0.82. Accordingly, we selected \ensuremath{\tau}=0.82 as the target cross-tracer similarity, using the original relationship between the two textual representations as a reference. This allows the adapters to align the textual embeddings with their corresponding PET image features while maintaining approximately the relative similarity originally encoded by BiomedCLIP. \textbf{Thus, \ensuremath{\tau}=0.82 was not an arbitrarily assigned value, but was determined from the representational characteristics of the pre-trained text encoder}.
+
+We also acknowledge that Equation (1) in the original manuscript presented a simplified inequality constraint to convey the underlying design principle of cross-tracer semantic consistency. In the actual adapter optimization, this principle was implemented using a differentiable squared penalty, \texttt{100 \ensuremath{\times} (cos(z\_FDG, z\_AV45) \ensuremath{-} \ensuremath{\tau})²}, which encourages the cosine similarity between the adapted tracer embeddings to approach the specified target \ensuremath{\tau}. This formulation penalizes deviations both above and below the target, thereby preventing the two tracer representations from becoming increasingly similar without constraint during text–PET alignment. We now clarify the implemented optimization objective and the rationale for selecting \ensuremath{\tau} in the revised manuscript.
+
+To further validate this design, we conducted additional adapter-level parameter sensitivity and cross-tracer constraint ablation experiments. Using identical two-fold data splits, original text and PET features, initialization procedures, and optimization settings, we evaluated \ensuremath{\tau} values of 0.70, 0.82, 0.90, and 0.98, together with an additional configuration in which the cross-tracer similarity penalty was completely removed.
+
+The results demonstrate that \ensuremath{\tau} effectively regulates the relative similarity between the adapted tracer guidance vectors. As \ensuremath{\tau} increased from 0.70 to 0.98, the mean cosine similarity between the adapted FDG and AV45 embeddings increased from 0.7032 to 0.9807. At the originally adopted \ensuremath{\tau}=0.82, the resulting similarities were 0.8213 and 0.8215 for the two folds, respectively, closely matching the specified target. In contrast, removing the cross-tracer penalty increased these similarities to 0.9900 and 0.9894, indicating that optimizing text–PET alignment alone caused the two guidance vectors to become highly similar.
+
+Further analysis showed that the individual text–PET feature alignment also increased with \ensuremath{\tau}. At \ensuremath{\tau}=0.82, the mean alignment similarities were 0.9687 for FDG and 0.9661 for AV45. Although removing the cross-tracer constraint further increased these alignment values, it simultaneously brought the cosine similarity between the two adapted tracer embeddings close to 0.99. These findings indicate that maximizing individual text–PET alignment does not necessarily preserve the original representational distinctions between tracers. Instead, the cross-tracer similarity term provides a controllable mechanism for balancing individual feature alignment and inter-tracer representational separation.
+
+Therefore, the rationale for selecting \ensuremath{\tau}=0.82 is to use the original similarity between the BiomedCLIP textual representations as a reference, maintaining substantial text–PET feature alignment while preventing the two adapted guidance vectors from becoming excessively similar.
+
+The additional experiments directly demonstrate the influence of \ensuremath{\tau} on adapter-level representation learning and the relative geometry of the tracer embeddings. Since these analyses focus on the representation level rather than retraining PET synthesis models under different \ensuremath{\tau} settings, we present them as supporting evidence for the parameter selection and similarity constraint mechanism, rather than as an optimization study of PET synthesis performance.
+
+We now incorporate the rationale for \ensuremath{\tau}=0.82, the actual optimization formulation, and the additional sensitivity and ablation results into the revised manuscript to improve the methodological clarity and reproducibility of our approach.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / framework conditioning (p. 3, lines 89--89).
+\item eq:align\_opt (p. 15, lines 338--338).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
+\end{itemize}}
+
+\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
+
+\subsection*{R2-16}
+\revcomment{R2-16}{16. Demographic confounding needs control: ADNI groups differ significantly in age, sex, and other variables that are also used in the conditioning prompt. Matched, adjusted, or subgroup analyses are needed to quantify confounding effects.}
+
+\response{We thank the reviewer for highlighting the potential confounding effects of demographic factors. We acknowledge that age and sex distributions differ across diagnostic groups in ADNI, making it important to further evaluate model performance across demographic subgroups.
+
+To address this concern, we conducted additional age- and sex-stratified analyses. Subjects were stratified by age (\textless{}75 and \ensuremath{\geq}75 years) and sex (female and male), separately. Using the existing subject-level three-fold cross-validation test predictions, we compared MRI-only, MRI combined with synthetic dual-tracer PET, and MRI combined with real dual-tracer PET, along with the other imaging configurations. Paired bootstrap resampling was used to estimate 95\% confidence intervals.
+
+For AD versus CN classification, combining MRI with synthetic dual-tracer PET improved balanced accuracy across all four demographic subgroups, with gains ranging from 7.45 to 10.97 percentage points relative to MRI alone. For the more challenging EMCI versus LMCI classification, the balanced accuracy differences were also positive across all four subgroups, including a 9.64-percentage-point gain among subjects aged \ensuremath{\geq}75 years (95\% CI: 1.23–18.05). In contrast, the MCI versus CN task did not show consistent improvements, suggesting that the contribution of synthetic PET may vary across classification tasks and patient populations.
+
+We appreciate the reviewer’s suggestion, which has enabled a more comprehensive evaluation of model performance across age and sex subgroups. We now incorporate these additional results into the revised manuscript and provide a more cautious discussion of the potential influence of demographic characteristics on downstream classification and the clinical value of synthetic PET.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item tab:supp\_adni (Supplementary Materials, p. 1; combined reference copy p. 31).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
+\item Results / classification and fig:5 (p. 9, lines 196--196).
+\item Methods / classification (p. 21, lines 555--556).
+\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+
+\subsection*{R2-17}
+\revcomment{R2-17}{17. Baseline adaptation and fairness should be documented: Some comparator methods originate from segmentation or MRI-to-CT synthesis. The authors should clearly describe how each baseline was adapted and confirm identical data splits, preprocessing, tuning effort, and training budgets.}
+
+\response{We thank the reviewer for highlighting the importance of documenting baseline adaptations and ensuring fair experimental comparisons. We agree that clarifying the task-specific adaptations, input conditions, and experimental settings of different methods is essential for improving the transparency and interpretability of the comparisons.
+
+In response, we further examined and documented the implementations and experimental configurations of the baseline methods. For example, SwinUNETR was adapted for 3D PET intensity regression using continuous image outputs and an MSE loss function. The single-tracer DIReCT models were trained separately for FDG and AV45 synthesis. In addition, we included a 3D regression U-Net using the same clinical variables to further evaluate different generative architectures under comparable input conditions.
+
+In the supplementary experiments, the methods were evaluated using the same subject cohort, fixed data splits, and preprocessing pipeline, with consistent evaluation metrics, including SSIM, PSNR, MSE, and MAE. We also documented the training configurations and evaluation epochs of the different models to facilitate a more accurate interpretation of their performance.
+
+We acknowledge that differences remain in network architectures, conditioning inputs, and training configurations. Therefore, these comparisons primarily assess the overall performance of different methods rather than constituting strictly controlled ablations in which all experimental variables are held constant.
+
+In the revised manuscript, we now provide clearer descriptions of the task adaptations and experimental settings of the principal baselines and further clarify the scope of the comparisons, thereby improving the transparency, objectivity, and reproducibility of our experimental evaluation.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / generation introduction (p. 4, lines 112--112).
+\item Results / reconstructed generation evidence (p. 5, lines 120--120).
+\item fig:2 caption (p. 7).
+\item Competing Methods / scope (p. 19, lines 470--470).
+\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
+\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
+\end{itemize}}
+
+\changedtext{Results / generation introduction}{PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).}
+
+\subsection*{R2-18}
+\revcomment{R2-18}{18. Computational-efficiency claims need direct evidence: The manuscript reports approximately 138 GPU-hours for training, but should also report inference time per 3D volume, parameter count, FLOPs, memory use, and direct runtime comparisons with diffusion/flow baselines.}
+
+\response{We thank the reviewer for the valuable suggestion regarding computational efficiency. We agree that reporting training time alone is insufficient to characterize the computational cost of the proposed framework. Therefore, we conducted additional measurements of inference latency, model parameters, and GPU memory usage for 3D PET synthesis.
+
+Using the trained DIReCT++ model on an NVIDIA RTX 4090 GPU with FP32 precision, we evaluated inference performance for volumetric MRI inputs of size 160 \ensuremath{\times} 192 \ensuremath{\times} 160. After 10 warm-up iterations, we performed 50 synchronized timing repetitions for each tracer. The mean inference times were 251.015 \ensuremath{\pm} 0.187 ms for FDG and 251.411 \ensuremath{\pm} 0.256 ms for AV45, where the standard deviations represent repeated measurements on a fixed input. The generator contains approximately 9.93 million parameters, excluding the frozen BiomedCLIP encoders, and its peak PyTorch-allocated GPU memory was approximately 8.29 GiB.
+
+Importantly, the shared DIReCT++ generator produces one tracer-specific PET volume per forward pass. The reported latency therefore reflects a single-tracer generation step with GPU-resident inputs and cached conditioning embeddings, excluding text encoding, image preprocessing, data transfers, and file I/O. We now clarify these measurement conditions in the revised manuscript to ensure accurate interpretation of the computational results.
+
+Regarding FLOPs and direct runtime comparisons with diffusion- and flow-based baselines, we currently lack validated measurements covering the complete network operations under identical hardware and timing protocols. We therefore refrain from estimating speedup factors solely from sampling-step counts and instead report the directly measured efficiency metrics. 
+
+We appreciate the reviewer’s recommendation. These additional measurements provide direct quantitative evidence of the computational requirements of DIReCT++ for single-step volumetric PET generation and allow us to present its efficiency more precisely and transparently.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Competing Methods / 3D DDIM (p. 19, lines 483--483).
+\item Implementation Details (p. 22, lines 595--595).
+\end{itemize}}
+
+\subsection*{R2-19}
+\revcomment{R2-19}{19. Reproducibility is a strength but can be improved: Public code, trained models, software versions, and hardware details are valuable. The authors should additionally provide fixed data-split files, random seeds, and a repository commit/version used for the reported experiments.}
+
+\response{We thank the reviewer for recognizing our efforts toward code availability and reproducibility. We agree that providing explicit data splits, random seeds, and code version information would further improve the transparency and reproducibility of our study.
+
+The principal model implementations and relevant training materials have already been made publicly available. We have further organized the experimental configurations and reproducibility records, including fixed subject-level data splits, training and evaluation settings, source-code information, and corresponding file checksums.
+
+For data partitioning, we employed a fixed two-fold cross-validation protocol and preserved the associated split records. Regarding random seeds, we distinguish the seed used for data partitioning from other stochastic processes, such as model initialization and training, and report the settings that can be reliably verified.
+
+We acknowledge that some historical execution records from the original experiments were not fully preserved. Consequently, the exact random states and code versions of every earlier run cannot be reconstructed with certainty. We therefore distinguish the documented experimental configurations from the original historical runs rather than treating them as identical.
+
+Furthermore, the sharing of ADNI subject and imaging identifiers will follow the applicable data-use requirements. We now provide reproducibility information in github repository to the extent permitted by these requirements.
+
+We appreciate the reviewer’s recommendation and will improve the documentation of experimental settings and code versions to facilitate reproducibility.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / cohort (p. 17, lines 403--403).
+\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
+\item Data Availability (p. 24, lines 641--641).
+\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33).
+\item Implementation Details (p. 22, lines 595--595).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / cohort}{This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.}
+
+\subsection*{R2-20}
+\revcomment{R2-20}{20. Clinical translation claims should be moderated: Statements regarding widespread screening, clinically actionable biomarkers, and early intervention exceed the evidence from retrospective ADNI/OASIS cohorts. Prospective, diverse, multi-center clinical validation is needed before such claims are justified.}
+
+\response{We appreciate the reviewer's thoughtful suggestions regarding the clinical translation of our work.
+
+One of the primary motivations of DIReCT++ is to explore the feasibility of synthesizing multi-tracer PET images from routine MRI, potentially alleviating the challenges associated with PET acquisition costs, radiation exposure, and limited accessibility. Our evaluations on the ADNI and OASIS-3 datasets provide preliminary evidence of the framework's PET synthesis performance, while regional uptake analyses and downstream classification on ADNI further support its potential clinical relevance.
+
+Nevertheless, translating these findings from retrospective research cohorts into clinical practice requires more comprehensive evidence. We agree with the reviewer that the current results are insufficient to support the direct application of synthetic PET in routine clinical screening or treatment decision-making. Accordingly, we will moderate statements regarding widespread screening, clinically actionable biomarkers, and early intervention to better distinguish the demonstrated findings from potential future clinical applications. We now also clarify that prospective validation in more diverse, real-world clinical populations remains necessary.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Abstract (p. 1, lines 18--18).
+\item Introduction / contributions (p. 2, lines 69--69).
+\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Results / framework opening (p. 3, lines 84--84).
+\item Introduction: clinical access scope (p. 2, lines 52--53).
+\end{itemize}}
+
+\changedtext{Introduction / contributions}{Building upon single-tracer DIReCT~\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.}
+

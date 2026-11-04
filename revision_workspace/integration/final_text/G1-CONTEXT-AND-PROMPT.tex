@@ -1,0 +1,6 @@
+For each participant, the conditioning context stacks the patient feature before the fixed target-tracer feature:
+\begin{equation}
+\mathbf{c}=\begin{bmatrix}c_{\mathrm{demo}}\\g_m\end{bmatrix},
+\label{eq:composite_conditioning}
+\end{equation}
+where $m\in\{f,a\}$ indicates FDG or AV45. The raw tracer text feature is $c_m$ and its affine-adapted form is $Adapt_m(c_m)$; $g_m$ denotes the feature actually supplied by the specified configuration. In the reconstructed Full generator, $g_m=c_m$. The patient feature $c_{\mathrm{demo}}$ is a 512-dimensional frozen BiomedCLIP embedding of a prompt encoding age, sex, weight, Global CDR, MMSE, GDS, FAQ and NPI-Q, with descriptions of the assessments and their medical interpretations. Logical Memory II and an explicit diagnostic label are not prompt fields, whereas CDR and other scores are diagnosis-related, and diagnosis-conditioned filling can encode group information indirectly. The prompt template and tracer texts are provided in Supplementary Methods. Patient prompts are padded and truncated to a maximum of 256 tokens in the reconstructed implementation.

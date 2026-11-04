@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\caption{\textbf{Missing clinical scores in the source records before historical filling.} Each cell gives missing count / group size (percentage); missingness is defined relative to the first source CSV record selected for each participant, not all ADNI visits.}
+\label{tab:clinical_missingness}
+\centering\small
+\begin{tabularx}{\textwidth}{l*{5}{>{\centering\arraybackslash}X}}
+\toprule
+Score & CN & EMCI & LMCI & MCI-U & AD \\
+\midrule
+MMSE & 427/577 (74.0\%) & 291/291 (100.0\%) & 152/152 (100.0\%) & 289/520 (55.6\%) & 234/317 (73.8\%) \\
+GDSCALE & 429/577 (74.4\%) & 291/291 (100.0\%) & 152/152 (100.0\%) & 289/520 (55.6\%) & 234/317 (73.8\%) \\
+Global CDR & 427/577 (74.0\%) & 291/291 (100.0\%) & 152/152 (100.0\%) & 289/520 (55.6\%) & 234/317 (73.8\%) \\
+FAQ & 561/577 (97.2\%) & 167/291 (57.4\%) & 151/152 (99.3\%) & 489/520 (94.0\%) & 306/317 (96.5\%) \\
+NPI-Q & 563/577 (97.6\%) & 167/291 (57.4\%) & 152/152 (100.0\%) & 491/520 (94.4\%) & 306/317 (96.5\%) \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\footnotesize
+Source records contain 1,751 observed and 7,534 missing score cells across 1,857 participants and five scores. All available scores were retained. Historical filling used diagnostic-group rules: MMSE values were drawn from group-specific integer sets; GDSCALE and NPI-Q used group-specific fixed values; FAQ used fixed values or group-specific integer sets/ranges; and CDR used fixed values or a group-specific Bernoulli choice for EMCI/MCI-U. These are simulated inputs, not clinical observations or group-mean imputation. Their use can encode diagnostic-group information. The original random states were not recovered, and no re-imputation was performed. Age, sex and weight have no blank entries in the prepared table, which does not establish the clinical validity of every entry. The clinical source row's Image ID does not identify the actual MRI/PET acquisition used by the model.
+\end{table}

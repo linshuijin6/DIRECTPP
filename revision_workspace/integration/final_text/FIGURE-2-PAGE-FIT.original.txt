@@ -1,0 +1,1 @@
+\includegraphics[width=0.85\textwidth]{figure_2}

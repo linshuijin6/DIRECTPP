@@ -1,0 +1,1 @@
+For a comprehensive quantitative evaluation, we performed two group-wise statistical comparisons on the ADNI cohort. First, we compared synthetic and real images to validate the regional SUV precision of DIReCT$++$. Second, we compared synthetic images across diagnostic groups (cognitively normal, i.e., CN, MCI, AD) to verify their ability to capture disease-relevant patterns.

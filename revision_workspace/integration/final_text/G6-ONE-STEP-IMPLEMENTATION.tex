@@ -1,0 +1,6 @@
+Rectified flow supports a learned one-step approximation; a single network evaluation is not exact integration of the continuous ODE. In the reconstructed implementation, epochs before 140 sample integer timesteps from 0 to 999 and fit the velocity target $\mathbf{x}_1-\mathbf{x}_0$ at the interpolated input. From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI. This stage is referred to as one-step distillation in the framework, but the recovered implementation does not introduce a separate teacher trajectory or a teacher-step schedule. A one-step-versus-multistep quality/latency comparison is not established by the available measurements.
+\begin{equation}
+\widehat{\mathbf{x}}_1=\operatorname{clip}_{[0,1]}\!\left(\mathbf{x}_0+\widetilde{V}_\theta(\mathbf{x}_0,\mathbf{c},0)\right),
+\label{eq:onestep_generation}
+\end{equation}
+where $\mathbf{x}_0$ is MRI, $\widehat{\mathbf{x}}_1$ is the selected tracer's synthetic PET, $\mathbf{c}$ is the context in Eq.~\eqref{eq:composite_conditioning}, and $\widetilde{V}_\theta$ is the endpoint-fitted velocity U-Net. FDG and AV45 are generated in separate tracer-conditioned forward passes.

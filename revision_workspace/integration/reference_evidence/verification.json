@@ -1,0 +1,24 @@
+{
+  "metadata_files": [
+    "mosconi2005reduced.json",
+    "synthseg.json",
+    "friston1995spatial.json",
+    "strom2022cortical.json",
+    "he2015meta.json",
+    "jack2024revised.json"
+  ],
+  "additional_primary_sources": {
+    "spm": "https://www.sciencedirect.com/book/edited-volume/9780123725608/statistical-parametric-mapping",
+    "Xing2022": "https://par.nsf.gov/servlets/purl/10445517",
+    "song2021ddim": "https://arxiv.org/abs/2010.02502",
+    "pinaya2023generative": "https://arxiv.org/abs/2307.15208",
+    "Cao2021swin": "https://arxiv.org/abs/2105.05537",
+    "synthseg": "https://www.sciencedirect.com/science/article/pii/S1361841523000506",
+    "jack2024revised": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.13859"
+  },
+  "openreview_browser_challenge": [
+    "XVjTT1nw5z",
+    "St1giarCHLP"
+  ],
+  "verification_scope": "new/corrected records and referenced primary publications; not a full independent audit of every historical reference"
+}

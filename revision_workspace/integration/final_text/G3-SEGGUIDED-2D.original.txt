@@ -1,0 +1,1 @@
+\item \textbf{SegGuidedDiff}~\cite{konz2024anatomically}: A state-of-the-art diffusion model that leverages segmentation maps as anatomical priors to guide PET synthesis. It serves as a high-fidelity reference for structure-preserving generative performance.

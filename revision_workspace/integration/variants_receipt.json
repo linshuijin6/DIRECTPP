@@ -1,0 +1,6 @@
+{
+  "clean": "main text and references; supplementary labels imported from final combined manuscript",
+  "supplementary": "standalone source with main-label import",
+  "highlight": "latexdiff against preserved pre-integration manuscript, flattened inputs",
+  "plain_abstract": "revision_workspace/integration/submission_abstract.txt"
+}

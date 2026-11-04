@@ -1,0 +1,785 @@
+{
+  "prior_snapshot": "revision_workspace/history/index_before_r3_9_r3_14_refresh_20261103T153521Z.json",
+  "added_source_files": [],
+  "removed_source_files": [],
+  "changed_source_files": [
+    {
+      "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+      "old_sha256": "8b7299f6093aba8c7936af747080691c8212f7d2bc1478b5fd95e61e5f21ac73",
+      "new_sha256": "68b2105497c6b56cd4d7246f56f33c44551dc154519352346aac83fcba990f9a",
+      "old_bytes": 19,
+      "new_bytes": 9323
+    },
+    {
+      "path": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+      "old_sha256": "e54be06d2cb40a349056192097dc627dec866f447c002e0053fa4b12958e8d8d",
+      "new_sha256": "6d40672bd4da7e9a4e9fff422d2b9013193e7f1bb1f40c6b2c50c74a8c10bfe8",
+      "old_bytes": 8019,
+      "new_bytes": 11588
+    }
+  ],
+  "previous_revision_count": 116,
+  "current_revision_count": 123,
+  "preserved_candidate_id_map": [
+    {
+      "previous_id": "V001",
+      "current_id": "V001",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 41
+    },
+    {
+      "previous_id": "V002",
+      "current_id": "V002",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 61
+    },
+    {
+      "previous_id": "V003",
+      "current_id": "V003",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 77
+    },
+    {
+      "previous_id": "V004",
+      "current_id": "V004",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 97
+    },
+    {
+      "previous_id": "V005",
+      "current_id": "V005",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 121
+    },
+    {
+      "previous_id": "V006",
+      "current_id": "V006",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 137
+    },
+    {
+      "previous_id": "V007",
+      "current_id": "V007",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 155
+    },
+    {
+      "previous_id": "V008",
+      "current_id": "V008",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 178
+    },
+    {
+      "previous_id": "V009",
+      "current_id": "V009",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 208
+    },
+    {
+      "previous_id": "V010",
+      "current_id": "V010",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 295
+    },
+    {
+      "previous_id": "V011",
+      "current_id": "V011",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 360
+    },
+    {
+      "previous_id": "V012",
+      "current_id": "V012",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 382
+    },
+    {
+      "previous_id": "V013",
+      "current_id": "V013",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 411
+    },
+    {
+      "previous_id": "V014",
+      "current_id": "V014",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 455
+    },
+    {
+      "previous_id": "V015",
+      "current_id": "V015",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 509
+    },
+    {
+      "previous_id": "V016",
+      "current_id": "V016",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "revised_marker": 569
+    },
+    {
+      "previous_id": "V017",
+      "current_id": "V017",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+      "revised_marker": 13
+    },
+    {
+      "previous_id": "V018",
+      "current_id": "V018",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+      "revised_marker": 31
+    },
+    {
+      "previous_id": "V019",
+      "current_id": "V019",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+      "revised_marker": 47
+    },
+    {
+      "previous_id": "V020",
+      "current_id": "V020",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+      "revised_marker": 18
+    },
+    {
+      "previous_id": "V021",
+      "current_id": "V021",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+      "revised_marker": 35
+    },
+    {
+      "previous_id": "V022",
+      "current_id": "V022",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+      "revised_marker": 52
+    },
+    {
+      "previous_id": "V023",
+      "current_id": "V023",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+      "revised_marker": 82
+    },
+    {
+      "previous_id": "V024",
+      "current_id": "V024",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+      "revised_marker": 12
+    },
+    {
+      "previous_id": "V025",
+      "current_id": "V025",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+      "revised_marker": 29
+    },
+    {
+      "previous_id": "V026",
+      "current_id": "V026",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+      "revised_marker": 10
+    },
+    {
+      "previous_id": "V027",
+      "current_id": "V027",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+      "revised_marker": 23
+    },
+    {
+      "previous_id": "V028",
+      "current_id": "V028",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+      "revised_marker": 31
+    },
+    {
+      "previous_id": "V029",
+      "current_id": "V029",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+      "revised_marker": 47
+    },
+    {
+      "previous_id": "V030",
+      "current_id": "V030",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+      "revised_marker": 59
+    },
+    {
+      "previous_id": "V031",
+      "current_id": "V031",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+      "revised_marker": 12
+    },
+    {
+      "previous_id": "V032",
+      "current_id": "V032",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+      "revised_marker": 25
+    },
+    {
+      "previous_id": "V033",
+      "current_id": "V033",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+      "revised_marker": 49
+    },
+    {
+      "previous_id": "V034",
+      "current_id": "V034",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+      "revised_marker": 93
+    },
+    {
+      "previous_id": "V035",
+      "current_id": "V035",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+      "revised_marker": 115
+    },
+    {
+      "previous_id": "V036",
+      "current_id": "V036",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 12
+    },
+    {
+      "previous_id": "V037",
+      "current_id": "V037",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 29
+    },
+    {
+      "previous_id": "V038",
+      "current_id": "V038",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 40
+    },
+    {
+      "previous_id": "V039",
+      "current_id": "V039",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 51
+    },
+    {
+      "previous_id": "V040",
+      "current_id": "V040",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 66
+    },
+    {
+      "previous_id": "V041",
+      "current_id": "V041",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 77
+    },
+    {
+      "previous_id": "V042",
+      "current_id": "V042",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 92
+    },
+    {
+      "previous_id": "V043",
+      "current_id": "V043",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 109
+    },
+    {
+      "previous_id": "V044",
+      "current_id": "V044",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "revised_marker": 122
+    },
+    {
+      "previous_id": "V045",
+      "current_id": "V045",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 72
+    },
+    {
+      "previous_id": "V046",
+      "current_id": "V046",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 82
+    },
+    {
+      "previous_id": "V047",
+      "current_id": "V047",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 92
+    },
+    {
+      "previous_id": "V048",
+      "current_id": "V048",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 104
+    },
+    {
+      "previous_id": "V049",
+      "current_id": "V049",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 133
+    },
+    {
+      "previous_id": "V050",
+      "current_id": "V050",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 145
+    },
+    {
+      "previous_id": "V051",
+      "current_id": "V051",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 169
+    },
+    {
+      "previous_id": "V052",
+      "current_id": "V052",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "revised_marker": 181
+    },
+    {
+      "previous_id": "V053",
+      "current_id": "V053",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 12
+    },
+    {
+      "previous_id": "V054",
+      "current_id": "V054",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 25
+    },
+    {
+      "previous_id": "V055",
+      "current_id": "V055",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 42
+    },
+    {
+      "previous_id": "V056",
+      "current_id": "V056",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 55
+    },
+    {
+      "previous_id": "V057",
+      "current_id": "V057",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 70
+    },
+    {
+      "previous_id": "V058",
+      "current_id": "V058",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "revised_marker": 81
+    },
+    {
+      "previous_id": "V059",
+      "current_id": "V059",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 29
+    },
+    {
+      "previous_id": "V060",
+      "current_id": "V060",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 45
+    },
+    {
+      "previous_id": "V061",
+      "current_id": "V061",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 61
+    },
+    {
+      "previous_id": "V062",
+      "current_id": "V062",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 77
+    },
+    {
+      "previous_id": "V063",
+      "current_id": "V063",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 93
+    },
+    {
+      "previous_id": "V064",
+      "current_id": "V064",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 109
+    },
+    {
+      "previous_id": "V065",
+      "current_id": "V065",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "revised_marker": 125
+    },
+    {
+      "previous_id": "V066",
+      "current_id": "V066",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+      "revised_marker": 31
+    },
+    {
+      "previous_id": "V067",
+      "current_id": "V067",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+      "revised_marker": 50
+    },
+    {
+      "previous_id": "V068",
+      "current_id": "V068",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+      "revised_marker": 69
+    },
+    {
+      "previous_id": "V069",
+      "current_id": "V069",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+      "revised_marker": 87
+    },
+    {
+      "previous_id": "V070",
+      "current_id": "V070",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+      "revised_marker": 33
+    },
+    {
+      "previous_id": "V071",
+      "current_id": "V071",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+      "revised_marker": 17
+    },
+    {
+      "previous_id": "V072",
+      "current_id": "V072",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+      "revised_marker": 37
+    },
+    {
+      "previous_id": "V073",
+      "current_id": "V077",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+      "revised_marker": 15
+    },
+    {
+      "previous_id": "V074",
+      "current_id": "V078",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+      "revised_marker": 56
+    },
+    {
+      "previous_id": "V075",
+      "current_id": "V079",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+      "revised_marker": 97
+    },
+    {
+      "previous_id": "V076",
+      "current_id": "V080",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 14
+    },
+    {
+      "previous_id": "V077",
+      "current_id": "V081",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 27
+    },
+    {
+      "previous_id": "V078",
+      "current_id": "V082",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 42
+    },
+    {
+      "previous_id": "V079",
+      "current_id": "V083",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 57
+    },
+    {
+      "previous_id": "V080",
+      "current_id": "V084",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 68
+    },
+    {
+      "previous_id": "V081",
+      "current_id": "V085",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "revised_marker": 81
+    },
+    {
+      "previous_id": "V082",
+      "current_id": "V089",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 242
+    },
+    {
+      "previous_id": "V083",
+      "current_id": "V090",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 259
+    },
+    {
+      "previous_id": "V084",
+      "current_id": "V091",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 352
+    },
+    {
+      "previous_id": "V085",
+      "current_id": "V092",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 542
+    },
+    {
+      "previous_id": "V086",
+      "current_id": "V093",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 559
+    },
+    {
+      "previous_id": "V087",
+      "current_id": "V094",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 569
+    },
+    {
+      "previous_id": "V088",
+      "current_id": "V095",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 583
+    },
+    {
+      "previous_id": "V089",
+      "current_id": "V096",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 669
+    },
+    {
+      "previous_id": "V090",
+      "current_id": "V097",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 731
+    },
+    {
+      "previous_id": "V091",
+      "current_id": "V098",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 774
+    },
+    {
+      "previous_id": "V092",
+      "current_id": "V099",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1154
+    },
+    {
+      "previous_id": "V093",
+      "current_id": "V100",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1176
+    },
+    {
+      "previous_id": "V094",
+      "current_id": "V101",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1199
+    },
+    {
+      "previous_id": "V095",
+      "current_id": "V102",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1234
+    },
+    {
+      "previous_id": "V096",
+      "current_id": "V103",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1267
+    },
+    {
+      "previous_id": "V097",
+      "current_id": "V104",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1377
+    },
+    {
+      "previous_id": "V098",
+      "current_id": "V105",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1569
+    },
+    {
+      "previous_id": "V099",
+      "current_id": "V106",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1588
+    },
+    {
+      "previous_id": "V100",
+      "current_id": "V107",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1631
+    },
+    {
+      "previous_id": "V101",
+      "current_id": "V108",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1658
+    },
+    {
+      "previous_id": "V102",
+      "current_id": "V109",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1690
+    },
+    {
+      "previous_id": "V103",
+      "current_id": "V110",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1721
+    },
+    {
+      "previous_id": "V104",
+      "current_id": "V111",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1768
+    },
+    {
+      "previous_id": "V105",
+      "current_id": "V112",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1821
+    },
+    {
+      "previous_id": "V106",
+      "current_id": "V113",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1848
+    },
+    {
+      "previous_id": "V107",
+      "current_id": "V114",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1880
+    },
+    {
+      "previous_id": "V108",
+      "current_id": "V115",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1911
+    },
+    {
+      "previous_id": "V109",
+      "current_id": "V116",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1938
+    },
+    {
+      "previous_id": "V110",
+      "current_id": "V117",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 1958
+    },
+    {
+      "previous_id": "V111",
+      "current_id": "V118",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2011
+    },
+    {
+      "previous_id": "V112",
+      "current_id": "V119",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2053
+    },
+    {
+      "previous_id": "V113",
+      "current_id": "V120",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2069
+    },
+    {
+      "previous_id": "V114",
+      "current_id": "V121",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2150
+    },
+    {
+      "previous_id": "V115",
+      "current_id": "V122",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2286
+    },
+    {
+      "previous_id": "V116",
+      "current_id": "V123",
+      "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "revised_marker": 2298
+    }
+  ],
+  "new_candidates": [
+    "V073",
+    "V074",
+    "V075",
+    "V076",
+    "V086",
+    "V087",
+    "V088"
+  ],
+  "original_anchor_checks": [
+    {
+      "id": "V073",
+      "comment": "R3-14",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V074",
+      "comment": "R3-14",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V075",
+      "comment": "R3-14",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V076",
+      "comment": "R3-14",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V086",
+      "comment": "R3-9",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V087",
+      "comment": "R3-9",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    },
+    {
+      "id": "V088",
+      "comment": "R3-9",
+      "original_matches_current_manuscript_whitespace_normalized": true
+    }
+  ],
+  "r3_9_g5_same_text_checks": [
+    {
+      "r3_9_candidate": "V086",
+      "g5_candidate": "V017",
+      "same_revised_text": true
+    },
+    {
+      "r3_9_candidate": "V087",
+      "g5_candidate": "V018",
+      "same_revised_text": true
+    },
+    {
+      "r3_9_candidate": "V088",
+      "g5_candidate": "V019",
+      "same_revised_text": true
+    }
+  ],
+  "source_files_modified_by_agent": false
+}

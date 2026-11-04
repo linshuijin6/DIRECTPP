@@ -1,0 +1,1 @@
+Core software dependencies and versions for DIReCT$++$.} Only packages directly relevant to model implementation, training, and evaluation are listed. Full environment details are available in the code repository.

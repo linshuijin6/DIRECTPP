@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -2,4 +2,4 @@
+ 
+ After reviewing the correspondence between the schematic and the one-step generation formulation, we confirmed that this operation represents element-wise addition of the input MRI and the predicted velocity field to obtain the synthesized PET image.
+ 
+-Accordingly, we will replace "Just Add It" with "Element-wise Addition" in the revised Figure 1 to provide a more precise and technically appropriate description of the operation.
++Accordingly, we now replace "Just Add It" with "Residual Addition" in the revised Figure 1 to provide a more precise and technically appropriate description of the operation.

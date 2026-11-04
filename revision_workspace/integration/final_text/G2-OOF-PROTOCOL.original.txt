@@ -1,0 +1,1 @@
+Model evaluation was conducted under a two-fold cross-validation scheme: the cohort was randomly partitioned into two equal-sized subsets, with alternating roles as training/validation and test sets to ensure unbiased performance estimation.

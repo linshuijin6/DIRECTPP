@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -4,4 +4,4 @@
+ 
+ Instead, our evaluation of MCI focuses on the potential utility of synthetic PET for distinguishing cognitive impairment stages. Specifically, Figure 5 includes dedicated downstream classification tasks for MCI versus CN and EMCI versus LMCI, assessing the contribution of synthetic PET to MCI identification and the differentiation of early- and late-stage MCI. These analyses complement the AD-related regional comparisons presented in Figure 4C–F.
+ 
+-We acknowledge that the original manuscript did not sufficiently clarify this rationale. We will revise the relevant descriptions to explain the purpose of the AD/CN comparisons and the complementary role of the MCI-related classification experiments. We will also clarify that the overall regional analyses in Figure 4A–B included CN, MCI, and AD subjects without separate diagnostic-group stratification.
++We acknowledge that the original manuscript did not sufficiently clarify this rationale. We now revise the relevant descriptions to explain the purpose of the AD/CN comparisons and the complementary role of the MCI-related classification experiments. We now also clarify that the overall regional analyses in Figure 4A–B included CN, MCI, and AD subjects without separate diagnostic-group stratification.

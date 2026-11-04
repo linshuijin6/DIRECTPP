@@ -1,0 +1,2380 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1093%2Fbrain%2Fawab294",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2026-10-30T21:48:57Z",
+      "timestamp": 1793396937274,
+      "version": "4.5.0"
+    },
+    "reference-count": 111,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              10
+            ]
+          ],
+          "date-time": "2021-08-10T00:00:00Z",
+          "timestamp": 1628553600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NIH/NIA P50-AG23501"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NIH/NIA P50-AG23501"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "UCSF ADRC P50-AG023501"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "UCSF ADRC P50-AG023501"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P30-AG062422"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P30-AG062422"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P01-AG019724"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P01-AG019724"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01-AG045611"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01-AG045611"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01-AG034570"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01-AG034570"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01-AG032306"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01-AG032306"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NIH/NINDS R01-NS050915"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NIH/NINDS R01-NS050915"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "K99AG065501"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "K99AG065501"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute of Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "K24-AG053435"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "K24-AG053435"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016608",
+        "name": "Rainwater Charitable Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016608",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000957",
+        "name": "Alzheimer’s Association",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "AARF: 16–443577"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AARF: 16–443577"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000957",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000957",
+        "name": "Alzheimer’s Association",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "AACSF: 19–617663"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AACSF: 19–617663"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000957",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007333",
+        "name": "Alzheimer's Disease Neuroimaging Initiative",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007333",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U01 AG024904"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U01 AG024904"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014041",
+        "name": "DOD ADNI",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W81XWH-12–2-0012"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W81XWH-12–2-0012"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014041",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute on Aging, the National Institute of Biomedical Imaging and Bioengineering",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006483",
+        "name": "AbbVie, Alzheimer’s Association",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006483",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100002565",
+        "name": "Alzheimer’s Drug Discovery Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100002565",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Araclon Biotech"
+      },
+      {
+        "DOI": "10.13039/100007742",
+        "name": "BioClinica, Inc.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007742",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100005614",
+        "name": "Biogen",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100005614",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100002491",
+        "name": "Bristol-Myers Squibb Company",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100002491",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "CereSpir, Inc."
+      },
+      {
+        "name": "Cogstate"
+      },
+      {
+        "DOI": "10.13039/501100004896",
+        "name": "Eisai Inc.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004896",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Elan Pharmaceuticals, Inc."
+      },
+      {
+        "DOI": "10.13039/100004312",
+        "name": "Eli Lilly and Company",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004312",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "EuroImmun"
+      },
+      {
+        "DOI": "10.13039/100004337",
+        "name": "F. Hoffmann-La Roche Ltd and its affiliated company Genentech, Inc.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004337",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014400",
+        "name": "Fujirebio",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014400",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006775",
+        "name": "GE Healthcare",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006775",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100015725",
+        "name": "IXICO Ltd",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100015725",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100015324",
+        "name": "Janssen Alzheimer Immunotherapy Research & Development, LLC.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100015324",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014489",
+        "name": "Johnson & Johnson Pharmaceutical Research & Development LLC.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014489",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Lumosity"
+      },
+      {
+        "DOI": "10.13039/501100013327",
+        "name": "Lundbeck",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013327",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004334",
+        "name": "Merck & Co., Inc.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004334",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007054",
+        "name": "Meso Scale Diagnostics, LLC.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007054",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "NeuroRx Research; Neurotrack Technologies"
+      },
+      {
+        "DOI": "10.13039/100008272",
+        "name": "Novartis Pharmaceuticals Corporation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008272",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004319",
+        "name": "Pfizer Inc.",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004319",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011725",
+        "name": "Piramal Imaging; Servier",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011725",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008373",
+        "name": "Takeda Pharmaceutical Company",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008373",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Transition Therapeutics"
+      },
+      {
+        "name": "ADNI clinical sites in Canada"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Posterior cortical hypometabolism measured with 18F-fluorodeoxyglucose (FDG)-PET is a well-known marker of Alzheimer’s disease-related neurodegeneration, but its associations with underlying neuropathological processes are unclear. We assessed cross-sectionally the relative contributions of three potential mechanisms causing hypometabolism in the retrosplenial and inferior parietal cortices: local molecular (amyloid and tau) pathology and atrophy, distant factors including contributions from the degenerating medial temporal lobe or molecular pathology in functionally connected regions, and the presence of the apolipoprotein E (APOE) ε4 allele.</jats:p>\n                  <jats:p>Two hundred and thirty-two amyloid-positive cognitively impaired patients from two cohorts [University of California, San Francisco (UCSF), and Alzheimer’s Disease Neuroimaging Initiative (ADNI)] underwent MRI and PET with FDG, amyloid-PET using 11C-Pittsburgh Compound-B, 18F-florbetapir or 18F-florbetaben, and 18F-flortaucipir tau-PET in 1 year. Standard uptake value ratios (SUVRs) were calculated using tracer-specific reference regions. Regression analyses were run within cohorts to identify variables associated with retrosplenial or inferior parietal FDG standard uptake value ratios.</jats:p>\n                  <jats:p>On average, ADNI patients were older and were less impaired than the UCSF patients. Regional patterns of hypometabolism were similar between cohorts, although there were cohort differences in regional grey matter atrophy. Local cortical thickness and tau-PET (but not amyloid-PET) were independently associated with both retrosplenial and inferior parietal FDG SUVRs (ΔR2 = 0.09 to 0.21) across cohorts in models that also included age and disease severity (local model). Including medial temporal lobe volume improved the retrosplenial FDG model in the ADNI cohort (ΔR2 = 0.04, P = 0.008) but not for the UCSF (ΔR2 &amp;lt; 0.01, P = 0.52), and did not improve the inferior parietal models (ΔR2 &amp;lt; 0.01, P &amp;gt; 0.37). Interaction analyses revealed that medial temporal volume was more strongly associated with retrosplenial FDG SUVRs at earlier disease stages (P = 0.06 in UCSF, P = 0.046 in ADNI). Exploratory analyses across the cortex confirmed overall associations between hypometabolism and local tau pathology and thickness and revealed associations between medial temporal degeneration and hypometabolism in retrosplenial, orbitofrontal and anterior cingulate cortices. Finally, our data did not support hypotheses of a detrimental effect of pathology in connected regions or of an effect of the APOE ε4 allele in impaired participants.</jats:p>\n                  <jats:p>Overall, in two independent groups of patients at symptomatic stages of Alzheimer’s disease, cortical hypometabolism mainly reflected structural neurodegeneration and tau, but not amyloid, pathology.</jats:p>",
+    "DOI": "10.1093/brain/awab294",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2021-08-06T15:12:19Z",
+      "timestamp": 1628262739000
+    },
+    "page": "713-728",
+    "source": "Crossref",
+    "is-referenced-by-count": 103,
+    "title": [
+      "Cortical hypometabolism reflects local atrophy and tau pathology in symptomatic Alzheimer’s disease"
+    ],
+    "prefix": "10.1093",
+    "volume": "145",
+    "author": [
+      {
+        "given": "Amelia",
+        "family": "Strom",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0053-9519",
+        "authenticated-orcid": false,
+        "given": "Leonardo",
+        "family": "Iaccarino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lauren",
+        "family": "Edwards",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Orit H",
+        "family": "Lesman-Segev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          },
+          {
+            "name": "Department of Diagnostic Imaging, Sheba Medical Center, Tel Hashomer , Ramat Gan, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4197-3039",
+        "authenticated-orcid": false,
+        "given": "David N",
+        "family": "Soleimani-Meigooni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julie",
+        "family": "Pham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0209-3127",
+        "authenticated-orcid": false,
+        "given": "Suzanne L",
+        "family": "Baker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory , Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Susan M",
+        "family": "Landau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Wills Neuroscience Institute, University of California, Berkeley , Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4458-113X",
+        "authenticated-orcid": false,
+        "given": "William J",
+        "family": "Jagust",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory , Berkeley, CA, USA"
+          },
+          {
+            "name": "Helen Wills Neuroscience Institute, University of California, Berkeley , Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruce L",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Howard J",
+        "family": "Rosen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria Luisa",
+        "family": "Gorno-Tempini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gil D",
+        "family": "Rabinovici",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          },
+          {
+            "name": "Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory , Berkeley, CA, USA"
+          },
+          {
+            "name": "Helen Wills Neuroscience Institute, University of California, Berkeley , Berkeley, CA, USA"
+          },
+          {
+            "name": "Department of Radiology and Biomedical Imaging, University of California , San Francisco, San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2581-8100",
+        "authenticated-orcid": false,
+        "given": "Renaud",
+        "family": "La Joie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Memory and Aging Center, Department of Neurology, Weill Institute for Neurosciences, University of California, San Francisco , San Francisco, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "for the Alzheimer’s Disease Neuroimaging Initiative",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B1",
+        "doi-asserted-by": "crossref",
+        "first-page": "535",
+        "DOI": "10.1016/j.jalz.2018.02.018",
+        "article-title": "NIA-AA research framework: Toward a biological definition of Alzheimer’s disease",
+        "volume": "14",
+        "author": "Jack",
+        "year": "2018",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1894",
+        "DOI": "10.1016/j.neuroimage.2003.07.002",
+        "article-title": "Resting-state brain glucose utilization as measured by PET is directly related to regional synaptophysin levels: A study in baboons",
+        "volume": "20",
+        "author": "Rocher",
+        "year": "2003",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B3",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1002/ana.10669",
+        "article-title": "Limbic hypometabolism in Alzheimer’s disease and mild cognitive impairment",
+        "volume": "54",
+        "author": "Nestor",
+        "year": "2003",
+        "journal-title": "Ann Neurol"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1063",
+        "DOI": "10.1093/brain/awz019",
+        "article-title": "Tau PET in autosomal dominant Alzheimer’s disease: Relationship with cognition, dementia and other biomarkers",
+        "volume": "142",
+        "author": "Gordon",
+        "year": "2019",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "46",
+        "key": "2022080900081365100_awab294-B5",
+        "doi-asserted-by": "crossref",
+        "first-page": "16265",
+        "DOI": "10.1523/JNEUROSCI.2170-12.2012",
+        "article-title": "Region-specific hierarchy between atrophy, hypometabolism, and -Amyloid (A) load in Alzheimer’s disease dementia",
+        "volume": "32",
+        "author": "La Joie",
+        "year": "2012",
+        "journal-title": "J Neurosci"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B6",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1007/s00259-019-04559-2",
+        "article-title": "Brain metabolic signatures across the Alzheimer’s disease spectrum",
+        "volume": "47",
+        "author": "Sala",
+        "year": "2020",
+        "journal-title": "Eur J Nucl Med Mol Imaging"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B7",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/0197-4580(80)90005-6",
+        "article-title": "Positron emission tomography in the study of aging and senile dementia",
+        "volume": "1",
+        "author": "Ferris",
+        "year": "1980",
+        "journal-title": "Neurobiol Aging"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B8",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/j.neurobiolaging.2010.03.011",
+        "article-title": "Cognition, glucose metabolism and amyloid burden in Alzheimer’s disease",
+        "volume": "33",
+        "author": "Furst",
+        "year": "2012",
+        "journal-title": "Neurobiol Aging"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B9",
+        "doi-asserted-by": "crossref",
+        "first-page": "578",
+        "DOI": "10.1002/ana.23650",
+        "article-title": "Amyloid deposition, hypometabolism, and longitudinal cognitive decline",
+        "volume": "72",
+        "author": "Landau",
+        "year": "2012",
+        "journal-title": "Ann Neurol"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B10",
+        "doi-asserted-by": "crossref",
+        "first-page": "207",
+        "DOI": "10.3233/JAD-200826",
+        "article-title": "FDG PET data is associated with cognitive performance in patients from a memory clinic",
+        "volume": "78",
+        "author": "Henkel",
+        "year": "2020",
+        "journal-title": "J Alzheimer’s Dis"
+      },
+      {
+        "key": "2022080900081365100_awab294-B11",
+        "doi-asserted-by": "crossref",
+        "first-page": "793",
+        "DOI": "10.3389/fpsyt.2020.00793",
+        "article-title": "Regional cerebral associations between psychometric tests and imaging biomarkers in Alzheimer’s disease",
+        "volume": "11",
+        "author": "Hedderich",
+        "year": "2020",
+        "journal-title": "Front Psychiatry"
+      },
+      {
+        "issue": "20",
+        "key": "2022080900081365100_awab294-B12",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2816",
+        "DOI": "10.1212/WNL.0000000000010967",
+        "article-title": "Neural correlates of naming errors across different neurodegenerative diseases: A FDG-PET study",
+        "volume": "95",
+        "author": "Catricalà",
+        "year": "2020",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.3233/JAD-2010-091504",
+        "article-title": "Pre-clinical detection of Alzheimer’s disease using FDG-PET, with or without amyloid imaging",
+        "volume": "20",
+        "author": "Mosconi",
+        "year": "2010",
+        "journal-title": "J Alzheimer’s Dis"
+      },
+      {
+        "key": "2022080900081365100_awab294-B14",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/j.jagp.2020.06.006",
+        "article-title": "Brain regional glucose metabolism, neuropsychiatric symptoms, and the risk of incident mild cognitive impairment: The Mayo Clinic study of aging",
+        "author": "Krell-Roesch",
+        "year": "2021",
+        "journal-title": "Am J Geriatr Psychiatry"
+      },
+      {
+        "issue": "Pt 1",
+        "key": "2022080900081365100_awab294-B15",
+        "first-page": "60",
+        "article-title": "Direct voxel-based comparison between grey matter hypometabolism and atrophy in Alzheimer’s disease",
+        "volume": "131",
+        "author": "Chetelat",
+        "year": "2008",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B16",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1002/hbm.23018",
+        "article-title": "Spatial patterns of atrophy, hypometabolism, and amyloid deposition in Alzheimer’s disease correspond to dissociable functional brain networks",
+        "volume": "37",
+        "author": "Grothe",
+        "year": "2016",
+        "journal-title": "Hum Brain Mapp"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1973",
+        "DOI": "10.1016/j.neurobiolaging.2014.04.006",
+        "article-title": "Distinct pattern of hypometabolism and atrophy in preclinical and predementia Alzheimer’s disease",
+        "volume": "35",
+        "author": "Kljajevic",
+        "year": "2014",
+        "journal-title": "Neurobiol Aging"
+      },
+      {
+        "issue": "5",
+        "key": "2022080900081365100_awab294-B18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1002/hbm.24473",
+        "article-title": "Regional multimodal relationships between tau, hypometabolism, atrophy and fractional anisotropy in atypical Alzheimer’s disease",
+        "volume": "40",
+        "author": "Sintini",
+        "year": "2019",
+        "journal-title": "Hum Brain Mapp"
+      },
+      {
+        "issue": "7",
+        "key": "2022080900081365100_awab294-B19",
+        "doi-asserted-by": "crossref",
+        "first-page": "794",
+        "DOI": "10.1007/s00259-005-1767-2",
+        "article-title": "Brain FDG PET study of normal aging in Japanese: Effect of atrophy correction",
+        "volume": "32",
+        "author": "Yanase",
+        "year": "2005",
+        "journal-title": "Eur J Nucl Med Mol Imaging"
+      },
+      {
+        "issue": "10",
+        "key": "2022080900081365100_awab294-B20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1658",
+        "DOI": "10.1007/s00259-007-0454-x",
+        "article-title": "Partial volume effect-corrected FDG PET and grey matter volume loss in patients with mild Alzheimer’s disease",
+        "volume": "34",
+        "author": "Samuraki",
+        "year": "2007",
+        "journal-title": "Eur J Nucl Med Mol Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "2022080900081365100_awab294-B21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1889",
+        "DOI": "10.1093/cercor/bhy069",
+        "article-title": "Distinct interplay between atrophy and hypometabolism in Alzheimer’s versus semantic dementia",
+        "volume": "29",
+        "author": "Bejanin",
+        "year": "2019",
+        "journal-title": "Cereb Cortex."
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093/cercor/bhaa184",
+        "article-title": "Spatial relationships between molecular pathology and neurodegeneration in the Alzheimer’s disease continuum",
+        "volume": "31",
+        "author": "Iaccarino",
+        "year": "2021",
+        "journal-title": "Cereb Cortex."
+      },
+      {
+        "issue": "8",
+        "key": "2022080900081365100_awab294-B23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1005",
+        "DOI": "10.1016/j.jalz.2018.02.020",
+        "article-title": "Imaging correlations of tau, amyloid, metabolism, and atrophy in typical and atypical Alzheimer’s disease",
+        "volume": "14",
+        "author": "Whitwell",
+        "year": "2018",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "key": "2022080900081365100_awab294-B24",
+        "doi-asserted-by": "crossref",
+        "first-page": "452",
+        "DOI": "10.1016/j.nicl.2017.09.016",
+        "article-title": "Local and distant relationships between amyloid, tau and neurodegeneration in Alzheimer’s Disease",
+        "volume": "17",
+        "author": "Iaccarino",
+        "year": "2018",
+        "journal-title": "NeuroImage Clin"
+      },
+      {
+        "issue": "12",
+        "key": "2022080900081365100_awab294-B25",
+        "doi-asserted-by": "crossref",
+        "first-page": "934",
+        "DOI": "10.1002/acn3.339",
+        "article-title": "Impact of tau and amyloid burden on glucose metabolism in Alzheimer’s disease",
+        "volume": "3",
+        "author": "Bischof",
+        "year": "2016",
+        "journal-title": "Ann Clin Transl Neurol"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B26",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1109/TMI.2018.2857221",
+        "article-title": "Spatially adaptive varying correlation analysis for multimodal neuroimaging data",
+        "volume": "38",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans Med Imaging"
+      },
+      {
+        "issue": "5",
+        "key": "2022080900081365100_awab294-B27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1551",
+        "DOI": "10.1093/brain/aww027",
+        "article-title": "Tau PET patterns mirror clinical and neuroanatomical variability in Alzheimer’s disease",
+        "volume": "139",
+        "author": "Ossenkoppele",
+        "year": "2016",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B28",
+        "doi-asserted-by": "crossref",
+        "first-page": "526",
+        "DOI": "10.1007/s00259-015-3222-3",
+        "article-title": "Does posterior cingulate hypometabolism result from disconnection or local pathology across preclinical and clinical stages of Alzheimer’s disease?",
+        "volume": "43",
+        "author": "Teipel",
+        "year": "2016",
+        "journal-title": "Eur J Nucl Med Mol Imaging"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B29",
+        "first-page": "792",
+        "article-title": "Regional expansion of hypometabolism in Alzheimer’s disease follows amyloid deposition with temporal delay",
+        "volume": "71",
+        "author": "Förster",
+        "year": "2012",
+        "journal-title": "BPS"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B30",
+        "doi-asserted-by": "crossref",
+        "first-page": "543",
+        "DOI": "10.3233/JAD-190560",
+        "article-title": "Spatially distributed amyloid-β reduces glucose metabolism in mild cognitive impairment",
+        "volume": "73",
+        "author": "Carbonell",
+        "year": "2020",
+        "journal-title": "J Alzheimers Dis"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B31",
+        "doi-asserted-by": "crossref",
+        "first-page": "512",
+        "DOI": "10.1093/brain/awp326",
+        "article-title": "Increased metabolic vulnerability in early-onset Alzheimer’s disease is not related to amyloid burden",
+        "volume": "133",
+        "author": "Rabinovici",
+        "year": "2010",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B32",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1093/brain/aws327",
+        "article-title": "Diverging patterns of amyloid deposition and hypometabolism in clinical variants of probable Alzheimer’s disease",
+        "volume": "136",
+        "author": "Lehmann",
+        "year": "2013",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "Pt 12",
+        "key": "2022080900081365100_awab294-B33",
+        "doi-asserted-by": "crossref",
+        "first-page": "3734",
+        "DOI": "10.1093/brain/awv278",
+        "article-title": "Regional brain hypometabolism is unrelated to regional amyloid plaque burden",
+        "volume": "138",
+        "author": "Altmann",
+        "year": "2015",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2353",
+        "DOI": "10.1038/s41467-019-10217-w",
+        "article-title": "Aβ-induced vulnerability propagates via the brain’s default mode network",
+        "volume": "10",
+        "author": "Pascoal",
+        "year": "2019",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "7",
+        "key": "2022080900081365100_awab294-B35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4916",
+        "DOI": "10.1007/s12035-018-1405-1",
+        "article-title": "Regional amyloid-β load and white matter abnormalities contribute to hypometabolism in Alzheimer’s dementia",
+        "volume": "56",
+        "author": "Schilling",
+        "year": "2019",
+        "journal-title": "Mol Neurobiol"
+      },
+      {
+        "key": "2022080900081365100_awab294-B36",
+        "first-page": "459",
+        "article-title": "“Crossed cerebellar diaschisis” in human supratentorial brain infarction",
+        "volume": "105",
+        "author": "Baron",
+        "year": "1981",
+        "journal-title": "Trans Am Neurol Assoc"
+      },
+      {
+        "issue": "11",
+        "key": "2022080900081365100_awab294-B37",
+        "doi-asserted-by": "crossref",
+        "first-page": "7699",
+        "DOI": "10.1073/pnas.112012499",
+        "article-title": "Neuronal deactivation explains decreased cerebellar blood flow in response to focal cerebral ischemia or suppressed neocortical function",
+        "volume": "99",
+        "author": "Gold",
+        "year": "2002",
+        "journal-title": "Proc Natl Acad Sci USA"
+      },
+      {
+        "issue": "Pt 8",
+        "key": "2022080900081365100_awab294-B38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1519",
+        "DOI": "10.1093/brain/122.8.1519",
+        "article-title": "Neocortical and hippocampal glucose hypometabolism following neurotoxic lesions of the entorhinal and perirhinal cortices in the non-human primate as shown by PET. Implications for Alzheimer’s disease",
+        "volume": "122",
+        "author": "Meguro",
+        "year": "1999",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "24",
+        "key": "2022080900081365100_awab294-B39",
+        "doi-asserted-by": "crossref",
+        "first-page": "6174",
+        "DOI": "10.1523/JNEUROSCI.1392-08.2008",
+        "article-title": "Relationships between hippocampal atrophy, white matter disruption, and gray matter hypometabolism in Alzheimer’s Disease",
+        "volume": "28",
+        "author": "Villain",
+        "year": "2008",
+        "journal-title": "J Neurosci"
+      },
+      {
+        "issue": "5",
+        "key": "2022080900081365100_awab294-B40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1997",
+        "DOI": "10.1093/cercor/bhy078",
+        "article-title": "Relationships between tau and glucose metabolism reflect Alzheimer’s disease pathology in cognitively normal older adults",
+        "volume": "29",
+        "author": "Adams",
+        "year": "2019",
+        "journal-title": "Cereb Cortex."
+      },
+      {
+        "issue": "8",
+        "key": "2022080900081365100_awab294-B41",
+        "doi-asserted-by": "crossref",
+        "first-page": "915",
+        "DOI": "10.1001/jamaneurol.2019.1424",
+        "article-title": "Association of amyloid and tau with cognition in preclinical Alzheimer disease",
+        "volume": "76",
+        "author": "Hanseeuw",
+        "year": "2019",
+        "journal-title": "JAMA Neurol"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B42",
+        "doi-asserted-by": "crossref",
+        "first-page": "320",
+        "DOI": "10.1001/2013.jamaneurol.286",
+        "article-title": "Posterior cingulate glucose metabolism, hippocampal glucose metabolism, and hippocampal volume in cognitively normal, late-middle-aged persons at 3 levels of genetic risk for Alzheimer disease",
+        "volume": "70",
+        "author": "Protas",
+        "year": "2013",
+        "journal-title": "JAMA Neurol"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B43",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.3233/JAD-151205",
+        "article-title": "Altered energy metabolism pathways in the posterior cingulate in young adult apolipoprotein E 4 carriers",
+        "volume": "53",
+        "author": "Perkins",
+        "year": "2016",
+        "journal-title": "J Alzheimer’s Dis"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B44",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.3233/JAD-2010-100129",
+        "article-title": "Reduced posterior cingulate mitochondrial activity in expired young adult carriers of the APOE 4 allele, the major late-onset Alzheimer’s susceptibility gene",
+        "volume": "22",
+        "author": "Valla",
+        "year": "2010",
+        "journal-title": "J Alzheimer’s Dis"
+      },
+      {
+        "issue": "50",
+        "key": "2022080900081365100_awab294-B45",
+        "doi-asserted-by": "crossref",
+        "first-page": "18227",
+        "DOI": "10.1523/JNEUROSCI.3266-12.2012",
+        "article-title": "Apolipoprotein E, not fibrillar β-amyloid, reduces cerebral glucose metabolism in normal aging",
+        "volume": "32",
+        "author": "Jagust",
+        "year": "2012",
+        "journal-title": "J Neurosci"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B46",
+        "doi-asserted-by": "crossref",
+        "first-page": "2096",
+        "DOI": "10.1016/j.neurobiolaging.2014.03.006",
+        "article-title": "18F-fluorodeoxyglucose positron emission tomography, aging, and apolipoprotein E genotype in cognitively normal persons",
+        "volume": "35",
+        "author": "Knopman",
+        "year": "2014",
+        "journal-title": "Neurobiol Aging"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B47",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1212/WNL.0b013e31827f0889",
+        "article-title": "Differential effect of APOE genotype on amyloid load and glucose metabolism in AD dementia",
+        "volume": "80",
+        "author": "Ossenkoppele",
+        "year": "2013",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B48",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1212/01.WNL.0000148478.39691.D3",
+        "article-title": "Cerebral glucose metabolism in patients with AD and different APOE genotypes",
+        "volume": "64",
+        "author": "Drzezga",
+        "year": "2005",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B49",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1001/archneur.1997.00550150035013",
+        "article-title": "No difference in cerebral glucose metabolism in patients with Alzheimer disease and differing apolipoprotein E genotypes",
+        "volume": "54",
+        "author": "Corder",
+        "year": "1997",
+        "journal-title": "Arch Neurol"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B50",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1002/ana.410420114",
+        "article-title": "Metabolic reduction in the posterior cingulate cortex in very early Alzheimer’s disease",
+        "volume": "42",
+        "author": "Minoshima",
+        "year": "1997",
+        "journal-title": "Ann Neurol"
+      },
+      {
+        "key": "2022080900081365100_awab294-B51",
+        "doi-asserted-by": "crossref",
+        "first-page": "104",
+        "DOI": "10.1016/j.neubiorev.2018.05.008",
+        "article-title": "The cingulum bundle: Anatomy, function, and dysfunction",
+        "volume": "92",
+        "author": "Bubb",
+        "year": "2018",
+        "journal-title": "Neurosci Biobehav Rev"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B52",
+        "doi-asserted-by": "crossref",
+        "first-page": "270",
+        "DOI": "10.1016/j.jalz.2011.03.008",
+        "article-title": "The diagnosis of mild cognitive impairment due to Alzheimer’s disease: Recommendations from the National Institute on Aging-Alzheimer’s Association Workgroups on Diagnostic Guidelines for Alzheimer’s Disease",
+        "volume": "7",
+        "author": "Albert",
+        "year": "2011",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B53",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1016/j.jalz.2011.03.005",
+        "article-title": "The diagnosis of dementia due to Alzheimer’s disease: Recommendations from the National Institute on Aging-Alzheimer’s Association workgroups on diagnostic guidelines for Alzheimer’s disease",
+        "volume": "7",
+        "author": "McKhann",
+        "year": "2011",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B54",
+        "doi-asserted-by": "crossref",
+        "first-page": "743",
+        "DOI": "10.1001/jamaneurol.2015.5015",
+        "article-title": "A clinical approach to the diagnosis of traumatic encephalopathy syndrome: A review",
+        "volume": "73",
+        "author": "Reams",
+        "year": "2016",
+        "journal-title": "JAMA Neurol"
+      },
+      {
+        "issue": "Pt 7",
+        "key": "2022080900081365100_awab294-B55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2020",
+        "DOI": "10.1093/brain/awv112",
+        "article-title": "Existing Pittsburgh Compound-B positron emission tomography thresholds are too high: Statistical and pathological evaluation",
+        "volume": "138",
+        "author": "Villeneuve",
+        "year": "2015",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jalz.2014.07.003",
+        "article-title": "The Centiloid project: Standardizing quantitative amyloid plaque estimation by PET",
+        "volume": "11",
+        "author": "Klunk",
+        "year": "2015",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B57",
+        "doi-asserted-by": "crossref",
+        "first-page": "4703",
+        "DOI": "10.1002/hbm.23695",
+        "article-title": "A neuroimaging approach to capture cognitive reserve: Application to Alzheimer’s disease",
+        "volume": "38",
+        "author": "van Loenhoud",
+        "year": "2017",
+        "journal-title": "Hum Brain Mapp"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B58",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1212/WNL.49.3.786",
+        "article-title": "Medial temporal atrophy on MRI in normal aging and very mild Alzheimer’s disease",
+        "volume": "49",
+        "author": "Jack",
+        "year": "1997",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "11",
+        "key": "2022080900081365100_awab294-B59",
+        "doi-asserted-by": "crossref",
+        "first-page": "4421",
+        "DOI": "10.1002/hbm.22927",
+        "article-title": "Atrophy patterns in early clinical stages across distinct phenotypes of Alzheimer’s disease",
+        "volume": "36",
+        "author": "Ossenkoppele",
+        "year": "2015",
+        "journal-title": "Hum Brain Mapp"
+      },
+      {
+        "issue": "524",
+        "key": "2022080900081365100_awab294-B60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aau5732",
+        "article-title": "Prospective longitudinal atrophy in Alzheimer’s disease correlates with the intensity and topography of baseline tau-PET",
+        "volume": "12",
+        "author": "La Joie",
+        "year": "2020",
+        "journal-title": "Sci Transl Med"
+      },
+      {
+        "key": "2022080900081365100_awab294-B61",
+        "doi-asserted-by": "crossref",
+        "first-page": "101848",
+        "DOI": "10.1016/j.nicl.2019.101848",
+        "article-title": "Tau covariance patterns in Alzheimer’s disease patients match intrinsic connectivity networks in the healthy brain",
+        "volume": "23",
+        "author": "Ossenkoppele",
+        "year": "2019",
+        "journal-title": "NeuroImage Clin"
+      },
+      {
+        "key": "2022080900081365100_awab294-B62",
+        "author": "Gordon. hexscatter.m.",
+        "year": "2020"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B63",
+        "doi-asserted-by": "crossref",
+        "first-page": "561",
+        "DOI": "10.1097/00004728-199007000-00011",
+        "article-title": "Correction of PET data for partial volume effects in human cerebral cortex by MR imaging",
+        "volume": "14",
+        "author": "Meltzer",
+        "year": "1990",
+        "journal-title": "J Comput Assist Tomogr"
+      },
+      {
+        "key": "2022080900081365100_awab294-B64",
+        "article-title": "Visualisation of brain statistics with R-packages ggseg and ggseg3d",
+        "author": "Mowinckel",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "2022080900081365100_awab294-B65",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.wocn.2018.09.004",
+        "article-title": "Strategies for addressing collinearity in multivariate linguistic data",
+        "volume": "71",
+        "author": "Tomaschek",
+        "year": "2018",
+        "journal-title": "J Phon"
+      },
+      {
+        "issue": "Pt 12",
+        "key": "2022080900081365100_awab294-B66",
+        "first-page": "e133; author reply e134",
+        "article-title": "Posterior cingulate hypometabolism in early Alzheimer’s disease: What is the contribution of local atrophy versus disconnection?",
+        "volume": "132",
+        "author": "Chetelat",
+        "year": "2009",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B67",
+        "first-page": "304",
+        "article-title": "Longitudinal evaluation of both morphologic and functional changes in the same individuals with Alzheimer’s disease",
+        "volume": "43",
+        "author": "Matsuda",
+        "year": "2002",
+        "journal-title": "J Nucl Med"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B68",
+        "doi-asserted-by": "crossref",
+        "first-page": "1147",
+        "DOI": "10.3233/JAD-180292",
+        "article-title": "Imaging biomarkers of neurodegeneration in Alzheimer’s disease: Distinct contributions of cortical MRI atrophy and FDG-PET hypometabolism",
+        "volume": "65",
+        "author": "Benvenutto",
+        "year": "2018",
+        "journal-title": "J Alzheimer’s Dis"
+      },
+      {
+        "key": "2022080900081365100_awab294-B69",
+        "doi-asserted-by": "crossref",
+        "first-page": "101594",
+        "DOI": "10.1016/j.nicl.2018.11.004",
+        "article-title": "FDG-PET hypometabolism is more sensitive than MRI atrophy in Parkinson’s disease: A whole-brain multimodal imaging meta-analysis",
+        "volume": "21",
+        "author": "Albrecht",
+        "year": "2019",
+        "journal-title": "NeuroImage Clin"
+      },
+      {
+        "key": "2022080900081365100_awab294-B70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3389/fncel.2015.00024",
+        "article-title": "Truncated tau deregulates synaptic markers in rat model for human tauopathy",
+        "volume": "9",
+        "author": "Jadhav",
+        "year": "2015",
+        "journal-title": "Front Cell Neurosci"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B71",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1097/00005072-199903000-00007",
+        "article-title": "Quantitative decrease in synaptophysin message expression and increase in cathepsin D message expression in Alzheimer disease neurons containing neurofibrillary tangles",
+        "volume": "58",
+        "author": "Callahan",
+        "year": "1999",
+        "journal-title": "J Neuropathol Exp Neurol"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B72",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/S1474-4422(09)70299-6",
+        "article-title": "Hypothetical model of dynamic biomarkers of the Alzheimer’s pathological cascade",
+        "volume": "9",
+        "author": "Jack",
+        "year": "2010",
+        "journal-title": "Lancet Neurol"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B73",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1148/radiol.12120010",
+        "article-title": "Predicting cognitive decline in subjects at risk for Alzheimer disease by using combined cerebrospinal fluid, MR imaging, and PET biomarker",
+        "volume": "266",
+        "author": "Shaffer",
+        "year": "2013",
+        "journal-title": "Radiology"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B74",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1159/000320265",
+        "article-title": "A comparison of the diagnostic sensitivity of MRI, CBF-SPECT, FDG-PET and cerebrospinal fluid biomarkers for detecting Alzheimer’s disease in a memory clinic",
+        "volume": "30",
+        "author": "Morinaga",
+        "year": "2010",
+        "journal-title": "Dement Geriatr Cogn Disord"
+      },
+      {
+        "issue": "45",
+        "key": "2022080900081365100_awab294-B75",
+        "doi-asserted-by": "crossref",
+        "first-page": "e17824",
+        "DOI": "10.1097/MD.0000000000017824",
+        "article-title": "The accuracy of hippocampal volumetry and glucose metabolism for the diagnosis of patients with suspected Alzheimer’s disease, using automatic quantitative clinical tools",
+        "volume": "98",
+        "author": "Ferrari",
+        "year": "2019",
+        "journal-title": "Med"
+      },
+      {
+        "issue": "16",
+        "key": "2022080900081365100_awab294-B76",
+        "doi-asserted-by": "crossref",
+        "first-page": "2352",
+        "DOI": "10.1002/mds.21714",
+        "article-title": "Comparison of brain MRI and 18F-FDG PET in the differential diagnosis of multiple system atrophy from Parkinson’s disease",
+        "volume": "22",
+        "author": "Kwon",
+        "year": "2007",
+        "journal-title": "Mov Disord"
+      },
+      {
+        "issue": "10",
+        "key": "2022080900081365100_awab294-B77",
+        "doi-asserted-by": "crossref",
+        "first-page": "890",
+        "DOI": "10.1212/WNL.0b013e3182840bbe",
+        "article-title": "Brain β-amyloid load approaches a plateau",
+        "volume": "80",
+        "author": "Jack",
+        "year": "2013",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B78",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1002/ana.25406",
+        "article-title": "Longitudinal tau accumulation and atrophy in aging and Alzheimer disease",
+        "volume": "85",
+        "author": "Harrison",
+        "year": "2019",
+        "journal-title": "Ann Neurol"
+      },
+      {
+        "issue": "10",
+        "key": "2022080900081365100_awab294-B79",
+        "doi-asserted-by": "crossref",
+        "first-page": "3136",
+        "DOI": "10.1093/brain/awaa248",
+        "article-title": "Predicting future rates of tau accumulation on PET",
+        "volume": "143",
+        "author": "Jack",
+        "year": "2020",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B80",
+        "doi-asserted-by": "crossref",
+        "first-page": "1216",
+        "DOI": "10.1016/j.neuron.2012.03.004",
+        "article-title": "Predicting regional neurodegeneration from the healthy brain functional connectome",
+        "volume": "73",
+        "author": "Zhou",
+        "year": "2012",
+        "journal-title": "Neuron"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B81",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1152/jn.00077.2008",
+        "article-title": "Distinct cortical anatomy linked to subregions of the medial temporal lobe revealed by intrinsic functional connectivity",
+        "volume": "100",
+        "author": "Kahn",
+        "year": "2008",
+        "journal-title": "J Neurophysiol"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B82",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1046/j.0953-816x.2001.01662.x",
+        "article-title": "Cortical projections of the non-entorhinal hippocampal formation in the cynomolgus monkey (Macaca fascicularis)",
+        "volume": "14",
+        "author": "Insausti",
+        "year": "2001",
+        "journal-title": "Eur J Neurosci"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B83",
+        "doi-asserted-by": "crossref",
+        "first-page": "511",
+        "DOI": "10.1002/hipo.450050604",
+        "article-title": "Topographically specific hippocampal projections target functionally distinct prefrontal areas in the rhesus monkey",
+        "volume": "5",
+        "author": "Barbas",
+        "year": "1995",
+        "journal-title": "Hippocampus"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B84",
+        "doi-asserted-by": "crossref",
+        "first-page": "642",
+        "DOI": "10.1002/cne.903630409",
+        "article-title": "Sensory and premotor connections of the orbital and medial prefrontal cortex of macaque monkeys",
+        "volume": "363",
+        "author": "Carmichael",
+        "year": "1995",
+        "journal-title": "J Comp Neurol"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B85",
+        "doi-asserted-by": "crossref",
+        "first-page": "1883",
+        "DOI": "10.1002/hipo.22024",
+        "article-title": "Medial temporal lobe projections to the retrosplenial cortex of the macaque monkey",
+        "volume": "22",
+        "author": "Aggleton",
+        "year": "2012",
+        "journal-title": "Hippocampus"
+      },
+      {
+        "issue": "7",
+        "key": "2022080900081365100_awab294-B86",
+        "doi-asserted-by": "crossref",
+        "first-page": "1579",
+        "DOI": "10.1016/j.neubiorev.2011.09.005",
+        "article-title": "Multiple anatomical systems embedded within the primate medial temporal lobe: Implications for hippocampal function",
+        "volume": "36",
+        "author": "Aggleton",
+        "year": "2012",
+        "journal-title": "Neurosci Biobehav Rev"
+      },
+      {
+        "issue": "11",
+        "key": "2022080900081365100_awab294-B87",
+        "doi-asserted-by": "crossref",
+        "first-page": "3301",
+        "DOI": "10.1093/brain/awq203",
+        "article-title": "Sequential relationships between grey matter and white matter atrophy and brain metabolic abnormalities in early Alzheimer’s disease",
+        "volume": "133",
+        "author": "Villain",
+        "year": "2010",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B88",
+        "doi-asserted-by": "crossref",
+        "first-page": "3328",
+        "DOI": "10.1152/jn.90355.2008",
+        "article-title": "Evidence for a frontoparietal control system revealed by intrinsic functional connectivity",
+        "volume": "100",
+        "author": "Vincent",
+        "year": "2008",
+        "journal-title": "J Neurophysiol"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B89",
+        "doi-asserted-by": "crossref",
+        "first-page": "740",
+        "DOI": "10.1016/j.neuroimage.2004.01.011",
+        "article-title": "Noninvasive in vivo demonstration of the connections of the human parahippocampal gyrus",
+        "volume": "22",
+        "author": "Powell",
+        "year": "2004",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B90",
+        "doi-asserted-by": "crossref",
+        "first-page": "1233",
+        "DOI": "10.1093/brain/awaa068",
+        "article-title": "Medial temporal lobe connectivity and its associations with cognition in early Alzheimer’s disease",
+        "volume": "143",
+        "author": "Berron",
+        "year": "2020",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "2022080900081365100_awab294-B91",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/bs.pbr.2015.04.001",
+        "article-title": "Cortico-hippocampal systems involved in memory and cognition: The PMAT framework",
+        "volume": "219",
+        "author": "Ritchey",
+        "year": "2015",
+        "journal-title": "Prog Brain Res"
+      },
+      {
+        "key": "2022080900081365100_awab294-B92",
+        "doi-asserted-by": "crossref",
+        "first-page": "1525",
+        "DOI": "10.12659/MSM.892137",
+        "article-title": "Glucose metabolism measured by positron emission tomography is reduced in patients with white matter presumably ischemic lesions",
+        "volume": "20",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Med Sci Monit"
+      },
+      {
+        "issue": "1-2",
+        "key": "2022080900081365100_awab294-B93",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1159/000445527",
+        "article-title": "Grey-matter metabolism in relation with white-matter lesions in older hypertensive patients with subjective memory complaints: A pilot voxel-based analysis study",
+        "volume": "42",
+        "author": "Verger",
+        "year": "2016",
+        "journal-title": "Cerebrovasc Dis"
+      },
+      {
+        "issue": "5",
+        "key": "2022080900081365100_awab294-B94",
+        "doi-asserted-by": "crossref",
+        "first-page": "e650",
+        "DOI": "10.1212/WNL.0000000000011270",
+        "article-title": "Association of APOE4 and clinical variability in Alzheimer disease with the pattern of tau- and amyloid-PET",
+        "volume": "96",
+        "author": "La Joie",
+        "year": "2021",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "12",
+        "key": "2022080900081365100_awab294-B95",
+        "doi-asserted-by": "crossref",
+        "first-page": "3286",
+        "DOI": "10.1093/brain/awx243",
+        "article-title": "Tau pathology and neurodegeneration contribute to cognitive impairment in Alzheimer’s disease",
+        "volume": "140",
+        "author": "Bejanin",
+        "year": "2017",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B96",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1002/alz.12079",
+        "article-title": "Contribution of mixed pathology to medial temporal lobe atrophy in Alzheimer’s disease",
+        "volume": "16",
+        "author": "de Flores",
+        "year": "2020",
+        "journal-title": "Alzheimer’s Dement"
+      },
+      {
+        "issue": "19 Pt 2",
+        "key": "2022080900081365100_awab294-B97",
+        "doi-asserted-by": "crossref",
+        "first-page": "1850",
+        "DOI": "10.1212/01.wnl.0000304041.09418.b1",
+        "article-title": "Abnormal TDP-43 immunoreactivity in AD modifies clinicopathologic and radiologic phenotype",
+        "volume": "70",
+        "author": "Josephs",
+        "year": "2008",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "2",
+        "key": "2022080900081365100_awab294-B98",
+        "doi-asserted-by": "crossref",
+        "first-page": "e142",
+        "DOI": "10.1212/WNL.0000000000008679",
+        "article-title": "Contribution of TDP and hippocampal sclerosis to hippocampal volume loss in older-old persons",
+        "volume": "94",
+        "author": "Yu",
+        "year": "2020",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "6",
+        "key": "2022080900081365100_awab294-B99",
+        "doi-asserted-by": "crossref",
+        "first-page": "1503",
+        "DOI": "10.1093/brain/awz099",
+        "article-title": "Limbic-predominant age-related TDP-43 encephalopathy (LATE): Consensus working group report",
+        "volume": "142",
+        "author": "Nelson",
+        "year": "2019",
+        "journal-title": "Brain."
+      },
+      {
+        "key": "2022080900081365100_awab294-B100",
+        "doi-asserted-by": "crossref",
+        "first-page": "2186",
+        "DOI": "10.1093/brain/awab099",
+        "article-title": "Comorbid neuropathological diagnoses in early versus late-onset Alzheimer’s disease",
+        "author": "Spina",
+        "year": "2021",
+        "journal-title": "Brain."
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B101",
+        "doi-asserted-by": "crossref",
+        "first-page": "1201",
+        "DOI": "10.1093/brain/awy049",
+        "article-title": "FDG-PET in tau-negative amnestic dementia resembles that of autopsy-proven hippocampal sclerosis",
+        "volume": "141",
+        "author": "Botha",
+        "year": "2018",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B102",
+        "first-page": "1",
+        "article-title": "A biomarker study in long-lasting amnestic mild cognitive impairment",
+        "volume": "10",
+        "author": "Cerami",
+        "year": "2018",
+        "journal-title": "Alzheimer’s Res Ther"
+      },
+      {
+        "issue": "11",
+        "key": "2022080900081365100_awab294-B103",
+        "doi-asserted-by": "crossref",
+        "first-page": "3477",
+        "DOI": "10.1093/brain/awaa276",
+        "article-title": "18F-flortaucipir PET to autopsy comparisons in Alzheimer’s disease and other neurodegenerative diseases",
+        "volume": "143",
+        "author": "Soleimani-Meigooni",
+        "year": "2020",
+        "journal-title": "Brain"
+      },
+      {
+        "issue": "10",
+        "key": "2022080900081365100_awab294-B104",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1089/brain.2020.0785",
+        "article-title": "Regional disconnection in Alzheimer dementia and amyloid positive MCI: Association of EEG functional connectivity and brain glucose metabolism",
+        "volume": "10",
+        "author": "Smailovic",
+        "year": "2020",
+        "journal-title": "Brain Connect."
+      },
+      {
+        "issue": "13",
+        "key": "2022080900081365100_awab294-B105",
+        "doi-asserted-by": "crossref",
+        "first-page": "4134",
+        "DOI": "10.1002/hbm.24517",
+        "article-title": "Effective connectivity in the default mode network is distinctively disrupted in Alzheimer’s disease—A simultaneous resting-state FDG-PET/fMRI study",
+        "volume": "42",
+        "author": "Scherr",
+        "year": "2021",
+        "journal-title": "Hum Brain Mapp."
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B106",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1038/s41593-018-0070-z",
+        "article-title": "Structural tract alterations predict downstream tau accumulation in amyloid-positive older individuals",
+        "volume": "21",
+        "author": "Jacobs",
+        "year": "2018",
+        "journal-title": "Nat Neurosci"
+      },
+      {
+        "key": "2022080900081365100_awab294-B107",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/j.neuroimage.2017.02.051",
+        "article-title": "Amyloid and tau PET demonstrate region-specific associations in normal older people",
+        "volume": "150",
+        "author": "Lockhart",
+        "year": "2017",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "issue": "9",
+        "key": "2022080900081365100_awab294-B108",
+        "doi-asserted-by": "crossref",
+        "first-page": "1212",
+        "DOI": "10.15252/emmm.201707809",
+        "article-title": "18 F-AV-1451 and CSF T-tau and P-tau as biomarkers in Alzheimer’s disease",
+        "volume": "9",
+        "author": "Mattsson",
+        "year": "2017",
+        "journal-title": "EMBO Mol Med"
+      },
+      {
+        "issue": "4",
+        "key": "2022080900081365100_awab294-B109",
+        "doi-asserted-by": "crossref",
+        "first-page": "E282",
+        "DOI": "10.1212/WNL.0000000000004860",
+        "article-title": "Associations between [18F]AV1451 tau PET and CSF measures of tau pathology in a clinical sample",
+        "volume": "90",
+        "author": "La Joie",
+        "year": "2018",
+        "journal-title": "Neurology"
+      },
+      {
+        "issue": "3",
+        "key": "2022080900081365100_awab294-B110",
+        "doi-asserted-by": "crossref",
+        "first-page": "393",
+        "DOI": "10.1038/nn.4492",
+        "article-title": "[18F]FDG PET signal is driven by astroglial glutamate transport",
+        "volume": "20",
+        "author": "Zimmer",
+        "year": "2017",
+        "journal-title": "Nat Neurosci"
+      },
+      {
+        "issue": "1",
+        "key": "2022080900081365100_awab294-B111",
+        "first-page": "1",
+        "article-title": "The combined effects of microglia activation and brain glucose hypometabolism in early-onset Alzheimer’s disease",
+        "volume": "12",
+        "author": "Tondo",
+        "year": "2020",
+        "journal-title": "Alzheimer’s Res Ther"
+      }
+    ],
+    "container-title": [
+      "Brain"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awab294/42540270/awab294.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/brain/article-pdf/145/2/713/43390518/awab294.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/brain/article-pdf/145/2/713/43390518/awab294.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2023-11-06T20:13:25Z",
+      "timestamp": 1699301605000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/brain/article/145/2/713/6346980"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    },
+    "references-count": 111,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            18
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/brain/awab294",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2021.03.08.21252999",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0006-8950",
+      "1460-2156"
+    ],
+    "issn-type": [
+      {
+        "value": "0006-8950",
+        "type": "print"
+      },
+      {
+        "value": "1460-2156",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          1
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          9
+        ]
+      ]
+    }
+  }
+}

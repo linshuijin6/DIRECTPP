@@ -1,0 +1,24 @@
+\begin{table}[p]\centering\small
+\caption{\textbf{E1 fixed-weight score-removal sensitivity.} Differences are No-Scores minus Full, except the nonnegative output difference between predictions. This is a distinct E1 Full checkpoint family, not the reconstructed Full used in the generator-comparison tables.}
+\label{tab:e1_score_removal}
+\begin{tabularx}{\textwidth}{llrXrrr}
+\toprule
+Tracer & Metric & N & Mean $\Delta$ & CI lower & CI upper & Holm $p$ \\
+\midrule
+FDG & ROI MAE & 1597 & 3.63611e-05 & 1.18272e-05 & 6.01943e-05 & 0.0035996 \\
+FDG & Masked MAE & 1597 & -1.39166e-05 & -3.50725e-05 & 7.21746e-06 & 0.22038 \\
+FDG & PSNR & 1597 & -0.00417362 & -0.00673816 & -0.00160625 & -- \\
+FDG & SSIM (7) & 1597 & 0.000220733 & 0.000182378 & 0.000260921 & -- \\
+FDG & SSIM (11) & 1597 & 0.000215856 & 0.000178967 & 0.000253801 & -- \\
+FDG & Output difference & 1597 & 0.00101927 & 0.00100572 & 0.00103318 & -- \\
+AV45 & ROI MAE & 1364 & 7.87648e-05 & 4.56388e-06 & 0.000152402 & 0.039996 \\
+AV45 & Masked MAE & 1364 & 0.0001445 & 9.57843e-05 & 0.000193458 & 0.00039996 \\
+AV45 & PSNR & 1364 & -0.0201903 & -0.0247279 & -0.0157227 & -- \\
+AV45 & SSIM (7) & 1364 & 0.000684918 & 0.000619745 & 0.000750227 & -- \\
+AV45 & SSIM (11) & 1364 & 0.000554805 & 0.000491236 & 0.000619548 & -- \\
+AV45 & Output difference & 1364 & 0.00110469 & 0.0010868 & 0.00112321 & -- \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\footnotesize
+The MRI, tracer context and model weights are fixed; the eight-field patient token is replaced with a frozen Age+Sex+Weight token, not an empty token. No model is retrained. ROI/masked MAE use normalized-intensity units, PSNR is dB, and SSIM is unitless. CIs use 10,000 within-fold paired bootstrap resamples (seed 20261017). ROI and masked MAE are the primary endpoints: paired sign-permutation tests use 10,000 permutations and Holm correction across the two tracers separately within each endpoint. Other intervals are descriptive. The full-reference measurements were reused; whole-cohort Full predictions were not replayed anew. Nonzero output sensitivity and small error changes do not prove independent clinical value.
+\end{table}

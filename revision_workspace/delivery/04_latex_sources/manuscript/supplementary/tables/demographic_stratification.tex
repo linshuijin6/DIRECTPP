@@ -1,0 +1,101 @@
+% R2-16 subgroup tables; generated from summary_metrics.csv.
+% Requires graphicx (resizebox). No manuscript file is modified.
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Age- and sex-stratified classification performance: AD vs CN.}
+\label{tab:r2-16-ad-cn}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrcc}
+\hline
+Subgroup & Input & $N$ & Negative & Positive & AUC (\%) [95\% CI] & Balanced ACC (\%) [95\% CI] \\
+\hline
+Age $<75$ & MRI & 256 & 177 & 79 & 88.17 [83.22, 92.56] & 80.27 [74.84, 85.42] \\
+ & MRI+Syn dual PET & 256 & 177 & 79 & 93.02 [88.60, 96.90] & 87.71 [83.01, 91.96] \\
+ & MRI+Real dual PET & 256 & 177 & 79 & 93.69 [88.98, 97.46] & 90.10 [85.63, 93.98] \\
+\hline
+Age $\geq75$ & MRI & 214 & 128 & 86 & 84.99 [79.58, 89.90] & 76.42 [70.59, 82.07] \\
+ & MRI+Syn dual PET & 214 & 128 & 86 & 93.83 [90.34, 96.73] & 86.33 [81.41, 90.75] \\
+ & MRI+Real dual PET & 214 & 128 & 86 & 94.55 [91.36, 97.17] & 87.74 [83.01, 92.14] \\
+\hline
+Female & MRI & 226 & 155 & 71 & 84.85 [78.40, 90.29] & 77.05 [70.86, 82.84] \\
+ & MRI+Syn dual PET & 226 & 155 & 71 & 94.55 [90.43, 97.73] & 88.02 [83.17, 92.52] \\
+ & MRI+Real dual PET & 226 & 155 & 71 & 94.70 [90.12, 97.88] & 88.45 [83.25, 93.04] \\
+\hline
+Male & MRI & 244 & 150 & 94 & 87.54 [82.46, 91.80] & 78.59 [73.01, 83.57] \\
+ & MRI+Syn dual PET & 244 & 150 & 94 & 93.07 [89.24, 96.32] & 86.89 [82.16, 91.03] \\
+ & MRI+Real dual PET & 244 & 150 & 94 & 93.15 [89.20, 96.41] & 88.74 [84.24, 92.83] \\
+\hline
+\end{tabular}}
+\par\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95\% percentile intervals from 5,000 paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Age- and sex-stratified classification performance: EMCI+LMCI vs CN.}
+\label{tab:r2-16-mci-cn}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrcc}
+\hline
+Subgroup & Input & $N$ & Negative & Positive & AUC (\%) [95\% CI] & Balanced ACC (\%) [95\% CI] \\
+\hline
+Age $<75$ & MRI & 456 & 177 & 279 & 71.56 [66.47, 76.49] & 66.28 [62.07, 70.67] \\
+ & MRI+Syn dual PET & 456 & 177 & 279 & 67.96 [62.99, 72.82] & 60.84 [56.65, 65.07] \\
+ & MRI+Real dual PET & 456 & 177 & 279 & 69.28 [64.47, 74.07] & 63.35 [58.88, 67.95] \\
+\hline
+Age $\geq75$ & MRI & 285 & 128 & 157 & 71.44 [65.36, 77.37] & 62.91 [57.85, 68.12] \\
+ & MRI+Syn dual PET & 285 & 128 & 157 & 71.86 [65.66, 77.68] & 64.94 [60.10, 69.99] \\
+ & MRI+Real dual PET & 285 & 128 & 157 & 70.82 [64.85, 76.86] & 64.11 [58.89, 69.50] \\
+\hline
+Female & MRI & 351 & 155 & 196 & 72.83 [67.25, 78.06] & 64.58 [59.83, 69.35] \\
+ & MRI+Syn dual PET & 351 & 155 & 196 & 68.19 [62.27, 73.84] & 62.11 [57.49, 66.79] \\
+ & MRI+Real dual PET & 351 & 155 & 196 & 69.47 [63.90, 74.92] & 61.80 [56.79, 66.74] \\
+\hline
+Male & MRI & 390 & 150 & 240 & 70.45 [65.00, 75.74] & 65.26 [60.83, 69.83] \\
+ & MRI+Syn dual PET & 390 & 150 & 240 & 70.79 [65.50, 75.90] & 62.89 [58.40, 67.35] \\
+ & MRI+Real dual PET & 390 & 150 & 240 & 68.85 [63.24, 74.17] & 64.64 [59.72, 69.43] \\
+\hline
+\end{tabular}}
+\par\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95\% percentile intervals from 5,000 paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Age- and sex-stratified classification performance: EMCI vs LMCI.}
+\label{tab:r2-16-emci-lmci}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrcc}
+\hline
+Subgroup & Input & $N$ & Negative & Positive & AUC (\%) [95\% CI] & Balanced ACC (\%) [95\% CI] \\
+\hline
+Age $<75$ & MRI & 279 & 192 & 87 & 63.05 [56.22, 70.16] & 54.83 [50.58, 59.32] \\
+ & MRI+Syn dual PET & 279 & 192 & 87 & 67.22 [60.31, 73.81] & 59.69 [54.02, 65.38] \\
+ & MRI+Real dual PET & 279 & 192 & 87 & 60.90 [53.61, 67.96] & 58.22 [53.01, 63.18] \\
+\hline
+Age $\geq75$ & MRI & 157 & 95 & 62 & 60.34 [50.90, 69.53] & 50.57 [44.73, 56.32] \\
+ & MRI+Syn dual PET & 157 & 95 & 62 & 63.68 [54.37, 72.48] & 60.21 [52.28, 67.63] \\
+ & MRI+Real dual PET & 157 & 95 & 62 & 63.13 [54.27, 71.58] & 59.35 [51.65, 67.06] \\
+\hline
+Female & MRI & 196 & 124 & 72 & 62.55 [54.22, 70.81] & 55.06 [49.87, 60.73] \\
+ & MRI+Syn dual PET & 196 & 124 & 72 & 67.23 [59.36, 74.89] & 61.64 [54.97, 68.46] \\
+ & MRI+Real dual PET & 196 & 124 & 72 & 63.21 [55.17, 71.01] & 60.65 [54.32, 67.15] \\
+\hline
+Male & MRI & 240 & 163 & 77 & 64.67 [56.97, 72.05] & 52.86 [48.50, 57.37] \\
+ & MRI+Syn dual PET & 240 & 163 & 77 & 65.84 [58.33, 73.24] & 58.65 [52.77, 64.92] \\
+ & MRI+Real dual PET & 240 & 163 & 77 & 63.29 [55.47, 71.07] & 57.54 [51.54, 63.57] \\
+\hline
+\end{tabular}}
+\par\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+Metrics are equal means of three within-fold subgroup estimates. Intervals are marginal 95\% percentile intervals from 5,000 paired resamples within fold, subgroup and true class, conditional on fixed models and folds; no multiplicity correction was applied. Age and sex are separate subgroup analyses. Positive classes are AD, EMCI+LMCI and LMCI for the respective tasks. Recorded age could not be aligned to the MRI visit because the recovered export lacks visit dates.
+\end{minipage}
+\end{table}

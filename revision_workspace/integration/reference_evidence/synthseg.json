@@ -1,0 +1,1024 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1016%2Fj.media.2023.102789",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T14:14:06Z",
+      "timestamp": 1793715246200,
+      "version": "4.6.1"
+    },
+    "reference-count": 76,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2023-05-01T00:00:00Z",
+          "timestamp": 1682899200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2023-05-01T00:00:00Z",
+          "timestamp": 1682899200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2023-02-23T00:00:00Z",
+          "timestamp": 1677110400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Medical Image Analysis"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.media.2023.102789",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2023-02-24T22:39:44Z",
+      "timestamp": 1677278384000
+    },
+    "page": "102789",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 729,
+    "special_numbering": "C",
+    "title": [
+      "SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining"
+    ],
+    "prefix": "10.1016",
+    "volume": "86",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3018-1282",
+        "authenticated-orcid": false,
+        "given": "Benjamin",
+        "family": "Billot",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0610-0155",
+        "authenticated-orcid": false,
+        "given": "Douglas N.",
+        "family": "Greve",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3186-244X",
+        "authenticated-orcid": false,
+        "given": "Oula",
+        "family": "Puonti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4752-5854",
+        "authenticated-orcid": false,
+        "given": "Axel",
+        "family": "Thielscher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6466-5309",
+        "authenticated-orcid": false,
+        "given": "Koen",
+        "family": "Van Leemput",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruce",
+        "family": "Fischl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8422-0136",
+        "authenticated-orcid": false,
+        "given": "Adrian V.",
+        "family": "Dalca",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan Eugenio",
+        "family": "Iglesias",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.media.2023.102789_b1",
+        "unstructured": "Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., 2016. Tensorflow: A system for large-scale machine learning. In: Symposium on Operating Systems Design and Implementation. pp. 265–283."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arsigny, V., Commowick, O., Pennec, X., Ayache, N., 2006. A log-Euclidean framework for statistics on diffeomorphisms. In: Medical Image Computing and Computer Assisted Intervention. pp. 924–931.",
+        "DOI": "10.1007/11866565_113"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2023.102789_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.1016/j.neuroimage.2005.02.018",
+        "article-title": "Unified segmentation",
+        "volume": "26",
+        "author": "Ashburner",
+        "year": "2005",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b4",
+        "unstructured": "Bengio, Y., Bastien, F., Bergeron, A., Boulanger-Lewandowski, N., Breuel, T., Chherawala, Y., Cisse, M., et al., 2011. Deep learners benefit more from out-of-distribution examples. In: International Conference on Artificial Intelligence and Statistics. pp. 164–172."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Billot, B., Cerri, S., Van Leemput, K., Dalca, A., Iglesias, J.E., 2021. Joint segmentation of multiple sclerosis lesions and brain anatomy in MRI scans of any contrast and resolution with CNNs. In: IEEE International Symposium on Biomedical Imaging. pp. 1971–1974.",
+        "DOI": "10.1109/ISBI48211.2021.9434127"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b6",
+        "series-title": "Medical Imaging with Deep Learning",
+        "first-page": "75",
+        "article-title": "A learning strategy for contrast-agnostic MRI segmentation",
+        "author": "Billot",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b7",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention",
+        "first-page": "177",
+        "article-title": "Partial volume segmentation of brain MRI scans of any resolution and contrast",
+        "author": "Billot",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b8",
+        "first-page": "12546",
+        "article-title": "Contrastive learning of global and local features for medical image segmentation with limited annotations",
+        "volume": "vol. 33",
+        "author": "Chaitanya",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b9",
+        "series-title": "Information Processing in Medical Imaging",
+        "first-page": "29",
+        "article-title": "Semi-supervised and task-driven data augmentation",
+        "author": "Chaitanya",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1109/TMI.2017.2764326",
+        "article-title": "Multimodal MR synthesis via modality-invariant latent representation",
+        "volume": "37",
+        "author": "Chartsias",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b11",
+        "first-page": "65",
+        "article-title": "Synergistic image and feature adaptation: Towards cross-modality domain adaptation for medical image segmentation",
+        "volume": "33",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2022.102597",
+        "article-title": "Enhancing MR image segmentation with realistic adversarial data augmentation",
+        "volume": "82",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "395",
+        "DOI": "10.1109/42.97590",
+        "article-title": "Partial volume tissue classification of multichannel magnetic resonance images-a mixel model",
+        "volume": "10",
+        "author": "Choi",
+        "year": "1991",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b14",
+        "series-title": "Keras",
+        "author": "Chollet",
+        "year": "2015"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.media.2023.102789_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "579",
+        "DOI": "10.1002/hipo.20626",
+        "article-title": "Fully automatic hippocampus segmentation and classification in Alzheimer’s disease and mild cognitive impairment applied on data from ADNI",
+        "volume": "19",
+        "author": "Chupin",
+        "year": "2009",
+        "journal-title": "Hippocampus"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b16",
+        "series-title": "Fast and accurate deep network learning by exponential linear units (ELUs)",
+        "author": "Clevert",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b17",
+        "series-title": "Statistical Power Analysis for the Behavioural Sciences",
+        "author": "Cohen",
+        "year": "1988"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.1016/j.neuroimage.2015.03.069",
+        "article-title": "Harvard aging brain study: Dataset and accessibility",
+        "volume": "144",
+        "author": "Dagley",
+        "year": "2017",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2023.102789_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1111/j.2517-6161.1977.tb01600.x",
+        "article-title": "Maximum likelihood from incomplete data via the EM algorithm",
+        "volume": "39",
+        "author": "Dempster",
+        "year": "1977",
+        "journal-title": "J. R. Stat. Soc."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.media.2023.102789_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "659",
+        "DOI": "10.1038/mp.2013.78",
+        "article-title": "The autism brain imaging data exchange: Towards large-scale evaluation of the intrinsic brain architecture in autism",
+        "volume": "19",
+        "author": "Di Martino",
+        "year": "2014",
+        "journal-title": "Mol. Psychiatry"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ACCESS.2019.2929258",
+        "article-title": "PnP-AdaNet: Plug-and-play adversarial domain adaptation network at unpaired cross-modality cardiac segmentation",
+        "volume": "7",
+        "author": "Dou",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1016/j.neuroimage.2012.01.021",
+        "article-title": "FreeSurfer",
+        "volume": "62",
+        "author": "Fischl",
+        "year": "2012",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/S0896-6273(02)00569-X",
+        "article-title": "Whole brain segmentation: Automated labeling of neuroanatomical structures in the human brain",
+        "volume": "33",
+        "author": "Fischl",
+        "year": "2002",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.neuroimage.2004.07.016",
+        "article-title": "Sequence-independent segmentation of magnetic resonance images",
+        "volume": "23",
+        "author": "Fischl",
+        "year": "2004",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Frid-Adar, M., Klang, E., Amitai, M., Goldberger, J., Greenspan, H., 2018. Synthetic data augmentation using GAN for improved liver lesion classification. In: IEEE International Symposium on Biomedical Imaging. pp. 289–293.",
+        "DOI": "10.1109/ISBI.2018.8363576"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b26",
+        "series-title": "Domain Adaptation in Computer Vision Applications",
+        "first-page": "189",
+        "article-title": "Domain-adversarial training of neural networks",
+        "author": "Ganin",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b27",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention",
+        "first-page": "516",
+        "article-title": "Transfer learning for domain adaptation in MRI: Application in brain lesion segmentation",
+        "author": "Ghafoorian",
+        "year": "2017"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2023.102789_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1007/s12021-013-9184-3",
+        "article-title": "The MCIC collection: A shared repository of multi-modal, multi-site brain image data from a clinical investigation of schizophrenia",
+        "volume": "11",
+        "author": "Gollub",
+        "year": "2013",
+        "journal-title": "Neuroinformatics"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b29",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "469",
+        "article-title": "HeMIS: Hetero-modal image segmentation",
+        "author": "Havaei",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.102136",
+        "article-title": "Autoencoder based self-supervised test-time adaptation for medical image analysis",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b31",
+        "unstructured": "Hoffman, J., Tzeng, E., Park, T., Zhu, J.Y., Isola, P., Saenko, K., Efros, A., Darrell, T., 2018. CyCADA: Cycle-consistent adversarial domain adaptation. In: International Conference on Machine Learning. pp. 1989–1998."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2023.102789_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/sdata.2015.31",
+        "article-title": "Brain genomics superstruct project initial data release with structural, functional, and behavioral measures",
+        "volume": "2",
+        "author": "Holmes",
+        "year": "2015",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2023.102789_b33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1016",
+        "DOI": "10.1109/TMI.2018.2876633",
+        "article-title": "SynSeg-Net: Synthetic segmentation without target modality ground truth",
+        "volume": "38",
+        "author": "Huo",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.media.2023.102789_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1177/002221949102400302",
+        "article-title": "Corpus callosum morphology in attention deficit-hyperactivity disorder: Morphometric analysis of MRI",
+        "volume": "24",
+        "author": "Hynd",
+        "year": "1991",
+        "journal-title": "J. Learn. Disabil."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neuroimage.2021.118206",
+        "article-title": "Joint super-resolution and synthesis of 1 mm isotropic MP-RAGE volumes from clinical MRI exams with scans of different orientation, resolution and contrast",
+        "volume": "237",
+        "author": "Iglesias",
+        "year": "2021",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1016/j.neuroimage.2018.08.012",
+        "article-title": "A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology",
+        "volume": "183",
+        "author": "Iglesias",
+        "year": "2018",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b37",
+        "unstructured": "Ioffe, S., Szegedy, C., 2015. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International Conference on Machine Learning. pp. 448–456."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.media.2023.102789_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1038/s41592-020-01008-z",
+        "article-title": "nnU-Net: A self-configuring method for deep learning-based biomedical image segmentation",
+        "volume": "18",
+        "author": "Isensee",
+        "year": "2021",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Isola, P., Zhu, J., Zhou, T., Efros, A., 2017. Image-to-image translation with conditional adversarial networks. In: IEEE Conference on Computer Vision and Pattern Recognition. pp. 1125–1134.",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b40",
+        "series-title": "Advances in Artificial Life",
+        "first-page": "704",
+        "article-title": "Noise and the reality gap: The use of simulation in evolutionary robotics",
+        "author": "Jakobi",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b41",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention",
+        "first-page": "654",
+        "article-title": "Pulse sequence resilient fast brain segmentation",
+        "author": "Jog",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b42",
+        "series-title": "Information Processing in Medical Imaging",
+        "first-page": "597",
+        "article-title": "Unsupervised domain adaptation in brain lesion segmentation with adversarial networks",
+        "author": "Kamnitsas",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.media.2016.10.004",
+        "article-title": "Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation",
+        "volume": "36",
+        "author": "Kamnitsas",
+        "year": "2017",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b44",
+        "series-title": "Medical Image Computing and Computer Assisted Intervention",
+        "first-page": "476",
+        "article-title": "A lifelong learning approach to brain MR segmentation across scanners and protocols",
+        "author": "Karani",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2020.101907",
+        "article-title": "Test-time adaptable neural networks for robust medical image segmentation",
+        "volume": "68",
+        "author": "Karani",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b46",
+        "series-title": "Adam: A method for stochastic optimization",
+        "author": "Kingma",
+        "year": "2017"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.media.2023.102789_b47",
+        "doi-asserted-by": "crossref",
+        "first-page": "3257",
+        "DOI": "10.1109/TMI.2019.2927182",
+        "article-title": "Deep adversarial training for multi-organ nuclei segmentation in histopathology images",
+        "volume": "39",
+        "author": "Mahmood",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b48",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1162/jocn.2007.19.9.1498",
+        "article-title": "Open access series of imaging studies: Cross-sectional MRI data in Young, middle aged, nondemented, and demented older adults",
+        "volume": "19",
+        "author": "Marcus",
+        "year": "2007",
+        "journal-title": "J. Cogn. Neurosci."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2023.102789_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1016/j.pneurobio.2011.09.005",
+        "article-title": "The parkinson progression marker initiative (PPMI)",
+        "volume": "95",
+        "author": "Marek",
+        "year": "2011",
+        "journal-title": "Progress Neurobiol."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Milletari, F., Navab, N., Ahmadi, S., 2016. V-Net: Fully convolutional neural networks for volumetric medical image segmentation. In: International Conference on 3D Vision. pp. 565–571.",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b51",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1038/s41598-020-61808-3",
+        "article-title": "Test-time augmentation for deep learning-based cell segmentation on microscopy images",
+        "volume": "10",
+        "author": "Moshkov",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.media.2023.102789_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "2233",
+        "DOI": "10.1093/cercor/bhq296",
+        "article-title": "Underconnected, but How? A survey of functional connectivity MRI studies in autism spectrum disorders",
+        "volume": "21",
+        "author": "Müller",
+        "year": "2011",
+        "journal-title": "Cerebral Cortex"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b53",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1109/TKDE.2009.191",
+        "article-title": "A survey on transfer learning",
+        "volume": "22",
+        "author": "Pan",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b54",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.1016/j.neuroimage.2016.09.011",
+        "article-title": "Fast and sequence-adaptive whole-brain segmentation using parametric Bayesian modeling",
+        "volume": "143",
+        "author": "Puonti",
+        "year": "2016",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b55",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neuroimage.2020.117044",
+        "article-title": "Accurate and robust whole-head segmentation from magnetic resonance images for individualized head modeling",
+        "volume": "219",
+        "author": "Puonti",
+        "year": "2020",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richter, S.R., Vineet, V., Roth, S., Koltun, V., 2016. Playing for data: Ground truth from computer games. In: Computer Vision – ECCV. pp. 102–118.",
+        "DOI": "10.1007/978-3-319-46475-6_7"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b57",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "234",
+        "article-title": "U-Net: Convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2023.102789_b58",
+        "doi-asserted-by": "crossref",
+        "first-page": "16884",
+        "DOI": "10.1038/s41598-019-52737-x",
+        "article-title": "Data augmentation using generative adversarial networks (CycleGAN) to improve generalizability in CT segmentation tasks",
+        "volume": "9",
+        "author": "Sandfort",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2023.102789_b59",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1007/s00234-008-0383-9",
+        "article-title": "Validation of hippocampal volumes measured using a manual method and two automated methods (FreeSurfer and IBASPM) in chronic major depressive disorder",
+        "volume": "50",
+        "author": "Tae",
+        "year": "2008",
+        "journal-title": "Neuroradiology"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b60",
+        "article-title": "The ADHD-200 consortium: A model to advance the translational potential of neuroimaging in clinical neuroscience",
+        "volume": "6",
+        "author": "The ADHD-200 Consortium",
+        "year": "2012",
+        "journal-title": "Front. Syst. Neurosci."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tobin, J., Fong, R., Ray, A., Schneider, J., Zaremba, W., Abbeel, P., 2017. Domain randomization for transferring deep neural networks from simulation to the real world. In: IEEE/RSJ International Conference on Intelligent Robots and Systems. pp. 23–30.",
+        "DOI": "10.1109/IROS.2017.8202133"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2023.102789_b62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1460",
+        "DOI": "10.1109/TMI.2015.2398818",
+        "article-title": "Benchmark for algorithms segmenting the left atrium from 3D CT and MRI datasets",
+        "volume": "34",
+        "author": "Tobon-Gomez",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tremblay, J., Prakash, A., Acuna, D., Brophy, M., Jampani, V., Anil, C., To, T., Cameracci, E., Boochoon, S., Birchfield, S., 2018. Training deep networks with synthetic data: Bridging the reality gap by domain randomization. In: IEEE Conference on Computer Vision and Pattern Recognition Workshops. pp. 969–977.",
+        "DOI": "10.1109/CVPRW.2018.00143"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2023.102789_b64",
+        "doi-asserted-by": "crossref",
+        "first-page": "2222",
+        "DOI": "10.1016/j.neuroimage.2012.02.018",
+        "article-title": "The human connectome project: A data acquisition perspective",
+        "volume": "62",
+        "author": "Van Essen",
+        "year": "2012",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b65",
+        "first-page": "87",
+        "article-title": "Automated model-based tissue classification of MR images of the brain",
+        "author": "Van Leemput",
+        "year": "1999",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b66",
+        "article-title": "A unifying framework for partial volume segmentation of brain MR images",
+        "volume": "22",
+        "author": "Van Leemput",
+        "year": "2003",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2023.102789_b67",
+        "doi-asserted-by": "crossref",
+        "first-page": "903",
+        "DOI": "10.1109/TMI.2004.828354",
+        "article-title": "Simultaneous truth and performance level estimation: An algorithm for the validation of image segmentation",
+        "volume": "23",
+        "author": "Warfield",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.media.2023.102789_b68",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1016/S1361-8415(01)80004-9",
+        "article-title": "Multi-modal volume registration by maximization of mutual information",
+        "volume": "1",
+        "author": "Wells",
+        "year": "1996",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.media.2023.102789_b69",
+        "doi-asserted-by": "crossref",
+        "first-page": "554",
+        "DOI": "10.1097/00004728-199707000-00007",
+        "article-title": "Comparison and evaluation of retrospective intermodality brain image registration techniques",
+        "volume": "21",
+        "author": "West",
+        "year": "1997",
+        "journal-title": "J. Comput. Assist. Tomogr."
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b70",
+        "series-title": "Distributed, Collaborative, and Federated Learning, and Affordable AI and Healthcare for Resource Diverse Global Health",
+        "first-page": "3",
+        "article-title": "Incremental learning meets transfer learning: Application to multi-site prostate MRI segmentation",
+        "author": "You",
+        "year": "2022"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.media.2023.102789_b71",
+        "doi-asserted-by": "crossref",
+        "first-page": "2228",
+        "DOI": "10.1109/TMI.2022.3161829",
+        "article-title": "SimCVD: Simple contrastive voxel-wise representation distillation for semi-supervised medical image segmentation",
+        "volume": "41",
+        "author": "You",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.media.2023.102789_b72",
+        "doi-asserted-by": "crossref",
+        "first-page": "2531",
+        "DOI": "10.1109/TMI.2020.2973595",
+        "article-title": "Generalizing deep learning for medical image segmentation to unseen domains via deep stacked transformation",
+        "volume": "39",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b73",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "408",
+        "article-title": "Deep adversarial networks for biomedical image segmentation utilizing unannotated images",
+        "author": "Zhang",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Yang, L., Zheng, Y., 2018. Translating and segmenting multimodal medical volumes with cycle- and shape-consistency generative adversarial network. In: IEEE Conference on Computer Vision and Pattern Recognition. pp. 242–251.",
+        "DOI": "10.1109/CVPR.2018.00963"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, A., Balakrishnan, G., Durand, F., Guttag, J., Dalca, A., 2019. Data augmentation using learned transformations for one-shot medical image segmentation. In: IEEE Conference on Computer Vision and Pattern Recognition. pp. 8543–8553.",
+        "DOI": "10.1109/CVPR.2019.00874"
+      },
+      {
+        "key": "10.1016/j.media.2023.102789_b76",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101537",
+        "article-title": "Evaluation of algorithms for multi-modality whole heart segmentation: An open-access grand challenge",
+        "volume": "58",
+        "author": "Zhuang",
+        "year": "2019",
+        "journal-title": "Med. Image Anal."
+      }
+    ],
+    "container-title": [
+      "Medical Image Analysis"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841523000506?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1361841523000506?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2025-10-23T18:53:21Z",
+      "timestamp": 1761245601000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361841523000506"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "references-count": 76,
+    "alternative-id": [
+      "S1361841523000506"
+    ],
+    "URL": "https://doi.org/10.1016/j.media.2023.102789",
+    "relation": {},
+    "ISSN": [
+      "1361-8415"
+    ],
+    "issn-type": [
+      {
+        "value": "1361-8415",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Medical Image Analysis",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.media.2023.102789",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The Author(s). Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102789"
+  }
+}

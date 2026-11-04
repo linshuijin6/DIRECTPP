@@ -1,0 +1,11 @@
+The modality-specific guidance embeddings $\text{Adapt}_f(c_f)$ and $\text{Adapt}_a(c_a)$ are pre-computed by optimizing Eq.~\eqref{eq:align_opt} and remain fixed throughout training and inference. These pre-computed vectors are subsequently used to steer the rectified flow translation process in a domain-informed manner. Specifically, for each subject, the composite conditioning context $\mathbf{c} $ is formed by stacking the appropriate modality guidance vector with a subject-specific clinical embedding along the token dimension:
+\begin{equation}
+\mathbf{c} = 
+\begin{bmatrix}
+\text{Adapt}_m(c_m) \\
+c_{\text{demo}}
+\end{bmatrix}
+,
+\label{eq:composite_conditioning}
+\end{equation}
+where $m \in \{f, a\}$ denotes the target PET tracer ($f$: FDG; $a$: AV45). Here, $\text{Adapt}_m(c_m)$ is the fixed guidance embedding obtained from the alignment optimization, and $c_{\text{demo}} $ is a frozen BiomedCLIP text embedding derived from a standardized clinical prompt encoding the individual’s demographic and cognitive profile (e.g., age, sex, weight, and neuropsychological scores).

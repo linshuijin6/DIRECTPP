@@ -1,0 +1,5 @@
+{
+  "figure_1": "Bottom evaluation boxes clipped at axes border. Move them above border.",
+  "figure_4": "Rotated ROI labels collide with subsequent row titles and footer legend. Wrap labels on two lines and reserve footer space.",
+  "figure_5": "Visible points, SD bars, condition identities and full axis ranges; no clipping/overlap observed in standalone export."
+}

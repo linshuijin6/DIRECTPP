@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\caption{\textbf{Core software dependencies and versions for DIReCT$++$.} Only packages directly relevant to model implementation, training, and evaluation are listed. Full environment details are available in the code repository.}
+\label{tab:supp_software}
+\centering
+\begin{tabularx}{\textwidth}{lX lX}
+\toprule
+\textbf{Package} & \textbf{Version} & \textbf{Package} & \textbf{Version} \\
+\midrule
+Python & 3.10 & PyTorch & 2.6.0+cu118 \\
+torchvision & 0.21.0+cu118 & torchaudio & 2.6.0+cu118 \\
+CUDA & 11.8 & cuDNN & 9.1.0 \\
+einops & 0.8.1 & transformers & 4.40.2 \\
+tokenizers & 0.19.1 & safetensors & 0.5.3 \\
+xformers & 0.0.29.post3 & faiss & 1.9.0 \\
+monai & 1.5.1 & numpy & 2.2.4 \\
+scipy & 1.15.2 & pandas & 2.2.3 \\
+scikit-learn & 1.6.1 & matplotlib & 3.10.1 \\
+seaborn & 0.13.2 & opencv-python & 4.12.0.88 \\
+nibabel & 5.3.2 & tensorboard & 2.19.0 \\
+fsspec & 2024.6.1 & huggingface-hub & 0.30.1 \\
+protobuf & 6.30.2 & triton & 3.2.0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\input{supplementary/tables/clinical_missingness}

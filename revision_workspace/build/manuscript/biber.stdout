@@ -1,0 +1,16 @@
+INFO - This is Biber 2.14 (beta)
+INFO - Logfile is '/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/manuscript/BMEF_main.blg'
+INFO - Reading '/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/manuscript/BMEF_main.bcf'
+INFO - Found 38 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Globbing data source 'references.bib'
+INFO - Globbed data source 'references.bib' to references.bib
+INFO - Looking for bibtex format file 'references.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'references.bib'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing '/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/manuscript/BMEF_main.bbl' with encoding 'UTF-8'
+INFO - Output to /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/manuscript/BMEF_main.bbl

@@ -1,0 +1,32 @@
+\subsection*{Supplementary Methods: conditioning prompts and adapter analysis}
+The following is the historical clinical prompt template, with bracketed field placeholders instead of participant identifiers or invented measurements. Values use the historical formatting (rounded age and scores, one decimal for weight and CDR). Its use does not validate the filled values as clinical observations.
+\begin{quote}\small
+Subject is a [age]-year-old [sex] with a weight of [weight] kg. The global Clinical Dementia Rating (CDR) score, which assesses dementia severity (0: no dementia to 3: severe dementia), is [global\_cdr]. The Mini-Mental State Examination (MMSE) score, assessing cognitive function (0: severe impairment to 30: normal), is [mmse\_score]. The Geriatric Depression Scale (GDS) score, screening depression (0: no depression to 15: severe depression), is [gds\_score]. The Functional Activities Questionnaire (FAQ) score, assessing daily activity impairment (0: no impairment to 30: severe impairment), is [faq\_score]. The Neuropsychiatric Inventory Questionnaire (NPI-Q) Total Score, assessing neuropsychiatric symptom burden (0: no symptoms to higher scores indicating greater burden), is [npi\_q\_score].
+\end{quote}
+\noindent\textbf{FDG tracer prompt.}
+\begin{quote}\small
+FDG PET is a functional brain imaging technique that visualizes the dynamic changes in glucose metabolism, directly linked to neuronal energy demands and synaptic activity. It serves as a tool to assess functional connectivity and energy utilization across brain regions. Areas with decreased metabolic activity, such as those affected by neurodegenerative diseases, should exhibit reduced signal intensity. High-intensity metabolic hotspots in gray matter (e.g., the cerebral cortex and basal ganglia) are key markers of neuronal activity. 
+\end{quote}
+\noindent\textbf{AV45 tracer prompt.}
+\begin{quote}\small
+AV45 PET is a molecular imaging technique that highlights the static distribution of amyloid-beta plaques, a critical pathological marker of Alzheimer's disease. This imaging modality provides a spatial map of amyloid deposition in cortical regions (e.g., the temporal, parietal, and frontal lobes) and can distinguish amyloid-positive areas from amyloid-negative white matter regions. The primary focus is on identifying amyloid deposition patterns to assess disease progression and pathological burden.
+\end{quote}
+The tracer texts are fixed model inputs; their statements about pathology or progression are not evidence that synthetic PET establishes a biological diagnosis or predicts progression.
+
+\begin{table}[htbp]
+\caption{\textbf{Adapter-level sensitivity analysis of the cross-tracer soft target.} Descriptive means across two folds, using 1,856 QC-filtered participants. Only training-fold PET features were used for fitting; held-out features were evaluated after optimization. No cross-term means removal of the penalty ($\lambda_{\mathrm{cross}}=0$), not a target of zero. No generator was retrained or evaluated in this analysis.}
+\label{tab:supp_tau_adapter}
+\centering\small
+\begin{tabular}{lccccc}
+\toprule
+Setting & \multicolumn{2}{c}{Training alignment} & \multicolumn{2}{c}{Held-out alignment} & Cross-tracer \\
+ & FDG & AV45 & FDG & AV45 & similarity \\
+\midrule
+$\tau=0.70$ & 0.9437 & 0.9410 & 0.9436 & 0.9410 & 0.7032 \\
+$\tau=0.82$ & 0.9687 & 0.9661 & 0.9687 & 0.9661 & 0.8214 \\
+$\tau=0.90$ & 0.9838 & 0.9813 & 0.9838 & 0.9812 & 0.9018 \\
+$\tau=0.98$ & 0.9948 & 0.9923 & 0.9948 & 0.9923 & 0.9807 \\
+No cross-term & 0.9952 & 0.9927 & 0.9952 & 0.9926 & 0.9897 \\
+\bottomrule
+\end{tabular}
+\end{table}

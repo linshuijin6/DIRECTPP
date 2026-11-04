@@ -1,0 +1,6 @@
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{supplementary_figure_5}
+    \caption{\textbf{Validation of disease-related AV45 uptake patterns across the remaining brain regions.} Violin plots display mean uptake in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET.}
+    \label{fig:supp_disease_av45}
+\end{figure}

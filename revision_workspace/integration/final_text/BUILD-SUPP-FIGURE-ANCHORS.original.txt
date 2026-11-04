@@ -1,0 +1,1 @@
+\renewcommand{\thefigure}{S\arabic{figure}}

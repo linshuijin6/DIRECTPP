@@ -1,0 +1,1976 @@
+{
+  "request_url": "https://api.crossref.org/works/10.1002%2Falz.13859",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T14:50:52Z",
+      "timestamp": 1793717452120,
+      "version": "4.6.1"
+    },
+    "reference-count": 249,
+    "publisher": "Wiley",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              27
+            ]
+          ],
+          "date-time": "2024-06-27T00:00:00Z",
+          "timestamp": 1719446400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100015595",
+        "name": "GHR Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100015595",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000957",
+        "name": "Alzheimer's Association",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000957",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000864",
+        "name": "Michael J. Fox Foundation for Parkinson's Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000864",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100005614",
+        "name": "Biogen",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100005614",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003769",
+        "name": "Eisai",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003769",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100005062",
+        "name": "Fujirebio Europe",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100005062",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006775",
+        "name": "GE Healthcare",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006775",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004337",
+        "name": "Roche",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004337",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute on Aging",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006312",
+        "name": "BrightFocus Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006312",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004191",
+        "name": "Novo Nordisk",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004191",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100011110",
+        "name": "UCB",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100011110",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000890",
+        "name": "National Multiple Sclerosis Society",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000890",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100010969",
+        "name": "Alzheimer Nederland",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100010969",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "alz-journals.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Alzheimer's &amp;amp; Dementia"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:label/>\n                    <jats:p>The National Institute on Aging and the Alzheimer's Association convened three separate work groups in 2011 and single work groups in 2012 and 2018 to create recommendations for the diagnosis and characterization of Alzheimer's disease (AD). The present document updates the 2018 research framework in response to several recent developments. Defining diseases biologically, rather than based on syndromic presentation, has long been standard in many areas of medicine (e.g., oncology), and is becoming a unifying concept common to all neurodegenerative diseases, not just AD. The present document is consistent with this principle. Our intent is to present objective criteria for diagnosis and staging AD, incorporating recent advances in biomarkers, to serve as a bridge between research and clinical care. These criteria are not intended to provide step‐by‐step clinical practice guidelines for clinical workflow or specific treatment protocols, but rather serve as general principles to inform diagnosis and staging of AD that reflect current science.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Highlights</jats:title>\n                    <jats:p>\n                      <jats:list list-type=\"bullet\">\n                        <jats:list-item>\n                          <jats:p>We define Alzheimer's disease (AD) to be a biological process that begins with the appearance of AD neuropathologic change (ADNPC) while people are asymptomatic. Progression of the neuropathologic burden leads to the later appearance and progression of clinical symptoms.</jats:p>\n                        </jats:list-item>\n                        <jats:list-item>\n                          <jats:p>Early‐changing Core 1 biomarkers (amyloid positron emission tomography [PET], approved cerebrospinal fluid biomarkers, and accurate plasma biomarkers [especially phosphorylated tau 217]) map onto either the amyloid beta or AD tauopathy pathway; however, these reflect the presence of ADNPC more generally (i.e., both neuritic plaques and tangles).</jats:p>\n                        </jats:list-item>\n                        <jats:list-item>\n                          <jats:p>An abnormal Core 1 biomarker result is sufficient to establish a diagnosis of AD and to inform clinical decision making throughout the disease continuum.</jats:p>\n                        </jats:list-item>\n                        <jats:list-item>\n                          <jats:p>Later‐changing Core 2 biomarkers (biofluid and tau PET) can provide prognostic information, and when abnormal, will increase confidence that AD is contributing to symptoms.</jats:p>\n                        </jats:list-item>\n                        <jats:list-item>\n                          <jats:p>An integrated biological and clinical staging scheme is described that accommodates the fact that common copathologies, cognitive reserve, and resistance may modify relationships between clinical and biological AD stages.</jats:p>\n                        </jats:list-item>\n                      </jats:list>\n                    </jats:p>\n                  </jats:sec>",
+    "DOI": "10.1002/alz.13859",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2024-06-27T07:00:48Z",
+      "timestamp": 1719471648000
+    },
+    "page": "5143-5169",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2987,
+    "title": [
+      "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup"
+    ],
+    "prefix": "10.1002",
+    "volume": "20",
+    "author": [
+      {
+        "suffix": "Jr.",
+        "given": "Clifford R.",
+        "family": "Jack",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Radiology Mayo Clinic  Rochester Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Scott",
+        "family": "Andrews",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Global Evidence &amp; Outcomes Takeda Pharmaceuticals Company Limited  Cambridge Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas G.",
+        "family": "Beach",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Civin Laboratory for Neuropathology Banner Sun Health Research Institute  Sun City Arizona USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Teresa",
+        "family": "Buracchio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Office of Neuroscience U.S. Food and Drug Administration  Silver Spring Maryland USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Billy",
+        "family": "Dunn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Michael J. Fox Foundation for Parkinson's Research  New York New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ana",
+        "family": "Graf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Novartis Neuroscience Global Drug Development  Basel Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oskar",
+        "family": "Hansson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Clinical Sciences Malmö, Faculty of Medicine Lund University  Lund Sweden"
+          },
+          {
+            "name": "Memory Clinic Skåne University Hospital, Malmö  Lund Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carole",
+        "family": "Ho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Development Denali Therapeutics  South San Francisco California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Jagust",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Public Health and Helen Wills Neuroscience Institute University of California Berkeley  Berkeley California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "McDade",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurology Washington University St. Louis School of Medicine  St. Louis Missouri USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jose Luis",
+        "family": "Molinuevo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Global Clinical Development H. Lundbeck A/S Experimental Medicine  Copenhagen Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ozioma C.",
+        "family": "Okonkwo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medicine, Division of Geriatrics and Gerontology University of Wisconsin School of Medicine  Madison Wisconsin USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luca",
+        "family": "Pani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Miami Miller School of Medicine  Miami Florida USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael S.",
+        "family": "Rafii",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alzheimer's Therapeutic Research Institute (ATRI) Keck School of Medicine at the University of Southern California  San Diego California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip",
+        "family": "Scheltens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Amsterdam University Medical Center (Emeritus) Neurology  Amsterdam the Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Siemers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Research Acumen Pharmaceuticals  Zionsville Indiana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heather M.",
+        "family": "Snyder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Medical &amp; Scientific Relations Division Alzheimer's Association  Chicago Illinois USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Reisa",
+        "family": "Sperling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurology, Brigham and Women's Hospital Massachusetts General Hospital, Harvard Medical School  Boston Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charlotte E.",
+        "family": "Teunissen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Laboratory Medicine Amsterdam UMC, Neurochemistry Laboratory  Amsterdam the Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria C.",
+        "family": "Carrillo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Medical &amp; Scientific Relations Division Alzheimer's Association  Chicago Illinois USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_14_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2011.03.003"
+      },
+      {
+        "key": "e_1_2_14_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2011.03.008"
+      },
+      {
+        "key": "e_1_2_14_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2011.03.005"
+      },
+      {
+        "key": "e_1_2_14_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2011.03.004"
+      },
+      {
+        "key": "e_1_2_14_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2011.10.007"
+      },
+      {
+        "key": "e_1_2_14_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00401-011-0910-3"
+      },
+      {
+        "key": "e_1_2_14_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.02.018"
+      },
+      {
+        "key": "e_1_2_14_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000002923"
+      },
+      {
+        "key": "e_1_2_14_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2019.03.016"
+      },
+      {
+        "key": "e_1_2_14_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.09.001"
+      },
+      {
+        "key": "e_1_2_14_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(12)70142-4"
+      },
+      {
+        "key": "e_1_2_14_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awv050"
+      },
+      {
+        "key": "e_1_2_14_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2015.05.018"
+      },
+      {
+        "key": "e_1_2_14_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2019.09.079"
+      },
+      {
+        "key": "e_1_2_14_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2020.0528"
+      },
+      {
+        "key": "e_1_2_14_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2967/jnumed.120.245423"
+      },
+      {
+        "key": "e_1_2_14_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/aww015"
+      },
+      {
+        "key": "e_1_2_14_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.20730"
+      },
+      {
+        "key": "e_1_2_14_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.01.013"
+      },
+      {
+        "key": "e_1_2_14_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.23908"
+      },
+      {
+        "key": "e_1_2_14_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0781-z"
+      },
+      {
+        "key": "e_1_2_14_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2020.4201"
+      },
+      {
+        "key": "e_1_2_14_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aaz2387"
+      },
+      {
+        "key": "e_1_2_14_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2022.4485"
+      },
+      {
+        "key": "e_1_2_14_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2018.04.035"
+      },
+      {
+        "key": "e_1_2_14_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/emmm.202114022"
+      },
+      {
+        "key": "e_1_2_14_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-34129-4"
+      },
+      {
+        "key": "e_1_2_14_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02075-9"
+      },
+      {
+        "key": "e_1_2_14_30_1",
+        "article-title": "Novel CSF tau biomarkers can be used for disease staging of sporadic Alzheimer's disease",
+        "author": "Salvado G",
+        "year": "2023",
+        "journal-title": "medRxiv"
+      },
+      {
+        "key": "e_1_2_14_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15252/emmm.202217123"
+      },
+      {
+        "key": "e_1_2_14_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(21)00361-6"
+      },
+      {
+        "key": "e_1_2_14_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01382-x"
+      },
+      {
+        "key": "e_1_2_14_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-023-00403-3"
+      },
+      {
+        "key": "e_1_2_14_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41582-024-00977-5"
+      },
+      {
+        "key": "e_1_2_14_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awz268"
+      },
+      {
+        "key": "e_1_2_14_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.2560"
+      },
+      {
+        "key": "e_1_2_14_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrneurol.2015.251"
+      },
+      {
+        "key": "e_1_2_14_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.2338"
+      },
+      {
+        "key": "e_1_2_14_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(14)70194-2"
+      },
+      {
+        "key": "e_1_2_14_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-02049-x"
+      },
+      {
+        "key": "e_1_2_14_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.1081"
+      },
+      {
+        "key": "e_1_2_14_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00401-014-1349-0"
+      },
+      {
+        "key": "e_1_2_14_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/01.wnl.0000228230.26044.a4"
+      },
+      {
+        "key": "e_1_2_14_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archneur.65.11.1509"
+      },
+      {
+        "key": "e_1_2_14_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awm336"
+      },
+      {
+        "key": "e_1_2_14_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa1202753"
+      },
+      {
+        "key": "e_1_2_14_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1317918110"
+      },
+      {
+        "key": "e_1_2_14_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.26891"
+      },
+      {
+        "key": "e_1_2_14_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biopsych.2020.06.029"
+      },
+      {
+        "key": "e_1_2_14_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2310168"
+      },
+      {
+        "key": "e_1_2_14_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awp062"
+      },
+      {
+        "key": "e_1_2_14_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2010.11.007"
+      },
+      {
+        "key": "e_1_2_14_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/braincomms/fcac017"
+      },
+      {
+        "key": "e_1_2_14_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41582-018-0132-6"
+      },
+      {
+        "key": "e_1_2_14_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamanetworkopen.2022.12910"
+      },
+      {
+        "key": "e_1_2_14_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jir.12390"
+      },
+      {
+        "key": "e_1_2_14_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(23)00405-2"
+      },
+      {
+        "key": "e_1_2_14_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(23)00404-0"
+      },
+      {
+        "key": "e_1_2_14_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(22)00120-X"
+      },
+      {
+        "key": "e_1_2_14_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awab404"
+      },
+      {
+        "key": "e_1_2_14_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2014.4144"
+      },
+      {
+        "key": "e_1_2_14_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2015.02.004"
+      },
+      {
+        "key": "e_1_2_14_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/neup.12189"
+      },
+      {
+        "key": "e_1_2_14_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000115751"
+      },
+      {
+        "key": "e_1_2_14_66_1",
+        "unstructured": "Administration UFaD.Evaluation of automatic class III designation for Lumipulse G β‐amyloid ratio (1‐42/1‐40) Decision Summary. In: FDA ed. 2023."
+      },
+      {
+        "key": "e_1_2_14_67_1",
+        "unstructured": "Administration UFaD.FDA Permits Marketing for New Test to Improve Diagnosis of Alzheimer's Disease. In: Administration USFaD ed. 2022."
+      },
+      {
+        "key": "e_1_2_14_68_1",
+        "unstructured": "Administration UFaD.Center for Devices and Radiological Health. Elecsys β‐Amyloid (1‐42) CSF II Elecsys Phospho‐Tau (181P) CSF: 510(k) substantial equivalence determination decision summary. In: FDA ed. 2023."
+      },
+      {
+        "key": "e_1_2_14_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000200040"
+      },
+      {
+        "key": "e_1_2_14_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awac333"
+      },
+      {
+        "key": "e_1_2_14_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2021.3180"
+      },
+      {
+        "key": "e_1_2_14_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12697"
+      },
+      {
+        "key": "e_1_2_14_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature25456"
+      },
+      {
+        "key": "e_1_2_14_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(21)00214-3"
+      },
+      {
+        "key": "e_1_2_14_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.13026"
+      },
+      {
+        "key": "e_1_2_14_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0755-1"
+      },
+      {
+        "key": "e_1_2_14_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.5319"
+      },
+      {
+        "key": "e_1_2_14_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-022-01005-8"
+      },
+      {
+        "key": "e_1_2_14_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.02.013"
+      },
+      {
+        "key": "e_1_2_14_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(20)30071-5"
+      },
+      {
+        "key": "e_1_2_14_81_1",
+        "first-page": "772",
+        "article-title": "Discriminative accuracy of plasma phospho‐tau217 for Alzheimer disease vs other neurodegenerative disorders",
+        "volume": "324",
+        "author": "Palmqvist S",
+        "year": "2020",
+        "journal-title": "JAMA Neurol"
+      },
+      {
+        "key": "e_1_2_14_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-020-0762-2"
+      },
+      {
+        "key": "e_1_2_14_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01348-z"
+      },
+      {
+        "key": "e_1_2_14_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/braincomms/fcab136"
+      },
+      {
+        "key": "e_1_2_14_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2020.4986"
+      },
+      {
+        "key": "e_1_2_14_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12301"
+      },
+      {
+        "key": "e_1_2_14_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.01.010"
+      },
+      {
+        "key": "e_1_2_14_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2017.06.2266"
+      },
+      {
+        "key": "e_1_2_14_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000008081"
+      },
+      {
+        "key": "e_1_2_14_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-022-01117-1"
+      },
+      {
+        "key": "e_1_2_14_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12801"
+      },
+      {
+        "key": "e_1_2_14_92_1",
+        "article-title": "Test‐retest variability of plasma biomarkers in Alzheimer's disease and its effects on clinical prediction models",
+        "author": "Cullen NC",
+        "year": "2022",
+        "journal-title": "Alzheimers Dement"
+      },
+      {
+        "key": "e_1_2_14_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2016.08.005"
+      },
+      {
+        "key": "e_1_2_14_94_1",
+        "first-page": "P453",
+        "volume-title": "Why We Need Two Cutoffs for Amyloid‐Imaging: Early Versus Alzheimer's‐Like Amyloid‐Positivity",
+        "author": "Klunk WE",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_14_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-023-00471-5"
+      },
+      {
+        "key": "e_1_2_14_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.13518"
+      },
+      {
+        "key": "e_1_2_14_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000005354"
+      },
+      {
+        "key": "e_1_2_14_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13024-021-00430-x"
+      },
+      {
+        "key": "e_1_2_14_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.26462"
+      },
+      {
+        "key": "e_1_2_14_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.4719"
+      },
+      {
+        "key": "e_1_2_14_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2021.10.017"
+      },
+      {
+        "key": "e_1_2_14_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01822-2"
+      },
+      {
+        "key": "e_1_2_14_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12647"
+      },
+      {
+        "key": "e_1_2_14_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12787"
+      },
+      {
+        "key": "e_1_2_14_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.13163"
+      },
+      {
+        "key": "e_1_2_14_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2019.2000"
+      },
+      {
+        "key": "e_1_2_14_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/acn3.51863"
+      },
+      {
+        "key": "e_1_2_14_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2022.2379"
+      },
+      {
+        "key": "e_1_2_14_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12907"
+      },
+      {
+        "key": "e_1_2_14_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000009724"
+      },
+      {
+        "key": "e_1_2_14_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2019.7437"
+      },
+      {
+        "key": "e_1_2_14_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-022-00204-0"
+      },
+      {
+        "key": "e_1_2_14_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000004643"
+      },
+      {
+        "key": "e_1_2_14_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2019.2214"
+      },
+      {
+        "key": "e_1_2_14_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000010256"
+      },
+      {
+        "key": "e_1_2_14_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.24711"
+      },
+      {
+        "key": "e_1_2_14_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2016.01.028"
+      },
+      {
+        "key": "e_1_2_14_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dadm.2018.01.006"
+      },
+      {
+        "key": "e_1_2_14_119_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awad042"
+      },
+      {
+        "key": "e_1_2_14_120_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2016.2078"
+      },
+      {
+        "key": "e_1_2_14_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2016.06.437"
+      },
+      {
+        "key": "e_1_2_14_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(09)70299-6"
+      },
+      {
+        "key": "e_1_2_14_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(12)70291-0"
+      },
+      {
+        "key": "e_1_2_14_124_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12875"
+      },
+      {
+        "key": "e_1_2_14_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/aww027"
+      },
+      {
+        "key": "e_1_2_14_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aaf2362"
+      },
+      {
+        "key": "e_1_2_14_127_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awz019"
+      },
+      {
+        "key": "e_1_2_14_128_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2021.1858"
+      },
+      {
+        "key": "e_1_2_14_129_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2019.1424"
+      },
+      {
+        "key": "e_1_2_14_130_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awab114"
+      },
+      {
+        "key": "e_1_2_14_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2021.4654"
+      },
+      {
+        "key": "e_1_2_14_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-170740"
+      },
+      {
+        "key": "e_1_2_14_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01309-6"
+      },
+      {
+        "key": "e_1_2_14_134_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2020.3921"
+      },
+      {
+        "key": "e_1_2_14_135_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.abc0655"
+      },
+      {
+        "key": "e_1_2_14_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2023.4596"
+      },
+      {
+        "key": "e_1_2_14_137_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-023-00405-1"
+      },
+      {
+        "key": "e_1_2_14_138_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awaa373"
+      },
+      {
+        "key": "e_1_2_14_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-023-00380-7"
+      },
+      {
+        "key": "e_1_2_14_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02443-z"
+      },
+      {
+        "key": "e_1_2_14_141_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00401-023-02659-w"
+      },
+      {
+        "key": "e_1_2_14_142_1",
+        "article-title": "Plasma MTBR‐tau243 is a specific biomarker of tau tangle pathology in Alzheimer's disease",
+        "author": "Horie K",
+        "year": "2023",
+        "journal-title": "Clinical Trials on Alzheimer's Disease 2023"
+      },
+      {
+        "key": "e_1_2_14_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awy059"
+      },
+      {
+        "key": "e_1_2_14_144_1",
+        "article-title": "CenTauR: towards a universal scale and masks for standardizing tau imaging studies",
+        "volume": "15",
+        "author": "Villemagne V",
+        "year": "2023",
+        "journal-title": "Alzheimer's and Dementia"
+      },
+      {
+        "key": "e_1_2_14_145_1",
+        "first-page": "1",
+        "article-title": "The Centiloid Project: standardizing quantitative amyloid plaque estimation by PET. Alzheimer's",
+        "volume": "11",
+        "author": "Klunk WE",
+        "year": "2015",
+        "journal-title": "Dement"
+      },
+      {
+        "key": "e_1_2_14_146_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41582-024-00942-2"
+      },
+      {
+        "key": "e_1_2_14_147_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.0730-07.2007"
+      },
+      {
+        "key": "e_1_2_14_148_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.01.002"
+      },
+      {
+        "key": "e_1_2_14_149_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.25395"
+      },
+      {
+        "key": "e_1_2_14_150_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2100708"
+      },
+      {
+        "key": "e_1_2_14_151_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.2023.13239"
+      },
+      {
+        "key": "e_1_2_14_152_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.3007941"
+      },
+      {
+        "key": "e_1_2_14_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12748"
+      },
+      {
+        "key": "e_1_2_14_154_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1176/ajp.139.9.1136"
+      },
+      {
+        "key": "e_1_2_14_155_1",
+        "unstructured": "Administration UFaD.Early Alzheimer's Disease: Developing Drugs for TreatmentIn: Services USDoHaH Administration FaD eds. Office of Communications Division of Drug Information: US Food and Drug Administration 2024."
+      },
+      {
+        "key": "e_1_2_14_156_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2015.05.017"
+      },
+      {
+        "key": "e_1_2_14_157_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2019.10.008"
+      },
+      {
+        "key": "e_1_2_14_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biopsych.2022.01.012"
+      },
+      {
+        "key": "e_1_2_14_159_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(20)30440-3"
+      },
+      {
+        "key": "e_1_2_14_160_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(21)00066-1"
+      },
+      {
+        "key": "e_1_2_14_161_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(21)00245-3"
+      },
+      {
+        "key": "e_1_2_14_162_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMoa2212948"
+      },
+      {
+        "key": "e_1_2_14_163_1",
+        "unstructured": "Administration UFaD.Leqembi Prescribing Information.2023."
+      },
+      {
+        "key": "e_1_2_14_164_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archneur.58.12.1985"
+      },
+      {
+        "key": "e_1_2_14_165_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0b013e3181eb5872"
+      },
+      {
+        "key": "e_1_2_14_166_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-019-0525-9"
+      },
+      {
+        "key": "e_1_2_14_167_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2014.963"
+      },
+      {
+        "key": "e_1_2_14_168_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2011.09.004"
+      },
+      {
+        "key": "e_1_2_14_169_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000005303"
+      },
+      {
+        "key": "e_1_2_14_170_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2019.1534"
+      },
+      {
+        "key": "e_1_2_14_171_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ene.15428"
+      },
+      {
+        "key": "e_1_2_14_172_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.42.1.183"
+      },
+      {
+        "key": "e_1_2_14_173_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0306-4522(99)00476-5"
+      },
+      {
+        "key": "e_1_2_14_174_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.20503"
+      },
+      {
+        "key": "e_1_2_14_175_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.58.5.750"
+      },
+      {
+        "key": "e_1_2_14_176_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/dad2.12285"
+      },
+      {
+        "key": "e_1_2_14_177_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aaf6667"
+      },
+      {
+        "key": "e_1_2_14_178_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12097"
+      },
+      {
+        "key": "e_1_2_14_179_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2017.05.017"
+      },
+      {
+        "key": "e_1_2_14_180_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.3001694"
+      },
+      {
+        "key": "e_1_2_14_181_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2015.12.056"
+      },
+      {
+        "key": "e_1_2_14_182_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02397-2"
+      },
+      {
+        "key": "e_1_2_14_183_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/trc2.12179"
+      },
+      {
+        "key": "e_1_2_14_184_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S2666-7568(20)30061-1"
+      },
+      {
+        "key": "e_1_2_14_185_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41398-020-01137-1"
+      },
+      {
+        "key": "e_1_2_14_186_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.12879"
+      },
+      {
+        "key": "e_1_2_14_187_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.13651"
+      },
+      {
+        "key": "e_1_2_14_188_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-021-00804-9"
+      },
+      {
+        "key": "e_1_2_14_189_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aag1767"
+      },
+      {
+        "key": "e_1_2_14_190_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(22)00027-8"
+      },
+      {
+        "key": "e_1_2_14_191_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43587-022-00310-z"
+      },
+      {
+        "key": "e_1_2_14_192_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/acn3.338"
+      },
+      {
+        "key": "e_1_2_14_193_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2016.4547"
+      },
+      {
+        "key": "e_1_2_14_194_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.26453"
+      },
+      {
+        "key": "e_1_2_14_195_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40478-022-01388-7"
+      },
+      {
+        "key": "e_1_2_14_196_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02450-0"
+      },
+      {
+        "key": "e_1_2_14_197_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-023-02449-7"
+      },
+      {
+        "key": "e_1_2_14_198_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00401-020-02160-8"
+      },
+      {
+        "key": "e_1_2_14_199_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13024-021-00491-y"
+      },
+      {
+        "key": "e_1_2_14_200_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2967/jnumed.122.263918"
+      },
+      {
+        "key": "e_1_2_14_201_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ph14090847"
+      },
+      {
+        "key": "e_1_2_14_202_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(07)70057-1"
+      },
+      {
+        "key": "e_1_2_14_203_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1159/000115640"
+      },
+      {
+        "key": "e_1_2_14_204_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(13)70124-8"
+      },
+      {
+        "key": "e_1_2_14_205_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(23)00131-X"
+      },
+      {
+        "key": "e_1_2_14_206_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.24758"
+      },
+      {
+        "key": "e_1_2_14_207_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/braincomms/fcab076"
+      },
+      {
+        "key": "e_1_2_14_208_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.25600"
+      },
+      {
+        "key": "e_1_2_14_209_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.21296"
+      },
+      {
+        "key": "e_1_2_14_210_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jnen/nlad026"
+      },
+      {
+        "key": "e_1_2_14_211_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41582-019-0281-2"
+      },
+      {
+        "key": "e_1_2_14_212_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000008735"
+      },
+      {
+        "key": "e_1_2_14_213_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(23)00114-X"
+      },
+      {
+        "key": "e_1_2_14_214_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(12)70015-7"
+      },
+      {
+        "key": "e_1_2_14_215_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awz099"
+      },
+      {
+        "key": "e_1_2_14_216_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00401-011-0826-y"
+      },
+      {
+        "key": "e_1_2_14_217_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-201213"
+      },
+      {
+        "key": "e_1_2_14_218_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.25246"
+      },
+      {
+        "key": "e_1_2_14_219_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.056436"
+      },
+      {
+        "key": "e_1_2_14_220_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awaa438"
+      },
+      {
+        "key": "e_1_2_14_221_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/01.wnl.0000271090.28148.24"
+      },
+      {
+        "key": "e_1_2_14_222_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-2009-1178"
+      },
+      {
+        "key": "e_1_2_14_223_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000001831"
+      },
+      {
+        "key": "e_1_2_14_224_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/STROKEAHA.110.595082"
+      },
+      {
+        "key": "e_1_2_14_225_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000008616"
+      },
+      {
+        "key": "e_1_2_14_226_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-28941-1"
+      },
+      {
+        "key": "e_1_2_14_227_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000005124"
+      },
+      {
+        "key": "e_1_2_14_228_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awy049"
+      },
+      {
+        "key": "e_1_2_14_229_1",
+        "article-title": "Tau‐Neurodegeneration mismatch reveals vulnerability and resilience to comorbidities in Alzheimer's continuum",
+        "author": "Lyu X",
+        "year": "2023",
+        "journal-title": "medRxiv"
+      },
+      {
+        "key": "e_1_2_14_230_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14283/jpad.2022.30"
+      },
+      {
+        "key": "e_1_2_14_231_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2022.3392"
+      },
+      {
+        "key": "e_1_2_14_232_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-022-01124-2"
+      },
+      {
+        "key": "e_1_2_14_233_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/01.WNL.0000159743.08996.99"
+      },
+      {
+        "key": "e_1_2_14_234_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-150448"
+      },
+      {
+        "key": "e_1_2_14_235_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3174/ajnr.A7586"
+      },
+      {
+        "key": "e_1_2_14_236_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-170242"
+      },
+      {
+        "key": "e_1_2_14_237_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.09.009"
+      },
+      {
+        "key": "e_1_2_14_238_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2018.07.221"
+      },
+      {
+        "key": "e_1_2_14_239_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13195-017-0315-1"
+      },
+      {
+        "key": "e_1_2_14_240_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000011599"
+      },
+      {
+        "key": "e_1_2_14_241_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41380-022-01729-x"
+      },
+      {
+        "key": "e_1_2_14_242_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jama.1997.03550160069041"
+      },
+      {
+        "key": "e_1_2_14_243_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/archneur.60.2.185"
+      },
+      {
+        "key": "e_1_2_14_244_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1001/jamaneurol.2022.3157"
+      },
+      {
+        "key": "e_1_2_14_245_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000001834"
+      },
+      {
+        "key": "e_1_2_14_246_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000002914"
+      },
+      {
+        "key": "e_1_2_14_247_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000200358"
+      },
+      {
+        "key": "e_1_2_14_248_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/EDE.0000000000000747"
+      },
+      {
+        "key": "e_1_2_14_249_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1377/hlthaff.2013.1353"
+      },
+      {
+        "key": "e_1_2_14_250_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0000000000207675"
+      }
+    ],
+    "container-title": [
+      "Alzheimer's &amp; Dementia"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://alz-journals.onlinelibrary.wiley.com/doi/pdf/10.1002/alz.13859",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2025-10-08T17:20:18Z",
+      "timestamp": 1759944018000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.13859"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          27
+        ]
+      ]
+    },
+    "references-count": 249,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/alz.13859"
+    ],
+    "URL": "https://doi.org/10.1002/alz.13859",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1552-5260",
+      "1552-5279"
+    ],
+    "issn-type": [
+      {
+        "value": "1552-5260",
+        "type": "print"
+      },
+      {
+        "value": "1552-5279",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-02-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-04-04",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-27",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

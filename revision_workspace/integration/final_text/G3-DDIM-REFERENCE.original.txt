@@ -1,0 +1,1 @@
+\item \textbf{3D DDIM}~\cite{Graf2023}: A deterministic fast-sampling variant of 3D diffusion models, included to assess DIReCT$++$’s computational efficiency and sampling quality relative to accelerated diffusion approaches.

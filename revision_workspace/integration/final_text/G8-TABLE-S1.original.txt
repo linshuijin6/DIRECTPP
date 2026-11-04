@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\caption{\textbf{Demographic characteristics of ADNI.} Data are mean $\pm$ s.d. unless otherwise indicated. $P$ values from one-way ANOVA (continuous) or chi-square test (sex). CDR: Clinical Dementia Rating; MMSE: Mini-Mental State Examination.}
+\label{tab:supp_adni}
+\centering
+\begin{tabularx}{\textwidth}{l *{5}{>{\centering\arraybackslash}X} >{\centering\arraybackslash}X}
+\toprule
+ & \textbf{CN} & \textbf{EMCI} & \textbf{LMCI} & \textbf{MCI} & \textbf{AD} & \textbf{P} \\
+\midrule
+$n$ & 577 & 291 & 152 & 520 & 317 & \\
+Age (years) & 72.55 $\pm$ 6.65 & 71.62 $\pm$ 7.51 & 72.44 $\pm$ 7.69 & 73.20 $\pm$ 7.51 & 74.90 $\pm$ 7.99 & $<$0.001 \\
+Weight (kg) & 73.20 $\pm$ 24.13 & 80.77 $\pm$ 16.67 & 77.15 $\pm$ 16.64 & 72.90 $\pm$ 22.33 & 73.21 $\pm$ 18.64 & 0.0023 \\
+Sex (M/F) & 252/325 & 165/126 & 80/72 & 310/210 & 186/131 & $<$0.001 \\
+MMSE & 29.40 $\pm$ 0.70 & 27.50 $\pm$ 0.50 & 24.47 $\pm$ 0.50 & 26.83 $\pm$ 1.24 & 20.84 $\pm$ 1.97 & $<$0.001 \\
+GDSCALE & 0.24 $\pm$ 0.73 & 1.01 $\pm$ 0.14 & 3.02 $\pm$ 0.28 & 1.81 $\pm$ 0.99 & 4.14 $\pm$ 1.62 & $<$0.001 \\
+Global CDR & 0.00 $\pm$ 0.02 & 0.15 $\pm$ 0.23 & 0.50 $\pm$ 0.01 & 0.42 $\pm$ 0.19 & 0.95 $\pm$ 0.15 & $<$0.001 \\
+FAQ & 0.52 $\pm$ 0.53 & 3.11 $\pm$ 2.42 & 8.83 $\pm$ 1.54 & 5.33 $\pm$ 1.51 & 20.20 $\pm$ 2.92 & $<$0.001 \\
+NPI-Q & 0.01 $\pm$ 0.19 & 1.55 $\pm$ 2.17 & 4.00 $\pm$ 0.03 & 2.92 $\pm$ 0.50 & 4.98 $\pm$ 0.65 & $<$0.001 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{2mm}
+\footnotesize
+\textit{Note:} CN = Cognitively Normal; EMCI = Early MCI; LMCI = Late MCI; MCI = Mild Cognitive Impairment; AD = Alzheimer’s dementia.
+\end{table}

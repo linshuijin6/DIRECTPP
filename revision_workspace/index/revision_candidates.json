@@ -1,0 +1,1755 @@
+[
+  {
+    "id": "V001",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 35,
+    "revised_marker": 41,
+    "section_end": 48,
+    "location": "## 二、Results：四处合并修改 / 修改 1｜Results §2.3，第 119 行：区域摄取值定义",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 沿用 R2-8"
+  },
+  {
+    "id": "V002",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 55,
+    "revised_marker": 61,
+    "section_end": 68,
+    "location": "## 二、Results：四处合并修改 / 修改 2｜Results §2.3，第 134 行：两类统计分析的目的",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 合并后的修正版"
+  },
+  {
+    "id": "V003",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 71,
+    "revised_marker": 77,
+    "section_end": 86,
+    "location": "## 二、Results：四处合并修改 / 修改 3｜Results §2.3，第 136 行：Real–Syn 区域一致性",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 直接采用 R2-10 已合并版本"
+  },
+  {
+    "id": "V004",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 91,
+    "revised_marker": 97,
+    "section_end": 110,
+    "location": "## 二、Results：四处合并修改 / 修改 4｜Results §2.3，第 138 行：AD/CN 疾病效应与 Cohen's d",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — R2-9 已确认版本 + R3-5 必要补充"
+  },
+  {
+    "id": "V005",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 115,
+    "revised_marker": 121,
+    "section_end": 128,
+    "location": "## 三、Methods：三处合并修改 / 修改 5｜Methods §4.5.1，第 331 行：Real–Syn 配对一致性",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 直接沿用 R2-10 已合并版本"
+  },
+  {
+    "id": "V006",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 131,
+    "revised_marker": 137,
+    "section_end": 146,
+    "location": "## 三、Methods：三处合并修改 / 修改 6｜Methods §4.5.1，第 333 行：AD/CN 组间效应量",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — R2-9 的 Student 检验 + R3-5 的 Cohen's d"
+  },
+  {
+    "id": "V007",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 149,
+    "revised_marker": 155,
+    "section_end": 164,
+    "location": "## 三、Methods：三处合并修改 / 修改 7｜Methods §4.5.1，第 336 行：BH-FDR 的比较族",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 直接采用 R2-9 已合并版本"
+  },
+  {
+    "id": "V008",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 169,
+    "revised_marker": 178,
+    "section_end": 197,
+    "location": "## 四、Figure 4 图注：统一修改一次 / 修改 8｜Figure 4 Caption，第 143–146 行",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "旧图注候选；由本页修改16明确整合 M19（L509）",
+    "marker": "Revised — 合并 R2-9 与 R3-5"
+  },
+  {
+    "id": "V009",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 202,
+    "revised_marker": 208,
+    "section_end": 217,
+    "location": "## 五、Discussion：保留已确认的定量局限 / 修改 9｜Discussion，第 186 行",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised — 沿用 R2-8"
+  },
+  {
+    "id": "V010",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 284,
+    "revised_marker": 295,
+    "section_end": 348,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 二、新增修改 11｜Figure 2 原始指标纳入正文",
+    "comment": null,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised"
+  },
+  {
+    "id": "V011",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 353,
+    "revised_marker": 360,
+    "section_end": 370,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 三、新增修改 12｜Figure 2 图注说明病例选择",
+    "comment": null,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised"
+  },
+  {
+    "id": "V012",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 377,
+    "revised_marker": 382,
+    "section_end": 400,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 四、新增修改 13｜Results 增加受试者级与 brain-mask 主要结果",
+    "comment": null,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised（建议）"
+  },
+  {
+    "id": "V013",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 405,
+    "revised_marker": 411,
+    "section_end": 426,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 五、新增修改 14｜Methods 增加 Image-Quality Evaluation",
+    "comment": null,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised"
+  },
+  {
+    "id": "V014",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 445,
+    "revised_marker": 455,
+    "section_end": 492,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 六、新增修改 15｜Supplementary Materials",
+    "comment": null,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised（结构性插入方案）"
+  },
+  {
+    "id": "V015",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 497,
+    "revised_marker": 509,
+    "section_end": 525,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 修改 16｜Figure 4 Caption",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised（整合原 G4 已确认修改及 M-19）"
+  },
+  {
+    "id": "V016",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+    "original_marker": 530,
+    "revised_marker": 569,
+    "section_end": 609,
+    "location": "## 六、Supplementary Materials：两张不同用途的统计表 / 修改 17｜Supplementary Figures S1–S6 的 Captions",
+    "comment": null,
+    "groups": [
+      "G4"
+    ],
+    "status": "集中方案；核心为合并入口，扩展须保留范围限制",
+    "marker": "Revised"
+  },
+  {
+    "id": "V017",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "original_marker": 7,
+    "revised_marker": 13,
+    "section_end": 20,
+    "location": "# G5修改正文 / 修改 1：纠正 3D RF 的消融定位",
+    "comment": null,
+    "groups": [
+      "G5"
+    ],
+    "status": "集中方案；与 G3/G5 共享位置合并",
+    "marker": "Revised"
+  },
+  {
+    "id": "V018",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "original_marker": 25,
+    "revised_marker": 31,
+    "section_end": 38,
+    "location": "# G5修改正文 / 修改 2：准确界定联合与独立示踪剂生成比较",
+    "comment": null,
+    "groups": [
+      "G5"
+    ],
+    "status": "集中方案；与 G3/G5 共享位置合并",
+    "marker": "Revised"
+  },
+  {
+    "id": "V019",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+    "original_marker": 43,
+    "revised_marker": 47,
+    "section_end": 70,
+    "location": "# G5修改正文 / 修改 3：在 G5 中补充临床信息分类基线",
+    "comment": null,
+    "groups": [
+      "G5"
+    ],
+    "status": "集中方案；与 G3/G5 共享位置合并",
+    "marker": "Revised"
+  },
+  {
+    "id": "V020",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "original_marker": 13,
+    "revised_marker": 18,
+    "section_end": 25,
+    "location": "### 1. 修正 cross-attention 的位置描述",
+    "comment": "M16",
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V021",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "original_marker": 30,
+    "revised_marker": 35,
+    "section_end": 42,
+    "location": "### 2. 补充双示踪剂损失权重",
+    "comment": "M16",
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V022",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "original_marker": 47,
+    "revised_marker": 52,
+    "section_end": 57,
+    "location": "### 3. 补充 U-Net 结构、batch size 和参数量",
+    "comment": "M16",
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V023",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+    "original_marker": 64,
+    "revised_marker": 82,
+    "section_end": 86,
+    "location": "### 4. 修正 \\(\\tau\\) 的硬约束表述",
+    "comment": "M16",
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised（目前已确定的文字部分）"
+  },
+  {
+    "id": "V024",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+    "original_marker": 7,
+    "revised_marker": 12,
+    "section_end": 19,
+    "location": "# M18正文修改 / 位置一：`BMEF_main.tex` 第 134 行，Results → Regional Statistical Analysis",
+    "comment": "M18",
+    "groups": [
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V025",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+    "original_marker": 24,
+    "revised_marker": 29,
+    "section_end": 37,
+    "location": "# M18正文修改 / 位置二：`BMEF_main.tex` 第 138 行，Results → Regional Statistical Analysis",
+    "comment": "M18",
+    "groups": [
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V026",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+    "original_marker": 5,
+    "revised_marker": 10,
+    "section_end": 15,
+    "location": "### 位置一：Results → Section 2.3，第 119 行",
+    "comment": "M7",
+    "groups": [
+      "G2",
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V027",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+    "original_marker": 18,
+    "revised_marker": 23,
+    "section_end": 28,
+    "location": "### 位置二：Methods → Materials and Data Preprocessing，第 301 行",
+    "comment": "M7",
+    "groups": [
+      "G2",
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V028",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "original_marker": 25,
+    "revised_marker": 31,
+    "section_end": 38,
+    "location": "### 1. Methods — Statistical Analysis → Regional Group-Wise Comparison，第 331 行",
+    "comment": "R2-10",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised（合并 R2-8，仅新增最后一句 OLS 方法）"
+  },
+  {
+    "id": "V029",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "original_marker": 41,
+    "revised_marker": 47,
+    "section_end": 54,
+    "location": "### 2. Results — Recapitulation of Disease-Specific Biomarker Patterns，第 136 行",
+    "comment": "R2-10",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised（完整合并 R2-8，仅新增倒数第二句回归结果）"
+  },
+  {
+    "id": "V030",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "original_marker": 57,
+    "revised_marker": 59,
+    "section_end": 85,
+    "location": "### 3. Supplementary Materials — 扩展 R2-8 唯一一张 16 行补充表",
+    "comment": "R2-10",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised — Supplementary Table Sx. Regional uptake agreement and descriptive regression between synthetic and real PET"
+  },
+  {
+    "id": "V031",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+    "original_marker": 7,
+    "revised_marker": 12,
+    "section_end": 15,
+    "location": "## 一、Methods §4.2.3 — 单步采样的理论表述",
+    "comment": "R2-13",
+    "groups": [
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V032",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+    "original_marker": 20,
+    "revised_marker": 25,
+    "section_end": 27,
+    "location": "## 二、Methods §4.2.3 — Eq. (7) 的引出语句",
+    "comment": "R2-13",
+    "groups": [
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V033",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "original_marker": 31,
+    "revised_marker": 49,
+    "section_end": 81,
+    "location": "## 修改一：Methods — Domain-Adapted VLM",
+    "comment": "R2-15",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V034",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "original_marker": 88,
+    "revised_marker": 93,
+    "section_end": 106,
+    "location": "## 修改二：Results — The DIReCT++ Framework for Precision PET Synthesis",
+    "comment": "R2-15",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V035",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "original_marker": 111,
+    "revised_marker": 115,
+    "section_end": 148,
+    "location": "## 修改三：Supplementary Materials — 新增 Adapter 消融结果",
+    "comment": "R2-15",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V036",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 7,
+    "revised_marker": 12,
+    "section_end": 15,
+    "location": "## 一、Introduction — 研究贡献总结",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V037",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 24,
+    "revised_marker": 29,
+    "section_end": 32,
+    "location": "### 修改 1：临床研究价值",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V038",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 35,
+    "revised_marker": 40,
+    "section_end": 43,
+    "location": "### 修改 2：直接临床应用",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V039",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 46,
+    "revised_marker": 51,
+    "section_end": 54,
+    "location": "### 修改 3：临床可行性证据",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V040",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 61,
+    "revised_marker": 66,
+    "section_end": 69,
+    "location": "### 修改 4：临床筛查及治疗候选者识别",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V041",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 72,
+    "revised_marker": 77,
+    "section_end": 80,
+    "location": "### 修改 5：临床工作流程",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V042",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 87,
+    "revised_marker": 92,
+    "section_end": 95,
+    "location": "### 修改 6：Clinically actionable biomarkers",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V043",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 104,
+    "revised_marker": 109,
+    "section_end": 114,
+    "location": "### 修改 7：研究结论",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V044",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+    "original_marker": 117,
+    "revised_marker": 122,
+    "section_end": 126,
+    "location": "### 修改 8：早期干预",
+    "comment": "R2-20",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V045",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 67,
+    "revised_marker": 72,
+    "section_end": 76,
+    "location": "### 3. Results — Section 2.4",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V046",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 77,
+    "revised_marker": 82,
+    "section_end": 86,
+    "location": "### 3. Results — Section 2.4",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V047",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 87,
+    "revised_marker": 92,
+    "section_end": 98,
+    "location": "### 3. Results — Section 2.4",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V048",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 99,
+    "revised_marker": 104,
+    "section_end": 108,
+    "location": "### 3. Results — Section 2.4",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V049",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 128,
+    "revised_marker": 133,
+    "section_end": 139,
+    "location": "### 9. Materials and Methods — Section 4.3",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V050",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 140,
+    "revised_marker": 145,
+    "section_end": 149,
+    "location": "### 9. Materials and Methods — Section 4.3",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V051",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 164,
+    "revised_marker": 169,
+    "section_end": 175,
+    "location": "### 6. Materials and Methods — Section 4.5.2",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V052",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+    "original_marker": 176,
+    "revised_marker": 181,
+    "section_end": 184,
+    "location": "### 6. Materials and Methods — Section 4.5.2",
+    "comment": "R2-4",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V053",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 7,
+    "revised_marker": 12,
+    "section_end": 15,
+    "location": "## 一、Abstract — Results",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V054",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 20,
+    "revised_marker": 25,
+    "section_end": 28,
+    "location": "## 二、Introduction — 研究贡献总结",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V055",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 37,
+    "revised_marker": 42,
+    "section_end": 47,
+    "location": "### 修改 1：外部验证的范围",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V056",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 50,
+    "revised_marker": 55,
+    "section_end": 58,
+    "location": "### 修改 2：段落总结",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V057",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 65,
+    "revised_marker": 70,
+    "section_end": 73,
+    "location": "### Panel A",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V058",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+    "original_marker": 76,
+    "revised_marker": 81,
+    "section_end": 85,
+    "location": "### Panel C",
+    "comment": "R2-7",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V059",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 23,
+    "revised_marker": 29,
+    "section_end": 36,
+    "location": "### 1. Results，第 119 行：Recapitulation of Disease-Specific Biomarker Patterns — 区域摄取值定义",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V060",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 39,
+    "revised_marker": 45,
+    "section_end": 52,
+    "location": "### 2. Results，第 134 行：区域统计分析目的",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V061",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 55,
+    "revised_marker": 61,
+    "section_end": 68,
+    "location": "### 3. Results，第 136 行：Figure 4A/B 对应段落（核心）",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V062",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 71,
+    "revised_marker": 77,
+    "section_end": 84,
+    "location": "### 4. Methods，第 331 行：Statistical Analysis → Regional Group-Wise Comparison，第一项",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V063",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 87,
+    "revised_marker": 93,
+    "section_end": 100,
+    "location": "### 5. Methods，第 333 行：组间疾病判别的数值术语",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V064",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 103,
+    "revised_marker": 109,
+    "section_end": 116,
+    "location": "### 6. Methods，第 336 行：多重比较及判断边界",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V065",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "original_marker": 119,
+    "revised_marker": 125,
+    "section_end": 132,
+    "location": "### 7. Discussion，第 186 行：Limitations / Future Work",
+    "comment": "R2-8",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V066",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "original_marker": 25,
+    "revised_marker": 31,
+    "section_end": 38,
+    "location": "### 1. Results，第 138 行：报告校正后的 AD/CN 组间统计结果",
+    "comment": "R2-9",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V067",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "original_marker": 41,
+    "revised_marker": 50,
+    "section_end": 60,
+    "location": "### 2. Figure 4 Caption，第 142–148 行：说明 C–F 的标注阈值",
+    "comment": "R2-9",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised"
+  },
+  {
+    "id": "V068",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "original_marker": 63,
+    "revised_marker": 69,
+    "section_end": 78,
+    "location": "### 3. Methods，第 333 行：明确 AD/CN 组间检验",
+    "comment": "R2-9",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised（合并 R2-8 术语调整）"
+  },
+  {
+    "id": "V069",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "original_marker": 81,
+    "revised_marker": 87,
+    "section_end": 94,
+    "location": "### 4. Methods，第 336 行：明确两类 FDR 比较族",
+    "comment": "R2-9",
+    "groups": [
+      "G4"
+    ],
+    "status": "旧独立方案；已由 G4 核心合并继承，禁止逐页覆盖",
+    "marker": "Revised（合并 R2-8 FDR 方案）"
+  },
+  {
+    "id": "V070",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+    "original_marker": 27,
+    "revised_marker": 33,
+    "section_end": 46,
+    "location": "## 二、正文修改（已确认）",
+    "comment": "R3-12",
+    "groups": [
+      "G3",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised（合并 R3-2、R3-13 的已确认修改）"
+  },
+  {
+    "id": "V071",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+    "original_marker": 11,
+    "revised_marker": 17,
+    "section_end": 24,
+    "location": "## 一、Materials and Data Preprocessing — 明确 OASIS-3 队列组成",
+    "comment": "R3-13",
+    "groups": [
+      "G2",
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V072",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+    "original_marker": 31,
+    "revised_marker": 37,
+    "section_end": 44,
+    "location": "## 二、Discussion — Limitations：年龄差异与外部验证限制",
+    "comment": "R3-13",
+    "groups": [
+      "G2",
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V073",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "original_marker": 13,
+    "revised_marker": 19,
+    "section_end": 26,
+    "location": "## 修改 1：弱化直接临床可用性",
+    "comment": "R3-14",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V074",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "original_marker": 31,
+    "revised_marker": 37,
+    "section_end": 44,
+    "location": "## 修改 2：删除直接筛查、治疗决策与纵向监测的过度承诺",
+    "comment": "R3-14",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V075",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "original_marker": 49,
+    "revised_marker": 55,
+    "section_end": 62,
+    "location": "## 修改 3：限定相对于既有方法的创新与临床结论",
+    "comment": "R3-14",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V076",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+    "original_marker": 67,
+    "revised_marker": 73,
+    "section_end": 80,
+    "location": "## 修改 4：在已有 Limitations 中补充 2024 AD 标准及 p-tau217",
+    "comment": "R3-14",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V077",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "original_marker": 9,
+    "revised_marker": 15,
+    "section_end": 22,
+    "location": "## 一、Materials and Data Preprocessing — 临床数据处理说明",
+    "comment": "R3-2",
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V078",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "original_marker": 27,
+    "revised_marker": 56,
+    "section_end": 86,
+    "location": "## 二、Supplementary Table S1 — 临床评分统计值与 P 值",
+    "comment": "R3-2",
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V079",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+    "original_marker": 91,
+    "revised_marker": 97,
+    "section_end": 104,
+    "location": "## 三、Discussion — Limitations",
+    "comment": "R3-2",
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V080",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 9,
+    "revised_marker": 14,
+    "section_end": 19,
+    "location": "### 1. LMCI 的定义",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V081",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 22,
+    "revised_marker": 27,
+    "section_end": 32,
+    "location": "### 2. MCI-U 的定义",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V082",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 37,
+    "revised_marker": 42,
+    "section_end": 49,
+    "location": "### 1. 小节标题",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V083",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 52,
+    "revised_marker": 57,
+    "section_end": 60,
+    "location": "### 2. 第一段首句",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V084",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 63,
+    "revised_marker": 68,
+    "section_end": 73,
+    "location": "### 3. EMCI/LMCI 分类的描述",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V085",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+    "original_marker": 76,
+    "revised_marker": 81,
+    "section_end": 83,
+    "location": "### 4. 本节最后的比较框架",
+    "comment": "R3-3",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V086",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "original_marker": 49,
+    "revised_marker": 55,
+    "section_end": 62,
+    "location": "## Changes in the Revised Manuscript — R3-9 / **修改 1：纠正 3D RF 的消融定位**",
+    "comment": "R3-9",
+    "groups": [
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V087",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "original_marker": 67,
+    "revised_marker": 73,
+    "section_end": 80,
+    "location": "## Changes in the Revised Manuscript — R3-9 / **修改 2：准确界定联合与独立示踪剂生成比较**",
+    "comment": "R3-9",
+    "groups": [
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V088",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "original_marker": 85,
+    "revised_marker": 91,
+    "section_end": 99,
+    "location": "## Changes in the Revised Manuscript — R3-9 / **修改 3：增加临床信息分类基线**",
+    "comment": "R3-9",
+    "groups": [
+      "G5"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V089",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 236,
+    "revised_marker": 242,
+    "section_end": 249,
+    "location": "### R2-3. 交叉验证折数不一致 / 修改一：Results → Superior Fidelity and Generalizability of Synthesized PET",
+    "comment": "R2-3",
+    "groups": [
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V090",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 254,
+    "revised_marker": 259,
+    "section_end": 269,
+    "location": "### R2-3. 交叉验证折数不一致 / 修改二：Methods → Materials and Data Preprocessing",
+    "comment": "R2-3",
+    "groups": [
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V091",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 346,
+    "revised_marker": 352,
+    "section_end": 357,
+    "location": "### R2-6. 受试者级划分和纵向访视",
+    "comment": "R2-6",
+    "groups": [
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V092",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 538,
+    "revised_marker": 542,
+    "section_end": 548,
+    "location": "### R2-14. VLM 实现细节不足 / 修改一：补充 BiomedCLIP 特征维度及 3D PET 特征提取",
+    "comment": "R2-14",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V093",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 555,
+    "revised_marker": 559,
+    "section_end": 564,
+    "location": "### R2-14. VLM 实现细节不足 / 修改二：补充 Adapter 参数量及优化设置",
+    "comment": "R2-14",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised A"
+  },
+  {
+    "id": "V094",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 565,
+    "revised_marker": 569,
+    "section_end": 574,
+    "location": "### R2-14. VLM 实现细节不足 / 修改二：补充 Adapter 参数量及优化设置",
+    "comment": "R2-14",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised B"
+  },
+  {
+    "id": "V095",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 579,
+    "revised_marker": 583,
+    "section_end": 594,
+    "location": "### R2-14. VLM 实现细节不足 / 修改三：明确临床 prompt 的八项输入变量",
+    "comment": "R2-14",
+    "groups": [
+      "G1"
+    ],
+    "status": "已被 R3-8 修改四明确取代（主页面 L1287）",
+    "marker": "Revised"
+  },
+  {
+    "id": "V096",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 665,
+    "revised_marker": 669,
+    "section_end": 674,
+    "location": "### R2-17. Baseline 适配与公平性",
+    "comment": "R2-17",
+    "groups": [
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V097",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 727,
+    "revised_marker": 731,
+    "section_end": 736,
+    "location": "### R2-18. 计算效率证据",
+    "comment": "R2-18",
+    "groups": [
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "revised："
+  },
+  {
+    "id": "V098",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 770,
+    "revised_marker": 774,
+    "section_end": 777,
+    "location": "### R2-19. 可复现性及原始数据划分 / 修改一：补充数据划分的可复现信息",
+    "comment": "R2-19",
+    "groups": [
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "revised："
+  },
+  {
+    "id": "V099",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1150,
+    "revised_marker": 1154,
+    "section_end": 1163,
+    "location": "### R3-8. VLM 是否具有独立贡献 / 修改一：Results — 文本引导与 VLM 适配机制",
+    "comment": "R3-8",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V100",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1168,
+    "revised_marker": 1176,
+    "section_end": 1190,
+    "location": "### R3-8. VLM 是否具有独立贡献 / 修改二：Figure 1 Caption — Fine-tuning 与参数符号",
+    "comment": "R3-8",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V101",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1195,
+    "revised_marker": 1199,
+    "section_end": 1213,
+    "location": "### R3-8. VLM 是否具有独立贡献 / 修改三：Methods — DIReCT++ 总体框架描述",
+    "comment": "R3-8",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V102",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1220,
+    "revised_marker": 1234,
+    "section_end": 1258,
+    "location": "### R3-8. VLM 是否具有独立贡献 / 修改四：Methods — 条件向量定义与临床 Prompt",
+    "comment": "R3-8",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V103",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1263,
+    "revised_marker": 1267,
+    "section_end": 1295,
+    "location": "### R3-8. VLM 是否具有独立贡献 / 修改五：Methods — Cross-attention 与临床编码",
+    "comment": "R3-8",
+    "groups": [
+      "G1"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V104",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1374,
+    "revised_marker": 1377,
+    "section_end": 1381,
+    "location": "### R3-10. Baseline 选择和输入公平性 / 修改一：明确 SegGuidedDiff 的二维实现",
+    "comment": "R3-10",
+    "groups": [
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V105",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1565,
+    "revised_marker": 1569,
+    "section_end": 1579,
+    "location": "### R3-15. 相比原 DIReCT 的新增贡献 / 修改一：Introduction — 明确 DIReCT++ 的新增贡献",
+    "comment": "R3-15",
+    "groups": [
+      "G1",
+      "G3",
+      "G6",
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V106",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1584,
+    "revised_marker": 1588,
+    "section_end": 1601,
+    "location": "### R3-15. 相比原 DIReCT 的新增贡献 / 修改二：Methods — 明确共享多示踪剂训练与原方法的关系",
+    "comment": "R3-15",
+    "groups": [
+      "G1",
+      "G3",
+      "G6",
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V107",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1626,
+    "revised_marker": 1631,
+    "section_end": 1634,
+    "location": "### Minor-1. 语法",
+    "comment": "M1",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V108",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1653,
+    "revised_marker": 1658,
+    "section_end": 1661,
+    "location": "### Minor-2. 拼写",
+    "comment": "M2",
+    "groups": [
+      "G7"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V109",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1684,
+    "revised_marker": 1690,
+    "section_end": 1697,
+    "location": "### Minor-3. SUV/SUVR 术语",
+    "comment": "M3",
+    "groups": [
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V110",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1716,
+    "revised_marker": 1721,
+    "section_end": 1724,
+    "location": "### Minor-4. 速度场的数学符号",
+    "comment": "M4",
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V111",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1766,
+    "revised_marker": 1768,
+    "section_end": 1777,
+    "location": "### Minor-6. Temporoparietal junction 不是明确 atlas ROI",
+    "comment": "M6",
+    "groups": [
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "revised:"
+  },
+  {
+    "id": "V112",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1816,
+    "revised_marker": 1821,
+    "section_end": 1824,
+    "location": "### Minor-8. 重复引用 / 位置一： `BMEF_main.tex` 第 119 行，Results → Section 2.3。",
+    "comment": "M8",
+    "groups": [
+      "BIB"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised（沿用 M7 已讨论的方案）"
+  },
+  {
+    "id": "V113",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1843,
+    "revised_marker": 1848,
+    "section_end": 1851,
+    "location": "### Minor-9. 参考文献作者姓名",
+    "comment": "M9",
+    "groups": [
+      "BIB"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V114",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1872,
+    "revised_marker": 1880,
+    "section_end": 1885,
+    "location": "### Minor-10. 文献 28 / 位置一：References，原第 28、35 条",
+    "comment": "M10",
+    "groups": [
+      "BIB"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V115",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1906,
+    "revised_marker": 1911,
+    "section_end": 1914,
+    "location": "### Minor-11. 文献 26 格式",
+    "comment": "M11",
+    "groups": [
+      "BIB"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V116",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1933,
+    "revised_marker": 1938,
+    "section_end": 1943,
+    "location": "### Minor-12. SPM 引用",
+    "comment": "M12",
+    "groups": [
+      "BIB",
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V117",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 1944,
+    "revised_marker": 1958,
+    "section_end": 1982,
+    "location": "### Minor-12. SPM 引用",
+    "comment": "M12",
+    "groups": [
+      "BIB",
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised："
+  },
+  {
+    "id": "V118",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2005,
+    "revised_marker": 2011,
+    "section_end": 2020,
+    "location": "### Minor-13. FDG 易损区域引用",
+    "comment": "M13",
+    "groups": [
+      "BIB",
+      "G4"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised（整合 M6 与 M13）"
+  },
+  {
+    "id": "V119",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2047,
+    "revised_marker": 2053,
+    "section_end": 2060,
+    "location": "### Minor-14. 3D DDIM 引用 / 位置一： `BMEF_main.tex` 第 101 行，Results → Superior Fidelity and Generalizability of Synthesized PET。",
+    "comment": "M14",
+    "groups": [
+      "BIB",
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V120",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2063,
+    "revised_marker": 2069,
+    "section_end": 2076,
+    "location": "### Minor-14. 3D DDIM 引用 / 位置二： `BMEF_main.tex` 第 316 行，Methods → Competing Methods。",
+    "comment": "M14",
+    "groups": [
+      "BIB",
+      "G3"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V121",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2145,
+    "revised_marker": 2150,
+    "section_end": 2157,
+    "location": "### Minor-15. Data Availability 与受试者名单",
+    "comment": "M15",
+    "groups": [
+      "G2"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V122",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2281,
+    "revised_marker": 2286,
+    "section_end": 2292,
+    "location": "### Minor-21. Sex/Gender 术语",
+    "comment": "M21",
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  },
+  {
+    "id": "V123",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "original_marker": 2293,
+    "revised_marker": 2298,
+    "section_end": 2306,
+    "location": "### Minor-21. Sex/Gender 术语",
+    "comment": "M21",
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "作者方案候选；按位置合并，未实施",
+    "marker": "Revised"
+  }
+]

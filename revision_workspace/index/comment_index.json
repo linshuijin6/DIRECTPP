@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "R2-1",
+    "title": "方法创新性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 180,
+    "section_end": 195,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 194,
+    "response_end": 194,
+    "response_sha256": "b262768f59fd9be6e3398310813eaca361d96c7a0d7e9bddfb9a4531fd0838f4",
+    "response_words": 34,
+    "groups": [],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-2",
+    "title": "临床研究动机",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 196,
+    "section_end": 211,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 210,
+    "response_end": 210,
+    "response_sha256": "f96c439a5f5e5f13281cce9415b6be5986b4f75473333aba59aaf3ad9321ec55",
+    "response_words": 38,
+    "groups": [],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-3",
+    "title": "交叉验证折数不一致",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 212,
+    "section_end": 269,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 226,
+    "response_end": 230,
+    "response_sha256": "478eed4d05f79b135db1abb8572a63847f8e04e63c825aec991a2befbebd5cdf",
+    "response_words": 139,
+    "groups": [
+      "G2"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-4",
+    "title": "预后分层表述过度",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 270,
+    "section_end": 299,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 286,
+    "response_end": 296,
+    "response_sha256": "fddec9026c508eb428034d1fd0de92e22be8ff1a3c96a9dddc22565f095f2405",
+    "response_words": 249,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md"
+    ]
+  },
+  {
+    "id": "R2-5",
+    "title": "临床条件与标签循环性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 300,
+    "section_end": 321,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 316,
+    "response_end": 320,
+    "response_sha256": "6a4e9232deb6a3c3ef900591d72b74299c5351579878408e8cd2e5f6a58479b3",
+    "response_words": 266,
+    "groups": [
+      "G1",
+      "G5",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-6",
+    "title": "受试者级划分和纵向访视",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 322,
+    "section_end": 357,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 338,
+    "response_end": 342,
+    "response_sha256": "71a25609dcc4a81def93e3957b596f8fab19ba77acdec013375b4b719074b902",
+    "response_words": 90,
+    "groups": [
+      "G2"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-7",
+    "title": "双示踪剂外部验证不足",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 358,
+    "section_end": 381,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 374,
+    "response_end": 378,
+    "response_sha256": "56e7063e516f50a7b9a8cada4f9484f283f70d30280cbfcb21e67627147b2a1f",
+    "response_words": 128,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md"
+    ]
+  },
+  {
+    "id": "R2-8",
+    "title": "非显著性不等于等效性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 382,
+    "section_end": 397,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+    "response_start": 3,
+    "response_end": 11,
+    "response_sha256": "edc6d7306fbc5b059e5a464d15c68cfa78d00b1e4b1dd1bfcf0d975cf1a13b1b",
+    "response_words": 367,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md"
+    ]
+  },
+  {
+    "id": "R2-9",
+    "title": "多重比较校正",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 398,
+    "section_end": 413,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+    "response_start": 3,
+    "response_end": 13,
+    "response_sha256": "f8fd74220ef36c6227911f73898938dda2b263e01a104ce1e042d40d3268b21f",
+    "response_words": 317,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md"
+    ]
+  },
+  {
+    "id": "R2-10",
+    "title": "PET 生物标志物一致性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 414,
+    "section_end": 429,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+    "response_start": 3,
+    "response_end": 13,
+    "response_sha256": "507d3066ca4f90151b7218e167b255be36537455fef639b5051faf08ed853435",
+    "response_words": 390,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md"
+    ]
+  },
+  {
+    "id": "R2-11",
+    "title": "分类结果缺乏不确定性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 430,
+    "section_end": 451,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 446,
+    "response_end": 450,
+    "response_sha256": "179ac7bce421e36cabb98f75823fe0ad0f66572244b41d3212b5af67dabba818",
+    "response_words": 152,
+    "groups": [
+      "G5"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-12",
+    "title": "显著优越性需要统计检验",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 452,
+    "section_end": 475,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 468,
+    "response_end": 474,
+    "response_sha256": "34df06dbd00e48211233c75cb1f48c1d86a37e4ac63d3c91fdc097d05e820468",
+    "response_words": 334,
+    "groups": [
+      "G5"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-13",
+    "title": "单步采样术语不准确",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 476,
+    "section_end": 497,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 492,
+    "response_end": 494,
+    "response_sha256": "d795cb448f1c4b336d4dba6c94d0b1daac14c5154aa008f81e60a2af42b1c896",
+    "response_words": 81,
+    "groups": [
+      "G6"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md"
+    ]
+  },
+  {
+    "id": "R2-14",
+    "title": "VLM 实现细节不足",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 498,
+    "section_end": 594,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 514,
+    "response_end": 526,
+    "response_sha256": "0e571670df6788870bc81bb728a2da47aee636f54ac38e9c854f37366aae25e6",
+    "response_words": 556,
+    "groups": [
+      "G1"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-15",
+    "title": "Equation (1) 及参数敏感性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 595,
+    "section_end": 610,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+    "response_start": 3,
+    "response_end": 21,
+    "response_sha256": "6e89069ad44cfbc9574f4478f1107950ae3ebfd648c980b0fa74d261150a3236",
+    "response_words": 701,
+    "groups": [
+      "G1"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md"
+    ]
+  },
+  {
+    "id": "R2-16",
+    "title": "人口统计学混杂",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 611,
+    "section_end": 634,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 627,
+    "response_end": 633,
+    "response_sha256": "13607d58ba5a93c2493e60dc95a30ac6d78bac50ca44e3c20e2f00c1fe36c079",
+    "response_words": 246,
+    "groups": [
+      "G1",
+      "G5",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-17",
+    "title": "Baseline 适配与公平性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 635,
+    "section_end": 698,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 651,
+    "response_end": 659,
+    "response_sha256": "cab2b0861c83a18c2001e026b3a4f81aeae4ae34ca10aa0f216d76cd54536133",
+    "response_words": 241,
+    "groups": [
+      "G3"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-18",
+    "title": "计算效率证据",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 699,
+    "section_end": 736,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 715,
+    "response_end": 723,
+    "response_sha256": "322e38413766ab7616acb07d5cbcd4a59296b7eb563bc141999715222c50c77b",
+    "response_words": 277,
+    "groups": [
+      "G6"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-19",
+    "title": "可复现性及原始数据划分",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 737,
+    "section_end": 777,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 755,
+    "response_end": 765,
+    "response_sha256": "fcb2dfee6a60035fd44de34f41cc129bcf2d0afe785ca60dde35c15ec24b0941",
+    "response_words": 221,
+    "groups": [
+      "G2"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R2-20",
+    "title": "临床应用主张过强",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 778,
+    "section_end": 803,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 794,
+    "response_end": 798,
+    "response_sha256": "76ba7744825b0c6aad5d8479358b21b81f5eeb8c695f3e062fbe045868625c15",
+    "response_words": 160,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md"
+    ]
+  },
+  {
+    "id": "R3-1",
+    "title": "Clinical prompt 与诊断标签循环性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 804,
+    "section_end": 840,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 833,
+    "response_end": 839,
+    "response_sha256": "44e70de8f6839af38d9225dc00b280449d6b5597245be85817cac17307dd0e19",
+    "response_words": 291,
+    "groups": [
+      "G1",
+      "G5",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-2",
+    "title": "Table S1 异常及临床评分填补",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 841,
+    "section_end": 873,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 860,
+    "response_end": 870,
+    "response_sha256": "d09c439e7b09c0387342de58ffb71a5a3688c6dd7357fb41be209863ea9cc132",
+    "response_words": 344,
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md"
+    ]
+  },
+  {
+    "id": "R3-3",
+    "title": "横断面分层不等于预后预测",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 874,
+    "section_end": 904,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 893,
+    "response_end": 901,
+    "response_sha256": "ac22bb051eaac5d2771fb24ebf1b6b42330dbf9d569440acd5d85d1e89c93c26",
+    "response_words": 252,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md"
+    ]
+  },
+  {
+    "id": "R3-4",
+    "title": "个体一致性及 Aβ 阳性判别",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 905,
+    "section_end": 945,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 934,
+    "response_end": 944,
+    "response_sha256": "073e6265d2b0437548cb54745b5c5651182cdcd76b0026e36a00436a6df39925",
+    "response_words": 420,
+    "groups": [
+      "G4",
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-5",
+    "title": "SUV/SUVR 定义及 FDR",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 946,
+    "section_end": 972,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md",
+    "response_start": 5,
+    "response_end": 11,
+    "response_sha256": "9de3328604d5adc8f25e27d234516bab0687aaeb3fb63eb7da1f60542a7b616f",
+    "response_words": 409,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md"
+    ]
+  },
+  {
+    "id": "R3-6",
+    "title": "生成器与分类器之间的数据独立性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 973,
+    "section_end": 1021,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1006,
+    "response_end": 1020,
+    "response_sha256": "373e1af22fec3ff790d351e9252e61609b95ba5f1e21cdf4dc0c6dba65c389fb",
+    "response_words": 659,
+    "groups": [
+      "G2",
+      "G5",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-7",
+    "title": "分类性能报告及 MRI-only 异常基线",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1022,
+    "section_end": 1056,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1047,
+    "response_end": 1055,
+    "response_sha256": "dff79de98ead24993a536abfcd9c3e09ad47b03e99f2877d34320f0874407e17",
+    "response_words": 222,
+    "groups": [
+      "G5"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-8",
+    "title": "VLM 是否具有独立贡献",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1057,
+    "section_end": 1295,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1082,
+    "response_end": 1138,
+    "response_sha256": "700bdfbb69f843325c195370f304bb99ecaf9a1a499447d61689b56b02489938",
+    "response_words": 1492,
+    "groups": [
+      "G1"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-9",
+    "title": "缺少系统性消融",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1296,
+    "section_end": 1330,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+    "response_start": 25,
+    "response_end": 39,
+    "response_sha256": "6aed541a9173d0210269bd3d4ba9ac60d7f41b3b6518d8cab5add8f3b84d49c6",
+    "response_words": 477,
+    "groups": [
+      "G1",
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "status": "消融英文已补齐；按已确认中文方向整理，非历史逐字稿（子页L23）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md"
+    ],
+    "response_provenance_note": "子页L23：历史英文定稿虽已确认，但未能逐字恢复；本段不冒充历史逐字稿。"
+  },
+  {
+    "id": "R3-10",
+    "title": "Baseline 选择和输入公平性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1331,
+    "section_end": 1381,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1358,
+    "response_end": 1370,
+    "response_sha256": "fbcf6d5a254f9e9068e12705aa14d6c6eb090fb8ee36ee9a60be6376ef14b01e",
+    "response_words": 429,
+    "groups": [
+      "G3"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md"
+    ]
+  },
+  {
+    "id": "R3-11",
+    "title": "图像评价指标和可视化",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1382,
+    "section_end": 1442,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1415,
+    "response_end": 1441,
+    "response_sha256": "ba549d309813e453f5b18c2b530fb3f65a7a48c98927a0311704de9b2e57b7a2",
+    "response_words": 946,
+    "groups": [
+      "G3",
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "R3-12",
+    "title": "确定性生成、直接回归及不确定性",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1443,
+    "section_end": 1469,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+    "response_start": 11,
+    "response_end": 21,
+    "response_sha256": "6c60675499ce37037b44a29d7fa9f694dc766de4d6d9c525e7c27cfb9020230f",
+    "response_words": 238,
+    "groups": [
+      "G3",
+      "G6"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md"
+    ]
+  },
+  {
+    "id": "R3-13",
+    "title": "OASIS-3 外部验证范围",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1470,
+    "section_end": 1498,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1489,
+    "response_end": 1495,
+    "response_sha256": "e8f1c86d2715e012c3bcb8ed3aa4cfc3134f2edf89302d171de205796656a939",
+    "response_words": 151,
+    "groups": [
+      "G2",
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md"
+    ]
+  },
+  {
+    "id": "R3-14",
+    "title": "临床定位和过度结论",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1499,
+    "section_end": 1529,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1522,
+    "response_end": 1526,
+    "response_sha256": "76acd3ff01ed1d48dafdc03dd95c6a3b525581e277d5ef6bbf57271c96927867",
+    "response_words": 186,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md"
+    ]
+  },
+  {
+    "id": "R3-15",
+    "title": "相比原 DIReCT 的新增贡献",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1530,
+    "section_end": 1605,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1549,
+    "response_end": 1555,
+    "response_sha256": "174d3be0522a144332b878fd1530d2345e7331eb3b15f07e4191ebf0f3f0f5a3",
+    "response_words": 210,
+    "groups": [
+      "G1",
+      "G3",
+      "G6",
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M1",
+    "title": "语法",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1606,
+    "section_end": 1634,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1620,
+    "response_end": 1620,
+    "response_sha256": "3071b0ac1de5b6a7cac200208ea2357ba14fae8bd777395ca2167977fa64e9cd",
+    "response_words": 24,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M2",
+    "title": "拼写",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1635,
+    "section_end": 1661,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1647,
+    "response_end": 1647,
+    "response_sha256": "7ec50a9998831ac32dd7588ba64d3c17a4c5f58736004e7d8ecef98c5aa50334",
+    "response_words": 19,
+    "groups": [
+      "G7"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M3",
+    "title": "SUV/SUVR 术语",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1662,
+    "section_end": 1697,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1676,
+    "response_end": 1678,
+    "response_sha256": "ad7e58aea95679c8a8b6e13ce6c454720cadeb3668a29141e9f3d5bb562ac13f",
+    "response_words": 95,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M4",
+    "title": "速度场的数学符号",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1698,
+    "section_end": 1724,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1710,
+    "response_end": 1710,
+    "response_sha256": "b2350a6081b713e8d2fb3517eddd1315041c56f4522e9b8b9f24a69923b9576e",
+    "response_words": 42,
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M5",
+    "title": "ROI 统计组别不一致",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1725,
+    "section_end": 1746,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1739,
+    "response_end": 1745,
+    "response_sha256": "5fdda5fcc4b0dc736ee5a9af3c6ca507c8cd22e9e6fc1c5c306d3ffa07c96dca",
+    "response_words": 168,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M6",
+    "title": "Temporoparietal junction 不是明确 atlas ROI",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1747,
+    "section_end": 1777,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1759,
+    "response_end": 1763,
+    "response_sha256": "1bc41930664cabe232345a801762e536b0c692f7e03fcc000f7d371a62efb2de",
+    "response_words": 173,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M7",
+    "title": "SynthSeg 名称与引用不一致",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1778,
+    "section_end": 1795,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1790,
+    "response_end": 1792,
+    "response_sha256": "3441c270ce43b97be2ed92307e12ada3935e99d3c78afd8fae9c2e25b5279d97",
+    "response_words": 109,
+    "groups": [
+      "G2",
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md"
+    ]
+  },
+  {
+    "id": "M8",
+    "title": "重复引用",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1796,
+    "section_end": 1824,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1808,
+    "response_end": 1808,
+    "response_sha256": "5db5c8ee0a5930fc639fbe7644a50a2b710220b0389c8116b3393e500e5fe96c",
+    "response_words": 43,
+    "groups": [
+      "BIB"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M9",
+    "title": "参考文献作者姓名",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1825,
+    "section_end": 1851,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1837,
+    "response_end": 1837,
+    "response_sha256": "33cfc4200f307eb4ed692710884c5a1a50d45d4112db64b608f81ac9b13fa311",
+    "response_words": 35,
+    "groups": [
+      "BIB"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M10",
+    "title": "文献 28",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1852,
+    "section_end": 1885,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1864,
+    "response_end": 1864,
+    "response_sha256": "67860887ef50662a5e4c56a5743ed8bb72699e91e7351ba4faa401467ddc451e",
+    "response_words": 63,
+    "groups": [
+      "BIB"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M11",
+    "title": "文献 26 格式",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1886,
+    "section_end": 1914,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1898,
+    "response_end": 1898,
+    "response_sha256": "f0956c706b60818e753b5528cf1a116747b2118ae55f634f39b7f69291888cfa",
+    "response_words": 50,
+    "groups": [
+      "BIB"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M12",
+    "title": "SPM 引用",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1915,
+    "section_end": 1982,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1927,
+    "response_end": 1927,
+    "response_sha256": "8b67389f39f7ca800d44eb0e96504c01cdae095fc886287d764beb5a9e661c77",
+    "response_words": 64,
+    "groups": [
+      "BIB",
+      "G2"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M13",
+    "title": "FDG 易损区域引用",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 1983,
+    "section_end": 2030,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 1995,
+    "response_end": 1997,
+    "response_sha256": "f81b32ea789ed94d0f8088a4d8e37273d732fa5d43c03905a625f4b7480ae339",
+    "response_words": 97,
+    "groups": [
+      "BIB",
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M14",
+    "title": "3D DDIM 引用",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2031,
+    "section_end": 2116,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2043,
+    "response_end": 2043,
+    "response_sha256": "c49ebba6949849f7aa31d829b55c9dbf15da0df62daf16145dbd1dcb9fc3cb88",
+    "response_words": 112,
+    "groups": [
+      "BIB",
+      "G3"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M15",
+    "title": "Data Availability 与受试者名单",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2117,
+    "section_end": 2157,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2131,
+    "response_end": 2137,
+    "response_sha256": "508736e06317d85568b9603aa7212618380af323c988c2864443ef8c27c87ead",
+    "response_words": 165,
+    "groups": [
+      "G2"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M16",
+    "title": "超参数",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2158,
+    "section_end": 2182,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2173,
+    "response_end": 2179,
+    "response_sha256": "e7c09b60706e78fb44b612b53bcc5f474da7a58a1bc45725e56423a8ea603228",
+    "response_words": 251,
+    "groups": [
+      "G1",
+      "G6"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md"
+    ]
+  },
+  {
+    "id": "M17",
+    "title": "Figure 1 图例",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2183,
+    "section_end": 2202,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2195,
+    "response_end": 2199,
+    "response_sha256": "39eaeeeb750c7a0a50772a5cdc6833ef174efe48eca52ded705301f3260f7993",
+    "response_words": 97,
+    "groups": [
+      "G1"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M18",
+    "title": "Figure 4 缺少 MCI 分析",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2203,
+    "section_end": 2225,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2216,
+    "response_end": 2222,
+    "response_sha256": "f0f5a9d2ba64eba7d3f20a20ac0f96b66438954df48bfbdabdbbafd4f16f8111",
+    "response_words": 227,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": [
+      "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md"
+    ]
+  },
+  {
+    "id": "M19",
+    "title": "Uptake 坐标轴",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2226,
+    "section_end": 2248,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2241,
+    "response_end": 2247,
+    "response_sha256": "f8dc159edd36f0198c7be5cbf931041b67f9d9dd27a68e877dc13c313023d859",
+    "response_words": 240,
+    "groups": [
+      "G4"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M20",
+    "title": "投稿系统中的 LaTeX",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2249,
+    "section_end": 2262,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2261,
+    "response_end": 2261,
+    "response_sha256": "7a1d3677c7d6450e3bb6853e41ea5f4a90a59580cab8826afb12af1147ba069b",
+    "response_words": 29,
+    "groups": [
+      "SUBMISSION"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  },
+  {
+    "id": "M21",
+    "title": "Sex/Gender 术语",
+    "source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "section_start": 2263,
+    "section_end": 2306,
+    "response_source": "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+    "response_start": 2275,
+    "response_end": 2275,
+    "response_sha256": "0f7870cb56589976d191785a8e3b29fc936a3ad898f8f8db8fa73c5ab97f6a46",
+    "response_words": 27,
+    "groups": [
+      "G1",
+      "G8"
+    ],
+    "status": "英文段落已定位；作者确认（用户声明）",
+    "linked_pages": []
+  }
+]

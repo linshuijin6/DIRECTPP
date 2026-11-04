@@ -1,0 +1,41 @@
+% Source-backed publication fragment; source records retained independently.
+% Source: reports/baseline_metrics_provenance_20261020/paper_figure2_values.csv
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llllll}
+\caption{Absolute historical Figure 2 summary values}\label{tab:historical_generation}\\
+\toprule
+cohort & method & SSIM\_percent & PSNR & MSE\_percent & MAE\_percent \\
+\midrule
+\endfirsthead
+\toprule
+cohort & method & SSIM\_percent & PSNR & MSE\_percent & MAE\_percent \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+ADNI\_FDG & Cyclegan & 67.82 & 17.26 & 2.35 & 6.47 \\
+ADNI\_FDG & Swin-Unet & 75.29 & 19.82 & 1.27 & 5.76 \\
+ADNI\_FDG & DDIM(3D) & 82.62 & 23.09 & 0.98 & 3.98 \\
+ADNI\_FDG & SegGuidedDif & 84.85 & 23.76 & 0.57 & 3.73 \\
+ADNI\_FDG & Rectified Flow & 85.69 & 24.96 & 0.53 & 3.52 \\
+ADNI\_FDG & Ours(single) & 87.48 & 26.51 & 0.43 & 3.08 \\
+ADNI\_FDG & Ours & 89.94 & 28.72 & 0.33 & 2.96 \\
+ADNI\_AV45 & Cyclegan & 59.56 & 15.43 & 3.24 & 8.39 \\
+ADNI\_AV45 & Swin-Unet & 69.16 & 17.54 & 2.67 & 7.95 \\
+ADNI\_AV45 & DDIM(3D) & 73.37 & 21.33 & 1.73 & 7.01 \\
+ADNI\_AV45 & SegGuidedDif & 80.29 & 21.99 & 1.12 & 6.92 \\
+ADNI\_AV45 & Rectified Flow & 85.43 & 24.74 & 0.69 & 4.31 \\
+ADNI\_AV45 & Ours(single) & 87.37 & 27.11 & 0.51 & 3.16 \\
+ADNI\_AV45 & Ours & 88.21 & 28.09 & 0.39 & 2.73 \\
+OASIS & Cyclegan & 40.27 & 12.38 & 4.86 & 10.78 \\
+OASIS & Swin-Unet & 51.34 & 14.96 & 3.96 & 10.16 \\
+OASIS & DDIM(3D) & 68.59 & 17.05 & 3.48 & 8.24 \\
+OASIS & SegGuidedDif & 71.85 & 19.63 & 2.51 & 7.59 \\
+OASIS & Rectified Flow & 80.44 & 21.33 & 1.87 & 4.29 \\
+OASIS & Ours(single) & 82.66 & 25.48 & 1.12 & 3.55 \\
+OASIS & Ours & 83.97 & 26.79 & 0.94 & 3.01 \\
+\end{longtable}
+\noindent\parbox{\linewidth}{\footnotesize 21method/cohort rows x4metrics =84historical values. SSIM/MSE/MAE retain source percent scales, PSNR dB. OASIS is AV45 only. No recovered common per-subject final inputs: SD, CI and paired p unavailable. These are not the fixed W1 OOF experiment and are not paired with it. Original radar figure unchanged.}
+\endgroup

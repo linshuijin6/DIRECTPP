@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -8,4 +8,4 @@
+ 
+ Importantly, the regional uptake measurements in this study were derived from per-image min–max normalized PET intensities rather than clinically standardized quantitative SUV or SUVR measurements. Therefore, the reported agreement and regression results characterize normalized regional uptake only and should not be interpreted as evidence of clinical SUV/SUVR agreement, absolute quantitative accuracy, or clinically validated calibration. We will explicitly clarify this distinction and its implications in the revised manuscript. Future work will investigate PET synthesis and validation approaches that preserve clinically meaningful quantitative uptake measurements.
+ 
+-In the revised manuscript, we will expand the regional agreement supplementary table to include regression slopes, intercepts, and their 95% confidence intervals for the 16 representative tracer–ROI combinations, alongside the existing agreement and bias metrics. We will also clarify the corresponding statistical methods and limitations.
++In the revised manuscript, we will expand the regional agreement supplementary table to include regression slopes, intercepts, and their 95% confidence intervals for the 16 representative tracer–ROI combinations, alongside the existing agreement and bias metrics. We now also clarify the corresponding statistical methods and limitations.

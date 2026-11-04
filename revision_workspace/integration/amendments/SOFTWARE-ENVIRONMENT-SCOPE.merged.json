@@ -1,0 +1,16 @@
+{
+  "merged_into": "G8-MISSINGNESS-INPUT",
+  "record": {
+    "position_id": "SOFTWARE-ENVIRONMENT-SCOPE",
+    "target_file": "manuscript/supplementary/supplementary.tex",
+    "section_or_label": "tab:supp_software",
+    "original_anchor_sha256": "1b08726d782e1110a33be49042e3d986ab8a23490aaca998d0e4e0e22eb06b97",
+    "source_candidates": "",
+    "related_comments": "R3-13",
+    "groups": "G2;G6",
+    "final_text_path": "revision_workspace/integration/final_text/SOFTWARE-ENVIRONMENT-SCOPE.tex",
+    "evidence_paths": "reports/revision_evidence_night_20261102/G6/REPORT.md",
+    "decision_basis": "Distinguish retained historical package list from directly recorded timing environment.",
+    "status": "implemented_pending_full_build_and_review"
+  }
+}

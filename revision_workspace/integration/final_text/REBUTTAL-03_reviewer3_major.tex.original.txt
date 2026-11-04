@@ -1,0 +1,453 @@
+\reviewersec{Part 3: Response to Reviewer 3 — Major Comments}
+
+
+
+
+
+
+\subsection*{R3-1: Circularity in Prompt Conditioning and Diagnostic Label Encoding}
+\revcomment{R3-1}{1. Circularity: the conditioning prompt contains the information that defines the diagnostic labels.
+This is my principal concern. The clinical prompt encodes ``neuropsychological scores'' (lines 314-315), and Table S1 lists MMSE, CDR, FAQ, GDS, and NPI-Q. In ADNI, diagnostic group membership is defined largely by MMSE, CDR, and Logical Memory II performance, and the authors state that EMCI/LMCI were assigned using Logical Memory II (lines 358-360). The synthetic PET is then fed to a classifier to predict those same labels. Any gain of ``MRI + synthetic PET'' over ``MRI alone'' could therefore reflect clinical scores passed through the generator, not molecular information inferred from anatomy.
+
+The following are needed to resolve this:
+
+The exact prompt template, and a list of which scores are included. Is Logical Memory II or CDR in it? The manuscript is inconsistent: line 95 says ``age, gender, clinical scores,'' lines 314-315 say ``age, sex, weight, and neuropsychological scores,'' and Fig. 1 shows only ``Age, Gender, ...''.
+A classifier using the clinical variables alone, and one using MRI + clinical variables, as reference baselines. If MRI + clinical variables matches MRI + synthetic PET, the synthetic PET adds nothing.
+Synthesis and classification without clinical text (tracer token only), and with shuffled or mismatched prompts. If synthetic PET changes substantially when a CN subject's MRI is paired with an AD patient's scores, the images reflect the prompt rather than the patient.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-1]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-1]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-1]
+}
+
+
+
+
+
+
+
+\subsection*{R3-2: Table S1 Score Distributions, Plausibility, and Imputation Protocols}
+\revcomment{R3-2}{2. Table S1 values appear implausible and may indicate imputation that encodes the label directly.
+Several within-group standard deviations are not credible for integer-valued clinical scales. Examples: EMCI MMSE 27.50 $\pm$ 0.50, LMCI MMSE 24.47 $\pm$ 0.50, LMCI NPI-Q 4.00 $\pm$ 0.03, EMCI GDS 1.01 $\pm$ 0.14, and LMCI GDS 3.02 $\pm$ 0.28. The LMCI mean MMSE (24.47) is also lower than both MCI-U (26.83) and typical ADNI LMCI values, and the CN weight SD (24.13 kg) is unusually large. The authors should explain how these values were computed and whether missing scores were imputed with group means. If they were, the prompt literally encodes group membership, and the classification results in Fig. 5 would be invalid. Please report missingness per variable and per group, and the imputation strategy.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-2]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-2]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-2]
+}
+
+
+
+
+
+
+
+\subsection*{R3-3: Absence of Longitudinal Prognostic Endpoints}
+\revcomment{R3-3}{``Prognostic stratification'' is not supported by the analysis.
+
+EMCI vs. LMCI is a cross-sectional severity distinction based on a memory cutoff, not a prognostic outcome. The manuscript also describes LMCI as indicating ``proximity to dementia conversion'' and MCI-U as lacking ``clear progression status'' (lines 360-362), which conflates the two concepts. To justify the title and the claims in lines 178-181 and 249-250, the authors should perform a genuine prognostic analysis: progressive vs. stable MCI (pMCI/sMCI) over a defined follow-up (e.g., 36 months), with time-to-conversion modeling (Cox regression, C-index). Otherwise, ``prognostic'' and ``stratification'' should be removed from the title and claims.}
+
+\response{
+We thank the reviewer for further highlighting the important distinction between MCI stage discrimination and longitudinal prognostic prediction.
+
+Our original motivation for relating EMCI/LMCI classification to disease progression was based on previous studies examining the clinical characteristics and subsequent conversion risks associated with these two MCI stages (Aisen et al., 2015; Lin et al., 2022; Petersen, 2021). Accordingly, we included EMCI-versus-LMCI classification as a downstream task to investigate the performance of synthetic PET in fine-grained MCI stage stratification.
+
+We agree that EMCI and LMCI in our study were defined according to baseline memory impairment, and that we did not perform progressive-versus-stable MCI (pMCI/sMCI) classification or time-to-conversion analysis based on longitudinal follow-up outcomes. Therefore, the current experiments do not establish the model's ability to predict longitudinal disease progression.
+
+However, we would like to clarify that stratification in our study refers to grouping MCI patients according to their current degree of cognitive impairment, rather than stratification according to future disease-conversion risk. To avoid ambiguity, we will remove or revise unsupported prognostic claims throughout the manuscript and clarify that the task concerns MCI stage stratification. We will also revise the descriptions in the Methods section that characterize LMCI as indicating proximity to dementia conversion and MCI-U as lacking clear progression status, ensuring that the group definitions accurately reflect the cross-sectional classification criteria used in our study.
+
+Accordingly, we will revise the manuscript title to ``Precision Synthesis of Multi-Tracer PET via VLM-Modulated Rectified Flow for MCI Stage Stratification'' to clarify the scope of the stratification task.
+}
+
+% [Audit Note: 与 R2-4 对 Methods §4.5.2 标题提出不同版本；最终标题应在归组修改中统一。]
+
+\actiontaken{
+We have revised the manuscript accordingly across the following sections:
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+  \item \textbf{Methods Section 4.3: Diagnostic Cohort Specifications (EMCI, LMCI, MCI-U), Line 295}
+  \item \textbf{Methods Section 4.3}
+  \item \textbf{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification}
+  \item \textbf{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification, Line 344}
+\end{itemize}
+}
+
+\changedtext{Methods Section 4.3: Diagnostic Cohort Specifications (EMCI, LMCI, MCI-U), Line 295}{%
+To account for the heterogeneity of MCI, we further subclassified individuals based on delayed recall performance on the WMS-R Logical Memory II Story A task: Early MCI (EMCI; \$n = 291\$) denoted a milder impairment stage, whereas Late MCI (LMCI; \$n = 152\$) denoted a more severe impairment stage.%
+}
+
+% [Revision Note: — 第 295 行]
+% [Revision Note: 只修改 LMCI 的解释，不改变分类依据、人数或句式结构。]
+\changedtext{Methods Section 4.3}{%
+The remaining MCI participants not classified as EMCI or LMCI were grouped as MCI-unclassified (MCI-U; \$n = 520\$).%
+}
+
+% [Revision Note: 这里应删除 without clear progression status，因为 MCI-U 在本文中指未被归入 EMCI 或 LMCI 的受试者，而不是缺乏纵向疾病进展结局的患者。]
+% [Revision Note: 四、Methods §4.5.2：明确分类任务的含义]
+\changedtext{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification}{%
+\subsubsection{Diagnosis and MCI Stage Discrimination}%
+}
+
+% [Revision Note: 这里保留 Discrimination，因为本节描述的是具体分类实验；论文总标题使用 MCI Stage Stratification，二者并不矛盾。]
+\changedtext{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification}{%
+To rigorously evaluate the clinical utility of synthesized PET (Syn-PET) images, we assessed their capacity to support diagnostic classification and MCI stage discrimination across the AD continuum.%
+}
+
+\changedtext{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification}{%
+Specifically, we trained identical DenseNet classifiers\~\\cite to discriminate between three clinically salient diagnostic pairs: (1) AD versus CN individuals, a canonical diagnostic boundary; (2) MCI versus CN, representing early disease detection; and (3) EMCI versus late MCI (LMCI), representing different degrees of memory impairment.%
+}
+
+% [Revision Note: 只替换最后一个任务的解释，不改动前两个分类任务或 DenseNet 的方法描述。]
+\changedtext{Methods Section 4.5.2: Stage Discrimination vs. Diagnostic Classification, Line 344}{%
+This comparative framework enables a direct assessment of whether Syn-PET preserves the discriminative biomarker information encoded in real PET, and whether multi-tracer Syn-PET enhances downstream diagnostic classification and MCI stage stratification beyond single-modality or MRI-only approaches.%
+}
+
+% [Revision Note: — 第 344 行]
+
+\subsection*{R3-4: Non-Significant Tests vs. Subject-Level Concordance and Amyloid Status}
+\revcomment{R3-4}{4. Non-significant paired t-tests do not demonstrate equivalence, and group-level agreement does not show subject-level precision.
+Lines 146-150 infer ``high fidelity'' from $p > 0.05$ in paired t-tests. Absence of a significant difference is not evidence of equivalence. The central claim of the paper is subject-specific precision (lines 56, 69-73), which group-mean comparisons cannot test: a model that outputs a diagnosis-conditional average image would pass every test in Fig. 4. The authors should provide:
+
+per-subject agreement for regional SUVR (Pearson/Lin's concordance, ICC, Bland-Altman bias and limits of agreement), overall and within each diagnostic group;
+formal equivalence testing (e.g., TOST) with pre-specified margins;
+most importantly, amyloid-positivity agreement. Using a standard composite SUVR or Centiloid threshold, report sensitivity, specificity, and Cohen's $\kappa$ for classifying real A$\beta$+ vs. A$\beta$$-$ from synthetic AV-45, stratified by CN, MCI, and AD.
+
+The clinically decisive test is whether the model detects amyloid-positive cognitively normal individuals and amyloid-negative MCI. These are exactly the cases where MRI and clinical scores cannot reveal pathology, and where the authors argue the method is most useful (lines 60-61, 217-219).}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-4]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-4]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-4]
+}
+
+
+
+
+
+
+
+\subsection*{R3-5: Standardized SUVR Terminology, Min-Max Scaling, and Effect Sizes}
+\revcomment{R3-5}{5. Quantitative definitions: ``SUV'' vs. SUVR and min-max normalization.
+All volumes are min-max normalized to [0, 1] per image (lines 388-389). Regional values are then called ``SUV'' and normalized to cerebellar gray matter or pons (lines 137-138), and plotted as ``Mean Uptake'' on a 0-1 axis (Fig. 4, S1-S6). Please clarify:
+
+whether ratios were computed on the original PET or on min-max-normalized images (the latter loses quantitative meaning);
+the reference region for florbetapir (whole cerebellum is the ADNI standard);
+the correct terminology (SUVR, not SUV).
+
+Please also verify that the FDR correction described in Section 4.5.1 was actually applied to the p-values shown in the figures, and report effect sizes (Cohen's d) for real vs. synthetic group differences. Preserved significance with a much smaller or larger effect size is not ``precise preservation.''}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-5]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-5]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-5]
+}
+
+
+
+
+
+
+
+\subsection*{R3-6: Subject-Level Splitting, Generator-Classifier Leakage, and Sample Sizes}
+\revcomment{R3-6}{6. Data splitting and possible leakage between generator and classifier.
+The manuscript states 3-fold cross-validation for synthesis (line 114), two-fold cross-validation (line 391), and 3-fold for classification (line 161). Please clarify:
+
+whether splits are at the subject level (ADNI subjects contribute multiple visits);
+whether synthetic PET used to test the classifier on a given subject was produced by a generator that did not see that subject in training;
+whether generator and classifier folds are nested or aligned;
+the maximum allowed interval between MRI and PET acquisitions;
+whether only florbetapir scans were used (ADNI-3/4 also use florbetaben);
+whether ADNI's pre-processed PET (co-registered, averaged, uniform resolution) was used, and how multi-scanner differences were handled;
+which subjects (including MCI-U) entered each classification task, with per-task sample sizes.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-6]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-6]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-6]
+}
+
+
+
+
+
+
+
+\subsection*{R3-7: Classification Metrics, Confidence Intervals, and MRI-Only Baselines}
+\revcomment{R3-7}{7. Classification reporting and claims of significance.
+
+Methods lists ACC, SEN, and SPE (line 459), but Results and Fig. 5 report AUC.
+No confidence intervals or statistical tests are given, yet the text says ``significantly outperforming'' (lines 171, 215-216). Please report mean $\pm$ SD across folds, 95\% CIs, and DeLong tests for AUC differences.
+EMCI vs. LMCI is imbalanced (291 vs. 152), and specificity is low ($\sim$55--75\% in Fig. 5C). Please report balanced accuracy.
+The MRI-only baseline for MCI vs. CN appears near chance (ACC $\approx$ 51\% in Fig. 5B), which is well below published MRI-only performance. This inflates the apparent benefit of synthetic PET. Please justify the classifier and training protocol, or use a stronger MRI baseline.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-7]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-7]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-7]
+}
+
+
+
+
+
+
+
+\subsection*{R3-8: Vision-Language Grounding, Numerical Encoding, and Adapter Logic}
+\revcomment{R3-8}{8. The vision-language component is overstated relative to what is implemented.
+
+The adapted tracer guidance is a fixed constant. $\text{Adapt}_f(c_f)$ and $\text{Adapt}_a(c_a)$ are pre-computed and fixed (lines 306-307), with a scalar scale and a bias vector. They are therefore equivalent to two learned tracer tokens. Describing this as ``domain knowledge encoding'' and ``prompt learning'' overstates its role. An ablation replacing it with a randomly initialized learned tracer embedding is needed.
+Numeric encoding by CLIP. Subject-specific information comes from a frozen BiomedCLIP text encoder applied to a prompt with numbers. CLIP-style text encoders are known to represent numeric values poorly. Please show that the embedding meaningfully separates, for example, MMSE 29 from 24 (embedding distance vs. score difference), and compare against a simple tabular encoder (an MLP on normalized variables). If the tabular encoder performs as well, the VLM framing is not justified.
+Image features and constraint logic. BiomedCLIP is a 2D model. Please explain how $\mathbb{E}[f_f]$ and $\mathbb{E}[f_a]$ were computed from 3D PET (which slices, which aggregation). The constraint sim($\text{Adapt}_f$, $\text{Adapt}_a$) $\ge$ $\tau$ enforces similarity between tracers, which contradicts the stated goal of ``preserving inter-tracer differences'' (lines 98-99, 277-278). The value of $\tau$, the optimization method for the constrained problem, and a sensitivity analysis are all missing.
+Notation. Fig. 1B uses $\alpha$ and $\beta$, while Eq. 1 uses $\alpha$$_1$, $\alpha$$_2$, $\beta$$_1$, $\beta$$_2$.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-8]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-8]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-8]
+}
+
+
+
+
+
+
+
+\subsection*{R3-9: Systematic Multi-Component Ablation Study}
+\revcomment{R3-9}{9. Ablation study is missing.
+The manuscript reports no ablation beyond the single-tracer DIReCT comparison. Please add, at minimum:
+
+no text;
+tracer token only;
+clinical prompt only;
+frozen vs. adapted tracer embedding;
+VLM text encoder vs. tabular encoder;
+one-step distilled vs. multi-step ODE sampling;
+joint vs. separate tracer generation.
+
+Section 4.4 describes 3D RF as an ablation ``isolating the contribution of BiomedCLIP guidance,'' but it differs from DIReCT++ in several respects at once.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-9]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-9]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-9]
+}
+
+
+
+
+
+
+
+\subsection*{R3-10: Fair Comparisons Against Identically-Conditioned Baselines}
+\revcomment{R3-10}{10. Baselines and fairness of comparison.
+
+CycleGAN is an unpaired method applied to a paired task, and Swin-UNet is a segmentation architecture. Neither is a strong MRI-to-PET baseline.
+Directly relevant MRI-to-PET methods cited in the Introduction (e.g., refs. 11-14) are not compared.
+Most importantly, the baselines receive no clinical information, while DIReCT++ does. A fair comparison requires at least one strong baseline given the same clinical variables (e.g., 3D RF or a regression U-Net with a tabular conditioning branch).
+Please also clarify whether SegGuidedDiff was run in 2D or 3D, and how baseline hyperparameters were ``optimized to their reported best configurations.''}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-10]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-10]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-10]
+}
+
+
+
+
+
+
+
+\subsection*{R3-11: Quantitative Metric Reporting, Dispersion, and Exemplar Cases}
+\revcomment{R3-11}{11. Image-quality metrics and figures.
+Radar plots normalized to the best method (Fig. 2A) hide absolute values and variance. Please provide:
+
+a table of SSIM, PSNR, MAE, and MSE (mean $\pm$ SD), computed within a brain mask (background inflates PSNR/SSIM);
+paired significance tests against each baseline;
+per-tracer OASIS results;
+voxel-wise absolute error maps for representative and worst-case subjects;
+subject-level scatter plots of real vs. synthetic composite SUVR, colored by diagnosis and amyloid status;
+ROC curves with confidence bands.
+
+The examples in Fig. 2B-C and Fig. 3 appear hand-selected; the selection criteria should be stated, or cases should be chosen at the median and 10th percentile of performance.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-11]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-11]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-11]
+}
+
+
+
+
+
+
+
+\subsection*{R3-12: Deterministic U-Net Comparison, Conditional Mean, and Uncertainty}
+\revcomment{R3-12}{12. Determinism, conditional-mean behavior, and uncertainty.
+Because $x_0$ is the MRI (not noise) and inference is a single deterministic distilled step (Eq. 7), the model effectively performs conditional regression. For an admittedly ill-posed problem (lines 58-61), this tends to produce a conditional mean, which would smooth out individual pathology. Please:
+
+compare against a plain regression U-Net with identical conditioning;
+discuss whether the model can represent uncertainty;
+consider providing uncertainty estimates (e.g., ensembles or stochastic sampling). For any clinical use, a synthetic amyloid image without a confidence measure is risky.
+
+Also, the claim that rectified flow supports ``exact one-step sampling'' (lines 338-339) holds only for sufficiently straightened flows. The distillation procedure (teacher steps, loss, schedule after epoch 140) needs a full description.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-12]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-12]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-12]
+}
+
+
+
+
+
+
+
+\subsection*{R3-13: External Validation Limitations and OASIS-3 Prompt Specifications}
+\revcomment{R3-13}{13. External validation is limited.
+OASIS-3 covers AV-45 only, and CN and AD only (no MCI), with notable age imbalance (66.3 vs. 72.8 years). Please state which prompt fields were available for OASIS (weight, FAQ, GDS, NPI-Q may be missing) and how gaps were handled; the Supplement mentions ``secondary screening'' without detail. External validation of FDG synthesis and of the MCI tasks would substantially strengthen generalizability claims.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-13]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-13]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-13]
+}
+
+
+
+
+
+
+
+\subsection*{R3-14: Clinical Scope, Screening vs. Stratification, and 2024 Criteria}
+\revcomment{R3-14}{Clinical positioning and overstatement.
+
+The Discussion makes strong claims: ``democratize access,'' ``primary care screening,'' ``qualitative leap,'' ``new paradigm,'' and identifying candidates ``most likely to benefit from disease-modifying therapies'' (lines 208-234). Synthetic amyloid images cannot substitute for molecular confirmation, particularly for anti-amyloid therapy eligibility, where a false positive has real consequences. The authors should:
+
+temper these claims;
+
+discuss the 2024 revised Alzheimer's Association criteria, which define AD biologically by core biomarkers;
+
+compare against, or at least discuss, plasma biomarkers such as p-tau217, which are now a low-cost, radiation-free route to amyloid status. They are mentioned only as a future prompt input (lines 236-237).}
+
+\response{
+We thank the reviewer for the valuable suggestions regarding the clinical positioning of our study and the interpretation of its potential applications.
+
+We agree that the clinical translation claims in the original manuscript should be moderated. Our study evaluated PET image synthesis, regional uptake patterns, and downstream classification performance using retrospective research cohorts, but did not directly establish the effectiveness of synthetic PET for routine clinical screening or treatment decision-making. Accordingly, we will revise the overstated claims regarding widespread clinical screening, identification of candidates for disease-modifying therapies, and transformative clinical impact. We will also clarify that synthetic PET cannot currently substitute for established molecular biomarker confirmation.
+
+We also appreciate the reviewer's suggestion to contextualize our work within the latest AD diagnostic framework. The 2024 revised Alzheimer's Association criteria further emphasize the biological definition of AD based on core biomarkers and recognize the diagnostic role of blood-based biomarkers, including plasma p-tau217 assays that meet appropriate performance requirements. We have expanded the Discussion to address this updated diagnostic framework, highlight the importance of these biomarkers in assessing AD pathology, and further clarify the current research positioning of DIReCT++.
+
+
+\# Minor Comments
+}
+
+% [Audit Note: 关联正文修改子页面为空；相关 R2-20 修改可供参考，但此处没有独立正文方案。]
+
+\actiontaken{
+We have carefully verified this point. No further manuscript text modifications were required beyond clarifying the discussion.
+}
+
+
+\subsection*{R3-15: Incremental Methodological Novelty Beyond DIReCT (IPMI 2025)}
+\revcomment{R3-15}{15. Incremental novelty over DIReCT (ref. 15).
+The main differences from the authors' own IPMI 2025 work appear to be the second tracer, the adapted tracer token, and distillation. The manuscript should state the delta explicitly and show, through ablation, which addition drives the gains.}
+
+\response{
+We express our deepest gratitude to Reviewer~3 for raising this foundational point.
+% [TODO: Insert detailed response for R3-15]
+}
+
+\actiontaken{
+% [TODO: Insert summary of changes for R3-15]
+}
+
+\changedtext{Section X.X, Page Y}{%
+% [TODO: Insert revised excerpt for R3-15]
+}
+

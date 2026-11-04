@@ -1,0 +1,10 @@
+where $\alpha_1,\beta_1$ are scalar scales and $\alpha_2,\beta_2$ are 512-dimensional bias vectors. Each adapter has 513 trainable parameters (1,026 in total). The parameters are optimized using the objective
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_{\mathrm{align}}={}&-\frac{1}{N_f}\sum_{i=1}^{N_f}\operatorname{sim}(Adapt_f(c_f),f_{f,i})\\
+&-\frac{1}{N_a}\sum_{j=1}^{N_a}\operatorname{sim}(Adapt_a(c_a),f_{a,j})\\
+&+\lambda_{\mathrm{cross}}\left[\operatorname{sim}(Adapt_f(c_f),Adapt_a(c_a))-\tau\right]^2,
+\end{aligned}
+\label{eq:align_opt}
+\end{equation}
+where $\operatorname{sim}$ is cosine similarity, $f_{f,i}$ and $f_{a,j}$ are normalized subject-level PET features and $N_f,N_a$ count the available training-fold features. The settings are $\lambda_{\mathrm{cross}}=100$ and $\tau=0.82$. This is a soft squared penalty targeting a reference similarity, not a hard lower-bound constraint or a threshold optimized for generation quality. The target is numerically consistent with the original tracer-text cosine similarity of 0.8205 before adaptation. The two adapters are optimized jointly using Adam (learning rate $10^{-3}$, 5,000 updates); the encoders remain frozen. Adapted vectors remain fixed when used in the affine-adapter conditioning configuration. The reconstructed Full generator uses raw tracer embeddings, while the separate adapter sensitivity analysis tests the representation geometry under Eq.~\eqref{eq:align_opt}.

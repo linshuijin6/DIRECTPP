@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -25,3 +25,5 @@
+ Finally, regarding composite SUVR scatter plots and amyloid-positivity analysis, we acknowledge the clinical relevance of these assessments. However, the PET intensities in the present study underwent per-image min–max normalization, and the resulting regional uptake measurements are not clinically calibrated SUVR or Centiloid values. Applying conventional clinical SUVR thresholds or deriving amyloid-positivity classifications directly from these normalized intensities would therefore risk producing quantitatively unsupported conclusions. We have clarified this limitation and identify standardized PET quantification and amyloid-status agreement as directions for future investigation.
+ 
+ Overall, we have retained the original multi-method visualization while adding absolute quantitative results to the main manuscript and incorporating subject-level statistics, brain-mask-based evaluation, paired comparisons, error visualizations, and ROC confidence bands into the Supplementary Materials. These additions provide a more transparent and reproducible assessment of reconstruction quality while ensuring that the interpretation remains consistent with the available evidence.
++
++The final supplementary examples include the median, 10th-percentile and worst QC-passed subject for each tracer, selected using the saved whole-volume SSIM ranking in the same QC-passed set. The originally flagged MRI/mask failure is not substituted into that set. The original Figure 2 absolute-value table is placed in the main Results; new OOF and masked statistics remain distinct.

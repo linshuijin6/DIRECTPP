@@ -1,0 +1,46 @@
+\begin{landscape}
+\begingroup\small\setlength{\tabcolsep}{5pt}
+\begin{longtable}{lccccc}
+\caption{Three-fold classification results: mean $\pm$ sample s.d.; [conditional 95\% CI].}\label{tab:classification_summary}\\
+\toprule
+Input & ACC & AUC & SEN & SPE & Balanced ACC \\
+\midrule\endfirsthead
+\toprule Input & ACC & AUC & SEN & SPE & Balanced ACC \\\midrule\endhead
+\multicolumn{6}{l}{\textbf{AD/CN}} \\
+MRI & \shortstack{79.56 $\pm$ 6.20\\{}[75.95, 82.97]} & \shortstack{87.02 $\pm$ 5.44\\{}[83.51, 90.15]} & \shortstack{75.15 $\pm$ 10.01\\{}[68.48, 81.21]} & \shortstack{81.96 $\pm$ 6.90\\{}[77.70, 85.91]} & \shortstack{78.56 $\pm$ 6.59\\{}[74.63, 82.24]} \\
+MRI+Real FDG & \shortstack{89.36 $\pm$ 0.72\\{}[86.39, 91.92]} & \shortstack{94.28 $\pm$ 0.55\\{}[91.77, 96.51]} & \shortstack{81.21 $\pm$ 6.39\\{}[75.15, 87.27]} & \shortstack{93.78 $\pm$ 4.41\\{}[90.85, 96.40]} & \shortstack{87.50 $\pm$ 1.06\\{}[84.07, 90.69]} \\
+MRI+Syn FDG & \shortstack{88.72 $\pm$ 3.31\\{}[85.93, 91.48]} & \shortstack{94.40 $\pm$ 0.89\\{}[91.96, 96.58]} & \shortstack{80.00 $\pm$ 12.73\\{}[73.94, 86.06]} & \shortstack{93.45 $\pm$ 3.95\\{}[90.51, 96.07]} & \shortstack{86.73 $\pm$ 5.21\\{}[83.35, 89.97]} \\
+MRI+Real AV45 & \shortstack{85.53 $\pm$ 2.67\\{}[82.34, 88.51]} & \shortstack{92.54 $\pm$ 2.53\\{}[89.91, 94.92]} & \shortstack{74.55 $\pm$ 1.82\\{}[67.88, 81.21]} & \shortstack{91.47 $\pm$ 4.86\\{}[88.19, 94.42]} & \shortstack{83.01 $\pm$ 1.77\\{}[79.27, 86.58]} \\
+MRI+Syn AV45 & \shortstack{84.04 $\pm$ 2.80\\{}[80.84, 87.43]} & \shortstack{91.81 $\pm$ 3.54\\{}[89.02, 94.23]} & \shortstack{81.21 $\pm$ 2.10\\{}[75.15, 86.68]} & \shortstack{85.56 $\pm$ 4.90\\{}[81.62, 89.49]} & \shortstack{83.39 $\pm$ 2.00\\{}[79.87, 86.91]} \\
+MRI+Real both & \shortstack{90.64 $\pm$ 2.59\\{}[87.87, 93.18]} & \shortstack{94.38 $\pm$ 0.90\\{}[91.84, 96.61]} & \shortstack{84.24 $\pm$ 2.78\\{}[78.18, 89.70]} & \shortstack{94.09 $\pm$ 2.62\\{}[91.43, 96.40]} & \shortstack{89.17 $\pm$ 2.60\\{}[85.92, 92.14]} \\
+MRI+Syn both & \shortstack{88.08 $\pm$ 2.06\\{}[85.09, 90.85]} & \shortstack{93.82 $\pm$ 3.21\\{}[91.18, 96.07]} & \shortstack{86.06 $\pm$ 5.84\\{}[80.61, 90.91]} & \shortstack{89.18 $\pm$ 0.93\\{}[85.57, 92.46]} & \shortstack{87.62 $\pm$ 2.90\\{}[84.29, 90.67]} \\
+Clinical-only & \shortstack{100.00 $\pm$ 0.00\\{}[100.00, 100.00]} & \shortstack{100.00 $\pm$ 0.00\\{}[100.00, 100.00]} & \shortstack{100.00 $\pm$ 0.00\\{}[100.00, 100.00]} & \shortstack{100.00 $\pm$ 0.00\\{}[100.00, 100.00]} & \shortstack{100.00 $\pm$ 0.00\\{}[100.00, 100.00]} \\
+MRI+Clinical & \shortstack{94.89 $\pm$ 3.54\\{}[92.77, 96.81]} & \shortstack{99.17 $\pm$ 0.96\\{}[98.50, 99.66]} & \shortstack{92.12 $\pm$ 4.20\\{}[87.88, 95.76]} & \shortstack{96.39 $\pm$ 3.44\\{}[94.10, 98.36]} & \shortstack{94.26 $\pm$ 3.65\\{}[91.90, 96.43]} \\
+\midrule
+\multicolumn{6}{l}{\textbf{EMCI+LMCI/CN}} \\
+MRI & \shortstack{67.48 $\pm$ 0.23\\{}[64.37, 70.58]} & \shortstack{71.59 $\pm$ 1.80\\{}[67.83, 75.25]} & \shortstack{79.57 $\pm$ 11.66\\{}[75.89, 83.23]} & \shortstack{50.12 $\pm$ 17.10\\{}[44.56, 55.38]} & \shortstack{64.85 $\pm$ 2.73\\{}[61.57, 68.12]} \\
+MRI+Real FDG & \shortstack{61.27 $\pm$ 2.70\\{}[57.76, 64.78]} & \shortstack{64.82 $\pm$ 2.79\\{}[60.74, 68.77]} & \shortstack{63.30 $\pm$ 3.89\\{}[58.69, 67.69]} & \shortstack{58.35 $\pm$ 1.73\\{}[52.79, 63.90]} & \shortstack{60.83 $\pm$ 2.48\\{}[57.14, 64.49]} \\
+MRI+Syn FDG & \shortstack{62.48 $\pm$ 3.25\\{}[59.11, 65.86]} & \shortstack{65.77 $\pm$ 5.56\\{}[61.81, 69.81]} & \shortstack{67.00 $\pm$ 12.26\\{}[62.64, 71.13]} & \shortstack{56.10 $\pm$ 14.64\\{}[50.82, 61.35]} & \shortstack{61.55 $\pm$ 3.28\\{}[58.05, 65.11]} \\
+MRI+Real AV45 & \shortstack{66.80 $\pm$ 2.10\\{}[63.56, 69.91]} & \shortstack{72.00 $\pm$ 0.79\\{}[68.23, 75.75]} & \shortstack{75.45 $\pm$ 8.66\\{}[71.54, 79.35]} & \shortstack{54.43 $\pm$ 11.27\\{}[48.87, 59.69]} & \shortstack{64.94 $\pm$ 2.42\\{}[61.54, 68.28]} \\
+MRI+Syn AV45 & \shortstack{65.99 $\pm$ 1.21\\{}[62.75, 69.23]} & \shortstack{71.52 $\pm$ 1.85\\{}[67.73, 75.10]} & \shortstack{73.17 $\pm$ 6.51\\{}[69.04, 77.30]} & \shortstack{55.76 $\pm$ 11.84\\{}[50.49, 61.32]} & \shortstack{64.47 $\pm$ 2.73\\{}[61.05, 67.90]} \\
+MRI+Real both & \shortstack{63.70 $\pm$ 3.54\\{}[60.19, 67.21]} & \shortstack{69.15 $\pm$ 2.42\\{}[65.13, 72.90]} & \shortstack{65.60 $\pm$ 9.91\\{}[61.24, 69.96]} & \shortstack{60.97 $\pm$ 8.42\\{}[55.41, 66.21]} & \shortstack{63.29 $\pm$ 2.81\\{}[59.76, 66.79]} \\
+MRI+Syn both & \shortstack{65.45 $\pm$ 1.64\\{}[62.48, 68.56]} & \shortstack{69.46 $\pm$ 1.34\\{}[65.60, 73.18]} & \shortstack{79.33 $\pm$ 12.80\\{}[75.65, 83.00]} & \shortstack{45.53 $\pm$ 14.60\\{}[39.95, 51.08]} & \shortstack{62.43 $\pm$ 0.94\\{}[59.14, 65.71]} \\
+Clinical-only & \shortstack{94.87 $\pm$ 2.60\\{}[93.25, 96.36]} & \shortstack{98.93 $\pm$ 0.70\\{}[98.14, 99.56]} & \shortstack{93.59 $\pm$ 4.17\\{}[91.29, 95.87]} & \shortstack{96.72 $\pm$ 1.14\\{}[94.43, 98.68]} & \shortstack{95.15 $\pm$ 2.27\\{}[93.62, 96.59]} \\
+MRI+Clinical & \shortstack{85.16 $\pm$ 8.58\\{}[82.73, 87.45]} & \shortstack{93.07 $\pm$ 6.10\\{}[91.14, 94.77]} & \shortstack{88.51 $\pm$ 12.11\\{}[85.52, 91.26]} & \shortstack{80.35 $\pm$ 18.35\\{}[76.08, 84.28]} & \shortstack{84.43 $\pm$ 9.22\\{}[81.82, 86.84]} \\
+\midrule
+\multicolumn{6}{l}{\textbf{EMCI/LMCI}} \\
+MRI & \shortstack{64.90 $\pm$ 3.09\\{}[61.92, 67.89]} & \shortstack{62.81 $\pm$ 2.50\\{}[57.39, 68.38]} & \shortstack{17.40 $\pm$ 12.64\\{}[12.03, 23.43]} & \shortstack{89.53 $\pm$ 6.57\\{}[85.70, 93.01]} & \shortstack{53.46 $\pm$ 4.63\\{}[50.12, 56.96]} \\
+MRI+Real FDG & \shortstack{64.21 $\pm$ 4.93\\{}[60.30, 68.11]} & \shortstack{61.66 $\pm$ 3.35\\{}[56.04, 67.09]} & \shortstack{36.86 $\pm$ 16.63\\{}[29.48, 44.26]} & \shortstack{78.34 $\pm$ 15.69\\{}[73.80, 82.87]} & \shortstack{57.60 $\pm$ 1.88\\{}[53.23, 61.87]} \\
+MRI+Syn FDG & \shortstack{65.36 $\pm$ 3.46\\{}[61.47, 69.26]} & \shortstack{63.02 $\pm$ 1.14\\{}[57.49, 68.72]} & \shortstack{32.84 $\pm$ 5.47\\{}[25.46, 40.88]} & \shortstack{82.20 $\pm$ 6.97\\{}[77.67, 86.39]} & \shortstack{57.52 $\pm$ 2.15\\{}[53.15, 62.08]} \\
+MRI+Real AV45 & \shortstack{65.82 $\pm$ 3.65\\{}[62.14, 69.49]} & \shortstack{60.62 $\pm$ 2.37\\{}[55.03, 66.28]} & \shortstack{29.50 $\pm$ 9.10\\{}[22.16, 36.87]} & \shortstack{84.66 $\pm$ 1.30\\{}[80.15, 88.83]} & \shortstack{57.08 $\pm$ 4.92\\{}[52.84, 61.28]} \\
+MRI+Syn AV45 & \shortstack{65.37 $\pm$ 5.56\\{}[61.47, 69.27]} & \shortstack{62.12 $\pm$ 6.88\\{}[56.59, 67.70]} & \shortstack{36.19 $\pm$ 6.89\\{}[28.76, 43.61]} & \shortstack{80.46 $\pm$ 11.73\\{}[75.92, 84.97]} & \shortstack{58.32 $\pm$ 2.46\\{}[53.92, 62.83]} \\
+MRI+Real both & \shortstack{64.90 $\pm$ 4.88\\{}[60.78, 68.81]} & \shortstack{63.04 $\pm$ 1.25\\{}[57.58, 68.56]} & \shortstack{41.05 $\pm$ 19.06\\{}[33.66, 48.48]} & \shortstack{77.31 $\pm$ 13.00\\{}[72.42, 81.85]} & \shortstack{59.18 $\pm$ 5.52\\{}[54.89, 63.59]} \\
+MRI+Syn both & \shortstack{65.82 $\pm$ 2.06\\{}[61.69, 70.17]} & \shortstack{66.33 $\pm$ 0.54\\{}[61.14, 71.76]} & \shortstack{43.03 $\pm$ 10.87\\{}[34.99, 51.10]} & \shortstack{77.71 $\pm$ 8.82\\{}[72.83, 82.25]} & \shortstack{60.37 $\pm$ 1.12\\{}[55.87, 65.19]} \\
+Clinical-only & \shortstack{99.08 $\pm$ 0.40\\{}[98.16, 99.77]} & \shortstack{99.94 $\pm$ 0.08\\{}[99.79, 100.00]} & \shortstack{98.67 $\pm$ 2.31\\{}[96.67, 100.00]} & \shortstack{99.31 $\pm$ 0.60\\{}[98.26, 100.00]} & \shortstack{98.99 $\pm$ 0.85\\{}[97.81, 99.83]} \\
+MRI+Clinical & \shortstack{85.32 $\pm$ 13.80\\{}[82.34, 88.53]} & \shortstack{89.60 $\pm$ 9.08\\{}[86.11, 93.02]} & \shortstack{85.90 $\pm$ 12.00\\{}[80.50, 91.28]} & \shortstack{85.07 $\pm$ 18.35\\{}[81.25, 88.89]} & \shortstack{85.49 $\pm$ 12.24\\{}[82.16, 88.89]} \\
+\midrule
+\bottomrule
+\end{longtable}
+\noindent\footnotesize All metrics are percentages; s.d. is in percentage points. CIs use 5,000 paired fold-by-class bootstrap resamples of frozen predictions and three-fold equal weighting. Intervals are marginal, unadjusted and conditional on the fixed models and splits. Clinical-only AD/CN's zero empirical errors yield a degenerate [100,100] bootstrap interval, not a population guarantee. Clinical inputs include diagnosis-conditioned fills. Sample sizes are AD/CN=470, EMCI+LMCI/CN=741 and EMCI/LMCI=436; MCI-U is excluded.
+\endgroup
+\end{landscape}

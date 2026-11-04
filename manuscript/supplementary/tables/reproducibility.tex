@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{\textbf{Reproducibility settings and scope of the revised analyses.}}
+\label{tab:reproducibility}
+\centering\small
+\begin{tabularx}{\textwidth}{p{0.25\textwidth}X}
+\toprule
+Component & Recorded settings and limitations \\
+\midrule
+Reconstructed generation & 1,857 subjects; fixed two-fold partitions of 929/928, split seed 42. Full, TracerOnly, TabularMLP and Single did not use a fixed training seed; deterministic repeated-training behavior is not claimed. Epoch 165 is the principal comparison endpoint; MRI-only Swin-UNETR uses its prespecified epoch 200. \\
+Classification & Task-specific subject-level stratified three-fold splits (seed 42); 15\% stratified internal validation within each outer training fold. Fit seed $42+100\times\mathrm{task\ index}+\mathrm{fold}$, with task index AD/CN=0, MCI/CN=1, EMCI/LMCI=2 and folds 1--3. Training lasts 200 epochs with validation every two epochs; checkpoint selected by validation ACC; outer test evaluated once after reloading. \\
+Classification cohorts & AD/CN: 470 (165 AD, 305 CN); MCI/CN: 741 (436 EMCI+LMCI, 305 CN); EMCI/LMCI: 436 (287 EMCI, 149 LMCI). MCI-U excluded. The task-specific partitions are shared across input conditions. \\
+Source identity & The historical classification Syn-PET inputs are distinct from the reconstructed generation comparisons; a direct checkpoint binding between these image families was not established. Existing classification inputs were not regenerated. \\
+Clinical source & Clinical rows selected by first CSV record per participant; five score fields contain diagnosis-conditioned fills. Original filling random states and complete actual acquisition mappings were not recovered. \\
+\bottomrule
+\end{tabularx}
+\end{table}

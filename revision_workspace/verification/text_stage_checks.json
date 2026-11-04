@@ -1,0 +1,18 @@
+{
+  "positions": 72,
+  "unique_positions": 72,
+  "final_fragments_missing_from_current_targets": [
+    "G2-PREPROCESSING"
+  ],
+  "undefined_citations": [],
+  "duplicate_labels": [],
+  "missing_inputs": [],
+  "prior_completed_build": {
+    "output": [
+      "53 pages"
+    ],
+    "undefined_warning": false,
+    "overfull_count": 3,
+    "note": "Complete compile preceded sensitivity/subgroup additions and does not validate future figure/rebuttal changes."
+  }
+}

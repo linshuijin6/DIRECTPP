@@ -1,0 +1,16 @@
+{
+  "merged_into": "G3-FIGURE2-CAPTION",
+  "record": {
+    "position_id": "FIGURE-2-PAGE-FIT",
+    "target_file": "manuscript/BMEF_main.tex",
+    "section_or_label": "fig:2",
+    "original_anchor_sha256": "e1a7b66f1c32fbb183a140d284d63a48ff7d16e9cc2261e153064d5df62062dc",
+    "source_candidates": "",
+    "related_comments": "M19",
+    "groups": "G3",
+    "final_text_path": "revision_workspace/integration/final_text/FIGURE-2-PAGE-FIT.tex",
+    "evidence_paths": "revision_workspace/verification/figure_previews/",
+    "decision_basis": "Bound figure and caption to printable page; full-resolution exports provided separately.",
+    "status": "implemented_pending_full_build_and_review"
+  }
+}
