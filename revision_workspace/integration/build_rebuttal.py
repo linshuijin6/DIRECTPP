@@ -130,6 +130,10 @@ def modify(cid,s):
   assert s.count(a)==1,f'{cid}: Stage 3 anchor must be unique'
   s=s.replace(a,b,1)
   reasons.append('Stage 3: '+reason)
+ if cid=='M19':
+  a='To address this concern, we have revised the vertical axis labels in Figure 4 and the corresponding supplementary figures to “Normalized Regional Uptake (a.u.)”.'
+  b='To address this concern, we have revised the uptake axis labels in Figure 4 and the corresponding supplementary figures to “Normalized uptake (a.u.)”.'
+  assert s.count(a)==1;s=s.replace(a,b,1);reasons.append('Stage 4 location-only correction: existing Figure 4 uses horizontal uptake axes; transcribe the verified unchanged figure label without altering the images or scientific interpretation.')
  return s,reasons
 # Markdown/LaTeX bridge: protect actual math/links, escape prose; never interpret source as code.
 UNICODE={'₀':r'\textsubscript{0}','κ':r'\ensuremath{\kappa}','σ':r'\ensuremath{\sigma}','ρ':r'\ensuremath{\rho}','δ':r'\ensuremath{\delta}','μ':r'\ensuremath{\mu}','₂':r'\textsubscript{2}','₁':r'\textsubscript{1}','τ':r'\ensuremath{\tau}','θ':r'\ensuremath{\theta}','α':r'\ensuremath{\alpha}','β':r'\ensuremath{\beta}','λ':r'\ensuremath{\lambda}','Δ':r'\ensuremath{\Delta}','≥':r'\ensuremath{\geq}','≤':r'\ensuremath{\leq}','±':r'\ensuremath{\pm}','×':r'\ensuremath{\times}','−':r'\ensuremath{-}','≈':r'\ensuremath{\approx}','→':r'\ensuremath{\rightarrow}','°':r'\ensuremath{^{\circ}}','¹':r'\textsuperscript{1}','⁸':r'\textsuperscript{8}'}
@@ -174,29 +178,37 @@ for c in records:
  body+=r'\revcomment{'+cid+'}{'+latex(quote)+'}\n\n'+r'\response{'+latex(final)
  if cid in citations:body+='\n\nRelevant references: '+r'\cite{'+','.join(citations[cid])+'}.'
  body+='}\n\n'
- pp=[r for r in positions if cid in r['related_comments'].split(';')]
+ pp=[r for r in positions if cid in r['related_comments'].split(';') and r['target_file'].startswith('manuscript/')]
  if cid in ['R2-1','R2-2']:action='We thank the reviewer for this positive assessment. No separate manuscript change was required for this comment.'
  elif cid=='M20':action='The submission-system abstract is supplied as plain text without literal LaTeX commands. The authors will use this text when entering the revised submission in Editorial Manager.'
  else:
   descriptions=[]
   for r in pp:
    title=location(r);pg=locations.get(r['position_id'],{})
-   if pg.get('supplementary_page'):title+=' (Supplementary Materials, p. '+str(pg['supplementary_page'])+'; combined reference copy p. '+str(pg['page'])+')'
-   elif pg.get('page'):title+=' (p. '+str(pg['page'])+((', lines '+str(pg['line_start'])+'--'+str(pg['line_end'])) if pg.get('line_start') and pg.get('line_end') else '')+')'
+   quote_loc=pg.get('quotation_locations',{}).get(cid)
+   if quote_loc:pg=quote_loc
+   ppnums=pg.get('verified_pages',[pg['page']] if pg.get('page') else [])
+   page_text=('p. ' if len(ppnums)==1 else 'pp. ')+', '.join(map(str,ppnums))
+   spnums=pg.get('supplementary_pages',[pg['supplementary_page']] if pg.get('supplementary_page') else [])
+   if spnums:title+=' (Supplementary Materials, '+('p. ' if len(spnums)==1 else 'pp. ')+', '.join(map(str,spnums))+'; combined reference copy '+page_text+')'
+   elif ppnums:title+=' ('+page_text+((', lines '+str(pg['line_start'])+'--'+str(pg['line_end'])) if len(ppnums)==1 and pg.get('line_start') and pg.get('line_end') else '')+')'
+
    if title not in descriptions:descriptions.append(title)
   action='The corresponding changes are implemented in the following final manuscript locations:\n'+r'\begin{itemize}[leftmargin=1.5em,itemsep=2pt]'+'\n'+''.join(r'\item '+latex(t)+'.\n' for t in descriptions)+r'\end{itemize}'
  body+=r'\actiontaken{'+action+'}\n'
- # One representative verbatim final excerpt, limited in length for reviewer readability.
- eligible=[r for r in pp if r['target_file']=='manuscript/BMEF_main.tex' and r['position_id'] not in ['G7-ABSTRACT','G7-TITLE','G7-PDF-TITLE','G7-DISCUSSION-MERGED']]
- if eligible:
-  text=(ROOT/eligible[0]['final_text_path']).read_text().strip()
-  if not text.startswith('\\'):
-   excerpt=re.split(r'(?<=[.!?])\s+(?=[A-Z])',text)[0]
-   if len(excerpt)<1100 and '\\begin{' not in excerpt:
-    aux=(ROOT/'revision_workspace/build/manuscript/BMEF_main.aux').read_text()
-    labels=dict(re.findall(r'\\newlabel\{([^}]+)\}\{\{([^}]+)\}',aux))
-    excerpt=re.sub(r'\\ref\{([^}]+)\}',lambda m:labels[m.group(1)],excerpt)
-    body+='\n'+r'\changedtext{'+latex(location(eligible[0]))+'}{'+excerpt+'}\n'
+ # Explicit, reviewed quote selection: a generic first sentence is not evidence of a revision.
+ spec=json.loads((WORK/'rebuttal_excerpt_selections.json').read_text())['comments'][cid]
+ if spec:
+  chosen=bypos[spec['position_id']]
+  source=(ROOT/chosen['final_text_path']).read_text().strip()
+  assert source.count(spec['start'])==1,(cid,'non-unique excerpt anchor')
+  tail=source[source.index(spec['start']):]
+  excerpt=' '.join(re.split(r'(?<=[.!?])\s+(?=[A-Z])',tail)[:spec['sentences']]).strip()
+  assert excerpt in source.replace('\n',' '),(cid,'excerpt not verbatim')
+  aux=(ROOT/'revision_workspace/build/manuscript/BMEF_main.aux').read_text()
+  labels=dict(re.findall(r'\\newlabel\{([^}]+)\}\{\{([^}]+)\}',aux))
+  excerpt=re.sub(r'\\ref\{([^}]+)\}',lambda m:labels[m.group(1)],excerpt)
+  body+='\n'+r'\changedtext{'+latex(location(chosen))+'}{'+excerpt+'}\n'
  sections[part]+=body
 for name,new in sections.items():
  target='rebuttal/sections/'+name;old=(ROOT/target).read_text();p=WORK/'rebuttal_generated';p.mkdir(exist_ok=True);(p/name).write_text(new)
@@ -204,7 +216,7 @@ for name,new in sections.items():
  else:
   # Regeneration after final page/line mapping is a deliberate same-position amendment.
   from edit_registry import amend
-  if old!=new:amend('REBUTTAL-'+name,new,decision='Refresh final verified manuscript locations without changing source response content.')
+  if old.rstrip('\n')!=new.rstrip('\n'):amend('REBUTTAL-'+name,new.rstrip('\n'),decision='Stage 4: synchronize reviewed verbatim excerpts and actual PDF locations; retain confirmed Response content.')
 with (WORK/'response_changes.csv').open('w') as f:
  w=csv.DictWriter(f,fieldnames=['comment_id','source_sha256','final_sha256','reason']);w.writeheader();w.writerows(changes)
 (WORK/'response_source_manifest.json').write_text(json.dumps(review_source_receipts,ensure_ascii=False,indent=2)+'\n')

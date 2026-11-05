@@ -155,16 +155,7 @@ _cases_fdg.pdf>] [42 <./figures/revision_cases_av45.pdf>] [43] [44])
 n_roc_ad_cn.png> <./figures/revision_roc_mci_cn.png> <./figures/revision_roc_em
 ci_lmci.png>] [51] [52] [53] [54]
 (/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/manuscript/B
-MEF_main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                BMEF_main
-(biblatex)                and rerun LaTeX afterwards.
-
- )
+MEF_main.aux) )
 (see the transcript file for additional information){/usr/share/texmf/fonts/enc
 /dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/
 texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
@@ -190,6 +181,6 @@ hare/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
 Output written on /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/b
-uild/manuscript/BMEF_main.pdf (54 pages, 5051981 bytes).
+uild/manuscript/BMEF_main.pdf (54 pages, 5050946 bytes).
 Transcript written on /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspa
 ce/build/manuscript/BMEF_main.log.

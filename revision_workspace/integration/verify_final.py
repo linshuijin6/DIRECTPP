@@ -43,5 +43,68 @@ figmeta=json.loads((W/'figures/roi_figure_manifest.json').read_text());check('19
 for name in ['figure_1','figure_4','figure_5']+['supplementary_figure_'+str(i) for i in range(1,7)]:
  p=R/'manuscript/figures/editable_sources'/(name+'.svg');check('editable text '+name,p.is_file() and '<text' in p.read_text())
 check('no hypothetical extra fits', '81' in (R/'manuscript/BMEF_main.tex').read_text() and '27 task' in (R/'manuscript/BMEF_main.tex').read_text())
+# Stage 4 adds current-build and quotation checks; the earlier checks above remain.
+audit=json.loads((W/'stage4_alignment_audit.json').read_text())
+receipt=json.loads((W/'stage4_build_receipt.json').read_text())
+for path,digest in audit['protected_original_hashes'].items():
+ expected=audit['authorized_generated_change_hashes'].get(path,digest)
+ check('Stage 1--3 protected source '+path,sha(R/path)==expected)
+def macro_args(s,name,n):
+ out=[]
+ for m in re.finditer(r'\\'+name+r'\{',s):
+  i=m.end()-1;args=[]
+  for _ in range(n):
+   while s[i].isspace():i+=1
+   assert s[i]=='{';start=i+1;depth=1;i+=1
+   while depth:
+    if s[i]=='\\':i+=2;continue
+    depth+=(s[i]=='{')-(s[i]=='}');i+=1
+   args.append(s[start:i-1])
+  out.append(args)
+ return out
+baseline=audit['baseline_commit'];current={};previous={}
+for name in ['01_editor.tex','02_reviewer2.tex','03_reviewer3_major.tex','04_reviewer3_minor.tex']:
+ path='rebuttal/sections/'+name;s=(R/path).read_text()
+ old=subprocess.check_output(['git','show',baseline+':'+path],cwd=R,text=True)
+ check('original comments unchanged '+name,macro_args(s,'revcomment',2)==macro_args(old,'revcomment',2))
+ check('editorial responses unchanged '+name,macro_args(s,'response',1)==macro_args(old,'response',1) if name=='01_editor.tex' else True)
+ if name!='01_editor.tex':
+  for match in re.finditer(r'\\revcomment\{([^}]+)\}',s):
+   end=s.find(r'\revcomment{',match.end());current[match[1]]=s[match.start():end if end>=0 else len(s)]
+  for match in re.finditer(r'\\revcomment\{([^}]+)\}',old):
+   end=old.find(r'\revcomment{',match.end());previous[match[1]]=old[match.start():end if end>=0 else len(old)]
+  check('generated section equals working source '+name,s.rstrip('\n')==(W/'rebuttal_generated'/name).read_text().rstrip('\n'))
+check('exact 56 reviewer IDs retained',set(current)==set(previous) and len(current)==56)
+selections=json.loads((W/'rebuttal_excerpt_selections.json').read_text())['comments']
+quotes=json.loads((W/'quotation_pdf_locations.json').read_text());byid={x['position_id']:x for x in rows}
+labels=dict(re.findall(r'\\newlabel\{([^}]+)\}\{\{([^}]+)\}',mainaux))
+for cid,spec in selections.items():
+ body=macro_args(current[cid],'response',1);oldbody=macro_args(previous[cid],'response',1)
+ if cid=='M19':
+  update=audit['response_body_changes']['M19'];oldbody=[[v[0].replace(update['original'],update['revised'])] for v in oldbody]
+ check('confirmed Response retained '+cid,body==oldbody)
+ actual=macro_args(current[cid],'changedtext',2)
+ if spec is None:
+  check('no extra quotation '+cid,not actual);continue
+ row=byid[spec['position_id']];fragment=(R/row['final_text_path']).read_text().strip()
+ tail=fragment[fragment.index(spec['start']):]
+ excerpt=' '.join(re.split(r'(?<=[.!?])\s+(?=[A-Z])',tail)[:spec['sentences']]).strip()
+ expected=re.sub(r'\\ref\{([^}]+)\}',lambda m:labels[m[1]],excerpt)
+ check('verbatim current quotation '+cid,len(actual)==1 and actual[0][1]==expected and excerpt in fragment.replace('\n',' '))
+ check('quotation registered to comment '+cid,cid in row['related_comments'].split(';'))
+ q=quotes[cid];check('actual quotation PDF location '+cid,q['excerpt_latex']==excerpt and q==locations[spec['position_id']]['quotation_locations'][cid])
+ action=macro_args(current[cid],'actiontaken',1)[0][0]
+ for page in q['verified_pages']:check('Action includes quotation page '+cid+' '+str(page),re.search(r'pp?\. '+r'(?:\d+, )*'+str(page)+r'(?:,|\))',action) is not None)
+check('43 existing quotations retained',len(quotes)==43 and sum(bool(x) for x in selections.values())==43)
+requested=r'This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\cite{jagust2018imaging}.'
+for cid in ['M1','M2']:check(cid+' full correction sentence',macro_args(current[cid],'changedtext',2)[0][1]==requested)
+for name,a in receipt['artifacts'].items():
+ for field,digest in [('pdf','sha256'),('log','log_sha256'),('fls','fls_sha256')]:check('build receipt '+name+' '+field,sha(R/a[field])==a[digest])
+ check('actual recorded current inputs '+name,all(sha(R/path)==digest for path,digest in a['recorded_project_inputs'].items()))
+ log=(R/a['log']).read_text();warnings=[line for line in log.splitlines() if line.startswith('!') or any(word in line for word in ['Warning','Overfull','undefined','duplicate ignored','Rerun to'])]
+ check('no unresolved final build warnings '+name,not warnings,'; '.join(warnings))
+for group in ['bibliography_inputs','latexdiff_inputs']:check('current '+group,all(sha(R/path)==digest for path,digest in receipt[group].items()))
+check('validated highlighted copy matches recorded build',sha(R/'revision_workspace/build/final_highlight/manuscript_highlighted.pdf')==receipt['artifacts']['highlight']['sha256'])
+check('no pending scientific-position change',not audit['scientific_stance_pending'])
 report={'created_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'passed':not issues,'checks':checks,'failed_checks':issues,'pdfs':pdfs,'scope':'Engineering/source traceability only; no new training, inference, data imputation or new inferential statistics. Scientific and author-form limitations remain explicit.','presentation_deviations':figmeta['presentation_deviations']}
 (V/'FINAL_VALIDATION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'passed':report['passed'],'checks':len(checks),'failed':issues,'pdfs':pdfs},indent=2));assert not issues

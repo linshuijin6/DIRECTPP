@@ -1,7 +1,9 @@
 {
-  "checked_at": "2026-11-03T17:07:53.101350+00:00",
+  "checked_at": "2026-11-05T11:46:59.508042+00:00",
   "validated_highlight": "revision_workspace/build/final_highlight/manuscript_highlighted.pdf",
+  "current_build_receipt": "revision_workspace/integration/stage4_build_receipt.json",
   "local_source_receipt": "revision_workspace/build/final_highlight/source_receipt.json",
+  "stage4_preserved_failures": "revision_workspace/verification/STAGE4_BUILD_ATTEMPTS.json",
   "earlier_nfs_attempts": [],
   "other_processes_controlled": false
 }

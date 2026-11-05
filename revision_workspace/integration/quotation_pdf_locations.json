@@ -1,0 +1,1009 @@
+{
+  "R2-3": {
+    "position_id": "G2-OOF-PROTOCOL",
+    "excerpt_latex": "PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "pet synthesis used subject level two fold cross",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 450,
+        "line_end": 450,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "pet synthesis used subject level two fold cross",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 450,
+    "line_end": 450,
+    "line_scope": "matched phrase only"
+  },
+  "R2-4": {
+    "position_id": "G2-MCI-DEFINITIONS",
+    "excerpt_latex": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "these categories define cross sectional diagnostic and mci",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 413,
+        "line_end": 413,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "these categories define cross sectional diagnostic and mci",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 413,
+    "line_end": 413,
+    "line_scope": "matched phrase only"
+  },
+  "R2-5": {
+    "position_id": "G1-RESULTS-CONDITIONING",
+    "excerpt_latex": "These observations show conditional output sensitivity; they are not a retrained No-Scores ablation or proof of independent diagnostic benefit.",
+    "verified_pages": [
+      3
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 3,
+        "matched_text": "these observations show conditional output sensitivity they are",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 103,
+        "line_end": 104,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 3,
+    "matched_text": "these observations show conditional output sensitivity they are",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 103,
+    "line_end": 104,
+    "line_scope": "matched phrase only"
+  },
+  "R2-6": {
+    "position_id": "G2-COHORT-SELECTION",
+    "excerpt_latex": "Only one prepared imaging record per participant was retained; repeated longitudinal visits were not treated as independent participants.",
+    "verified_pages": [
+      17
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 17,
+        "matched_text": "imaging record per participant was retained repeated longitudinal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 400,
+        "line_end": 400,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 17,
+    "matched_text": "imaging record per participant was retained repeated longitudinal",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 400,
+    "line_end": 400,
+    "line_scope": "matched phrase only"
+  },
+  "R2-7": {
+    "position_id": "G2-OASIS-SCOPE",
+    "excerpt_latex": "The retained external cohort comprised 419 participants with AV45-PET processed using the Pet Unified Pipeline (PUP): 334 CN and 85 AD, with no MCI participants (Table~\\ref{tab:supp_oasis}).",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "the retained external cohort comprised 419 participants with",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 428,
+        "line_end": 428,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "the retained external cohort comprised 419 participants with",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 428,
+    "line_end": 428,
+    "line_scope": "matched phrase only"
+  },
+  "R2-8": {
+    "position_id": "G4-CORE-3",
+    "excerpt_latex": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+    "verified_pages": [
+      9
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 9,
+        "matched_text": "non significant mean differences do not establish formal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 175,
+        "line_end": 175,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 9,
+    "matched_text": "non significant mean differences do not establish formal",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 175,
+    "line_end": 175,
+    "line_scope": "matched phrase only"
+  },
+  "R2-9": {
+    "position_id": "G4-CORE-7",
+    "excerpt_latex": "For the paired real--synthetic comparisons, FDR correction was applied across 98 ROIs separately for each tracer and analysis group (overall, AD, CN, EMCI, LMCI, and MCI), yielding 12 families (2 tracers $\\times$ 6 analysis groups) and 1,176 tests in total. For the AD--CN comparisons, FDR correction was applied across 98 ROIs separately for each tracer and PET type (real or synthetic), yielding four families and 392 tests in total.",
+    "verified_pages": [
+      21
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 21,
+        "matched_text": "comparisons fdr correction was applied across 98 rois",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 544,
+        "line_end": 544,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 21,
+    "matched_text": "comparisons fdr correction was applied across 98 rois",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 544,
+    "line_end": 544,
+    "line_scope": "matched phrase only"
+  },
+  "R2-10": {
+    "position_id": "G4-CORE-5",
+    "excerpt_latex": "Mean paired differences with 95\\% confidence intervals, mean absolute error (MAE), Lin's concordance correlation coefficient (CCC), the two-way absolute-agreement single-measure intraclass correlation coefficient (ICC(A,1)), and Bland--Altman bias and 95\\% limits of agreement were also calculated to assess regional agreement.",
+    "verified_pages": [
+      21
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 21,
+        "matched_text": "intervals mean absolute error mae lin s concordance",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 526,
+        "line_end": 526,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 21,
+    "matched_text": "intervals mean absolute error mae lin s concordance",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 526,
+    "line_end": 526,
+    "line_scope": "matched phrase only"
+  },
+  "R2-13": {
+    "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+    "excerpt_latex": "Rectified flow supports a learned one-step approximation; a single network evaluation is not exact integration of the continuous ODE.",
+    "verified_pages": [
+      17
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 17,
+        "matched_text": "rectified flow supports a learned one step approximation",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 384,
+        "line_end": 385,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 17,
+    "matched_text": "rectified flow supports a learned one step approximation",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 384,
+    "line_end": 385,
+    "line_scope": "matched phrase only"
+  },
+  "R2-14": {
+    "position_id": "G1-RESULTS-CONDITIONING",
+    "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+    "verified_pages": [
+      3
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 3,
+    "matched_text": "text guidance incorporates tracer descriptions and patient information",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 88,
+    "line_end": 88,
+    "line_scope": "matched phrase only"
+  },
+  "R2-15": {
+    "position_id": "G1-ADAPTER-OBJECTIVE",
+    "excerpt_latex": "The settings are $\\lambda_{\\mathrm{cross}}=100$ and $\\tau=0.82$. This is a soft squared penalty targeting a reference similarity, not a hard lower-bound constraint or a threshold optimized for generation quality. The target is numerically consistent with the original tracer-text cosine similarity of 0.8205 before adaptation.",
+    "verified_pages": [
+      15
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 15,
+        "matched_text": "the settings are cross 100 and 0 82",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 337,
+        "line_end": 337,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 15,
+    "matched_text": "the settings are cross 100 and 0 82",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 337,
+    "line_end": 337,
+    "line_scope": "matched phrase only"
+  },
+  "R2-16": {
+    "position_id": "G5-CLASSIFICATION-METHODS",
+    "excerpt_latex": "Demographic sensitivity analyses separately stratified recorded age at 75 years and sex (F/M), without crossing the strata or changing thresholds/checkpoints.",
+    "verified_pages": [
+      22
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 22,
+        "matched_text": "demographic sensitivity analyses separately stratified recorded age at",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 580,
+        "line_end": 580,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 22,
+    "matched_text": "demographic sensitivity analyses separately stratified recorded age at",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 580,
+    "line_end": 580,
+    "line_scope": "matched phrase only"
+  },
+  "R2-17": {
+    "position_id": "G3-IMAGE-QUALITY-METHODS",
+    "excerpt_latex": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+    "verified_pages": [
+      19
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 19,
+        "matched_text": "the 3d swin unetr was adapted to pet",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 485,
+        "line_end": 485,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "the 3d swin unetr was adapted to pet",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 485,
+    "line_end": 485,
+    "line_scope": "matched phrase only"
+  },
+  "R2-19": {
+    "position_id": "G2-OOF-PROTOCOL",
+    "excerpt_latex": "Fixed splits, seeds and implementation details are summarized in Table~\\ref{tab:reproducibility}.",
+    "verified_pages": [
+      19
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 19,
+        "matched_text": "fixed splits seeds and implementation details are summarized",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 459,
+        "line_end": 460,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "fixed splits seeds and implementation details are summarized",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 459,
+    "line_end": 460,
+    "line_scope": "matched phrase only"
+  },
+  "R2-20": {
+    "position_id": "G7-DISCUSSION-MERGED",
+    "excerpt_latex": "Synthetic PET may support exploratory MRI-based analyses when PET is unavailable, but clinical screening or treatment selection would require independent molecular biomarker confirmation and prospective validation.",
+    "verified_pages": [
+      13
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 13,
+        "matched_text": "synthetic pet may support exploratory mri based analyses",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 250,
+        "line_end": 250,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 13,
+    "matched_text": "synthetic pet may support exploratory mri based analyses",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 250,
+    "line_end": 250,
+    "line_scope": "matched phrase only"
+  },
+  "R3-1": {
+    "position_id": "G5-RESULTS-AND-FIGURE5",
+    "excerpt_latex": "These observations do not support independent incremental diagnostic value over the clinical variables, which include diagnosis-related scores and diagnosis-conditioned fills.",
+    "verified_pages": [
+      11
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 11,
+        "matched_text": "these observations do not support independent incremental diagnostic",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 215,
+        "line_end": 215,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 11,
+    "matched_text": "these observations do not support independent incremental diagnostic",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 215,
+    "line_end": 215,
+    "line_scope": "matched phrase only"
+  },
+  "R3-2": {
+    "position_id": "G8-CLINICAL-METHODS",
+    "excerpt_latex": "Missing MMSE, GDSCALE, Global CDR, FAQ and NPI-Q scores were filled using diagnostic-group-conditioned rules. Of 9,285 score cells, 1,751 were observed and retained, while 7,534 were missing in those source records and had values consistent with the recovered filling rules.",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "missing mmse gdscale global cdr faq and npi",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 418,
+        "line_end": 419,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "missing mmse gdscale global cdr faq and npi",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 418,
+    "line_end": 419,
+    "line_scope": "matched phrase only"
+  },
+  "R3-3": {
+    "position_id": "G2-MCI-DEFINITIONS",
+    "excerpt_latex": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "these categories define cross sectional diagnostic and mci",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 413,
+        "line_end": 413,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "these categories define cross sectional diagnostic and mci",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 413,
+    "line_end": 413,
+    "line_scope": "matched phrase only"
+  },
+  "R3-4": {
+    "position_id": "G4-CORE-3",
+    "excerpt_latex": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+    "verified_pages": [
+      9
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 9,
+        "matched_text": "non significant mean differences do not establish formal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 175,
+        "line_end": 175,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 9,
+    "matched_text": "non significant mean differences do not establish formal",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 175,
+    "line_end": 175,
+    "line_scope": "matched phrase only"
+  },
+  "R3-5": {
+    "position_id": "G4-CORE-1",
+    "excerpt_latex": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+    "verified_pages": [
+      6
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 6,
+        "matched_text": "regional normalized uptake values arbitrary units were computed",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 151,
+        "line_end": 152,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 6,
+    "matched_text": "regional normalized uptake values arbitrary units were computed",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 151,
+    "line_end": 152,
+    "line_scope": "matched phrase only"
+  },
+  "R3-6": {
+    "position_id": "G2-OOF-PROTOCOL",
+    "excerpt_latex": "The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. The classification results are therefore analyzed separately from the reconstructed generator comparisons.",
+    "verified_pages": [
+      19
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 19,
+        "matched_text": "retained the existing author provided synthetic pet dataset",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 456,
+        "line_end": 456,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "retained the existing author provided synthetic pet dataset",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 456,
+    "line_end": 456,
+    "line_scope": "matched phrase only"
+  },
+  "R3-7": {
+    "position_id": "G5-RESULTS-AND-FIGURE5",
+    "excerpt_latex": "Results are reported as the equally weighted fold mean $\\pm$ sample s.d., alongside conditional bootstrap 95\\% CIs (Table~\\ref{tab:classification_summary}).",
+    "verified_pages": [
+      9
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 9,
+        "matched_text": "results are reported as the equally weighted fold",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 198,
+        "line_end": 199,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 9,
+    "matched_text": "results are reported as the equally weighted fold",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 198,
+    "line_end": 199,
+    "line_scope": "matched phrase only"
+  },
+  "R3-8": {
+    "position_id": "G1-RESULTS-CONDITIONING",
+    "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+    "verified_pages": [
+      3
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 3,
+    "matched_text": "text guidance incorporates tracer descriptions and patient information",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 88,
+    "line_end": 88,
+    "line_scope": "matched phrase only"
+  },
+  "R3-9": {
+    "position_id": "G3-IMAGE-QUALITY-METHODS",
+    "excerpt_latex": "TracerOnly excluded patient-specific conditioning while retaining target-tracer guidance; TabularMLP replaced the clinical text representation with a structured-variable encoder.",
+    "verified_pages": [
+      19,
+      20
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 20,
+        "matched_text": "tabularmlp replaced the clinical text representation with a",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 489,
+        "line_end": 489,
+        "line_scope": "matched phrase only"
+      },
+      {
+        "page": 19,
+        "matched_text": "traceronly excluded patient specific conditioning while retaining target",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 488,
+        "line_end": 488,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "traceronly excluded patient specific conditioning while retaining target",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 488,
+    "line_end": 488,
+    "line_scope": "matched phrase only"
+  },
+  "R3-10": {
+    "position_id": "G3-IMAGE-QUALITY-METHODS",
+    "excerpt_latex": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+    "verified_pages": [
+      19
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 19,
+        "matched_text": "the 3d swin unetr was adapted to pet",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 485,
+        "line_end": 485,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "the 3d swin unetr was adapted to pet",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 485,
+    "line_end": 485,
+    "line_scope": "matched phrase only"
+  },
+  "R3-12": {
+    "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+    "excerpt_latex": "From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI. This stage is referred to as one-step distillation in the framework, but the recovered implementation does not introduce a separate teacher trajectory or a teacher-step schedule.",
+    "verified_pages": [
+      17
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 17,
+        "matched_text": "from epoch 140 onward t is fixed at",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 387,
+        "line_end": 388,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 17,
+    "matched_text": "from epoch 140 onward t is fixed at",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 387,
+    "line_end": 388,
+    "line_scope": "matched phrase only"
+  },
+  "R3-13": {
+    "position_id": "G2-OASIS-SCOPE",
+    "excerpt_latex": "These data therefore evaluate external AV45 synthesis in this CN/AD cohort, without establishing external generalizability for FDG synthesis or MCI-stage discrimination. Complete run-specific records of the external clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation.",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "these data therefore evaluate external av45 synthesis in",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 433,
+        "line_end": 433,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "these data therefore evaluate external av45 synthesis in",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 433,
+    "line_end": 433,
+    "line_scope": "matched phrase only"
+  },
+  "R3-14": {
+    "position_id": "G7-DISCUSSION-MERGED",
+    "excerpt_latex": "The 2024 Alzheimer's Association criteria emphasize biological diagnosis using validated core biomarkers, including amyloid PET and sufficiently accurate blood-based assays such as plasma p-tau217~\\cite{jack2024revised}. Synthetic PET has not been validated as a substitute for molecular confirmation, and its added value relative to those biomarker assessments remains to be determined.",
+    "verified_pages": [
+      13,
+      14
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 14,
+        "matched_text": "including amyloid pet and sufficiently accurate blood based",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 286,
+        "line_end": 286,
+        "line_scope": "matched phrase only"
+      },
+      {
+        "page": 13,
+        "matched_text": "the 2024 alzheimer s association criteria emphasize biological",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 284,
+        "line_end": 285,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 13,
+    "matched_text": "the 2024 alzheimer s association criteria emphasize biological",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 284,
+    "line_end": 285,
+    "line_scope": "matched phrase only"
+  },
+  "R3-15": {
+    "position_id": "G7-INTRODUCTION-CONTRIBUTIONS",
+    "excerpt_latex": "Building upon single-tracer DIReCT~\\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.",
+    "verified_pages": [
+      2
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 2,
+        "matched_text": "3d rectified flow to a shared network conditioned",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 68,
+        "line_end": 68,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 2,
+    "matched_text": "3d rectified flow to a shared network conditioned",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 68,
+    "line_end": 68,
+    "line_scope": "matched phrase only"
+  },
+  "M1": {
+    "position_id": "G7-INTRODUCTION-GRAMMAR",
+    "excerpt_latex": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+    "verified_pages": [
+      2
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 2,
+        "matched_text": "this challenge stems from the inherent nature of",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 60,
+        "line_end": 61,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 2,
+    "matched_text": "this challenge stems from the inherent nature of",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 60,
+    "line_end": 61,
+    "line_scope": "matched phrase only"
+  },
+  "M2": {
+    "position_id": "G7-INTRODUCTION-GRAMMAR",
+    "excerpt_latex": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+    "verified_pages": [
+      2
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 2,
+        "matched_text": "this challenge stems from the inherent nature of",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 60,
+        "line_end": 61,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 2,
+    "matched_text": "this challenge stems from the inherent nature of",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 60,
+    "line_end": 61,
+    "line_scope": "matched phrase only"
+  },
+  "M3": {
+    "position_id": "G4-CORE-1",
+    "excerpt_latex": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+    "verified_pages": [
+      6
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 6,
+        "matched_text": "regional normalized uptake values arbitrary units were computed",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 151,
+        "line_end": 152,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 6,
+    "matched_text": "regional normalized uptake values arbitrary units were computed",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 151,
+    "line_end": 152,
+    "line_scope": "matched phrase only"
+  },
+  "M4": {
+    "position_id": "G1-VELOCITY-NOTATION",
+    "excerpt_latex": "Specifically, given two heterogeneous medical distributions---$\\mathbf{x}_0 \\sim \\mathcal{M}_{\\text{MRI}}$ and $\\mathbf{x}_1 \\sim \\mathcal{P}_{\\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\\theta$, where $\\theta$ denotes its network parameters and $\\mathbf{c}$ is the conditioning context containing tracer and clinical text features.",
+    "verified_pages": [
+      15
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 15,
+        "matched_text": "given two heterogeneous medical distributions x 0 m",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 347,
+        "line_end": 347,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 15,
+    "matched_text": "given two heterogeneous medical distributions x 0 m",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 347,
+    "line_end": 347,
+    "line_scope": "matched phrase only"
+  },
+  "M5": {
+    "position_id": "G4-CORE-5",
+    "excerpt_latex": "We performed paired two-sided $t$-tests to compare normalized regional uptake between real and Syn-PET images within each ROI, both across the overall cohorts and within individual diagnostic groups.",
+    "verified_pages": [
+      20
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 20,
+        "matched_text": "we performed paired two sided t tests to",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 522,
+        "line_end": 522,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 20,
+    "matched_text": "we performed paired two sided t tests to",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 522,
+    "line_end": 522,
+    "line_scope": "matched phrase only"
+  },
+  "M6": {
+    "position_id": "G4-ROI-NAMES",
+    "excerpt_latex": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+    "verified_pages": [
+      20
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 20,
+        "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 515,
+        "line_end": 516,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 20,
+    "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 515,
+    "line_end": 516,
+    "line_scope": "matched phrase only"
+  },
+  "M7": {
+    "position_id": "G4-CORE-1",
+    "excerpt_latex": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+    "verified_pages": [
+      6
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 6,
+        "matched_text": "to assess regional uptake patterns the corresponding t1",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 148,
+        "line_end": 148,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 6,
+    "matched_text": "to assess regional uptake patterns the corresponding t1",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 148,
+    "line_end": 148,
+    "line_scope": "matched phrase only"
+  },
+  "M12": {
+    "position_id": "G2-PREPROCESSING",
+    "excerpt_latex": "Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\\cite{spm,friston1995spatial}, with identical transformation matrices applied to preserve cross-modality alignment.",
+    "verified_pages": [
+      18
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 18,
+        "matched_text": "both modalities were jointly affinely normalized to the",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 440,
+        "line_end": 441,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 18,
+    "matched_text": "both modalities were jointly affinely normalized to the",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 440,
+    "line_end": 441,
+    "line_scope": "matched phrase only"
+  },
+  "M13": {
+    "position_id": "G4-ROI-NAMES",
+    "excerpt_latex": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+    "verified_pages": [
+      20
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 20,
+        "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 515,
+        "line_end": 516,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 20,
+    "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 515,
+    "line_end": 516,
+    "line_scope": "matched phrase only"
+  },
+  "M14": {
+    "position_id": "G3-DDIM-REFERENCE",
+    "excerpt_latex": "\\textbf{3D DDIM}~\\cite{song2021ddim,pinaya2023generative}: A deterministic fast-sampling variant of 3D diffusion models, implemented using a 3D diffusion-model U-Net and a DDIM scheduler for the historical synthesis comparison.",
+    "verified_pages": [
+      19
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 19,
+        "matched_text": "a deterministic fast sampling variant of 3d diffusion",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 476,
+        "line_end": 476,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 19,
+    "matched_text": "a deterministic fast sampling variant of 3d diffusion",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 476,
+    "line_end": 476,
+    "line_scope": "matched phrase only"
+  },
+  "M15": {
+    "position_id": "G2-DATA-AVAILABILITY",
+    "excerpt_latex": "ADNI inputs included T1-weighted MRI, $^{18}$F-FDG PET, $^{18}$F-AV45 PET, and demographic and clinical assessments; external OASIS-3 evaluation used MRI and AV45-PET.",
+    "verified_pages": [
+      24
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 24,
+        "matched_text": "adni inputs included t1 weighted mri 18 f",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 639,
+        "line_end": 640,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 24,
+    "matched_text": "adni inputs included t1 weighted mri 18 f",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 639,
+    "line_end": 640,
+    "line_scope": "matched phrase only"
+  },
+  "M16": {
+    "position_id": "G6-IMPLEMENTATION-AND-EFFICIENCY",
+    "excerpt_latex": "The reconstructed generator is a four-level 3D U-Net with channels $(32,64,64,128)$, one residual block per level, cross-attention only at the deepest level, and conditioning dimension 512. It contains 9,925,921 trainable parameters, excluding the frozen BiomedCLIP encoders.",
+    "verified_pages": [
+      22
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 22,
+        "matched_text": "the reconstructed generator is a four level 3d",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 588,
+        "line_end": 588,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 22,
+    "matched_text": "the reconstructed generator is a four level 3d",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 588,
+    "line_end": 588,
+    "line_scope": "matched phrase only"
+  },
+  "M18": {
+    "position_id": "G4-CORE-4",
+    "excerpt_latex": "The AD--CN comparison illustrates representative differences between two diagnostic states rather than all diagnostic-group contrasts. MCI was evaluated separately through MCI-versus-CN and EMCI-versus-LMCI classification (Fig.~\\ref{fig:5}B,C); the regional paired analysis also includes the original MCI categories.",
+    "verified_pages": [
+      9
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 9,
+        "matched_text": "the ad cn comparison illustrates representative differences between",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 190,
+        "line_end": 190,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 9,
+    "matched_text": "the ad cn comparison illustrates representative differences between",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 190,
+    "line_end": 190,
+    "line_scope": "matched phrase only"
+  },
+  "M21": {
+    "position_id": "G1-RESULTS-CONDITIONING",
+    "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+    "verified_pages": [
+      3
+    ],
+    "verified_phrase_locations": [
+      {
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      }
+    ],
+    "page": 3,
+    "matched_text": "text guidance incorporates tracer descriptions and patient information",
+    "location_basis": "unique 8-word PDF match",
+    "line_start": 88,
+    "line_end": 88,
+    "line_scope": "matched phrase only"
+  }
+}

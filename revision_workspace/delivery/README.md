@@ -1,6 +1,6 @@
 # BMEF-D-26-00169 本地整合交付
 
-本包用于作者验收；尚未向期刊提交。01_submission 为投稿候选文件；02_figures 为单独图件；03_editable_sources 含新 SVG、重绘脚本及保留的历史 drawio/PPTX（重绘脚本依赖本仓库证据文件，未复制受试者CSV或影像）。04_latex_sources 为构建源码。05_internal_audit 仅用于本地追溯，请勿整目录上传投稿系统。
+本包用于作者验收；尚未向期刊提交。Stage 4 已从前三阶段确认源码重新构建并核验引文及实际 PDF 位置；工程一致性验证不代表新增科学结论已获证明。01_submission 为投稿候选文件；02_figures 为单独图件；03_editable_sources 含新 SVG、重绘脚本及保留的历史 drawio/PPTX（重绘脚本依赖本仓库证据文件，未复制受试者CSV或影像）。04_latex_sources 为构建源码。05_internal_audit 仅用于本地追溯，请勿整目录上传投稿系统。
 
 - Clean 稿仅含正文和参考文献，Supplementary 为独立 PDF。高亮稿包含补充材料；蓝色为新增、红色为删除，以保存的本轮整合前稿为基线。高亮专用Bib保留两条基线旧引用以排印已删除内容；clean稿不含这些弃用条目。
 - Rebuttal 页码以 Combined_reference_copy 为统一参照，同时列出独立 Supplementary 页码。页码从实际 PDF/aux 获取；行号只标识核验到的短语，不冒充整段范围。

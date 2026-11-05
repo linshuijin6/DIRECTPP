@@ -1,0 +1,277 @@
+{
+  "basis_commit": "45202545b638845b31fd0dadabd089ad958766d5",
+  "policy": "43 existing quotations audited against the current manuscript; 13 responses retain no changedtext. Preserve source LaTeX; resolve cross-document refs using freshly built aux labels.",
+  "comments": {
+    "R2-1": null,
+    "R2-2": null,
+    "R2-3": {
+      "position_id": "G2-OOF-PROTOCOL",
+      "start": "PET synthesis used subject-level",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-4": {
+      "position_id": "G2-MCI-DEFINITIONS",
+      "start": "These categories define cross-sectional",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-5": {
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "start": "These observations show conditional output sensitivity",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-6": {
+      "position_id": "G2-COHORT-SELECTION",
+      "start": "Only one prepared imaging record",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-7": {
+      "position_id": "G2-OASIS-SCOPE",
+      "start": "The retained external cohort comprised",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-8": {
+      "position_id": "G4-CORE-3",
+      "start": "Non-significant mean differences do not establish",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-9": {
+      "position_id": "G4-CORE-7",
+      "start": "For the paired real--synthetic comparisons",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-10": {
+      "position_id": "G4-CORE-5",
+      "start": "Mean paired differences with 95",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-11": null,
+    "R2-12": null,
+    "R2-13": {
+      "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+      "start": "Rectified flow supports a learned one-step approximation",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-14": {
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "start": "Text guidance incorporates",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-15": {
+      "position_id": "G1-ADAPTER-OBJECTIVE",
+      "start": "The settings are",
+      "sentences": 3,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-16": {
+      "position_id": "G5-CLASSIFICATION-METHODS",
+      "start": "Demographic sensitivity analyses separately stratified",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-17": {
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "start": "The 3D Swin-UNETR was adapted",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-18": null,
+    "R2-19": {
+      "position_id": "G2-OOF-PROTOCOL",
+      "start": "Fixed splits, seeds and implementation details",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R2-20": {
+      "position_id": "G7-DISCUSSION-MERGED",
+      "start": "Synthetic PET may support exploratory MRI-based analyses",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-1": {
+      "position_id": "G5-RESULTS-AND-FIGURE5",
+      "start": "These observations do not support independent incremental diagnostic value",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-2": {
+      "position_id": "G8-CLINICAL-METHODS",
+      "start": "Missing MMSE, GDSCALE",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-3": {
+      "position_id": "G2-MCI-DEFINITIONS",
+      "start": "These categories define cross-sectional",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-4": {
+      "position_id": "G4-CORE-3",
+      "start": "Non-significant mean differences do not establish",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-5": {
+      "position_id": "G4-CORE-1",
+      "start": "Regional normalized uptake values",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-6": {
+      "position_id": "G2-OOF-PROTOCOL",
+      "start": "The classification analysis retained",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-7": {
+      "position_id": "G5-RESULTS-AND-FIGURE5",
+      "start": "Results are reported as the equally weighted fold mean",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-8": {
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "start": "Text guidance incorporates",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-9": {
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "start": "TracerOnly excluded patient-specific conditioning",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-10": {
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "start": "The 3D Swin-UNETR was adapted",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-11": null,
+    "R3-12": {
+      "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+      "start": "From epoch 140 onward",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-13": {
+      "position_id": "G2-OASIS-SCOPE",
+      "start": "These data therefore evaluate external AV45 synthesis",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-14": {
+      "position_id": "G7-DISCUSSION-MERGED",
+      "start": "The 2024 Alzheimer's Association criteria emphasize",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "R3-15": {
+      "position_id": "G7-INTRODUCTION-CONTRIBUTIONS",
+      "start": "Building upon single-tracer DIReCT",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M1": {
+      "position_id": "G7-INTRODUCTION-GRAMMAR",
+      "start": "This challenge stems",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M2": {
+      "position_id": "G7-INTRODUCTION-GRAMMAR",
+      "start": "This challenge stems",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M3": {
+      "position_id": "G4-CORE-1",
+      "start": "Regional normalized uptake values",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M4": {
+      "position_id": "G1-VELOCITY-NOTATION",
+      "start": "Specifically, given two heterogeneous",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M5": {
+      "position_id": "G4-CORE-5",
+      "start": "We performed paired two-sided",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M6": {
+      "position_id": "G4-ROI-NAMES",
+      "start": "FDG regions included",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M7": {
+      "position_id": "G4-CORE-1",
+      "start": "To assess regional uptake patterns",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M8": null,
+    "M9": null,
+    "M10": null,
+    "M11": null,
+    "M12": {
+      "position_id": "G2-PREPROCESSING",
+      "start": "Both modalities were jointly affinely",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M13": {
+      "position_id": "G4-ROI-NAMES",
+      "start": "FDG regions included",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M14": {
+      "position_id": "G3-DDIM-REFERENCE",
+      "start": "\\textbf{3D DDIM}",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M15": {
+      "position_id": "G2-DATA-AVAILABILITY",
+      "start": "ADNI inputs included",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M16": {
+      "position_id": "G6-IMPLEMENTATION-AND-EFFICIENCY",
+      "start": "The reconstructed generator is a four-level",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M17": null,
+    "M18": {
+      "position_id": "G4-CORE-4",
+      "start": "The AD--CN comparison illustrates",
+      "sentences": 2,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    },
+    "M19": null,
+    "M20": null,
+    "M21": {
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "start": "Text guidance incorporates",
+      "sentences": 1,
+      "reason": "Select the existing sentence that directly addresses this comment; no manuscript or scientific claim change."
+    }
+  }
+}

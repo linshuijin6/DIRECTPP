@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-04T01:14:47.811430+00:00",
+  "created_at": "2026-11-05T11:47:18.566492+00:00",
   "passed": true,
   "checks": [
     {
@@ -1246,33 +1246,2803 @@
       "check": "no hypothetical extra fits",
       "passed": true,
       "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/BMEF_main.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见/Reviewer2的审稿意见 0af95d43b2dd82f0a0ee0138193e2174.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/BMEF_main.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/BMEF_main.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/references.bib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/supplementary/supplementary.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/figure_1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/figure_2.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/figure_3.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/figure_4.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/figure_5.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_2.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_3.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_4.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_5.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_6.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/figures/revised-1029-FIG1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/raw_pic/1103.drawio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/raw_pic/图表2.pptx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/manuscript/raw_pic/图表.rectified.pptx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/references.bib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/main.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/main.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/sections/00_general_response.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/sections/01_editor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/sections/02_reviewer2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/sections/03_reviewer3_major.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/baseline/rebuttal/sections/04_reviewer3_minor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/figure_1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/figure_2.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/figure_3.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/figure_4.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/figure_5.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_2.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_3.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_4.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_5.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/supplementary_figure_6.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revised-1029-FIG1.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revision_cases_fdg.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revision_cases_av45.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revision_roc_ad_cn.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revision_roc_mci_cn.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/revision_roc_emci_lmci.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/figure_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/figure_5.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/figure_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_5.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/figures/editable_sources/supplementary_figure_6.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/raw_pic/1103.drawio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/raw_pic/图表2.pptx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/raw_pic/图表.rectified.pptx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/supplementary.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/clinical_missingness.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/reproducibility.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/conditioning.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/regional_agreement.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/regional_effect_sizes.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/whole_volume_generation.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/paired_generation.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/historical_generation.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/masked_summary.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/masked_paired.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/generation_cases.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/classification_summary.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/classification_imaging_comparisons.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/classification_clinical_comparisons.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/classification_delong.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/classification_roc.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/e1_score_removal.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/supplementary/tables/demographic_stratification.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/BMEF_main.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source manuscript/references.bib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source rebuttal/references.bib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-1.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-1.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-2.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-2.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-3.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-3.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-4.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-4.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-5.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-5.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-5.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-6.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-6.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-7.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-7.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-8.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-8.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-9.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-9.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-10.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-10.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-11.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-11.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-12.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-12.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-13.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-13.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-14.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-14.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-14.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-15.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-15.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-16.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-16.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-17.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-17.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-18.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-18.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-19.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-19.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-20.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-20.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-1.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-1.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-1.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-2.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-2.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-2.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-3.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-3.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-4.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-4.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-5.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-5.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-6.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-6.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-6.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-7.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-7.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-8.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-8.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-8.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-9.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-9.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-9.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-10.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-10.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-11.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-11.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-11.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-12.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-12.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-13.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-13.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-14.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-14.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-15.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-15.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M1.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M1.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M2.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M2.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M3.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M3.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M4.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M4.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M5.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M5.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M6.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M6.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M7.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M7.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M8.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M8.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M9.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M9.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M10.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M10.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M11.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M11.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M12.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M12.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M13.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M13.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M14.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M14.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M15.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M15.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M16.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M16.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M17.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M17.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M18.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M18.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M19.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M19.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M20.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M20.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M21.source.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M21.final.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-3.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-4.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-6.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-7.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-8.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-10.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-13.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-15.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-16.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-17.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-18.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-19.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-20.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-3.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-4.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-5.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-10.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-12.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-13.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-14.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M3.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M4.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M6.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M7.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M8.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M10.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M11.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M12.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M13.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M14.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M15.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M16.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M17.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M18.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M21.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-9.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R2-12.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/R3-15.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stage 1--3 protected source revision_workspace/integration/responses/M9.diff.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original comments unchanged 01_editor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editorial responses unchanged 01_editor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original comments unchanged 02_reviewer2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editorial responses unchanged 02_reviewer2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "generated section equals working source 02_reviewer2.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original comments unchanged 03_reviewer3_major.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editorial responses unchanged 03_reviewer3_major.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "generated section equals working source 03_reviewer3_major.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original comments unchanged 04_reviewer3_minor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "editorial responses unchanged 04_reviewer3_minor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "generated section equals working source 04_reviewer3_minor.tex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exact 56 reviewer IDs retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R2-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R2-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-3 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-4 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-5 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-6 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-7 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-8 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-9 21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-10 21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R2-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R2-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-13 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-14 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-15 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-16 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-17 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R2-18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-19 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R2-20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R2-20 13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-1 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-2 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-3 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-4 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-5 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-6 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-7 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-8 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-9 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-9 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-10 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation R3-11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-12 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-13 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-14 13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-14 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location R3-15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page R3-15 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M1 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M2 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M3 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M4 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M5 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M6 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M7 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M12 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M13 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M14 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M15 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M16 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M18 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no extra quotation M20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "confirmed Response retained M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "verbatim current quotation M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quotation registered to comment M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quotation PDF location M21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Action includes quotation page M21 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "43 existing quotations retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "M1 full correction sentence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "M2 full correction sentence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt combined pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt combined log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt combined fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs combined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings combined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt clean pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt clean log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt clean fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt supplementary pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt supplementary log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt supplementary fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs supplementary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings supplementary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt highlight pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt highlight log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt highlight fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs highlight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings highlight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt rebuttal pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt rebuttal log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt rebuttal fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs rebuttal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings rebuttal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt cover pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt cover log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "build receipt cover fls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "actual recorded current inputs cover",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no unresolved final build warnings cover",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "current bibliography_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "current latexdiff_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "validated highlighted copy matches recorded build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no pending scientific-position change",
+      "passed": true,
+      "detail": ""
     }
   ],
   "failed_checks": [],
   "pdfs": {
     "BMEF_main": {
       "pages": 54,
-      "sha256": "e5ba41f169b7c1f4c187517e12e47d2466a6b147f9d2e00ecb16e166b2e40d00"
+      "sha256": "6fd45659003bb88eddf6c76bc5094c6a8c659aebb5e47da09a968add84c235a3"
     },
     "main": {
-      "pages": 68,
-      "sha256": "c37def886ca549a78bef8c0124c20029ec4231eab3440f0524c5f68a5fe7a3f3"
+      "pages": 66,
+      "sha256": "34ad3fee329fda10240923e2e9bdc0f50ebfb9d5a587e4a7a68f513668e3e3c9"
     },
     "cover_letter": {
       "pages": 1,
-      "sha256": "b53e406f016539830995d9992e5b9b10cceb89bb399d4a4c81fbd105de9cb1ef"
+      "sha256": "667472cfed86da90a7f66906137b0c2312214a99f3dc22c72c21192fbf056e78"
     },
     "manuscript_clean": {
       "pages": 26,
-      "sha256": "45ed94216f36b8093eb43683e7d631068792b3d620b9ef83ef65a52e24d479bb"
+      "sha256": "7989aa32d4bca0127c2292e455fd7db143f6f29b55f5a7f557902e5c65344385"
     },
     "supplementary_standalone": {
       "pages": 27,
-      "sha256": "b2d41bc12ddd2fc9c218998e1c96dc08f7a58809280f508a189a631f57fa0c2f"
+      "sha256": "b20a44d05e10b05ecbde46bb9f5890b1cd3db5b3eebb951d15c7793a78f8f3c1"
     },
     "manuscript_highlighted": {
       "pages": 59,
-      "sha256": "232e8da6ba44375136d8972d301052105fa667875e390bd767be8b684d28847b"
+      "sha256": "ca9c989faa22335adc056cb4e6d894460deed6f6f9c51e641a095c6db3cc8da1"
     }
   },
   "scope": "Engineering/source traceability only; no new training, inference, data imputation or new inferential statistics. Scientific and author-form limitations remain explicit.",

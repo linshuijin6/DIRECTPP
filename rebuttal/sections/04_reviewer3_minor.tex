@@ -7,10 +7,10 @@
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
+\item Introduction / ill-posed inverse problem (p. 2, lines 60--61).
 \end{itemize}}
 
-\changedtext{Introduction / ill-posed inverse problem}{Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}.}
+\changedtext{Introduction / ill-posed inverse problem}{This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\cite{jagust2018imaging}.}
 
 \subsection*{M2 (Reviewer 3 Minor 2)}
 \revcomment{M2}{Lines 58-59: "neurodegenration" \ensuremath{\rightarrow} "neurodegeneration."}
@@ -19,10 +19,10 @@
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
+\item Introduction / ill-posed inverse problem (p. 2, lines 60--61).
 \end{itemize}}
 
-\changedtext{Introduction / ill-posed inverse problem}{Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}.}
+\changedtext{Introduction / ill-posed inverse problem}{This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\cite{jagust2018imaging}.}
 
 \subsection*{M3 (Reviewer 3 Minor 3)}
 \revcomment{M3}{Line 137: "standardized uptake value (SUV) were" \ensuremath{\rightarrow} "values (SUVRs) were."}
@@ -33,10 +33,10 @@ Therefore, directly replacing “SUV” with “SUVR” would not accurately ref
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 149--149).
+\item Results: regional uptake analysis (p. 6, lines 151--152).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
+\changedtext{Results: regional uptake analysis}{Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.}
 
 \subsection*{M4 (Reviewer 3 Minor 4)}
 \revcomment{M4}{Line 301: "a learnable velocity field V\ensuremath{\theta} denotes the network parameters" is garbled; \ensuremath{\theta} and c should be defined separately.}
@@ -45,11 +45,11 @@ Therefore, directly replacing “SUV” with “SUVR” would not accurately ref
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Rectified Flow / V theta definition (p. 15, lines 350--350).
-\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
+\item Rectified Flow / V theta definition (p. 15, lines 347--347).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 384--385).
 \end{itemize}}
 
-\changedtext{Rectified Flow / V theta definition}{DIReCT$++$ models MRI-to-PET translation using a conditional rectified flow velocity field.}
+\changedtext{Rectified Flow / V theta definition}{Specifically, given two heterogeneous medical distributions---$\mathbf{x}_0 \sim \mathcal{M}_{\text{MRI}}$ and $\mathbf{x}_1 \sim \mathcal{P}_{\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\theta$, where $\theta$ denotes its network parameters and $\mathbf{c}$ is the conditioning context containing tracer and clinical text features.}
 
 \subsection*{M5 (Reviewer 3 Minor 5)}
 \revcomment{M5}{Section 4.5.1 describes paired tests for "AD and CN," but Results report CN, MCI, and AD (lines 145-147). Please reconcile.}
@@ -64,11 +64,11 @@ We agree that the original wording did not clearly distinguish these two analyse
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 157--157).
-\item Methods: regional statistical analysis (p. 20, lines 529--529).
+\item Results: regional uptake analysis (p. 6, lines 156--156).
+\item Methods: regional statistical analysis (p. 20, lines 522--522).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.}
+\changedtext{Methods: regional statistical analysis}{We performed paired two-sided $t$-tests to compare normalized regional uptake between real and Syn-PET images within each ROI, both across the overall cohorts and within individual diagnostic groups.}
 
 \subsection*{M6 (Reviewer 3 Minor 6)}
 \revcomment{M6}{Line 427: "Temporoparietal junction" is not a SynthSeg/Desikan-Killiany label. Please specify the ROIs actually used.}
@@ -81,10 +81,10 @@ Accordingly, we now replace the imprecise or overly broad anatomical description
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 515--516).
 \end{itemize}}
 
-\changedtext{Regional Group-Wise Comparison / ROI definitions}{Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.}
+\changedtext{Regional Group-Wise Comparison / ROI definitions}{FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \texttt{Left-Hippocampus}, \texttt{Right-Hippocampus}, and the \texttt{ctx-lh-}/\allowbreak\texttt{ctx-rh-} labels with suffixes \texttt{isthmuscingulate} and \texttt{supramarginal})~\cite{mosconi2005reduced,he2015meta,strom2022cortical}.}
 
 \subsection*{M7 (Reviewer 3 Minor 7)}
 \revcomment{M7}{Line 133 vs. line 390: "mri\_synthseg (FreeSurfer v7.4.1)" and "SynthSeg [35]" cite different references for the same tool. Please use one version and one citation.}
@@ -97,12 +97,12 @@ Relevant references: \cite{synthseg}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / preprocessing (p. 18, lines 444--444).
-\item Results: regional uptake analysis (p. 6, lines 149--149).
-\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
+\item Materials and Data Preprocessing / preprocessing (p. 18, lines 437--437).
+\item Results: regional uptake analysis (p. 6, lines 148--148).
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 514--514).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / preprocessing}{To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.}
+\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
 
 \subsection*{M8 (Reviewer 3 Minor 8)}
 \revcomment{M8}{Refs. 27 and 33 are duplicates (Fischl, FreeSurfer).}
@@ -113,8 +113,7 @@ Relevant references: \cite{Freesurfer}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
 \subsection*{M9 (Reviewer 3 Minor 9)}
@@ -126,8 +125,7 @@ Relevant references: \cite{synthseg}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
 \subsection*{M10 (Reviewer 3 Minor 10)}
@@ -139,8 +137,7 @@ Relevant references: \cite{synthseg}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
 \subsection*{M11 (Reviewer 3 Minor 11)}
@@ -152,8 +149,7 @@ Relevant references: \cite{Xing2022}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
 \subsection*{M12 (Reviewer 3 Minor 12)}
@@ -165,12 +161,11 @@ Relevant references: \cite{spm,friston1995spatial}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / preprocessing (p. 18, lines 444--444).
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Materials and Data Preprocessing / preprocessing (p. 18, lines 440--441).
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / preprocessing}{To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.}
+\changedtext{Materials and Data Preprocessing / preprocessing}{Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\cite{spm,friston1995spatial}, with identical transformation matrices applied to preserve cross-modality alignment.}
 
 \subsection*{M13 (Reviewer 3 Minor 13)}
 \revcomment{M13}{Ref. 36 (an ADNI overview) is not an appropriate source for FDG AD-vulnerable regions.}
@@ -183,12 +178,11 @@ Relevant references: \cite{mosconi2005reduced,he2015meta,strom2022cortical}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 515--516).
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
-\changedtext{Regional Group-Wise Comparison / ROI definitions}{Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.}
+\changedtext{Regional Group-Wise Comparison / ROI definitions}{FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \texttt{Left-Hippocampus}, \texttt{Right-Hippocampus}, and the \texttt{ctx-lh-}/\allowbreak\texttt{ctx-rh-} labels with suffixes \texttt{isthmuscingulate} and \texttt{supramarginal})~\cite{mosconi2005reduced,he2015meta,strom2022cortical}.}
 
 \subsection*{M14 (Reviewer 3 Minor 14)}
 \revcomment{M14}{Ref. 25 (MRI-to-CT for spinal segmentation) should be checked as the source for the 3D DDIM baseline.}
@@ -199,13 +193,12 @@ Relevant references: \cite{song2021ddim,pinaya2023generative}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / generation introduction (p. 4, lines 112--112).
-\item Competing Methods / 3D DDIM (p. 19, lines 483--483).
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Results / generation introduction (p. 5, lines 111--111).
+\item Competing Methods / 3D DDIM (p. 19, lines 476--476).
+\item Bibliography (pp. 52, 53, 54).
 \end{itemize}}
 
-\changedtext{Results / generation introduction}{PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).}
+\changedtext{Competing Methods / 3D DDIM}{\textbf{3D DDIM}~\cite{song2021ddim,pinaya2023generative}: A deterministic fast-sampling variant of 3D diffusion models, implemented using a 3D diffusion-model U-Net and a DDIM scheduler for the historical synthesis comparison.}
 
 \subsection*{M15 (Reviewer 3 Minor 15)}
 \revcomment{M15}{Data Availability mentions only "structural MRI and AV-45 PET"; FDG-PET should be added. Please also release the list of ADNI/OASIS subject and image IDs used, to allow exact replication.}
@@ -220,10 +213,10 @@ We now also review and correct the data access and licensing information in the 
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Data Availability (p. 24, lines 641--641).
+\item Data Availability (p. 24, lines 639--640).
 \end{itemize}}
 
-\changedtext{Data Availability}{The data used in this study were obtained from two research datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Open Access Series of Imaging Studies (OASIS-3).}
+\changedtext{Data Availability}{ADNI inputs included T1-weighted MRI, $^{18}$F-FDG PET, $^{18}$F-AV45 PET, and demographic and clinical assessments; external OASIS-3 evaluation used MRI and AV45-PET.}
 
 \subsection*{M16 (Reviewer 3 Minor 16)}
 \revcomment{M16}{Missing hyperparameters: \ensuremath{\tau}, \ensuremath{\lambda}\_F, \ensuremath{\lambda}\_A, batch size, U-Net depth and channel widths, cross-attention placement, and parameter count.}
@@ -238,13 +231,13 @@ In the revised manuscript, we now provide the verified architectural specificati
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item eq:align\_opt (p. 15, lines 338--338).
-\item Rectified Flow / cross-attention (p. 16, lines 370--370).
-\item eq:multitask\_loss / definitions (p. 17, lines 387--387).
-\item Implementation Details (p. 22, lines 595--595).
+\item eq:align\_opt (p. 15, lines 334--334).
+\item Rectified Flow / cross-attention (p. 16, lines 364--364).
+\item eq:multitask\_loss / definitions (p. 17, lines 380--380).
+\item Implementation Details (p. 22, lines 588--588).
 \end{itemize}}
 
-\changedtext{eq:align\_opt}{where $\alpha_1,\beta_1$ are scalar scales and $\alpha_2,\beta_2$ are 512-dimensional bias vectors.}
+\changedtext{Implementation Details}{The reconstructed generator is a four-level 3D U-Net with channels $(32,64,64,128)$, one residual block per level, cross-attention only at the deepest level, and conditioning dimension 512. It contains 9,925,921 trainable parameters, excluding the frozen BiomedCLIP encoders.}
 
 \subsection*{M17 (Reviewer 3 Minor 17)}
 \revcomment{M17}{Fig. 1 legend: "Just Add It" should be replaced with a clear description (e.g., "element-wise addition").}
@@ -273,12 +266,12 @@ We acknowledge that the original manuscript did not sufficiently clarify this ra
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 157--157).
-\item Results: regional uptake analysis (p. 9, lines 179--179).
+\item Results: regional uptake analysis (p. 6, lines 156--156).
+\item Results: regional uptake analysis (p. 9, lines 190--190).
 \item fig:4 caption (p. 10).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.}
+\changedtext{Results: regional uptake analysis}{The AD--CN comparison illustrates representative differences between two diagnostic states rather than all diagnostic-group contrasts. MCI was evaluated separately through MCI-versus-CN and EMCI-versus-LMCI classification (Fig.~5B,C); the regional paired analysis also includes the original MCI categories.}
 
 \subsection*{M19 (Reviewer 3 Minor 19)}
 \revcomment{M19}{Axis labels "Mean AV45/FDG Uptake" should read "SUVR," with the reference region stated.}
@@ -287,7 +280,7 @@ We acknowledge that the original manuscript did not sufficiently clarify this ra
 
 Upon verification, we clarify that the regional uptake measurements in our study do not represent standardized uptake value ratios (SUVRs). During image preprocessing, each PET image was independently normalized to the [0, 1] intensity range using min–max scaling. The mean normalized voxel intensity within each anatomical region was then calculated for regional agreement analyses between real and synthetic PET and for comparisons between diagnostic groups. This procedure did not involve normalization to the cerebellum, pons, or any other anatomical reference region. Consequently, labeling these measurements as either SUV or SUVR would be inaccurate.
 
-To address this concern, we have revised the vertical axis labels in Figure 4 and the corresponding supplementary figures to “Normalized Regional Uptake (a.u.)”. We have also clarified in the figure captions and Methods that these values were derived from per-image min–max normalization rather than reference-region normalization.
+To address this concern, we have revised the uptake axis labels in Figure 4 and the corresponding supplementary figures to “Normalized uptake (a.u.)”. We have also clarified in the figure captions and Methods that these values were derived from per-image min–max normalization rather than reference-region normalization.
 
 Furthermore, we have harmonized the relevant terminology throughout the manuscript and clarified in the Discussion that normalized regional uptake measurements cannot be directly interpreted as clinically calibrated SUVR or Centiloid values. Standardized PET quantification and its agreement with clinically established reference measures remain important directions for future investigation.}
 
@@ -320,7 +313,7 @@ Furthermore, we have harmonized the relevant terminology throughout the manuscri
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24).
-\item Results / framework conditioning (p. 3, lines 89--89).
+\item Results / framework conditioning (p. 3, lines 88--88).
 \end{itemize}}
 
 \changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}

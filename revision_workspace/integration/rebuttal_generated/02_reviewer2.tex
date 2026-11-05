@@ -25,9 +25,9 @@ Therefore, the two cross-validation schemes are not contradictory but correspond
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
-\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33).
-\item Results / generation evaluation scope (p. 5, lines 118--118).
+\item Materials and Data Preprocessing / evaluation split (p. 18, lines 450--450).
+\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy pp. 32, 33).
+\item Results / generation evaluation scope (p. 5, lines 117--117).
 \end{itemize}}
 
 \changedtext{Materials and Data Preprocessing / evaluation split}{PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).}
@@ -49,16 +49,16 @@ We have described this task as \textbf{MCI stage discrimination} and revised the
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / diagnostic groups (p. 17, lines 413--413).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
+\item Materials and Data Preprocessing / diagnostic groups (p. 18, lines 413--413).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Abstract (pp. 1, 2).
 \item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
 \item Title (p. 1).
 \item PDF metadata.
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / diagnostic groups}{Participants were stratified into five clinically defined diagnostic categories to reflect the full continuum of Alzheimer’s disease pathology: Cognitively Normal (CN; $n = 577$), Alzheimer’s disease dementia (AD; $n = 317$), and three subtypes of Mild Cognitive Impairment (MCI).}
+\changedtext{Materials and Data Preprocessing / diagnostic groups}{These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.}
 
 \subsection*{R2-5}
 \revcomment{R2-5}{5. Potential clinical-information leakage: Age, sex, weight, and cognitive scores are embedded in the text conditioning. Because these variables are strongly associated with diagnosis, ablation experiments excluding cognitive scores are necessary to demonstrate that Syn-PET is not simply re-encoding diagnostic metadata.}
@@ -74,15 +74,15 @@ The fixed-weight score-removal experiment used the separate E1 Full checkpoint f
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item tab:clinical\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32).
-\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item eq:composite\_conditioning (p. 16, lines 359--359).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 415--415).
+\item Results / framework conditioning (p. 3, lines 103--104).
+\item eq:composite\_conditioning (p. 16, lines 353--353).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (pp. 21, 22).
+\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, pp. 26, 27; combined reference copy pp. 50, 51).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+\changedtext{Results / framework conditioning}{These observations show conditional output sensitivity; they are not a retrained No-Scores ablation or proof of independent diagnostic benefit.}
 
 \subsection*{R2-6}
 \revcomment{R2-6}{6. Subject-level splitting must be explicit: Because ADNI contains longitudinal scans, the authors should confirm that all visits from a given participant remain within a single fold to avoid subject leakage between training and testing.}
@@ -95,11 +95,11 @@ We now clarify this data selection criterion in the revised manuscript to avoid 
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / cohort (p. 17, lines 403--403).
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
+\item Materials and Data Preprocessing / cohort (p. 17, lines 400--400).
+\item Materials and Data Preprocessing / evaluation split (pp. 18, 19).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / cohort}{This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.}
+\changedtext{Materials and Data Preprocessing / cohort}{Only one prepared imaging record per participant was retained; repeated longitudinal visits were not treated as independent participants.}
 
 \subsection*{R2-7}
 \revcomment{R2-7}{7. External validation is incomplete for multi-tracer claims: OASIS-3 external evaluation includes AV45-PET but excludes FDG-PET. Therefore, external generalizability is demonstrated only partially and the multi-tracer generalization claim should be qualified.}
@@ -112,18 +112,18 @@ We agree that the current OASIS-3 results provide evidence of cross-dataset gene
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / OASIS (p. 18, lines 433--433).
+\item Materials and Data Preprocessing / OASIS (p. 18, lines 428--428).
 \item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24).
-\item Results / generation evaluation scope (p. 5, lines 118--118).
-\item Results / external AV45 synthesis (p. 5, lines 141--141).
+\item Results / generation evaluation scope (p. 5, lines 117--117).
+\item Results / external AV45 synthesis (p. 5, lines 140--140).
 \item fig:2 caption (p. 7).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
-\item Results: PET synthesis (p. 4).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Abstract (pp. 1, 2).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
+\item Results: PET synthesis (p. 5).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / OASIS}{External evaluation used the Open Access Series of Imaging Studies (OASIS-3), a longitudinal neuroimaging and clinical cohort focused on normal aging and Alzheimer's disease (\url{https://www.oasis-brains.org}).}
+\changedtext{Materials and Data Preprocessing / OASIS}{The retained external cohort comprised 419 participants with AV45-PET processed using the Pet Unified Pipeline (PUP): 334 CN and 85 AD, with no MCI participants (Table~S2).}
 
 \subsection*{R2-8}
 \revcomment{R2-8}{8. Non-significance does not prove equivalence: Using p \textgreater{} 0.05 between real and synthetic PET as evidence of high fidelity is statistically insufficient. Equivalence testing (e.g., TOST) with clinically meaningful equivalence margins is more appropriate.}
@@ -140,16 +140,16 @@ Accordingly, we now revise the statistical interpretation in the manuscript to c
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 149--149).
-\item Results: regional uptake analysis (p. 6, lines 157--157).
-\item Results: regional uptake analysis (p. 6, lines 163--163).
-\item Methods: regional statistical analysis (p. 20, lines 529--529).
-\item Methods: regional statistical analysis (p. 21, lines 547--547).
-\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Results: regional uptake analysis (p. 6, lines 148--148).
+\item Results: regional uptake analysis (p. 6, lines 156--156).
+\item Results: regional uptake analysis (p. 9, lines 175--175).
+\item Methods: regional statistical analysis (pp. 20, 21).
+\item Methods: regional statistical analysis (p. 21, lines 540--540).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, pp. 10, 11, 12; combined reference copy pp. 34, 35, 36).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
+\changedtext{Results: regional uptake analysis}{Non-significant mean differences do not establish formal equivalence or clinical interchangeability.}
 
 \subsection*{R2-9}
 \revcomment{R2-9}{9. Multiple-comparison reporting should be clearer: FDR correction is appropriate, but the statistical family, number of tests, and adjusted p/q-values should be reported explicitly.}
@@ -168,14 +168,14 @@ The revised manuscript reports the statistical families and numbers of tests, sp
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 9, lines 179--179).
-\item Methods: regional statistical analysis (p. 21, lines 540--540).
-\item Methods: regional statistical analysis (p. 21, lines 547--547).
+\item Results: regional uptake analysis (p. 9, lines 178--178).
+\item Methods: regional statistical analysis (p. 21, lines 533--533).
+\item Methods: regional statistical analysis (p. 21, lines 544--544).
 \item fig:4 caption (p. 10).
-\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, pp. 10, 11, 12; combined reference copy pp. 34, 35, 36).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{Critically, independent-sample $t$-tests demonstrated that the significant differences between diagnostic groups observed in real PET data were also observed in the synthetic images (Fig.~4C, D; figs.~S5 and S6).}
+\changedtext{Methods: regional statistical analysis}{For the paired real--synthetic comparisons, FDR correction was applied across 98 ROIs separately for each tracer and analysis group (overall, AD, CN, EMCI, LMCI, and MCI), yielding 12 families (2 tracers $\times$ 6 analysis groups) and 1,176 tests in total. For the AD--CN comparisons, FDR correction was applied across 98 ROIs separately for each tracer and PET type (real or synthetic), yielding four families and 392 tests in total.}
 
 \subsection*{R2-10}
 \revcomment{R2-10}{10. PET agreement metrics should be strengthened: SSIM, PSNR, MSE, and MAE are useful image-similarity metrics but are insufficient for biomarker agreement. ICC/CCC, Bland-Altman analysis, regional SUV bias, and calibration analyses would improve clinical validation.}
@@ -194,14 +194,14 @@ The regional agreement supplementary table now includes regression slopes, inter
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 163--163).
-\item Methods: regional statistical analysis (p. 20, lines 529--529).
+\item Results: regional uptake analysis (pp. 6, 9).
+\item Methods: regional statistical analysis (p. 21, lines 526--526).
 \item fig:3 caption (p. 8).
-\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, pp. 10, 11, 12; combined reference copy pp. 34, 35, 36).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{Paired-sample $t$-tests between synthetic and real images revealed no statistically significant differences in normalized regional uptake across the principal brain regions shown in Fig.~4A, B for the overall cohorts of both tracers ($p>0.05$).}
+\changedtext{Methods: regional statistical analysis}{Mean paired differences with 95\% confidence intervals, mean absolute error (MAE), Lin's concordance correlation coefficient (CCC), the two-way absolute-agreement single-measure intraclass correlation coefficient (ICC(A,1)), and Bland--Altman bias and 95\% limits of agreement were also calculated to assess regional agreement.}
 
 \subsection*{R2-11}
 \revcomment{R2-11}{11. Classification uncertainty is underreported: ACC, AUC, sensitivity, and specificity should be accompanied by fold-wise mean \ensuremath{\pm} SD or 95\% confidence intervals rather than isolated point estimates.}
@@ -214,9 +214,9 @@ Furthermore, we provide ROC curves with 95\% bootstrap confidence bands to illus
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (pp. 21, 22).
+\item Supplementary classification tables and ROC (Supplementary Materials, pp. 17, 18, 19, 21, 22, 24, 26; combined reference copy pp. 41, 42, 43, 45, 46, 48, 50).
 \end{itemize}}
 
 \subsection*{R2-12}
@@ -232,9 +232,9 @@ Notably, even in the challenging EMCI versus LMCI task, incorporating synthetic 
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (pp. 21, 22).
+\item Supplementary classification tables and ROC (Supplementary Materials, pp. 17, 18, 19, 21, 22, 24, 26; combined reference copy pp. 41, 42, 43, 45, 46, 48, 50).
 \end{itemize}}
 
 \subsection*{R2-13}
@@ -246,13 +246,13 @@ Specifically, DIReCT++ generates the target PET image directly from the input MR
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework inference (p. 3, lines 106--106).
+\item Results / framework inference (p. 3, lines 105--105).
 \item fig:1 caption (p. 4).
-\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
-\item Results / framework opening (p. 3, lines 84--84).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 384--385).
+\item Results / framework opening (p. 3, lines 83--83).
 \end{itemize}}
 
-\changedtext{Results / framework inference}{At inference, the shared network predicts a velocity field for the selected tracer from MRI and the corresponding two-token text context.}
+\changedtext{eq:onestep\_generation / learning schedule}{Rectified flow supports a learned one-step approximation; a single network evaluation is not exact integration of the continuous ODE.}
 
 \subsection*{R2-14}
 \revcomment{R2-14}{14. Domain-adapted VLM details are insufficient: The manuscript should report embedding dimensionality, PET image-feature extraction, prompt construction, affine-adapter training, threshold \ensuremath{\tau} selection, and optimization details to ensure reproducibility.}
@@ -277,12 +277,12 @@ Relevant references: \cite{zhang2025multimodal}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item Methods / DIReCT++ overview (p. 14, lines 318--318).
-\item Domain-Adapted VLM / feature extraction (p. 14, lines 326--326).
-\item eq:align\_opt (p. 15, lines 338--338).
-\item eq:composite\_conditioning (p. 16, lines 359--359).
-\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
+\item Results / framework conditioning (p. 3, lines 88--88).
+\item Methods / DIReCT++ overview (p. 14, lines 314--314).
+\item Domain-Adapted VLM / feature extraction (p. 15, lines 322--322).
+\item eq:align\_opt (p. 15, lines 334--334).
+\item eq:composite\_conditioning (p. 16, lines 353--353).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, pp. 9, 10; combined reference copy pp. 33, 34).
 \end{itemize}}
 
 \changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
@@ -312,12 +312,12 @@ We now incorporate the rationale for \ensuremath{\tau}=0.82, the actual optimiza
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item eq:align\_opt (p. 15, lines 338--338).
-\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
+\item Results / framework conditioning (p. 3, lines 88--88).
+\item eq:align\_opt (p. 15, lines 337--337).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, pp. 9, 10; combined reference copy pp. 33, 34).
 \end{itemize}}
 
-\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
+\changedtext{eq:align\_opt}{The settings are $\lambda_{\mathrm{cross}}=100$ and $\tau=0.82$. This is a soft squared penalty targeting a reference similarity, not a hard lower-bound constraint or a threshold optimized for generation quality. The target is numerically consistent with the original tracer-text cosine similarity of 0.8205 before adaptation.}
 
 \subsection*{R2-16}
 \revcomment{R2-16}{16. Demographic confounding needs control: ADNI groups differ significantly in age, sex, and other variables that are also used in the conditioning prompt. Matched, adjusted, or subgroup analyses are needed to quantify confounding effects.}
@@ -333,13 +333,13 @@ We appreciate the reviewer’s suggestion, which has enabled a more comprehensiv
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item tab:supp\_adni (Supplementary Materials, p. 1; combined reference copy p. 31).
-\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 415--415).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (p. 22, lines 580--580).
+\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, pp. 26, 27; combined reference copy pp. 50, 51).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+\changedtext{Methods / classification}{Demographic sensitivity analyses separately stratified recorded age at 75 years and sex (F/M), without crossing the strata or changing thresholds/checkpoints.}
 
 \subsection*{R2-17}
 \revcomment{R2-17}{17. Baseline adaptation and fairness should be documented: Some comparator methods originate from segmentation or MRI-to-CT synthesis. The authors should clearly describe how each baseline was adapted and confirm identical data splits, preprocessing, tuning effort, and training budgets.}
@@ -356,15 +356,15 @@ In the revised manuscript, we now provide clearer descriptions of the task adapt
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / generation introduction (p. 4, lines 112--112).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
+\item Results / generation introduction (p. 5, lines 111--111).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
 \item fig:2 caption (p. 7).
-\item Competing Methods / scope (p. 19, lines 470--470).
-\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
-\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
+\item Competing Methods / scope (p. 19, lines 463--463).
+\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 485--485).
+\item Supplementary generation tables and cases (Supplementary Materials, pp. 12, 13, 14, 16, 17, 18; combined reference copy pp. 36, 37, 38, 40, 41, 42).
 \end{itemize}}
 
-\changedtext{Results / generation introduction}{PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).}
+\changedtext{Competing Methods / details; Image-Quality Evaluation}{The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.}
 
 \subsection*{R2-18}
 \revcomment{R2-18}{18. Computational-efficiency claims need direct evidence: The manuscript reports approximately 138 GPU-hours for training, but should also report inference time per 3D volume, parameter count, FLOPs, memory use, and direct runtime comparisons with diffusion/flow baselines.}
@@ -381,8 +381,8 @@ We appreciate the reviewer’s recommendation. These additional measurements pro
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Competing Methods / 3D DDIM (p. 19, lines 483--483).
-\item Implementation Details (p. 22, lines 595--595).
+\item Competing Methods / 3D DDIM (p. 19, lines 476--476).
+\item Implementation Details (pp. 22, 23).
 \end{itemize}}
 
 \subsection*{R2-19}
@@ -402,14 +402,14 @@ We appreciate the reviewer’s recommendation and will improve the documentation
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / cohort (p. 17, lines 403--403).
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
-\item Data Availability (p. 24, lines 641--641).
-\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33).
-\item Implementation Details (p. 22, lines 595--595).
+\item Materials and Data Preprocessing / cohort (p. 17, lines 396--396).
+\item Materials and Data Preprocessing / evaluation split (p. 19, lines 459--460).
+\item Data Availability (p. 24, lines 634--634).
+\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy pp. 32, 33).
+\item Implementation Details (pp. 22, 23).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / cohort}{This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.}
+\changedtext{Materials and Data Preprocessing / evaluation split}{Fixed splits, seeds and implementation details are summarized in Table~S5.}
 
 \subsection*{R2-20}
 \revcomment{R2-20}{20. Clinical translation claims should be moderated: Statements regarding widespread screening, clinically actionable biomarkers, and early intervention exceed the evidence from retrospective ADNI/OASIS cohorts. Prospective, diverse, multi-center clinical validation is needed before such claims are justified.}
@@ -422,12 +422,12 @@ Nevertheless, translating these findings from retrospective research cohorts int
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
-\item Introduction / contributions (p. 2, lines 69--69).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
-\item Results / framework opening (p. 3, lines 84--84).
+\item Discussion including shared limitations and conclusion (p. 13, lines 250--250).
+\item Abstract (pp. 1, 2).
+\item Introduction / contributions (pp. 2, 3).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
+\item Results / framework opening (p. 3, lines 83--83).
 \item Introduction: clinical access scope (p. 2, lines 52--53).
 \end{itemize}}
 
-\changedtext{Introduction / contributions}{Building upon single-tracer DIReCT~\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.}
+\changedtext{Discussion including shared limitations and conclusion}{Synthetic PET may support exploratory MRI-based analyses when PET is unavailable, but clinical screening or treatment selection would require independent molecular biomarker confirmation and prospective validation.}

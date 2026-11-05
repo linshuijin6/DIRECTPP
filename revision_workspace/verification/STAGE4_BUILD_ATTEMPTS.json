@@ -1,0 +1,17 @@
+[
+  {
+    "checked_at": "2026-11-05T11:29:31.490139+00:00",
+    "operation": "map_final_locations",
+    "result": "failed before final map was written",
+    "detail": "R2-10 quote contains escaped 95\\%; the old plain-text extractor incorrectly stripped it as a comment.",
+    "repair": "Recognize only unescaped % as a TeX comment. Unique consecutive eight-word PDF matching remains required.",
+    "combined_pdf_sha256": "6fd45659003bb88eddf6c76bc5094c6a8c659aebb5e47da09a968add84c235a3"
+  },
+  {
+    "checked_at": "2026-11-05T11:34:45.900248+00:00",
+    "operation": "highlight build",
+    "result": "compiled with PDF bookmark/duplicate-anchor and math-size warnings",
+    "preserved_attempt": "revision_workspace/build/stage4_highlight_attempt_001",
+    "repair_scope": "Only generated latexdiff heading/math markup; scientific manuscript and equations stay unchanged."
+  }
+]

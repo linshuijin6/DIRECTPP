@@ -14,34 +14,38 @@ for number,page in enumerate(tree.findall('.//h:page',ns),1):
  pages.append({'page':number,'words':words,'margins':margins})
 aux=(ROOT/'revision_workspace/build/manuscript/BMEF_main.aux').read_text();labels={m[0]:{'number':m[1],'page':int(m[2])} for m in re.findall(r'\\newlabel\{([^}]+)\}\{\{([^}]*)\}\{(\d+)\}',aux)}
 def plain(s):
- s=re.sub(r'%[^\n]*','',s)
+ s=re.sub(r'(?<!\\)%[^\n]*','',s)
  s=re.sub(r'\\(?:label|ref|cite|input|includegraphics|begin|end|setcounter|renewcommand|usepackage|addbibresource)(?:\[[^\]]*\])?\{[^}]*\}', ' ',s)
  s=re.sub(r'\\[a-zA-Z]+\*?(?:\[[^\]]*\])?',' ',s)
  return norm(s)
+# Keep the existing unique-eight-word criterion, indexing the actual PDF once.
+from collections import defaultdict
+phrase_index=defaultdict(list)
+for page in pages:
+ ws=[x[0] for x in page['words']]
+ for i in range(len(ws)-7):phrase_index[tuple(ws[i:i+8])].append((page,i))
+def locate_words(needles):
+ found=[]
+ for start in range(max(len(needles)-7,0)):
+  q=tuple(needles[start:start+8]);matches=phrase_index.get(q,[])
+  if len(matches)==1:
+   page,i=matches[0];ys=[y for t,y in page['words'][i:i+8]];nearest=[]
+   for y in ys:
+    close=[(abs(my-y),ln) for my,ln in page['margins'] if abs(my-y)<7]
+    if close:nearest.append(min(close)[1])
+   hit={'page':page['page'],'matched_text':' '.join(q),'location_basis':'unique 8-word PDF match'}
+   if nearest:hit.update(line_start=min(nearest),line_end=max(nearest),line_scope='matched phrase only')
+   found.append(hit)
+ return found
 rows=list(csv.DictReader((W/'position_registry.csv').open()));result={};unmatched=[]
 for row in rows:
  pid=row['position_id'];target=ROOT/row['target_file'];fragment=(ROOT/row['final_text_path']).read_text().rstrip('\n');text=target.read_text();assert text.count(fragment)==1,(pid,'registered fragment mismatch',text.count(fragment))
  source_line=text[:text.index(fragment)].count('\n')+1
  entry={'target_file':row['target_file'],'source_line_start':source_line,'source_line_end':source_line+fragment.count('\n'),'location_basis':'not a printed manuscript paragraph'}
  if row['target_file'].startswith('rebuttal/') or row['section_or_label']=='Preamble' or pid.startswith('BUILD-') or pid in ['G7-PDF-TITLE','TYPESETTING-LINE-FIT','PDF-TEXT-ENCODING']:result[pid]=entry;continue
- needles=plain(fragment);hits=[]
- # Require at least eight consecutive normalized words and a unique page.
- for start in range(min(max(len(needles)-7,0),180)):
-  q=needles[start:start+8]
-  if len(q)<8:continue
-  matches=[]
-  for page in pages:
-   ws=[x[0] for x in page['words']]
-   for i in range(len(ws)-7):
-    if ws[i:i+8]==q:matches.append((page,i))
-  if len(matches)==1:
-   page,i=matches[0];ys=[y for t,y in page['words'][i:i+8]];nearest=[]
-   for y in ys:
-    close=[(abs(my-y),ln) for my,ln in page['margins'] if abs(my-y)<7]
-    if close:nearest.append(min(close)[1])
-   entry.update(page=page['page'],location_basis='unique 8-word PDF match',matched_text=' '.join(q))
-   if nearest:entry.update(line_start=min(nearest),line_end=max(nearest),line_scope='matched phrase only')
-   hits=[1];break
+ needles=plain(fragment);matches=locate_words(needles);hits=[]
+ if matches:
+  entry.update(matches[0]);entry['verified_pages']=sorted({x['page'] for x in matches});entry['verified_phrase_locations']=list({x['page']:x for x in reversed(matches)}.values());hits=[1]
  if not hits and len(needles) in range(4,8):
   short=[p for p in pages if ' '.join(needles) in ' '.join(t for t,y in p['words'])]
   if len(short)==1:entry.update(page=short[0]['page'],location_basis='unique short heading PDF match',matched_text=' '.join(needles));hits=[1]
@@ -52,7 +56,7 @@ for row in rows:
    p=ROOT/'manuscript'/(input_name+'.tex')
    if p.exists():labs+=re.findall(r'\\label\{([^}]+)\}',p.read_text())
   refs=[dict(label=l,**labels[l]) for l in dict.fromkeys(labs) if l in labels]
-  if refs:entry.update(page=refs[0]['page'],location_basis='final LaTeX aux label',label_locations=refs)
+  if refs:entry.update(page=refs[0]['page'],verified_pages=sorted({x['page'] for x in refs}),location_basis='final LaTeX aux label',label_locations=refs)
   elif pid.startswith('BIB-'):
    entry.update(location_basis='bibliography source; see References in clean manuscript')
   elif pid in ['G7-TITLE']:entry.update(page=1,location_basis='PDF title, visually verified')
@@ -70,8 +74,27 @@ for entry in result.values():
  if not entry.get('supplementary_page'):
   for l in entry.get('label_locations',[]):
    if l['label'] in slabels:entry['supplementary_page']=slabels[l['label']];break
+ starts=sorted({slabels[l['label']] for l in entry.get('label_locations',[]) if l['label'] in slabels})
+ if starts:entry['supplementary_pages']=starts
+ elif entry.get('supplementary_page'):entry['supplementary_pages']=[entry['supplementary_page']]
+
+# Each reviewed quotation is located independently of the enclosing registered block.
+selections=json.loads((W/'rebuttal_excerpt_selections.json').read_text())['comments']
+byid={r['position_id']:r for r in rows}
+quotation_locations={}
+for cid,spec in selections.items():
+ if not spec:continue
+ row=byid[spec['position_id']];fragment=(ROOT/row['final_text_path']).read_text().strip()
+ assert fragment.count(spec['start'])==1,(cid,'quote anchor')
+ tail=fragment[fragment.index(spec['start']):]
+ excerpt=' '.join(re.split(r'(?<=[.!?])\s+(?=[A-Z])',tail)[:spec['sentences']]).strip()
+ assert excerpt in fragment.replace('\n',' ')
+ matches=locate_words(plain(excerpt));assert matches,(cid,'no actual PDF phrase match')
+ quotation_locations[cid]=dict(position_id=spec['position_id'],excerpt_latex=excerpt,verified_pages=sorted({x['page'] for x in matches}),verified_phrase_locations=list({x['page']:x for x in reversed(matches)}.values()),**matches[0])
+ result[spec['position_id']].setdefault('quotation_locations',{})[cid]=quotation_locations[cid]
+(W/'quotation_pdf_locations.json').write_text(json.dumps(quotation_locations,ensure_ascii=False,indent=2)+'\n')
 (W/'final_pdf_locations.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-(W/'location_verification.json').write_text(json.dumps({'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'positions':len(rows),'mapped_to_pdf':sum('page'in x for x in result.values()),'unmatched_printed_positions':unmatched,'page_scope':'final combined manuscript, 54 pages; standalone supplementary uses its own pagination','line_scope':'only matched visible phrase; no inferred whole-paragraph line ranges'},indent=2)+'\n')
+(W/'location_verification.json').write_text(json.dumps({'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),'positions':len(rows),'mapped_to_pdf':sum('page'in x for x in result.values()),'unmatched_printed_positions':unmatched,'page_scope':'final combined manuscript, '+str(len(pages))+' pages; standalone supplementary uses its own pagination','line_scope':'only matched visible phrase; no inferred whole-paragraph line ranges'},indent=2)+'\n')
 print('Mapped',sum('page'in x for x in result.values()),'of',len(rows),'positions; unmatched printed positions:',unmatched)
 # Refresh 56-comment bidirectional map from actual final positions.
 comments=json.loads((ROOT/'revision_workspace/index/comment_index.json').read_text());out=[]

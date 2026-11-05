@@ -1,0 +1,2380 @@
+{
+  "passed": true,
+  "baseline_commit": "45202545b638845b31fd0dadabd089ad958766d5",
+  "reviewer_comments": 56,
+  "editor_comments": 10,
+  "existing_changedtext": 43,
+  "unchanged_relevant": 4,
+  "corrected_selections": 39,
+  "no_changedtext_retained": 13,
+  "response_body_changes": {
+    "M19": {
+      "scope": "axis-location/label transcription only",
+      "original": "To address this concern, we have revised the vertical axis labels in Figure 4 and the corresponding supplementary figures to “Normalized Regional Uptake (a.u.)”.",
+      "revised": "To address this concern, we have revised the uptake axis labels in Figure 4 and the corresponding supplementary figures to “Normalized uptake (a.u.)”.",
+      "no_scientific_interpretation_change": true
+    }
+  },
+  "protected_original_hashes": {
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/BMEF_main.pdf": "050f0b2747d12922792d2e487a262ee541f15adfa1380d083493a2fda9678489",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/G4修改正文 40c95d43b2dd8081b5b3ea02e06e0964.md": "da9b7a506561db7634068dbb2aefbbee64ca038acc2080fe195adea441b7ffc1",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/G5修改正文 40d95d43b2dd8050b224d3f96fa506f8.md": "4a84922199309d5a09b3bb593328a3be37b814d93a515060acf29da4aeb429fe",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/M16正文修改 40895d43b2dd807fb42cc33f85b765a6.md": "9120adf12742250231ea415601ba4392b46ae8147c287f30fec2900fd2972e77",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/M18正文修改 40895d43b2dd80e0806fc69c8f338f19.md": "bb080d998f6355172e81b6d97b6d6a155ceb8ca06452594d48067f0c4580cdc9",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/M7正文修改 40795d43b2dd8025b837db224bcb3515.md": "4a93d6d153ea28745ae5737d8e3484ece46b78f203de620379f8bebde77120bb",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-10回复及正文修改 40a95d43b2dd808ea664c3927e7dca4d.md": "b53c227228813ca78abf1f0e8948ca480edcf7b558c14cfcdaa8d9a8ad07a39a",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-13正文修改 0fc95d43b2dd8370b0ac81535a429e1a.md": "d5ca32dd598e56639a5b20babc1802fec52f78ad1735f7cd0ea043755c597d74",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-15回复及正文修改 40995d43b2dd80d79c0ee3144ba8cb2e.md": "d09cd0b7510e1dbae3200bd72434eb0e80f7bb411d03885a71e82e962205305e",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-20正文修改 0c495d43b2dd82848aad018dc525c2d2.md": "b70df02b97104d1dc71b09225f404139807f38d8a6ae1fe57dc23de3c3efbffe",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-4 Changes in the Revised Manuscript af295d43b2dd836ebbe201bd6d6d1ce0.md": "1816da9235c3ceb5cb21f3d1fa568c0aabe4656bf677a53e74ec4a6dfdb82dd1",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-7 正文修改 56895d43b2dd82f4b08f017a857a96b6.md": "1084274e5b473e7d8985a6a283c30e9bfdbe713c75007160728e632bfd890caf",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-8回复及正文修改 40a95d43b2dd80679aafc18e5c0416df.md": "6963f29cba74f4bb296f8dd0b6e47b50c458a863dff6ee3f5e031d936202c967",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R2-9回复及正文修改 40a95d43b2dd80c3a2ebcac2836d85fe.md": "b146b576d898bda27c1e5a6774015966b17c78cad1a9a1bb9e242f0fbaa11057",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-12回复及正文修改 40d95d43b2dd804aa6bbfb33c7589738.md": "0d89779c06cc7c647b45acf2ca5bf9897c31e5bb8fa7eb873fea59ccd48bf99a",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-13正文修改 40d95d43b2dd80d48434d6591b4e6c4e.md": "7a72aeda9d05ae2b88f616849a0eec9d87758dfd90b2fdf9be75ab330a287144",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-14正文修改 d9795d43b2dd8393a4fd01048b566331.md": "68b2105497c6b56cd4d7246f56f33c44551dc154519352346aac83fcba990f9a",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-2正文修改 40d95d43b2dd80a88607c5d70bce9180.md": "458a7b15e0f0757bf4b3d53bae543481f488d9a4c6a0223e04140ceec694261e",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-3正文修改 51895d43b2dd838dbc088101b7eab8e2.md": "28c294102ad6f255cc780cd2f6a6fa8b1b7c83b7ffc0186152536368437d6acb",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-5回复及正文修改 40c95d43b2dd800d980bf49cf04cd89f.md": "051396a674d7d1df669b28abcba76a3d0354dd3aea66057bce1e3777d30d2af1",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/R3-9回复全文及正文修改 40995d43b2dd809589a3f13eedd1d684.md": "6d40672bd4da7e9a4e9fff422d2b9013193e7f1bb1f40c6b2c50c74a8c10bfe8",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见/Reviewer2的审稿意见 0af95d43b2dd82f0a0ee0138193e2174.md": "2161033ec227fc16b6821c7012319cfe9de89aff5d9480a13bd6fc6a7f8a28f8",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/原始审稿意见 ac395d43b2dd83f3a31601eee187dd6e.md": "102d6ca9466bc88ffc583c51e13acb36684cf00be491ed0f0a2cfe39a074fac5",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复/详细R3-10回复细节 34395d43b2dd83edb571814bbaf270bd.md": "bde018e36fad610e8daf3bf5abe18f02931040d207cad39a3d6ba6eb27748c2e",
+    "rebuttal/BMEF_from_notion/BMEF审稿回复 3d295d43b2dd8300b74601d792205677.md": "25d15252f42eaaf249054e301987066b909c9c10468201dcc68af8ec80eafca2",
+    "revision_workspace/integration/baseline/manuscript/BMEF_main.tex": "28670f1cb86478acc5be8fe58ba5a5d93c6bf03c05d501489b8877d4ef5e28ba",
+    "revision_workspace/integration/baseline/manuscript/BMEF_main.pdf": "050f0b2747d12922792d2e487a262ee541f15adfa1380d083493a2fda9678489",
+    "revision_workspace/integration/baseline/manuscript/references.bib": "47e6987fcb5b1cd62552621634b67331d6bec3c2a20a6e10cbf67ffa32af89d3",
+    "revision_workspace/integration/baseline/manuscript/supplementary/supplementary.tex": "94de712ddaa5ca03250ef8cb072014de9ea8ad24eaebb6beda28aab5ad4884e7",
+    "revision_workspace/integration/baseline/manuscript/figures/figure_1.pdf": "1d625a6765be1b8519f0c1e117942a3d2e97f8c99e31a91a9b41304b0857c297",
+    "revision_workspace/integration/baseline/manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+    "revision_workspace/integration/baseline/manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+    "revision_workspace/integration/baseline/manuscript/figures/figure_4.pdf": "14c65aeaff839fd47feb4308dd86bccf48f057f651cb41ce4bc6b54d1d8f0c74",
+    "revision_workspace/integration/baseline/manuscript/figures/figure_5.pdf": "444226fc0590f315f10d352d0f31483c215d2e46158d07a9e9491c2fd383ea38",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_1.pdf": "dfb4fdab009836681cfe0dc98c06df8f50a4201fd168980e058f508ee1e44a3c",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_2.pdf": "fd8dd8a8fcd66f7a87e5132e3be53d2d9b31e7e704ecaca8e9ebc8472393a46c",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_3.pdf": "47a7f323c06b56a202ca4626fd23763238c28f5c20d48b65960ceaab8f8a65dc",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_4.pdf": "81c55ef62859f3d8e269227bfa4b348eefb43287eb659025d406867fcef2c9dd",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_5.pdf": "2432b742c3b1b12077dcad16c1b17fffe1e5db1a4a92d670dc6b7e669bc58fac",
+    "revision_workspace/integration/baseline/manuscript/figures/supplementary_figure_6.pdf": "e58532fa16b41e4991f1f5eb0ced7043541cc5fc2557eddf1a1791aaf72a58c3",
+    "revision_workspace/integration/baseline/manuscript/figures/revised-1029-FIG1.pdf": "a928d30627aa33aa8a7ef989d47354a650fd041820574cb5911d747d0bc263e0",
+    "revision_workspace/integration/baseline/manuscript/raw_pic/1103.drawio": "e9f1709717f40449b2fc803432935738f2ccde79706a34e1356c1d03e8654cae",
+    "revision_workspace/integration/baseline/manuscript/raw_pic/图表2.pptx": "d5720e801a9ccbc1b38576bbff890a79394ee30bd0084b8cf5586fb6e05dfc19",
+    "revision_workspace/integration/baseline/manuscript/raw_pic/图表.rectified.pptx": "e082a01b05f44116fe7dc171211a0b8aa3da89d0bb6000a70b39bf323919e9f1",
+    "revision_workspace/integration/baseline/rebuttal/references.bib": "8f91ff3a813f9c31787899d9e9824620d477f6109849e16713397ae078394608",
+    "revision_workspace/integration/baseline/rebuttal/main.tex": "d63a6ec470fa9d83c9943fe9249bd746ba8bb3eda29c05629239fdd39d633127",
+    "revision_workspace/integration/baseline/rebuttal/main.pdf": "db5bb2537388eb2e6d67d50d41a2dbaf52c22010984f51f3edc1aead6bba2463",
+    "revision_workspace/integration/baseline/rebuttal/sections/00_general_response.tex": "4548e300f704024413366310bfcfb9ef20d9b60a44ef934b280d9ebf5da5fa8d",
+    "revision_workspace/integration/baseline/rebuttal/sections/01_editor.tex": "7b90c595782cd24f9f458afbff9907534c735b930b8e3b58861a1322ccfdf5c1",
+    "revision_workspace/integration/baseline/rebuttal/sections/02_reviewer2.tex": "43b2a7ecb85f48a6477cf5a6c64c6445de32a65d682c6abb9c871c91263e2f6e",
+    "revision_workspace/integration/baseline/rebuttal/sections/03_reviewer3_major.tex": "ae9f162a6133f7187ed55b0bf1f90b5ed21a0ba12c9c33e462cb31d462235c3e",
+    "revision_workspace/integration/baseline/rebuttal/sections/04_reviewer3_minor.tex": "7571a5e5b0e31131d0b94f694f12016cd122452540e3e9f527887ed6995162cb",
+    "manuscript/figures/figure_1.pdf": "10ab4c327fdd627596b2f936069c83da44d2ac808113d624db566c18c7e2c2a3",
+    "manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+    "manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+    "manuscript/figures/figure_4.pdf": "ad9b9c809c392e0251bfacc05d9506b5aa248633d5432ac5f7ce355187a1aca6",
+    "manuscript/figures/figure_5.pdf": "c8efb1b4d0a2e1e76185ccbc35b61225fa357f5b62270bf5c8dffd070c510ab3",
+    "manuscript/figures/supplementary_figure_1.pdf": "7a1336cb3b5e8cbb74743dde8769a5d39f1dead9d452b58227a5432423721c61",
+    "manuscript/figures/supplementary_figure_2.pdf": "7140ddfc0ab7d51ede51426c49065c7f3ca746cbfda15bc760c9a3ba8ac3e133",
+    "manuscript/figures/supplementary_figure_3.pdf": "a52c81d59584d6066eea2512b2359ef461236fe973a87c5a73be006ec5635e66",
+    "manuscript/figures/supplementary_figure_4.pdf": "7f3269a3a82d3d9b692ab2e160e36ee9ec25550b2dea714e7a9794c34294c00a",
+    "manuscript/figures/supplementary_figure_5.pdf": "ba0164e3f9f4f540d0938f67e83554ba1936164bd4e49d5aad67239b39dbf4a7",
+    "manuscript/figures/supplementary_figure_6.pdf": "ab1ef66fc39ead28cc9b8fa86bafcc9207e4e24624340fb22ef3f443bc4f7686",
+    "manuscript/figures/revised-1029-FIG1.pdf": "a928d30627aa33aa8a7ef989d47354a650fd041820574cb5911d747d0bc263e0",
+    "manuscript/figures/revision_cases_fdg.pdf": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+    "manuscript/figures/revision_cases_av45.pdf": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+    "manuscript/figures/revision_roc_ad_cn.png": "9fe6758c61136863b161d23441e913b7469a240fdcafea7dff25b50c30b27ed9",
+    "manuscript/figures/revision_roc_mci_cn.png": "f749588edbdf0abe79e4573568f311d059c80360f40d58e8304cc1e979efca65",
+    "manuscript/figures/revision_roc_emci_lmci.png": "66dd7d30703db0692f3dfcab83d9aa04cfc20f7ce57be93a8122d03a901f6b10",
+    "manuscript/figures/editable_sources/figure_1.svg": "c17ada0de1d2e6ad91b6382786afeac2d00486ec988372d08277e249ac167db8",
+    "manuscript/figures/editable_sources/figure_5.svg": "23e0ce97e2c4dccd495d3fc05cd22a5a378b4ae08dddd8d56d4eef7ce3a55f3e",
+    "manuscript/figures/editable_sources/figure_4.svg": "28fbb3e0993c6b4cfffd89fa474a96c033a6e2b04df265432b18392fa5431d55",
+    "manuscript/figures/editable_sources/supplementary_figure_1.svg": "c3460ca60a4bdf117dc647f2b0dfb35f71c9cdb8bdfa9e6d65be7cfd7ed03e3e",
+    "manuscript/figures/editable_sources/supplementary_figure_2.svg": "78c9c631e72dc48e864cf90f34fc100ad7db043b0c50ad3bcb465ff0d029e7c2",
+    "manuscript/figures/editable_sources/supplementary_figure_3.svg": "bf5772adf6cf4fe5a11058366ee4f9789edd8062abd07fabec7e878e4b1a4657",
+    "manuscript/figures/editable_sources/supplementary_figure_4.svg": "99b29bfb7e669f95c775927b2f19f7e332dd6d4941f358d4497d9e8aab462557",
+    "manuscript/figures/editable_sources/supplementary_figure_5.svg": "29204fc3f8743c785fc480eb01e5c7bb9a20881a3783ce8df5d57be40bb18a60",
+    "manuscript/figures/editable_sources/supplementary_figure_6.svg": "ef8ac5ead420b010377dd963da3a4c51186fd91db987acc8775ce63284a3d987",
+    "manuscript/raw_pic/1103.drawio": "e9f1709717f40449b2fc803432935738f2ccde79706a34e1356c1d03e8654cae",
+    "manuscript/raw_pic/图表2.pptx": "d5720e801a9ccbc1b38576bbff890a79394ee30bd0084b8cf5586fb6e05dfc19",
+    "manuscript/raw_pic/图表.rectified.pptx": "e082a01b05f44116fe7dc171211a0b8aa3da89d0bb6000a70b39bf323919e9f1",
+    "manuscript/supplementary/supplementary.tex": "1a7d55484d59cac36066aa45718740a145de3faf9feeb7f77f1dab846a647909",
+    "manuscript/supplementary/tables/clinical_missingness.tex": "c8797d8e05c60e280ac6b9b8e817efd595e214e2a6394bdbcd2c69f06186228e",
+    "manuscript/supplementary/tables/reproducibility.tex": "7bd5f7d0dfc6c09d77c3c46f3d28f85232e22dca3d44d7a0fb71c20cb8c1eb31",
+    "manuscript/supplementary/tables/conditioning.tex": "4eae3ef4556abf4e90e355b00d4306aa5dcfc9213e7de3fd2d21f6d23f41c5b1",
+    "manuscript/supplementary/tables/regional_agreement.tex": "e16a86505525b6aadd08530ba380bf8ec6c61e8920588ffde4ecd9281a0dd136",
+    "manuscript/supplementary/tables/regional_effect_sizes.tex": "0ffedea7c16d43fa16a1af9e35aafdeaee8b7ce4364833387dc26fe71a2e7c97",
+    "manuscript/supplementary/tables/whole_volume_generation.tex": "31513542c7adfeeda71f1ac3e9cc6d51ce9f1befb22a6d6fca7af09bc76daf9c",
+    "manuscript/supplementary/tables/paired_generation.tex": "f41170fd595920420ae1709916223b3a57949c37ba9daaa0ab37e5af4e24ced7",
+    "manuscript/supplementary/tables/historical_generation.tex": "9dd8a90bba3ad8db40f508f59cee3edea433ea9604ff8591d64438eb6beee549",
+    "manuscript/supplementary/tables/masked_summary.tex": "d21b52b97118fb8ecbefdcd74ef805d99c69feea8bb284f8857fa760f07cf913",
+    "manuscript/supplementary/tables/masked_paired.tex": "da049eb47e6e6ed5bf7762a6520cb231d514667cc168051d8c5fd450723b7ee6",
+    "manuscript/supplementary/tables/generation_cases.tex": "3dd10faef136dd8d3b216ebd9060d4463ee04ec8c9640c0ffc1ddbedad1bb7ed",
+    "manuscript/supplementary/tables/classification_summary.tex": "e38f54d5b6d818815d8d499f0a55d9dd4d0139fabeefe4b01819b23be0ab30c6",
+    "manuscript/supplementary/tables/classification_imaging_comparisons.tex": "cb1ae8b6e912a29da33582f4f3edca2ab691ce67c76063a6d2c439a546419e40",
+    "manuscript/supplementary/tables/classification_clinical_comparisons.tex": "cba5725be29da0b8e6233ad84862ffb8d949549dfb5756267291b6d3a77b2763",
+    "manuscript/supplementary/tables/classification_delong.tex": "30917950985885dfbd2bb8036d668aae6c685e3aa8808be1b128177f1dee52b4",
+    "manuscript/supplementary/tables/classification_roc.tex": "7451da36ef37cbbc1f970196527bd6ddf7c1c44e0ec3049ec66358b2b49553dc",
+    "manuscript/supplementary/tables/e1_score_removal.tex": "3395a99b9824f1123adf40d2f3922f609265b7801716ee468f1eaef7a9fd4838",
+    "manuscript/supplementary/tables/demographic_stratification.tex": "e09668cd739f6104e13a76e2e73063c093c750d08a3a0ca350a7768bdc7f1d34",
+    "manuscript/BMEF_main.tex": "5837414e0769b9d302c97e6e9f03f340af1b30f0dce8bcb6babac99e7a895fa5",
+    "manuscript/references.bib": "a106df84b95666137a3373ba7a26a0d5e20aed208fb0f4409502a90a9f1bedc2",
+    "rebuttal/references.bib": "ae6301d9d24e0a133a814d59f6bc9ce524d62802c770fa18c93bdb56c9bda731",
+    "revision_workspace/integration/responses/R2-1.source.md": "1ff32cb642879a7a1a989f628b0d36d5c43c51837efd0eadaf2d01ae75149e9e",
+    "revision_workspace/integration/responses/R2-1.final.md": "1ff32cb642879a7a1a989f628b0d36d5c43c51837efd0eadaf2d01ae75149e9e",
+    "revision_workspace/integration/responses/R2-2.source.md": "cb029e8964ff591c5fa6a92623f46974d0f15a6c3d7d1fc0dfc787716125ffa3",
+    "revision_workspace/integration/responses/R2-2.final.md": "cb029e8964ff591c5fa6a92623f46974d0f15a6c3d7d1fc0dfc787716125ffa3",
+    "revision_workspace/integration/responses/R2-3.source.md": "0487cc55906f4378112e2d14e55d47f89cbba70d838a445b83ef3c041dab0393",
+    "revision_workspace/integration/responses/R2-3.final.md": "c699e711a7b399233cb6a835f186a19b1599204a1de0255e638931502b4c5d80",
+    "revision_workspace/integration/responses/R2-4.source.md": "ed5a5fa7683e030710d32090f3fdf812f237c66b23b8dd463553c26990f8d65a",
+    "revision_workspace/integration/responses/R2-4.final.md": "7276376be7c8ff3258b94fefe1beac808ab9f44a302e3cdd89d3892c9a5ba589",
+    "revision_workspace/integration/responses/R2-5.source.md": "3d013343b5f82e4e9aa47ec8a94901ea33bf9faadc71a161a10eb36fc0296b28",
+    "revision_workspace/integration/responses/R2-5.final.md": "6ddffafc043c91d3a49da2065fa4c1db1c844c711125b7178c1d99430b2c6e1e",
+    "revision_workspace/integration/responses/R2-5.diff.txt": "f9910c46ff1eb3096bac4b05ae877226e15c620e6fce10a52c9128b933b87dc7",
+    "revision_workspace/integration/responses/R2-6.source.md": "bbc3368a36f3d06f4ebc89df808bed11ea4c4f5e6220a967a57a9c1d3214f9a4",
+    "revision_workspace/integration/responses/R2-6.final.md": "df751ba535ac6e8e694b786446b9a29c3a67d9ad52a6dc99e4be63aa138e729a",
+    "revision_workspace/integration/responses/R2-7.source.md": "8540ef6c7e15ca975af8b80bb6d964b2bd0a757121604b8a9fc45ac3857fdb19",
+    "revision_workspace/integration/responses/R2-7.final.md": "65ca77c865a810d59db3729b5e08aa90652d1ebf1cd7e56e6e89c44e4185f102",
+    "revision_workspace/integration/responses/R2-8.source.md": "1b3d04e0c987ad1b1e45f8b6b10efc191c0e2ac509ce6a93de6e977dc445e85d",
+    "revision_workspace/integration/responses/R2-8.final.md": "c80c78e9c2addb640c57c9ad212df5f8d63178ea5cdc98ae7fd2ee2d8ea6e85e",
+    "revision_workspace/integration/responses/R2-9.source.md": "5f1a20f05368fcf3bc45be22281080ee3ee5e82a295ad475e3225c1bce466470",
+    "revision_workspace/integration/responses/R2-9.final.md": "5875443431473394ede8cc7025b1b8bf00d8ac5c4d9d135c561474389ef700ba",
+    "revision_workspace/integration/responses/R2-10.source.md": "08038963ee7d1ff500f80cbf7237b634885f9eaf0b9756cb1b7114148034323e",
+    "revision_workspace/integration/responses/R2-10.final.md": "6a9a84b485f08b672764ad48d6fb43902c7593570174454ee82a2fa142058e54",
+    "revision_workspace/integration/responses/R2-11.source.md": "f450cb3ed51987fb6f83faefc043a930b7fc62b0e242c2fe21759beeccf43b4f",
+    "revision_workspace/integration/responses/R2-11.final.md": "f450cb3ed51987fb6f83faefc043a930b7fc62b0e242c2fe21759beeccf43b4f",
+    "revision_workspace/integration/responses/R2-12.source.md": "c1aa555fe04cf5018ef75dd0daf532312218838bbf7c85f7253b3d1cd1261acf",
+    "revision_workspace/integration/responses/R2-12.final.md": "fbba87031895b2fcf7d7b30d97156113b9c982bdb4630dfe5cd1a5c1e581579f",
+    "revision_workspace/integration/responses/R2-13.source.md": "cf4adee7577897ae3beb29b5f07550baf0e3582e4349330eb199763c31adb5f7",
+    "revision_workspace/integration/responses/R2-13.final.md": "d7d50e8fb09d6f2c1846014c9db8ce44f40afb841ab39796a54ec44aae1c59e2",
+    "revision_workspace/integration/responses/R2-14.source.md": "c16cd6602214e0e14e34048f5dfd077f43ae7d56b1bf8855230468eb11163d59",
+    "revision_workspace/integration/responses/R2-14.final.md": "2235de191ae8c17fbba3eed973d8c3bbd6372e20e1f76849858708b9c5bfb080",
+    "revision_workspace/integration/responses/R2-14.diff.txt": "db982777e7a461bfecf0ecd4ef46701f90b9014c142640d9c848a2becf0ffac1",
+    "revision_workspace/integration/responses/R2-15.source.md": "882a1d8743b3924809b3ae7b9c66c924fbf4a44cefefb3c196dc40c7384113b3",
+    "revision_workspace/integration/responses/R2-15.final.md": "e75e6bbd9e4cd69c0e7ed53018ca328338d02af48dac75f6256c4235efeb609a",
+    "revision_workspace/integration/responses/R2-16.source.md": "d908b6afe79a633401ba0c993e3a2a6fca3293345513fccacdf9b7b8c83f24e1",
+    "revision_workspace/integration/responses/R2-16.final.md": "63d51ed765ffe6a3bac2d95951055f41bbefd8dba82a27aa18a59cda95ab338b",
+    "revision_workspace/integration/responses/R2-17.source.md": "a8c1679a21384b8a67d744cdf0bad466f08d03c4e40981f7e0b5f3b912afbd3e",
+    "revision_workspace/integration/responses/R2-17.final.md": "f4f6fba7e00ff6805fd811d1d9915e54da4ecbaf8506c59831fd54d1e5a1c3cb",
+    "revision_workspace/integration/responses/R2-18.source.md": "46f35026aabd0c2b7393f4fe0a9e413e5c1b1ef9a7d5e154ad93e2e3a1f0d116",
+    "revision_workspace/integration/responses/R2-18.final.md": "21aae47742a69682eebe62d06af5474bc11774481498cb3aad0578e839bd5df7",
+    "revision_workspace/integration/responses/R2-19.source.md": "380e3f2ad6e333a127d94fa672da8360cdf3d7080f2067e7dd72c4df0fefd94a",
+    "revision_workspace/integration/responses/R2-19.final.md": "a09e599ed9cc2f5ae47d4398fdb81eceb5e14335d3412f85ddf0426f345ec5e6",
+    "revision_workspace/integration/responses/R2-20.source.md": "6de6c8e04aa93edf6911096e7755b7293535b4d6d2ac03900abe838dc4b0ad65",
+    "revision_workspace/integration/responses/R2-20.final.md": "7ca7eeb9873b621ee2aa931331dbd1a1682ea06e4d31a4480a3cc5b3f2fe8965",
+    "revision_workspace/integration/responses/R3-1.source.md": "68c07d97f84b30004ecb3f4c7babd56c707840920a0f78f2ca8b4eba51defdb3",
+    "revision_workspace/integration/responses/R3-1.final.md": "f1c956d5bb579f0c1c6e87ca71a53910c667a1f31699007af66ff8cac67fa886",
+    "revision_workspace/integration/responses/R3-1.diff.txt": "cd63ec83da487ec69b3db0106ac2016ea39e56f610a54d2e521d467f4152a8c7",
+    "revision_workspace/integration/responses/R3-2.source.md": "275a020e31c2362b7d01349353136ec0277c969e2d4cd19486a4ff6446951659",
+    "revision_workspace/integration/responses/R3-2.final.md": "f7d7737734131d346676aa35ee783585f20f8375b0c24b362fa54a4f437caa33",
+    "revision_workspace/integration/responses/R3-2.diff.txt": "8f38d2f896e789c06406016a10f07e4ba8b049c2eee46688ff59934ea889cacc",
+    "revision_workspace/integration/responses/R3-3.source.md": "3fe166bdb43ce42628b553c8f995d9ccb07c88224b2d3c7ca3f918cdc21c3984",
+    "revision_workspace/integration/responses/R3-3.final.md": "928a649e3edc86ca12fb4fb15415f63512709f080b833fcfcbe712218f5415ea",
+    "revision_workspace/integration/responses/R3-4.source.md": "e35ddaefc60f5eabac8f8172ba542e60411e1b88f0315ccdf2e21c9d39df6ad0",
+    "revision_workspace/integration/responses/R3-4.final.md": "8423dc2c2d832d44d0a6c24b6ab88df5daf611bd4c0939e6c233df4d7ccf571e",
+    "revision_workspace/integration/responses/R3-5.source.md": "41e81dc25224cf16fbc3c377088b25889725eb7c8d1062914b853b64ba7ec3ea",
+    "revision_workspace/integration/responses/R3-5.final.md": "37fd2b6a3633ac0b07f6ff5381f4cf838ccf513a88b0fa2256a2969103118e65",
+    "revision_workspace/integration/responses/R3-6.source.md": "c9b216c635a84db410cf154c3f4c45b13cc9201fc0c2a2c7f595afcab25b90d5",
+    "revision_workspace/integration/responses/R3-6.final.md": "d2025e9588fb96e7c5fbdeb5acf0de54127a1d8087eb34cfa10f6f749841b6ed",
+    "revision_workspace/integration/responses/R3-6.diff.txt": "489bece1843abea0f9f06f859177a7ca063905990ecc450e515400c8dbb0b291",
+    "revision_workspace/integration/responses/R3-7.source.md": "47b018d2bcc9885ce305892f44f8a2e3ddb783c43f22b3cf4c9f24b4304dc0b1",
+    "revision_workspace/integration/responses/R3-7.final.md": "47b018d2bcc9885ce305892f44f8a2e3ddb783c43f22b3cf4c9f24b4304dc0b1",
+    "revision_workspace/integration/responses/R3-8.source.md": "3c7a27a12110ec46e90e1237d8c23b37aa05c0dbab79f87c2e683f9ce1776829",
+    "revision_workspace/integration/responses/R3-8.final.md": "3ad2ad11e24bcf8352d55c04f50af322c8a88b3d018bfc5f50e76643ec357422",
+    "revision_workspace/integration/responses/R3-8.diff.txt": "f3316f69ae5081465e02f5de2afda3421d800b850aad56d29ff17ea35006de34",
+    "revision_workspace/integration/responses/R3-9.source.md": "c51a60f70cd46ca6625cb232bae48f10a28fc3d4e722d9871466a93be3f816a6",
+    "revision_workspace/integration/responses/R3-9.final.md": "826ef861608fe216623ed62e081b321f5cfb2539f1e297300bc94d9a8e32d2a0",
+    "revision_workspace/integration/responses/R3-9.diff.txt": "a2039b0c5c87c3f9e15aaef2e62452297d4c015f6a2bf23d3701b93d53f3e866",
+    "revision_workspace/integration/responses/R3-10.source.md": "a4b7a1c0ac786e7e6902439780bd97b4730e993856f7e1b173cb10a48a1ea22c",
+    "revision_workspace/integration/responses/R3-10.final.md": "90663531bfaf35130bdd272a05d4997769b99b5d523360f9635e0a20eebb70b6",
+    "revision_workspace/integration/responses/R3-11.source.md": "1faa8bb9fe5f46bb35f6620211f002de0ca4ed0740055fb8c9b189d99ce5d1b5",
+    "revision_workspace/integration/responses/R3-11.final.md": "cae3a602bc7f57d742012861a8f7100c942edcc5f05d3015a8eb9ea187e791ed",
+    "revision_workspace/integration/responses/R3-11.diff.txt": "dcd881e28c2179a9e508f019ab5c19d7ffb2a629fa6df3fbbf109ec133e3a440",
+    "revision_workspace/integration/responses/R3-12.source.md": "892d93b6152e0918abeb88d321ac8e5f034e3726cdd40621504fcab5798fcda5",
+    "revision_workspace/integration/responses/R3-12.final.md": "559c01c57935053aea4800a4407aa7bafdad5d4c68a8be9b0ce081a2406e7f7a",
+    "revision_workspace/integration/responses/R3-13.source.md": "5a8d0aeef2cc0fed900d1b7f1b40c6860966c5742ca83cd8d8d3927fb1747561",
+    "revision_workspace/integration/responses/R3-13.final.md": "ac2b3d8181967a6a981e49f0ce4b4737734f35b9c3d6e88721943d138dd4cecf",
+    "revision_workspace/integration/responses/R3-14.source.md": "f0060986d7a8b4a02a4f450e809f8714ffc1aadd9d81feda1caf09b2696152ed",
+    "revision_workspace/integration/responses/R3-14.final.md": "72bb783d6ba3ea3c2e7737ab4bd4351ea3bfa7700c59e9245f1edad58d018eae",
+    "revision_workspace/integration/responses/R3-15.source.md": "ae4c1f7ee2bdd5eba094e2f2fd31475cc8344ed5ec9d51584afd2f2b055389cf",
+    "revision_workspace/integration/responses/R3-15.final.md": "84e5f86bad6d70f6fd4fef44f4b8bfebfafdba5411d3eae4dd9943435419c82f",
+    "revision_workspace/integration/responses/M1.source.md": "550ddb0eb96e7dfbd1b49e5c949bc60934c34f6fcd2b7162a4c35b1c862eaeab",
+    "revision_workspace/integration/responses/M1.final.md": "550ddb0eb96e7dfbd1b49e5c949bc60934c34f6fcd2b7162a4c35b1c862eaeab",
+    "revision_workspace/integration/responses/M2.source.md": "0693bb3e34a3641892262022682040f12ef9143211a9f0d76935dcf2dd6b8ccd",
+    "revision_workspace/integration/responses/M2.final.md": "0693bb3e34a3641892262022682040f12ef9143211a9f0d76935dcf2dd6b8ccd",
+    "revision_workspace/integration/responses/M3.source.md": "a1494be40867b838421331b2725eda0903a21b1361a1d6f191b798075da5ad4d",
+    "revision_workspace/integration/responses/M3.final.md": "e622d0c84d363954beed156bf5ca85144d73380cfe5da31d79cb08abc5f84d80",
+    "revision_workspace/integration/responses/M4.source.md": "e031b966a9dbf25b7daaa2c7441140885a3baa0087dcac0fd9fc624e01dc6619",
+    "revision_workspace/integration/responses/M4.final.md": "8b8615570bff1ead452e50d18f4231d51af1aab7a5dfb892753c8390d5b90d06",
+    "revision_workspace/integration/responses/M5.source.md": "37b03d2d908221e45a666fbf01f96acfb3f4a14c6cc0622517c8fbf18d3ce389",
+    "revision_workspace/integration/responses/M5.final.md": "37b03d2d908221e45a666fbf01f96acfb3f4a14c6cc0622517c8fbf18d3ce389",
+    "revision_workspace/integration/responses/M6.source.md": "de45719bce6dd4fab5c96c1664500e2bd7a6a31cad91b3d98501809a38cc9a4c",
+    "revision_workspace/integration/responses/M6.final.md": "08ed39cbec64de4ead917d99531586a20a4bcc41244b1c49b6cbb7847423f282",
+    "revision_workspace/integration/responses/M7.source.md": "13eccc90a6c0402c6ce0f4e44497f226627ae08848fef65bd64d98eae65a119f",
+    "revision_workspace/integration/responses/M7.final.md": "9f3734a61a4c93402a88aa6bfa9507838392ea77af005ff885206bee81a6363c",
+    "revision_workspace/integration/responses/M8.source.md": "c4b20d96eb1388988080ce0479c32e4781f0099e5ca79463b46a02d8423b9c4f",
+    "revision_workspace/integration/responses/M8.final.md": "689434b264b50cd15c13e5aeeee19c7e27187bfb2fa8209517362591162d6b22",
+    "revision_workspace/integration/responses/M9.source.md": "fe809dcc4016be9c217ba9ffca87e376108834acb1d826193da2b618bae7b913",
+    "revision_workspace/integration/responses/M9.final.md": "377247edb4a4a2d50259f23db0a6ae248f8efa79f310ef792f5ac7ee97fde7b9",
+    "revision_workspace/integration/responses/M10.source.md": "e6fd4e11e7826af6b1a6bf3606dea613947a9281200082325af8bce64c0b6748",
+    "revision_workspace/integration/responses/M10.final.md": "870ec0b5f60e5dbd8f30c37d8ed57a4b9f9cdd5b24240876a952127c16de371b",
+    "revision_workspace/integration/responses/M11.source.md": "83ee482a81571500855337587c328f598d2153b5bebad181ba6e629d29c3ba92",
+    "revision_workspace/integration/responses/M11.final.md": "1eb7c28c1a1dce6b5629a6827c01c318b8d724124bb7a87b77ba3171a21f9062",
+    "revision_workspace/integration/responses/M12.source.md": "71fe7eb37e8f36d0ae937ad33b9f728c49e8630b2e696cdb63e32dede2d6f990",
+    "revision_workspace/integration/responses/M12.final.md": "30ac417e242d0413f85850266fe4847bec350e08d0f58b8fd1fb34db7f1be8ba",
+    "revision_workspace/integration/responses/M13.source.md": "2adf8d36c6915dcfe433cb95ec7e09684e139299a055e30b1510c7dd8941702a",
+    "revision_workspace/integration/responses/M13.final.md": "25680458c8e2b07eb0ab1212b90a71632cb0c355380a875550a4a7f1a6d3abee",
+    "revision_workspace/integration/responses/M14.source.md": "c925e109b277e41d9a33576a80905ddaa7995f6e669348c3ddda6934a0746662",
+    "revision_workspace/integration/responses/M14.final.md": "b7b1870f964ce8e8bf6ed42a3d5ee3a8aece9fdbfe24ba93fd03229b0d74a1f4",
+    "revision_workspace/integration/responses/M15.source.md": "c2eecbf851bef3e181ea4bcf9df35582a93a1278d2c6d7158e103f238a51048c",
+    "revision_workspace/integration/responses/M15.final.md": "f1592a3b05046e06167d88509dfe0818c14d28744efc7808948c6f59752f04ff",
+    "revision_workspace/integration/responses/M16.source.md": "e77de3d440ba0ff0ff6e51a467ac47810b2318571e7c3f68f47f7ee4fc4d1a12",
+    "revision_workspace/integration/responses/M16.final.md": "26c9f1935bba7ecd84ae72f220b2502be29406b85cd59bf9bd47ebfd1e3d2114",
+    "revision_workspace/integration/responses/M17.source.md": "c2b20f95a3ccf89054bc016bcf0f863972addb03e1de912f4f17bf4546498f3d",
+    "revision_workspace/integration/responses/M17.final.md": "826201d6eed8d749b0964190201cc56fa0e5a32955a352591540a1c47362f835",
+    "revision_workspace/integration/responses/M18.source.md": "eab08a61358d2dec8dd7e92339d70d0365938282a62c72a5dc794966176a3d18",
+    "revision_workspace/integration/responses/M18.final.md": "36f77d04b571a5504ca587fd7081289621347120c5bf41725f0e44c939da8be7",
+    "revision_workspace/integration/responses/M19.source.md": "9a2444ef3efc719e48d755fe9673793a171433a50da1a2825c17b96a4c14b70d",
+    "revision_workspace/integration/responses/M19.final.md": "9a2444ef3efc719e48d755fe9673793a171433a50da1a2825c17b96a4c14b70d",
+    "revision_workspace/integration/responses/M20.source.md": "1ae7e6c02b10851120ffbf0ddecbe55fa0efdb4181339997c673955b672cb296",
+    "revision_workspace/integration/responses/M20.final.md": "1ae7e6c02b10851120ffbf0ddecbe55fa0efdb4181339997c673955b672cb296",
+    "revision_workspace/integration/responses/M21.source.md": "1ed21c96c8b1d39c88ebc8611183db5adf40ddf5311f7b5d4634d0493e54803b",
+    "revision_workspace/integration/responses/M21.final.md": "661fae775b0ff0008c8afcff2607a175af8fad8cb7a85f8011bf93ab544583bb",
+    "revision_workspace/integration/responses/R2-3.diff.txt": "1bba924aa913c8be751ca3e3a2d0eff5ed95c208061f233f86dec9fe6e935619",
+    "revision_workspace/integration/responses/R2-4.diff.txt": "3ea7dd2a171ad420e0877a25cb4fbc75edfee91f70b22fc04e473ae08e332ed6",
+    "revision_workspace/integration/responses/R2-6.diff.txt": "b315250396a045f6ee88e8452741fb5cc026d85a59055c13ac943c8c9ca4ba89",
+    "revision_workspace/integration/responses/R2-7.diff.txt": "bfbe2773ad203901a29bdc6884953a4a943c608ed496f77a29bb247866961c00",
+    "revision_workspace/integration/responses/R2-8.diff.txt": "609d556281d242df7c569fdf6f4cb2a883ddd8a80847dc97bba3a7f19533e474",
+    "revision_workspace/integration/responses/R2-10.diff.txt": "d332ed2514f178333ee9db44fd3d45bc5a9a852dd13f480d30ac81806f9f61cd",
+    "revision_workspace/integration/responses/R2-13.diff.txt": "da132240285c191b1e91e416e3e4c911318f2a33f2996ba4932fcbeb9ee84bd5",
+    "revision_workspace/integration/responses/R2-15.diff.txt": "e1eef2b0619bf089b7344a91734334912fa39de6c71fb9fbc4cce6e5abc67d9e",
+    "revision_workspace/integration/responses/R2-16.diff.txt": "726040ac7859aafd9c2f320c80fa538bc671ac7459bb71c77557ce3ddbc822f9",
+    "revision_workspace/integration/responses/R2-17.diff.txt": "baedb32126f0adb780ef94533ec14b246640da922ade3736142e64501d1bac8f",
+    "revision_workspace/integration/responses/R2-18.diff.txt": "889bf0316650a810802bae29b34a56c75ddd7eccb0771a6902a95d8e95f33bca",
+    "revision_workspace/integration/responses/R2-19.diff.txt": "00c379a1de596baa668fc8db7eb174282bb8b01c7d621aa3aec62bee182782c6",
+    "revision_workspace/integration/responses/R2-20.diff.txt": "47b0d314ad1a4dc65f70ff6eb4142dd6ee8fe320d6a425ffc1bf7440153f14c1",
+    "revision_workspace/integration/responses/R3-3.diff.txt": "dfd9a3a8270b10b6c2f0b5fc3ffcc43c794311bc676de7955fbac79dba66def8",
+    "revision_workspace/integration/responses/R3-4.diff.txt": "c78548371516124f4cc99d96b76a863273ee949db6e6c6b6fb024cdc7be7d246",
+    "revision_workspace/integration/responses/R3-5.diff.txt": "9608eb8cb382170404bff3962fab88a710adc191c3cea71903e21662be7dd60a",
+    "revision_workspace/integration/responses/R3-10.diff.txt": "244930f98ec87b737ddba99e0fe0bdbeab45eff63a99295073115405215aeeb6",
+    "revision_workspace/integration/responses/R3-12.diff.txt": "37339ec57b20586b485910f6da8741d2046f78b48508fc3a043ba4a1ef2e8d56",
+    "revision_workspace/integration/responses/R3-13.diff.txt": "9383f2513e472a1e7c312375f091688927d2ca5cc4433c52268d29b102b75b6e",
+    "revision_workspace/integration/responses/R3-14.diff.txt": "6d27b8954d62d552834193d189d91ce913dfbabaf7732c6058f1debb041d4532",
+    "revision_workspace/integration/responses/M3.diff.txt": "8b5c212411752620ddb21f3503ab6cee162ddcc995909ba8967f9c7de259bfc5",
+    "revision_workspace/integration/responses/M4.diff.txt": "80ea07dd62fc2d0f18ef8935b8f46e2f53caf915c221634026c8311c8039d7f6",
+    "revision_workspace/integration/responses/M6.diff.txt": "d1085882b4005b28c590dfec099999514be49264fb95d0e8512848c414bc75b6",
+    "revision_workspace/integration/responses/M7.diff.txt": "e44bb32f53849f65251156f9e2150987353969f3ff3af9dc6dfcc07e501f4ea3",
+    "revision_workspace/integration/responses/M8.diff.txt": "c8d2f1b76a9429fe38b7d9074cef7aa0826ec19ee713751b0c93ae8d9356988e",
+    "revision_workspace/integration/responses/M10.diff.txt": "79675918362dce8ebdd2c21e43471cc0f1621f26f3e74a2bdb5bfb808d03b71d",
+    "revision_workspace/integration/responses/M11.diff.txt": "27b272768b62b9414ce9f45d2a4d903864a49482fb929c53ecd07fccfbe78da9",
+    "revision_workspace/integration/responses/M12.diff.txt": "20e4126d57a072e15ce71564c9ff3bf5fc9f099e628ea96c1f98fc763a9aa619",
+    "revision_workspace/integration/responses/M13.diff.txt": "9008a457be641143d7b847946a617f553ebdcdc7c99f486d3071ea3edd9af27f",
+    "revision_workspace/integration/responses/M14.diff.txt": "4c4bc119883412b4d9abde9a0f492ed88cef861f55de6d6a65c7ebab6e75b5cb",
+    "revision_workspace/integration/responses/M15.diff.txt": "667d466283fb112682d65b3398bea840d3a0885c5bc588af0a9bb736305d63e6",
+    "revision_workspace/integration/responses/M16.diff.txt": "69346d9418d8541d577a3bbf524bda2a9d26deb1b13802fbbc9f678bff041cb7",
+    "revision_workspace/integration/responses/M17.diff.txt": "9a52df543273f48750d72eb7746b48aa9d2e7452a337f3a60266e1828fe365e3",
+    "revision_workspace/integration/responses/M18.diff.txt": "0f5a09a84558f0b6a3f18cac82bc206bdd6fc95ad54d048cfb5f1fcb6e15cf48",
+    "revision_workspace/integration/responses/M21.diff.txt": "ab7c7a39edd7920dc59409803163a3d19746000af5d267e1a6613a41b3f037ac",
+    "revision_workspace/integration/responses/R2-9.diff.txt": "dcca6286242c00e1d21bc5625d09780860216d367cd15e3e59642c5e523da1b1",
+    "revision_workspace/integration/responses/R2-12.diff.txt": "543cec1ca817a7171d867de3147db679f703e3794cb7dbbf36b5bdff09ef28bb",
+    "revision_workspace/integration/responses/R3-15.diff.txt": "f9ab4f585f4b43cf994530c9f6dd39479ca59ae1e8ee0e093fcf867bb8d35667",
+    "revision_workspace/integration/responses/M9.diff.txt": "07c92b43c0a15c18fdc058e882622ae5e369ca2199926e4f2972b6177ced6353"
+  },
+  "authorized_generated_change_hashes": {
+    "revision_workspace/integration/responses/M19.diff.txt": "e43582712da39c0719030256c24792cad36f535e1303d6f3dd2622c251f5f0a4",
+    "revision_workspace/integration/responses/M19.final.md": "79659d0100de03da3debdc7c55affa01f0b84d5ff42a2864b95df433b5f48c4a"
+  },
+  "items": [
+    {
+      "comment_id": "R2-1",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R2-2",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R2-3",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-OOF-PROTOCOL",
+        "G2-REPRODUCIBILITY-INPUT",
+        "G3-EVALUATION-SCOPE"
+      ],
+      "status": "unchanged and relevant",
+      "original": "PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).",
+      "revised": "PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-OOF-PROTOCOL",
+      "source_line": 307,
+      "pdf_location": {
+        "position_id": "G2-OOF-PROTOCOL",
+        "excerpt_latex": "PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "pet synthesis used subject level two fold cross",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 450,
+            "line_end": 450,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "pet synthesis used subject level two fold cross",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 450,
+        "line_end": 450,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-4",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-MCI-DEFINITIONS",
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-GRAMMAR",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE",
+        "G7-TITLE",
+        "G7-PDF-TITLE"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Participants were stratified into five clinically defined diagnostic categories to reflect the full continuum of Alzheimer’s disease pathology: Cognitively Normal (CN; $n = 577$), Alzheimer’s disease dementia (AD; $n = 317$), and three subtypes of Mild Cognitive Impairment (MCI).",
+      "revised": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-MCI-DEFINITIONS",
+      "source_line": 299,
+      "pdf_location": {
+        "position_id": "G2-MCI-DEFINITIONS",
+        "excerpt_latex": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "these categories define cross sectional diagnostic and mci",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 413,
+            "line_end": 413,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "these categories define cross sectional diagnostic and mci",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 413,
+        "line_end": 413,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-5",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-MISSINGNESS-INPUT",
+        "G8-CLINICAL-METHODS",
+        "G1-RESULTS-CONDITIONING",
+        "G1-CONTEXT-AND-PROMPT",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "EVIDENCE-SENSITIVITY-TABLE-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).",
+      "revised": "These observations show conditional output sensitivity; they are not a retrained No-Scores ablation or proof of independent diagnostic benefit.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "source_line": 96,
+      "pdf_location": {
+        "position_id": "G1-RESULTS-CONDITIONING",
+        "excerpt_latex": "These observations show conditional output sensitivity; they are not a retrained No-Scores ablation or proof of independent diagnostic benefit.",
+        "verified_pages": [
+          3
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 3,
+            "matched_text": "these observations show conditional output sensitivity they are",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 103,
+            "line_end": 104,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 3,
+        "matched_text": "these observations show conditional output sensitivity they are",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 103,
+        "line_end": 104,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-6",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-COHORT-SELECTION",
+        "G2-OOF-PROTOCOL"
+      ],
+      "status": "corrected quotation selection",
+      "original": "This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.",
+      "revised": "Only one prepared imaging record per participant was retained; repeated longitudinal visits were not treated as independent participants.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-COHORT-SELECTION",
+      "source_line": 297,
+      "pdf_location": {
+        "position_id": "G2-COHORT-SELECTION",
+        "excerpt_latex": "Only one prepared imaging record per participant was retained; repeated longitudinal visits were not treated as independent participants.",
+        "verified_pages": [
+          17
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 17,
+            "matched_text": "imaging record per participant was retained repeated longitudinal",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 400,
+            "line_end": 400,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 17,
+        "matched_text": "imaging record per participant was retained repeated longitudinal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 400,
+        "line_end": 400,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-7",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-OASIS-SCOPE",
+        "G2-SUPP-OASIS",
+        "G3-EVALUATION-SCOPE",
+        "G3-EXTERNAL-RESULTS",
+        "G3-FIGURE2-CAPTION",
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE",
+        "G3-RESULTS-HEADING"
+      ],
+      "status": "corrected quotation selection",
+      "original": "External evaluation used the Open Access Series of Imaging Studies (OASIS-3), a longitudinal neuroimaging and clinical cohort focused on normal aging and Alzheimer's disease (\\url{https://www.oasis-brains.org}).",
+      "revised": "The retained external cohort comprised 419 participants with AV45-PET processed using the Pet Unified Pipeline (PUP): 334 CN and 85 AD, with no MCI participants (Table~S2).",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-OASIS-SCOPE",
+      "source_line": 303,
+      "pdf_location": {
+        "position_id": "G2-OASIS-SCOPE",
+        "excerpt_latex": "The retained external cohort comprised 419 participants with AV45-PET processed using the Pet Unified Pipeline (PUP): 334 CN and 85 AD, with no MCI participants (Table~\\ref{tab:supp_oasis}).",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "the retained external cohort comprised 419 participants with",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 428,
+            "line_end": 428,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "the retained external cohort comprised 419 participants with",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 428,
+        "line_end": 428,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-8",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-1",
+        "G4-CORE-2",
+        "G4-CORE-3",
+        "G4-CORE-5",
+        "G4-CORE-7",
+        "G4-REGIONAL-TABLE-INPUTS",
+        "G7-DISCUSSION-MERGED"
+      ],
+      "status": "corrected quotation selection",
+      "original": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+      "revised": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-3",
+      "source_line": 147,
+      "pdf_location": {
+        "position_id": "G4-CORE-3",
+        "excerpt_latex": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+        "verified_pages": [
+          9
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 9,
+            "matched_text": "non significant mean differences do not establish formal",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 175,
+            "line_end": 175,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 9,
+        "matched_text": "non significant mean differences do not establish formal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 175,
+        "line_end": 175,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-9",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-4",
+        "G4-CORE-6",
+        "G4-CORE-7",
+        "G4-FIGURE4-CAPTION",
+        "G4-REGIONAL-TABLE-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Critically, independent-sample $t$-tests demonstrated that the significant differences between diagnostic groups observed in real PET data were also observed in the synthetic images (Fig.~4C, D; figs.~S5 and S6).",
+      "revised": "For the paired real--synthetic comparisons, FDR correction was applied across 98 ROIs separately for each tracer and analysis group (overall, AD, CN, EMCI, LMCI, and MCI), yielding 12 families (2 tracers $\\times$ 6 analysis groups) and 1,176 tests in total. For the AD--CN comparisons, FDR correction was applied across 98 ROIs separately for each tracer and PET type (real or synthetic), yielding four families and 392 tests in total.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-7",
+      "source_line": 346,
+      "pdf_location": {
+        "position_id": "G4-CORE-7",
+        "excerpt_latex": "For the paired real--synthetic comparisons, FDR correction was applied across 98 ROIs separately for each tracer and analysis group (overall, AD, CN, EMCI, LMCI, and MCI), yielding 12 families (2 tracers $\\times$ 6 analysis groups) and 1,176 tests in total. For the AD--CN comparisons, FDR correction was applied across 98 ROIs separately for each tracer and PET type (real or synthetic), yielding four families and 392 tests in total.",
+        "verified_pages": [
+          21
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 21,
+            "matched_text": "comparisons fdr correction was applied across 98 rois",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 544,
+            "line_end": 544,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 21,
+        "matched_text": "comparisons fdr correction was applied across 98 rois",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 544,
+        "line_end": 544,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-10",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-3",
+        "G4-CORE-5",
+        "G4-FIGURE3-CAPTION",
+        "G4-REGIONAL-TABLE-INPUTS",
+        "G7-DISCUSSION-MERGED"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Paired-sample $t$-tests between synthetic and real images revealed no statistically significant differences in normalized regional uptake across the principal brain regions shown in Fig.~4A, B for the overall cohorts of both tracers ($p>0.05$).",
+      "revised": "Mean paired differences with 95\\% confidence intervals, mean absolute error (MAE), Lin's concordance correlation coefficient (CCC), the two-way absolute-agreement single-measure intraclass correlation coefficient (ICC(A,1)), and Bland--Altman bias and 95\\% limits of agreement were also calculated to assess regional agreement.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-5",
+      "source_line": 341,
+      "pdf_location": {
+        "position_id": "G4-CORE-5",
+        "excerpt_latex": "Mean paired differences with 95\\% confidence intervals, mean absolute error (MAE), Lin's concordance correlation coefficient (CCC), the two-way absolute-agreement single-measure intraclass correlation coefficient (ICC(A,1)), and Bland--Altman bias and 95\\% limits of agreement were also calculated to assess regional agreement.",
+        "verified_pages": [
+          21
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 21,
+            "matched_text": "intervals mean absolute error mae lin s concordance",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 526,
+            "line_end": 526,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 21,
+        "matched_text": "intervals mean absolute error mae lin s concordance",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 526,
+        "line_end": 526,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-11",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "G5-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R2-12",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "G5-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R2-13",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-G6-RESULTS-INFERENCE",
+        "G1-G6-FIGURE1-CAPTION",
+        "G6-ONE-STEP-IMPLEMENTATION",
+        "G7-FRAMEWORK-OPENING"
+      ],
+      "status": "corrected quotation selection",
+      "original": "At inference, the shared network predicts a velocity field for the selected tracer from MRI and the corresponding two-token text context.",
+      "revised": "Rectified flow supports a learned one-step approximation; a single network evaluation is not exact integration of the continuous ODE.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+      "source_line": 290,
+      "pdf_location": {
+        "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+        "excerpt_latex": "Rectified flow supports a learned one-step approximation; a single network evaluation is not exact integration of the continuous ODE.",
+        "verified_pages": [
+          17
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 17,
+            "matched_text": "rectified flow supports a learned one step approximation",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 384,
+            "line_end": 385,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 17,
+        "matched_text": "rectified flow supports a learned one step approximation",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 384,
+        "line_end": 385,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-14",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-RESULTS-CONDITIONING",
+        "G1-METHODS-OVERVIEW",
+        "G1-FEATURE-EXTRACTION",
+        "G1-ADAPTER-OBJECTIVE",
+        "G1-CONTEXT-AND-PROMPT",
+        "G1-SUPPLEMENTARY-INPUT"
+      ],
+      "status": "unchanged and relevant",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "source_line": 94,
+      "pdf_location": {
+        "position_id": "G1-RESULTS-CONDITIONING",
+        "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+        "verified_pages": [
+          3
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 3,
+            "matched_text": "text guidance incorporates tracer descriptions and patient information",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 88,
+            "line_end": 88,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-15",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-RESULTS-CONDITIONING",
+        "G1-ADAPTER-OBJECTIVE",
+        "G1-SUPPLEMENTARY-INPUT"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "The settings are $\\lambda_{\\mathrm{cross}}=100$ and $\\tau=0.82$. This is a soft squared penalty targeting a reference similarity, not a hard lower-bound constraint or a threshold optimized for generation quality. The target is numerically consistent with the original tracer-text cosine similarity of 0.8205 before adaptation.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-ADAPTER-OBJECTIVE",
+      "source_line": 253,
+      "pdf_location": {
+        "position_id": "G1-ADAPTER-OBJECTIVE",
+        "excerpt_latex": "The settings are $\\lambda_{\\mathrm{cross}}=100$ and $\\tau=0.82$. This is a soft squared penalty targeting a reference similarity, not a hard lower-bound constraint or a threshold optimized for generation quality. The target is numerically consistent with the original tracer-text cosine similarity of 0.8205 before adaptation.",
+        "verified_pages": [
+          15
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 15,
+            "matched_text": "the settings are cross 100 and 0 82",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 337,
+            "line_end": 337,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 15,
+        "matched_text": "the settings are cross 100 and 0 82",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 337,
+        "line_end": 337,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-16",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-TABLE-S1",
+        "G8-CLINICAL-METHODS",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "EVIDENCE-SENSITIVITY-TABLE-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).",
+      "revised": "Demographic sensitivity analyses separately stratified recorded age at 75 years and sex (F/M), without crossing the strata or changing thresholds/checkpoints.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G5-CLASSIFICATION-METHODS",
+      "source_line": 357,
+      "pdf_location": {
+        "position_id": "G5-CLASSIFICATION-METHODS",
+        "excerpt_latex": "Demographic sensitivity analyses separately stratified recorded age at 75 years and sex (F/M), without crossing the strata or changing thresholds/checkpoints.",
+        "verified_pages": [
+          22
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 22,
+            "matched_text": "demographic sensitivity analyses separately stratified recorded age at",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 580,
+            "line_end": 580,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 22,
+        "matched_text": "demographic sensitivity analyses separately stratified recorded age at",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 580,
+        "line_end": 580,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-17",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G3-RESULTS-INTRO",
+        "G3-RESULTS-COMPARISONS",
+        "G3-FIGURE2-CAPTION",
+        "G3-BASELINE-SCOPE",
+        "G3-IMAGE-QUALITY-METHODS",
+        "G3-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).",
+      "revised": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "source_line": 327,
+      "pdf_location": {
+        "position_id": "G3-IMAGE-QUALITY-METHODS",
+        "excerpt_latex": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+        "verified_pages": [
+          19
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 19,
+            "matched_text": "the 3d swin unetr was adapted to pet",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 485,
+            "line_end": 485,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "the 3d swin unetr was adapted to pet",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 485,
+        "line_end": 485,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-18",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G3-DDIM-REFERENCE",
+        "G6-IMPLEMENTATION-AND-EFFICIENCY"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R2-19",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-COHORT-SELECTION",
+        "G2-OOF-PROTOCOL",
+        "G2-DATA-AVAILABILITY",
+        "G2-REPRODUCIBILITY-INPUT",
+        "G6-IMPLEMENTATION-AND-EFFICIENCY"
+      ],
+      "status": "corrected quotation selection",
+      "original": "This study leveraged neuroimaging data from 1,857 participants enrolled in the Alzheimer’s Disease Neuroimaging Initiative (ADNI), spanning cohorts from ADNI-1 through ADNI-4.",
+      "revised": "Fixed splits, seeds and implementation details are summarized in Table~S5.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-OOF-PROTOCOL",
+      "source_line": 307,
+      "pdf_location": {
+        "position_id": "G2-OOF-PROTOCOL",
+        "excerpt_latex": "Fixed splits, seeds and implementation details are summarized in Table~\\ref{tab:reproducibility}.",
+        "verified_pages": [
+          19
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 19,
+            "matched_text": "fixed splits seeds and implementation details are summarized",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 459,
+            "line_end": 460,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "fixed splits seeds and implementation details are summarized",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 459,
+        "line_end": 460,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R2-20",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-CONTRIBUTIONS",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE",
+        "G7-FRAMEWORK-OPENING",
+        "G7-INTRODUCTION-ACCESS-SCOPE"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Building upon single-tracer DIReCT~\\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.",
+      "revised": "Synthetic PET may support exploratory MRI-based analyses when PET is unavailable, but clinical screening or treatment selection would require independent molecular biomarker confirmation and prospective validation.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G7-DISCUSSION-MERGED",
+      "source_line": 191,
+      "pdf_location": {
+        "position_id": "G7-DISCUSSION-MERGED",
+        "excerpt_latex": "Synthetic PET may support exploratory MRI-based analyses when PET is unavailable, but clinical screening or treatment selection would require independent molecular biomarker confirmation and prospective validation.",
+        "verified_pages": [
+          13
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 13,
+            "matched_text": "synthetic pet may support exploratory mri based analyses",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 250,
+            "line_end": 250,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 13,
+        "matched_text": "synthetic pet may support exploratory mri based analyses",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 250,
+        "line_end": 250,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-1",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-TABLE-S1",
+        "G8-MISSINGNESS-INPUT",
+        "G8-CLINICAL-METHODS",
+        "G1-RESULTS-CONDITIONING",
+        "G1-CONTEXT-AND-PROMPT",
+        "G1-SUPPLEMENTARY-INPUT",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "G5-SUPPLEMENTARY-INPUTS",
+        "G7-ABSTRACT",
+        "EVIDENCE-SENSITIVITY-TABLE-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).",
+      "revised": "These observations do not support independent incremental diagnostic value over the clinical variables, which include diagnosis-related scores and diagnosis-conditioned fills.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G5-RESULTS-AND-FIGURE5",
+      "source_line": 169,
+      "pdf_location": {
+        "position_id": "G5-RESULTS-AND-FIGURE5",
+        "excerpt_latex": "These observations do not support independent incremental diagnostic value over the clinical variables, which include diagnosis-related scores and diagnosis-conditioned fills.",
+        "verified_pages": [
+          11
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 11,
+            "matched_text": "these observations do not support independent incremental diagnostic",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 215,
+            "line_end": 215,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 11,
+        "matched_text": "these observations do not support independent incremental diagnostic",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 215,
+        "line_end": 215,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-2",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-TABLE-S1",
+        "G8-MISSINGNESS-INPUT",
+        "G8-CLINICAL-METHODS",
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT"
+      ],
+      "status": "corrected quotation selection",
+      "original": "In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).",
+      "revised": "Missing MMSE, GDSCALE, Global CDR, FAQ and NPI-Q scores were filled using diagnostic-group-conditioned rules. Of 9,285 score cells, 1,751 were observed and retained, while 7,534 were missing in those source records and had values consistent with the recovered filling rules.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G8-CLINICAL-METHODS",
+      "source_line": 301,
+      "pdf_location": {
+        "position_id": "G8-CLINICAL-METHODS",
+        "excerpt_latex": "Missing MMSE, GDSCALE, Global CDR, FAQ and NPI-Q scores were filled using diagnostic-group-conditioned rules. Of 9,285 score cells, 1,751 were observed and retained, while 7,534 were missing in those source records and had values consistent with the recovered filling rules.",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "missing mmse gdscale global cdr faq and npi",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 418,
+            "line_end": 419,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "missing mmse gdscale global cdr faq and npi",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 418,
+        "line_end": 419,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-3",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-MCI-DEFINITIONS",
+        "G5-RESULTS-AND-FIGURE5",
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE",
+        "G7-TITLE",
+        "G7-PDF-TITLE"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Participants were stratified into five clinically defined diagnostic categories to reflect the full continuum of Alzheimer’s disease pathology: Cognitively Normal (CN; $n = 577$), Alzheimer’s disease dementia (AD; $n = 317$), and three subtypes of Mild Cognitive Impairment (MCI).",
+      "revised": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-MCI-DEFINITIONS",
+      "source_line": 299,
+      "pdf_location": {
+        "position_id": "G2-MCI-DEFINITIONS",
+        "excerpt_latex": "These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "these categories define cross sectional diagnostic and mci",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 413,
+            "line_end": 413,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "these categories define cross sectional diagnostic and mci",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 413,
+        "line_end": 413,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-4",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-3",
+        "G4-CORE-5",
+        "G4-REGIONAL-TABLE-INPUTS",
+        "G7-DISCUSSION-MERGED"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Paired-sample $t$-tests between synthetic and real images revealed no statistically significant differences in normalized regional uptake across the principal brain regions shown in Fig.~4A, B for the overall cohorts of both tracers ($p>0.05$).",
+      "revised": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-3",
+      "source_line": 147,
+      "pdf_location": {
+        "position_id": "G4-CORE-3",
+        "excerpt_latex": "Non-significant mean differences do not establish formal equivalence or clinical interchangeability.",
+        "verified_pages": [
+          9
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 9,
+            "matched_text": "non significant mean differences do not establish formal",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 175,
+            "line_end": 175,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 9,
+        "matched_text": "non significant mean differences do not establish formal",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 175,
+        "line_end": 175,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-5",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-1",
+        "G4-CORE-4",
+        "G4-CORE-6",
+        "G4-CORE-7",
+        "G4-FIGURE4-CAPTION",
+        "G4-FIGURE3-CAPTION",
+        "G4-SUPP-FIGURE-1",
+        "G4-SUPP-FIGURE-2",
+        "G4-SUPP-FIGURE-3",
+        "G4-SUPP-FIGURE-4",
+        "G4-SUPP-FIGURE-5",
+        "G4-SUPP-FIGURE-6",
+        "G4-REGIONAL-TABLE-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+      "revised": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-1",
+      "source_line": 130,
+      "pdf_location": {
+        "position_id": "G4-CORE-1",
+        "excerpt_latex": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+        "verified_pages": [
+          6
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 6,
+            "matched_text": "regional normalized uptake values arbitrary units were computed",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 151,
+            "line_end": 152,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 6,
+        "matched_text": "regional normalized uptake values arbitrary units were computed",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 151,
+        "line_end": 152,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-6",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-CLINICAL-METHODS",
+        "G2-COHORT-SELECTION",
+        "G2-MCI-DEFINITIONS",
+        "G2-OASIS-SCOPE",
+        "G2-PREPROCESSING",
+        "G2-OOF-PROTOCOL",
+        "G2-DATA-AVAILABILITY",
+        "G2-REPRODUCIBILITY-INPUT",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).",
+      "revised": "The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. The classification results are therefore analyzed separately from the reconstructed generator comparisons.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-OOF-PROTOCOL",
+      "source_line": 307,
+      "pdf_location": {
+        "position_id": "G2-OOF-PROTOCOL",
+        "excerpt_latex": "The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. The classification results are therefore analyzed separately from the reconstructed generator comparisons.",
+        "verified_pages": [
+          19
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 19,
+            "matched_text": "retained the existing author provided synthetic pet dataset",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 456,
+            "line_end": 456,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "retained the existing author provided synthetic pet dataset",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 456,
+        "line_end": 456,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-7",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-OOF-PROTOCOL",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "G5-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).",
+      "revised": "Results are reported as the equally weighted fold mean $\\pm$ sample s.d., alongside conditional bootstrap 95\\% CIs (Table~S13).",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G5-RESULTS-AND-FIGURE5",
+      "source_line": 163,
+      "pdf_location": {
+        "position_id": "G5-RESULTS-AND-FIGURE5",
+        "excerpt_latex": "Results are reported as the equally weighted fold mean $\\pm$ sample s.d., alongside conditional bootstrap 95\\% CIs (Table~\\ref{tab:classification_summary}).",
+        "verified_pages": [
+          9
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 9,
+            "matched_text": "results are reported as the equally weighted fold",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 198,
+            "line_end": 199,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 9,
+        "matched_text": "results are reported as the equally weighted fold",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 198,
+        "line_end": 199,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-8",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-RESULTS-CONDITIONING",
+        "G1-G6-FIGURE1-CAPTION",
+        "G1-METHODS-OVERVIEW",
+        "G1-FEATURE-EXTRACTION",
+        "G1-ADAPTER-OBJECTIVE",
+        "G1-VELOCITY-NOTATION",
+        "G1-CONTEXT-AND-PROMPT",
+        "G1-CROSS-ATTENTION",
+        "G1-SUPPLEMENTARY-INPUT",
+        "G3-RESULTS-COMPARISONS",
+        "G7-DISCUSSION-MERGED",
+        "G7-INTRODUCTION-CONTRIBUTIONS"
+      ],
+      "status": "unchanged and relevant",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "source_line": 94,
+      "pdf_location": {
+        "position_id": "G1-RESULTS-CONDITIONING",
+        "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+        "verified_pages": [
+          3
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 3,
+            "matched_text": "text guidance incorporates tracer descriptions and patient information",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 88,
+            "line_end": 88,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-9",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-RESULTS-CONDITIONING",
+        "G1-G6-RESULTS-INFERENCE",
+        "G1-G6-FIGURE1-CAPTION",
+        "G1-CONTEXT-AND-PROMPT",
+        "G1-SUPPLEMENTARY-INPUT",
+        "G3-RESULTS-COMPARISONS",
+        "G3-BASELINE-SCOPE",
+        "G3-RF-BASELINE",
+        "G3-SINGLE-BASELINE",
+        "G3-IMAGE-QUALITY-METHODS",
+        "G3-SUPPLEMENTARY-INPUTS",
+        "G5-RESULTS-AND-FIGURE5",
+        "G5-CLASSIFICATION-METHODS",
+        "G6-SHARED-TRAINING",
+        "G6-ONE-STEP-IMPLEMENTATION",
+        "G7-DISCUSSION-MERGED",
+        "G3-RESULTS-HEADING"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "TracerOnly excluded patient-specific conditioning while retaining target-tracer guidance; TabularMLP replaced the clinical text representation with a structured-variable encoder.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "source_line": 327,
+      "pdf_location": {
+        "position_id": "G3-IMAGE-QUALITY-METHODS",
+        "excerpt_latex": "TracerOnly excluded patient-specific conditioning while retaining target-tracer guidance; TabularMLP replaced the clinical text representation with a structured-variable encoder.",
+        "verified_pages": [
+          19,
+          20
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 20,
+            "matched_text": "tabularmlp replaced the clinical text representation with a",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 489,
+            "line_end": 489,
+            "line_scope": "matched phrase only"
+          },
+          {
+            "page": 19,
+            "matched_text": "traceronly excluded patient specific conditioning while retaining target",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 488,
+            "line_end": 488,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "traceronly excluded patient specific conditioning while retaining target",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 488,
+        "line_end": 488,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-10",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G3-RESULTS-INTRO",
+        "G3-RESULTS-COMPARISONS",
+        "G3-BASELINE-SCOPE",
+        "G3-SEGGUIDED-2D",
+        "G3-IMAGE-QUALITY-METHODS",
+        "G3-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "corrected quotation selection",
+      "original": "PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).",
+      "revised": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G3-IMAGE-QUALITY-METHODS",
+      "source_line": 327,
+      "pdf_location": {
+        "position_id": "G3-IMAGE-QUALITY-METHODS",
+        "excerpt_latex": "The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.",
+        "verified_pages": [
+          19
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 19,
+            "matched_text": "the 3d swin unetr was adapted to pet",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 485,
+            "line_end": 485,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "the 3d swin unetr was adapted to pet",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 485,
+        "line_end": 485,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-11",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-FIGURE3-CAPTION",
+        "G3-RESULTS-INTRO",
+        "G3-EVALUATION-SCOPE",
+        "G3-RESULTS-COMPARISONS",
+        "G3-EXTERNAL-RESULTS",
+        "G3-FIGURE2-CAPTION",
+        "G3-IMAGE-QUALITY-METHODS",
+        "G3-SUPPLEMENTARY-INPUTS",
+        "G5-SUPPLEMENTARY-INPUTS"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "R3-12",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-G6-RESULTS-INFERENCE",
+        "G3-RESULTS-COMPARISONS",
+        "G3-IMAGE-QUALITY-METHODS",
+        "G3-SUPPLEMENTARY-INPUTS",
+        "G6-ONE-STEP-IMPLEMENTATION",
+        "G6-IMPLEMENTATION-AND-EFFICIENCY",
+        "G7-DISCUSSION-MERGED"
+      ],
+      "status": "corrected quotation selection",
+      "original": "At inference, the shared network predicts a velocity field for the selected tracer from MRI and the corresponding two-token text context.",
+      "revised": "From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI. This stage is referred to as one-step distillation in the framework, but the recovered implementation does not introduce a separate teacher trajectory or a teacher-step schedule.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+      "source_line": 290,
+      "pdf_location": {
+        "position_id": "G6-ONE-STEP-IMPLEMENTATION",
+        "excerpt_latex": "From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI. This stage is referred to as one-step distillation in the framework, but the recovered implementation does not introduce a separate teacher trajectory or a teacher-step schedule.",
+        "verified_pages": [
+          17
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 17,
+            "matched_text": "from epoch 140 onward t is fixed at",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 387,
+            "line_end": 388,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 17,
+        "matched_text": "from epoch 140 onward t is fixed at",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 387,
+        "line_end": 388,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-13",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G8-MISSINGNESS-INPUT",
+        "G2-OASIS-SCOPE",
+        "G2-OOF-PROTOCOL",
+        "G2-SUPP-OASIS",
+        "G3-EVALUATION-SCOPE",
+        "G3-EXTERNAL-RESULTS",
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE"
+      ],
+      "status": "corrected quotation selection",
+      "original": "External evaluation used the Open Access Series of Imaging Studies (OASIS-3), a longitudinal neuroimaging and clinical cohort focused on normal aging and Alzheimer's disease (\\url{https://www.oasis-brains.org}).",
+      "revised": "These data therefore evaluate external AV45 synthesis in this CN/AD cohort, without establishing external generalizability for FDG synthesis or MCI-stage discrimination. Complete run-specific records of the external clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-OASIS-SCOPE",
+      "source_line": 303,
+      "pdf_location": {
+        "position_id": "G2-OASIS-SCOPE",
+        "excerpt_latex": "These data therefore evaluate external AV45 synthesis in this CN/AD cohort, without establishing external generalizability for FDG synthesis or MCI-stage discrimination. Complete run-specific records of the external clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation.",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "these data therefore evaluate external av45 synthesis in",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 433,
+            "line_end": 433,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "these data therefore evaluate external av45 synthesis in",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 433,
+        "line_end": 433,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-14",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G7-DISCUSSION-MERGED",
+        "G7-ABSTRACT",
+        "G7-INTRODUCTION-EVIDENCE-SCOPE",
+        "BIB-MANUSCRIPT",
+        "G7-INTRODUCTION-BIOMARKER-SCOPE",
+        "G7-INTRODUCTION-ACCESS-SCOPE"
+      ],
+      "status": "corrected quotation selection",
+      "original": "We evaluate image synthesis on ADNI~\\cite{weiner2010alzheimer} and retain historical AV45 external results from OASIS-3~\\cite{lamontagne2019oasis}.",
+      "revised": "The 2024 Alzheimer's Association criteria emphasize biological diagnosis using validated core biomarkers, including amyloid PET and sufficiently accurate blood-based assays such as plasma p-tau217~\\cite{jack2024revised}. Synthetic PET has not been validated as a substitute for molecular confirmation, and its added value relative to those biomarker assessments remains to be determined.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G7-DISCUSSION-MERGED",
+      "source_line": 201,
+      "pdf_location": {
+        "position_id": "G7-DISCUSSION-MERGED",
+        "excerpt_latex": "The 2024 Alzheimer's Association criteria emphasize biological diagnosis using validated core biomarkers, including amyloid PET and sufficiently accurate blood-based assays such as plasma p-tau217~\\cite{jack2024revised}. Synthetic PET has not been validated as a substitute for molecular confirmation, and its added value relative to those biomarker assessments remains to be determined.",
+        "verified_pages": [
+          13,
+          14
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 14,
+            "matched_text": "including amyloid pet and sufficiently accurate blood based",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 286,
+            "line_end": 286,
+            "line_scope": "matched phrase only"
+          },
+          {
+            "page": 13,
+            "matched_text": "the 2024 alzheimer s association criteria emphasize biological",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 284,
+            "line_end": 285,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 13,
+        "matched_text": "the 2024 alzheimer s association criteria emphasize biological",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 284,
+        "line_end": 285,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "R3-15",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-RESULTS-CONDITIONING",
+        "G1-G6-RESULTS-INFERENCE",
+        "G1-G6-FIGURE1-CAPTION",
+        "G1-METHODS-OVERVIEW",
+        "G3-RESULTS-COMPARISONS",
+        "G3-BASELINE-SCOPE",
+        "G3-SINGLE-BASELINE",
+        "G6-SHARED-TRAINING",
+        "G7-DISCUSSION-MERGED",
+        "G7-INTRODUCTION-CONTRIBUTIONS",
+        "G7-FRAMEWORK-OPENING"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "Building upon single-tracer DIReCT~\\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G7-INTRODUCTION-CONTRIBUTIONS",
+      "source_line": 85,
+      "pdf_location": {
+        "position_id": "G7-INTRODUCTION-CONTRIBUTIONS",
+        "excerpt_latex": "Building upon single-tracer DIReCT~\\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.",
+        "verified_pages": [
+          2
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 2,
+            "matched_text": "3d rectified flow to a shared network conditioned",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 68,
+            "line_end": 68,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 2,
+        "matched_text": "3d rectified flow to a shared network conditioned",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 68,
+        "line_end": 68,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M1",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G7-INTRODUCTION-GRAMMAR"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\\cite{dayarathna2024deep,lee2024synthesizing}.",
+      "revised": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G7-INTRODUCTION-GRAMMAR",
+      "source_line": 83,
+      "pdf_location": {
+        "position_id": "G7-INTRODUCTION-GRAMMAR",
+        "excerpt_latex": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+        "verified_pages": [
+          2
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 2,
+            "matched_text": "this challenge stems from the inherent nature of",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 60,
+            "line_end": 61,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 2,
+        "matched_text": "this challenge stems from the inherent nature of",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 60,
+        "line_end": 61,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M2",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G7-INTRODUCTION-GRAMMAR"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\\cite{dayarathna2024deep,lee2024synthesizing}.",
+      "revised": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G7-INTRODUCTION-GRAMMAR",
+      "source_line": 83,
+      "pdf_location": {
+        "position_id": "G7-INTRODUCTION-GRAMMAR",
+        "excerpt_latex": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+        "verified_pages": [
+          2
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 2,
+            "matched_text": "this challenge stems from the inherent nature of",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 60,
+            "line_end": 61,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 2,
+        "matched_text": "this challenge stems from the inherent nature of",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 60,
+        "line_end": 61,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M3",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-1"
+      ],
+      "status": "corrected quotation selection",
+      "original": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+      "revised": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-1",
+      "source_line": 130,
+      "pdf_location": {
+        "position_id": "G4-CORE-1",
+        "excerpt_latex": "Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.",
+        "verified_pages": [
+          6
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 6,
+            "matched_text": "regional normalized uptake values arbitrary units were computed",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 151,
+            "line_end": 152,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 6,
+        "matched_text": "regional normalized uptake values arbitrary units were computed",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 151,
+        "line_end": 152,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M4",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-VELOCITY-NOTATION",
+        "G6-ONE-STEP-IMPLEMENTATION"
+      ],
+      "status": "corrected quotation selection",
+      "original": "DIReCT$++$ models MRI-to-PET translation using a conditional rectified flow velocity field.",
+      "revised": "Specifically, given two heterogeneous medical distributions---$\\mathbf{x}_0 \\sim \\mathcal{M}_{\\text{MRI}}$ and $\\mathbf{x}_1 \\sim \\mathcal{P}_{\\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\\theta$, where $\\theta$ denotes its network parameters and $\\mathbf{c}$ is the conditioning context containing tracer and clinical text features.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-VELOCITY-NOTATION",
+      "source_line": 257,
+      "pdf_location": {
+        "position_id": "G1-VELOCITY-NOTATION",
+        "excerpt_latex": "Specifically, given two heterogeneous medical distributions---$\\mathbf{x}_0 \\sim \\mathcal{M}_{\\text{MRI}}$ and $\\mathbf{x}_1 \\sim \\mathcal{P}_{\\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\\theta$, where $\\theta$ denotes its network parameters and $\\mathbf{c}$ is the conditioning context containing tracer and clinical text features.",
+        "verified_pages": [
+          15
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 15,
+            "matched_text": "given two heterogeneous medical distributions x 0 m",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 347,
+            "line_end": 347,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 15,
+        "matched_text": "given two heterogeneous medical distributions x 0 m",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 347,
+        "line_end": 347,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M5",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-2",
+        "G4-CORE-5"
+      ],
+      "status": "corrected quotation selection",
+      "original": "For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.",
+      "revised": "We performed paired two-sided $t$-tests to compare normalized regional uptake between real and Syn-PET images within each ROI, both across the overall cohorts and within individual diagnostic groups.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-5",
+      "source_line": 341,
+      "pdf_location": {
+        "position_id": "G4-CORE-5",
+        "excerpt_latex": "We performed paired two-sided $t$-tests to compare normalized regional uptake between real and Syn-PET images within each ROI, both across the overall cohorts and within individual diagnostic groups.",
+        "verified_pages": [
+          20
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 20,
+            "matched_text": "we performed paired two sided t tests to",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 522,
+            "line_end": 522,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 20,
+        "matched_text": "we performed paired two sided t tests to",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 522,
+        "line_end": 522,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M6",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-ROI-NAMES"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.",
+      "revised": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-ROI-NAMES",
+      "source_line": 336,
+      "pdf_location": {
+        "position_id": "G4-ROI-NAMES",
+        "excerpt_latex": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+        "verified_pages": [
+          20
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 20,
+            "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 515,
+            "line_end": 516,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 20,
+        "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 515,
+        "line_end": 516,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M7",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-PREPROCESSING",
+        "G4-CORE-1",
+        "G4-ROI-NAMES"
+      ],
+      "status": "corrected quotation selection",
+      "original": "To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.",
+      "revised": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-1",
+      "source_line": 130,
+      "pdf_location": {
+        "position_id": "G4-CORE-1",
+        "excerpt_latex": "To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\\cite{synthseg}, and the resulting Desikan--Killiany and \\textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.",
+        "verified_pages": [
+          6
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 6,
+            "matched_text": "to assess regional uptake patterns the corresponding t1",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 148,
+            "line_end": 148,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 6,
+        "matched_text": "to assess regional uptake patterns the corresponding t1",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 148,
+        "line_end": 148,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M8",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M9",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M10",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M11",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M12",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-PREPROCESSING",
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "corrected quotation selection",
+      "original": "To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.",
+      "revised": "Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\\cite{spm,friston1995spatial}, with identical transformation matrices applied to preserve cross-modality alignment.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-PREPROCESSING",
+      "source_line": 305,
+      "pdf_location": {
+        "position_id": "G2-PREPROCESSING",
+        "excerpt_latex": "Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\\cite{spm,friston1995spatial}, with identical transformation matrices applied to preserve cross-modality alignment.",
+        "verified_pages": [
+          18
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 18,
+            "matched_text": "both modalities were jointly affinely normalized to the",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 440,
+            "line_end": 441,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 18,
+        "matched_text": "both modalities were jointly affinely normalized to the",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 440,
+        "line_end": 441,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M13",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-ROI-NAMES",
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "corrected quotation selection",
+      "original": "Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.",
+      "revised": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-ROI-NAMES",
+      "source_line": 336,
+      "pdf_location": {
+        "position_id": "G4-ROI-NAMES",
+        "excerpt_latex": "FDG regions included the bilateral hippocampus, isthmus cingulate cortex and supramarginal gyrus (atlas labels \\texttt{Left-Hippocampus}, \\texttt{Right-Hippocampus}, and the \\texttt{ctx-lh-}/\\allowbreak\\texttt{ctx-rh-} labels with suffixes \\texttt{isthmuscingulate} and \\texttt{supramarginal})~\\cite{mosconi2005reduced,he2015meta,strom2022cortical}.",
+        "verified_pages": [
+          20
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 20,
+            "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 515,
+            "line_end": 516,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 20,
+        "matched_text": "fdg regions included the bilateral hippocampus isthmus cingulate",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 515,
+        "line_end": 516,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M14",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G3-RESULTS-INTRO",
+        "G3-DDIM-REFERENCE",
+        "BIB-MANUSCRIPT"
+      ],
+      "status": "corrected quotation selection",
+      "original": "PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).",
+      "revised": "\\textbf{3D DDIM}~\\cite{song2021ddim,pinaya2023generative}: A deterministic fast-sampling variant of 3D diffusion models, implemented using a 3D diffusion-model U-Net and a DDIM scheduler for the historical synthesis comparison.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G3-DDIM-REFERENCE",
+      "source_line": 320,
+      "pdf_location": {
+        "position_id": "G3-DDIM-REFERENCE",
+        "excerpt_latex": "\\textbf{3D DDIM}~\\cite{song2021ddim,pinaya2023generative}: A deterministic fast-sampling variant of 3D diffusion models, implemented using a 3D diffusion-model U-Net and a DDIM scheduler for the historical synthesis comparison.",
+        "verified_pages": [
+          19
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 19,
+            "matched_text": "a deterministic fast sampling variant of 3d diffusion",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 476,
+            "line_end": 476,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 19,
+        "matched_text": "a deterministic fast sampling variant of 3d diffusion",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 476,
+        "line_end": 476,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M15",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-DATA-AVAILABILITY"
+      ],
+      "status": "corrected quotation selection",
+      "original": "The data used in this study were obtained from two research datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Open Access Series of Imaging Studies (OASIS-3).",
+      "revised": "ADNI inputs included T1-weighted MRI, $^{18}$F-FDG PET, $^{18}$F-AV45 PET, and demographic and clinical assessments; external OASIS-3 evaluation used MRI and AV45-PET.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G2-DATA-AVAILABILITY",
+      "source_line": 396,
+      "pdf_location": {
+        "position_id": "G2-DATA-AVAILABILITY",
+        "excerpt_latex": "ADNI inputs included T1-weighted MRI, $^{18}$F-FDG PET, $^{18}$F-AV45 PET, and demographic and clinical assessments; external OASIS-3 evaluation used MRI and AV45-PET.",
+        "verified_pages": [
+          24
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 24,
+            "matched_text": "adni inputs included t1 weighted mri 18 f",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 639,
+            "line_end": 640,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 24,
+        "matched_text": "adni inputs included t1 weighted mri 18 f",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 639,
+        "line_end": 640,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M16",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-ADAPTER-OBJECTIVE",
+        "G1-CROSS-ATTENTION",
+        "G6-LOSS-WEIGHTS",
+        "G6-IMPLEMENTATION-AND-EFFICIENCY"
+      ],
+      "status": "corrected quotation selection",
+      "original": "where $\\alpha_1,\\beta_1$ are scalar scales and $\\alpha_2,\\beta_2$ are 512-dimensional bias vectors.",
+      "revised": "The reconstructed generator is a four-level 3D U-Net with channels $(32,64,64,128)$, one residual block per level, cross-attention only at the deepest level, and conditioning dimension 512. It contains 9,925,921 trainable parameters, excluding the frozen BiomedCLIP encoders.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G6-IMPLEMENTATION-AND-EFFICIENCY",
+      "source_line": 360,
+      "pdf_location": {
+        "position_id": "G6-IMPLEMENTATION-AND-EFFICIENCY",
+        "excerpt_latex": "The reconstructed generator is a four-level 3D U-Net with channels $(32,64,64,128)$, one residual block per level, cross-attention only at the deepest level, and conditioning dimension 512. It contains 9,925,921 trainable parameters, excluding the frozen BiomedCLIP encoders.",
+        "verified_pages": [
+          22
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 22,
+            "matched_text": "the reconstructed generator is a four level 3d",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 588,
+            "line_end": 588,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 22,
+        "matched_text": "the reconstructed generator is a four level 3d",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 588,
+        "line_end": 588,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M17",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G1-G6-FIGURE1-CAPTION"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M18",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G4-CORE-2",
+        "G4-CORE-4",
+        "G4-FIGURE4-CAPTION"
+      ],
+      "status": "corrected quotation selection",
+      "original": "For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.",
+      "revised": "The AD--CN comparison illustrates representative differences between two diagnostic states rather than all diagnostic-group contrasts. MCI was evaluated separately through MCI-versus-CN and EMCI-versus-LMCI classification (Fig.~5B,C); the regional paired analysis also includes the original MCI categories.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G4-CORE-4",
+      "source_line": 149,
+      "pdf_location": {
+        "position_id": "G4-CORE-4",
+        "excerpt_latex": "The AD--CN comparison illustrates representative differences between two diagnostic states rather than all diagnostic-group contrasts. MCI was evaluated separately through MCI-versus-CN and EMCI-versus-LMCI classification (Fig.~\\ref{fig:5}B,C); the regional paired analysis also includes the original MCI categories.",
+        "verified_pages": [
+          9
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 9,
+            "matched_text": "the ad cn comparison illustrates representative differences between",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 190,
+            "line_end": 190,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 9,
+        "matched_text": "the ad cn comparison illustrates representative differences between",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 190,
+        "line_end": 190,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    },
+    {
+      "comment_id": "M19",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": false,
+      "action_registered_positions": [
+        "G4-FIGURE4-CAPTION",
+        "G4-FIGURE3-CAPTION",
+        "G4-SUPP-FIGURE-1",
+        "G4-SUPP-FIGURE-2",
+        "G4-SUPP-FIGURE-3",
+        "G4-SUPP-FIGURE-4",
+        "G4-SUPP-FIGURE-5",
+        "G4-SUPP-FIGURE-6",
+        "G3-FIGURE2-CAPTION",
+        "TYPESETTING-LINE-FIT",
+        "PDF-TEXT-ENCODING"
+      ],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M20",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [],
+      "status": "no changedtext retained; Response and Action checked"
+    },
+    {
+      "comment_id": "M21",
+      "reviewer_comment_unchanged": true,
+      "response_body_unchanged": true,
+      "action_registered_positions": [
+        "G2-SUPP-OASIS",
+        "G1-RESULTS-CONDITIONING"
+      ],
+      "status": "unchanged and relevant",
+      "original": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "revised": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+      "source_file": "manuscript/BMEF_main.tex",
+      "position_id": "G1-RESULTS-CONDITIONING",
+      "source_line": 94,
+      "pdf_location": {
+        "position_id": "G1-RESULTS-CONDITIONING",
+        "excerpt_latex": "Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.",
+        "verified_pages": [
+          3
+        ],
+        "verified_phrase_locations": [
+          {
+            "page": 3,
+            "matched_text": "text guidance incorporates tracer descriptions and patient information",
+            "location_basis": "unique 8-word PDF match",
+            "line_start": 88,
+            "line_end": 88,
+            "line_scope": "matched phrase only"
+          }
+        ],
+        "page": 3,
+        "matched_text": "text guidance incorporates tracer descriptions and patient information",
+        "location_basis": "unique 8-word PDF match",
+        "line_start": 88,
+        "line_end": 88,
+        "line_scope": "matched phrase only"
+      },
+      "full_source_match": true,
+      "actual_pdf_phrase_match": true,
+      "relevance_reviewed": true
+    }
+  ],
+  "scientific_stance_pending": [],
+  "scope": "Source, quotation relevance and actual PDF-location consistency only; not new scientific validation.",
+  "generation_idempotence": {
+    "passed": true,
+    "checked_files": 91,
+    "working_section_sha256": {
+      "rebuttal/sections/00_general_response.tex": "444f152192ddaf816ff6090b7e35c8c10b2cf77a1e1b25d304e5e7aa8e7b7449",
+      "rebuttal/sections/01_editor.tex": "214d26415840999689223b79374275ed46fcf3929d319014c084556db395f35b",
+      "rebuttal/sections/02_reviewer2.tex": "6d7f3127add063e74428289e5743442ec1a792fa9de186cf07b5c426015dcf68",
+      "rebuttal/sections/03_reviewer3_major.tex": "1a1294c0bd497f17d31cbbbe86b22e56b31af384faf53418869add63f516d90b",
+      "rebuttal/sections/04_reviewer3_minor.tex": "e798ad2f7f2f3d6154dace83f4f3111fadfd451b6dc684fef57ec76d59966976"
+    }
+  },
+  "prior_fragment_archives": [
+    {
+      "path": "revision_workspace/integration/amendments/REBUTTAL-02_reviewer2.tex.008.tex",
+      "matches_previous_fragment": true,
+      "newline_policy": "Existing edit_registry.amend strips trailing newlines and writes one newline.",
+      "sha256": "378ef3085dd354660c55707342feddc3ad1f5b23c21ce43ea261f21188ec3d3a"
+    },
+    {
+      "path": "revision_workspace/integration/amendments/REBUTTAL-03_reviewer3_major.tex.009.tex",
+      "matches_previous_fragment": true,
+      "newline_policy": "Existing edit_registry.amend strips trailing newlines and writes one newline.",
+      "sha256": "9f5e1902aa3a67558ad2e84e976a79187db370bea91aaf69bbf480ebc378ac47"
+    },
+    {
+      "path": "revision_workspace/integration/amendments/REBUTTAL-04_reviewer3_minor.tex.008.tex",
+      "matches_previous_fragment": true,
+      "newline_policy": "Existing edit_registry.amend strips trailing newlines and writes one newline.",
+      "sha256": "f95294283b90215b1b3580530eb0f14ee1ab76367492367f5de99891b133b9d4"
+    }
+  ]
+}

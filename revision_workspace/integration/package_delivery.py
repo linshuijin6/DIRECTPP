@@ -1,44 +1,56 @@
 """Build a local author-review delivery, with explicit public/internal separation."""
 from pathlib import Path
-import shutil,json,hashlib,subprocess,xml.etree.ElementTree as ET,difflib
+import shutil,json,hashlib,subprocess,xml.etree.ElementTree as ET,difflib,sys
 R=Path(__file__).resolve().parents[2];W=R/'revision_workspace/integration';D=R/'revision_workspace/delivery'
+reuse_figures='--reuse-verified-figures' in sys.argv[1:]
+if reuse_figures:
+ # Stage 4 does not recreate scientific figures or re-export raster panels.
+ previous=json.loads((D/'manifest.json').read_text())
+ for item in previous['files']:
+  if item['path'].startswith(('02_figures/','03_editable_sources/','04_latex_sources/manuscript/figures/')):
+   assert hashlib.sha256((D/item['path']).read_bytes()).hexdigest()==item['sha256'],('Existing figure asset changed; stop',item['path'])
+ for p in (R/'manuscript/figures').rglob('*'):
+  if p.is_file():assert p.read_bytes()==(D/'04_latex_sources/manuscript/figures'/p.relative_to(R/'manuscript/figures')).read_bytes(),('Figure source differs; stop without regeneration',str(p))
+ for p in (R/'manuscript/raw_pic').iterdir():
+  if p.is_file():assert p.read_bytes()==(D/'03_editable_sources/historical_originals'/p.name).read_bytes(),('Historical figure source differs; stop',str(p))
 for name in ['01_submission','02_figures','03_editable_sources','04_latex_sources/manuscript','04_latex_sources/rebuttal','05_internal_audit']:(D/name).mkdir(parents=True,exist_ok=True)
 def copy(src,dst):
  src=R/src if not isinstance(src,Path) else src;dst=D/dst;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dst)
 for src,dst in [('revision_workspace/build/variants/manuscript_clean.pdf','Manuscript_clean.pdf'),('revision_workspace/build/final_highlight/manuscript_highlighted.pdf','Manuscript_highlighted.pdf'),('revision_workspace/build/variants/supplementary_standalone.pdf','Supplementary_Materials.pdf'),('revision_workspace/build/rebuttal/main.pdf','Response_to_Reviewers.pdf'),('revision_workspace/build/rebuttal/cover_letter.pdf','Cover_Letter.pdf'),('revision_workspace/integration/submission_abstract.txt','submission_abstract.txt')]:copy(src,'01_submission/'+dst)
 copy('revision_workspace/build/manuscript/BMEF_main.pdf','05_internal_audit/Combined_reference_copy.pdf')
-# Figure exports. Existing PDFs retain their original intrinsic raster detail.
-for p in (R/'manuscript/figures').glob('*'):
- if p.is_file() and (p.name.startswith(('figure_','supplementary_figure_','revision_cases_','revision_roc_'))):copy(p,'02_figures/'+p.name)
-for p in (W/'figures').glob('*.png'):copy(p,'02_figures/'+p.name)
-for n in [2,3]:subprocess.run(['pdftoppm','-r','400','-singlefile','-png',str(R/f'manuscript/figures/figure_{n}.pdf'),str(D/f'02_figures/figure_{n}')],check=True)
-for tracer in ['FDG','AV45']:copy(f'reports/revision_evidence_night_20261102/R3_11_final_figures/R3_11_{tracer}_cases.png',f'02_figures/revision_cases_{tracer.lower()}.png')
-for p in (R/'manuscript/figures/editable_sources').glob('*.svg'):copy(p,'03_editable_sources/'+p.name)
-for name in ['build_primary_figures.py','build_roi_figures.py','figure_5_plot_data.csv','primary_figure_manifest.json','roi_figure_manifest.json']:copy(W/'figures'/name,'03_editable_sources/'+name)
-originals=[]
-for p in (R/'manuscript/raw_pic').iterdir():
- if p.is_file():
-  copy(p,'03_editable_sources/historical_originals/'+p.name);originals.append({'source':str(p.relative_to(R)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
-# Derive individual native pages without rasterizing or changing the original mxfile.
-x=ET.parse(R/'manuscript/raw_pic/1103.drawio').getroot()
-for name in ['FIG2','FIG3']:
- page=next(p for p in x if p.get('name')==name);out=ET.Element(x.tag,x.attrib);out.append(ET.fromstring(ET.tostring(page)));ET.ElementTree(out).write(D/f'03_editable_sources/{name}.drawio',encoding='utf-8',xml_declaration=True)
-(D/'03_editable_sources/source_receipt.json').write_text(json.dumps({'historical_originals':originals,'derived_drawio_pages':['FIG2','FIG3'],'warning':'Historical composite raster panels remain raster assets; the supplied originals do not certify full vector editability of every panel. High-DPI PNG export does not recover absent raster detail. Recreated ROI figure sources are the author-designated shuijin family, not exact historical drawing files.'},ensure_ascii=False,indent=2)+'\n')
+if not reuse_figures:
+ # Figure exports. Existing PDFs retain their original intrinsic raster detail.
+ for p in (R/'manuscript/figures').glob('*'):
+  if p.is_file() and (p.name.startswith(('figure_','supplementary_figure_','revision_cases_','revision_roc_'))):copy(p,'02_figures/'+p.name)
+ for p in (W/'figures').glob('*.png'):copy(p,'02_figures/'+p.name)
+ for n in [2,3]:subprocess.run(['pdftoppm','-r','400','-singlefile','-png',str(R/f'manuscript/figures/figure_{n}.pdf'),str(D/f'02_figures/figure_{n}')],check=True)
+ for tracer in ['FDG','AV45']:copy(f'reports/revision_evidence_night_20261102/R3_11_final_figures/R3_11_{tracer}_cases.png',f'02_figures/revision_cases_{tracer.lower()}.png')
+ for p in (R/'manuscript/figures/editable_sources').glob('*.svg'):copy(p,'03_editable_sources/'+p.name)
+ for name in ['build_primary_figures.py','build_roi_figures.py','figure_5_plot_data.csv','primary_figure_manifest.json','roi_figure_manifest.json']:copy(W/'figures'/name,'03_editable_sources/'+name)
+ originals=[]
+ for p in (R/'manuscript/raw_pic').iterdir():
+  if p.is_file():
+   copy(p,'03_editable_sources/historical_originals/'+p.name);originals.append({'source':str(p.relative_to(R)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+ # Derive individual native pages without rasterizing or changing the original mxfile.
+ x=ET.parse(R/'manuscript/raw_pic/1103.drawio').getroot()
+ for name in ['FIG2','FIG3']:
+  page=next(p for p in x if p.get('name')==name);out=ET.Element(x.tag,x.attrib);out.append(ET.fromstring(ET.tostring(page)));ET.ElementTree(out).write(D/f'03_editable_sources/{name}.drawio',encoding='utf-8',xml_declaration=True)
+ (D/'03_editable_sources/source_receipt.json').write_text(json.dumps({'historical_originals':originals,'derived_drawio_pages':['FIG2','FIG3'],'warning':'Historical composite raster panels remain raster assets; the supplied originals do not certify full vector editability of every panel. High-DPI PNG export does not recover absent raster detail. Recreated ROI figure sources are the author-designated shuijin family, not exact historical drawing files.'},ensure_ascii=False,indent=2)+'\n')
 # Portable LaTeX inputs; no tools, data archives, subject CSVs or Notion exports are copied.
 for p in [R/'manuscript/references.bib',R/'manuscript/BMEF_main.tex']:copy(p,'04_latex_sources/manuscript/'+p.name)
 shutil.copytree(R/'manuscript/supplementary',D/'04_latex_sources/manuscript/supplementary',dirs_exist_ok=True)
-shutil.copytree(R/'manuscript/figures',D/'04_latex_sources/manuscript/figures',dirs_exist_ok=True)
+if not reuse_figures:shutil.copytree(R/'manuscript/figures',D/'04_latex_sources/manuscript/figures',dirs_exist_ok=True)
 for name in ['manuscript_clean.tex','supplementary_standalone.tex','manuscript_highlighted.tex','supplementary_labels.tex','main_labels.tex','references_highlighted.bib']:
  s=(W/'derived'/name).read_text().replace('../revision_workspace/integration/derived/','');(D/'04_latex_sources/manuscript'/name).write_text(s)
 for p in (R/'rebuttal').glob('*.tex'):copy(p,'04_latex_sources/rebuttal/'+p.name)
 copy('rebuttal/references.bib','04_latex_sources/rebuttal/references.bib');shutil.copytree(R/'rebuttal/sections',D/'04_latex_sources/rebuttal/sections',dirs_exist_ok=True)
-for name in ['position_registry.csv','comment_position_map.csv','candidate_disposition.csv','response_changes.csv','response_source_manifest.json','final_pdf_locations.json','location_verification.json','addition_disposition.csv','g8_verification.json','editor_requirements_status.json']:copy(W/name,'05_internal_audit/'+name)
+for name in ['position_registry.csv','comment_position_map.csv','candidate_disposition.csv','response_changes.csv','response_source_manifest.json','final_pdf_locations.json','location_verification.json','addition_disposition.csv','g8_verification.json','editor_requirements_status.json','rebuttal_excerpt_selections.json','quotation_pdf_locations.json','stage4_alignment_audit.json','stage4_build_receipt.json']:copy(W/name,'05_internal_audit/'+name)
 copy('revision_workspace/verification/FINAL_VALIDATION.json','05_internal_audit/FINAL_VALIDATION.json')
 for name in ['manuscript','rebuttal']:
  a=(W/f'baseline/{name}/references.bib').read_text();b=(R/name/'references.bib').read_text();(D/f'05_internal_audit/{name}_bibliography.diff').write_text(''.join(difflib.unified_diff(a.splitlines(True),b.splitlines(True),fromfile='preserved baseline',tofile='integrated bibliography')))
 (D/'README.md').write_text('''# BMEF-D-26-00169 本地整合交付
 
-本包用于作者验收；尚未向期刊提交。01_submission 为投稿候选文件；02_figures 为单独图件；03_editable_sources 含新 SVG、重绘脚本及保留的历史 drawio/PPTX（重绘脚本依赖本仓库证据文件，未复制受试者CSV或影像）。04_latex_sources 为构建源码。05_internal_audit 仅用于本地追溯，请勿整目录上传投稿系统。
+本包用于作者验收；尚未向期刊提交。Stage 4 已从前三阶段确认源码重新构建并核验引文及实际 PDF 位置；工程一致性验证不代表新增科学结论已获证明。01_submission 为投稿候选文件；02_figures 为单独图件；03_editable_sources 含新 SVG、重绘脚本及保留的历史 drawio/PPTX（重绘脚本依赖本仓库证据文件，未复制受试者CSV或影像）。04_latex_sources 为构建源码。05_internal_audit 仅用于本地追溯，请勿整目录上传投稿系统。
 
 - Clean 稿仅含正文和参考文献，Supplementary 为独立 PDF。高亮稿包含补充材料；蓝色为新增、红色为删除，以保存的本轮整合前稿为基线。高亮专用Bib保留两条基线旧引用以排印已删除内容；clean稿不含这些弃用条目。
 - Rebuttal 页码以 Combined_reference_copy 为统一参照，同时列出独立 Supplementary 页码。页码从实际 PDF/aux 获取；行号只标识核验到的短语，不冒充整段范围。
@@ -56,3 +68,14 @@ for p in sorted(D.rglob('*')):
  if p.is_file() and p.name!='manifest.json':files.append({'path':str(p.relative_to(D)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 (D/'manifest.json').write_text(json.dumps({'purpose':'local author review; no submission performed','files':files},ensure_ascii=False,indent=2)+'\n')
 print('Packaged',len(files),'files; total MB',round(sum(x['bytes'] for x in files)/1e6,2))
+
+# Read back the delivery: source copies and built PDFs must be exact before publication.
+for area in ['manuscript','rebuttal']:
+ for source in (R/area).rglob('*.tex'):
+  if area=='rebuttal' and 'sections' not in source.parts and source.parent!=R/area:continue
+  relative=source.relative_to(R/area);dest=D/'04_latex_sources'/area/relative
+  assert dest.exists() and dest.read_bytes()==source.read_bytes(),('Delivery source mismatch',str(relative))
+for item in files:assert hashlib.sha256((D/item['path']).read_bytes()).hexdigest()==item['sha256'],item['path']
+report={'passed':True,'files':len(files),'size_bytes':sum(x['bytes'] for x in files),'hash_mismatches':[],'manifest_sha256':hashlib.sha256((D/'manifest.json').read_bytes()).hexdigest(),'submission_pdfs':[x['path'] for x in files if x['path'].startswith('01_submission/') and x['path'].endswith('.pdf')],'figure_assets_reused_unchanged':reuse_figures,'scope':'Copy/build consistency only; no online submission or scientific certification.'}
+(R/'revision_workspace/verification/DELIVERY_VALIDATION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print('Delivery source and manifest readback passed.')

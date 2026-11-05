@@ -1,7 +1,7 @@
 \documentclass{article}
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/baseline_flat.tex   Wed Nov  4 01:00:24 2026
-%DIF ADD /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/current_flat.tex    Wed Nov  4 01:00:25 2026
+%DIF DEL /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/baseline_flat.tex   Thu Nov  5 19:29:11 2026
+%DIF ADD /mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/current_flat.tex    Thu Nov  5 19:29:11 2026
 
 \usepackage[utf8]{inputenc}
 \usepackage{authblk}
@@ -79,7 +79,7 @@
 \RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
 \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf} %DIF PREAMBLE
 \providecommand{\DIFaddtex}[1]{{\protect\color{blue} \sf #1}} %DIF PREAMBLE
-\providecommand{\DIFdeltex}[1]{{\protect\color{red} \scriptsize #1}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red} \ifmmode #1\else\scriptsize #1\fi}} %DIF PREAMBLE
 %DIF SAFE PREAMBLE %DIF PREAMBLE
 \providecommand{\DIFaddbegin}{} %DIF PREAMBLE
 \providecommand{\DIFaddend}{} %DIF PREAMBLE
@@ -163,7 +163,7 @@
 \begin{abstract}
 \noindent\textbf{Objective:} \DIFdelbegin \DIFdel{Here, we introduce }\DIFdelend \DIFaddbegin \DIFadd{To evaluate }\DIFaddend DIReCT$++$, a \DIFdelbegin \DIFdel{Domain-Informed ReCTified flow model for synthesizing multi-tracer PET from MRI combined with fundamental clinical information}\DIFdelend \DIFaddbegin \DIFadd{domain-informed rectified flow framework for synthesizing FDG- and AV45-PET from MRI and clinical text inputs}\DIFaddend .
 
-\noindent\textbf{Impact Statement:} This work \DIFdelbegin \DIFdel{advances a scalable, data-efficient tool for the early diagnosis and prognostic prediction of AD}\DIFdelend \DIFaddbegin \DIFadd{evaluates multi-tracer synthesis and cross-sectional MCI stage discrimination, with explicit limits on clinical and prognostic interpretation}\DIFaddend .
+\noindent\textbf{Impact Statement:} This work \DIFdelbegin \DIFdel{advances a scalable, data-efficient tool for the early diagnosis and prognostic prediction of AD}\DIFdelend \DIFaddbegin \DIFadd{evaluates multi-tracer PET synthesis and cross-sectional MCI stage discrimination using a shared tracer-conditioned framework}\DIFaddend .
 
 \noindent\textbf{Introduction:} \DIFdelbegin \DIFdel{The biological definition of Alzheimer's disease (AD) relies on multi-modal neuroimaging, yet the clinical utility of positron emission tomography (PET ) is limited by costand radiation exposure , hindering early screening at preclinical or prodromal stages. While generative models offer a promising alternative by synthesizing PET from magnetic resonance imaging (MRI), achieving subject-specific precision remains a primary challenge}\DIFdelend \DIFaddbegin \DIFadd{PET cost, radiation exposure and limited accessibility motivate MRI-based synthesis, but image similarity alone does not establish individual molecular validity}\DIFaddend .
 
@@ -180,7 +180,7 @@
 \section{Introduction}
 Alzheimer's disease (AD), the most prevalent neurodegenerative disorder, constitutes a mounting global health crisis. Its pathological processes begin years before clinical dementia manifests, making the prodromal stage of mild cognitive impairment (MCI) a critical window for intervention~\cite{scheltens2021alzheimer}. However, the heterogeneous nature of MCI, where only a subset of individuals progress to AD, poses a significant prognostic challenge~\cite{haller2023neuroimaging}. \DIFdelbegin \DIFdel{This challenge is underscored by the modern biological definition of AD , which is based on in vivo evidence of core pathologies, specifically }\DIFdelend \DIFaddbegin \DIFadd{AD evaluation uses complementary molecular, functional and structural measurements: }\DIFaddend amyloid-$\beta$ (A$\beta$) deposition \DIFdelbegin \DIFdel{(e.g., on }\DIFdelend \DIFaddbegin \DIFadd{can be assessed with }\DIFaddend $^{18}$F-AV45 PET\DIFdelbegin \DIFdel{) and neuronal injury (e.g., }\DIFdelend \DIFaddbegin \DIFadd{, glucose-metabolic dysfunction with }\DIFaddend $^{18}$F-FDG PET\DIFdelbegin \DIFdel{hypometabolism), }\DIFdelend \DIFaddbegin \DIFadd{, and associated atrophy }\DIFaddend with structural MRI\DIFdelbegin \DIFdel{quantifying associated atrophy}\DIFdelend ~\cite{ossenkoppele2022amyloid,yan2021sex,haller2023neuroimaging}. \DIFaddbegin \DIFadd{These modalities are not interchangeable; in particular, FDG hypometabolism and MRI atrophy do not by themselves establish the biological diagnosis of AD~\cite{jack2024revised}. }\DIFaddend In clinical practice, however, the routine acquisition of PET is hampered by high cost, limited access, and radiation exposure, \DIFdelbegin \DIFdel{restricting this multi-modal biomarker profiling to research settings and hindering timely, widespread screening}\DIFdelend \DIFaddbegin \DIFadd{limiting access to complementary imaging in research and selected diagnostic workups}\DIFaddend ~\cite{nordberg2010use}.
 
-Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}. Initial studies, primarily using generative adversarial networks (GANs)~\cite{pan2018synthesizing,pan2020spatially,apostolopoulos2022applications} and, more recently, diffusion models~\cite{xie2024synthesizing,chen2025multi,theodorou2025mri2pet}, have established the feasibility of producing visually realistic PET images. Subsequent advances have sought to improve fidelity by incorporating domain knowledge, for instance, through guidance from large vision-language models (VLMs)~\cite{wang2025unisyn,liu2025direct}.  Despite these advances, a critical limitation remains: the subject-specific precision necessary for \DIFdelbegin \DIFdel{personalized diagnosis and prognostic stratification }\DIFdelend \DIFaddbegin \DIFadd{cross-sectional diagnosis and MCI stage discrimination }\DIFaddend is still lacking, which is particularly crucial for a heterogeneous condition like AD~\cite{ossenkoppele2022amyloid}. This \DIFdelbegin \DIFdel{challenges }\DIFdelend \DIFaddbegin \DIFadd{challenge }\DIFaddend stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; \DIFdelbegin \DIFdel{neurodegenration }\DIFdelend \DIFaddbegin \DIFadd{neurodegeneration }\DIFaddend visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\cite{jagust2018imaging}. Consequently, individuals with similar structural MRI presentations at early disease stages can exhibit vastly different pathological burdens, leading to ambiguous mapping. Overcoming this ambiguity requires an AI synthesis framework that can comprehensively model complex cross-modal and cross-tracer associations to provide strong, patient-specific guidance.
+Generative artificial intelligence (AI) offers \DIFdelbegin \DIFdel{a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers }\DIFdelend \DIFaddbegin \DIFadd{methods for estimating PET images }\DIFaddend from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}. Initial studies, primarily using generative adversarial networks (GANs)~\cite{pan2018synthesizing,pan2020spatially,apostolopoulos2022applications} and, more recently, diffusion models~\cite{xie2024synthesizing,chen2025multi,theodorou2025mri2pet}, have established the feasibility of producing visually realistic PET images. Subsequent advances have sought to improve fidelity by incorporating domain knowledge, for instance, through guidance from large vision-language models (VLMs)~\cite{wang2025unisyn,liu2025direct}.  \DIFdelbegin \DIFdel{Despite these advances, a critical limitation remains: the }\DIFdelend \DIFaddbegin \DIFadd{However, visual realism alone does not establish }\DIFaddend subject-specific \DIFdelbegin \DIFdel{precision necessary for personalized diagnosis and prognostic stratification is still lacking, which is particularly crucial for }\DIFdelend \DIFaddbegin \DIFadd{accuracy for cross-sectional diagnosis or MCI stage discrimination, particularly in }\DIFaddend a heterogeneous condition \DIFdelbegin \DIFdel{like }\DIFdelend \DIFaddbegin \DIFadd{such as }\DIFaddend AD~\cite{ossenkoppele2022amyloid}. This \DIFdelbegin \DIFdel{challenges }\DIFdelend \DIFaddbegin \DIFadd{challenge }\DIFaddend stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; \DIFdelbegin \DIFdel{neurodegenration }\DIFdelend \DIFaddbegin \DIFadd{neurodegeneration }\DIFaddend visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\cite{jagust2018imaging}. Consequently, individuals with similar structural MRI presentations at early disease stages can exhibit vastly different pathological burdens, leading to ambiguous mapping. \DIFdelbegin \DIFdel{Overcoming this ambiguity requires an AI synthesis framework that can comprehensively model complex cross-modal and cross-tracer associations to provide strong, }\DIFdelend \DIFaddbegin \DIFadd{We therefore investigate }\DIFaddend patient-specific \DIFdelbegin \DIFdel{guidance}\DIFdelend \DIFaddbegin \DIFadd{clinical and tracer information as complementary conditioning for MRI-to-PET synthesis}\DIFaddend .
 
 \DIFdelbegin \DIFdel{To this end, we propose }\DIFdelend \DIFaddbegin \DIFadd{Building upon single-tracer DIReCT~\cite{liu2025direct}, }\DIFaddend DIReCT$++$ (Domain-Informed ReCTified flow) \DIFdelbegin \DIFdel{, a VLM-modulated generative model for the high-fidelity synthesis of patient-specific, multi-tracer PET images from baseline MRI and textual guidance. The DIReCT$++$ framework is built on two core innovations. First, it employs an efficient }\DIFdelend \DIFaddbegin \DIFadd{extends }\DIFaddend 3D rectified flow \DIFdelbegin \DIFdel{architecture to directly capture the complex, high-dimensional relationships between MRI and multi-tracer PET (specifically $^{18}$F-AV-45 and $^{18}$F-FDG), enabling concurrent and rapid generation . Second, to achieve subject-specific precision, the model is conditioned via a VLM (}\DIFdelend \DIFaddbegin \DIFadd{to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes. A second extension is lightweight affine adaptation of }\DIFaddend BiomedCLIP~\cite{zhang2025multimodal}\DIFdelbegin \DIFdel{) with application-dedicated adaptations. This domain-adapted VLM integrates fundamental patient knowledge (encoded as }\DIFdelend \DIFaddbegin \DIFadd{-derived tracer features using text--PET alignment and a cross-tracer soft similarity target. We distinguish this adaptation formulation from reconstructed generator configurations using raw frozen tracer vectors. The framework combines tracer knowledge with }\DIFaddend patient-specific clinical \DIFdelbegin \DIFdel{assessments and tracer-specific imaging domain knowledge) to guide the synthesis process, ensuring the generated PET images reflect individual pathological states rather than population averages. By reconciling an efficient generative process with precise, text-based patient conditioning, our approach directly addresses the ill-posed nature of cross-modal synthesis in heterogeneous disease populations}\DIFdelend \DIFaddbegin \DIFadd{text and learned one-step inference. Its components are evaluated with configuration-specific comparisons rather than assumed to resolve the biological ambiguity of MRI-to-PET translation}\DIFaddend .
 
@@ -204,14 +204,14 @@ DIReCT$++$ is a VLM-modulated rectified flow framework that synthesizes \DIFdelb
     \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Overview of the DIReCT$++$ framework for multimodal PET synthesis and downstream analysis.}
 %DIFDELCMD < (A) Schematic of the rectified flow (RF) process that synthesizes dual-tracer $^{18}$F-AV-45 and $^{18}$F-FDG PET images from MRI. (B) Fine-tuning of the pre-trained BiomedCLIP model via prompt learning to encode tracer-specific and subject-level text guidance. (C) Training pipeline of the conditional 3D RF model implemented as a multi-task U-Net that predicts velocity fields for both tracers. (D) One-step inference process that simultaneously generates synthetic AV45- and FDG-PET from MRI and textual input. (E) Downstream analytical tasks, including statistical analysis, early diagnosis, and stratification, demonstrating the clinical applicability of the synthesized PET images.}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Overview of the DIReCT$++$ framework for multimodal PET synthesis and downstream analysis.}
-(A) Tracer-conditioned rectified flow from MRI to FDG- or AV45-PET. (B) Lightweight affine fine-tuning of tracer guidance derived from frozen BiomedCLIP encoders. The symbols $\alpha$ and $\beta$ denote FDG adapter parameters $(\alpha_1,\alpha_2)$ and AV45 adapter parameters $(\beta_1,\beta_2)$, respectively; these adaptations are separate from the raw tracer embeddings used by the reconstructed Full generation experiments. (C) A shared conditional 3D U-Net predicts velocity fields for the requested tracer. (D) Learned one-step PET estimation by residual addition of the predicted velocity to MRI; each forward pass produces one tracer. (E) Image-quality, regional uptake and cross-sectional classification analyses. These analyses do not establish clinical replacement of PET.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Overview of the DIReCT$++$ framework for multimodal PET synthesis and downstream analysis.}
+(A) Tracer-conditioned rectified flow from MRI to FDG- or AV45-PET. (B) Lightweight affine fine-tuning of tracer guidance derived from frozen BiomedCLIP encoders. The symbols $\alpha$ and $\beta$ denote FDG adapter parameters $(\alpha_1,\alpha_2)$ and AV45 adapter parameters $(\beta_1,\beta_2)$, respectively; these adaptations are separate from the raw tracer embeddings used by the reconstructed Full generation experiments. (C) A shared conditional 3D U-Net predicts velocity fields for the requested tracer. (D) Learned one-step PET estimation by residual addition of the predicted velocity to MRI; each forward pass produces one tracer. (E) Image-quality, regional uptake and cross-sectional classification analyses.}}
     \DIFaddendFL \label{fig:1}
 \end{figure}
 
-\subsection{\DIFdelbegin \DIFdel{Superior Fidelity and Generalizability of Synthesized }\DIFdelend PET \DIFdelbegin %DIFDELCMD < \MBLOCKRIGHTBRACE
+\DIFdelbegin \par\noindent\DIFdel{\textbf{Superior Fidelity and Generalizability of Synthesized PET}}\par
 %DIFDELCMD < %%%
-\DIFdel{We rigorously evaluated the multi-tracer PET synthesis performance of DIReCT$++$ against a comprehensive suite of representative methods, including generative adversarial networks (CycleGAN~\cite{zhu2017unpaired}), transformer-based architectures (Swin-UNet~\cite{Cao2021swin}), and diffusion/flow-based models (SegGuidedDif ~\cite{konz2024anatomically}, 3D DDIM~\cite{Graf2023}, 3D RF ~\cite{Xing2022}), alongside our baseline model, DIReCT~\cite{liu2025direct}, which performs mono-tracer generation without prompt adaptation. Image quality was quantified }\DIFdelend \DIFaddbegin \DIFadd{Synthesis Quality and External Evaluation}}
+\DIFdel{We rigorously evaluated the multi-tracer PET synthesis performance of DIReCT$++$ against a comprehensive suite of representative methods, including generative adversarial networks (CycleGAN~\cite{zhu2017unpaired}), transformer-based architectures (Swin-UNet~\cite{Cao2021swin}), and diffusion/flow-based models (SegGuidedDif ~\cite{konz2024anatomically}, 3D DDIM~\cite{Graf2023}, 3D RF ~\cite{Xing2022}), alongside our baseline model, DIReCT~\cite{liu2025direct}, which performs mono-tracer generation without prompt adaptation. Image quality was quantified }\DIFdelend \DIFaddbegin \subsection{\texorpdfstring{\DIFadd{PET Synthesis Quality and External Evaluation}}{PET Synthesis Quality and External Evaluation}}
 \DIFadd{PET synthesis was evaluated }\DIFaddend using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) \DIFdelbegin \DIFdel{, }\DIFdelend and mean absolute error (MAE)\DIFdelbegin \DIFdel{against real PET ground truth. Models were trained on the ADNI dataset and evaluated under two settings: internally via 3-fold cross-validation on ADNI, and externally on the independent OASIS cohort (for which only$^{18}$F-AV-45 was available)}\DIFdelend \DIFaddbegin \DIFadd{. Figure~\ref{fig:2} retains the historical comparisons with CycleGAN~\cite{zhu2017unpaired}, Swin-UNet~\cite{Cao2021swin}, segmentation-guided diffusion~\cite{konz2024anatomically}, 3D DDIM~\cite{song2021ddim,pinaya2023generative}, 3D rectified flow~\cite{Xing2022} and single-tracer DIReCT~\cite{liu2025direct}. Absolute historical aggregate values are given in Table~\ref{tab:historical_generation}; subject-level statistics were not recoverable for every historical method and are not reconstructed from these aggregates.
 PET synthesis used two-fold ADNI evaluation; historical external evaluation used OASIS-3 AV45 only. The reconstructed OOF comparisons and their statistical protocols are reported separately from the historical Figure~\ref{fig:2} summaries}\DIFaddend .
 
@@ -236,7 +236,7 @@ Our model sustained its leading performance, achieving a mean PSNR of $26.79$ dB
 %DIFDELCMD < (C) Generalization to OASIS using models trained on ADNI. Rows: CN and AD subjects. Our method yields consistently higher quantitative scores and superior visual fidelity across datasets.}
 %DIFDELCMD <     %%%
 \DIFdelendFL \DIFaddbeginFL \includegraphics[width=\textwidth,height=.62\textheight,keepaspectratio]{figure_2}
-\caption{\textbf{Historical PET synthesis comparisons and illustrative examples.} (A) Radar plots summarize the historical aggregate SSIM, MSE, MAE and PSNR values for ADNI FDG/AV45 and OASIS-3 AV45. Metric values are displayed relative to the best value among methods; absolute aggregate values and scaling conventions are listed in Table~\ref{tab:historical_generation}. These aggregates are separate from the reconstructed OOF and masked analyses. (B) Illustrative ADNI CN, MCI and AD examples with MRI, competing synthesis outputs and real PET; paired subrows show FDG and AV45. (C) Historical CN/AD OASIS-3 examples are limited to AV45. Examples were randomly selected within diagnostic groups as reported by the authors; the selection seed could not be verified from the available records. This differs from the supplemental quantile-based selection and does not establish population-level superiority.}
+\caption{{\color{blue}\textbf{Historical PET synthesis comparisons and illustrative examples.} (A) Radar plots summarize the historical aggregate SSIM, MSE, MAE and PSNR values for ADNI FDG/AV45 and OASIS-3 AV45. Metric values are displayed relative to the best value among methods; absolute aggregate values and scaling conventions are listed in Table~\ref{tab:historical_generation}. These aggregates are separate from the reconstructed OOF and masked analyses. (B) Illustrative ADNI CN, MCI and AD examples with MRI, competing synthesis outputs and real PET; paired subrows show FDG and AV45. (C) Historical CN/AD OASIS-3 examples are limited to AV45. Examples were randomly selected within diagnostic groups as reported by the authors; the selection seed could not be verified from the available records. This differs from the supplemental quantile-based selection and does not establish population-level superiority.}}
 \DIFaddendFL \label{fig:2}
 \end{figure}
 
@@ -248,7 +248,7 @@ Our model sustained its leading performance, achieving a mean PSNR of $26.79$ dB
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{llllll}
-\caption{Absolute historical Figure 2 summary values}\label{tab:historical_generation}\\
+\caption{{\color{blue}Absolute historical Figure 2 summary values}}\label{tab:historical_generation}\\
 \toprule
 cohort & method & SSIM\_percent & PSNR & MSE\_percent & MAE\_percent \\
 \midrule
@@ -301,13 +301,13 @@ To assess \DIFdelbegin \DIFdel{the clinical validity of the synthesized PET imag
 %DIFDELCMD < Each row corresponds to a distinct brain region, demonstrating strong regional consistency between synthetic and real PET, and clear differences between diagnostic groups.
 %DIFDELCMD < }
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}
 \textbf{Detailed regional visualization of synthetic and real PET images.}
 The figure displays magnified regional views of FDG-PET (left two columns) and AV45-PET (right two columns) for representative AD and CN subjects. 
 For each modality and group, the first sub-column shows real PET, and the second sub-column shows synthetic PET. 
 Key anatomical regions are highlighted in the bottom-right corner of each sub-column, with their names labeled at the top-center. 
 Each row corresponds to a distinct brain region. Displayed uptake values are arbitrary units after per-image min--max normalization, without anatomical reference-region normalization. Cases were randomly selected within their diagnostic groups as reported by the authors; the selection seed could not be verified from the available records. These selected cases illustrate regional appearance and do not establish population-level agreement or clinical SUV/SUVR calibration.
-}
+}}
     \DIFaddendFL \label{fig:3}
 \end{figure}
 
@@ -328,17 +328,17 @@ Critically, independent-sample $t$-tests demonstrated that the significant diffe
 
 %DIFDELCMD <     %%%
 \DIFdelendFL \DIFaddbeginFL \includegraphics[width=\textwidth,height=.62\textheight,keepaspectratio]{figure_4}
-\caption{
+\caption{{\color{blue}
 \textbf{Regional comparison of mean normalized uptake between real and MRI-synthetic PET images.}
 (A,B) Violin plots show regional mean normalized uptake (arbitrary units) across cortical and subcortical regions for real and synthetic PET, comparing AV45 (A) and FDG (B). All regional uptake values were derived from per-image min--max-normalized PET intensities without anatomical reference-region normalization.
-Panels A,B summarize the pooled available subjects without diagnostic stratification. Non-significant differences are not evidence of equivalence. (C--F) AD--CN regional comparisons. Violin plots display mean normalized uptake in AD (red) and CN (green) subjects for selected regions. Each region uses paired half-violins: upper (solid) = real PET, lower (hatched) = synthetic PET; colors match across modalities. Solid lines indicate real PET significance, dashed lines indicate synthetic PET significance. The statistical annotations in panels (C--F) follow the BH-FDR analysis: \texttt{****} corresponds to $q<10^{-4}$ and \texttt{ns} to $q\geq0.05$. (C,D) show representative regions with significant AD--CN differences for AV45 and FDG, whereas (E,F) show selected regions without significant AD--CN differences after FDR correction. Cblm-WM denotes Cerebellum-White-Matter. The figure was recreated from the author-designated regional CSVs using the reported BH-FDR reanalysis; it is not claimed to recover the exact historical drawing files. Additional regional agreement and effect-size analyses are provided in the Supplementary Materials.
-}
+Panels A,B summarize the pooled available subjects without diagnostic stratification. Non-significant differences are not evidence of equivalence. (C--F) AD--CN regional comparisons. Violin plots display mean normalized uptake in AD (red) and CN (green) subjects for selected regions. Each region uses paired half-violins: upper (solid) = real PET, lower (hatched) = synthetic PET; colors match across modalities. Solid lines indicate real PET significance, dashed lines indicate synthetic PET significance. The statistical annotations in panels (C--F) follow the BH-FDR analysis: \texttt{****} corresponds to $q<10^{-4}$ and \texttt{ns} to $q\geq0.05$. (C,D) show representative regions with significant AD--CN differences for AV45 and FDG, whereas (E,F) show selected regions without significant AD--CN differences after FDR correction. Cblm-WM denotes Cerebellum-White-Matter. Additional regional agreement and effect-size analyses are provided in the Supplementary Materials.
+}}
 \DIFaddendFL \label{fig:4}
 \end{figure}
 
-\subsection{\DIFdelbegin \DIFdel{Precise Prognostic Stratification of Mild Cognitive Impairment}%DIFDELCMD < \MBLOCKRIGHTBRACE
+\DIFdelbegin \par\noindent\DIFdel{\textbf{Precise Prognostic Stratification of Mild Cognitive Impairment}}\par
 %DIFDELCMD < %%%
-\DIFdel{To evaluate the clinical utility of the synthetic images for personalized diagnosis and prognostic stratification, we conducted classification tasks on the ADNI cohort using a 3-fold cross-validation scheme. We trained models with a DenseNet backbone~\cite{huang2017densely} to differentiate between key diagnostic pairs: (1)AD vs. CN , (2)MCI vs. CN, }\DIFdelend \DIFaddbegin \DIFadd{Diagnostic Classification }\DIFaddend and \DIFaddbegin \DIFadd{MCI Stage Discrimination}}
+\DIFdel{To evaluate the clinical utility of the synthetic images for personalized diagnosis and prognostic stratification, we conducted classification tasks on the ADNI cohort using a 3-fold cross-validation scheme. We trained models with a DenseNet backbone~\cite{huang2017densely} to differentiate between key diagnostic pairs: (1)AD vs. CN , (2)MCI vs. CN, and }\DIFdelend \DIFaddbegin \subsection{\texorpdfstring{\DIFadd{Diagnostic Classification and MCI Stage Discrimination}}{Diagnostic Classification and MCI Stage Discrimination}}
 \DIFadd{Classification used independent subject-level three-fold evaluation for AD versus CN ($n=470$), EMCI+LMCI versus CN }\DIFaddend (\DIFdelbegin \DIFdel{3)early MCI (EMCI)vs. late MCI (LMCI).
 For each task, models were trained and evaluated using various input modalities, including mono-modal (real PET, synthetic PET, or MRI alone) and multi-modal (}\DIFdelend \DIFaddbegin \DIFadd{$n=741$), and EMCI versus LMCI ($n=436$). The MCI/CN task includes EMCI and LMCI, while MCI-U is excluded. The completed analysis comprises 63 imaging and 18 clinical fits (27 task--input configurations, three folds each). Results are reported as the equally weighted fold mean $\pm$ sample s.d., alongside conditional bootstrap 95\% CIs (Table~\ref{tab:classification_summary}). This is cross-sectional MCI stage discrimination, not future conversion or longitudinal prognostic prediction.
 }
@@ -361,7 +361,7 @@ For each task, models were trained and evaluated using various input modalities,
 \DIFdelbegin \DIFdel{Crucially, the combination of baseline MRI and synthetic multi-tracer PET also enabled accurate prognostic stratification, achieving $81.96\%$ accuracy in differentiating EMCI from LMCI, compared to $77.65\%$ using MRI alone }\DIFdelend \DIFaddbegin \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth,height=0.68\textheight,keepaspectratio]{figure_5}
-\caption{\textbf{Cross-sectional classification under the revised three-fold protocol.} Rows A--C correspond to AD/CN, EMCI+LMCI/CN and EMCI/LMCI. Within each row, the five metric columns compare nine input conditions: MRI; MRI+Real FDG; MRI+Syn FDG; MRI+Real AV45; MRI+Syn AV45; MRI+Real-both; MRI+Syn-both; Clinical-only; and MRI+Clinical. Points are equally weighted three-fold means; horizontal error bars show sample s.d. in percentage points, not 95\% CIs. ACC, AUC, SEN, SPE and balanced ACC are reported with their CIs in Table~\ref{tab:classification_summary}. The results do not demonstrate longitudinal prognosis, PET equivalence or benefit independent of diagnosis-related clinical inputs.}
+\caption{{\color{blue}\textbf{Cross-sectional classification under the revised three-fold protocol.} Rows A--C correspond to AD/CN, EMCI+LMCI/CN and EMCI/LMCI. Within each row, the five metric columns compare nine input conditions: MRI; MRI+Real FDG; MRI+Syn FDG; MRI+Real AV45; MRI+Syn AV45; MRI+Real-both; MRI+Syn-both; Clinical-only; and MRI+Clinical. Points are equally weighted three-fold means; horizontal error bars show sample s.d. in percentage points, not 95\% CIs. ACC, AUC, SEN, SPE and balanced ACC are reported with their CIs in Table~\ref{tab:classification_summary}. The results do not demonstrate longitudinal prognosis, PET equivalence or benefit independent of diagnosis-related clinical inputs.}}
 \label{fig:5}
 \end{figure}
 
@@ -381,7 +381,7 @@ For each task, models were trained and evaluated using various input modalities,
 
 
 \section{Discussion}
-\DIFdelbegin \DIFdel{Our study introduces }\DIFdelend DIReCT$++$ \DIFdelbegin \DIFdel{, a VLM-modulated rectified flow framework for the precise synthesis of }\DIFdelend \DIFaddbegin \DIFadd{combines shared tracer-conditioned 3D rectified flow with biomedical text guidance for FDG- and AV45-PET synthesis from MRI. Its contribution extends the single-tracer DIReCT framework to }\DIFaddend multi-tracer \DIFdelbegin \DIFdel{PET from routine MRIunder fundamental text guidance. We demonstrate that this approach not only generates images of superior fidelity and generalizability but, more importantly, yields synthetic biomarkers that accurately recapitulate disease-specific patterns and enable precise prognostic stratification of MCI. By effectively making multi-modal biomarker profiling accessible from a single MRI, DIReCT$++$ represents a scalable, AI-empowered strategy that addresses a critical bottleneck in the early diagnosis and management of Alzheimer's disease}\DIFdelend \DIFaddbegin \DIFadd{modeling and a separately evaluated affine-adapter formulation. The evidence comprises historical aggregate comparisons, reconstructed OOF generation, normalized regional uptake statistics and a separate cross-sectional classification analysis. These sources should be interpreted within their respective input and execution identities rather than as a single verified historical run}\DIFaddend .
+\DIFdelbegin \DIFdel{Our study introduces }\DIFdelend DIReCT$++$ \DIFdelbegin \DIFdel{, a VLM-modulated rectified flow framework for the precise synthesis of }\DIFdelend \DIFaddbegin \DIFadd{combines shared tracer-conditioned 3D rectified flow with biomedical text guidance for FDG- and AV45-PET synthesis from MRI. Its contribution extends the single-tracer DIReCT framework to }\DIFaddend multi-tracer \DIFdelbegin \DIFdel{PET from routine MRIunder fundamental text guidance. We demonstrate that this approach not only generates images of superior fidelity and generalizability but, more importantly, yields synthetic biomarkers that accurately recapitulate disease-specific patterns and enable precise prognostic stratification of MCI. By effectively making multi-modal biomarker profiling accessible from a single MRI, DIReCT$++$ represents a scalable, AI-empowered strategy that addresses a critical bottleneck in the early diagnosis and management of Alzheimer's disease}\DIFdelend \DIFaddbegin \DIFadd{modeling and a separately evaluated affine-adapter formulation. We assessed image quality, normalized regional uptake and cross-sectional classification, reporting historical and reconstructed analyses separately}\DIFaddend .
 
 The \DIFdelbegin \DIFdel{superior performance of DIReCT$++$ stems from its core methodological innovations, which are designed to overcome the fundamental challenges of cross-modal medical image synthesis. First, the multi-task rectified flow (RF) architecture provides an efficient and stable framework for learning the complex, high-dimensional mapping from MRI to multi-tracer PET, enabling rapid, single-step generation of high-fidelity images. The critical innovation, however, lies in the modulation of this flow by a domain-adapted VLM. This integration directly addresses the ill-posed inverse problem of predicting molecular pathology from macrostructural anatomy. By conditioning the synthesis on patient-specific text guidance that encodes both individual clinical scores and general tracer knowledge, the model resolves the inherent ambiguity where similar MRI presentations correspond to distinct pathological states. Our results confirm this mechanism: DIReCT$++$ not only achieves superior pixel-level fidelity (Fig.~\ref{fig:2}), but also accurately recapitulates disease-specific patterns of amyloid deposition and hypometabolism (Fig.~\ref{fig:4}). Collectively, the VLM guidance and multi-task flow setting act as a powerful regularizer, steering the generation toward biologically plausible and subject-specific outcomes, thereby advancing beyond population averages to enable personalized biomarker profiling}\DIFdelend \DIFaddbegin \DIFadd{generation results show both advantages and tradeoffs. Full had better masked image-quality means than the clinical regression U-Net and MRI-only Swin-UNETR, while some AV45 error effects were small and did not imply universal individual benefit. Whole-volume comparisons favored TabularMLP for PSNR/MSE and TracerOnly for several endpoints. The adapter analysis supports control of tracer-embedding geometry, but it does not establish a causal improvement in PET generation. Fixed-weight conditioning interventions indicate that patient features can influence outputs; independently initialized Full/TracerOnly or text/tabular models do not isolate the clinical or VLM component as the sole cause of their performance differences}\DIFaddend .
 
@@ -389,7 +389,8 @@ The \DIFdelbegin \DIFdel{superior performance of DIReCT$++$ stems from its core 
 
 \DIFdelbegin \DIFdel{This capability has profound implications. It could enable widespread screening of individuals at the preclinical or prodromal stages in primary care settings, identifying those with underlying AD pathology who are most likely to benefit from disease-modifying therapies. Furthermore, the ability to serially generate synthetic PET biomarkers from longitudinal MRI without additional radiation exposure opens new avenues for cost-effective monitoring of disease progression and treatment response . DIReCT$++$ thus moves us closer to a future where multi-modal diagnostic precision is accessible as part of the standard clinical workflow, unconstrained by current resource limitations}\DIFdelend \DIFaddbegin \DIFadd{Synthetic PET may support exploratory MRI-based analyses when PET is unavailable, but clinical screening or treatment selection would require independent molecular biomarker confirmation and prospective validation. No longitudinal conversion, progressive-versus-stable MCI, survival or treatment-response endpoints were analyzed. EMCI/LMCI classification is therefore MCI stage discrimination; it does not predict an individual's progression to AD. Whether serially synthesized PET can reflect progression or treatment response remains a question for longitudinal studies}\DIFaddend .
 
-\DIFdelbegin \DIFdel{When contextualized within the field of }\DIFdelend \DIFaddbegin \DIFadd{Within }\DIFaddend medical image synthesis, \DIFdelbegin \DIFdel{the advancements of }\DIFdelend DIReCT$++$ \DIFdelbegin \DIFdel{represent a qualitative leap beyond prior approaches. While existing generative adversarial networks and diffusion models have demonstrated the feasibility of MRI-to-PET translation, they have primarily focused on achieving visual realism. DIReCT$++$ moves beyond this by achieving precise generation of subject-specific biomarkers that are clinically actionable . This is a direct consequence of its VLM-modulated architecture, which incorporates domain knowledge as a critical regularizer, a feature largely absent in preceding purely, data-driven approaches. The core principle of using a domain-adapted foundation model to guide an efficient generative process establishes a new paradigm that is extendible well beyond the synthesis of $^{18}$F-AV-45 and $^{18}$F-FDG PET. By prioritizing clinically grounded precision over mere voxel-level fidelity, our work points the way toward a new generation of AI models that are truly co-designed with clinical application in mind. }\DIFdelend \DIFaddbegin \DIFadd{evaluates disease-related regional uptake patterns and downstream classification in addition to image-level metrics. The shared flow model and biomedical conditioning provide a framework for further study, rather than establishing clinically actionable biomarkers or attributing all overall differences to one architectural component. The learned one-step approximation permits a single tracer-conditioned forward pass; measured forward latency does not constitute an end-to-end workflow or an equal-protocol speedup over competing models.
+\DIFdelbegin \DIFdel{When contextualized within the field of }\DIFdelend \DIFaddbegin \DIFadd{Within }\DIFaddend medical image synthesis, \DIFdelbegin \DIFdel{the advancements of DIReCT$++$ represent a qualitative leap beyond prior approaches. While existing generative adversarial networks and diffusion modelshave demonstrated the feasibility of MRI-to-PET translation, they have primarily focused on achieving visual realism.
+}\DIFdelend DIReCT$++$ \DIFdelbegin \DIFdel{moves beyond this by achieving precise generation of subject-specific biomarkers that are clinically actionable. This is a direct consequence of its VLM-modulated architecture, which incorporates domain knowledge as a critical regularizer, a feature largely absent in preceding purely, data-driven approaches. The core principle of using a domain-adapted foundation model to guide an efficient generative process establishes a new paradigm that is extendible well beyond the synthesis of $^{18}$F-AV-45 and $^{18}$F-FDG PET. By prioritizing clinically grounded precision over mere voxel-level fidelity, our work points the way toward a new generation of AI models that are truly co-designed with clinical application in mind. }\DIFdelend \DIFaddbegin \DIFadd{evaluates disease-related regional uptake patterns and downstream classification in addition to image-level metrics. The learned one-step approximation permits a single tracer-conditioned forward pass; measured forward latency does not constitute an end-to-end workflow or an equal-protocol speedup over competing models.
 }\DIFaddend 
 
 %DIF <  Limitations
@@ -405,8 +406,7 @@ First, the current text guidance relies on fundamental patient information and i
 }
 
 \DIFadd{The deterministic one-step formulation provides a single output per input without calibrated }\DIFaddend subject-level \DIFdelbegin \DIFdel{precision, necessitating the development of targeted cross-modal pretraining or prompt-learning strategies. Second, while DIReCT$++$ synthesizes $^{18}$F-AV-45 and $^{18}$F-FDG, extending the framework to include tau-PET imaging would provide a more comprehensive biomarker profile for sensitive screening at the preclinical stage.
-Third, to maximize clinical utility, future iterations could integrate downstream task guidance (e. g. , diagnosis or prognosis labels) directly into the generative model, enabling controllable synthesis~\cite{wang2025flexibly,chang2025controllable} tailored for specific clinical decisions.
-Finally, the evaluation was conducted on well-characterized but limited research cohorts (ADNI, OASIS)}\DIFdelend \DIFaddbegin \DIFadd{predictive uncertainty. An MSE-trained deterministic model may represent an average conditional mapping and cannot guarantee recovery of individual molecular pathology from MRI and text. Ensemble or stochastic uncertainty estimation remains future work. Not all requested single-component ablations or matched one-step/multistep evaluations were completed. The fixed-model bootstrap intervals do not quantify training-seed or split variability.
+Third, to maximize clinical utility, future iterations could integrate downstream task guidance (e. g. , diagnosis or prognosis labels) directly into the generative model, enabling controllable synthesis~\cite{wang2025flexibly,chang2025controllable} tailored for specific clinical decisions. Finally, the evaluation was conducted on well-characterized but limited research cohorts (ADNI, OASIS)}\DIFdelend \DIFaddbegin \DIFadd{predictive uncertainty. An MSE-trained deterministic model may represent an average conditional mapping and cannot guarantee recovery of individual molecular pathology from MRI and text. Ensemble or stochastic uncertainty estimation remains future work. The available comparisons do not isolate every model component or establish the quality--latency tradeoff between one-step and multistep sampling. The fixed-model bootstrap intervals do not quantify training-seed or split variability.
 }
 
 \DIFadd{External evaluation was limited to historical AV45 synthesis in OASIS-3 CN/AD, with age differences and incomplete run-specific prompt records; FDG and MCI external generalizability remain unestablished}\DIFaddend . Prospective validation \DIFdelbegin \DIFdel{on more diverse , real-world clinical populations(including data from thick-slice or low-field MRI ~\cite{sorby2024portable}) is essential to fully establish the generalizability and robustness of the framework}\DIFdelend \DIFaddbegin \DIFadd{in more diverse clinical populations, including alternative MRI acquisitions~\cite{sorby2024portable}, is needed. Additional clinical modalities such as blood biomarkers~\cite{hansson2023blood} may provide complementary information, but their incremental value must be evaluated independently. The 2024 Alzheimer's Association criteria emphasize biological diagnosis using validated core biomarkers, including amyloid PET and sufficiently accurate blood-based assays such as plasma p-tau217~\cite{jack2024revised}. Synthetic PET has not been validated as a substitute for molecular confirmation, and its added value relative to those biomarker assessments remains to be determined}\DIFaddend .
@@ -476,7 +476,7 @@ where \DIFdelbegin \DIFdel{$\operatorname{sim}(\cdot, \cdot)$ denotes }\DIFdelen
 
 
 \subsubsection{Rectified Flow}
-The core of DIReCT$++$ is a continuous generative dynamics framework grounded in the principle of rectified flow, designed to construct a near-optimal, domain-informed trajectory that minimizes sampling complexity while preserving the structural and semantic fidelity of medical image synthesis. Specifically, given two heterogeneous medical distributions---$\mathbf{x}_0 \sim \mathcal{M}_{\text{MRI}}$ and $\mathbf{x}_1 \sim \mathcal{P}_{\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\theta$\DIFdelbegin \DIFdel{denotes the }\DIFdelend \DIFaddbegin \DIFadd{, where $\theta$ denotes its }\DIFaddend network parameters and \DIFdelbegin \DIFdel{$c$ encodes modality-specific contextual cues (e.g., anatomical priors or clinical metadata)}\DIFdelend \DIFaddbegin \DIFadd{$\mathbf{c}$ is the conditioning context containing tracer and clinical text features}\DIFaddend . This velocity field, parameterized by a U-Net architecture tailored for high-dimensional medical imagery, governs the continuous transport of samples along a deterministic path governed by an ordinary differential equation (ODE):
+\DIFdelbegin \DIFdel{The core of }\DIFdelend DIReCT$++$ \DIFdelbegin \DIFdel{is a continuous generative dynamics framework grounded in the principle of rectified flow , designed to construct a near-optimal, domain-informed trajectory that minimizes sampling complexity while preserving the structural and semantic fidelity of medical image synthesis}\DIFdelend \DIFaddbegin \DIFadd{models MRI-to-PET translation using a conditional rectified flow velocity field}\DIFaddend . Specifically, given two heterogeneous medical distributions---$\mathbf{x}_0 \sim \mathcal{M}_{\text{MRI}}$ and $\mathbf{x}_1 \sim \mathcal{P}_{\text{PET}}$ (multi-tracer)---we model the transformation between them via a learnable velocity field $V_\theta$\DIFdelbegin \DIFdel{denotes the }\DIFdelend \DIFaddbegin \DIFadd{, where $\theta$ denotes its }\DIFaddend network parameters and \DIFdelbegin \DIFdel{$c$ encodes modality-specific contextual cues (e.g., anatomical priors or clinical metadata)}\DIFdelend \DIFaddbegin \DIFadd{$\mathbf{c}$ is the conditioning context containing tracer and clinical text features}\DIFaddend . This velocity field, parameterized by a U-Net architecture tailored for high-dimensional medical imagery, governs the continuous transport of samples along a deterministic path governed by an ordinary differential equation (ODE):
 \begin{equation}
 \frac{d\mathbf{x}_t}{dt} = V_\theta\big(\mathbf{x}_t,\, \mathbf{c},\, t\big), \quad t \in [0, 1].
 \label{eq:rf_ode}
@@ -495,7 +495,7 @@ The core of DIReCT$++$ is a continuous generative dynamics framework grounded in
 \end{equation}
 where \DIFdelbegin \DIFdel{$m \in \{f, a\}$ denotes the target PET tracer ($f$: FDG ; $a$: }\DIFdelend \DIFaddbegin \DIFadd{$m\in\{f,a\}$ indicates FDG or }\DIFaddend AV45\DIFdelbegin \DIFdel{). Here, $\text{Adapt}_m(c_m)$ is the fixed guidance embedding obtained from the alignment optimization, and $c_{\text{demo}} $ is a frozen BiomedCLIP text embedding derived from a standardized clinical prompt encoding the individual’s demographic and cognitive profile (e.g., }\DIFdelend \DIFaddbegin \DIFadd{. The raw tracer text feature is $c_m$ and its affine-adapted form is $Adapt_m(c_m)$; $g_m$ denotes the feature actually supplied by the specified configuration. In the reconstructed Full generator, $g_m=c_m$. The patient feature $c_{\mathrm{demo}}$ is a 512-dimensional frozen BiomedCLIP embedding of a prompt encoding }\DIFaddend age, sex, weight, \DIFdelbegin \DIFdel{and neuropsychological scores )}\DIFdelend \DIFaddbegin \DIFadd{Global CDR, MMSE, GDS, FAQ and NPI-Q, with descriptions of the assessments and their medical interpretations. Logical Memory II and an explicit diagnostic label are not prompt fields, whereas CDR and other scores are diagnosis-related, and diagnosis-conditioned filling can encode group information indirectly. The prompt template and tracer texts are provided in Supplementary Methods. Patient prompts are padded and truncated to a maximum of 256 tokens in the reconstructed implementation}\DIFaddend .
 
-\DIFdelbegin \DIFdel{This }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend two-token context \DIFdelbegin \DIFdel{representation is injected into the velocity U-Net via }\DIFdelend \DIFaddbegin \DIFadd{is injected by }\DIFaddend cross-attention \DIFdelbegin \DIFdel{layers at multiple resolutions, enabling spatial features at each scale to dynamically attend to both the target imaging modality and the patient’s unique clinical attributes. Critically, no additional trainable parameters are introduced for clinical metadata encoding—all semantic information is derived from the pre-trained BiomedCLIP model—thereby enhancing generalizability and mitigating overfittingin data-limited medical imaging scenarios}\DIFdelend \DIFaddbegin \DIFadd{only at the deepest of the four U-Net resolution levels (attention levels: false, false, false, true); the conditioning feature dimension is 512. No additional trainable clinical text encoder is introduced: patient features are obtained from the frozen BiomedCLIP model. This design alone does not establish improved generalization or prevention of overfitting}\DIFaddend .
+\DIFdelbegin \DIFdel{This }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend two-token context \DIFdelbegin \DIFdel{representation is injected into the velocity U-Net via }\DIFdelend \DIFaddbegin \DIFadd{is injected by }\DIFaddend cross-attention \DIFdelbegin \DIFdel{layers at multiple resolutions, enabling spatial features at each scale to dynamically attend to both the target imaging modality and the patient’s unique clinical attributes. Critically, no additional trainable parameters are introduced for clinical metadata encoding—all semantic information is derived from the pre-trained BiomedCLIP model—thereby enhancing generalizability and mitigating overfitting in data-limited medical imaging scenarios}\DIFdelend \DIFaddbegin \DIFadd{only at the deepest of the four U-Net resolution levels (attention levels: false, false, false, true); the conditioning feature dimension is 512. No additional trainable clinical text encoder is introduced: patient features are obtained from the frozen BiomedCLIP model}\DIFaddend .
 
 This ODE governs the transition from the initial state $\mathbf{x}_0 \in \mathcal{M}_{\text{MRI}}$ to the final state $\mathbf{x}_1 \in \mathcal{P}_{\text{PET}}$, ensuring that the velocity field $V_\theta(\mathbf{x}_t, \mathbf{c}, t)$ drives the flow along the desired path. To determine the velocity field $V_\theta$, we solve a straightforward least squares regression problem:
 \begin{equation}
@@ -542,7 +542,7 @@ Participants were stratified into five clinically defined diagnostic categories 
 
 To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline. T1-weighted MRI scans were first skull-stripped using FreeSurfer~\cite{Freesurfer} and subjected to histogram matching for contrast normalization. Each PET image was then rigidly registered to its corresponding MRI. Both modalities were jointly affinely normalized to the MNI152 standard space using SPM~\DIFdelbegin \DIFdel{\cite{spm}}\DIFdelend \DIFaddbegin \DIFadd{\cite{spm,friston1995spatial}}\DIFaddend , with identical transformation matrices applied to preserve cross-modality alignment. Following spatial normalization, all volumes were cropped to a common field of view of $160 \times 192 \times 160$ voxels ($1\,\text{mm}^3$ isotropic resolution) and intensity-normalized to the $[0, 1]$ range via min–max scaling. For quantitative regional analysis, \DIFdelbegin \DIFdel{brain parenchyma was }\DIFdelend \DIFaddbegin \DIFadd{T1-weighted MRI scans were }\DIFaddend parcellated into 98 anatomical \DIFdelbegin \DIFdel{structures }\DIFdelend \DIFaddbegin \DIFadd{regions }\DIFaddend using SynthSeg~\cite{synthseg}\DIFaddbegin \DIFadd{, and the resulting ROI masks were applied to the spatially aligned PET images. ADNI provided preprocessed PET images upstream of this pipeline. Spatial registration and intensity normalization do not establish comprehensive scanner-specific harmonization; acquisition and upstream processing details could not be verified for every actual model input}\DIFaddend .
 
-\DIFdelbegin \DIFdel{Model evaluation was conducted under a }\DIFdelend \DIFaddbegin \DIFadd{PET synthesis used subject-level }\DIFaddend two-fold cross-validation \DIFdelbegin \DIFdel{scheme: the cohort was randomly partitioned into two equal-sized subsets, with alternating roles as training}\DIFdelend \DIFaddbegin \DIFadd{with fixed, approximately equal partitions (929 and 928 participants; split seed 42). In each fold, training and held-out participants were disjoint. Held-out predictions from the two folds were combined into an out-of-fold (OOF) dataset for generation analyses, with 1,598 valid FDG and 1,365 valid AV45 observations before the separately specified MRI}\DIFaddend /\DIFdelbegin \DIFdel{validation and test sets to ensure unbiased performance estimation}\DIFdelend \DIFaddbegin \DIFadd{mask QC exclusion used in masked evaluation. Downstream classification used a separate task-specific stratified three-fold protocol, described below. The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. Classification results are therefore reported as a separate input-asset analysis, rather than a downstream test of those reconstructed generator comparisons. Fixed splits, seeds and implementation details are summarized in Table~\ref{tab:reproducibility}}\DIFaddend .
+\DIFdelbegin \DIFdel{Model evaluation was conducted under a }\DIFdelend \DIFaddbegin \DIFadd{PET synthesis used subject-level }\DIFaddend two-fold cross-validation \DIFdelbegin \DIFdel{scheme: the cohort was randomly partitioned into two equal-sized subsets, with alternating roles as training}\DIFdelend \DIFaddbegin \DIFadd{with fixed, approximately equal partitions (929 and 928 participants; split seed 42). In each fold, training and held-out participants were disjoint. Held-out predictions from the two folds were combined into an out-of-fold (OOF) dataset for generation analyses, with 1,598 valid FDG and 1,365 valid AV45 observations before the separately specified MRI}\DIFaddend /\DIFdelbegin \DIFdel{validation and test sets to ensure unbiased performance estimation}\DIFdelend \DIFaddbegin \DIFadd{mask QC exclusion used in masked evaluation. Downstream classification used a separate task-specific stratified three-fold protocol, described below. The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. The classification results are therefore analyzed separately from the reconstructed generator comparisons. Fixed splits, seeds and implementation details are summarized in Table~\ref{tab:reproducibility}}\DIFaddend .
 
 \subsection{Experimental Setup and Evaluation}
 \subsubsection{Competing Methods}
@@ -568,7 +568,7 @@ To \DIFdelbegin \DIFdel{rigorously benchmark the performance of }\DIFdelend \DIF
 }
 
 \DIFaddend \subsection{Statistical Analysis}
-\DIFaddbegin \subsubsection{\DIFadd{Image-Quality Evaluation}}
+\DIFaddbegin \subsubsection{\texorpdfstring{\DIFadd{Image-Quality Evaluation}}{Image-Quality Evaluation}}
 \DIFadd{Whole-volume metrics include background; masked metrics use the frozen SynthSeg nonzero-label union, which includes ventricles and CSF and is not a pure brain-parenchymal mask. MSE/MAE average squared/absolute errors within that mask, and PSNR uses data range 1. Masked 3D SSIM uses a Gaussian $7\times7\times7$ kernel ($\sigma=1.5$) and averages only centers whose complete window lies inside the mask; outside-mask voxels were not set to zero and included in a whole-image SSIM average. The masked comparison uses identical target and mask arrays across models. The existing MRI/mask QC exclusion removes one subject per tracer, yielding FDG $n=1,597$ and AV45 $n=1,364$; this exclusion is specific to the masked analysis and case selection and is not imposed on the classification cohort.
 }
 
@@ -588,14 +588,12 @@ The validation comprised two complementary analyses:
 
 All \DIFdelbegin \DIFdel{statistical tests }\DIFdelend \DIFaddbegin \DIFadd{$t$-tests }\DIFaddend were two-tailed, and $p$-values were adjusted for multiple ROI comparisons using the \DIFaddbegin \DIFadd{Benjamini--Hochberg }\DIFaddend false discovery rate (FDR) procedure~\cite{benjamini1995controlling}. \DIFdelbegin \DIFdel{This dual-validation framework ensures that Syn-PET not only approximates real PET quantitatively but also retains its discriminative power for early diagnostic stratification. }%DIFDELCMD < 
 
+\par\noindent\DIFdel{\textbf{Diagnosis and Prognostic Stratification}}\par
 %DIFDELCMD < %%%
-\subsubsection{\DIFdel{Diagnosis and Prognostic Stratification}}
-%DIFAUXCMD
-\addtocounter{subsubsection}{-1}%DIFAUXCMD
 \DIFdelend \DIFaddbegin \DIFadd{For the paired real--synthetic comparisons, FDR correction was applied across 98 ROIs separately for each tracer and analysis group (overall, AD, CN, EMCI, LMCI, and MCI), yielding 12 families (2 tracers $\times$ 6 analysis groups) and 1,176 tests in total. For the AD--CN comparisons, FDR correction was applied across 98 ROIs separately for each tracer and PET type (real or synthetic), yielding four families and 392 tests in total. Statistical significance was defined as an FDR-adjusted $q<0.05$.
 }\DIFaddend 
 
-\DIFdelbegin \DIFdel{To rigorously evaluate the clinical utility of synthesized PET (Syn-PET)images, we assessed their capacity to support diagnostic and prognostic classification across the AD continuum. Specifically, we trained identical DenseNet classifiers }\DIFdelend \DIFaddbegin \subsubsection{\DIFadd{Diagnostic Classification and MCI Stage Discrimination}}
+\DIFdelbegin \DIFdel{To rigorously evaluate the clinical utility of synthesized PET (Syn-PET)images, we assessed their capacity to support diagnostic and prognostic classification across the AD continuum. Specifically, we trained identical DenseNet classifiers }\DIFdelend \DIFaddbegin \subsubsection{\texorpdfstring{\DIFadd{Diagnostic Classification and MCI Stage Discrimination}}{Diagnostic Classification and MCI Stage Discrimination}}
 \DIFadd{Image-based classifiers used a DenseNet121 backbone}\DIFaddend ~\cite{huang2017densely} to \DIFdelbegin \DIFdel{discriminate between three clinically salient diagnostic pairs: (1)  ADversus CNindividuals, a canonical diagnostic boundary; (2)  MCI versus CN, representing early disease detection; and (3) EMCIversus late MCI (LMCI), a prognostic distinction reflecting differential progression risk. }%DIFDELCMD < 
 
 %DIFDELCMD < %%%
@@ -675,7 +673,7 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=\textwidth]{supplementary_figure_1}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 1 of 2).}}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 1 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 1 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}}
 \DIFaddendFL \label{fig:supp_av45_1}
 \end{figure}
 
@@ -684,7 +682,7 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=\textwidth]{supplementary_figure_2}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 2 of 2).}}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 2 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Comparison of real and synthetic AV45 uptake across the remaining brain regions (Part 2 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}}
 \DIFaddendFL \label{fig:supp_av45_2}
 \end{figure}
 
@@ -693,7 +691,7 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=\textwidth]{supplementary_figure_3}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 1 of 2).}}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 1 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 1 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}}
 \DIFaddendFL \label{fig:supp_fdg_1}
 \end{figure}
 
@@ -702,7 +700,7 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=\textwidth]{supplementary_figure_4}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 2 of 2).}}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 2 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Comparison of real and synthetic FDG uptake across the remaining brain regions (Part 2 of 2).} Values represent mean regional intensities from per-image min--max-normalized PET images (arbitrary units), rather than SUVR.}}
 \DIFaddendFL \label{fig:supp_fdg_2}
 \end{figure}
 
@@ -711,7 +709,7 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=\textwidth]{supplementary_figure_5}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Validation of disease-related AV45 uptake patterns across the remaining brain regions.} Violin plots display mean uptake in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET.}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Validation of disease-related AV45 uptake patterns across the remaining brain regions.} Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET. Uptake values were derived from per-image min--max-normalized PET images without reference-region normalization.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Validation of disease-related AV45 uptake patterns across the remaining brain regions.} Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET. Uptake values were derived from per-image min--max-normalized PET images without reference-region normalization.}}
 \DIFaddendFL \label{fig:supp_disease_av45}
 \end{figure}
 
@@ -720,14 +718,14 @@ The training and inference scripts, and trained models have been publicly releas
 \includegraphics[width=0.75\textwidth]{supplementary_figure_6}
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Validation of disease-related FDG uptake patterns across the remaining brain regions.} Violin plots display mean uptake in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET.}
 %DIFDELCMD <     %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Validation of disease-related FDG uptake patterns across the remaining brain regions.} Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET. Uptake values were derived from per-image min--max-normalized PET images without reference-region normalization.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Validation of disease-related FDG uptake patterns across the remaining brain regions.} Violin plots display mean normalized regional uptake (arbitrary units) in Alzheimer’s disease (AD, red) and cognitively normal (CN, green) subjects for selected brain regions. Each region contains paired half-violins: the left half (solid fill) represents real PET data, and the right half (dashed fill) represents MRI-synthetic PET data, with consistent color coding between modalities. Solid lines above the violins indicate statistical significance for real PET, while dashed lines indicate significance for synthetic PET. Uptake values were derived from per-image min--max-normalized PET images without reference-region normalization.}}
 \DIFaddendFL \label{fig:supp_disease_fdg}
 \end{figure}
 
 \begin{table}[htbp]
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Demographic characteristics of ADNI.} Data are mean $\pm$ s.d. unless otherwise indicated. $P$ values from one-way ANOVA (continuous) or chi-square test (sex). CDR: Clinical Dementia Rating; MMSE: Mini-Mental State Examination.}
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Demographic characteristics and prepared clinical inputs of ADNI.} Data are mean $\pm$ sample s.d., except counts. Demographic $P$ values use one-way ANOVA (age, weight) or a chi-square test (sex). Clinical summaries combine observed and diagnostic-group-conditioned filled scores; their group-comparison $P$ values are omitted because the distributions are not independent clinical evidence. Source missingness is reported in Table~\ref{tab:clinical_missingness}. CDR: Clinical Dementia Rating; MMSE: Mini-Mental State Examination.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Demographic characteristics and prepared clinical inputs of ADNI.} Data are mean $\pm$ sample s.d., except counts. Demographic $P$ values use one-way ANOVA (age, weight) or a chi-square test (sex). Clinical summaries combine observed and diagnostic-group-conditioned filled scores; their group-comparison $P$ values are omitted because the distributions are not independent clinical evidence. Source missingness is reported in Table~\ref{tab:clinical_missingness}. CDR: Clinical Dementia Rating; MMSE: Mini-Mental State Examination.}}
 \DIFaddendFL \label{tab:supp_adni}
 \centering
 \DIFdelbeginFL %DIFDELCMD < \begin{tabularx}{\textwidth}{l *{5}{>{\centering\arraybackslash}X} >{\centering\arraybackslash}X}
@@ -770,7 +768,7 @@ NPI-Q & 0.01 $\pm$ 0.19 & 1.55 $\pm$ 2.17 & 4.00 $\pm$ 0.00 & 2.92 $\pm$ 0.50 & 
 
 \DIFdelbegin \DIFdel{To obtain the required text-guided information for our analysis, we performedsecondary screening within the }\DIFdelend \DIFaddbegin \DIFadd{The historical }\DIFaddend OASIS-3 \DIFdelbegin \DIFdel{cohort (Open Access Series of Imaging Studies) , a longitudinal neuroimaging, clinical, and cognitive dataset for normalaging and Alzheimer’s disease(available at: }%DIFDELCMD < \url{https://www.medrxiv.org/content/10.1101/2019.12.13.19014902v1.full.pdf}%%%
 \DIFdel{) . We focused on individuals with amyloid-beta PET imaging data processed through the standardized Pet Unified Pipeline (PUP). Specifically,we selected }\DIFdelend \DIFaddbegin \DIFadd{external cohort comprised }\DIFaddend 419 \DIFdelbegin \DIFdel{participants who had undergone AV45 PET scans and were PUP-processed,ensuring high-quality, quantitatively reliable neuroimaging data. These individuals formed the basis of our subsequent multimodal analysis. In contrast, FDG-PET data from a smaller subset ($n = 117$) were not processed with the PUP pipeline and were therefore excludedto maintain methodological consistency.
-The demographic characteristics of this selected cohort, including age and gender distribution,are detailed in Table~\ref{tab:supp_oasis}. }\DIFdelend \DIFaddbegin \DIFadd{PUP-processed AV45 participants (334 CN, 85 AD); the 117 FDG participants without the corresponding processing were not included. The age distributions differed between diagnostic groups (Table~\ref{tab:supp_oasis}). Reported clinical summaries do not establish which complete prompt fields were used in every external run or how unavailable fields were handled. The external results are restricted to AV45 synthesis in CN/AD and do not provide FDG or MCI external evidence.
+The demographic characteristics of this selected cohort, including age and gender distribution, are detailed in Table~\ref{tab:supp_oasis}. }\DIFdelend \DIFaddbegin \DIFadd{PUP-processed AV45 participants (334 CN, 85 AD); the 117 FDG participants without the corresponding processing were not included. The age distributions differed between diagnostic groups (Table~\ref{tab:supp_oasis}). Reported clinical summaries do not establish which complete prompt fields were used in every external run or how unavailable fields were handled. The external results are restricted to AV45 synthesis in CN/AD and do not provide FDG or MCI external evidence.
 }\DIFaddend 
 
 \begin{table}[htbp]
@@ -797,7 +795,7 @@ Global CDR & 0.01 $\pm$ 0.08 & 0.73 $\pm$ 0.59 & $<$0.001 \\
 \begin{table}[htbp]
 \DIFdelbeginFL %DIFDELCMD < \caption{\textbf{Core software dependencies and versions for DIReCT$++$.} Only packages directly relevant to model implementation, training, and evaluation are listed. Full environment details are available in the code repository.}
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \caption{\textbf{Historical core software dependencies and reported versions for DIReCT$++$.} This retained environment list describes the historical configuration; reconstructed training and the timing run used separately recorded environments. In particular, the RTX 4090 timing run used PyTorch 2.5.1+cu121, as stated in Methods. The table is not a single environment specification for every experiment.}
+\DIFdelendFL \DIFaddbeginFL \caption{{\color{blue}\textbf{Historical core software dependencies and reported versions for DIReCT$++$.} This retained environment list describes the historical configuration; reconstructed training and the timing run used separately recorded environments. In particular, the RTX 4090 timing run used PyTorch 2.5.1+cu121, as stated in Methods. The table is not a single environment specification for every experiment.}}
 \DIFaddendFL \label{tab:supp_software}
 \centering
 \begin{tabularx}{\textwidth}{lX lX}
@@ -825,7 +823,7 @@ protobuf & 6.30.2 & triton & 3.2.0 \\
 
 %DIF >  BEGIN supplementary/tables/clinical_missingness
 \begin{table}[htbp]
-\caption{\textbf{Missing clinical scores in the source records before historical filling.} Each cell gives missing count / group size (percentage); missingness is defined relative to the first source CSV record selected for each participant, not all ADNI visits.}
+\caption{{\color{blue}\textbf{Missing clinical scores in the source records before historical filling.} Each cell gives missing count / group size (percentage); missingness is defined relative to the first source CSV record selected for each participant, not all ADNI visits.}}
 \label{tab:clinical_missingness}
 \centering\small
 \begin{tabularx}{\textwidth}{l*{5}{>{\centering\arraybackslash}X}}
@@ -848,7 +846,7 @@ NPI-Q & 563/577 (97.6\%) & 167/291 (57.4\%) & 152/152 (100.0\%) & 491/520 (94.4\
 
 %DIF >  BEGIN supplementary/tables/reproducibility
 \begin{table}[htbp]
-\caption{\textbf{Reproducibility settings and scope of the revised analyses.}}
+\caption{{\color{blue}\textbf{Reproducibility settings and scope of the revised analyses.}}}
 \label{tab:reproducibility}
 \centering\small
 \begin{tabularx}{\textwidth}{p{0.25\textwidth}X}
@@ -885,7 +883,7 @@ Clinical source & Clinical rows selected by first CSV record per participant; fi
 }
 
 \begin{table}[htbp]
-\caption{\textbf{Adapter-level sensitivity analysis of the cross-tracer soft target.} Descriptive means across two folds, using 1,856 QC-filtered participants. Only training-fold PET features were used for fitting; held-out features were evaluated after optimization. No cross-term means removal of the penalty ($\lambda_{\mathrm{cross}}=0$), not a target of zero. No generator was retrained or evaluated in this analysis.}
+\caption{{\color{blue}\textbf{Adapter-level sensitivity analysis of the cross-tracer soft target.} Descriptive means across two folds, using 1,856 QC-filtered participants. Only training-fold PET features were used for fitting; held-out features were evaluated after optimization. No cross-term means removal of the penalty ($\lambda_{\mathrm{cross}}=0$), not a target of zero. No generator was retrained or evaluated in this analysis.}}
 \label{tab:supp_tau_adapter}
 \centering\small
 \begin{tabular}{lccccc}
@@ -908,7 +906,7 @@ No cross-term & 0.9952 & 0.9927 & 0.9952 & 0.9926 & 0.9897 \\
 %DIF >  BEGIN supplementary/tables/regional_agreement
 \begin{landscape}
 \begin{table}[p]
-\caption{\textbf{Regional normalized uptake agreement and descriptive regression for the 16 representative tracer--ROI combinations in Figure~\ref{fig:4}A,B.} Overall cohorts from the author-designated historical ROI CSVs; N can vary by ROI.}
+\caption{{\color{blue}\textbf{Regional normalized uptake agreement and descriptive regression for the 16 representative tracer--ROI combinations in Figure~\ref{fig:4}A,B.} Overall cohorts from the author-designated historical ROI CSVs; N can vary by ROI.}}
 \label{tab:regional_agreement}
 \centering\scriptsize\setlength{\tabcolsep}{2pt}
 \resizebox{\linewidth}{!}{\begin{tabular}{llrccccccccc}
@@ -943,7 +941,7 @@ FDG & R superiorfrontal (2028) & 1598 & \shortstack{0.00081\\{}[-0.00017, 0.0017
 
 %DIF >  BEGIN supplementary/tables/regional_effect_sizes
 \begin{table}[p]
-\caption{\textbf{AD--CN regional effect sizes and BH-FDR-adjusted comparisons for Figure~\ref{fig:4}C--F.} Cohen's $d$ is AD minus CN divided by the pooled within-group sample s.d.}
+\caption{{\color{blue}\textbf{AD--CN regional effect sizes and BH-FDR-adjusted comparisons for Figure~\ref{fig:4}C--F.} Cohen's $d$ is AD minus CN divided by the pooled within-group sample s.d.}}
 \label{tab:regional_effect_sizes}
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
 \begin{tabularx}{\textwidth}{llXrrrrrr}
@@ -987,7 +985,7 @@ F & FDG & R lingual (2013) & 303 & 371 & -0.0493 & -0.0435 & 0.5303 & 0.5744 \\
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{lllllll}
-\caption{Whole-volume OOF generation metrics (mean $\pm$ sample s.d.)}\label{tab:whole_volume_generation}\\
+\caption{{\color{blue}Whole-volume OOF generation metrics (mean $\pm$ sample s.d.)}}\label{tab:whole_volume_generation}\\
 \toprule
 Model & Tracer & N & SSIM & PSNR & MSE & MAE \\
 \midrule
@@ -1026,7 +1024,7 @@ Single & FDG & 1598 & 0.926933 \(\pm\) 0.0400237 & 27.0223 \(\pm\) 2.11834 & 0.0
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{lllllllllll}
-\caption{Paired whole-volume generation comparisons}\label{tab:paired_generation}\\
+\caption{{\color{blue}Paired whole-volume generation comparisons}}\label{tab:paired_generation}\\
 \toprule
 model & tracer & metric & n & mean\_delta & ci\_low & ci\_high & cohen\_dz & Full better pct & p\_raw & p\_holm \\
 \midrule
@@ -1088,7 +1086,7 @@ Single & av45 & mae & 1365 & -0.000313478 & -0.000560844 & -6.84978e-05 & -0.067
 %DIF >  BEGIN supplementary/tables/masked_summary
 \begin{table*}[t]
 \centering
-\caption{Mask-restricted quality of frozen two-fold OOF PET predictions.}
+\caption{{\color{blue}Mask-restricted quality of frozen two-fold OOF PET predictions.}}
 \label{tab:r3_11_masked_summary}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lllrrrr}
@@ -1115,7 +1113,7 @@ Swin-UNETR (e200; MRI only) & AV45 & 1364 & 0.83615 $\pm$ 0.05878 & 21.273 $\pm$
 %DIF >  BEGIN supplementary/tables/masked_paired
 \begin{table*}[t]
 \centering
-\caption{Paired mask-restricted PET image-quality comparisons.}
+\caption{{\color{blue}Paired mask-restricted PET image-quality comparisons.}}
 \label{tab:r3_11_masked_paired}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lllrrrrrrrr}
@@ -1153,13 +1151,13 @@ B: Full $-$ Swin-UNETR & AV45 & MAE & 1364 & -0.00383 & [-0.00459, -0.00309] & -
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.97\textwidth]{revision_cases_fdg}
-\caption{\textbf{FDG synthesis in median, 10th-percentile and worst QC-passed cases.} Rows follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales. Selection is within the existing QC-passed set, without new exclusions or visual replacement; rankings use whole-volume SSIM rather than masked SSIM.}
+\caption{{\color{blue}\textbf{FDG synthesis in median, 10th-percentile and worst QC-passed cases.} Rows follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales. Selection is within the existing QC-passed set, without new exclusions or visual replacement; rankings use whole-volume SSIM rather than masked SSIM.}}
 \label{fig:cases_fdg}
 \end{figure}
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.97\textwidth]{revision_cases_av45}
-\caption{\textbf{AV45 synthesis in median, 10th-percentile and worst QC-passed cases.} Rows follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales. Selection is within the existing QC-passed set, without new exclusions or visual replacement; rankings use whole-volume SSIM rather than masked SSIM.}
+\caption{{\color{blue}\textbf{AV45 synthesis in median, 10th-percentile and worst QC-passed cases.} Rows follow the frozen whole-volume SSIM selection; columns show MRI, real PET, synthetic PET and absolute-error maps. PET intensities and errors use the displayed [0,1] normalized-intensity scales. Selection is within the existing QC-passed set, without new exclusions or visual replacement; rankings use whole-volume SSIM rather than masked SSIM.}}
 \label{fig:cases_av45}
 \end{figure}
 
@@ -1170,7 +1168,7 @@ B: Full $-$ Swin-UNETR & AV45 & MAE & 1364 & -0.00383 & [-0.00459, -0.00309] & -
 \begin{landscape}
 \begingroup\small\setlength{\tabcolsep}{5pt}
 \begin{longtable}{lccccc}
-\caption{Three-fold classification results: mean $\pm$ sample s.d.; [conditional 95\% CI].}\label{tab:classification_summary}\\
+\caption{{\color{blue}Three-fold classification results: mean $\pm$ sample s.d.; [conditional 95\% CI].}}\label{tab:classification_summary}\\
 \toprule
 Input & ACC & AUC & SEN & SPE & Balanced ACC \\
 \midrule\endfirsthead
@@ -1225,7 +1223,7 @@ MRI+Clinical & \shortstack{85.32 $\pm$ 13.80\\{}[82.34, 88.53]} & \shortstack{89
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{lllllll}
-\caption{Paired imaging classification differences}\label{tab:classification_comparisons}\\
+\caption{{\color{blue}Paired imaging classification differences}}\label{tab:classification_comparisons}\\
 \toprule
 task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
 \midrule
@@ -1282,7 +1280,7 @@ emci\_lmci & mri\_syn\_both & mri\_real\_both & balanced\_ACC & 1.19239 & -3.734
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{lllllll}
-\caption{Paired comparisons with clinical baselines}\label{tab:classification_clinical_comparisons}\\
+\caption{{\color{blue}Paired comparisons with clinical baselines}}\label{tab:classification_clinical_comparisons}\\
 \toprule
 task & target & reference & metric & delta\_pp & ci\_low\_pp & ci\_high\_pp \\
 \midrule
@@ -1369,7 +1367,7 @@ emci\_lmci & clinical & mri & balanced\_ACC & 45.5212 & 41.9676 & 48.8719 \\
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{llllllll}
-\caption{Paired DeLong comparisons by outer fold}\label{tab:classification_delong}\\
+\caption{{\color{blue}Paired DeLong comparisons by outer fold}}\label{tab:classification_delong}\\
 \toprule
 task & fold & target & reference & delta\_AUC\_pp & p\_raw & p\_Holm & family \\
 \midrule
@@ -1447,7 +1445,7 @@ emci\_lmci & 3 & clinical & mri & 36.5263 & 4.98084e-14 & 1.24521e-12 & new36 \\
 \includegraphics[width=0.32\textwidth]{revision_roc_ad_cn}
 \includegraphics[width=0.32\textwidth]{revision_roc_mci_cn}
 \includegraphics[width=0.32\textwidth]{revision_roc_emci_lmci}
-\caption{\textbf{Cross-sectional classification ROC curves for AD/CN, EMCI+LMCI/CN and EMCI/LMCI (left to right).} Curves average three fold-specific TPRs at a fixed FPR grid; shaded regions are pointwise conditional 95\% bootstrap bands, not simultaneous confidence bands. Legend AUC values are equally weighted empirical fold AUC means. Comparisons include MRI, MRI+Real both, MRI+Syn both, Clinical-only and MRI+Clinical. The clinical fields include diagnosis-related scores and historical group-conditioned fills; high clinical AUC is not evidence of independent synthetic-PET benefit.}
+\caption{{\color{blue}\textbf{Cross-sectional classification ROC curves for AD/CN, EMCI+LMCI/CN and EMCI/LMCI (left to right).} Curves average three fold-specific TPRs at a fixed FPR grid; shaded regions are pointwise conditional 95\% bootstrap bands, not simultaneous confidence bands. Legend AUC values are equally weighted empirical fold AUC means. Comparisons include MRI, MRI+Real both, MRI+Syn both, Clinical-only and MRI+Clinical. The clinical fields include diagnosis-related scores and historical group-conditioned fills; high clinical AUC is not evidence of independent synthetic-PET benefit.}}
 \label{fig:classification_roc}
 \end{figure}
 
@@ -1456,7 +1454,7 @@ emci\_lmci & 3 & clinical & mri & 36.5263 & 4.98084e-14 & 1.24521e-12 & new36 \\
 
 %DIF >  BEGIN supplementary/tables/e1_score_removal
 \begin{table}[p]\centering\small
-\caption{\textbf{E1 fixed-weight score-removal sensitivity.} Differences are No-Scores minus Full, except the nonnegative output difference between predictions. This is a distinct E1 Full checkpoint family, not the reconstructed Full used in the generator-comparison tables.}
+\caption{{\color{blue}\textbf{E1 fixed-weight score-removal sensitivity.} Differences are No-Scores minus Full, except the nonnegative output difference between predictions. This is a distinct E1 Full checkpoint family, not the reconstructed Full used in the generator-comparison tables.}}
 \label{tab:e1_score_removal}
 \begin{tabularx}{\textwidth}{llrXrrr}
 \toprule
@@ -1490,7 +1488,7 @@ AV45 & Output difference & 1364 & 0.00110469 & 0.0010868 & 0.00112321 & -- \\
 \begin{table}[htbp]
 \centering
 \scriptsize
-\caption{Age- and sex-stratified classification performance: AD vs CN.}
+\caption{{\color{blue}Age- and sex-stratified classification performance: AD vs CN.}}
 \label{tab:r2-16-ad-cn}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llrrrcc}
@@ -1523,7 +1521,7 @@ Male & MRI & 244 & 150 & 94 & 87.54 [82.46, 91.80] & 78.59 [73.01, 83.57] \\
 \begin{table}[htbp]
 \centering
 \scriptsize
-\caption{Age- and sex-stratified classification performance: EMCI+LMCI vs CN.}
+\caption{{\color{blue}Age- and sex-stratified classification performance: EMCI+LMCI vs CN.}}
 \label{tab:r2-16-mci-cn}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llrrrcc}
@@ -1556,7 +1554,7 @@ Male & MRI & 390 & 150 & 240 & 70.45 [65.00, 75.74] & 65.26 [60.83, 69.83] \\
 \begin{table}[htbp]
 \centering
 \scriptsize
-\caption{Age- and sex-stratified classification performance: EMCI vs LMCI.}
+\caption{{\color{blue}Age- and sex-stratified classification performance: EMCI vs LMCI.}}
 \label{tab:r2-16-emci-lmci}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llrrrcc}

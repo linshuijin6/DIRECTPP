@@ -8,8 +8,8 @@ INFO - Globbed data source 'references.bib' to references.bib
 INFO - Looking for bibtex format file 'references.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source 'references.bib'
-INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
 INFO - No sort tailoring available for locale 'en-US'
 INFO - Writing '/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/variants/manuscript_clean.bbl' with encoding 'UTF-8'

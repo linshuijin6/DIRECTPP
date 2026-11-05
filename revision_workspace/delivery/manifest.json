@@ -4,32 +4,32 @@
     {
       "path": "01_submission/Cover_Letter.pdf",
       "bytes": 20484,
-      "sha256": "b53e406f016539830995d9992e5b9b10cceb89bb399d4a4c81fbd105de9cb1ef"
+      "sha256": "667472cfed86da90a7f66906137b0c2312214a99f3dc22c72c21192fbf056e78"
     },
     {
       "path": "01_submission/Manuscript_clean.pdf",
-      "bytes": 2916194,
-      "sha256": "45ed94216f36b8093eb43683e7d631068792b3d620b9ef83ef65a52e24d479bb"
+      "bytes": 2915165,
+      "sha256": "7989aa32d4bca0127c2292e455fd7db143f6f29b55f5a7f557902e5c65344385"
     },
     {
       "path": "01_submission/Manuscript_highlighted.pdf",
-      "bytes": 5251690,
-      "sha256": "232e8da6ba44375136d8972d301052105fa667875e390bd767be8b684d28847b"
+      "bytes": 5247363,
+      "sha256": "ca9c989faa22335adc056cb4e6d894460deed6f6f9c51e641a095c6db3cc8da1"
     },
     {
       "path": "01_submission/Response_to_Reviewers.pdf",
-      "bytes": 456720,
-      "sha256": "c37def886ca549a78bef8c0124c20029ec4231eab3440f0524c5f68a5fe7a3f3"
+      "bytes": 467225,
+      "sha256": "34ad3fee329fda10240923e2e9bdc0f50ebfb9d5a587e4a7a68f513668e3e3c9"
     },
     {
       "path": "01_submission/Supplementary_Materials.pdf",
       "bytes": 2423319,
-      "sha256": "b2d41bc12ddd2fc9c218998e1c96dc08f7a58809280f508a189a631f57fa0c2f"
+      "sha256": "b20a44d05e10b05ecbde46bb9f5890b1cd3db5b3eebb951d15c7793a78f8f3c1"
     },
     {
       "path": "01_submission/submission_abstract.txt",
-      "bytes": 1851,
-      "sha256": "34d1b1e7acaa84d27c5e7870cddb2ee7e6c7ccf31cbbd08104b622e44b898215"
+      "bytes": 1835,
+      "sha256": "0f3dfdb8fe7837e01696c42cce1e6cdf764d3c9c28d48d0e00a82066cfde4a26"
     },
     {
       "path": "02_figures/figure_1.pdf",
@@ -278,8 +278,8 @@
     },
     {
       "path": "04_latex_sources/manuscript/BMEF_main.tex",
-      "bytes": 69158,
-      "sha256": "4f467576aff5a81839de927f89357240e779dcaa04de16d4b66c84b43f6947f6"
+      "bytes": 68059,
+      "sha256": "5837414e0769b9d302c97e6e9f03f340af1b30f0dce8bcb6babac99e7a895fa5"
     },
     {
       "path": "04_latex_sources/manuscript/figures/editable_sources/figure_1.svg",
@@ -413,18 +413,18 @@
     },
     {
       "path": "04_latex_sources/manuscript/main_labels.tex",
-      "bytes": 5916,
-      "sha256": "af0230c9f0d76da8034dcac9fd17430d64e5ece42b6fe04b857a482b23801052"
+      "bytes": 5686,
+      "sha256": "31cd539bb969794bba32c4f7553323b8137caa10fceed276c03c07aeccdbaa97"
     },
     {
       "path": "04_latex_sources/manuscript/manuscript_clean.tex",
-      "bytes": 68867,
-      "sha256": "650f71efdcb0b0e8882c5564f1566b6095acd5f564c6d8678e9bca7a03095f34"
+      "bytes": 67768,
+      "sha256": "dcd5475292325435e320049d59a16f6c4ec6734e30f21f2fdf2edc711baf2e2a"
     },
     {
       "path": "04_latex_sources/manuscript/manuscript_highlighted.tex",
-      "bytes": 203569,
-      "sha256": "2947818dade95d68a228e4ab0e79581e056f72a3b250feaa93a40dfdd283216f"
+      "bytes": 204222,
+      "sha256": "695e146ba75ebf06fe19ee88fc035198d1f395d7ceb90a47bdf291925965cfbd"
     },
     {
       "path": "04_latex_sources/manuscript/references.bib",
@@ -563,33 +563,33 @@
     },
     {
       "path": "04_latex_sources/rebuttal/sections/01_editor.tex",
-      "bytes": 4871,
-      "sha256": "042ca9590303ebbd46dc8efdbbe55502fe712474cc58ed6698920d147b65d64a"
+      "bytes": 4289,
+      "sha256": "214d26415840999689223b79374275ed46fcf3929d319014c084556db395f35b"
     },
     {
       "path": "04_latex_sources/rebuttal/sections/02_reviewer2.tex",
-      "bytes": 58311,
-      "sha256": "e03f5bc9ec394e5fefbc2cbfdcb782fbd44ebf2170ea55b41df90cb32a46b1a6"
+      "bytes": 57318,
+      "sha256": "6d7f3127add063e74428289e5743442ec1a792fa9de186cf07b5c426015dcf68"
     },
     {
       "path": "04_latex_sources/rebuttal/sections/03_reviewer3_major.tex",
-      "bytes": 83385,
-      "sha256": "5d72f80d0ffb1e346c8c3bd0ee9ee8e265e5ed5ed2ddf3117041a9c03345cbe1"
+      "bytes": 79907,
+      "sha256": "1a1294c0bd497f17d31cbbbe86b22e56b31af384faf53418869add63f516d90b"
     },
     {
       "path": "04_latex_sources/rebuttal/sections/04_reviewer3_minor.tex",
-      "bytes": 28698,
-      "sha256": "333e252ba0526a5f60193f877bdd0cb62280e1e5a5b345eaf1e1238c12c45427"
+      "bytes": 29705,
+      "sha256": "e798ad2f7f2f3d6154dace83f4f3111fadfd451b6dc684fef57ec76d59966976"
     },
     {
       "path": "05_internal_audit/Combined_reference_copy.pdf",
-      "bytes": 5051981,
-      "sha256": "e5ba41f169b7c1f4c187517e12e47d2466a6b147f9d2e00ecb16e166b2e40d00"
+      "bytes": 5050946,
+      "sha256": "6fd45659003bb88eddf6c76bc5094c6a8c659aebb5e47da09a968add84c235a3"
     },
     {
       "path": "05_internal_audit/FINAL_VALIDATION.json",
-      "bytes": 26450,
-      "sha256": "80a68ebc19451576e08b5d7b9654eaa231c41d9a145d8e663a083bc2fc7e4f69"
+      "bytes": 99556,
+      "sha256": "3a8f8163c5284f0643e7dadb0a8273812fb0d21ffdba501c94406ef4e04e11f8"
     },
     {
       "path": "05_internal_audit/addition_disposition.csv",
@@ -604,7 +604,7 @@
     {
       "path": "05_internal_audit/comment_position_map.csv",
       "bytes": 144155,
-      "sha256": "d4958c694d7683978bda38d64e8a6dcb677f66d368ea5961397e711312d5ab47"
+      "sha256": "e379d69c957fd5b87f690902b65d1d65b767ecba5cca875b688babde83e2d790"
     },
     {
       "path": "05_internal_audit/editor_requirements_status.json",
@@ -613,8 +613,8 @@
     },
     {
       "path": "05_internal_audit/final_pdf_locations.json",
-      "bytes": 29167,
-      "sha256": "03523a722b8aa65189278f0943d49ccf4e00d1fb31bd9003b81ee26d109188a7"
+      "bytes": 97878,
+      "sha256": "d4c97ebeb0d1bf8cb9831ab756f15576046d061943b6621d8980a83c1a65f608"
     },
     {
       "path": "05_internal_audit/g8_verification.json",
@@ -624,7 +624,7 @@
     {
       "path": "05_internal_audit/location_verification.json",
       "bytes": 359,
-      "sha256": "e5594d71998fbf34a0b05fba546c6fa25114d327e7a00360b8e941bbfa4b8b8e"
+      "sha256": "71b2995fa799e6b3667e502d64ab7c28bc9ea5f27b8a9549fd68aad1d8ebd4aa"
     },
     {
       "path": "05_internal_audit/manuscript_bibliography.diff",
@@ -633,8 +633,13 @@
     },
     {
       "path": "05_internal_audit/position_registry.csv",
-      "bytes": 53326,
-      "sha256": "6336fb9665a7d433dd48ca3b9b8dc42a31f9b46a67b4fbb19990bbbaaa363cfb"
+      "bytes": 57583,
+      "sha256": "0876900b19812d1b7f441c5e7291d0595a7da24d4e7b6e9aadeda4257fc6491f"
+    },
+    {
+      "path": "05_internal_audit/quotation_pdf_locations.json",
+      "bytes": 38915,
+      "sha256": "006e709d50f514f7595a10fec096eb2a97f490f65124fd35b3ab3304a2f8adbc"
     },
     {
       "path": "05_internal_audit/rebuttal_bibliography.diff",
@@ -642,19 +647,34 @@
       "sha256": "75817c4d6bb5d4a09b1a055431c2bcd981429c99fc5f0c6c69941a221aa336c0"
     },
     {
+      "path": "05_internal_audit/rebuttal_excerpt_selections.json",
+      "bytes": 12040,
+      "sha256": "6047f60e92a5946cf2d8587ff077eb4676b77c2335f7905575f22834130c9857"
+    },
+    {
       "path": "05_internal_audit/response_changes.csv",
-      "bytes": 13887,
-      "sha256": "eb8dcfd16f5f673d2ac1a42c2ff72969afe21c6943e5b717c2ecac18075689a2"
+      "bytes": 18421,
+      "sha256": "6aaf304e71ab9786d101c97ce3f51435d6cca35dd5928c2e0e196e0c432a80b7"
     },
     {
       "path": "05_internal_audit/response_source_manifest.json",
       "bytes": 21546,
-      "sha256": "5540d73a89c0bd799982ea5683fc3e24372455a768deecca091fb7376e2a1d91"
+      "sha256": "3a97703c12603f4fd4bf88b186ea21bd974cfac9901e39a4f01c5ae9308d23fb"
+    },
+    {
+      "path": "05_internal_audit/stage4_alignment_audit.json",
+      "bytes": 131503,
+      "sha256": "f4353ebc0563044909f2dfc2177dc8928068003c70f34957f27f0f0f63fb3336"
+    },
+    {
+      "path": "05_internal_audit/stage4_build_receipt.json",
+      "bytes": 20066,
+      "sha256": "767b386510d1bc9c4dd0c3a1a7fa21abdfc7f0359982e990a0b62f7ddd0bd693"
     },
     {
       "path": "README.md",
-      "bytes": 2549,
-      "sha256": "f0a2577ef6445bcb8a86352290cee1094d41c06e8428d8ecd28f4e3f2fd37b93"
+      "bytes": 2700,
+      "sha256": "9b401eb43d7e2ddf2ff10796571e5ede6b10ea0f58c8d2eccf21b04b0f330706"
     }
   ]
 }

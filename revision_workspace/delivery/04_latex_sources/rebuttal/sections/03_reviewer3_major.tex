@@ -14,9 +14,7 @@ Synthesis and classification without clinical text (tracer token only), and with
 
 First, we have verified the exact clinical prompt composition, which includes age, sex, weight, and \textbf{five clinical assessments: CDR, MMSE, GDS, FAQ, and NPI-Q}. Logical Memory II is not included in the conditioning prompt. To further evaluate the diagnostic contribution of clinical information, we additionally conducted Clinical-only and MRI+Clinical classification experiments. The results demonstrate that clinical variables themselves provide strong diagnostic discrimination, highlighting the importance of considering their contribution when interpreting downstream classification performance using synthetic PET.
 
-Furthermore, we performed an inference-time cognitive-score removal experiment while keeping the generator weights fixed. Removing cognitive scores resulted in only minor changes in regional errors for both FDG and AV45 PET, with the overall synthesis quality remaining relatively stable. This finding suggests that DIReCT++ can maintain comparable PET synthesis quality even without cognitive-score conditioning. One possible explanation is that the rectified flow framework jointly leverages anatomical information from MRI and adapted tracer-specific guidance, potentially reducing its dependence on cognitive-score conditioning.
-
-We would also like to clarify that the primary objective of DIReCT++ is to synthesize multi-tracer PET by integrating MRI with clinically available complementary information. Cognitive scores provide relevant context regarding patients’ cognitive status, which is particularly meaningful when studying fine-grained MCI stages such as EMCI and LMCI. We appreciate the reviewer’s important observation and will further clarify the role of clinical conditioning in the revised manuscript, while providing a more cautious interpretation of the downstream classification findings and the potential clinical value of synthetic PET.
+Furthermore, we performed an inference-time cognitive-score removal experiment while keeping the generator weights fixed. Removing cognitive scores resulted in only minor changes in regional errors for both FDG and AV45 PET, with the overall synthesis quality remaining relatively stable. This fixed-weight input intervention assesses inference-time sensitivity; it is not a retrained No-Scores ablation.
 
 The fixed-weight score-removal experiment used the separate E1 Full checkpoint family. It cannot remove information already learned from diagnosis-conditioned filled inputs during training. In the completed classification analysis, Clinical-only and MRI+Clinical AUC exceeded MRI+synthetic dual PET in all three tasks; we do not claim independent incremental diagnostic value of the synthetic PET over those clinical fields.}
 
@@ -24,18 +22,18 @@ The fixed-weight score-removal experiment used the separate E1 Full checkpoint f
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item tab:supp\_adni (Supplementary Materials, p. 1; combined reference copy p. 31).
 \item tab:clinical\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32).
-\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item eq:composite\_conditioning (p. 16, lines 359--359).
-\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
-\item Abstract (p. 1, lines 18--18).
-\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 415--415).
+\item Results / framework conditioning (p. 3, lines 88--88).
+\item eq:composite\_conditioning (p. 16, lines 353--353).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, pp. 9, 10; combined reference copy pp. 33, 34).
+\item Results / classification and fig:5 (p. 11, lines 215--215).
+\item Methods / classification (pp. 21, 22).
+\item Supplementary classification tables and ROC (Supplementary Materials, pp. 17, 18, 19, 21, 22, 24, 26; combined reference copy pp. 41, 42, 43, 45, 46, 48, 50).
+\item Abstract (pp. 1, 2).
+\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, pp. 26, 27; combined reference copy pp. 50, 51).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+\changedtext{Results / classification and fig:5}{These observations do not support independent incremental diagnostic value over the clinical variables, which include diagnosis-related scores and diagnosis-conditioned fills.}
 
 \subsection*{R3-2}
 \revcomment{R3-2}{2. Table S1 values appear implausible and may indicate imputation that encodes the label directly.
@@ -49,7 +47,7 @@ We acknowledge that, although this procedure enabled the completion of missing i
 
 Regarding the reviewer’s concern about potential circularity involving diagnostic information, we agree that it is important to distinguish the contribution of clinical conditioning to PET synthesis from the potential influence of diagnosis-related information on downstream classification. In our previously conducted inference-time sensitivity analysis, removing cognitive scores while keeping the trained generator weights fixed resulted in only minor changes in PET synthesis errors. This finding suggests that image generation does not depend entirely on cognitive-score conditioning. Nevertheless, this analysis alone cannot fully exclude the potential effects of the original missing-value completion strategy.
 
-Accordingly, based on the existing experimental results and cognitive-score sensitivity analysis, we will more clearly delineate the potential implications of diagnostic-group-conditioned completion for the interpretation of PET synthesis and downstream classification results.
+The revised manuscript discusses how diagnosis-conditioned filling limits the interpretation of PET synthesis and downstream classification results.
 
 We appreciate the reviewer for identifying this important data-processing issue. By clarifying the sources of clinical data, the missing-value handling strategy, and its implications for interpreting the results, we aim to improve the transparency and reliability of our study.}
 
@@ -57,12 +55,12 @@ We appreciate the reviewer for identifying this important data-processing issue.
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item tab:supp\_adni (Supplementary Materials, p. 1; combined reference copy p. 31).
 \item tab:clinical\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32).
-\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 418--419).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Abstract (pp. 1, 2).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+\changedtext{Materials and Data Preprocessing / clinical inputs}{Missing MMSE, GDSCALE, Global CDR, FAQ and NPI-Q scores were filled using diagnostic-group-conditioned rules. Of 9,285 score cells, 1,751 were observed and retained, while 7,534 were missing in those source records and had values consistent with the recovered filling rules.}
 
 \subsection*{R3-3}
 \revcomment{R3-3}{3. "Prognostic stratification" is not supported by the analysis.
@@ -80,16 +78,16 @@ Accordingly, we now revise the manuscript title to \textbf{“Precision Synthesi
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / diagnostic groups (p. 17, lines 413--413).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Materials and Data Preprocessing / diagnostic groups (p. 18, lines 413--413).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Abstract (pp. 1, 2).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
 \item Title (p. 1).
 \item PDF metadata.
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / diagnostic groups}{Participants were stratified into five clinically defined diagnostic categories to reflect the full continuum of Alzheimer’s disease pathology: Cognitively Normal (CN; $n = 577$), Alzheimer’s disease dementia (AD; $n = 317$), and three subtypes of Mild Cognitive Impairment (MCI).}
+\changedtext{Materials and Data Preprocessing / diagnostic groups}{These categories define cross-sectional diagnostic and MCI-stage comparisons, without establishing longitudinal prognosis.}
 
 \subsection*{R3-4}
 \revcomment{R3-4}{4. Non-significant paired t-tests do not demonstrate equivalence, and group-level agreement does not show subject-level precision.
@@ -115,13 +113,13 @@ We now clarify this quantitative scope in the revised manuscript. Future work in
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 163--163).
-\item Methods: regional statistical analysis (p. 20, lines 529--529).
-\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Results: regional uptake analysis (p. 9, lines 175--175).
+\item Methods: regional statistical analysis (pp. 20, 21).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, pp. 10, 11, 12; combined reference copy pp. 34, 35, 36).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{Paired-sample $t$-tests between synthetic and real images revealed no statistically significant differences in normalized regional uptake across the principal brain regions shown in Fig.~4A, B for the overall cohorts of both tracers ($p>0.05$).}
+\changedtext{Results: regional uptake analysis}{Non-significant mean differences do not establish formal equivalence or clinical interchangeability.}
 
 \subsection*{R3-5}
 \revcomment{R3-5}{5. Quantitative definitions: "SUV" vs. SUVR and min-max normalization.
@@ -143,10 +141,10 @@ These findings support the preservation of the main disease-related group differ
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results: regional uptake analysis (p. 6, lines 149--149).
-\item Results: regional uptake analysis (p. 9, lines 179--179).
+\item Results: regional uptake analysis (p. 6, lines 151--152).
+\item Results: regional uptake analysis (p. 9, lines 178--178).
+\item Methods: regional statistical analysis (p. 21, lines 533--533).
 \item Methods: regional statistical analysis (p. 21, lines 540--540).
-\item Methods: regional statistical analysis (p. 21, lines 547--547).
 \item fig:4 caption (p. 10).
 \item fig:3 caption (p. 8).
 \item Supplementary figure 1 (Supplementary Materials, p. 2; combined reference copy p. 25).
@@ -155,10 +153,10 @@ These findings support the preservation of the main disease-related group differ
 \item Supplementary figure 4 (Supplementary Materials, p. 5; combined reference copy p. 28).
 \item Supplementary figure 5 (Supplementary Materials, p. 6; combined reference copy p. 29).
 \item Supplementary figure 6 (Supplementary Materials, p. 7; combined reference copy p. 30).
-\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35).
+\item tab:regional\_agreement; tab:regional\_effect\_sizes (Supplementary Materials, pp. 10, 11, 12; combined reference copy pp. 34, 35, 36).
 \end{itemize}}
 
-\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
+\changedtext{Results: regional uptake analysis}{Regional normalized uptake values (arbitrary units) were computed as the mean voxel intensity within each ROI from PET images normalized using per-image min--max intensity scaling.}
 
 \subsection*{R3-6}
 \revcomment{R3-6}{6. Data splitting and possible leakage between generator and classifier.
@@ -190,19 +188,19 @@ We thank the reviewer again for these constructive comments. In the revised manu
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 422--422).
-\item Materials and Data Preprocessing / cohort (p. 17, lines 403--403).
-\item Materials and Data Preprocessing / diagnostic groups (p. 17, lines 413--413).
-\item Materials and Data Preprocessing / OASIS (p. 18, lines 433--433).
-\item Materials and Data Preprocessing / preprocessing (p. 18, lines 444--444).
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
-\item Data Availability (p. 24, lines 641--641).
-\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
+\item Materials and Data Preprocessing / clinical inputs (p. 18, lines 415--415).
+\item Materials and Data Preprocessing / cohort (p. 17, lines 396--396).
+\item Materials and Data Preprocessing / diagnostic groups (pp. 17, 18).
+\item Materials and Data Preprocessing / OASIS (p. 18, lines 426--426).
+\item Materials and Data Preprocessing / preprocessing (p. 18, lines 437--437).
+\item Materials and Data Preprocessing / evaluation split (p. 19, lines 456--456).
+\item Data Availability (p. 24, lines 634--634).
+\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy pp. 32, 33).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (pp. 21, 22).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / clinical inputs}{In the prepared clinical inputs, mean Mini-Mental State Examination (MMSE) scores decreased from 29.40 in CN to 20.84 in AD; other clinical scores also varied across diagnostic groups (Table~S1).}
+\changedtext{Materials and Data Preprocessing / evaluation split}{The classification analysis retained the existing author-provided synthetic PET dataset under the intended two-fold OOF design; its image-to-checkpoint correspondence to the reconstructed Full generation experiments could not be independently established. The classification results are therefore analyzed separately from the reconstructed generator comparisons.}
 
 \subsection*{R3-7}
 \revcomment{R3-7}{7. Classification reporting and claims of significance.
@@ -224,13 +222,13 @@ We have revised the classification results and their interpretation accordingly 
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\item Materials and Data Preprocessing / evaluation split (pp. 18, 19).
+\item Results / classification and fig:5 (p. 9, lines 198--199).
+\item Methods / classification (pp. 21, 22).
+\item Supplementary classification tables and ROC (Supplementary Materials, pp. 17, 18, 19, 21, 22, 24, 26; combined reference copy pp. 41, 42, 43, 45, 46, 48, 50).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / evaluation split}{PET synthesis used subject-level two-fold cross-validation with fixed, approximately equal partitions (929 and 928 participants; split seed 42).}
+\changedtext{Results / classification and fig:5}{Results are reported as the equally weighted fold mean $\pm$ sample s.d., alongside conditional bootstrap 95\% CIs (Table~S13).}
 
 \subsection*{R3-8}
 \revcomment{R3-8}{8. The vision-language component is overstated relative to what is implemented.
@@ -254,21 +252,17 @@ Therefore, we consider the primary role of BiomedCLIP in this framework to be th
 
 2. Numerical clinical encoding and comparison with TabularMLP
 
-We understand the reviewer’s concern regarding the ability of CLIP-based text encoders to represent numerical clinical variables. However, we would like to clarify that the purpose of clinical text conditioning in our study is not merely to transform numerical values such as age, MMSE, and CDR into high-dimensional vectors. Instead, our approach incorporates both the numerical measurements and their corresponding medical interpretations into the conditioning representation.
-
 Specifically, the patient-specific clinical prompts in DIReCT++ contain eight variables: age, sex, weight, CDR, MMSE, GDS, FAQ, and NPI-Q. Importantly, these prompts also include descriptions of the clinical meaning and scoring ranges of the corresponding assessments. For example, MMSE is explicitly described as an assessment of cognitive function, together with its scoring range and interpretation, whereas CDR is associated with the clinical assessment of dementia severity. The remaining clinical assessments are similarly accompanied by descriptions of the functions or symptoms they evaluate.
 
-Through this prompt construction strategy, clinical conditioning is represented not simply as a collection of isolated numerical values, but as structured natural-language descriptions combining patient-specific measurements with relevant medical context. The pre-trained BiomedCLIP text encoder then maps these descriptions into a shared biomedical semantic feature space.
+The pre-trained BiomedCLIP text encoder then maps these descriptions into a shared biomedical semantic feature space.
 
-In contrast, TabularMLP directly learns feature mappings from structured clinical variables without incorporating additional natural-language descriptions. Therefore, the distinction between the two approaches extends beyond their network architectures to the representation of clinical information and the prior information used during encoding.
+In contrast, TabularMLP directly learns feature mappings from structured clinical variables without incorporating additional natural-language descriptions.
 
 We further investigated whether patient-specific clinical conditioning influences the actual generation process. Our implementation-level analyses confirmed that clinical prompts from different patients produce distinct feature vectors and that these conditioning features participate in generation through cross-attention, producing measurable changes in the synthesized outputs.
 
 To further assess different clinical encoding strategies, we conducted additional experiments using a TabularMLP-based conditioning model. This model processes the same eight structured clinical variables through a trainable multilayer perceptron to produce a 512-dimensional patient-conditioning vector, while retaining the tracer conditioning and the overall generative framework.
 
 The experimental results revealed metric-dependent trade-offs between BiomedCLIP-based text encoding and TabularMLP-based numerical encoding. The full model achieved higher SSIM for both FDG and AV45, whereas TabularMLP showed advantages in certain error-related metrics. These findings suggest that different conditioning representations may influence structural image similarity and voxel-wise reconstruction errors differently.
-
-We believe that the research value of BiomedCLIP-based text encoding lies in its integration of pre-trained biomedical semantic representations with clinical measurements and their medical interpretations, allowing patient-specific information to participate in PET generation within a clinically contextualized representation space. Compared with relying exclusively on numerical feature learning, this provides an alternative conditioning strategy with a clear methodological motivation.
 
 Furthermore, conventional image-quality metrics, including SSIM, PSNR, MSE, and MAE, primarily assess overall image similarity and reconstruction errors. In contrast, clinical information related to disease status and cognitive function may be more closely associated with regional metabolic distributions and disease-related tracer uptake patterns. Therefore, the value of different encoding strategies should also be evaluated in relation to their effects on clinically relevant imaging characteristics. In future work, we plan to incorporate regional SUV/SUVR-based quantitative analyses and more detailed clinical evaluations to investigate the potential contribution of biomedical semantic conditioning to functional image reconstruction.
 
@@ -290,30 +284,22 @@ We now also clarify the distinction between the frozen BiomedCLIP encoders and t
 
 5. Overall clarification
 
-Taken together, we consider the central role of the vision-language model in DIReCT++ to be the provision of biomedical semantic representations for tracer knowledge and patient-specific clinical information, supporting multi-tracer PET synthesis through a shared conditioning mechanism.
-
-Compared with conditioning approaches based solely on randomly initialized vectors or directly encoded structured numerical variables, BiomedCLIP-based text conditioning offers a distinct representation strategy. On the one hand, tracer conditioning originates from text descriptions containing explicit biomedical knowledge. On the other hand, the patient-specific clinical prompts incorporate numerical measurements together with the medical meanings of the corresponding assessments, allowing clinical information to participate in generation within a shared biomedical text representation space.
-
-Our additional analyses demonstrate that patient-specific conditioning influences the generated outputs, that BiomedCLIP-based and TabularMLP-based encoding strategies exhibit trade-offs across different image-quality metrics, and that the tracer adaptation mechanism regulates the relative relationship between tracer representations at the feature level. These findings provide further insight into the roles of different conditioning representations within the PET synthesis framework.
-
-We sincerely appreciate the reviewer’s constructive suggestions. In the revised manuscript, we now further clarify the BiomedCLIP feature-encoding procedure, clinical prompt construction, tracer adaptation mechanism, and mathematical notation. Together with the additional experiments, these revisions will provide a more precise description of the methodological motivation and practical role of biomedical semantic conditioning in DIReCT++.
-
 For clarity, the revised manuscript distinguishes the affine-adapter formulation and representation-level analyses from the reconstructed Full generator, which used original fixed tracer-text vectors. The BiomedCLIP backbone is frozen in both cases. We do not attribute the reconstructed Full generator performance to affine adaptation or claim a controlled generator-level frozen-versus-adapted gain.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework conditioning (p. 3, lines 89--89).
+\item Results / framework conditioning (p. 3, lines 88--88).
 \item fig:1 caption (p. 4).
-\item Methods / DIReCT++ overview (p. 14, lines 318--318).
-\item Domain-Adapted VLM / feature extraction (p. 14, lines 326--326).
-\item eq:align\_opt (p. 15, lines 338--338).
-\item Rectified Flow / V theta definition (p. 15, lines 350--350).
-\item eq:composite\_conditioning (p. 16, lines 359--359).
-\item Rectified Flow / cross-attention (p. 16, lines 370--370).
-\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Introduction / contributions (p. 2, lines 69--69).
+\item Methods / DIReCT++ overview (p. 14, lines 314--314).
+\item Domain-Adapted VLM / feature extraction (p. 15, lines 322--322).
+\item eq:align\_opt (p. 15, lines 334--334).
+\item Rectified Flow / V theta definition (pp. 15, 16).
+\item eq:composite\_conditioning (p. 16, lines 353--353).
+\item Rectified Flow / cross-attention (p. 16, lines 364--364).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, pp. 9, 10; combined reference copy pp. 33, 34).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Introduction / contributions (pp. 2, 3).
 \end{itemize}}
 
 \changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
@@ -338,7 +324,7 @@ We revisited the existing comparisons and supplemented the analyses of key condi
 
 First, regarding text conditioning, the existing 3D rectified flow (3D RF) baseline does not use the BiomedCLIP-enhanced text guidance. However, it also differs from DIReCT++ in other implementation aspects; hence, the performance difference cannot be attributed exclusively to the text guidance module. Fixed-weight patient-conditioning interventions, including empty or mismatched patient features, demonstrate output sensitivity to the supplied context. They are not a retrained text-free model or a complete no-text ablation; a nonzero output response alone does not establish clinical benefit.
 
-Second, to evaluate the independent contribution of patient-specific clinical information, we conducted a training-level comparison between the Full and Only-tracer configurations, which retains tracer guidance while excluding the patient clinical condition. We also added a training comparison between BiomedCLIP-based text encoding and an encoder for structured clinical variables to assess the contribution of the VLM representation relative to conventional numerical conditioning. These comparisons address the clinical-conditioning and encoder-design aspects of the requested ablations.
+Second, we conducted a training-level comparison between the Full and Only-tracer configurations; the latter retains tracer guidance while excluding patient-specific clinical conditioning. We also added a training comparison between BiomedCLIP-based text encoding and an encoder for structured clinical variables to assess the contribution of the VLM representation relative to conventional numerical conditioning. These comparisons address the clinical-conditioning and encoder-design aspects of the requested ablations.
 
 Regarding a clinical-prompt-only configuration, the tracer token in our shared multi-tracer framework not only carries tracer-related information but also specifies the target PET modality. Removing it entirely while retaining only the patient clinical information would leave the network without an explicit distinction between AV45 and FDG generation targets. Therefore, this configuration would not represent a well-defined dual-tracer comparison under the current architecture and task definition.
 
@@ -350,26 +336,26 @@ The historical estimate of approximately 138 GPU-hours was not independently ver
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item Results / framework inference (p. 3, lines 106--106).
+\item Results / framework conditioning (p. 3, lines 88--88).
+\item Results / framework inference (p. 3, lines 105--105).
 \item fig:1 caption (p. 4).
-\item eq:composite\_conditioning (p. 16, lines 359--359).
-\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Competing Methods / scope (p. 19, lines 470--470).
-\item Competing Methods / 3D RF (p. 19, lines 486--486).
-\item Competing Methods / Single (p. 19, lines 488--489).
-\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
-\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
-\item Results / classification and fig:5 (p. 9, lines 196--196).
-\item Methods / classification (p. 21, lines 555--556).
-\item Multi-Task Learning / objective introduction (p. 16, lines 382--382).
-\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Results: PET synthesis (p. 4).
+\item eq:composite\_conditioning (p. 16, lines 353--353).
+\item Supplementary conditioning methods and tab:supp\_tau\_adapter (Supplementary Materials, pp. 9, 10; combined reference copy pp. 33, 34).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Competing Methods / scope (p. 19, lines 463--463).
+\item Competing Methods / 3D RF (p. 19, lines 479--479).
+\item Competing Methods / Single (p. 19, lines 481--482).
+\item Competing Methods / details; Image-Quality Evaluation (pp. 19, 20).
+\item Supplementary generation tables and cases (Supplementary Materials, pp. 12, 13, 14, 16, 17, 18; combined reference copy pp. 36, 37, 38, 40, 41, 42).
+\item Results / classification and fig:5 (pp. 9, 11, 12).
+\item Methods / classification (pp. 21, 22).
+\item Multi-Task Learning / objective introduction (p. 16, lines 375--375).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 384--385).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Results: PET synthesis (p. 5).
 \end{itemize}}
 
-\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
+\changedtext{Competing Methods / details; Image-Quality Evaluation}{TracerOnly excluded patient-specific conditioning while retaining target-tracer guidance; TabularMLP replaced the clinical text representation with a structured-variable encoder.}
 
 \subsection*{R3-10}
 \revcomment{R3-10}{10. Baselines and fairness of comparison.
@@ -395,15 +381,15 @@ We appreciate the reviewer’s suggestions. By incorporating a clinically matche
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / generation introduction (p. 4, lines 112--112).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Competing Methods / scope (p. 19, lines 470--470).
-\item Competing Methods / SegGuidedDiff (p. 19, lines 481--481).
-\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
-\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
+\item Results / generation introduction (p. 5, lines 111--111).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Competing Methods / scope (p. 19, lines 463--463).
+\item Competing Methods / SegGuidedDiff (p. 19, lines 474--474).
+\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 485--485).
+\item Supplementary generation tables and cases (Supplementary Materials, pp. 12, 13, 14, 16, 17, 18; combined reference copy pp. 36, 37, 38, 40, 41, 42).
 \end{itemize}}
 
-\changedtext{Results / generation introduction}{PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).}
+\changedtext{Competing Methods / details; Image-Quality Evaluation}{The 3D Swin-UNETR was adapted to PET intensity regression with a continuous single-channel output and MSE loss, using MRI alone. Clinical Regression 3D U-Net used MRI and the same eight clinical variables with target-tracer information, providing a clinically matched framework comparison.}
 
 \subsection*{R3-11}
 \revcomment{R3-11}{11. Image-quality metrics and figures.
@@ -451,14 +437,14 @@ The final supplementary examples include the median, 10th-percentile and worst Q
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item fig:3 caption (p. 8).
-\item Results / generation introduction (p. 4, lines 112--112).
-\item Results / generation evaluation scope (p. 5, lines 118--118).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Results / external AV45 synthesis (p. 5, lines 141--141).
+\item Results / generation introduction (p. 5, lines 111--111).
+\item Results / generation evaluation scope (p. 5, lines 117--117).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Results / external AV45 synthesis (p. 5, lines 140--140).
 \item fig:2 caption (p. 7).
-\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
-\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
-\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41).
+\item Competing Methods / details; Image-Quality Evaluation (pp. 19, 20).
+\item Supplementary generation tables and cases (Supplementary Materials, pp. 12, 13, 14, 16, 17, 18; combined reference copy pp. 36, 37, 38, 40, 41, 42).
+\item Supplementary classification tables and ROC (Supplementary Materials, pp. 17, 18, 19, 21, 22, 24, 26; combined reference copy pp. 41, 42, 43, 45, 46, 48, 50).
 \end{itemize}}
 
 \subsection*{R3-12}
@@ -477,24 +463,24 @@ We agree that MRI-to-PET synthesis is an ill-posed problem and that deterministi
 
 To address the concern regarding conditional regression, we included a clinically conditioned 3D regression U-Net baseline using the same MRI inputs and clinical variables as DIReCT++. DIReCT++ achieved SSIM values of 0.9211 and 0.8844 for FDG and AV45, respectively, compared with 0.9003 and 0.8604 for the regression baseline. These results demonstrate improved image synthesis performance under matched conditioning settings, although they do not establish that the model captures the full conditional distribution.
 
-Regarding one-step generation, we agree that the distilled prediction represents a learned approximation rather than exact integration of the underlying ODE. As also addressed in our response to Reviewer 2, Comment 13, we now correct this terminology and clarify the distillation procedure. Knowledge distillation begins at epoch 140, as specified in the original implementation.
+Regarding one-step generation, we agree that the distilled prediction represents a learned approximation rather than exact integration of the underlying ODE. As also addressed in our response to Reviewer 2, Comment 13, we now correct this terminology and clarify the distillation procedure. In the recovered implementation, t=0 from epoch 140 onward, and the same supervised objective fits the PET-minus-MRI endpoint residual. This stage is called one-step distillation in the framework; no separate teacher trajectory or teacher-step schedule was recovered.
 
-We also acknowledge that the current deterministic framework does not provide calibrated subject-level uncertainty estimates. Consequently, synthetic PET images should not be interpreted as independent diagnostic evidence without appropriate clinical validation. We will explicitly acknowledge this limitation in the Discussion and identify uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for future research.
+We also acknowledge that the current deterministic framework does not provide calibrated subject-level uncertainty estimates. Consequently, synthetic PET images should not be interpreted as independent diagnostic evidence without appropriate clinical validation. The Discussion acknowledges this limitation and identifies uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for future research.
 
 We appreciate the reviewer's suggestions, which help clarify both the advantages and limitations of the proposed framework.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework inference (p. 3, lines 106--106).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Competing Methods / details; Image-Quality Evaluation (p. 19, lines 492--492).
-\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36).
-\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
-\item Implementation Details (p. 22, lines 595--595).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
+\item Results / framework inference (p. 3, lines 105--105).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Competing Methods / details; Image-Quality Evaluation (pp. 19, 20).
+\item Supplementary generation tables and cases (Supplementary Materials, pp. 12, 13, 14, 16, 17, 18; combined reference copy pp. 36, 37, 38, 40, 41, 42).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 387--388).
+\item Implementation Details (pp. 22, 23).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
 \end{itemize}}
 
-\changedtext{Results / framework inference}{At inference, the shared network predicts a velocity field for the selected tracer from MRI and the corresponding two-token text context.}
+\changedtext{eq:onestep\_generation / learning schedule}{From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI. This stage is referred to as one-step distillation in the framework, but the recovered implementation does not introduce a separate teacher trajectory or a teacher-step schedule.}
 
 \subsection*{R3-13}
 \revcomment{R3-13}{13. External validation is limited.
@@ -504,7 +490,7 @@ OASIS-3 covers AV-45 only, and CN and AD only (no MCI), with notable age imbalan
 
 We agree that our external validation on OASIS-3 was limited to AV45-PET synthesis in cognitively normal (CN) and Alzheimer’s disease (AD) participants. These results therefore do not establish cross-dataset generalizability for FDG-PET synthesis or MCI-related tasks. As also addressed in our response to Reviewer 2, Comment 7, we now clarify these limitations and appropriately qualify the corresponding generalizability claims in the revised manuscript.
 
-Regarding clinical conditioning, we now clarify the available clinical variables, participant selection criteria, and handling of missing information in the OASIS-3 cohort. We also acknowledge the age difference between the CN and AD groups, which should be considered when interpreting the external validation results.
+The retained external cohort comprised PUP-processed AV45-PET data from CN and AD participants, with no MCI participants. Complete run-specific records of the clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation. We also acknowledge the age difference between the CN and AD groups, which should be considered when interpreting the external validation results.
 
 We appreciate the reviewer’s suggestion and will ensure that our conclusions accurately reflect the scope and limitations of the available external validation evidence.}
 
@@ -512,16 +498,16 @@ We appreciate the reviewer’s suggestion and will ensure that our conclusions a
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
 \item tab:clinical\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32).
 \item Materials and Data Preprocessing / OASIS (p. 18, lines 433--433).
-\item Materials and Data Preprocessing / evaluation split (p. 18, lines 457--457).
+\item Materials and Data Preprocessing / evaluation split (pp. 18, 19).
 \item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24).
-\item Results / generation evaluation scope (p. 5, lines 118--118).
-\item Results / external AV45 synthesis (p. 5, lines 141--141).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
+\item Results / generation evaluation scope (p. 5, lines 117--117).
+\item Results / external AV45 synthesis (p. 5, lines 140--140).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Abstract (pp. 1, 2).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
 \end{itemize}}
 
-\changedtext{Materials and Data Preprocessing / OASIS}{External evaluation used the Open Access Series of Imaging Studies (OASIS-3), a longitudinal neuroimaging and clinical cohort focused on normal aging and Alzheimer's disease (\url{https://www.oasis-brains.org}).}
+\changedtext{Materials and Data Preprocessing / OASIS}{These data therefore evaluate external AV45 synthesis in this CN/AD cohort, without establishing external generalizability for FDG synthesis or MCI-stage discrimination. Complete run-specific records of the external clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation.}
 
 \subsection*{R3-14}
 \revcomment{R3-14}{14. Clinical positioning and overstatement.
@@ -541,16 +527,15 @@ Relevant references: \cite{jack2024revised,hansson2023blood}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Abstract (p. 1, lines 18--18).
-\item Introduction / evaluation summary (p. 3, lines 76--77).
-\item Bibliography (p. 52, lines 725--726).
-\item Bibliography.
+\item Discussion including shared limitations and conclusion (pp. 13, 14).
+\item Abstract (pp. 1, 2).
+\item Introduction / evaluation summary (p. 3, lines 75--76).
+\item Bibliography (pp. 52, 53, 54).
 \item Introduction: biological biomarker scope (p. 2, lines 47--48).
 \item Introduction: clinical access scope (p. 2, lines 52--53).
 \end{itemize}}
 
-\changedtext{Introduction / evaluation summary}{We evaluate image synthesis on ADNI~\cite{weiner2010alzheimer} and retain historical AV45 external results from OASIS-3~\cite{lamontagne2019oasis}.}
+\changedtext{Discussion including shared limitations and conclusion}{The 2024 Alzheimer's Association criteria emphasize biological diagnosis using validated core biomarkers, including amyloid PET and sufficiently accurate blood-based assays such as plasma p-tau217~\cite{jack2024revised}. Synthetic PET has not been validated as a substitute for molecular confirmation, and its added value relative to those biomarker assessments remains to be determined.}
 
 \subsection*{R3-15}
 \revcomment{R3-15}{15. Incremental novelty over DIReCT (ref. 15).
@@ -562,26 +547,26 @@ The original DIReCT established an MRI-to-PET synthesis framework based on recti
 
 To further investigate these developments, we conducted additional comparisons and sensitivity analyses examining shared versus separate tracer modeling, clinical conditioning strategies, and tracer representation adaptation. These results provide complementary insights into the roles of different components while also revealing metric-dependent trade-offs in image synthesis performance.
 
-In the revised manuscript, we will more explicitly distinguish the methodological extensions introduced in DIReCT++ from those established in DIReCT and interpret their contributions in light of the available experimental evidence, without attributing the overall performance differences to any single component.
+The revised manuscript distinguishes the methodological extensions introduced in DIReCT++ from those established in DIReCT and interprets their contributions without attributing the overall performance differences to any single component.
 
 Relevant references: \cite{liu2025direct}.}
 
 \actiontaken{The corresponding changes are implemented in the following final manuscript locations:
 \begin{itemize}[leftmargin=1.5em,itemsep=2pt]
-\item Results / framework conditioning (p. 3, lines 89--89).
-\item Results / framework inference (p. 3, lines 106--106).
+\item Results / framework conditioning (p. 3, lines 88--88).
+\item Results / framework inference (p. 3, lines 105--105).
 \item fig:1 caption (p. 4).
-\item Methods / DIReCT++ overview (p. 14, lines 318--318).
-\item Results / reconstructed generation evidence (p. 5, lines 120--120).
-\item Competing Methods / scope (p. 19, lines 470--470).
-\item Competing Methods / Single (p. 19, lines 488--489).
-\item Multi-Task Learning / objective introduction (p. 16, lines 382--382).
-\item Discussion including shared limitations and conclusion (p. 11, lines 230--231).
-\item Introduction / contributions (p. 2, lines 69--69).
-\item Results / framework opening (p. 3, lines 84--84).
+\item Methods / DIReCT++ overview (p. 14, lines 314--314).
+\item Results / reconstructed generation evidence (p. 5, lines 119--119).
+\item Competing Methods / scope (p. 19, lines 463--463).
+\item Competing Methods / Single (p. 19, lines 481--482).
+\item Multi-Task Learning / objective introduction (p. 16, lines 375--375).
+\item Discussion including shared limitations and conclusion (pp. 11, 13, 14).
+\item Introduction / contributions (p. 2, lines 68--68).
+\item Results / framework opening (p. 3, lines 83--83).
 \end{itemize}}
 
-\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}
+\changedtext{Introduction / contributions}{Building upon single-tracer DIReCT~\cite{liu2025direct}, DIReCT$++$ (Domain-Informed ReCTified flow) extends 3D rectified flow to a shared network conditioned on the target PET tracer, enabling FDG- or AV45-PET generation in separate forward passes.}
 
 
 

@@ -1,0 +1,235 @@
+{
+  "created_at": "2026-11-05T11:45:02.244040+00:00",
+  "baseline_commit": "45202545b638845b31fd0dadabd089ad958766d5",
+  "passed": true,
+  "artifacts": {
+    "combined": {
+      "pdf": "revision_workspace/build/manuscript/BMEF_main.pdf",
+      "sha256": "6fd45659003bb88eddf6c76bc5094c6a8c659aebb5e47da09a968add84c235a3",
+      "pages": 54,
+      "log": "revision_workspace/build/manuscript/BMEF_main.log",
+      "log_sha256": "8a65ea816b66860e0e4e90f97119fddc542ccf4c11ba67a0b4707047577e0f5d",
+      "fls": "revision_workspace/build/manuscript/BMEF_main.fls",
+      "fls_sha256": "46409400642b483ce4c5cc07e1c964cc68db32745a1a52586feb5af6ba0e556f",
+      "primary_source": "manuscript/BMEF_main.tex",
+      "recorded_project_inputs": {
+        "manuscript/BMEF_main.tex": "5837414e0769b9d302c97e6e9f03f340af1b30f0dce8bcb6babac99e7a895fa5",
+        "revision_workspace/build/manuscript/BMEF_main.bbl": "45fae95854695caf066c70675a1a1587196ab2eeffe38fbb26d424c152783dc2",
+        "manuscript/figures/figure_1.pdf": "10ab4c327fdd627596b2f936069c83da44d2ac808113d624db566c18c7e2c2a3",
+        "manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+        "manuscript/supplementary/tables/historical_generation.tex": "9dd8a90bba3ad8db40f508f59cee3edea433ea9604ff8591d64438eb6beee549",
+        "manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+        "manuscript/figures/figure_4.pdf": "ad9b9c809c392e0251bfacc05d9506b5aa248633d5432ac5f7ce355187a1aca6",
+        "manuscript/figures/figure_5.pdf": "c8efb1b4d0a2e1e76185ccbc35b61225fa357f5b62270bf5c8dffd070c510ab3",
+        "manuscript/supplementary/supplementary.tex": "1a7d55484d59cac36066aa45718740a145de3faf9feeb7f77f1dab846a647909",
+        "manuscript/figures/supplementary_figure_1.pdf": "7a1336cb3b5e8cbb74743dde8769a5d39f1dead9d452b58227a5432423721c61",
+        "manuscript/figures/supplementary_figure_2.pdf": "7140ddfc0ab7d51ede51426c49065c7f3ca746cbfda15bc760c9a3ba8ac3e133",
+        "manuscript/figures/supplementary_figure_3.pdf": "a52c81d59584d6066eea2512b2359ef461236fe973a87c5a73be006ec5635e66",
+        "manuscript/figures/supplementary_figure_4.pdf": "7f3269a3a82d3d9b692ab2e160e36ee9ec25550b2dea714e7a9794c34294c00a",
+        "manuscript/figures/supplementary_figure_5.pdf": "ba0164e3f9f4f540d0938f67e83554ba1936164bd4e49d5aad67239b39dbf4a7",
+        "manuscript/figures/supplementary_figure_6.pdf": "ab1ef66fc39ead28cc9b8fa86bafcc9207e4e24624340fb22ef3f443bc4f7686",
+        "manuscript/supplementary/tables/clinical_missingness.tex": "c8797d8e05c60e280ac6b9b8e817efd595e214e2a6394bdbcd2c69f06186228e",
+        "manuscript/supplementary/tables/reproducibility.tex": "7bd5f7d0dfc6c09d77c3c46f3d28f85232e22dca3d44d7a0fb71c20cb8c1eb31",
+        "manuscript/supplementary/tables/conditioning.tex": "4eae3ef4556abf4e90e355b00d4306aa5dcfc9213e7de3fd2d21f6d23f41c5b1",
+        "manuscript/supplementary/tables/regional_agreement.tex": "e16a86505525b6aadd08530ba380bf8ec6c61e8920588ffde4ecd9281a0dd136",
+        "manuscript/supplementary/tables/regional_effect_sizes.tex": "0ffedea7c16d43fa16a1af9e35aafdeaee8b7ce4364833387dc26fe71a2e7c97",
+        "manuscript/supplementary/tables/whole_volume_generation.tex": "31513542c7adfeeda71f1ac3e9cc6d51ce9f1befb22a6d6fca7af09bc76daf9c",
+        "manuscript/supplementary/tables/paired_generation.tex": "f41170fd595920420ae1709916223b3a57949c37ba9daaa0ab37e5af4e24ced7",
+        "manuscript/supplementary/tables/masked_summary.tex": "d21b52b97118fb8ecbefdcd74ef805d99c69feea8bb284f8857fa760f07cf913",
+        "manuscript/supplementary/tables/masked_paired.tex": "da049eb47e6e6ed5bf7762a6520cb231d514667cc168051d8c5fd450723b7ee6",
+        "manuscript/supplementary/tables/generation_cases.tex": "3dd10faef136dd8d3b216ebd9060d4463ee04ec8c9640c0ffc1ddbedad1bb7ed",
+        "manuscript/figures/revision_cases_fdg.pdf": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+        "manuscript/figures/revision_cases_av45.pdf": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+        "manuscript/supplementary/tables/classification_summary.tex": "e38f54d5b6d818815d8d499f0a55d9dd4d0139fabeefe4b01819b23be0ab30c6",
+        "manuscript/supplementary/tables/classification_imaging_comparisons.tex": "cb1ae8b6e912a29da33582f4f3edca2ab691ce67c76063a6d2c439a546419e40",
+        "manuscript/supplementary/tables/classification_clinical_comparisons.tex": "cba5725be29da0b8e6233ad84862ffb8d949549dfb5756267291b6d3a77b2763",
+        "manuscript/supplementary/tables/classification_delong.tex": "30917950985885dfbd2bb8036d668aae6c685e3aa8808be1b128177f1dee52b4",
+        "manuscript/supplementary/tables/classification_roc.tex": "7451da36ef37cbbc1f970196527bd6ddf7c1c44e0ec3049ec66358b2b49553dc",
+        "manuscript/figures/revision_roc_ad_cn.png": "9fe6758c61136863b161d23441e913b7469a240fdcafea7dff25b50c30b27ed9",
+        "manuscript/figures/revision_roc_mci_cn.png": "f749588edbdf0abe79e4573568f311d059c80360f40d58e8304cc1e979efca65",
+        "manuscript/figures/revision_roc_emci_lmci.png": "66dd7d30703db0692f3dfcab83d9aa04cfc20f7ce57be93a8122d03a901f6b10",
+        "manuscript/supplementary/tables/e1_score_removal.tex": "3395a99b9824f1123adf40d2f3922f609265b7801716ee468f1eaef7a9fd4838",
+        "manuscript/supplementary/tables/demographic_stratification.tex": "e09668cd739f6104e13a76e2e73063c093c750d08a3a0ca350a7768bdc7f1d34"
+      },
+      "final_log_warnings": []
+    },
+    "clean": {
+      "pdf": "revision_workspace/build/variants/manuscript_clean.pdf",
+      "sha256": "7989aa32d4bca0127c2292e455fd7db143f6f29b55f5a7f557902e5c65344385",
+      "pages": 26,
+      "log": "revision_workspace/build/variants/manuscript_clean.log",
+      "log_sha256": "a553cdfb8d7adc7ce8c587c43f984937db578a1599a33a0a62a7347d50c375c6",
+      "fls": "revision_workspace/build/variants/manuscript_clean.fls",
+      "fls_sha256": "099b7e6aad6ae7c95066b3dc7f95ce128bbdcf2d6e2c0269ddde022e1b1012a4",
+      "primary_source": "revision_workspace/integration/derived/manuscript_clean.tex",
+      "recorded_project_inputs": {
+        "revision_workspace/integration/derived/manuscript_clean.tex": "8758e59013636ddd76171a47f575dcbe971ac62ffd81ada46420af12284bc8fc",
+        "revision_workspace/integration/derived/supplementary_labels.tex": "44294bfc436dca63d36ae99274e4be6e94d316f54260d4189e64f230212ab40c",
+        "revision_workspace/build/variants/manuscript_clean.bbl": "45fae95854695caf066c70675a1a1587196ab2eeffe38fbb26d424c152783dc2",
+        "manuscript/figures/figure_1.pdf": "10ab4c327fdd627596b2f936069c83da44d2ac808113d624db566c18c7e2c2a3",
+        "manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+        "manuscript/supplementary/tables/historical_generation.tex": "9dd8a90bba3ad8db40f508f59cee3edea433ea9604ff8591d64438eb6beee549",
+        "manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+        "manuscript/figures/figure_4.pdf": "ad9b9c809c392e0251bfacc05d9506b5aa248633d5432ac5f7ce355187a1aca6",
+        "manuscript/figures/figure_5.pdf": "c8efb1b4d0a2e1e76185ccbc35b61225fa357f5b62270bf5c8dffd070c510ab3"
+      },
+      "final_log_warnings": []
+    },
+    "supplementary": {
+      "pdf": "revision_workspace/build/variants/supplementary_standalone.pdf",
+      "sha256": "b20a44d05e10b05ecbde46bb9f5890b1cd3db5b3eebb951d15c7793a78f8f3c1",
+      "pages": 27,
+      "log": "revision_workspace/build/variants/supplementary_standalone.log",
+      "log_sha256": "cb0f5255e9176e1093f888b3f997d64d645b5355dacecb8e1a8e1be4b92c6294",
+      "fls": "revision_workspace/build/variants/supplementary_standalone.fls",
+      "fls_sha256": "5e3dd4d53dfa260fc3d8dadbbfce215bc2d2c20e63b781601942d87744e60ffe",
+      "primary_source": "revision_workspace/integration/derived/supplementary_standalone.tex",
+      "recorded_project_inputs": {
+        "revision_workspace/integration/derived/supplementary_standalone.tex": "df40f123c652a0159111d626ebf7cc0d0424b94add4c4eaf89ea4ac571450dc9",
+        "revision_workspace/integration/derived/main_labels.tex": "31cd539bb969794bba32c4f7553323b8137caa10fceed276c03c07aeccdbaa97",
+        "manuscript/supplementary/supplementary.tex": "1a7d55484d59cac36066aa45718740a145de3faf9feeb7f77f1dab846a647909",
+        "manuscript/figures/supplementary_figure_1.pdf": "7a1336cb3b5e8cbb74743dde8769a5d39f1dead9d452b58227a5432423721c61",
+        "manuscript/figures/supplementary_figure_2.pdf": "7140ddfc0ab7d51ede51426c49065c7f3ca746cbfda15bc760c9a3ba8ac3e133",
+        "manuscript/figures/supplementary_figure_3.pdf": "a52c81d59584d6066eea2512b2359ef461236fe973a87c5a73be006ec5635e66",
+        "manuscript/figures/supplementary_figure_4.pdf": "7f3269a3a82d3d9b692ab2e160e36ee9ec25550b2dea714e7a9794c34294c00a",
+        "manuscript/figures/supplementary_figure_5.pdf": "ba0164e3f9f4f540d0938f67e83554ba1936164bd4e49d5aad67239b39dbf4a7",
+        "manuscript/figures/supplementary_figure_6.pdf": "ab1ef66fc39ead28cc9b8fa86bafcc9207e4e24624340fb22ef3f443bc4f7686",
+        "manuscript/supplementary/tables/clinical_missingness.tex": "c8797d8e05c60e280ac6b9b8e817efd595e214e2a6394bdbcd2c69f06186228e",
+        "manuscript/supplementary/tables/reproducibility.tex": "7bd5f7d0dfc6c09d77c3c46f3d28f85232e22dca3d44d7a0fb71c20cb8c1eb31",
+        "manuscript/supplementary/tables/conditioning.tex": "4eae3ef4556abf4e90e355b00d4306aa5dcfc9213e7de3fd2d21f6d23f41c5b1",
+        "manuscript/supplementary/tables/regional_agreement.tex": "e16a86505525b6aadd08530ba380bf8ec6c61e8920588ffde4ecd9281a0dd136",
+        "manuscript/supplementary/tables/regional_effect_sizes.tex": "0ffedea7c16d43fa16a1af9e35aafdeaee8b7ce4364833387dc26fe71a2e7c97",
+        "manuscript/supplementary/tables/whole_volume_generation.tex": "31513542c7adfeeda71f1ac3e9cc6d51ce9f1befb22a6d6fca7af09bc76daf9c",
+        "manuscript/supplementary/tables/paired_generation.tex": "f41170fd595920420ae1709916223b3a57949c37ba9daaa0ab37e5af4e24ced7",
+        "manuscript/supplementary/tables/masked_summary.tex": "d21b52b97118fb8ecbefdcd74ef805d99c69feea8bb284f8857fa760f07cf913",
+        "manuscript/supplementary/tables/masked_paired.tex": "da049eb47e6e6ed5bf7762a6520cb231d514667cc168051d8c5fd450723b7ee6",
+        "manuscript/supplementary/tables/generation_cases.tex": "3dd10faef136dd8d3b216ebd9060d4463ee04ec8c9640c0ffc1ddbedad1bb7ed",
+        "manuscript/figures/revision_cases_fdg.pdf": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+        "manuscript/figures/revision_cases_av45.pdf": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+        "manuscript/supplementary/tables/classification_summary.tex": "e38f54d5b6d818815d8d499f0a55d9dd4d0139fabeefe4b01819b23be0ab30c6",
+        "manuscript/supplementary/tables/classification_imaging_comparisons.tex": "cb1ae8b6e912a29da33582f4f3edca2ab691ce67c76063a6d2c439a546419e40",
+        "manuscript/supplementary/tables/classification_clinical_comparisons.tex": "cba5725be29da0b8e6233ad84862ffb8d949549dfb5756267291b6d3a77b2763",
+        "manuscript/supplementary/tables/classification_delong.tex": "30917950985885dfbd2bb8036d668aae6c685e3aa8808be1b128177f1dee52b4",
+        "manuscript/supplementary/tables/classification_roc.tex": "7451da36ef37cbbc1f970196527bd6ddf7c1c44e0ec3049ec66358b2b49553dc",
+        "manuscript/figures/revision_roc_ad_cn.png": "9fe6758c61136863b161d23441e913b7469a240fdcafea7dff25b50c30b27ed9",
+        "manuscript/figures/revision_roc_mci_cn.png": "f749588edbdf0abe79e4573568f311d059c80360f40d58e8304cc1e979efca65",
+        "manuscript/figures/revision_roc_emci_lmci.png": "66dd7d30703db0692f3dfcab83d9aa04cfc20f7ce57be93a8122d03a901f6b10",
+        "manuscript/supplementary/tables/e1_score_removal.tex": "3395a99b9824f1123adf40d2f3922f609265b7801716ee468f1eaef7a9fd4838",
+        "manuscript/supplementary/tables/demographic_stratification.tex": "e09668cd739f6104e13a76e2e73063c093c750d08a3a0ca350a7768bdc7f1d34"
+      },
+      "final_log_warnings": []
+    },
+    "highlight": {
+      "pdf": "revision_workspace/build/variants/manuscript_highlighted.pdf",
+      "sha256": "ca9c989faa22335adc056cb4e6d894460deed6f6f9c51e641a095c6db3cc8da1",
+      "pages": 59,
+      "log": "revision_workspace/build/variants/manuscript_highlighted.log",
+      "log_sha256": "2d7521620088a57f0daa308b0d6d9ef5863e2b0d569ea725c5d665bb3e5a6489",
+      "fls": "revision_workspace/build/variants/manuscript_highlighted.fls",
+      "fls_sha256": "7d5f7a3a0a3013674887095b89673552bfff9846cb99cd24ae7e85d3bbf0f4c6",
+      "primary_source": "revision_workspace/integration/derived/manuscript_highlighted.tex",
+      "recorded_project_inputs": {
+        "revision_workspace/integration/derived/manuscript_highlighted.tex": "97809300f45877b5443a663c518b7785f4cbe37feca3e87bc103ba492a3e6a07",
+        "revision_workspace/build/variants/manuscript_highlighted.bbl": "f5dfad7126b8b17066a486b68898d35dc7d3facbea76a7807f688bfe23d120a9",
+        "manuscript/figures/figure_1.pdf": "10ab4c327fdd627596b2f936069c83da44d2ac808113d624db566c18c7e2c2a3",
+        "manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+        "manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+        "manuscript/figures/figure_4.pdf": "ad9b9c809c392e0251bfacc05d9506b5aa248633d5432ac5f7ce355187a1aca6",
+        "manuscript/figures/figure_5.pdf": "c8efb1b4d0a2e1e76185ccbc35b61225fa357f5b62270bf5c8dffd070c510ab3",
+        "manuscript/figures/supplementary_figure_1.pdf": "7a1336cb3b5e8cbb74743dde8769a5d39f1dead9d452b58227a5432423721c61",
+        "manuscript/figures/supplementary_figure_2.pdf": "7140ddfc0ab7d51ede51426c49065c7f3ca746cbfda15bc760c9a3ba8ac3e133",
+        "manuscript/figures/supplementary_figure_3.pdf": "a52c81d59584d6066eea2512b2359ef461236fe973a87c5a73be006ec5635e66",
+        "manuscript/figures/supplementary_figure_4.pdf": "7f3269a3a82d3d9b692ab2e160e36ee9ec25550b2dea714e7a9794c34294c00a",
+        "manuscript/figures/supplementary_figure_5.pdf": "ba0164e3f9f4f540d0938f67e83554ba1936164bd4e49d5aad67239b39dbf4a7",
+        "manuscript/figures/supplementary_figure_6.pdf": "ab1ef66fc39ead28cc9b8fa86bafcc9207e4e24624340fb22ef3f443bc4f7686",
+        "manuscript/figures/revision_cases_fdg.pdf": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+        "manuscript/figures/revision_cases_av45.pdf": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+        "manuscript/figures/revision_roc_ad_cn.png": "9fe6758c61136863b161d23441e913b7469a240fdcafea7dff25b50c30b27ed9",
+        "manuscript/figures/revision_roc_mci_cn.png": "f749588edbdf0abe79e4573568f311d059c80360f40d58e8304cc1e979efca65",
+        "manuscript/figures/revision_roc_emci_lmci.png": "66dd7d30703db0692f3dfcab83d9aa04cfc20f7ce57be93a8122d03a901f6b10"
+      },
+      "final_log_warnings": []
+    },
+    "rebuttal": {
+      "pdf": "revision_workspace/build/rebuttal/main.pdf",
+      "sha256": "34ad3fee329fda10240923e2e9bdc0f50ebfb9d5a587e4a7a68f513668e3e3c9",
+      "pages": 66,
+      "log": "revision_workspace/build/rebuttal/main.log",
+      "log_sha256": "9093a0a29a6575ccf2de582569180339b9e74e10df805761f224e78399582299",
+      "fls": "revision_workspace/build/rebuttal/main.fls",
+      "fls_sha256": "367c590b44441801a75b85f23beedea639d8f7f83ab41cf657ee186f20341d34",
+      "primary_source": "rebuttal/main.tex",
+      "recorded_project_inputs": {
+        "rebuttal/main.tex": "17492a7d1b89ad8bd00839f52a9aeb03acca1e3a9b9253a7d8038c48059ff939",
+        "rebuttal/sections/00_general_response.tex": "444f152192ddaf816ff6090b7e35c8c10b2cf77a1e1b25d304e5e7aa8e7b7449",
+        "rebuttal/sections/01_editor.tex": "214d26415840999689223b79374275ed46fcf3929d319014c084556db395f35b",
+        "rebuttal/sections/02_reviewer2.tex": "6d7f3127add063e74428289e5743442ec1a792fa9de186cf07b5c426015dcf68",
+        "rebuttal/sections/03_reviewer3_major.tex": "1a1294c0bd497f17d31cbbbe86b22e56b31af384faf53418869add63f516d90b",
+        "rebuttal/sections/04_reviewer3_minor.tex": "e798ad2f7f2f3d6154dace83f4f3111fadfd451b6dc684fef57ec76d59966976",
+        "revision_workspace/build/rebuttal/main.bbl": "17fd01ad0a86f0f38992f6bae05664ea561055638b42254121bc7a04939716cf"
+      },
+      "final_log_warnings": []
+    },
+    "cover": {
+      "pdf": "revision_workspace/build/rebuttal/cover_letter.pdf",
+      "sha256": "667472cfed86da90a7f66906137b0c2312214a99f3dc22c72c21192fbf056e78",
+      "pages": 1,
+      "log": "revision_workspace/build/rebuttal/cover_letter.log",
+      "log_sha256": "1f606873a45ebfc28cdb7f6a4fb89d60532cf1adb53d9f1ac24f027b42da19f5",
+      "fls": "revision_workspace/build/rebuttal/cover_letter.fls",
+      "fls_sha256": "b0ce032a10a78cb5f61ee0f8bbcede51e5a8fa1800760c23d6a7eed1cd4c1743",
+      "primary_source": "rebuttal/cover_letter.tex",
+      "recorded_project_inputs": {
+        "rebuttal/cover_letter.tex": "ea9116731ab97f90d7a4eacad4702d97a1977d441f7170aa7f75640c2749552c"
+      },
+      "final_log_warnings": []
+    }
+  },
+  "bibliography_inputs": {
+    "manuscript/references.bib": "a106df84b95666137a3373ba7a26a0d5e20aed208fb0f4409502a90a9f1bedc2",
+    "rebuttal/references.bib": "ae6301d9d24e0a133a814d59f6bc9ce524d62802c770fa18c93bdb56c9bda731",
+    "revision_workspace/integration/derived/references_highlighted.bib": "dc2c66fbe07e7bc28d595e28b95c77ecc3aac6d4bf17f4f585bacd15f2e57dbe"
+  },
+  "latexdiff_inputs": {
+    "revision_workspace/integration/derived/baseline_flat.tex": "272e9513796ee53d59ad1bbb619f59c86b48f03ff30811aa073ec8e4eaea4e59",
+    "revision_workspace/integration/derived/current_flat.tex": "9e181da382912d862861ac230f3b7feef76d03e5d2d141555d80f58eccc4f837",
+    "revision_workspace/integration/derived/manuscript_highlighted.tex": "97809300f45877b5443a663c518b7785f4cbe37feca3e87bc103ba492a3e6a07"
+  },
+  "accepted_highlight_sentences": [
+    {
+      "source_sentence": "This work evaluates multi-tracer PET synthesis and cross-sectional MCI stage discrimination using a shared tracer-conditioned framework.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "Generative artificial intelligence (AI) offers methods for estimating PET images from routinely acquired MRI~\\cite{dayarathna2024deep,lee2024synthesizing}.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "We therefore investigate patient-specific clinical and tracer information as complementary conditioning for MRI-to-PET synthesis.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "This challenge stems from the inherent nature of MRI-to-PET synthesis as an ill-posed inverse problem; neurodegeneration visible on MRI is typically a downstream effect of prior molecular pathologies captured by PET~\\cite{jagust2018imaging}.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "We assessed image quality, normalized regional uptake and cross-sectional classification, reporting historical and reconstructed analyses separately.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "The available comparisons do not isolate every model component or establish the quality--latency tradeoff between one-step and multistep sampling.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "From epoch 140 onward, $t$ is fixed at zero, so the same supervised objective fits the endpoint residual from MRI.",
+      "present_in_accepted_highlight": true
+    },
+    {
+      "source_sentence": "The classification results are therefore analyzed separately from the reconstructed generator comparisons.",
+      "present_in_accepted_highlight": true
+    }
+  ],
+  "highlight_caption_policy": "Current changed captions marked in full; historical captions remain in source diff comments, avoiding duplicate captions inside floats.",
+  "figure_regeneration": false,
+  "online_submission": false
+}

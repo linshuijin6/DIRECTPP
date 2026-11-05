@@ -8,8 +8,8 @@ INFO - Globbed data source '../revision_workspace/integration/derived/references
 INFO - Looking for bibtex format file '../revision_workspace/integration/derived/references_highlighted.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source '../revision_workspace/integration/derived/references_highlighted.bib'
-INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
 INFO - No sort tailoring available for locale 'en-US'
 INFO - Writing '/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/build/variants/manuscript_highlighted.bbl' with encoding 'UTF-8'

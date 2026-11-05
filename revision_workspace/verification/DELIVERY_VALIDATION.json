@@ -1,13 +1,22 @@
 {
   "passed": true,
-  "files": 131,
-  "size_bytes": 118329488,
+  "files": 135,
+  "size_bytes": 118681048,
   "hash_mismatches": [],
+  "manifest_sha256": "9f9628a94b1edbd54dfb3c6dd0e1585a5ab42d094a59fbee38c63195467f13e0",
   "submission_pdfs": [
+    "01_submission/Cover_Letter.pdf",
     "01_submission/Manuscript_clean.pdf",
     "01_submission/Manuscript_highlighted.pdf",
-    "01_submission/Supplementary_Materials.pdf",
     "01_submission/Response_to_Reviewers.pdf",
-    "01_submission/Cover_Letter.pdf"
-  ]
+    "01_submission/Supplementary_Materials.pdf"
+  ],
+  "figure_assets_reused_unchanged": true,
+  "scope": "Copy/build consistency only; no online submission or scientific certification.",
+  "preserved_figure_asset_count": 75,
+  "all_figure_assets_match_pre_stage4": true,
+  "bibliography_copies_match": true,
+  "all_six_pdf_copies_match_current_build_receipt": true,
+  "portable_derived_sources_match_except_registered_relative_paths": true,
+  "internal_audit_copies_match_current_sources": true
 }

@@ -21,6 +21,10 @@
 
 页码从实际最终PDF及aux取得。Rebuttal以combined reference copy为统一参照，补充材料同时给出独立PDF页码；打印行号仅覆盖实际匹配短语。位置匹配、56条来源哈希、原件/基线哈希、构建警告及交付哈希由验证脚本检查；这些工程检查不等于对科学结论的独立认证。已抽查主图、区域表、病例图、分类长表、高亮首页及回复封面。
 
-仍须作者处理：全体作者License/COI、适用复用授权、决定信额外附件，以及上述图件版式验收。历史分类Syn-PET与重建Full checkpoint未绑定、OASIS完整prompt缺失、填补相关混杂、未完成的完整无文本/匹配多步等科学限制已在正文/回复保留。没有新增训练、推理、队列替换、统计检验、签名、在线提交、commit或push。
+仍须作者处理：全体作者License/COI、适用复用授权、决定信额外附件，以及上述图件版式验收。历史分类Syn-PET与重建Full checkpoint未绑定、OASIS完整prompt缺失、填补相关混杂、未完成的完整无文本/匹配多步等科学限制已在正文/回复保留。没有新增训练、推理、队列替换、统计检验、签名或在线提交。Stage 4 的 Git 提交和推送按作者明确授权执行，最终 SHA 以 Git 记录为准。
 
-最终高亮稿因NFS元数据等待转至本地临时目录构建，三遍pdflatex后复制到`build/final_highlight/`，源码等同性收据随构建保存。先前NFS尝试不计入验收，仅写scratch构建目录；状态见`integration/build_attempts.json`。未控制其他进程。
+Stage 4 已按现有脚本从 Stage 3 提交 `45202545b638845b31fd0dadabd089ad958766d5` 重新构建全部六份 PDF。最终高亮稿沿用 CFONT latexdiff、biber 和三遍 pdflatex，新增标题/数学标记的排版修复及当前图注整体标蓝，不改动科学源码。实际输入由 pdflatex recorder 留证，收据见 `integration/stage4_build_receipt.json`；本阶段遇到的文本提取和高亮警告及其修复见 `verification/STAGE4_BUILD_ATTEMPTS.json`。未控制其他进程。
+
+全部43条已有 changedtext 已逐项核查：39条选取更直接对应意见的现有原句，4条保留；13条回复仍无 changedtext。M1/M2均引用含 `This challenge stems` 和 `neurodegeneration` 的完整真实句子。正文、补充材料、参考文献与图件源码保留前三阶段确认版本；M19仅同步实际图轴方向及原有标签文字。82个登记片段匹配工作源码，生成器复跑未改变91个已登记/工作section文件。实际 Combined PDF 页码及可核验短语行号已刷新，独立 Supplementary 页码单独核实，不使用统一偏移推算。
+
+`verify_final.py` 的803项检查全部通过；新交付含135个受manifest管理的文件，共118,681,048字节，75个既有图件资产哈希未变。clean/highlight/Supplementary/Rebuttal/Cover/Combined分别为26/59/27/66/1/54页，所有最终日志无未解决警告。工作源码、交付副本及manifest已回读核验；详见 `verification/DELIVERY_VALIDATION.json` 和 `integration/STAGE4_FINAL_DELIVERY.md`。这些检查只验证构建及追溯一致性。编辑原始期限仍为2026-11-04；本地交付不能证明延期获批或投稿完成。

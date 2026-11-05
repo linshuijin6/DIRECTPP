@@ -1,22 +1,36 @@
 {
-  "repository": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP",
-  "derived_source": "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/derived/manuscript_highlighted.tex",
-  "purpose": "temporary local build avoids NFS metadata stalls; no manuscript science changed",
-  "loaded_style_files": [
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex-nejm/nejm.bbx",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def",
-    "/mnt/nfsdata/nfsdata/linshuijin/DIRECTPP/revision_workspace/integration/toolchain/root/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty"
-  ],
-  "derived_sha256": "0cd8c2e6bfc2600ebc21be9f0e64f448c18f7c00d52be854b0f9fbb042afa525",
-  "local_tex_sha256": "2947818dade95d68a228e4ab0e79581e056f72a3b250feaa93a40dfdd283216f",
-  "difference": "Only bibliography path made local; identical manuscript content and 0.97 case-figure width."
+  "purpose": "Stage 4 current-source build using existing CFONT latexdiff and pdflatex/biber workflow",
+  "artifact": {
+    "pdf": "revision_workspace/build/variants/manuscript_highlighted.pdf",
+    "sha256": "ca9c989faa22335adc056cb4e6d894460deed6f6f9c51e641a095c6db3cc8da1",
+    "pages": 59,
+    "log": "revision_workspace/build/variants/manuscript_highlighted.log",
+    "log_sha256": "2d7521620088a57f0daa308b0d6d9ef5863e2b0d569ea725c5d665bb3e5a6489",
+    "fls": "revision_workspace/build/variants/manuscript_highlighted.fls",
+    "fls_sha256": "7d5f7a3a0a3013674887095b89673552bfff9846cb99cd24ae7e85d3bbf0f4c6",
+    "primary_source": "revision_workspace/integration/derived/manuscript_highlighted.tex",
+    "recorded_project_inputs": {
+      "revision_workspace/integration/derived/manuscript_highlighted.tex": "97809300f45877b5443a663c518b7785f4cbe37feca3e87bc103ba492a3e6a07",
+      "revision_workspace/build/variants/manuscript_highlighted.bbl": "f5dfad7126b8b17066a486b68898d35dc7d3facbea76a7807f688bfe23d120a9",
+      "manuscript/figures/figure_1.pdf": "10ab4c327fdd627596b2f936069c83da44d2ac808113d624db566c18c7e2c2a3",
+      "manuscript/figures/figure_2.pdf": "766a00993dfac595063ecf9594a603bf7d90b92f2ef73ddd99c2ee1419580844",
+      "manuscript/figures/figure_3.pdf": "1d92baaf22e23367d040826e50b39a28ed78e289228e81a6b809f1e952256d7a",
+      "manuscript/figures/figure_4.pdf": "ad9b9c809c392e0251bfacc05d9506b5aa248633d5432ac5f7ce355187a1aca6",
+      "manuscript/figures/figure_5.pdf": "c8efb1b4d0a2e1e76185ccbc35b61225fa357f5b62270bf5c8dffd070c510ab3",
+      "manuscript/figures/supplementary_figure_1.pdf": "7a1336cb3b5e8cbb74743dde8769a5d39f1dead9d452b58227a5432423721c61",
+      "manuscript/figures/supplementary_figure_2.pdf": "7140ddfc0ab7d51ede51426c49065c7f3ca746cbfda15bc760c9a3ba8ac3e133",
+      "manuscript/figures/supplementary_figure_3.pdf": "a52c81d59584d6066eea2512b2359ef461236fe973a87c5a73be006ec5635e66",
+      "manuscript/figures/supplementary_figure_4.pdf": "7f3269a3a82d3d9b692ab2e160e36ee9ec25550b2dea714e7a9794c34294c00a",
+      "manuscript/figures/supplementary_figure_5.pdf": "ba0164e3f9f4f540d0938f67e83554ba1936164bd4e49d5aad67239b39dbf4a7",
+      "manuscript/figures/supplementary_figure_6.pdf": "ab1ef66fc39ead28cc9b8fa86bafcc9207e4e24624340fb22ef3f443bc4f7686",
+      "manuscript/figures/revision_cases_fdg.pdf": "9235a174ac113d2c83199b2f4d847c99e6be62665fe12dc3c1cd978759bcc56c",
+      "manuscript/figures/revision_cases_av45.pdf": "2ff9f0aaa73843762e889f230727061da9930cdc3566a297824ba08cb94db886",
+      "manuscript/figures/revision_roc_ad_cn.png": "9fe6758c61136863b161d23441e913b7469a240fdcafea7dff25b50c30b27ed9",
+      "manuscript/figures/revision_roc_mci_cn.png": "f749588edbdf0abe79e4573568f311d059c80360f40d58e8304cc1e979efca65",
+      "manuscript/figures/revision_roc_emci_lmci.png": "66dd7d30703db0692f3dfcab83d9aa04cfc20f7ce57be93a8122d03a901f6b10"
+    },
+    "final_log_warnings": []
+  },
+  "derived_sha256": "97809300f45877b5443a663c518b7785f4cbe37feca3e87bc103ba492a3e6a07",
+  "no_scientific_source_changes": true
 }
