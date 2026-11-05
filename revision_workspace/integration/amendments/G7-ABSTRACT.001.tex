@@ -1,0 +1,13 @@
+\begin{abstract}
+\noindent\textbf{Objective:} To evaluate DIReCT$++$, a domain-informed rectified flow framework for synthesizing FDG- and AV45-PET from MRI and clinical text inputs.
+
+\noindent\textbf{Impact Statement:} This work evaluates multi-tracer synthesis and cross-sectional MCI stage discrimination, with explicit limits on clinical and prognostic interpretation.
+
+\noindent\textbf{Introduction:} PET cost, radiation exposure and limited accessibility motivate MRI-based synthesis, but image similarity alone does not establish individual molecular validity.
+
+\noindent\textbf{Methods:} A shared 3D rectified flow generator uses frozen BiomedCLIP-derived patient and tracer features for learned one-step inference. Separate analyses evaluate affine tracer adaptation, two-fold OOF generation, normalized regional uptake agreement and three-fold cross-sectional classification. ADNI includes 1,857 participants; historical OASIS-3 external evaluation is restricted to AV45 in CN/AD.
+
+\noindent\textbf{Results:} Masked OOF comparisons favored Full over a clinical regression U-Net and MRI-only Swin-UNETR in all 16 predefined comparisons within their respective Holm families, although some effects were small. Other conditioning comparisons showed metric-dependent tradeoffs. In AD/CN classification, MRI+Syn-both AUC was $93.82\pm3.21\%$ versus MRI-only $87.02\pm5.44\%$; MCI/CN did not improve, and EMCI/LMCI showed mixed endpoints. Clinical-only and MRI+Clinical AUC exceeded MRI+Syn-both. Historical regional intensities showed close agreement, without establishing clinical SUV/SUVR calibration or equivalence.
+
+\noindent\textbf{Conclusion:} DIReCT$++$ supports further investigation of multi-tracer synthesis and cross-sectional classification. Extensive diagnosis-conditioned filling of clinical scores, source-identity limitations and mixed task effects preclude claims of independent diagnostic value, longitudinal prognosis or replacement of molecular confirmation.
+\end{abstract}
