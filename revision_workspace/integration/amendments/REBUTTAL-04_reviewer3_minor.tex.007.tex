@@ -1,0 +1,326 @@
+\reviewersec{Response to Reviewer 3: Minor Comments}
+
+\subsection*{M1 (Reviewer 3 Minor 1)}
+\revcomment{M1}{Line 57: "This challenges stems" \ensuremath{\rightarrow} "This challenge stems."}
+
+\response{We thank the reviewer for pointing out this grammatical error. We have corrected “This challenges stems” to “This challenge stems” in the revised manuscript.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
+\end{itemize}}
+
+\changedtext{Introduction / ill-posed inverse problem}{Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}.}
+
+\subsection*{M2 (Reviewer 3 Minor 2)}
+\revcomment{M2}{Lines 58-59: "neurodegenration" \ensuremath{\rightarrow} "neurodegeneration."}
+
+\response{We thank the reviewer for identifying this typographical error. We have corrected “neurodegenration” to “neurodegeneration” in the revised manuscript.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Introduction / ill-posed inverse problem (p. 2, lines 54--54).
+\end{itemize}}
+
+\changedtext{Introduction / ill-posed inverse problem}{Generative artificial intelligence (AI) offers a transformative pathway to bridge this clinical gap by synthesizing PET biomarkers from routinely acquired MRI~\cite{dayarathna2024deep,lee2024synthesizing}.}
+
+\subsection*{M3 (Reviewer 3 Minor 3)}
+\revcomment{M3}{Line 137: "standardized uptake value (SUV) were" \ensuremath{\rightarrow} "values (SUVRs) were."}
+
+\response{Thank you for pointing out this grammatical and terminology issue. We agree that the original wording was imprecise. Upon reviewing the regional uptake analysis, we confirmed that the reported measurements represent mean regional intensities extracted from min–max-normalized PET images, rather than standardized uptake values (SUVs) or reference-region–normalized uptake ratios (SUVRs).
+
+Therefore, directly replacing “SUV” with “SUVR” would not accurately reflect the measurements performed in this study. We now correct the grammatical error and use the more appropriate term “normalized regional uptake” in the revised manuscript, while ensuring consistent terminology and units in the corresponding figures.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 6, lines 149--149).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{To assess regional uptake patterns, the corresponding T1-weighted MRI scans were parcellated using SynthSeg~\cite{synthseg}, and the resulting Desikan--Killiany and \textit{aseg} ROI masks were applied to spatially aligned real and synthetic PET images.}
+
+\subsection*{M4 (Reviewer 3 Minor 4)}
+\revcomment{M4}{Line 301: "a learnable velocity field V\ensuremath{\theta} denotes the network parameters" is garbled; \ensuremath{\theta} and c should be defined separately.}
+
+\response{We thank the reviewer for identifying the unclear notation. We now clarify that \(V_\theta\) denotes the learnable velocity field and \(\theta\) its network parameters. We now also use \(\mathbf{c}\) consistently for the conditioning context, retaining its component-wise definition in the subsequent formulation.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Rectified Flow / V theta definition (p. 15, lines 350--350).
+\item eq:onestep\_generation / learning schedule (p. 17, lines 391--392).
+\end{itemize}}
+
+\changedtext{Rectified Flow / V theta definition}{DIReCT$++$ models MRI-to-PET translation using a conditional rectified flow velocity field.}
+
+\subsection*{M5 (Reviewer 3 Minor 5)}
+\revcomment{M5}{Section 4.5.1 describes paired tests for "AD and CN," but Results report CN, MCI, and AD (lines 145-147). Please reconcile.}
+
+\response{We thank the reviewer for identifying this inconsistency between the Methods and Results sections. We have reviewed the regional statistical analyses and clarified the distinction between two complementary types of comparisons.
+
+First, to assess regional uptake agreement between real and synthetic PET, we performed paired two-sided $t$-tests within the overall cohort and separately within each diagnostic group. The representative results for the overall cohorts are shown in Fig. 4A and B, with additional group-specific statistics provided in the Supplementary Materials.
+
+Second, to evaluate the preservation of disease-related regional differences, we performed independent two-sided Student’s $t$-tests comparing AD and CN subjects separately in real and synthetic PET. These comparisons are illustrated in Fig. 4C–F.
+
+We agree that the original wording did not clearly distinguish these two analyses. Accordingly, we have revised the relevant descriptions in the Results and Methods sections to clarify the populations, comparison types, and corresponding multiple-comparison correction procedures. These revisions ensure consistency between the statistical methodology and reported findings without changing the underlying analyses or results.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 6, lines 157--157).
+\item Methods: regional statistical analysis (p. 20, lines 529--529).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.}
+
+\subsection*{M6 (Reviewer 3 Minor 6)}
+\revcomment{M6}{Line 427: "Temporoparietal junction" is not a SynthSeg/Desikan-Killiany label. Please specify the ROIs actually used.}
+
+\response{We thank the reviewer for pointing out the inconsistency between the anatomical terminology and the atlas labels used in our analysis. In the original manuscript, we used the general anatomical term “temporoparietal junction,” which does not correspond to a distinct ROI label in the adopted atlas and may have caused ambiguity regarding the regions actually analyzed.
+
+To clarify this issue, we re-examined the original ROI statistical analysis and Figure 4 plotting code and confirmed the specific regions used. For FDG-PET, the selected regions included the bilateral hippocampus (Left/Right-Hippocampus), isthmus cingulate cortex (ctx-lh/rh-isthmuscingulate), and supramarginal gyrus (ctx-lh/rh-supramarginal). For AV45-PET, the selected regions included the bilateral precuneus (ctx-lh/rh-precuneus) and the inferior, middle, superior, and transverse temporal gyri (ctx-lh/rh-inferiortemporal, middletemporal, superiortemporal, and transversetemporal).
+
+Accordingly, we now replace the imprecise or overly broad anatomical descriptions with the corresponding atlas labels and clearly distinguish the full ROI-based statistical analysis from the representative disease-related regions presented in Figure 4. These revisions will ensure that the Methods section accurately reflects the regions used in the analysis and the corresponding figures.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
+\end{itemize}}
+
+\changedtext{Regional Group-Wise Comparison / ROI definitions}{Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.}
+
+\subsection*{M7 (Reviewer 3 Minor 7)}
+\revcomment{M7}{Line 133 vs. line 390: "mri\_synthseg (FreeSurfer v7.4.1)" and "SynthSeg [35]" cite different references for the same tool. Please use one version and one citation.}
+
+\response{We thank the reviewer for pointing out the inconsistent nomenclature and citations for the brain parcellation method across the manuscript. We acknowledge that the use of “mri\_synthseg (FreeSurfer v7.4.1)” and “SynthSeg” in different sections, together with inconsistent references, may have caused confusion.
+
+To address this issue, we now consistently refer to the ROI parcellation method as \textbf{SynthSeg} and standardize its citation throughout the manuscript. The revised manuscript also distinguishes FreeSurfer-based skull stripping from SynthSeg-based brain parcellation and specifies that MRI-derived ROI masks were used for regional PET analysis.
+
+Relevant references: \cite{synthseg}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / preprocessing (p. 18, lines 444--444).
+\item Results: regional uptake analysis (p. 6, lines 149--149).
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / preprocessing}{To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.}
+
+\subsection*{M8 (Reviewer 3 Minor 8)}
+\revcomment{M8}{Refs. 27 and 33 are duplicates (Fischl, FreeSurfer).}
+
+\response{We thank the reviewer for identifying the duplicate reference. We have confirmed that References 27 and 33 refer to the same FreeSurfer publication. We now merge the duplicate entries and standardize the corresponding citations in the revised manuscript to ensure accuracy and consistency.
+
+Relevant references: \cite{Freesurfer}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\subsection*{M9 (Reviewer 3 Minor 9)}
+\revcomment{M9}{Ref. 35: "Billot C" should be "Billot B."}
+
+\response{We thank the reviewer for identifying the incorrect author name in Reference 35. We have verified that the first author is Benjamin Billot and corrected “Billot C” to “Billot B” in the revised manuscript.
+
+Relevant references: \cite{synthseg}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\subsection*{M10 (Reviewer 3 Minor 10)}
+\revcomment{M10}{Ref. 28: author list and title should be verified.}
+
+\response{We thank the reviewer for identifying the inaccuracies in Reference 28. Upon verification, we found that its author list, title, and publication details were inconsistent with the official SynthSeg publication. We now remove the incorrect entry and consistently cite the correct SynthSeg paper by Billot et al., published in *Medical Image Analysis* in 2023, to ensure the accuracy and consistency of the references.
+
+Relevant references: \cite{synthseg}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\subsection*{M11 (Reviewer 3 Minor 11)}
+\revcomment{M11}{Ref. 26: author formatting is garbled ("Xingchao Liu Chengyue Gong QL").}
+
+\response{We thank the reviewer for identifying the author formatting error in Reference 26. We have verified that the correct authors are Xingchao Liu, Chengyue Gong, and Qiang Liu. We now correct the author list and update the reference to the officially published ICLR 2023 version to ensure accuracy and consistency.
+
+Relevant references: \cite{Xing2022}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\subsection*{M12 (Reviewer 3 Minor 12)}
+\revcomment{M12}{Ref. 34 (a gray-matter asymmetry protocol) is not an appropriate citation for SPM spatial normalization.}
+
+\response{We thank the reviewer for pointing out the inappropriate citation for SPM. The original reference primarily describes voxel-wise gray matter asymmetry analysis rather than the SPM software used for spatial normalization, and it’s our mistake. We now replace it with an authoritative reference for SPM and its associated methods to ensure that the citation accurately reflects the neuroimaging preprocessing tool used in our study.
+
+Relevant references: \cite{spm,friston1995spatial}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Materials and Data Preprocessing / preprocessing (p. 18, lines 444--444).
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\changedtext{Materials and Data Preprocessing / preprocessing}{To ensure precise spatial correspondence between MRI and dual-modality PET images, we implemented a standardized preprocessing pipeline.}
+
+\subsection*{M13 (Reviewer 3 Minor 13)}
+\revcomment{M13}{Ref. 36 (an ADNI overview) is not an appropriate source for FDG AD-vulnerable regions.}
+
+\response{We thank the reviewer for pointing out the inappropriate citation for AD-vulnerable regions in FDG-PET. We acknowledge that the original reference primarily describes the Alzheimer's Disease Neuroimaging Initiative (ADNI) and does not directly support the regional metabolic alterations discussed in our study.
+
+To address this issue, we now replace the original citation with more relevant FDG-PET studies, including Mosconi et al. on hippocampal hypometabolism, He et al. on AD-related regional metabolic abnormalities, and Strom et al. on metabolic alterations involving the isthmus cingulate region. These references provide a more appropriate scientific basis for the selected disease-related regions.
+
+Relevant references: \cite{mosconi2005reduced,he2015meta,strom2022cortical}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Regional Group-Wise Comparison / ROI definitions (p. 20, lines 521--521).
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\changedtext{Regional Group-Wise Comparison / ROI definitions}{Regional analysis used 98 SynthSeg ROIs defined on T1-weighted MRI.}
+
+\subsection*{M14 (Reviewer 3 Minor 14)}
+\revcomment{M14}{Ref. 25 (MRI-to-CT for spinal segmentation) should be checked as the source for the 3D DDIM baseline.}
+
+\response{We thank the reviewer for pointing out the inappropriate reference for the 3D DDIM baseline. We re-examined the original experimental code and confirmed that our baseline was not based on the implementation by Graf et al. Instead, it was implemented using the 3D DiffusionModelUNet provided by MONAI GenerativeModels, with DDIMScheduler employed for accelerated sampling. We now remove the inappropriate citation to Graf et al. and replace it with the original DDIM paper by Song et al. and an appropriate reference for MONAI GenerativeModels. We now also clarify the implementation framework and sampling procedure of the 3D conditional diffusion baseline to ensure that the methodological description and references accurately reflect the experimental implementation.
+
+Relevant references: \cite{song2021ddim,pinaya2023generative}.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results / generation introduction (p. 4, lines 112--112).
+\item Competing Methods / 3D DDIM (p. 19, lines 483--483).
+\item Bibliography (p. 52, lines 725--726).
+\item Bibliography.
+\end{itemize}}
+
+\changedtext{Results / generation introduction}{PET synthesis was evaluated using structural similarity (SSIM), peak signal-to-noise ratio (PSNR), mean squared error (MSE) and mean absolute error (MAE).}
+
+\subsection*{M15 (Reviewer 3 Minor 15)}
+\revcomment{M15}{Data Availability mentions only "structural MRI and AV-45 PET"; FDG-PET should be added. Please also release the list of ADNI/OASIS subject and image IDs used, to allow exact replication.}
+
+\response{We thank the reviewer for identifying the omission in the Data Availability statement and for emphasizing the importance of data traceability and reproducibility.
+
+We acknowledge that FDG-PET was inadvertently omitted from the original statement. We now correct this omission and clarify the imaging modalities used in each dataset, distinguishing the multi-tracer PET data from ADNI and the AV45-PET data used for external validation on OASIS-3.
+
+Regarding subject and image identifiers, we agree that detailed data selection and splitting information is important for reproducibility. We will organize the data selection criteria, fixed data splits, random seeds, and relevant reproducibility materials for the revised experiments and make them available to the extent permitted by the applicable ADNI and OASIS-3 data use agreements. Any sharing of subject- or image-level identifiers will comply with the corresponding data access and redistribution requirements.
+
+We now also review and correct the data access and licensing information in the Data Availability statement to ensure consistency with the requirements of the respective data providers.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Data Availability (p. 24, lines 641--641).
+\end{itemize}}
+
+\changedtext{Data Availability}{The data used in this study were obtained from two research datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Open Access Series of Imaging Studies (OASIS-3).}
+
+\subsection*{M16 (Reviewer 3 Minor 16)}
+\revcomment{M16}{Missing hyperparameters: \ensuremath{\tau}, \ensuremath{\lambda}\_F, \ensuremath{\lambda}\_A, batch size, U-Net depth and channel widths, cross-attention placement, and parameter count.}
+
+\response{We thank the reviewer for highlighting the insufficient reporting of model architecture details and training hyperparameters. We agree that providing these specifications is essential for methodological transparency and reproducibility.
+
+We have further examined the original experimental notebooks and the configuration used for the revised experiments. The verified loss weights are \ensuremath{\lambda}\_F = 1.0 and \ensuremath{\lambda}\_A = 1.0, with a batch size of 1. The generator U-Net consists of four resolution levels with channel widths of (32, 64, 64, 128) and one residual block per level. Cross-attention is configured only at the deepest resolution level, with a conditioning dimension of 512. By instantiating the corresponding U-Net architecture, we verified that it contains 9,925,921 parameters, all of which are trainable. This count refers specifically to the generator U-Net and excludes the VLM and separate adaptation modules.
+
+Regarding the similarity threshold \ensuremath{\tau}, we verified that the revised E1 Full configuration uses \ensuremath{\tau} = 0.82 as a target in a soft penalty rather than as a strictly enforced constraint. We now therefore clarify the distinction between this implementation and the hard-constraint formulation presented in the original manuscript, and revise the mathematical description to accurately reflect the implemented optimization procedure.
+
+In the revised manuscript, we now provide the verified architectural specifications and hyperparameters, clarify the placement of cross-attention, and explicitly define the scope of the reported parameter count. We now also distinguish settings confirmed from the original experimental records from those verified in the reconstructed experiments, ensuring that the reported implementation details are accurate and reproducible.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item eq:align\_opt (p. 15, lines 338--338).
+\item Rectified Flow / cross-attention (p. 16, lines 370--370).
+\item eq:multitask\_loss / definitions (p. 17, lines 387--387).
+\item Implementation Details (p. 22, lines 595--595).
+\end{itemize}}
+
+\changedtext{eq:align\_opt}{where $\alpha_1,\beta_1$ are scalar scales and $\alpha_2,\beta_2$ are 512-dimensional bias vectors.}
+
+\subsection*{M17 (Reviewer 3 Minor 17)}
+\revcomment{M17}{Fig. 1 legend: "Just Add It" should be replaced with a clear description (e.g., "element-wise addition").}
+
+\response{We thank the reviewer for pointing out the unclear terminology in the legend of Figure 1. We agree that the phrase "Just Add It" is informal and does not adequately describe the underlying mathematical operation.
+
+After reviewing the correspondence between the schematic and the one-step generation formulation, we confirmed that this operation represents element-wise addition of the input MRI and the predicted velocity field to obtain the synthesized PET image.
+
+Accordingly, we now replace "Just Add It" with "Residual Addition" in the revised Figure 1 to provide a more precise and technically appropriate description of the operation.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item fig:1 caption (p. 4).
+\end{itemize}}
+
+\subsection*{M18 (Reviewer 3 Minor 18)}
+\revcomment{M18}{Fig. 4 C-F show only AD vs. CN. Please add MCI comparisons, given the paper's focus on MCI.}
+
+\response{We thank the reviewer for the suggestion to include MCI comparisons in Figure 4C–F. We appreciate the importance of evaluating synthetic PET images in individuals with mild cognitive impairment.
+
+The primary purpose of Figure 4C–F is to investigate whether synthetic PET images preserve representative AD-related regional differences observed in real PET images. We therefore selected AD and CN as contrasting groups to provide a clearer comparison of regional uptake patterns across distinct disease states. Given the clinical and pathological heterogeneity of MCI, whose imaging characteristics may overlap with those of both CN and AD, these panels were not intended to provide an exhaustive comparison across all diagnostic stages.
+
+Instead, our evaluation of MCI focuses on the potential utility of synthetic PET for distinguishing cognitive impairment stages. Specifically, Figure 5 includes dedicated downstream classification tasks for MCI versus CN and EMCI versus LMCI, assessing the contribution of synthetic PET to MCI identification and the differentiation of early- and late-stage MCI. These analyses complement the AD-related regional comparisons presented in Figure 4C–F.
+
+We acknowledge that the original manuscript did not sufficiently clarify this rationale. We now revise the relevant descriptions to explain the purpose of the AD/CN comparisons and the complementary role of the MCI-related classification experiments. We now also clarify that the overall regional analyses in Figure 4A–B included CN, MCI, and AD subjects without separate diagnostic-group stratification.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item Results: regional uptake analysis (p. 6, lines 157--157).
+\item Results: regional uptake analysis (p. 9, lines 179--179).
+\item fig:4 caption (p. 10).
+\end{itemize}}
+
+\changedtext{Results: regional uptake analysis}{For a comprehensive quantitative evaluation, we performed two complementary regional statistical analyses on the ADNI cohort.}
+
+\subsection*{M19 (Reviewer 3 Minor 19)}
+\revcomment{M19}{Axis labels "Mean AV45/FDG Uptake" should read "SUVR," with the reference region stated.}
+
+\response{We thank the reviewer for highlighting the need to clarify the quantitative meaning of the regional uptake measurements displayed in Figure 4 and the corresponding supplementary figures. We agree that the axis labels should accurately reflect the normalization procedure to avoid potential misinterpretation of these measurements as clinically quantitative PET uptake indices.
+
+Upon verification, we clarify that the regional uptake measurements in our study do not represent standardized uptake value ratios (SUVRs). During image preprocessing, each PET image was independently normalized to the [0, 1] intensity range using min–max scaling. The mean normalized voxel intensity within each anatomical region was then calculated for regional agreement analyses between real and synthetic PET and for comparisons between diagnostic groups. This procedure did not involve normalization to the cerebellum, pons, or any other anatomical reference region. Consequently, labeling these measurements as either SUV or SUVR would be inaccurate.
+
+To address this concern, we have revised the vertical axis labels in Figure 4 and the corresponding supplementary figures to “Normalized Regional Uptake (a.u.)”. We have also clarified in the figure captions and Methods that these values were derived from per-image min–max normalization rather than reference-region normalization.
+
+Furthermore, we have harmonized the relevant terminology throughout the manuscript and clarified in the Discussion that normalized regional uptake measurements cannot be directly interpreted as clinically calibrated SUVR or Centiloid values. Standardized PET quantification and its agreement with clinically established reference measures remain important directions for future investigation.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item fig:4 caption (p. 10).
+\item fig:3 caption (p. 8).
+\item Supplementary figure 1 (Supplementary Materials, p. 2; combined reference copy p. 25).
+\item Supplementary figure 2 (Supplementary Materials, p. 3; combined reference copy p. 26).
+\item Supplementary figure 3 (Supplementary Materials, p. 4; combined reference copy p. 27).
+\item Supplementary figure 4 (Supplementary Materials, p. 5; combined reference copy p. 28).
+\item Supplementary figure 5 (Supplementary Materials, p. 6; combined reference copy p. 29).
+\item Supplementary figure 6 (Supplementary Materials, p. 7; combined reference copy p. 30).
+\item fig:2 caption (p. 7).
+\item Preamble.
+\end{itemize}}
+
+\subsection*{M20 (Reviewer 3 Minor 20)}
+\revcomment{M20}{Abstract: The abstract in the submission system contains raw LaTeX commands (\textbackslash{}noindent, \textbackslash{}textbf, $^{18}$F), which should be cleaned.}
+
+\response{We thank the reviewer for pointing out the incorrectly displayed LaTeX commands in the abstract within the submission system. We will correct this error when submitting the revised manuscript.}
+
+\actiontaken{The submission-system abstract is supplied as plain text without literal LaTeX commands. The authors will use this text when entering the revised submission in Editorial Manager.}
+
+\subsection*{M21 (Reviewer 3 Minor 21)}
+\revcomment{M21}{Terminology: Please use "sex" consistently rather than alternating with "gender."}
+
+\response{We thank the reviewer for pointing out the inconsistent terminology. We now replace "gender" with "sex" in the relevant passage to ensure consistent terminology throughout the manuscript.}
+
+\actiontaken{The corresponding changes are implemented in the following final manuscript locations:
+\begin{itemize}[leftmargin=1.5em,itemsep=2pt]
+\item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24).
+\item Results / framework conditioning (p. 3, lines 89--89).
+\end{itemize}}
+
+\changedtext{Results / framework conditioning}{Text guidance incorporates tracer descriptions and patient information (age, sex, weight and clinical scores) encoded by frozen BiomedCLIP encoders and injected into the RF model through cross-attention.}

@@ -1,11 +1,13 @@
 --- source
 +++ final
-@@ -4,7 +4,7 @@
+@@ -4,8 +4,8 @@
  
  To address the concern regarding conditional regression, we included a clinically conditioned 3D regression U-Net baseline using the same MRI inputs and clinical variables as DIReCT++. DIReCT++ achieved SSIM values of 0.9211 and 0.8844 for FDG and AV45, respectively, compared with 0.9003 and 0.8604 for the regression baseline. These results demonstrate improved image synthesis performance under matched conditioning settings, although they do not establish that the model captures the full conditional distribution.
  
 -Regarding one-step generation, we agree that the distilled prediction represents a learned approximation rather than exact integration of the underlying ODE. As also addressed in our response to Reviewer 2, Comment 13, we will correct this terminology and clarify the distillation procedure. Knowledge distillation begins at epoch 140, as specified in the original implementation.
 +Regarding one-step generation, we agree that the distilled prediction represents a learned approximation rather than exact integration of the underlying ODE. As also addressed in our response to Reviewer 2, Comment 13, we now correct this terminology and clarify the distillation procedure. In the recovered implementation, t=0 from epoch 140 onward, and the same supervised objective fits the PET-minus-MRI endpoint residual. This stage is called one-step distillation in the framework; no separate teacher trajectory or teacher-step schedule was recovered.
  
- We also acknowledge that the current deterministic framework does not provide calibrated subject-level uncertainty estimates. Consequently, synthetic PET images should not be interpreted as independent diagnostic evidence without appropriate clinical validation. We will explicitly acknowledge this limitation in the Discussion and identify uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for future research.
+-We also acknowledge that the current deterministic framework does not provide calibrated subject-level uncertainty estimates. Consequently, synthetic PET images should not be interpreted as independent diagnostic evidence without appropriate clinical validation. We will explicitly acknowledge this limitation in the Discussion and identify uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for future research.
++We also acknowledge that the current deterministic framework does not provide calibrated subject-level uncertainty estimates. Consequently, synthetic PET images should not be interpreted as independent diagnostic evidence without appropriate clinical validation. The Discussion acknowledges this limitation and identifies uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for future research.
  
+ We appreciate the reviewer's suggestions, which help clarify both the advantages and limitations of the proposed framework.

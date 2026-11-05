@@ -14,13 +14,13 @@ responses={
 'EDITOR-01':'We have prepared the point-by-point response covering all 56 reviewer comments and a separate revision cover letter. The manuscript changes are identified by their actual final locations below.',
 'EDITOR-02':'A clean revised manuscript and a separate highlighted revision are included in the prepared delivery package. The highlighted version is derived from the preserved pre-integration manuscript, rather than from a different historical draft.',
 'EDITOR-03':'The delivery package contains separate figure PDFs and high-resolution exports. Recreated schematic and quantitative figures include editable SVG and source code; existing composite images retain their supplied source files and documented limitations. We do not describe a raster-only panel as a fully editable vector reconstruction.',
-'EDITOR-04':'The local integration has not verified signed License to Publish or Conflict of Interest forms from all authors. These forms must be supplied and checked by the authors before submission; no signature or completed-form status is inferred from the manuscript.',
-'EDITOR-05':'No clearance of third-party reuse rights is asserted by the local integration. Recreated plots and the schematic have documented local sources; the authors must confirm any applicable permission requirements for reused material before submission.',
-'EDITOR-06':'This integration did not change the author list or affiliations relative to the preserved manuscript baseline. If the submission record differs or an authorship change is requested, the required author confirmations and change form must be handled by the authors.',
+'EDITOR-04':'The signed License to Publish and Conflict of Interest forms from all authors remain to be verified before submission.',
+'EDITOR-05':'The recreated plots and schematic have documented sources. Any required permissions for reused material remain to be confirmed before submission.',
+'EDITOR-06':'The author list and affiliations are unchanged from the preserved manuscript version. If the submission record differs or an authorship change is requested, we will provide the required author confirmations and change form.',
 'EDITOR-07':'We acknowledge that the revised manuscript may undergo further external review and have addressed the reviewers point by point, with unsupported claims narrowed to the available evidence.',
-'EDITOR-08':'We note that the decision letter states a revision deadline of 4 November 2026. The local preparation does not establish that an online submission has occurred or that an extension was granted.',
-'EDITOR-09':'The authors will upload the reviewed final files through the journal\'s Editorial Manager revision workflow. This local integration has not logged into or submitted files to the journal system.',
-'EDITOR-10':'The decision letter refers to additional attachments available through View Attachments. Their contents have not been verified in the local materials; the authors must inspect and account for them before submission.'}
+'EDITOR-08':'We note the revision deadline of 4 November 2026 stated in the decision letter.',
+'EDITOR-09':"We will upload the final files through the journal's Editorial Manager revision workflow after author review.",
+'EDITOR-10':'The additional attachments listed under View Attachments remain to be reviewed and addressed before submission.'}
 editor=r'\reviewersec{Response to Editorial Requirements}'+'\n'
 for cid,text in responses.items():editor+='\n'+r'\subsection*{'+cid+'}\n'+r'\revcomment{'+cid+'}{'+latex(records[cid]['original_text'])+'}\n'+r'\response{'+latex(text)+'}\n'
 for name,text in [('00_general_response.tex',general),('01_editor.tex',editor)]:

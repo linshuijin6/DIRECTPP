@@ -1,0 +1,8 @@
+--- source
++++ final
+@@ -4,4 +4,4 @@
+ 
+ To further investigate these developments, we conducted additional comparisons and sensitivity analyses examining shared versus separate tracer modeling, clinical conditioning strategies, and tracer representation adaptation. These results provide complementary insights into the roles of different components while also revealing metric-dependent trade-offs in image synthesis performance.
+ 
+-In the revised manuscript, we will more explicitly distinguish the methodological extensions introduced in DIReCT++ from those established in DIReCT and interpret their contributions in light of the available experimental evidence, without attributing the overall performance differences to any single component.
++The revised manuscript distinguishes the methodological extensions introduced in DIReCT++ from those established in DIReCT and interprets their contributions without attributing the overall performance differences to any single component.
