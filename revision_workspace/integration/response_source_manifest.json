@@ -185,7 +185,7 @@
     "source_start": 833,
     "source_end": 839,
     "source_sha256": "44e70de8f6839af38d9225dc00b280449d6b5597245be85817cac17307dd0e19",
-    "final_sha256": "c74fab72a4499e7ac13b308bc878f15c3a0f0d7aefb01398220b2e14f0830758",
+    "final_sha256": "50c92a0ada3da2bf252c83c7a0279c1e81d806d37a2e93d63774a265b4578cb3",
     "provenance_note": ""
   },
   {
@@ -257,7 +257,7 @@
     "source_start": 25,
     "source_end": 39,
     "source_sha256": "6aed541a9173d0210269bd3d4ba9ac60d7f41b3b6518d8cab5add8f3b84d49c6",
-    "final_sha256": "bea7e4e00508739d2a75ace61df3ed0b53fc29a44a3531b9b693bb57c9b3bf1e",
+    "final_sha256": "012034c4a16879f598193a894ee129405f4748c0883c708680fba3c5baafe6c9",
     "provenance_note": "子页L23：历史英文定稿虽已确认，但未能逐字恢复；本段不冒充历史逐字稿。"
   },
   {
@@ -284,7 +284,7 @@
     "source_start": 11,
     "source_end": 21,
     "source_sha256": "6c60675499ce37037b44a29d7fa9f694dc766de4d6d9c525e7c27cfb9020230f",
-    "final_sha256": "5397f0ca9456b60218956fb3ffca7873114a5a210650ea8f80f124e4a0cc7caf",
+    "final_sha256": "efbec8f27bc296e82e2aac1a020dece67cc64e3e30869668d081b85f19bc2432",
     "provenance_note": ""
   },
   {
@@ -293,7 +293,7 @@
     "source_start": 1489,
     "source_end": 1495,
     "source_sha256": "e8f1c86d2715e012c3bcb8ed3aa4cfc3134f2edf89302d171de205796656a939",
-    "final_sha256": "485fe9bf9cfed61d369bf2e220a34e2d2630338efd845817b90e7ba192463e97",
+    "final_sha256": "0019039bd0651c0d2d39fe5ac1289a491ee0b026b9d911a8eb771c2938dcaeab",
     "provenance_note": ""
   },
   {

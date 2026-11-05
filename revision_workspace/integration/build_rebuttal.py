@@ -9,6 +9,22 @@ def response(c):
  ls=(ROOT/c['response_source']).read_text().splitlines();return '\n'.join(ls[c['response_start']-1:c['response_end']])
 def modify(cid,s):
  reasons=[]
+ if cid=='R3-1':
+  a='This finding suggests that DIReCT++ can maintain comparable PET synthesis quality even without cognitive-score conditioning. One possible explanation is that the rectified flow framework jointly leverages anatomical information from MRI and adapted tracer-specific guidance, potentially reducing its dependence on cognitive-score conditioning.'
+  b='This fixed-weight input intervention assesses inference-time sensitivity; it is not a retrained No-Scores ablation.'
+  assert s.count(a)==1;s=s.replace(a,b,1);reasons.append('Stage 1: retain score-removal observations and separate E1 identity; remove unsupported score-independent performance and mechanism attribution.')
+ if cid=='R3-12':
+  a='Knowledge distillation begins at epoch 140, as specified in the original implementation.'
+  b='In the recovered implementation, t=0 from epoch 140 onward, and the same supervised objective fits the PET-minus-MRI endpoint residual. This stage is called one-step distillation in the framework; no separate teacher trajectory or teacher-step schedule was recovered.'
+  assert s.count(a)==1;s=s.replace(a,b,1);reasons.append('Stage 1: align the distillation name with the recovered t=0 endpoint-residual fitting described in current Methods; retain the teacher-record limitation.')
+ if cid=='R3-13':
+  a='Regarding clinical conditioning, we will clarify the available clinical variables, participant selection criteria, and handling of missing information in the OASIS-3 cohort.'
+  b='The retained external cohort comprised PUP-processed AV45-PET data from CN and AD participants, with no MCI participants. Complete run-specific records of the clinical prompt fields and missing-field handling were not retained, limiting reproducibility of that historical evaluation.'
+  assert s.count(a)==1;s=s.replace(a,b,1);reasons.append('Stage 1: replace an unsupported completed prompt-handling claim with the retained PUP/AV45/CN-AD selection and unrecovered run-specific prompt records from current Methods.')
+ if cid=='R3-9':
+  a='Second, to evaluate the independent contribution of patient-specific clinical information, we conducted a training-level comparison between the Full and Only-tracer configurations, which retains tracer guidance while excluding the patient clinical condition.'
+  b='Second, we conducted a training-level comparison between the Full and Only-tracer configurations; the latter retains tracer guidance while excluding patient-specific clinical conditioning.'
+  assert s.count(a)==1;s=s.replace(a,b,1);reasons.append('Stage 1: retain the Full/Only-tracer training-level configuration comparison without claiming an isolated causal contribution.')
  if cid=='R3-2':
   a='We will examine the missingness of individual variables across diagnostic groups using the available original clinical records and revise the presentation and interpretation of the corresponding statistics in Table S1, explicitly distinguishing observed from simulated values. Where historical missingness information cannot be reliably recovered from the available records, we will acknowledge this limitation rather than make unsupported assumptions.'
   b='We have now recovered the historical first-record selection and diagnosis-conditioned filling rules. Of 9,285 score cells in 1,857 prepared records, 1,751 were observed and preserved and 7,534 were missing in the selected source records. Group-specific missing counts and rates are reported in the Supplementary Materials. Direct recomputation corrected four Table S1 summaries: EMCI GDSCALE is 1.00 ± 0.00; LMCI GDSCALE is 3.00 ± 0.00, CDR 0.50 ± 0.00, and NPI-Q 4.00 ± 0.00. Clinical-score group-comparison p-values have been removed. CN weight SD (24.13 kg) is reproducible from the source values, but the retained 0–227 kg range includes unresolved validity issues. No participants were removed and no values were replaced or newly imputed.'

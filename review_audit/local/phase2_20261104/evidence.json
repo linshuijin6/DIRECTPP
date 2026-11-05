@@ -1,0 +1,2497 @@
+{
+  "baseline_commit": "d8cda092bcc6d97eabf263fb437898ae2c5424ef",
+  "scope": "Document coverage and location checks, not scientific validation or submission",
+  "expected_ids": [
+    "M1",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "M18",
+    "M19",
+    "M2",
+    "M20",
+    "M21",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "M9",
+    "R2-1",
+    "R2-10",
+    "R2-11",
+    "R2-12",
+    "R2-13",
+    "R2-14",
+    "R2-15",
+    "R2-16",
+    "R2-17",
+    "R2-18",
+    "R2-19",
+    "R2-2",
+    "R2-20",
+    "R2-3",
+    "R2-4",
+    "R2-5",
+    "R2-6",
+    "R2-7",
+    "R2-8",
+    "R2-9",
+    "R3-1",
+    "R3-10",
+    "R3-11",
+    "R3-12",
+    "R3-13",
+    "R3-14",
+    "R3-15",
+    "R3-2",
+    "R3-3",
+    "R3-4",
+    "R3-5",
+    "R3-6",
+    "R3-7",
+    "R3-8",
+    "R3-9"
+  ],
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "matrix_rows": 56,
+  "matrix_ids_unique": true,
+  "pdf_pages": {
+    "rebuttal": 68,
+    "clean": 26,
+    "supplementary": 27,
+    "combined": 54
+  },
+  "macro_counts": {
+    "revcomment": 56,
+    "response": 56,
+    "actiontaken": 56,
+    "changedtext": 43
+  },
+  "pdf_heading_checks": [
+    {
+      "id": "R2-1",
+      "page": 6,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-2",
+      "page": 6,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-3",
+      "page": 6,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 7,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 8,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-6",
+      "page": 10,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 10,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 11,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-9",
+      "page": 12,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-10",
+      "page": 14,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-11",
+      "page": 15,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-12",
+      "page": 16,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-13",
+      "page": 17,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 17,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-15",
+      "page": 19,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-16",
+      "page": 21,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-17",
+      "page": 22,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-18",
+      "page": 23,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-19",
+      "page": 24,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 25,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 27,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-2",
+      "page": 28,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 30,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-4",
+      "page": 31,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-5",
+      "page": 33,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 34,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-7",
+      "page": 37,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 38,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 42,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 44,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 46,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 48,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 50,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 51,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 52,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M1",
+      "page": 54,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M2",
+      "page": 54,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M3",
+      "page": 54,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M4",
+      "page": 55,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M5",
+      "page": 55,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M6",
+      "page": 56,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M7",
+      "page": 57,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M8",
+      "page": 58,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M9",
+      "page": 58,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M10",
+      "page": 58,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M11",
+      "page": 59,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M12",
+      "page": 59,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M13",
+      "page": 60,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M14",
+      "page": 60,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M15",
+      "page": 61,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M16",
+      "page": 62,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M17",
+      "page": 63,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M18",
+      "page": 63,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M19",
+      "page": 64,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M20",
+      "page": 65,
+      "heading_present": true,
+      "response_source_exists": true
+    },
+    {
+      "id": "M21",
+      "page": 65,
+      "heading_present": true,
+      "response_source_exists": true
+    }
+  ],
+  "main_locations": [
+    {
+      "id": "R2-3",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-3",
+      "page": 5,
+      "first": 118,
+      "last": 118,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 17,
+      "first": 413,
+      "last": 413,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 2,
+      "first": 54,
+      "last": 54,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-4",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 18,
+      "first": 422,
+      "last": 422,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 16,
+      "first": 359,
+      "last": 359,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-5",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-6",
+      "page": 17,
+      "first": 403,
+      "last": 403,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-6",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 18,
+      "first": 433,
+      "last": 433,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 5,
+      "first": 118,
+      "last": 118,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 5,
+      "first": 141,
+      "last": 141,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-7",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 6,
+      "first": 149,
+      "last": 149,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 6,
+      "first": 157,
+      "last": 157,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 6,
+      "first": 163,
+      "last": 163,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 20,
+      "first": 529,
+      "last": 529,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 21,
+      "first": 547,
+      "last": 547,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-8",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-9",
+      "page": 9,
+      "first": 179,
+      "last": 179,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-9",
+      "page": 21,
+      "first": 540,
+      "last": 540,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-9",
+      "page": 21,
+      "first": 547,
+      "last": 547,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-10",
+      "page": 6,
+      "first": 163,
+      "last": 163,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-10",
+      "page": 20,
+      "first": 529,
+      "last": 529,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-10",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-11",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-11",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-12",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-12",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-13",
+      "page": 3,
+      "first": 106,
+      "last": 106,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-13",
+      "page": 17,
+      "first": 391,
+      "last": 392,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-13",
+      "page": 3,
+      "first": 84,
+      "last": 84,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 14,
+      "first": 318,
+      "last": 318,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 14,
+      "first": 326,
+      "last": 326,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 15,
+      "first": 338,
+      "last": 338,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-14",
+      "page": 16,
+      "first": 359,
+      "last": 359,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-15",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-15",
+      "page": 15,
+      "first": 338,
+      "last": 338,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-16",
+      "page": 18,
+      "first": 422,
+      "last": 422,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-16",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-16",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-17",
+      "page": 4,
+      "first": 112,
+      "last": 112,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-17",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-17",
+      "page": 19,
+      "first": 470,
+      "last": 470,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-17",
+      "page": 19,
+      "first": 492,
+      "last": 492,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-18",
+      "page": 19,
+      "first": 483,
+      "last": 483,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-18",
+      "page": 22,
+      "first": 595,
+      "last": 595,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-19",
+      "page": 17,
+      "first": 403,
+      "last": 403,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-19",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-19",
+      "page": 24,
+      "first": 641,
+      "last": 641,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-19",
+      "page": 22,
+      "first": 595,
+      "last": 595,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 2,
+      "first": 69,
+      "last": 69,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 3,
+      "first": 84,
+      "last": 84,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R2-20",
+      "page": 2,
+      "first": 52,
+      "last": 53,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 18,
+      "first": 422,
+      "last": 422,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 16,
+      "first": 359,
+      "last": 359,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-1",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-2",
+      "page": 18,
+      "first": 422,
+      "last": 422,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-2",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-2",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 17,
+      "first": 413,
+      "last": 413,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-3",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-4",
+      "page": 6,
+      "first": 163,
+      "last": 163,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-4",
+      "page": 20,
+      "first": 529,
+      "last": 529,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-4",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-5",
+      "page": 6,
+      "first": 149,
+      "last": 149,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-5",
+      "page": 9,
+      "first": 179,
+      "last": 179,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-5",
+      "page": 21,
+      "first": 540,
+      "last": 540,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-5",
+      "page": 21,
+      "first": 547,
+      "last": 547,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 18,
+      "first": 422,
+      "last": 422,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 17,
+      "first": 403,
+      "last": 403,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 17,
+      "first": 413,
+      "last": 413,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 18,
+      "first": 433,
+      "last": 433,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 18,
+      "first": 444,
+      "last": 444,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 24,
+      "first": 641,
+      "last": 641,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-6",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-7",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-7",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-7",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 14,
+      "first": 318,
+      "last": 318,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 14,
+      "first": 326,
+      "last": 326,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 15,
+      "first": 338,
+      "last": 338,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 15,
+      "first": 350,
+      "last": 350,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 16,
+      "first": 359,
+      "last": 359,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 16,
+      "first": 370,
+      "last": 370,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-8",
+      "page": 2,
+      "first": 69,
+      "last": 69,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 3,
+      "first": 106,
+      "last": 106,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 16,
+      "first": 359,
+      "last": 359,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 19,
+      "first": 470,
+      "last": 470,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 19,
+      "first": 486,
+      "last": 486,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 19,
+      "first": 488,
+      "last": 489,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 19,
+      "first": 492,
+      "last": 492,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 9,
+      "first": 196,
+      "last": 196,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 21,
+      "first": 555,
+      "last": 556,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 16,
+      "first": 382,
+      "last": 382,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 17,
+      "first": 391,
+      "last": 392,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-9",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 4,
+      "first": 112,
+      "last": 112,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 19,
+      "first": 470,
+      "last": 470,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 19,
+      "first": 481,
+      "last": 481,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-10",
+      "page": 19,
+      "first": 492,
+      "last": 492,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 4,
+      "first": 112,
+      "last": 112,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 5,
+      "first": 118,
+      "last": 118,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 5,
+      "first": 141,
+      "last": 141,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-11",
+      "page": 19,
+      "first": 492,
+      "last": 492,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 3,
+      "first": 106,
+      "last": 106,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 19,
+      "first": 492,
+      "last": 492,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 17,
+      "first": 391,
+      "last": 392,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 22,
+      "first": 595,
+      "last": 595,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-12",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 18,
+      "first": 433,
+      "last": 433,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 18,
+      "first": 457,
+      "last": 457,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 5,
+      "first": 118,
+      "last": 118,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 5,
+      "first": 141,
+      "last": 141,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-13",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 1,
+      "first": 18,
+      "last": 18,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 3,
+      "first": 76,
+      "last": 77,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 2,
+      "first": 47,
+      "last": 48,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-14",
+      "page": 2,
+      "first": 52,
+      "last": 53,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 3,
+      "first": 106,
+      "last": 106,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 14,
+      "first": 318,
+      "last": 318,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 5,
+      "first": 120,
+      "last": 120,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 19,
+      "first": 470,
+      "last": 470,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 19,
+      "first": 488,
+      "last": 489,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 16,
+      "first": 382,
+      "last": 382,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 11,
+      "first": 230,
+      "last": 231,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 2,
+      "first": 69,
+      "last": 69,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "R3-15",
+      "page": 3,
+      "first": 84,
+      "last": 84,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M1",
+      "page": 2,
+      "first": 54,
+      "last": 54,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M2",
+      "page": 2,
+      "first": 54,
+      "last": 54,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M3",
+      "page": 6,
+      "first": 149,
+      "last": 149,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M4",
+      "page": 15,
+      "first": 350,
+      "last": 350,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M4",
+      "page": 17,
+      "first": 391,
+      "last": 392,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M5",
+      "page": 6,
+      "first": 157,
+      "last": 157,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M5",
+      "page": 20,
+      "first": 529,
+      "last": 529,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M6",
+      "page": 20,
+      "first": 521,
+      "last": 521,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M7",
+      "page": 18,
+      "first": 444,
+      "last": 444,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M7",
+      "page": 6,
+      "first": 149,
+      "last": 149,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M7",
+      "page": 20,
+      "first": 521,
+      "last": 521,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M8",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M9",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M10",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M11",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M12",
+      "page": 18,
+      "first": 444,
+      "last": 444,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M12",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M13",
+      "page": 20,
+      "first": 521,
+      "last": 521,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M13",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M14",
+      "page": 4,
+      "first": 112,
+      "last": 112,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M14",
+      "page": 19,
+      "first": 483,
+      "last": 483,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M14",
+      "page": 52,
+      "first": 725,
+      "last": 726,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M15",
+      "page": 24,
+      "first": 641,
+      "last": 641,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M16",
+      "page": 15,
+      "first": 338,
+      "last": 338,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M16",
+      "page": 16,
+      "first": 370,
+      "last": 370,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M16",
+      "page": 17,
+      "first": 387,
+      "last": 387,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M16",
+      "page": 22,
+      "first": 595,
+      "last": 595,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M18",
+      "page": 6,
+      "first": 157,
+      "last": 157,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M18",
+      "page": 9,
+      "first": 179,
+      "last": 179,
+      "first_line_exists": true,
+      "last_line_exists": true
+    },
+    {
+      "id": "M21",
+      "page": 3,
+      "first": 89,
+      "last": 89,
+      "first_line_exists": true,
+      "last_line_exists": true
+    }
+  ],
+  "main_location_count": 190,
+  "main_start_line_exists_count": 190,
+  "main_end_line_exists_count": 190,
+  "bibliography_locations": [
+    {
+      "id": "R3-14",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M8",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M9",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M10",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M11",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M12",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M13",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    },
+    {
+      "id": "M14",
+      "reference": "\\item Bibliography (p. 52, lines 725--726)."
+    }
+  ],
+  "supplementary_references": [
+    {
+      "id": "R2-3",
+      "reference": "\\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33)."
+    },
+    {
+      "id": "R2-5",
+      "reference": "\\item tab:clinical\\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32)."
+    },
+    {
+      "id": "R2-5",
+      "reference": "\\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50)."
+    },
+    {
+      "id": "R2-7",
+      "reference": "\\item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24)."
+    },
+    {
+      "id": "R2-8",
+      "reference": "\\item tab:regional\\_agreement; tab:regional\\_effect\\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35)."
+    },
+    {
+      "id": "R2-9",
+      "reference": "\\item tab:regional\\_agreement; tab:regional\\_effect\\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35)."
+    },
+    {
+      "id": "R2-10",
+      "reference": "\\item tab:regional\\_agreement; tab:regional\\_effect\\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35)."
+    },
+    {
+      "id": "R2-11",
+      "reference": "\\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41)."
+    },
+    {
+      "id": "R2-12",
+      "reference": "\\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41)."
+    },
+    {
+      "id": "R2-14",
+      "reference": "\\item Supplementary conditioning methods and tab:supp\\_tau\\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34)."
+    },
+    {
+      "id": "R2-15",
+      "reference": "\\item Supplementary conditioning methods and tab:supp\\_tau\\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34)."
+    },
+    {
+      "id": "R2-16",
+      "reference": "\\item tab:supp\\_adni (Supplementary Materials, p. 1; combined reference copy p. 31)."
+    },
+    {
+      "id": "R2-16",
+      "reference": "\\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50)."
+    },
+    {
+      "id": "R2-17",
+      "reference": "\\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36)."
+    },
+    {
+      "id": "R2-19",
+      "reference": "\\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33)."
+    },
+    {
+      "id": "R3-1",
+      "reference": "\\item tab:supp\\_adni (Supplementary Materials, p. 1; combined reference copy p. 31)."
+    },
+    {
+      "id": "R3-1",
+      "reference": "\\item tab:clinical\\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32)."
+    },
+    {
+      "id": "R3-1",
+      "reference": "\\item Supplementary conditioning methods and tab:supp\\_tau\\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34)."
+    },
+    {
+      "id": "R3-1",
+      "reference": "\\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41)."
+    },
+    {
+      "id": "R3-1",
+      "reference": "\\item Supplementary clinical score sensitivity and demographic stratification (Supplementary Materials, p. 26; combined reference copy p. 50)."
+    },
+    {
+      "id": "R3-2",
+      "reference": "\\item tab:supp\\_adni (Supplementary Materials, p. 1; combined reference copy p. 31)."
+    },
+    {
+      "id": "R3-2",
+      "reference": "\\item tab:clinical\\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32)."
+    },
+    {
+      "id": "R3-4",
+      "reference": "\\item tab:regional\\_agreement; tab:regional\\_effect\\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 1 (Supplementary Materials, p. 2; combined reference copy p. 25)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 2 (Supplementary Materials, p. 3; combined reference copy p. 26)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 3 (Supplementary Materials, p. 4; combined reference copy p. 27)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 4 (Supplementary Materials, p. 5; combined reference copy p. 28)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 5 (Supplementary Materials, p. 6; combined reference copy p. 29)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item Supplementary figure 6 (Supplementary Materials, p. 7; combined reference copy p. 30)."
+    },
+    {
+      "id": "R3-5",
+      "reference": "\\item tab:regional\\_agreement; tab:regional\\_effect\\_sizes (Supplementary Materials, p. 11; combined reference copy p. 35)."
+    },
+    {
+      "id": "R3-6",
+      "reference": "\\item tab:reproducibility (Supplementary Materials, p. 9; combined reference copy p. 33)."
+    },
+    {
+      "id": "R3-7",
+      "reference": "\\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41)."
+    },
+    {
+      "id": "R3-8",
+      "reference": "\\item Supplementary conditioning methods and tab:supp\\_tau\\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34)."
+    },
+    {
+      "id": "R3-9",
+      "reference": "\\item Supplementary conditioning methods and tab:supp\\_tau\\_adapter (Supplementary Materials, p. 10; combined reference copy p. 34)."
+    },
+    {
+      "id": "R3-9",
+      "reference": "\\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36)."
+    },
+    {
+      "id": "R3-10",
+      "reference": "\\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36)."
+    },
+    {
+      "id": "R3-11",
+      "reference": "\\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36)."
+    },
+    {
+      "id": "R3-11",
+      "reference": "\\item Supplementary classification tables and ROC (Supplementary Materials, p. 17; combined reference copy p. 41)."
+    },
+    {
+      "id": "R3-12",
+      "reference": "\\item Supplementary generation tables and cases (Supplementary Materials, p. 12; combined reference copy p. 36)."
+    },
+    {
+      "id": "R3-13",
+      "reference": "\\item tab:clinical\\_missingness (Supplementary Materials, p. 8; combined reference copy p. 32)."
+    },
+    {
+      "id": "R3-13",
+      "reference": "\\item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 1 (Supplementary Materials, p. 2; combined reference copy p. 25)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 2 (Supplementary Materials, p. 3; combined reference copy p. 26)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 3 (Supplementary Materials, p. 4; combined reference copy p. 27)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 4 (Supplementary Materials, p. 5; combined reference copy p. 28)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 5 (Supplementary Materials, p. 6; combined reference copy p. 29)."
+    },
+    {
+      "id": "M19",
+      "reference": "\\item Supplementary figure 6 (Supplementary Materials, p. 7; combined reference copy p. 30)."
+    },
+    {
+      "id": "M21",
+      "reference": "\\item OASIS cohort description (Supplementary Materials, p. 1; combined reference copy p. 24)."
+    }
+  ],
+  "supplementary_reference_count": 48,
+  "future_phrases_for_manual_classification": [
+    {
+      "id": "R2-4",
+      "context": "ogression.\n\nTo address this concern, we will explicitly describe this task as \\textbf{MCI stage discrimination} and revise the relevant terminology and conclusions throughout the manuscript. In particular, we now r"
+    },
+    {
+      "id": "R2-8",
+      "context": "e agreement, and formal equivalence. We will also moderate the original statements that inferred high fidelity from p \\textgreater{} 0.05. Furthermore, we will explicitly acknowledge in the Limitations section that"
+    },
+    {
+      "id": "R2-8",
+      "context": " p \\textgreater{} 0.05. Furthermore, we will explicitly acknowledge in the Limitations section that our current analyses support agreement in normalized regional uptake values but do not establish clinical quantita"
+    },
+    {
+      "id": "R2-8",
+      "context": "l quantitative equivalence. Future work will explore PET quantitative evaluation scales with clear biological and clinical interpretations, the definition of appropriate equivalence margins, and corresponding forma"
+    },
+    {
+      "id": "R2-9",
+      "context": "changes.\n\nIn the revised manuscript, we will explicitly report the statistical families and corresponding numbers of tests, clarify the FDR correction procedure and significance thresholds in the Statistical Analys"
+    },
+    {
+      "id": "R2-10",
+      "context": "or clinically validated calibration. We will explicitly clarify this distinction and its implications in the revised manuscript. Future work will investigate PET synthesis and validation approaches that preserve cl"
+    },
+    {
+      "id": "R2-10",
+      "context": " in the revised manuscript. Future work will investigate PET synthesis and validation approaches that preserve clinically meaningful quantitative uptake measurements.\n\nIn the revised manuscript, we will expand the "
+    },
+    {
+      "id": "R2-10",
+      "context": "rements.\n\nIn the revised manuscript, we will expand the regional agreement supplementary table to include regression slopes, intercepts, and their 95\\% confidence intervals for the 16 representative tracer–ROI comb"
+    },
+    {
+      "id": "R2-12",
+      "context": "mination. In the revised manuscript, we will present these findings alongside the corresponding confidence intervals and statistical comparisons, and refine the original statements regarding statistical superiority"
+    },
+    {
+      "id": "R2-14",
+      "context": "ggestion. In the revised manuscript, we will supplement the descriptions of feature dimensionality, PET slice-based encoding, clinical prompt composition, adapter parameters, and optimization settings to improve th"
+    },
+    {
+      "id": "R2-19",
+      "context": "of ADNI subject and imaging identifiers will follow the applicable data-use requirements. We now provide reproducibility information in github repository to the extent permitted by these requirements.\n\nWe appreciat"
+    },
+    {
+      "id": "R2-19",
+      "context": "ciate the reviewer’s recommendation and will improve the documentation of experimental settings and code versions to facilitate reproducibility."
+    },
+    {
+      "id": "R2-20",
+      "context": "atment decision-making. Accordingly, we will moderate statements regarding widespread screening, clinically actionable biomarkers, and early intervention to better distinguish the demonstrated findings from potenti"
+    },
+    {
+      "id": "R3-1",
+      "context": "he reviewer’s important observation and will further clarify the role of clinical conditioning in the revised manuscript, while providing a more cautious interpretation of the downstream classification findings and"
+    },
+    {
+      "id": "R3-2",
+      "context": "ognitive-score sensitivity analysis, we will more clearly delineate the potential implications of diagnostic-group-conditioned completion for the interpretation of PET synthesis and downstream classification result"
+    },
+    {
+      "id": "R3-4",
+      "context": "h standardized quantitative calibration will enable further evaluation of SUVR or Centiloid agreement and amyloid-positivity classification, including the clinically important atypical cases highlighted by the revi"
+    },
+    {
+      "id": "R3-6",
+      "context": "zation procedures. These clarifications will improve the transparency and reproducibility of our experimental methodology."
+    },
+    {
+      "id": "R3-8",
+      "context": "additional experiments, these revisions will provide a more precise description of the methodological motivation and practical role of biomedical semantic conditioning in DIReCT++.\n\nFor clarity, the revised manuscr"
+    },
+    {
+      "id": "R3-12",
+      "context": "out appropriate clinical validation. We will explicitly acknowledge this limitation in the Discussion and identify uncertainty quantification, including ensemble-based or stochastic approaches, as a direction for f"
+    },
+    {
+      "id": "R3-13",
+      "context": "ppreciate the reviewer’s suggestion and will ensure that our conclusions accurately reflect the scope and limitations of the available external validation evidence."
+    },
+    {
+      "id": "R3-15",
+      "context": "ormance.\n\nIn the revised manuscript, we will more explicitly distinguish the methodological extensions introduced in DIReCT++ from those established in DIReCT and interpret their contributions in light of the avail"
+    },
+    {
+      "id": "M6",
+      "context": " presented in Figure 4. These revisions will ensure that the Methods section accurately reflects the regions used in the analysis and the corresponding figures."
+    },
+    {
+      "id": "M7",
+      "context": " citation throughout the manuscript. We will also clearly distinguish the FreeSurfer-based skull-stripping step from SynthSeg-based brain parcellation and clarify that the ROI masks derived from T1-weighted MRI wer"
+    },
+    {
+      "id": "M7",
+      "context": " regional PET analysis. These revisions will ensure a consistent and accurate description of the preprocessing and ROI analysis procedures.\n\nRelevant references: \\cite{synthseg}."
+    },
+    {
+      "id": "M9",
+      "context": "the first author is Benjamin Billot and will correct “Billot C” to “Billot B” in the revised manuscript.\n\nRelevant references: \\cite{synthseg}."
+    },
+    {
+      "id": "M15",
+      "context": "on is important for reproducibility. We will organize the data selection criteria, fixed data splits, random seeds, and relevant reproducibility materials for the revised experiments and make them available to the "
+    },
+    {
+      "id": "M15",
+      "context": " of subject- or image-level identifiers will comply with the corresponding data access and redistribution requirements.\n\nWe now also review and correct the data access and licensing information in the Data Availabi"
+    },
+    {
+      "id": "M20",
+      "context": "stract within the submission system. We will correct this error when submitting the revised manuscript."
+    }
+  ],
+  "unique_citation_keys": [
+    "Freesurfer",
+    "Xing2022",
+    "dayarathna2024deep",
+    "friston1995spatial",
+    "hansson2023blood",
+    "he2015meta",
+    "jack2024revised",
+    "lamontagne2019oasis",
+    "lee2024synthesizing",
+    "liu2025direct",
+    "mosconi2005reduced",
+    "pinaya2023generative",
+    "song2021ddim",
+    "spm",
+    "strom2022cortical",
+    "synthseg",
+    "weiner2010alzheimer",
+    "zhang2025multimodal"
+  ],
+  "missing_bib_keys": [],
+  "supplementary_caption_pages": {
+    "supplementary": {
+      "Table S1": [
+        1
+      ],
+      "Figure S1": [
+        2
+      ],
+      "Figure S2": [
+        3
+      ],
+      "Figure S3": [
+        4
+      ],
+      "Figure S4": [
+        5
+      ],
+      "Figure S5": [
+        6
+      ],
+      "Figure S6": [
+        7
+      ],
+      "Table S2": [
+        8
+      ],
+      "Table S3": [
+        8
+      ],
+      "Table S4": [
+        9
+      ],
+      "Table S5": [
+        9
+      ],
+      "Table S6": [
+        10
+      ],
+      "Table S7": [
+        11
+      ],
+      "Table S8": [
+        12
+      ],
+      "Table S9": [
+        13
+      ],
+      "Table S10": [
+        14
+      ],
+      "Table S11": [
+        16
+      ],
+      "Table S12": [
+        16
+      ],
+      "Figure S7": [
+        17
+      ],
+      "Figure S8": [
+        18
+      ],
+      "Table S13": [
+        19
+      ],
+      "Table S14": [
+        21
+      ],
+      "Table S15": [
+        22
+      ],
+      "Table S16": [
+        24
+      ],
+      "Figure S9": [
+        26
+      ],
+      "Table S17": [
+        26
+      ],
+      "Table S18": [
+        27
+      ],
+      "Table S19": [
+        27
+      ],
+      "Table S20": [
+        27
+      ]
+    },
+    "combined": {
+      "Figure S1": [
+        25
+      ],
+      "Figure S2": [
+        26
+      ],
+      "Figure S3": [
+        27
+      ],
+      "Figure S4": [
+        28
+      ],
+      "Figure S5": [
+        29
+      ],
+      "Figure S6": [
+        30
+      ],
+      "Table S1": [
+        31
+      ],
+      "Table S2": [
+        31
+      ],
+      "Table S3": [
+        32
+      ],
+      "Table S4": [
+        32
+      ],
+      "Table S5": [
+        33
+      ],
+      "Table S6": [
+        34
+      ],
+      "Table S7": [
+        35
+      ],
+      "Table S8": [
+        36
+      ],
+      "Table S9": [
+        37
+      ],
+      "Table S10": [
+        38
+      ],
+      "Table S11": [
+        40
+      ],
+      "Table S12": [
+        40
+      ],
+      "Figure S7": [
+        41
+      ],
+      "Figure S8": [
+        42
+      ],
+      "Table S13": [
+        43
+      ],
+      "Table S14": [
+        45
+      ],
+      "Table S15": [
+        46
+      ],
+      "Table S16": [
+        48
+      ],
+      "Figure S9": [
+        50
+      ],
+      "Table S17": [
+        50
+      ],
+      "Table S18": [
+        51
+      ],
+      "Table S19": [
+        51
+      ],
+      "Table S20": [
+        51
+      ]
+    }
+  },
+  "sha256": {
+    "rebuttal/sections/02_reviewer2.tex": "e03f5bc9ec394e5fefbc2cbfdcb782fbd44ebf2170ea55b41df90cb32a46b1a6",
+    "rebuttal/sections/03_reviewer3_major.tex": "5d72f80d0ffb1e346c8c3bd0ee9ee8e265e5ed5ed2ddf3117041a9c03345cbe1",
+    "rebuttal/sections/04_reviewer3_minor.tex": "333e252ba0526a5f60193f877bdd0cb62280e1e5a5b345eaf1e1238c12c45427",
+    "revision_workspace/delivery/01_submission/Response_to_Reviewers.pdf": "c37def886ca549a78bef8c0124c20029ec4231eab3440f0524c5f68a5fe7a3f3",
+    "revision_workspace/delivery/01_submission/Manuscript_clean.pdf": "45ed94216f36b8093eb43683e7d631068792b3d620b9ef83ef65a52e24d479bb",
+    "revision_workspace/delivery/01_submission/Supplementary_Materials.pdf": "b2d41bc12ddd2fc9c218998e1c96dc08f7a58809280f508a189a631f57fa0c2f",
+    "revision_workspace/delivery/05_internal_audit/Combined_reference_copy.pdf": "e5ba41f169b7c1f4c187517e12e47d2466a6b147f9d2e00ecb16e166b2e40d00",
+    "review_audit/chatgpt/phase2/BMEF_Phase2_56条审稿意见落实审计.md": "6924a03124bf2672e3361d14047b3c9d2de1386d641cc650d8fe79da8875f4b6",
+    "review_audit/chatgpt/phase2/BMEF_Phase2_56条审稿意见覆盖矩阵.csv": "12302cfd8981a62b094ac55cfbabcb94dc364ee276fde5ccd69a522369020dc6",
+    "review_audit/chatgpt/phase2/BMEF_Phase2_56条审稿意见覆盖矩阵.md": "f22e71d15725024a80d8fda8e0e236e29aa98f56939839a2e7c1bab5a073acb2"
+  }
+}
